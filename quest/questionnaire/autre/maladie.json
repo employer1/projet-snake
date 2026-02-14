@@ -1,0 +1,59 @@
+{
+    "titre": "Maladie",
+    "type": "txt",
+    "reverse": 0,
+    "questionnaire": [
+        {
+            "question": "",
+            "reponse": "VIH"
+        },
+        {
+            "question": "",
+            "reponse": "Sida"
+        },
+        {
+            "question": "",
+            "reponse": "Alopécie"
+        },
+        {
+            "question": "",
+            "reponse": "Gale"
+        },
+        {
+            "question": "",
+            "reponse": "Lèpre"
+        },
+        {
+            "question": "",
+            "reponse": "Cancer"
+        },
+        {
+            "question": "",
+            "reponse": "Tumeur"
+        },
+        {
+            "question": "",
+            "reponse": "Alzheimer"
+        },
+        {
+            "question": "",
+            "reponse": "Diarrhée"
+        },
+        {
+            "question": "",
+            "reponse": "Leucémie"
+        },
+        {
+            "question": "",
+            "reponse": "Ménopause"
+        },
+        {
+            "question": "",
+            "reponse": "Sclérose en plaques"
+        },
+        {
+            "question": "",
+            "reponse": "Mononucléose"
+        }
+    ]
+}

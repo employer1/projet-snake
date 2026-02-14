@@ -1,0 +1,1142 @@
+{
+    "titre": "Géographie des pays et leur capitale",
+    "type": "txt",
+    "reverse": 0,
+    "questionnaire": [
+        {
+            "question": "Quelle est la capitale de l'Afghanistan ?",
+            "reponse": "kaboul",
+            "def": "Kaboul"
+        },
+        {
+            "question": "Quelle est la capitale de l'Afrique du Sud ?",
+            "reponse": ["bloemfontein","le cap","pretoria"],
+            "def": "Bloemfontein - Le Cap - Pretoria"
+        },
+        {
+            "question": "Quelle est la capitale de l'Albanie ?",
+            "reponse": "tirana",
+            "def": "Tirana"
+        },
+        {
+            "question": "Quelle est la capitale de l'Algérie ?",
+            "reponse": "alger",
+            "def": "Alger"
+        },
+        {
+            "question": "Quelle est la capitale de l'Allemagne ?",
+            "reponse": "berlin",
+            "def": "Berlin"
+        },
+        {
+            "question": "Quelle est la capitale d'Andorre ?",
+            "reponse": "andorre-la-vieille",
+            "def": "Andorre-la-Vieille"
+        },
+        {
+            "question": "Quelle est la capitale d'Angola ?",
+            "reponse": "luanda",
+            "def": "Luanda"
+        },
+        {
+            "question": "Quelle est la capitale d'Anguilla ?",
+            "reponse": "the valley",
+            "def": "The Valley"
+        },
+        {
+            "question": "Quelle est la capitale d'Antigua-et-Barbuda ?",
+            "reponse": "saint john's",
+            "def": "Saint John's"
+        },
+        {
+            "question": "Quelle est la capitale de l'Arabie Saoudite ?",
+            "reponse": "riyad",
+            "def": "Riyad"
+        },
+        {
+            "question": "Quelle est la capitale de l'Argentine ?",
+            "reponse": "buenos aires",
+            "def": "Buenos Aires"
+        },
+        {
+            "question": "Quelle est la capitale de l'Arménie ?",
+            "reponse": "erevan",
+            "def": "Erevan"
+        },
+        {
+            "question": "Quelle est la capitale d'Aruba ?",
+            "reponse": "oranjestad",
+            "def": "Oranjestad"
+        },
+        {
+            "question": "Quelle est la capitale de l'Australie ?",
+            "reponse": "canberra",
+            "def": "Canberra"
+        },
+        {
+            "question": "Quelle est la capitale de l'Autriche ?",
+            "reponse": "vienne",
+            "def": "Vienne"
+        },
+        {
+            "question": "Quelle est la capitale de l'Azerbaïdjan ?",
+            "reponse": "bakou",
+            "def": "Bakou"
+        },
+        {
+            "question": "Quelle est la capitale des Bahamas ?",
+            "reponse": "nassau",
+            "def": "Nassau"
+        },
+        {
+            "question": "Quelle est la capitale du Bahreïn ?",
+            "reponse": "manama",
+            "def": "Manama"
+        },
+        {
+            "question": "Quelle est la capitale du Bangladesh ?",
+            "reponse": "dacca",
+            "def": "Dacca"
+        },
+        {
+            "question": "Quelle est la capitale des Barbade ?",
+            "reponse": "bridgetown",
+            "def": "bridgetown"
+        },
+        {
+            "question": "Quelle est la capitale de la Belgique ?",
+            "reponse": "bruxelles",
+            "def": "Bruxelles"
+        },
+        {
+            "question": "Quelle est la capitale du Belize ?",
+            "reponse": "belmopan",
+            "def": "Belmopan"
+        },
+        {
+            "question": "Quelle est la capitale du Bénin ?",
+            "reponse": ["porto-novo","cotonou"],
+            "def": "Porto-Novo - Cotonou"
+        },
+        {
+            "question": "Quelle est la capitale des Bermudes ?",
+            "reponse": "hamilton",
+            "def": "Hamilton"
+        },
+        {
+            "question": "Quelle est la capitale du Bhoutan ?",
+            "reponse": "thimphou",
+            "def": "Thimphou"
+        },
+        {
+            "question": "Quelle est la capitale de la Biélorussie ?",
+            "reponse": "minsk",
+            "def": "Minsk"
+        },
+        {
+            "question": "Quelle est la capitale de la Birmanie ?",
+            "reponse": "naypyidaw",
+            "def": "Naypyidaw"
+        },
+        {
+            "question": "Quelle est la capitale de la Bolivie ?",
+            "reponse": ["sucre","la paz"],
+            "def": "Sucre - La Paz"
+        },
+        {
+            "question": "Quelle est la capitale de la Bosnie-Herzégovie ?",
+            "reponse": "sarajevo",
+            "def": "Sarajevo"
+        },
+        {
+            "question": "Quelle est la capitale du Botswana ?",
+            "reponse": "gaborone",
+            "def": "Gaborone"
+        },
+        {
+            "question": "Quelle est la capitale du Brésil ?",
+            "reponse": "brasilia",
+            "def": "Brasilia"
+        },
+        {
+            "question": "Quelle est la capitale de Brunéi Darussalam ?",
+            "reponse": "bandar seri begawan",
+            "def": "Bandar Seri Begawan"
+        },
+        {
+            "question": "Quelle est la capitale de la Bulgarie ?",
+            "reponse": "sofia",
+            "def": "Sofia"
+        },
+        {
+            "question": "Quelle est la capitale du Burkina Faso ?",
+            "reponse": "ouagadougou",
+            "def": "Ouagadougou"
+        },
+        {
+            "question": "Quelle est la capitale du Burundi ?",
+            "reponse": ["gitega","bujumbura"],
+            "def": "Gitega - Bujumbura"
+        },
+        {
+            "question": "Quelle est la capitale du Cambodge",
+            "reponse": "phnom penh",
+            "def": "Phnom Penh"
+        },
+        {
+            "question": "Quelle est la capitale du Cameroun ?",
+            "reponse": "yaounde",
+            "def": "Yaoundé"
+        },
+        {
+            "question": "Quelle est la capitale du Canada ?",
+            "reponse": "ottawa",
+            "def": "Ottawa"
+        },
+        {
+            "question": "Quelle est la capitale du Cap-Vert ?",
+            "reponse": "praia",
+            "def": "Praia"
+        },
+        {
+            "question": "Quelle est la capitale du Chili ?",
+            "reponse": "santiago",
+            "def": "Santiago"
+        },
+        {
+            "question": "Quelle est la capitale de la Chine ?",
+            "reponse": "pekin",
+            "def": "Pékin"
+        },
+        {
+            "question": "Quelle est la capitale de Chypre ?",
+            "reponse": "nicosie",
+            "def": "Nicosie"
+        },
+        {
+            "question": "Quelle est la capitale de la Colombie ?",
+            "reponse": "bogota",
+            "def": "Bogota"
+        },
+        {
+            "question": "Quelle est la capitale des Comores ?",
+            "reponse": "moroni",
+            "def": "Moroni"
+        },
+        {
+            "question": "Quelle est la capitale de la Corée du Sud ?",
+            "reponse": "seoul",
+            "def": "Séoul"
+        },
+        {
+            "question": "Quelle est la capitale de la Corée du Nord ?",
+            "reponse": "pyongyang",
+            "def": "Pyongyang"
+        },
+        {
+            "question": "Quelle est la capitale du Costa Rica ?",
+            "reponse": "san jose",
+            "def": "San José"
+        },
+        {
+            "question": "Quelle est la capitale de la Côte d'Ivoire ?",
+            "reponse": "yamoussoukro",
+            "def": "Yamoussoukro"
+        },
+        {
+            "question": "Quelle est la capitale de la Croatie ?",
+            "reponse": "zagreb",
+            "def": "Zagreb"
+        },
+        {
+            "question": "Quelle est la capitale de Cuba ?",
+            "reponse": "la havane",
+            "def": "La Havane"
+        },
+        {
+            "question": "Quelle est la capitale de Curacao ?",
+            "reponse": "willemstad",
+            "def": "Willemstad"
+        },
+        {
+            "question": "Quelle est la capitale du Danemark ?",
+            "reponse": "copenhague",
+            "def": "Copenhague"
+        },
+        {
+            "question": "Quelle est la capitale du Djibouti ?",
+            "reponse": "djibouti",
+            "def": "Djibouti"
+        },
+        {
+            "question": "Quelle est la capitale de la Dominique ?",
+            "reponse": "roseau",
+            "def": "Roseau"
+        },
+        {
+            "question": "Quelle est la capitale de l'Egypte ?",
+            "reponse": "le caire",
+            "def": "Le Caire"
+        },
+        {
+            "question": "Quelle est la capitale des Emirats Arabes Unis ?",
+            "reponse": "abou dabi",
+            "def": "Abou Dabi"
+        },
+        {
+            "question": "Quelle est la capitale de l'Equateur ?",
+            "reponse": "quito",
+            "def": "Quito"
+        },
+        {
+            "question": "Quelle est la capitale d'Erythrée ?",
+            "reponse": "asmara",
+            "def": "Asmara"
+        },
+        {
+            "question": "Quelle est la capitale de l'Espagne ?",
+            "reponse": "madrid",
+            "def": "Madrid"
+        },
+        {
+            "question": "Quelle est la capitale de l'Estonie ?",
+            "reponse": "tallin",
+            "def": "Tallin"
+        },
+        {
+            "question": "Quelle est la capitale de l'Eswatini ?",
+            "reponse": "mbabane",
+            "def": "Mbabane"
+        },
+        {
+            "question": "Quelle est la capitale des Etats-Unis",
+            "reponse": "washington dc",
+            "def": "Washington DC"
+        },
+        {
+            "question": "Quelle est la capitale de l'Ethiopie ?",
+            "reponse": "addis-abeba",
+            "def": "Addis-Abeba"
+        },
+        {
+            "question": "Quelle est la capitale des Fidji ?",
+            "reponse": "suva",
+            "def": "Suva"
+        },
+        {
+            "question": "Quelle est la capitale de la Finlande ?",
+            "reponse": "helsinki",
+            "def": "Helsinki"
+        },
+        {
+            "question": "Quelle est la capitale de la France ?",
+            "reponse": "paris",
+            "def": "Paris"
+        },
+        {
+            "question": "Quelle est la capitale du Gabon ?",
+            "reponse": "libreville",
+            "def": "Libreville"
+        },
+        {
+            "question": "Quelle est la capitale de la Gambie ?",
+            "reponse": "banjul",
+            "def": "Banjul"
+        },
+        {
+            "question": "Quelle est la capitale de la Géorgie ?",
+            "reponse": "tbilissi",
+            "def": "Tbilissi"
+        },
+        {
+            "question": "Quelle est la capitale du Ghana ?",
+            "reponse": "accra",
+            "def": "Accra"
+        },
+        {
+            "question": "Quelle est la capitale de la Grèce ?",
+            "reponse": "athènes",
+            "def": "Athènes"
+        },
+        {
+            "question": "Quelle est la capitale de Grenade ?",
+            "reponse": "saint-georges",
+            "def": "Saint-Georges"
+        },
+        {
+            "question": "Quelle est la capitale du Groenland ?",
+            "reponse": "nuuk",
+            "def": "Nuuk"
+        },
+        {
+            "question": "Quelle est la capitale de la Guadeloupe ?",
+            "reponse": "basse-terre",
+            "def": "Basse-Terre"
+        },
+        {
+            "question": "Quelle est la capitale de Guam ?",
+            "reponse": "hagatna",
+            "def": "Hagåtña"
+        },
+        {
+            "question": "Quelle est la capitale du Guatemala ?",
+            "reponse": "guatemala",
+            "def": "Guatemala"
+        },
+        {
+            "question": "Quelle est la capitale de Guernesey ?",
+            "reponse": "saint-pierre-port",
+            "def": "Saint-Pierre-Port"
+        },
+        {
+            "question": "Quelle est la capitale de la Guinée ?",
+            "reponse": "conakry",
+            "def": "Conakry"
+        },
+        {
+            "question": "Quelle est la capitale de la Guinée-Bissau ?",
+            "reponse": "bissau",
+            "def": "Bissau"
+        },
+        {
+            "question": "Quelle est la capitale de la Guinée Equatoriale ?",
+            "reponse": "ciudad de la paz",
+            "def": "Ciudad de la Paz"
+        },
+        {
+            "question": "Quelle est la capitale de la Guyane ?",
+            "reponse": "georgetown",
+            "def": "Georgetown"
+        },
+        {
+            "question": "Quelle est la capitale de la Guyane Francaise ?",
+            "reponse": "cayenne",
+            "def": "Cayenne"
+        },
+        {
+            "question": "Quelle est la capitale d'Haïti ?",
+            "reponse": "port-au-prince",
+            "def": "Port-au-Prince"
+        },
+        {
+            "question": "Quelle est la capitale d'Hawaï ?",
+            "reponse": "honolulu",
+            "def": "Honolulu"
+        },
+        {
+            "question": "Quelle est la capitale d'Honduras ?",
+            "reponse": ["tegucigalpa","comayaguela"],
+            "def": "Tegucigalpa - Comayaguela"
+        },
+        {
+            "question": "Quelle est la capitale d'Hong Kong ?",
+            "reponse": "hong kong",
+            "def": "Hong Kong"
+        },
+        {
+            "question": "Quelle est la capitale de la Hongrie ?",
+            "reponse": "budapest",
+            "def": "Budapest"
+        },
+        {
+            "question": "Quelle est la capitale de l'île christmas ?",
+            "reponse": "flying fish cove",
+            "def": "Flying Fish Cove"
+        },
+        {
+            "question": "Quelle est la capitale de l'île de la Réunion",
+            "reponse": "saint-denis",
+            "def": "Saint-Denis"
+        },
+        {
+            "question": "Quelle est la capitale de l'île de Man ?",
+            "reponse": "douglas",
+            "def": "Douglas"
+        },
+        {
+            "question": "Quelle est la capitale de l'île Maurice ?",
+            "reponse": "port-louis",
+            "def": "Port-Louis"
+        },
+        {
+            "question": "Quelle est la capitale des îles Caimans ?",
+            "reponse": "george town",
+            "def": "George Town"
+        },
+        {
+            "question": "Quelle est la capitale des îles Cocos ?",
+            "reponse": "west island",
+            "def": "West Island"
+        },
+        {
+            "question": "Quelle est la capitale des îles Cook ?",
+            "reponse": "avarua",
+            "def": "Avarua"
+        },
+        {
+            "question": "Quelle est la capitale des îles Féroé ?",
+            "reponse": "torshavn",
+            "def": "Tórshavn"
+        },
+        {
+            "question": "Quelle est la capitale des îles Malouines ?",
+            "reponse": "port stanley",
+            "def": "Port Stanley"
+        },
+        {
+            "question": "Quelle est la capitale des îles Marshall ?",
+            "reponse": "majuro",
+            "def": "Majuro"
+        },
+        {
+            "question": "Quelle est la capitale des îles Salomon ?",
+            "reponse": "honiara",
+            "def": "Honiara"
+        },
+        {
+            "question": "Quelle est la capitale des îles Vierges Americaines ?",
+            "reponse": "charlotte amalie",
+            "def": "Charlotte Amalie"
+        },
+        {
+            "question": "Quelle est la capitale des îles Vierges Britanniques ?",
+            "reponse": "road town",
+            "def": "Road Town"
+        },
+        {
+            "question": "Quelle est la capitale de l'Inde",
+            "reponse": "new delhi",
+            "def": "New Delhi"
+        },
+        {
+            "question": "Quelle est la capitale de l'Indonésie",
+            "reponse": "jakarta",
+            "def": "Jakarta"
+        },
+        {
+            "question": "Quelle est la capitale de l'Irak ?",
+            "reponse": "bagdad",
+            "def": "Bagdad"
+        },
+        {
+            "question": "Quelle est la capitale de l'Iran ?",
+            "reponse": "teheran",
+            "def": "Téhéran"
+        },
+        {
+            "question": "Quelle est la capitale de l'Irlande ?",
+            "reponse": "dublin",
+            "def": "Dublin"
+        },
+        {
+            "question": "Quelle est la capitale de l'Islande ?",
+            "reponse": "reykjavik",
+            "def": "Reykjavik"
+        },
+        {
+            "question": "Quelle est la capitale d'Israël ?",
+            "reponse": "jerusalem",
+            "def": "Jérusalem"
+        },
+        {
+            "question": "Quelle est la capitale de l'Italie ?",
+            "reponse": "rome",
+            "def": "Rome"
+        },
+        {
+            "question": "Quelle est la capitale de la Jamaïque ?",
+            "reponse": "kingston",
+            "def": "Kingston"
+        },
+        {
+            "question": "Quelle est la capitale du Japon ?",
+            "reponse": "tokyo",
+            "def": "Tokyo"
+        },
+        {
+            "question": "Quelle est la capitale de Jersey ?",
+            "reponse": "saint-helier",
+            "def": "Saint-Helier"
+        },
+        {
+            "question": "Quelle est la capitale de la Jordanie ?",
+            "reponse": "amman",
+            "def": "Amman"
+        },
+        {
+            "question": "Quelle est la capitale du kazakhstan ?",
+            "reponse": "astana",
+            "def": "Astana"
+        },
+        {
+            "question": "Quelle est la capitale du Kenya ?",
+            "reponse": "nairobi",
+            "def": "Nairobi"
+        },
+        {
+            "question": "Quelle est la capitale du Kirghizistan ?",
+            "reponse": "bichkek",
+            "def": "Bichkek"
+        },
+        {
+            "question": "Quelle est la capitale de kiribati ?",
+            "reponse": "tarawa",
+            "def": "Tarawa"
+        },
+        {
+            "question": "Quelle est la capitale du Koweït ?",
+            "reponse": "koweit",
+            "def": "Koweït"
+        },
+        {
+            "question": "Quelle est la capitale du Laos ?",
+            "reponse": "vientiane",
+            "def": "Vientiane"
+        },
+        {
+            "question": "Quelle est la capitale du Lesotho ?",
+            "reponse": "maseru",
+            "def": "Maseru"
+        },
+        {
+            "question": "Quelle est la capitale de la Lettonie ?",
+            "reponse": "riga",
+            "def": "Riga"
+        },
+        {
+            "question": "Quelle est la capitale du Liban ?",
+            "reponse": "beyrouth",
+            "def": "Beyrouth"
+        },
+        {
+            "question": "Quelle est la capitale du Libéria ?",
+            "reponse": "Monrovia",
+            "def": "Monrovia"
+        },
+        {
+            "question": "Quelle est la capitale de la Libye ?",
+            "reponse": "tripoli",
+            "def": "Tripoli"
+        },
+        {
+            "question": "Quelle est la capitale du Liechtenstein ?",
+            "reponse": "vaduz",
+            "def": "Vaduz"
+        },
+        {
+            "question": "Quelle est la capitale de la Lituanie ?",
+            "reponse": "vilnius",
+            "def": "Vilnius"
+        },
+        {
+            "question": "Quelle est la capitale du Luxembourg ?",
+            "reponse": "luxembourg",
+            "def": "Luxembourg"
+        },
+        {
+            "question": "Quelle est la capitale de la Macédoine du Nord ?",
+            "reponse": "skopje",
+            "def": "Skopje"
+        },
+        {
+            "question": "Quelle est la capitale de Madagascar ?",
+            "reponse": ["antananarivo","tananarive"],
+            "def": "Antananarivo - Tananarive"
+        },
+        {
+            "question": "Quelle est la capitale de la Malaisie ?",
+            "reponse": ["kuala lumpur","putrajaya"],
+            "def": "Kuala Lumpur - Putrajaya"
+        },
+        {
+            "question": "Quelle est la capitale de Malawi ?",
+            "reponse": "lilongwe",
+            "def": "Lilongwe"
+        },
+        {
+            "question": "Quelle est la capitale des Maldives ?",
+            "reponse": "male",
+            "def": "Malé"
+        },
+        {
+            "question": "Quelle est la capitale du Mali ?",
+            "reponse": "bamako",
+            "def": "Bamako"
+        },
+        {
+            "question": "Quelle est la capitale de Malte",
+            "reponse": "la valette",
+            "def": "La Valette"
+        },
+        {
+            "question": "Quelle est la capitale du Maroc ?",
+            "reponse": "rabat",
+            "def": "Rabat"
+        },
+        {
+            "question": "Quelle est la capitale de la Martinique ?",
+            "reponse": "fort-de-france",
+            "def": "Fort-de-France"
+        },
+        {
+            "question": "Quelle est la capitale de la Mauritanie ?",
+            "reponse": "nouakchott",
+            "def": ""
+        },
+        {
+            "question": "Quelle est la capitale de Mayotte ?",
+            "reponse": "mamoudzou",
+            "def": "Mamoudzou"
+        },
+        {
+            "question": "Quelle est la capitale du Mexique ?",
+            "reponse": "mexico",
+            "def": "Mexico"
+        },
+        {
+            "question": "Quelle est la capitale de la Micronésie ?",
+            "reponse": "palikir",
+            "def": "Palikir"
+        },
+        {
+            "question": "Quelle est la capitale de la Moldavie ?",
+            "reponse": "chisinau",
+            "def": "Chișinău"
+        },
+        {
+            "question": "Quelle est la capitale de Monaco ?",
+            "reponse": "monaco",
+            "def": "Monaco"
+        },
+        {
+            "question": "Quelle est la capitale de la Mongolie ?",
+            "reponse": "oulan-bator",
+            "def": "Oulan-Bator"
+        },
+        {
+            "question": "Quelle est la capitale du Monténégro ?",
+            "reponse": "podgorica",
+            "def": "Podgorica"
+        },
+        {
+            "question": "Quelle est la capitale du Mozambique ?",
+            "reponse": "maputo",
+            "def": "Maputo"
+        },
+        {
+            "question": "Quelle est la capitale de la Namibie ?",
+            "reponse": "windhoek",
+            "def": "Windhoek"
+        },
+        {
+            "question": "Quelle est la capitale de Nauru ?",
+            "reponse": "yaren",
+            "def": "Yaren"
+        },
+        {
+            "question": "Quelle est la capitale du Népal ?",
+            "reponse": "katmandou",
+            "def": "Katmandou"
+        },
+        {
+            "question": "Quelle est la capitale du Nicaragua ?",
+            "reponse": "managua",
+            "def": "Managua"
+        },
+        {
+            "question": "Quelle est la capitale du Niger ?",
+            "reponse": "niamey",
+            "def": "Niamey"
+        },
+        {
+            "question": "Quelle est la capitale du Nigeria ?",
+            "reponse": "abuja",
+            "def": "Abuja"
+        },
+        {
+            "question": "Quelle est la capitale de Niue ?",
+            "reponse": "alofi",
+            "def": "Alofi"
+        },
+        {
+            "question": "Quelle est la capitale de la Norvège ?",
+            "reponse": "oslo",
+            "def": "Oslo"
+        },
+        {
+            "question": "Quelle est la capitale de la Nouvelle Calédonie ?",
+            "reponse": "noumea",
+            "def": "Nouméa"
+        },
+        {
+            "question": "Quelle est la capitale de la Nouvelle-Zélande ?",
+            "reponse": "wellington",
+            "def": "Wellington"
+        },
+        {
+            "question": "Quelle est la capitale d'Oman ?",
+            "reponse": "mascate",
+            "def": "Mascate"
+        },
+        {
+            "question": "Quelle est la capitale de l'Ouganda ?",
+            "reponse": "kampala",
+            "def": "Kampala"
+        },
+        {
+            "question": "Quelle est la capitale de l'Ouzbékistan ?",
+            "reponse": "tachkent",
+            "def": "Tachkent"
+        },
+        {
+            "question": "Quelle est la capitale du Pakistan ?",
+            "reponse": "islamabad",
+            "def": "Islamabad"
+        },
+        {
+            "question": "Quelle est la capitale du Palaos ?",
+            "reponse": ["melekeok","ngerulmud"],
+            "def": "melekeok - Ngerulmud"
+        },
+        {
+            "question": "Quelle est la capitale de la Palestine ?",
+            "reponse": "jerusalem",
+            "def": "Jérusalem"
+        },
+        {
+            "question": "Quelle est la capitale du Panama ?",
+            "reponse": "panama",
+            "def": "Panama"
+        },
+        {
+            "question": "Quelle est la capitale de la Papouasie-Nouvelle-Guinée ?",
+            "reponse": "port moresby",
+            "def": "Port Moresby"
+        },
+        {
+            "question": "Quelle est la capitale du Paraguay ?",
+            "reponse": "asuncion",
+            "def": "Asunción"
+        },
+        {
+            "question": "Quelle est la capitale des Pays-Bas",
+            "reponse": "amsterdam",
+            "def": "Amsterdam"
+        },
+        {
+            "question": "Quelle est la capitale du Pérou ?",
+            "reponse": "lima",
+            "def": "Lima"
+        },
+        {
+            "question": "Quelle est la capitale des Philippines ?",
+            "reponse": "manille",
+            "def": "Manille"
+        },
+        {
+            "question": "Quelle est la capitale de la Pologne ?",
+            "reponse": "varsovie",
+            "def": "Varsovie"
+        },
+        {
+            "question": "Quelle est la capitale de la Polynesie Française ?",
+            "reponse": "papeete",
+            "def": "Papeete"
+        },
+        {
+            "question": "Quelle est la capitale de Porto Rico ?",
+            "reponse": "san juan",
+            "def": "San Juan"
+        },
+        {
+            "question": "Quelle est la capitale du Portugal ?",
+            "reponse": "lisbonne",
+            "def": "Lisbonne"
+        },
+        {
+            "question": "Quelle est la capitale du Qatar ?",
+            "reponse": "doha",
+            "def": "Doha"
+        },
+        {
+            "question": "Quelle est la capitale de la République Centrafricaine ?",
+            "reponse": "bangui",
+            "def": "Bangui"
+        },
+        {
+            "question": "Quelle est la capitale de la République Démocratique du Congo ?",
+            "reponse": "kinshasa",
+            "def": "Kinshasa"
+        },
+        {
+            "question": "Quelle est la capitale de la République Dominicaine ?",
+            "reponse": "saint-domingue",
+            "def": "Saint-Domingue"
+        },
+        {
+            "question": "Quelle est la capitale de la République du Congo ?",
+            "reponse": "brazzaville",
+            "def": "Brazzaville"
+        },
+        {
+            "question": "Quelle est la capitale de la République Tchèque ?",
+            "reponse": "prague",
+            "def": "Prague"
+        },
+        {
+            "question": "Quelle est la capitale de la Roumanie ?",
+            "reponse": "bucarest",
+            "def": "Bucarest"
+        },
+        {
+            "question": "Quelle est la capitale des Royaume-Unis ?",
+            "reponse": "londres",
+            "def": "Londres"
+        },
+        {
+            "question": "Quelle est la capitale de la Russie ?",
+            "reponse": "moscou",
+            "def": "Moscou"
+        },
+        {
+            "question": "Quelle est la capitale du Rwanda ?",
+            "reponse": "kigali",
+            "def": "Kigali"
+        },
+        {
+            "question": "Quelle est la capitale de Saint Barthelemy ?",
+            "reponse": "gustavia",
+            "def": "Gustavia"
+        },
+        {
+            "question": "Quelle est la capitale de Saint-Christophe-et-Niévès ?",
+            "reponse": "basseterre",
+            "def": "Basseterre"
+        },
+        {
+            "question": "Quelle est la capitale de Saint-Marin ?",
+            "reponse": "saint-marin",
+            "def": "Saint-Marin"
+        },
+        {
+            "question": "Quelle est la capitale de Saint Martin ?",
+            "reponse": "marigot",
+            "def": "Marigot"
+        },
+        {
+            "question": "Quelle est la capitale de Saint Vincent et les Grenadines ?",
+            "reponse": "kingstown",
+            "def": "Kingstown"
+        },
+        {
+            "question": "Quelle est la capitale de Sainte Hélène ?",
+            "reponse": "jamestown",
+            "def": "Jamestown"
+        },
+        {
+            "question": "Quelle est la capitale de Sainte-Lucie ?",
+            "reponse": "castries",
+            "def": "Castries"
+        },
+        {
+            "question": "Quelle est la capitale du Salvador ?",
+            "reponse": "san salvador",
+            "def": "San Salvador"
+        },
+        {
+            "question": "Quelle est la capitale de Samoa ?",
+            "reponse": "apia",
+            "def": "Apia"
+        },
+        {
+            "question": "Quelle est la capitale de Sao Tomé-et-Principe ?",
+            "reponse": "sao tome",
+            "def": "São Tomé"
+        },
+        {
+            "question": "Quelle est la capitale du Sénégal ?",
+            "reponse": "dakar",
+            "def": "Dakar"
+        },
+        {
+            "question": "Quelle est la capitale de la Serbie ?",
+            "reponse": "belgrade",
+            "def": "Belgrade"
+        },
+        {
+            "question": "Quelle est la capitale des Seychelles ?",
+            "reponse": "victoria",
+            "def": "Victoria"
+        },
+        {
+            "question": "Quelle est la capitale de la Sierra Leone ?",
+            "reponse": "freetown",
+            "def": "Freetown"
+        },
+        {
+            "question": "Quelle est la capitale de Singapour ?",
+            "reponse": "singapour",
+            "def": "Singapour"
+        },
+        {
+            "question": "Quelle est la capitale de la Slovaquie ?",
+            "reponse": "bratislava",
+            "def": "Bratislava"
+        },
+        {
+            "question": "Quelle est la capitale de la Slovénie ?",
+            "reponse": "ljubljana",
+            "def": "Ljubljana"
+        },
+        {
+            "question": "Quelle est la capitale de la Somalie ?",
+            "reponse": "mogadiscio",
+            "def": "Mogadiscio"
+        },
+        {
+            "question": "Quelle est la capitale du Soudan ?",
+            "reponse": "khartoum",
+            "def": "Khartoum"
+        },
+        {
+            "question": "Quelle est la capitale du Soudan du Sud ?",
+            "reponse": "djouba",
+            "def": "Djouba"
+        },
+        {
+            "question": "Quelle est la capitale du Sri Lanka ?",
+            "reponse": ["colombo","sri jayawardenapura kotte"],
+            "def": "Colombo - Sri Jayawardenapura Kotte"
+        },
+        {
+            "question": "Quelle est la capitale de la Suède ?",
+            "reponse": "stockholm",
+            "def": "Stockholm"
+        },
+        {
+            "question": "Quelle est la capitale de la Suisse ?",
+            "reponse": "berne",
+            "def": "Berne"
+        },
+        {
+            "question": "Quelle est la capitale du Suriname ?",
+            "reponse": "paramaribo",
+            "def": "Paramaribo"
+        },
+        {
+            "question": "Quelle est la capitale de la Syrie ?",
+            "reponse": "damas",
+            "def": "Damas"
+        },
+        {
+            "question": "Quelle est la capitale du Tadjikistan ?",
+            "reponse": "douchanbé",
+            "def": "Douchanbé"
+        },
+        {
+            "question": "Quelle est la capitale de Taiwan ?",
+            "reponse": "taipei",
+            "def": "Taipei"
+        },
+        {
+            "question": "Quelle est la capitale de la Tanzanie ?",
+            "reponse": ["dodoma","dar es salam"],
+            "def": "Dodoma - Dar es Salam"
+        },
+        {
+            "question": "Quelle est la capitale du Tchad ?",
+            "reponse": "n'djamena",
+            "def": "N'Djaména"
+        },
+        {
+            "question": "Quelle est la capitale de la Thaïlande ?",
+            "reponse": "bangkok",
+            "def": "Bangkok"
+        },
+        {
+            "question": "Quelle est la capitale du Timor Oriental ?",
+            "reponse": "dili",
+            "def": "Dili"
+        },
+        {
+            "question": "Quelle est la capitale du Togo ?",
+            "reponse": "lome",
+            "def": "Lomé"
+        },
+        {
+            "question": "Quelle est la capitale du Tonga ?",
+            "reponse": "nuku'alofa",
+            "def": "Nuku'Alofa"
+        },
+        {
+            "question": "Quelle est la capitale de Trinité-et-Tobago ?",
+            "reponse": "port-d'espagne",
+            "def": "Port-d'Espagne"
+        },
+        {
+            "question": "Quelle est la capitale de la Tunisie ?",
+            "reponse": "tunis",
+            "def": "Tunis"
+        },
+        {
+            "question": "Quelle est la capitale du Turkménistan ?",
+            "reponse": "achgabat",
+            "def": "Achgabat"
+        },
+        {
+            "question": "Quelle est la capitale du Turquie ?",
+            "reponse": "ankara",
+            "def": "Ankara"
+        },
+        {
+            "question": "Quelle est la capitale de Tuvalu ?",
+            "reponse": "funafuti",
+            "def": "Funafuti"
+        },
+        {
+            "question": "Quelle est la capitale de l'Ukraine ?",
+            "reponse": "kiev",
+            "def": "Kiev"
+        },
+        {
+            "question": "Quelle est la capitale de l'Uruguay ?",
+            "reponse": "montevideo",
+            "def": "Montevideo"
+        },
+        {
+            "question": "Quelle est la capitale de Vanuatu ?",
+            "reponse": "port-vila",
+            "def": "Port-Villa"
+        },
+        {
+            "question": "Quelle est la capitale du Vatican ?",
+            "reponse": "vatican",
+            "def": "Vatican"
+        },
+        {
+            "question": "Quelle est la capitale du Venezuela ?",
+            "reponse": "caracas",
+            "def": "Caracas"
+        },
+        {
+            "question": "Quelle est la capitale du Vietnam ?",
+            "reponse": "hanoi",
+            "def": "Hanoï"
+        },
+        {
+            "question": "Quelle est la capitale du Yémen ?",
+            "reponse": ["aden","sanaa"],
+            "def": "Aden - Sanaa"
+        },
+        {
+            "question": "Quelle est la capitale de la Zambie ?",
+            "reponse": "lusaka",
+            "def": "Lusaka"
+        },
+        {
+            "question": "Quelle est la capitale du Zimbabwe ?",
+            "reponse": "harare",
+            "def": "Harare"
+        }
+    ]
+}

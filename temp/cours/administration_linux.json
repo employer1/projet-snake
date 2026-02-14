@@ -1,0 +1,332 @@
+{
+    "titre": "Administration Windows",
+    "type": "txt",
+    "reverse": 0,
+    "questionnaire": [
+        {
+            "question": "quelle est la fonction principale d'un serveur DNS ?",
+            "reponse":  "rien",
+            "def": "Traduire les noms de domaine lisibles par les humains (comme www.example.com) en adresses IP compréhensibles par les machines pour localiser les serveurs sur le réseau."
+        },
+        {
+            "question": "Comment appelle-t-on la traduction d'une adresse IP en nom de domaine complet (FQDN) par un serveur DNS ?",
+            "reponse": "rien",
+            "def": "Résolution inverse."
+        },
+        {
+            "question": "Quelle est la définition d'une zone DNS ?",
+            "reponse": "rien",
+            "def": "Une portion de l'espace de noms DNS gérée par une organisation ou un administrateur spécifique, contenant des enregistrements de ressources pour les domaines de cette zone."
+        },
+        {
+            "question": "Que désigne un TLD dans le système DNS ?",
+            "reponse": "rien",
+            "def": "La partie finale d'un nom de domaine située après le dernier point, représentant souvent un type d'organisation ou un pays."
+        },
+        {
+            "question": "Que désigne un SLD dans le système DNS ?",
+            "reponse": "rien",
+            "def": "La partie d'un nom de domaine située avant le TLD, souvent utilisée pour désigner une organisation, une entreprise ou un projet."
+        },
+        {
+            "question": "Que représente l'association d'un TLD et d'un SLD dans un nom de domaine ?",
+            "reponse": "rien",
+            "def": "Un nom de domaine complet, où le TLD définit la catégorie ou le pays et le SLD représente l'organisation ou le projet."
+        },
+        {
+            "question": "Que représente un enregistrement SOA dans une zone DNS ?",
+            "reponse": "rien",
+            "def": "Un enregistrement qui spécifie le serveur DNS autoritaire pour un domaine, ainsi que d'autres informations sur la gestion de la zone."
+        },
+        {
+            "question": "Que désigne la délégation de zone dans le système DNS ?",
+            "reponse": "rien",
+            "def": "Le transfert de l'autorité pour gérer une sous-zone d'un domaine à un autre serveur DNS, souvent pour des sous-domaines."
+        },
+        {
+            "question": "Qu'est-ce que la résolution récursive dans le contexte du système DNS ?",
+            "reponse": "rien",
+            "def": "Un serveur DNS interroge plusieurs serveurs DNS pour trouver la réponse à une requête de nom de domaine, et retourne la réponse complète à l'utilisateur."
+        },
+        {
+            "question": "Qu'est-ce que la résolution itérative dans le contexte du système DNS",
+            "reponse": "rien",
+            "def": "Un serveur DNS consulte un serveur racine et répond directement à la requête sans avoir à interroger d'autres serveurs."
+        },
+        {
+            "question": "Qu'est-ce que le Split-Horizon dans le contexte des serveurs DNS ?",
+            "reponse": "rien",
+            "def": "Une technique où un serveur DNS fournit des réponses différentes en fonction de la source de la requête (réseau interne ou externe)"
+        },
+        {
+            "question": "Qu'est-ce qu'un FQDN (Full Qualified Domain Name) ?",
+            "reponse": "rien",
+            "def": "Un nom de domaine complet qui comprend le nom d'hôte et tous les sous-domaines nécessaires, ainsi que le domaine de niveau supérieur."
+        },
+        {
+            "question": "Pourquoi le FQDN est-il important dans le système DNS ?",
+            "reponse": "rien",
+            "def": "Il fourni un moyen de spécifier de manière unique un serveur ou une ressource dans l'espace de noms DNS, avec une hiérarchie complète."
+        },
+        {
+            "question": "Que représente le point final dans un FQDN ?",
+            "reponse": "rien",
+            "def": "Il indique la fin d'un nom de domaine et marque la fin de la résolution DNS."
+        },
+        {
+            "question": "Que représente un gTLD ?",
+            "reponse": "rien",
+            "def": "Un TLD de premier niveau utilisé pour des domaines génériques comme .com, .org, .net."
+        },
+        {
+            "question": "Quel est un exemple de TLD géographique (ccTLD) ?",
+            "reponse": "rien",
+            "def": ".fr"
+        },
+        {
+            "question": "Quel est le but principal des TLD sponsorisés (sTLD) ?",
+            "reponse": "rien",
+            "def": "Ils sont gérés par une organisation spécifique qui sponsorise un domaine particulier, comme .museum, etc."
+        },
+        {
+            "question": "Quel fichier est principalement utilisé sous Linux pour configurer la résolution des noms de domaine ?",
+            "reponse": "rien",
+            "def": "/etc/resolv.conf"
+        },
+        {
+            "question": "A quoi sert le fichier /etc/resolv.conf sous Linux ?",
+            "reponse": "rien",
+            "def": "A définir les serveurs DNS à utiliser pour la résolution de noms de domaine."
+        },
+        {
+            "question": "Que représente un enregistrement A dans un fichier de zone DNS ?",
+            "reponse": "rien",
+            "def": "Il permet de faire correspondre un nom de domaine à une adresse IPv4"
+        },
+        {
+            "question": "A quoi sert un enregistrement MX (Mail Exchange) dans DNS ?",
+            "reponse": "rien",
+            "def": "A définir les serveurs de messagerie pour un domaine permettant la réception des e-mails."
+        },
+        {
+            "question": "Quel type d'enregistrement DNS est utilisé pour rediriger un sous-domaine vers un autre nom de domaine ?",
+            "reponse": "rien",
+            "def": "Enregistrement CNAME"
+        },
+        {
+            "question": "Quelle est l'importance d'avoir un serveur DNS secondaire dans un système DNS ?",
+            "reponse": "rien",
+            "def": "Il offre de la redondance et assure la disponibilité du service DNS en cas de défaillance du serveur DNS primaire."
+        },
+        {
+            "question": "Quel type d'utilisateur sous Linux possède un accès limité aux fichiers et aux commandes système, avec des droits restreints ?",
+            "reponse": "rien",
+            "def": "Utilisateur standard."
+        },
+        {
+            "question": "Quel type d'utilisateur sous Linux est généralement créé pour exécuter des services système, comme les serveurs web ou de bases de données ?",
+            "reponse": "rien",
+            "def": "Utilisateur système."
+        },
+        {
+            "question": "Que sont les variables d'environnement sous Linux ?",
+            "reponse": "rien",
+            "def": "Des paramètres du système utilisés pour définir des informations sur l'environnement d'exécution des processus."
+        },
+        {
+            "question": "Quelle est la fonction de la variable d'environnement PATH sous Linux ?",
+            "reponse": "rien",
+            "def": "Elle spécifie les répertoires dans lesquels le système doit chercher les exécutables pour les commandes."
+        },
+        {
+            "question": "Quel est le rôle principal du fichier /etc/shadow sous Linux ?",
+            "reponse": "rien",
+            "def": "Il stocke les informations sensibles sur les mots de passe des utilisateurs, chiffrés et avec des informations de politique de mot de passe."
+        },
+        {
+            "question": "Que signifie 'rwx' pour un fichier ou un répertoire sous Linux ?",
+            "reponse": "rien",
+            "def": "rwx représente les permissions de lecture (r), écriture (w) et exécution (x)."
+        },
+        {
+            "question": "Si un fichier a les permissions suivantes : rwxr-xr--, quels sont les droits accordés respectivement au propriétaire, au groupe et aux autres utilisateurs ?",
+            "reponse": "rien",
+            "def": "754"
+        },
+        {
+            "question": "Quelle est la principale différence entre les commandes su et su- sous Linux ?",
+            "reponse": "rien",
+            "def": "su permet de se connecter à un autre ordinateur, tandis que su- permet de changer de compte sans connexion réseau."
+        },
+        {
+            "question": "Quel est le rôle principal des métacaractères dans un shell Linux ?",
+            "reponse": "rien",
+            "def": "Ils permettent de représenter des caractères spéciaux ou des motifs pour manipuler des fichiers et des commandes."
+        },
+        {
+            "question": "Qu'est-ce qu'une variable d'environnement dans un système Linux ?",
+            "reponse": "rien",
+            "def": "Une valeur stockée dans le système pour définir des paramètres globaux utilisés par les utilisateurs et les programmes."
+        },
+        {
+            "question": "Quel est le rôle principal de la variable d'environnement PATH dans un système Linux ?",
+            "reponse": "rien",
+            "def": "Spécifier les répertoires où le système cherche les commandes exécutables."
+        },
+        {
+            "question": "Quel est le partitionnement minimal requis pour installer un système Linux fonctionnel ?",
+            "reponse": "rien",
+            "def": "Une partition / uniquement."
+        },
+        {
+            "question": "Quelle est la taille idéale recommandée pour une partition /boot dans un système Linux moderne ?",
+            "reponse": "rien",
+            "def": "100 Mo"
+        },
+        {
+            "question": "Quel est le rôle principal de GRUB2 dans un système Linux ?",
+            "reponse": "rien",
+            "def": "Charger et démarrer le noyau Linux au démarrage du système."
+        },
+        {
+            "question": "Où GRUB2 s'installe-t-il généralement lors de l'instalaltion d'un système Linux ?",
+            "reponse": "rien",
+            "def": "Dans le secteur de démarrage principal (MBR) ou dans le secteur de démarrage UEFI."
+        },
+        {
+            "question": "Quel est le rôle principal du répertoire /proc dans un système Linux ?",
+            "reponse": "rien",
+            "def": "Stocker des informations sur les processus en cours et les paramètres du noyau en temps réel."
+        },
+        {
+            "question": "Quel est le rôle principal du répertoire /media dans un système Linux ?",
+            "reponse": "rien",
+            "def": "Héberger les points de montage des périphériques amovibles comme les clés USB, les disques durs externe, etc."
+        },
+        {
+            "question": "Dans le monde de l'informatique Open Source, que veut dire GPL ?",
+            "reponse": "rien",
+            "def": "General Public Licence"
+        },
+        {
+            "question": "Dans le monde de l'informatique Open Source, que veut dire FSF ?",
+            "reponse": "rien",
+            "def": "Free Software Foundation"
+        },
+        {
+            "question": "La FSF n'a pas pour but :\nLa gratuité complète des logiciels sous GPL\nLa libre utilisation et modification des logiciels sous GPL\nLa définition et la promotion des principes du logiciel libre\nLa certification de nouvelles licences libres\nL'examen du respect des principes de la FSF",
+            "reponse": "rien",
+            "def": "La gratuité complète des logiciels sous GPL."
+        },
+        {
+            "question": "Qui est à l'origine du mouvement pour le logiciel libre ?",
+            "reponse": "rien",
+            "def": "Richard Stallman"
+        },
+        {
+            "question": "Dans le monde de l'informatique Open Source, que veut dire GNU ?",
+            "reponse": "rien",
+            "def": "GNU's Not UNIX"
+        },
+        {
+            "question": "Dans le monde de l'informatique Open Source, Linux est en fait l'abréviation de GNU/Linux. Mais que signifie se GNU/Linux ?",
+            "reponse": "rien",
+            "def": "GNU/Linux est l'union d'un Noyau Linux et de logiciels GNU pour former une distribution."
+        },
+        {
+            "question": "Quelle est l'affirmation correcte ?\nBSD est une distribution Linux Mère à l'image de Debian ou Red Hat\nBSD est un ac=ncien OS qui est à la base d'autres OS comme GNU/Linux et MAC\nBSD est un OS basé sur UNIX développé en parallèle à GNU/Linux\nBSD est un OS basé sur UNIX sur lequel est basé Windows NT\nBSD est une distribution Linux développée en parallèle à UNIX",
+            "reponse": "rien",
+            "def": "BSD est un OS basé sur UNIX développé en parallèle à GNU/Linux."
+        },
+        {
+            "question": "Quelle est l'affirmation incorrecte ?\nCopyleft s'appuie surCopyright. Ils définissent les droits des utilisateurs de façon contraignante\nCopyleft s'efforce de protéger les droits des auteurs\nCopyleft protège les droits des utilisateurs\nCopyleft et CopyRight ne sont pas opposés\nAucune proposition n'est correcte",
+            "reponse": "rien",
+            "def": "Copyleft s'efforce de protéger les droits des auteurs."
+        },
+        {
+            "question": "Quelle proposition n'est pas l'un des droits assurés par la licence GNU GPL ?\nLa liberté d'exécuter le logiciel, pour n'importe quel usage\nLa liberté d'étudier le fonctionnement d'un programme et de l'adapter à ses besoins, ce qui passe par l'accès aux codes sources\nLa liberté de redistribuer des copies, même gratuitement\nL'obligation de faire bénéficier la communauté des versions modifiées\nToutes ces propositions sont des droits assurés par la licence GNU GPL",
+            "reponse": "rien",
+            "def": "L'obligation de faire bénéficier la communauté des versions modifiées."
+        },
+        {
+            "question": "Lequel de ces terme désigne un logicel libre ?\nShareware\nFreeware\nSoftware\nRansonware\nAucune de ces propositions n'est un logiciel libre",
+            "reponse": "rien",
+            "def": "Aucune de ces propositions n'est un logiciel libre."
+        },
+        {
+            "question": "Un système multi-utilisateur est un système :\nQui permet à deux personnes (ou plus) d'utiliser une machine en même temps\nQui permet à plusieurs personnes de se connecter à distance à la machine\nQui permet de partager les ressources systèmes entre plusieurs processus\nCes 3 propositions sont correctes\n2 des propositions 1-B-C sont correctes, une est fausse",
+            "reponse": "rien",
+            "def": "2 des propositions A-B-C sont correctes, une est fausse."
+        },
+        {
+            "question": "Dans le fichier /etc/passwd on trouve les informations suivantes (plusieurs réponse possible) :\nNom d'utilisateur\nMot de passe\nID\nRépertoire personnel\nShell de connexion",
+            "reponse": "rien",
+            "def": "Nom d'utilisateur - ID - Répertoire personnel - Shell de connexion."
+        },
+        {
+            "question": "En terme de droits sur le dossier, la commande 'ls' renvoie le résultat suivant : drwxr-r--, cela signifie :\nTout le monde peut explorer ce dossier et ses sous-dossiers\nLes membres du groupe propriétaire ont le droit de modifier son contenu\nLes membres du groupe propriétaire ont le droit de supprimer le dossier\nLes membres du groupe ont le droit d'explorer ce dossier et ses sous-dossiers\nAucune réponse n'est correcte",
+            "reponse": "rien",
+            "def": "Les membres du groupe ont le droit d'explorer ce dossier et ses sous-dossiers"
+        },
+        {
+            "question": "En terme de droits sur un fichier, la présentation numérique suivante 441 signifie (format : rwxrwxrwx) :",
+            "reponse": "rien",
+            "def": "-r--r----x"
+        },
+        {
+            "question": "En terme de droits sur un dossier, la représentation suivante drwxr-xr-- signifie (format : 777) :",
+            "reponse": "rien",
+            "def": "754"
+        },
+        {
+            "question": "Pour modifier le propriétaire d'un dossier ou d'un fichier, on utilise la commande :",
+            "reponse": "rien",
+            "def": "chown"
+        },
+        {
+            "question": "Pour modifier les droits d'un dossier ou d'un fichier, on utilise la commande :",
+            "reponse": "rien",
+            "def": "chmod"
+        },
+        {
+            "question": "Vous êtes connecté avec un compte utilisateur standard mais vous avez besoin de passer des comandes propres au super utilisateur (exemple : useradd). Quelles solution(s) vous permet de basculer sur le compte super-utilisateur et de pouvoir utiliser cette commande ?\nsudo root\nsudo -\nsu root\nsu -\nchuser",
+            "reponse": "rien",
+            "def": "sudo - & su -"
+        },
+        {
+            "question": "Quelle est le schéma de partitionnement minimum ?\nRacine (/)\nRacine (/) + Swap\n/boot + Racine (/)\n/boot + Racine + Swap\n/boot + Racine(/) + Swap + /home",
+            "reponse": "rien",
+            "def": "Racine (/)"
+        },
+        {
+            "question": "Quel est la taille standard d'un noyau Linux ?\n100 Ko\n1 Mo\n10 Mo\n100 Mo\n1 Go",
+            "reponse": "rien",
+            "def": "10 Mo"
+        },
+        {
+            "question": "Dans le cadre de l'installation d'un serveur Apache, quelle partition est-il conseillé de créer en plus des partitions obligatoires ?\n/tmp\n/home\n/web\n/var\n/etc",
+            "reponse": "rien",
+            "def": "/var"
+        },
+        {
+            "question": "Dans le cadre de l'installation d'un serveur de fichiers, quelle partition est-il conseillé de créer en plus des partitions obligatoires ?\n/tmp\n/home\n/web\n/var\n/etc",
+            "reponse": "rien",
+            "def": "/home"
+        },
+        {
+            "question": "Lors de l'installation d'un logiciel sur une machine Linux, un fichier de configuration est créé dans un répertoire particulier. Où trouve-t-on les fichiers de configuration dans l'arborescence Linux ?\n/tmp\n/log\n/conf\n/var\n/etc",
+            "reponse": "rien",
+            "def": "/etc"
+        },
+        {
+             "question": "Quelle est la commande permettant de faire la mise à jour de la liste des paquets disponibles dans les dépôts configurés sur une machine Debian ?\napt update\napt list-update\napt upgrade\napt-dist-upgrade\naucune bonne réponse",
+            "reponse": "rien",
+            "def": "apt update"
+        },
+        {
+            "question": "Quelle est la commande permettant de faire la mise à jour de la liste des paquets disponibles dans les dépôts configurés sur une machine Red Hat ?\ndnf update\ndnf list-update\ndnf upgrade\ndnf dist-upgrade\nAucune bonne réponse",
+            "reponse": "rien",
+            "def": "dnf upgrade"
+        }
+    ]
+}

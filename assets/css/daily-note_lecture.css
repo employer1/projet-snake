@@ -1,0 +1,91 @@
+body {
+    background-color: var(--bgColor);
+}
+
+
+h1 {
+    font-size: var(--h1SizeQuestionnaire);
+}
+.corps {
+    background-color: #545454;
+    width: 90%;
+    height: 95%;
+    border-radius: 25px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 2fr;
+
+    justify-self: center;
+
+    padding: 20px;
+}
+
+.haut {
+    /*rien*/
+}
+
+.titre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jsp {
+    width: 48%;
+
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    grid-template-rows: 1fr;
+
+    align-items: center;
+}
+
+.champ_texte {
+    background-color: #a6a6a6;
+    width: 100%;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.milieu {
+    /*rien*/
+}
+
+.champ_texte_grand {
+    background-color: #a6a6a6;
+    height: 90%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+}
+
+h4 {
+    color: white;
+    font-size: 1rem;
+}
+
+.bas {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.exemple {
+    background-color: #a6a6a6;
+    width: 30%;
+    height: 100%;
+
+    padding: 20px;
+
+    border-radius: 10px;
+}
