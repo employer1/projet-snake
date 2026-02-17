@@ -8,14 +8,35 @@ h1 {
 
 .corps {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
 }
 
 .sous_corps {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.champ {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pied {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+.objet {
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .champ_texte {
@@ -28,11 +49,4 @@ h1 {
     font-size: 16px;
 
     justify-self: center;
-}
-
-.pied {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
 }
