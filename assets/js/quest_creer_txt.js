@@ -297,6 +297,10 @@ const abandonnerEtRetourMenu = async () => {
 };
 
 const finirCreation = async () => {
+    if (etatCreation.questionnaire.questionnaire.length === 0) {
+        throw new Error("Ajoutez au moins une question avant de terminer le questionnaire.");
+    }
+
     const nouveauNom = await demanderValeurObligatoire(
         "Nom final du questionnaire JSON (laisser vide pour conserver le nom actuel):",
         etatCreation.jsonPath.split("/").pop() || ""
