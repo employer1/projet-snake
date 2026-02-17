@@ -1,7 +1,7 @@
 /*fichier JS de quest_creer_txt*/
 
-const DOSSIER_JSON = "questionnaire/autre";
-const DOSSIER_IMG_BASE = "questionnaire/autre/img";
+const DOSSIER_JSON = "questionnaire/creer/txt";
+const DOSSIER_IMG_BASE = "questionnaire/creer/txt/img";
 const PAGE_MENU = "../pages/quest_menu.html";
 
 const etatCreation = {

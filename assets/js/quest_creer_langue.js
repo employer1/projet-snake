@@ -1,6 +1,6 @@
 /*fichier JS de quest_creer_langue*/
 
-const DOSSIER_JSON = "questionnaire/langue";
+const DOSSIER_JSON = "questionnaire/creer/langue";
 const PAGE_MENU = "../pages/quest_menu.html";
 
 const etatCreation = {
