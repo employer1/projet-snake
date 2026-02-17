@@ -1,0 +1,743 @@
+{
+    "question": "Enumérations C",
+    "questionnaire": [
+        {
+            "titre": "Cette syntaxe de création de type énuméré est-elle correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/1.1.png"
+        },
+        {
+            "titre": "Cette syntaxe de création de type énuméré est-elle correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/1.2.png"
+        },
+        {
+            "titre": "Cette syntaxe de création de type énuméré est-elle correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/1.3.png"
+        },
+        {
+            "titre": "Cette syntaxe de création de type énuméré est-elle correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/1.4.png"
+        },
+        {
+            "titre": "Cette syntaxe de création de type énuméré est-elle correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/1.5.png"
+        },
+        {
+            "titre": "Cette syntaxe de création de type énuméré est-elle correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il ne faut pas indiquer le type des enumerateur.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/1.6.png"
+        },
+        {
+            "titre": "Cette syntaxe de création de type énuméré est-elle correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut remplacer ';' par ','.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/1.7.png"
+        },
+        {
+            "titre": "Cette syntaxe de création de type énuméré est-elle correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/1.8.png"
+        },
+        {
+            "titre": "Cette syntaxe de création de type énuméré est-elle correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/1.9.png"
+        },
+        {
+            "titre": "Cette syntaxe de création de type énuméré est-elle correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/1.10.png"
+        },
+        {
+            "titre": "Cette syntaxe de création de type énuméré est-elle correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le égal n’est pas nécessaire.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/1.11.png"
+        },
+        {
+            "titre": "Cette syntaxe de création de type énuméré est-elle correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/1.12.png"
+        },
+        {
+            "titre": "Que manque-t-il à dans cette énumération pour que ce soit correcte ?",
+            "reponse": "enum",
+            "leurre1": "variable",
+            "leurre2": "virgules",
+            "leurre3": "typedef",
+            "explication": "enum",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/2.1.png"
+        },
+        {
+            "titre": "Que manque-t-il à dans cette énumération pour que ce soit correcte ?",
+            "reponse": "typedef",
+            "leurre1": "virgules",
+            "leurre2": "enum",
+            "leurre3": "énumération",
+            "explication": "typedef",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/2.2.png"
+        },
+        {
+            "titre": "Que manque-t-il à dans cette énumération pour que ce soit correcte ?",
+            "reponse": "virgules",
+            "leurre1": "énumération",
+            "leurre2": "variable",
+            "leurre3": "typedef",
+            "explication": "virgules",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/2.3.png"
+        },
+        {
+            "titre": "Que manque-t-il à dans cette énumération pour que ce soit correcte ?",
+            "reponse": "points-virgule",
+            "leurre1": "variable",
+            "leurre2": "énumération",
+            "leurre3": "Type",
+            "explication": "points-virgule",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/2.4.png"
+        },
+        {
+            "titre": "Que manque-t-il à dans cette énumération pour que ce soit correcte ?",
+            "reponse": "Type",
+            "leurre1": "variable",
+            "leurre2": "énumération",
+            "leurre3": "virgules",
+            "explication": "Type",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/2.5.png"
+        },
+        {
+            "titre": "Que manque-t-il à dans cette énumération pour que ce soit correcte ?",
+            "reponse": "variable",
+            "leurre1": "énumération",
+            "leurre2": "Type",
+            "leurre3": "virgules",
+            "explication": "variable",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/2.6.png"
+        },
+        {
+            "titre": "Que manque-t-il à dans cette énumération pour que ce soit correcte ?",
+            "reponse": "énumération",
+            "leurre1": "variable",
+            "leurre2": "Type",
+            "leurre3": "virgules",
+            "explication": "énumération",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/2.7.png"
+        },
+        {
+            "titre": "La syntaxe de création de la variable énuméré est-elle bonne ?\nenum type variable;",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "La syntaxe de création de la variable énuméré est-elle bonne ?\nenum Type variable;",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut remplacer 'Type' par 'type'.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "La syntaxe de création de la variable énuméré est-elle bonne ?\nenum variable;",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'type'.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "La syntaxe de création de la variable énuméré est-elle bonne ?\ntype variable;",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut remplacer 'type' par 'Type'.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "La syntaxe de création de la variable énuméré est-elle bonne ?\nType variable;",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "Les variables de types énuméré sont-elles bien initialisée ?\nenum type variable = énumérateur1;",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/4.png"
+        },
+        {
+            "titre": "Les variables de types énuméré sont-elles bien initialisée ?\nenum type variable = 1;",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "on ne peut pas initialiser une énumération avec un littéral.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/4.png"
+        },
+        {
+            "titre": "Les variables de types énuméré sont-elles bien initialisée ?\nenum type variable = autreVariableEnum;",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/4.png"
+        },
+        {
+            "titre": "Les variables de types énuméré sont-elles bien initialisée ?\nType variable = énumérateur1;",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/4.png"
+        },
+        {
+            "titre": "Les variables de types énuméré sont-elles bien initialisée ?\nType variable = 5;",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "on ne peut pas initialiser une énumération avec un littéral.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/4.png"
+        },
+        {
+            "titre": "Les variables de types énuméré sont-elles bien initialisée ?\nType variable = autreVariableEnum;",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/4.png"
+        },
+        {
+            "titre": "Les variables de types énuméré sont-elles bien initialisée ?\nvariable = énumérateur1;",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/4.png"
+        },
+        {
+            "titre": "Les variables de types énuméré sont-elles bien initialisée ?\nvariable = 5;",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "on ne peut pas initialiser une énumération avec un littéral.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/4.png"
+        },
+        {
+            "titre": "Les variables de types énuméré sont-elles bien initialisée ?\nvariable = autreVariableEnum;",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/4.png"
+        },
+        {
+            "titre": "Le tableau de variable énuméré est-il bien déclaré ?\nenum type tableau[2];",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/4.png"
+        },
+        {
+            "titre": "Le tableau de variable énuméré est-il bien déclaré ?\nenum type tableau[];",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il est nécéssaire de préciser le nombre de cellule.\nenum type tableau[2];",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/4.png"
+        },
+        {
+            "titre": "Le tableau de variable énuméré est-il bien déclaré ?\nenum type tableau[0];",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il n’est pas possible d’initialiser un tableau sans cellule.\nenum type tableau[2];",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/4.png"
+        },
+        {
+            "titre": "Le tableau de variable énuméré est-il bien déclaré ?\nType tableau[2];",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/4.png"
+        },
+        {
+            "titre": "Le tableau de variable énuméré est-il bien déclaré ?\nType tableau[];",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il est nécéssaire de préciser le nombre de cellule.\nType tableau[2];",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/4.png"
+        },
+        {
+            "titre": "Le tableau de variable énuméré est-il bien déclaré ?\nType tableau[0];",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il n’est pas possible d’initialiser un tableau sans cellule.\nType tableau[2];",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/4.png"
+        },
+        {
+            "titre": "Le tableau de variable énuméré est-il bien déclaré ?\ntableau[2];",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'Type'.\nType tableau[2];",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/4.png"
+        },
+        {
+            "titre": "Le tableau de variable énuméré est-il bien déclaré ?\ntableau[];",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il est nécéssaire de préciser le nombre de cellule.\nil manque 'Type'.\nType tableau[2];",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/4.png"
+        },
+        {
+            "titre": "Le tableau de variable énuméré est-il bien déclaré ?\ntableau[0];",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il n’est pas possible d’initialiser un tableau sans cellule.\nil manque 'Type'.\nType tableau[2];",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/4.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe d'iitialisation du tableau suivant est-elle correcte ?\nenum type tableau[2] = {premier, deuxième};",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe d'iitialisation du tableau suivant est-elle correcte ?\nenum type tableau[2] = {premier, premier};",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe d'iitialisation du tableau suivant est-elle correcte ?\nenum type tableau[2] = {premier};",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe d'iitialisation du tableau suivant est-elle correcte ?\nenum type tableau[2] = {premier, enumVar};",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe d'iitialisation du tableau suivant est-elle correcte ?\nenum type tableau[2] = {premier, deuxième}",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque ';'\nenum type tableau[2] = {premier, deuxième};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe d'iitialisation du tableau suivant est-elle correcte ?\nenum type tableau[2] = {3, 5};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il n’est pas possible d’initialiser avec des littéraux.\nenum type tableau[2] = {premier, deuxième};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe d'iitialisation du tableau suivant est-elle correcte ?\nenum type tableau[2] = {premier, 5};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il n’est pas possible d’initialiser avec des littéraux.\nenum type tableau[2] = {premier, deuxième};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe d'iitialisation du tableau suivant est-elle correcte ?\nenum type tableau[2] = {premier, intVar};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il n’est pas possible d’initialiser avec une variable qui n’est pas de type énum.\nenum type tableau[2] = {premier, deuxième};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe d'iitialisation du tableau suivant est-elle correcte ?\nType tableau[2] = {premier, deuxième};",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe d'iitialisation du tableau suivant est-elle correcte ?\nType tableau[2] = {premier, premier};",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe d'iitialisation du tableau suivant est-elle correcte ?\nType tableau[2] = {premier};",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe d'iitialisation du tableau suivant est-elle correcte ?\nType tableau[2] = {premier, enumVar};",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe d'iitialisation du tableau suivant est-elle correcte ?\nType tableau[2] = {premier, deuxième}",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque ';'\nType tableau[2] = {premier, deuxième};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe d'iitialisation du tableau suivant est-elle correcte ?\nType tableau[2] = {3, 5};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il n’est pas possible d’initialiser avec des littéraux.\nType tableau[2] = {premier, deuxième};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe d'iitialisation du tableau suivant est-elle correcte ?\nType tableau[2] = {premier, 5};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il n’est pas possible d’initialiser avec des littéraux.\nType tableau[2] = {premier, deuxième};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe d'iitialisation du tableau suivant est-elle correcte ?\nType tableau[2] = {premier, intVar};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il n’est pas possible d’initialiser avec une variable qui n’est pas de type énum.\nType tableau[2] = {premier, deuxième};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe d'iitialisation du tableau suivant est-elle correcte ?\ntableau[2] = {premier, deuxième};",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe d'iitialisation du tableau suivant est-elle correcte ?\ntableau[2] = {premier, premier};",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe d'iitialisation du tableau suivant est-elle correcte ?\ntableau[2] = {premier};",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe d'iitialisation du tableau suivant est-elle correcte ?\ntableau[2] = {premier, enumVar};",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe d'iitialisation du tableau suivant est-elle correcte ?\ntableau[2] = {premier, deuxième}",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque ';'\ntableau[2] = {premier, deuxième};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe d'iitialisation du tableau suivant est-elle correcte ?\ntableau[2] = {3, 5};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il n’est pas possible d’initialiser avec des littéraux.\ntableau[2] = {premier, deuxième};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe d'iitialisation du tableau suivant est-elle correcte ?\ntableau[2] = {premier, 5};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il n’est pas possible d’initialiser avec des littéraux.\ntableau[2] = {premier, deuxième};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe d'iitialisation du tableau suivant est-elle correcte ?\ntableau[2] = {premier, intVar};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il n’est pas possible d’initialiser avec une variable qui n’est pas de type énum.\ntableau[2] = {premier, deuxième};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/3.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe d'affichage d'énumération est correcte ?\nprintf(''%d'', premier);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/5.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe d'affichage d'énumération est correcte ?\nprintf(''%f'', premier);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le formateur utilisé est incorrect.\nprintf(''%d'', premier);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/5.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe d'affichage d'énumération est correcte ?\nprintf(''%d'', &premier);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le & n’est pas nécessaire.\nprintf(''%d'', premier);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/5.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe d'affichage d'énumération est correcte ?\nprintf(''%d'', *premier);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le * n’est pas nécessaire.\nprintf(''%d'', premier);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/5.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe d'affichage d'énumération est correcte ?\nprintf(''%d'', deuxième);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/5.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe d'affichage d'énumération est correcte ?\nprintf(''%f'', deuxième);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le formateur utilisé est incorrect.\nprintf(''%d'', premier);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/5.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe d'affichage d'énumération est correcte ?\nprintf(''%d'', &deuxième);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le & n’est pas nécessaire.\nprintf(''%d'', premier);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/5.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe d'affichage d'énumération est correcte ?\nprintf(''%d'', *deuxième);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le * n’est pas nécessaire.\nprintf(''%d'', premier);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/5.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe d'affichage de variable d'énumération est correcte ?\nprintf(''%d'', variable);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/6.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe d'affichage de variable d'énumération est correcte ?\nprintf(''%f'', variable);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le formateur utilisé est incorrect.\nprintf(''%d'', variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/6.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe d'affichage de variable d'énumération est correcte ?\nprintf(''%d'', &variable);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le & n’est pas nécessaire.\nprintf(''%d'', variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/6.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe d'affichage de variable d'énumération est correcte ?\nprintf(''%d'', *variable);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le * n’est pas nécessaire.\nprintf(''%d'', variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/6.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe d'affichage de variable d'énumération est correcte ?\nprintf(''%d'', var[1]);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/6.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe d'affichage de variable d'énumération est correcte ?\nprintf(''%f'', var[1]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le formateur utilisé est incorrect.\nprintf(''%d'', var[1]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/6.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe d'affichage de variable d'énumération est correcte ?\nprintf(''%d'', var[]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il est nécessaire de spécifier le nombre de cellule qu’aura le tableau.\nprintf(''%d'', var[1]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/6.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe d'affichage de variable d'énumération est correcte ?\nprintf(''%d'', &var[1]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le & n’est pas nécessaire.\nprintf(''%d'', var[1]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/6.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe d'affichage de variable d'énumération est correcte ?\nprintf(''%d'', *var[1]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le * n’est pas nécessaire.\nprintf(''%d'', var[1]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/6.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe de récupération de valeur est correcte ?\nscanf(''%d'', &variable);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/6.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe de récupération de valeur est correcte ?\nscanf(''%d'', *variable);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut remplacer '*' par '&'.\nscanf(''%d'', &variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/6.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe de récupération de valeur est correcte ?\nscanf(''%d'', variable);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut ajouter '&'.\nscanf(''%d'', &variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/6.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe de récupération de valeur est correcte ?\nscanf(''%f'', &variable);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le formateur utilisé est incorrect.\nscanf(''%d'', &variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/6.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe de récupération de valeur est correcte ?\nscanf_s(''%c'', &variable, 1);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le formateur utilisé est incorrect.\nscanf(''%d'', &variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/6.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe de récupération de valeur est correcte ?\nscanf_s(''%s'', &variable, 10);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le formateur utilisé est incorrect.\nscanf(''%d'', &variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/6.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe de récupération de valeur est correcte ?\nscanf(''%d'', &var[1]);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/6.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe de récupération de valeur est correcte ?\nscanf(''%d'', &var[0]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut un nombre de cellule supérieur à 0.\nscanf(''%d'', &var[1]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/6.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe de récupération de valeur est correcte ?\nscanf(''%d'', *var[1]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut remplacer '*' par '&'.\nscanf(''%d'', &var[1]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/6.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe de récupération de valeur est correcte ?\nscanf(''%d'', var[1]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut ajouter '&'.\nscanf(''%d'', &var[1]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/6.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe de récupération de valeur est correcte ?\nscanf(''%f'', &var[1]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le formateur utilisé est incorrect.\nscanf(''%d'', &var[1]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/6.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe de récupération de valeur est correcte ?\nscanf(''%c'', &var[1], 1);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le formateur utilisé est incorrect.\nscanf(''%d'', &var[1]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/6.png"
+        },
+        {
+            "titre": "Laquelle de ces syntaxe de récupération de valeur est correcte ?\nscanf(''%s'', &var[1], 10);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le formateur utilisé est incorrect.\nscanf(''%d'', &var[1]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_enumeration/6.png"
+        },
+        {
+            "titre": "Est-ce qu'il est possible d'assigner une chaîne de caractères à un énumérateur ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce qu'il est possible d'assigner un caractère à un énumérateur ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce qu'il est possible d'assigner un nombre décimal à un énumérateur ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non",
+            "image": ""
+        },
+        {
+            "titre": "Quel est le mot réservé utilisé pour créer un type énuméré ?",
+            "reponse": "enum",
+            "leurre1": "auto",
+            "leurre2": "truct",
+            "leurre3": "type",
+            "explication": "enum",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que 2 énuérateurs peuvent-il porter le même nom ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non",
+            "image": ""
+        },
+        {
+            "titre": "Quelle est la valeur par défaut du premier énumérateur si on ne lui en assigne pas ?",
+            "reponse": "0",
+            "leurre1": "1",
+            "leurre2": "NULL",
+            "explication": "0",
+            "image": ""
+        },
+        {
+            "titre": "Peut-on associer 2 fois la même valeur à une énumération ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui",
+            "image": ""
+        }
+    ]
+}

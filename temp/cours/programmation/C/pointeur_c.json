@@ -1,0 +1,448 @@
+{
+    "question": "pointeur C",
+    "questionnaire": [
+        {
+            "titre": "la syntaxe de création - initialisation de pointeur est-elle correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/1.1.png"
+        },
+        {
+            "titre": "la syntaxe de création - initialisation de pointeur est-elle correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/1.2.png"
+        },
+        {
+            "titre": "la syntaxe de création - initialisation de pointeur est-elle correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/1.3.png"
+        },
+        {
+            "titre": "la syntaxe de création - initialisation de pointeur est-elle correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque *\nint *ptn = &var;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/1.4.png"
+        },
+        {
+            "titre": "la syntaxe de création - initialisation de pointeur est-elle correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque &\nint *ptn = &var;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/1.5.png"
+        },
+        {
+            "titre": "la syntaxe de création - initialisation de pointeur est-elle correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/1.6.png"
+        },
+        {
+            "titre": "la syntaxe de création - initialisation de pointeur est-elle correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/1.7.png"
+        },
+        {
+            "titre": "la syntaxe de création - initialisation de pointeur est-elle correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/1.8.png"
+        },
+        {
+            "titre": "la syntaxe de création - initialisation de pointeur est-elle correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/1.9.png"
+        },
+        {
+            "titre": "la syntaxe de création - initialisation de pointeur est-elle correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut indiquer le nombre de cellule que l'on veut.\nint* ptn = malloc(20);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/1.10.png"
+        },
+        {
+            "titre": "la syntaxe de création - initialisation de pointeur est-elle correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il ne faut pas préciser 'int'\nint* ptn = malloc(20);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/1.11.png"
+        },
+        {
+            "titre": "la syntaxe de création - initialisation de pointeur est-elle correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/1.12.png"
+        },
+        {
+            "titre": "la syntaxe de création - initialisation de pointeur est-elle correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/1.13.png"
+        },
+        {
+            "titre": "la syntaxe de création - initialisation de pointeur est-elle correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "'tableau' est déja un pointeur, il ne faut pas lui fournir l'adresse du pointeur.\nint *ptn = tableau;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/1.14.png"
+        },
+        {
+            "titre": "Qu'affiche les instructions suivante ?\nEn sachant que le formateur utilisé est toujours bon",
+            "reponse": "adresse du pointeur",
+            "leurre1": "adresse de la variable",
+            "leurre2": "contenu de la variable",
+            "leurre3": "impossible",
+            "explication": "adresse du pointeur",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/2.1.png"
+        },
+        {
+            "titre": "Qu'affiche les instructions suivante ?\nEn sachant que le formateur utilisé est toujours bon",
+            "reponse": "adresse de la variable",
+            "leurre1": "contenu de la variable",
+            "leurre2": "adresse du pointeur",
+            "leurre3": "impossible",
+            "explication": "adresse de la variable",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/2.2.png"
+        },
+        {
+            "titre": "Qu'affiche les instructions suivante ?\nEn sachant que le formateur utilisé est toujours bon",
+            "reponse": "adresse du pointeur",
+            "leurre1": "contenu de la variable",
+            "leurre2": "adresse de la variable",
+            "leurre3": "impossible",
+            "explication": "adresse du pointeur",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/2.3.png"
+        },
+        {
+            "titre": "Qu'affiche les instructions suivante ?\nEn sachant que le formateur utilisé est toujours bon",
+            "reponse": "adresse de la première cellule du tableau",
+            "leurre1": "adresse de la première variable",
+            "leurre2": "contenu de la première cellule du tableau",
+            "leurre3": "impossible",
+            "explication": "adresse de la première cellule du tableau",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/2.4.png"
+        },
+        {
+            "titre": "Qu'affiche les instructions suivante ?\nEn sachant que le formateur utilisé est toujours bon",
+            "reponse": "adresse de la première cellule du tableau",
+            "leurre1": "contenu de la première cellule du tableau",
+            "leurre2": "contenu de la première variable",
+            "leurre3": "impossible",
+            "explication": "adresse de la première cellule du tableau",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/2.5.png"
+        },
+        {
+            "titre": "Qu'affiche les instructions suivante ?\nEn sachant que le formateur utilisé est toujours bon",
+            "reponse": "adresse de la troisième cellule du tableau",
+            "leurre1": "contenu de la troisième cellule du tableau",
+            "leurre2": "contenu de la troisième variable",
+            "leurre3": "impossible",
+            "explication": "adresse de la troisième cellule du tableau",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/2.6.png"
+        },
+        {
+            "titre": "Qu'affiche les instructions suivante ?\nEn sachant que le formateur utilisé est toujours bon",
+            "reponse": "contenu variable",
+            "leurre1": "adresse variable",
+            "leurre3": "impossible",
+            "explication": "contenu variable",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/2.7.png"
+        },
+        {
+            "titre": "Qu'affiche les instructions suivante ?\nEn sachant que le formateur utilisé est toujours bon",
+            "reponse": "contenu variable",
+            "leurre1": "adresse variable",
+            "leurre3": "impossible",
+            "explication": "contenu variable",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/2.8.png"
+        },
+        {
+            "titre": "Qu'affiche les instructions suivante ?\nEn sachant que le formateur utilisé est toujours bon",
+            "reponse": "impossible",
+            "leurre1": "adresse variable",
+            "leurre2": "contenu variable",
+            "explication": "impossible",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/2.9.png"
+        },
+        {
+            "titre": "Qu'affiche les instructions suivante ?\nEn sachant que le formateur utilisé est toujours bon",
+            "reponse": "contenu de la variable",
+            "leurre1": "adresse de la variable",
+            "leurre3": "impossible",
+            "explication": "contenu de la variable",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/2.10.png"
+        },
+        {
+            "titre": "Qu'affiche les instructions suivante ?\nEn sachant que le formateur utilisé est toujours bon",
+            "reponse": "contenu de la première cellule du tableau",
+            "leurre1": "adresse de la première cellule du tableau",
+            "leurre3": "impossible",
+            "explication": "contenu de la première cellule du tableau",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/2.11.png"
+        },
+        {
+            "titre": "Qu’affichera la syntaxe suivante ?",
+            "reponse": "o",
+            "explication": "o",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/3.1.png"
+        },
+        {
+            "titre": "Qu’affichera la syntaxe suivante ?",
+            "reponse": "u",
+            "explication": "u",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/3.2.png"
+        },
+        {
+            "titre": "Qu’affichera la syntaxe suivante ?",
+            "reponse": "o",
+            "explication": "o",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/3.3.png"
+        },
+        {
+            "titre": "Qu’affichera la syntaxe suivante ?",
+            "reponse": "je serai le meilleur dresseur !",
+            "explication": "je serai le meilleur dresseur !",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/3.4.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/4.1.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "dans ce cas, on fournit l'adresse du pointeur, ce qui est incorrecte.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/4.2.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "dans ce cas on fournit la valeur de la variable visée, ce qui est incorrecte.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/4.3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/5.1.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/5.2.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il n'est pas possible d'initialiser un tableau de poirteur avec des valeurs brutes.\nint* tab[10];",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/5.3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut indiquer le nombre de pointeurs que l'on veut.\nint* tab[10];",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/5.4.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/5.5.png"
+        },
+        {
+            "titre": "Qu'est-ce qui ne va pas dans cette instruction ?",
+            "reponse": "il manques des * devant les 'var'.",
+            "leurre1": "'var' est déclaré comme un pointeur dans la déclaration de la fonction.",
+            "leurre2": "var ne peut pas être multiplié par 0.9",
+            "leurre3": "il manque * devant 'pointeur' lors de l'appel de la fonction.",
+            "explication": "il manques des * devant les 'var'.\n*var = *var * 0.9;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/6.1.png"
+        },
+        {
+            "titre": "Qu'est-ce qui ne va pas dans cette instruction ?",
+            "reponse": "il manque une * devant '*var', lors de la dfinition de la fonction.",
+            "leurre1": "'var' est déclaré comme un pointeur dans la déclaration de la fonction.",
+            "leurre2": "il faut indiquer le type du pointeur lors de l'appel de la fonction.",
+            "leurre3": "il manque * devant 'pointeur' lors de l'appel de la fonction.",
+            "explication": "il manque une * devant '*var', lors de la dfinition de la fonction.\nvoid fonction(float *var) {",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/6.2.png"
+        },
+        {
+            "titre": "Qu'est-ce qui ne va pas dans cette instruction ?",
+            "reponse": "il manque ''&'' devant l'affectation de la variable.",
+            "leurre1": "le type renvoyé par la fonction doit être de type 'void *'.",
+            "leurre2": "il faut indiquer le type du pointeur lors de l'appel de la fonction.",
+            "leurre3": "il manque * devant 'pointeur' lors de l'appel de la fonction.",
+            "explication": "il manque ''&'' devant l'affectation de la variable.\nfloat* pointeur = &variable;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/6.3.png"
+        },
+        {
+            "titre": "Qu'est-ce qui ne va pas dans cette instruction ?",
+            "reponse": "il y a * devant 'pointeur' lors de l'appel de la fonction.",
+            "leurre1": "lors de la création du pointeur, l’* doit être collé à 'pointeur' et non à 'float'.",
+            "leurre2": "le type renvoyé par la fonction doit être de type 'void *'.",
+            "leurre3": "il faut indiquer le type du pointeur lors de l'appel de la fonction.",
+            "explication": "il y a * devant 'pointeur' lors de l'appel de la fonction.\nfonction(pointeur);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/6.4.png"
+        },
+        {
+            "titre": "Qu'est-ce qui ne va pas dans cette instruction ?",
+            "reponse": "le pointeur est de type 'int'.",
+            "leurre1": "il manque & devant pointeur lors de l’appel de la fonction.",
+            "leurre2": "lors de la création du pointeur, l’* doit être collé à 'pointeur' et non à 'float'.",
+            "leurre3": "le type renvoyé par la fonction doit être de type 'void *'.",
+            "explication": "le pointeur est de type 'int'.\nfloat *pointeur = &variable;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/6.5.png"
+        },
+        {
+            "titre": "Qu'est-ce qui ne va pas dans cette instruction ?",
+            "reponse": "la fonction retourne quelque chose.",
+            "leurre1": "dans la déclaration de la fonction, 'var' doit porter le même nom que le pointeur.",
+            "leurre2": "il manque & devant pointeur lors de l’appel de la fonction.",
+            "leurre3": "lors de la création du pointeur, l’* doit être collé à 'pointeur' et non à 'float'.",
+            "explication": "la fonction retourne quelque chose.\nelle ne devrait rien retourner.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/6.6.png"
+        },
+        {
+            "titre": "Qu'est-ce qui ne va pas dans cette instruction ?",
+            "reponse": "il manque le type du pointeur dans la définition de la fonction.",
+            "leurre1": "le type renvoyé par la fonction doit être de type 'void *'.",
+            "leurre2": "dans la déclaration de la fonction, 'var' doit porter le même nom que le pointeur.",
+            "leurre3": "il manque & devant pointeur lors de l’appel de la fonction.",
+            "explication": "il manque le type du pointeur dans la définition de la fonction.\nvoid fonction(float *var) {",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/6.7.png"
+        },
+        {
+            "titre": "Est-ce que l'expression suivante agit sur l'adresse ou la valeur ?",
+            "reponse": "adresse",
+            "leurre1": "valeur",
+            "explication": "adresse",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/7.1.png"
+        },
+        {
+            "titre": "Est-ce que l'expression suivante agit sur l'adresse ou la valeur ?",
+            "reponse": "adresse",
+            "leurre1": "valeur",
+            "explication": "adresse",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/7.2.png"
+        },
+        {
+            "titre": "Est-ce que l'expression suivante agit sur l'adresse ou la valeur ?",
+            "reponse": "valeur",
+            "leurre1": "adresse",
+            "explication": "valeur",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/7.3.png"
+        },
+        {
+            "titre": "Est-ce que l'expression suivante agit sur l'adresse ou la valeur ?",
+            "reponse": "adresse",
+            "leurre1": "valeur",
+            "explication": "adresse",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/7.4.png"
+        },
+        {
+            "titre": "Est-ce que l'expression suivante agit sur l'adresse ou la valeur ?",
+            "reponse": "adresse",
+            "leurre1": "valeur",
+            "explication": "adresse",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/7.5.png"
+        },
+        {
+            "titre": "Est-ce que l'expression suivante agit sur l'adresse ou la valeur ?",
+            "reponse": "valeur",
+            "leurre1": "adresse",
+            "explication": "valeur",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/7.6.png"
+        },
+        {
+            "titre": "Est-ce que l'expression suivante agit sur l'adresse ou la valeur ?",
+            "reponse": "valeur",
+            "leurre1": "adresse",
+            "explication": "valeur",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/7.7.png"
+        },
+        {
+            "titre": "Quelle est la différence entre ces 2 écritures ?",
+            "reponse": "aucune",
+            "leurre1": "le premier accède au contenu d'une variable.\nle deuxième est destiné à être utilisé avec un tableau.",
+            "leurre2": "le premier accède au contenu d'une variable.\nle deuxième est une erreur de syntaxe.",
+            "leurre3": "le premier ne sert qu'à l'affichage.\nle deuxième est destiné à être utilisé avec un tableau.",
+            "explication": "aucune",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/8.1.png"
+        },
+        {
+            "titre": "Quelle est la différence entre ces 2 écritures ?",
+            "reponse": "aucune",
+            "leurre1": "le premier est un accès à un tableau par pointeur.\nle deuxième est un tableau à deux dimensions.",
+            "leurre3": "est un tableau de chaîne de caractères.\nle deuxième est un tableau à deux dimensions.",
+            "explication": "aucune",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/8.2.png"
+        },
+        {
+            "titre": "Est-ce qu'un pointeur peut pointer une variable de structure entière ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui",
+            "image": ""
+        },
+        {
+            "titre": "Est-il nécessaire d'utiliser '&' dans l'instruction suivante",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/9.1.png"
+        },
+        {
+            "titre": "Peut-on initialiser un pointeur avec un tableau ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce qu'un pointeur peut porter un nom identique à une variable ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non",
+            "image": ""
+        },
+        {
+            "titre": "Après les déclarations 'int nb = 42;' et 'int* pNb = &nb', 'nb' aura pour valeur 42.",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui",
+            "image": ""
+        },
+        {
+            "titre": "est-il possible d'initialiser un pointeur de la manière suivante ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_pointeur/9.2.png"
+        }
+    ]
+}

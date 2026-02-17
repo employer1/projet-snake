@@ -1,0 +1,1251 @@
+{
+    "titre": "Administration Windows",
+    "type": "txt",
+    "questionnaire": [
+        {
+            "question": "Que comprend la gestion d'un parc informatique ?",
+            "reponse_multiple_totale_multiple": [["inventor", "machine"], ["administre", "serveur", "service"], ["gere", "securite", "utilisateur", "acce"], ["assure", "evolutivite", "parc"], [["garantir", "assure"], "fonctionnement", "optimal"]],
+            "explication": "Inventoriser les machines - administrer les serveurs et services - gérer la sécurité, les utilisateurs, les accès - assurer l'évolutivité du parc - garantir un fonctionnement optimal."
+        },
+        {
+            "question": "Quelles sont les 3 éditions de Windows Server OS ?",
+            "reponse_totale": ["standard", "datacenter", "azure", "edition"],
+            "explication": "Standard - Datacenter - Datacenter Azure Edition."
+        },
+        {
+            "question": "Quelle est la particularité de Windows Server Standard ?",
+            "reponse_totale": ["purement", "physique", "faiblement", "virtualise"],
+            "explication": "Purement physiques ou faiblement virtualisé."
+        },
+        {
+            "question": "Quelle est la particularité de Windows Server Datacenter ?",
+            "reponse_totale_multiple": [["datacenter", "cloud","environnement"], ["hautement", "tres"], ["virtualise", "virtuel"]],
+            "explication": "Pour datacenter et environnements cloud hautement virtualisé."
+        },
+        {
+            "question": "Quelle est la particularité de Windows Server Datacenter Azure Edition ?",
+            "reponse_totale": ["specifiquement","heberge", "azure"],
+            "explication": "Spécifiquement prévu pour être hébergé sur Azure"
+        },
+        {
+            "question": "Quels sont les 2 types d'installations disponible ?",
+            "reponse_totale": ["core", "desktop", "experience"],
+            "explication": "Core - Desktop Experience"
+        },
+        {
+            "question": "Quels sont les particularités de l'installation Core ?",
+            "reponse_totale_multiple": [["environnement","interface"], "graphique", "suppression", "element"],
+            "explication": "Pas d'environnement graphique - Suppression des éléments superflus"
+        },
+        {
+            "question": "Quelle est la particularité de l'installation Desktop Experience ?",
+            "reponse_totale_multiple": [["environnement","interface"], "graphique"],
+            "explication": "Environnement graphique"
+        },
+        {
+            "question": "Quel onglet fourni une série d'informations sur le serveur local ?",
+            "reponse_totale": ["local", "server"],
+            "explication": "Local Server"
+        },
+        {
+            "question": "Que permet l'onglet Local Server sur Windows Server ?",
+            "reponse_totale": [["fourni","affiche"], "information", "serveur", "local"],
+            "explication": "Fourni une série d'informations sur le serveur local."
+        },
+        {
+            "question": "Quel onglet donne une visibilité sur tous les serveurs enregistrés ?",
+            "reponse_totale": ["all", "server"],
+            "explication": "All Server"
+        },
+        {
+            "question": "Que permet l'onglet All Servers sur Windows Server ?",
+            "reponse_totale_multiple": [["visible", "visibili"], "serveur", "enregistre"],
+            "explication": "Visibilité sur tous les serveurs enregistrés."
+        },
+        {
+            "question": "Qu'est-ce qu'un rôle ?",
+            "reponse_totale": ["fonction", "serveur", "assure"],
+            "explication": "Une fonction que le serveur va assurer."
+        },
+        {
+            "question": "De quoi a besoin un rôle pour fonctionner ?",
+            "reponse_totale": ["fonctionnalite"],
+            "explication": "Fonctionnalité"
+        },
+        {
+            "question": "Sur quoi s'appuie les fonctionnalités pour fonctionner ?",
+            "reponse_totale": ["service"],
+            "explication": "Des Services"
+        },
+        {
+            "question": "Qu'est-ce que Windows Admin Center ?",
+            "reponse_totale": ["ensemble", "outil", "groupe", "page", "web"],
+            "explication": "Ensemble d'outils regroupés dans une page web."
+        },
+        {
+            "question": "Que permet Windows Admin Center ?",
+            "reponse_multiple_totale_multiple": [["administrer", "serveur"], ["remplacer", "gestionnaire", "serveur"]],
+            "explication": "Administrer un serveur local ou distant - Permet de remplacer le gestionnaire de server."
+        },
+        {
+            "question": "Comment agis Windows Admin Center avec les clients ?",
+            "reponse_totale": ["gateway", "fourni", "acces", "web", "client"],
+            "explication": "Agit comme une gateway et fourni un accès Web aux clients."
+        },
+        {
+            "question": "Que signifie AD DS ?",
+            "reponse": "active directory domain service",
+            "explication": "Active Directory Domain Services"
+        },
+        {
+            "question": "Que permet Active Directory Domain Services ?",
+            "reponse_multiple_totale": [["gestion", "centralise", "utilisateur", "ressource", "identification", "authentification"], ["organisation", "hierarchique", "element", "reseau"]],
+            "explication": "Gestion centralisée des comptes utilisateurs, ressources, identification, authentification dans un réseau - Organisation hiérarchique des éléments d'un réseau tels que les utilisateurs, ordinateurs et autres périphériques."
+        },
+        {
+            "question": "Comment se nomme le serveur qui va exécuter l'AD DS ?",
+            "reponse_multiple_totale": [["controleur", "domaine"],["domain","controller"]],
+            "explication": "Contrôleur de domaine."
+        },
+        {
+            "question": "Qu'est-ce que le contrôleur de domaine ?",
+            "reponse_totale_multiple": ["serveur", "controle", ["ad ds", "active"]],
+            "explication": "Le serveur qui va exécuter l'AD DS."
+        },
+        {
+            "question": "Que fourni le rôle d'AD CS ?",
+            "reponse_totale": ["service", "creation", "gestion", "certificat", "numerique"],
+            "explication": "Services personnalisables pour la création et la gestion de certificats numériques utilisés dans le systèmes de sécurité logicielle employant des techniques de clé publique."
+        },
+        {
+            "question": "Que peut fournir AD CS ?",
+            "reponse_totale": ["certificat", "numerique"],
+            "explication": "Des certificats numériques."
+        },
+        {
+            "question": "Pour quoi peuvent être utilisés les certificats numérique fournit par AD CS ?",
+            "reponse_totale": ["chiffre", "signe", "numerique", "document", "electronique", "message"],
+            "explication": "Chiffrer et signer numériquement des documents électroniques et des messages."
+        },
+        {
+            "question": "Qu'est-ce qu'AD FS ?",
+            "reponse_totale": ["role"],
+            "explication": "Un rôle"
+        },
+        {
+            "question": "Que signifie AD FS ?",
+            "reponse": "active directory federation service",
+            "explication": "Active Directory Federation Service"
+        },
+        {
+            "question": "Que fourni AD FS ?",
+            "reponse_totale": ["technologie", "ouverture", "session", "web", "unqiue", "authentifier", "utilisateur", "application", "ligne"],
+            "explication": "Technologies d'ouverture de session web unique pour authentifier un utilisateur dans plusieurs applications web à travers la durée de vie d'une session en ligne unique."
+        },
+        {
+            "question": "Que signifie SSO ?",
+            "reponse": "single sign on",
+            "explication": "Single Sign-On"
+        },
+        {
+            "question": "Que signifie AD LDS ?",
+            "reponse": "active directory lightweight directory service",
+            "explication": "Active directory lightweight directory service"
+        },
+        {
+            "question": "Qu'est-ce qu'AD LDS ?",
+            "reponse_totale_multiple": ["service", "ldap", "standard", ["utilise", "utilisa"], "application", "concu", "utilise", "annuaire"],
+            "explication": "Des services LDAP standards utilisables par des applications conçues pour utiliser des services d'annuaire."
+        },
+        {
+            "question": "Que signifie AD RMS ?",
+            "reponse": "active directory right management service",
+            "explication": "Active Directory Right Management Service"
+        },
+        {
+            "question": "Que permet AD RMS ?",
+            "reponse_multiple_totale": [["protection", "information", "sensible"], ["gestion", "droit", "acces"]],
+            "explication": "Protection des informations sensibles - gestion des droits d'accès"
+        },
+        {
+            "question": "Est-ce que AD RMS utilise NTFS pour gérer les droits d'accès ?",
+            "reponse": "non",
+            "explication": "non"
+        },
+        {
+            "question": "Que signifie DHA ?",
+            "reponse": "device health attestation",
+            "explication": "Device Health Attestation"
+        },
+        {
+            "question": "Que permet device health attestation ?",
+            "reponse_totale": ["verifie", "configuration", "confiance", "active", "ordinateur", "client"],
+            "explication": "Vérifie que les configurations dignes de confiance sont activées sur les ordinateurs clients"
+        },
+        {
+            "question": "Comment DHA s'assure que les configurations sont digne de confiance ?",
+            "reponse_multiple_totale": [["utilisation", "bitlocker"], ["securis", "bios"], ["securise", "boot"], "tpm", ["verification", "integrite", "code"]],
+            "explication": "Utilisation d'un bitlocker pour chiffrer les données du HDD - Sécurise le BIOS - Sécurise le boot - Module de plateforme sécurisée (TPM) - Vérification de l'intégrité du code avant de charger un driver."
+        },
+        {
+            "question": "A quoi sert DHCP Server",
+            "reponse_totale": ["assure", "configuration", "automatique", "interface", "reseau", "client"],
+            "explication": "Assure la configuration automatique des interfaces réseaux des clients."
+        },
+        {
+            "question": "A quoi sert DNS Server ?",
+            "reponse_totale": ["traduire", "nom", "domaine", "adresse", "ip"],
+            "explication": "Permet de traduire un nom de domaine en adresse IP."
+        },
+        {
+            "question": "A quoi sert File and Storage Services ?",
+            "reponse_totale_multiple": [["creation", "cree"], ["gestion", "gere"], "fichier", "serveur"],
+            "explication": "Création et gestion de fichier de serveur."
+        },
+        {
+            "question": "A quoi sert Host Gardian Services ?",
+            "reponse_totale": ["cree", "machine", "virtuelle", "blinde"],
+            "explication": "Créer des machines virtuelles blindées"
+        },
+        {
+            "question": "Qu'est-ce qu'Hyper-V ?",
+            "reponse_totale": ["systeme", "virtualisation", "microsoft"],
+            "explication": "Système de virtualisation de Microsoft"
+        },
+        {
+            "question": "Que signifie NPAS ?",
+            "reponse": "network policy and access services",
+            "explication": "Network Policy and Access Services"
+        },
+        {
+            "question": "Que permet NPAS ?",
+            "reponse_multiple_totale": [["technologie", "radius"], ["renforce", "authentification", "acces", "reseau"]],
+            "explication": "Fourni des technologies permettant de déployer des Radius - Défini et renforce les règles d'authentification et d'accès aux réseaux."
+        },
+        {
+            "question": "Que signifie RADIUS ?",
+            "reponse": "remote authentication dial-in user service",
+            "explication": "Remote Authentication Dial-In User Service"
+        },
+        {
+            "question": "A quoi sert Print and Document Service ?",
+            "reponse_multiple_totale": [["partage", "imprimante", "scanner", "reseau"], ["configuration", "serveur", "impression", "scan"], ["centralise", "tache", "scan", "impression"]],
+            "explication": "Partage d'imprimante et scanners sur le réseau - Configuration de serveurs d'impression et de scan - centralise les tâches de scan et d'impression."
+        },
+        {
+            "question": "A quoi sert remote access ?",
+            "reponse_totale": ["fourniture", "fonctionnalite", "routage", "vpn"],
+            "explication": "Fourniture de fonctionnalité de routage et de VPN"
+        },
+        {
+            "question": "A quoi sert Remote Desktop Service ?",
+            "reponse_totale": ["fourni", "utilisateur", ["connectivite", "connection"], "ordinateur", "windows"],
+            "explication": "Fournit à l'utilisateur final d'une connectivité à un ordinateur Windows."
+        },
+        {
+            "question": "A quoi sert Volume Activation Service ?",
+            "reponse_multiple_totale": [["automatisation", "simplification", "gestion", "licenses", "microsoft"], ["utilisation", "kms"]],
+            "explication": "Automatisation et simplification de la gestion des licenses de type Microsoft - Utilisation du services KMS."
+        },
+        {
+            "question": "Que signifie KMS ?",
+            "reponse": "key management service",
+            "explication": "Key Management Service"
+        },
+        {
+            "question": "A quoi sert Web Server ?",
+            "reponse_totale": ["server", "web", "ftp"],
+            "explication": "Server web et FTP"
+        },
+        {
+            "question": "A quel rôle est associé l'acronyme IIS ?",
+            "reponse_totale": ["web", "server"],
+            "explication": "Web Server"
+        },
+        {
+            "question": "A quoi sert Windows Deployment Service ?",
+            "reponse_multiple_totale": [["deploiement", "automatise", "ditance", "OS"], ["boot", "xpe"]],
+            "explication": "Deploiement automatisé et à distance d'OS Windows - Boot PXE"
+        },
+        {
+            "question": "A quoi sert Windows Server Update Service ?",
+            "reponse_totale_multiple": [["gere", "gestion"], "distribution", "mises", "jour", "microsoft"],
+            "explication": "Gestion et distribution des mises à jour Microsoft."
+        },
+        {
+            "question": "De quoi a besoin WSUS pour fonctionner ?",
+            "reponse_totale": ["serveur", "iis"],
+            "explication": "un serveur IIS"
+        },
+        {
+            "question": "Que signifie WSUS ?",
+            "reponse": "windows server update service",
+            "explication": "Windows Server Update Service"
+        },
+        {
+            "question": "Combien de type d'Hyper Viseur existe-t-il ?",
+            "reponse_multiple": ["deux", "2"],
+            "explication": "2"
+        },
+        {
+            "question": "Qu'est-ce qu'un hyper viseur de type 1 ?",
+            "reponse_totale": ["installe", "directement", "couche", "materiel"],
+            "explication": "Il est installé directement sur la couche matérielle."
+        },
+        {
+            "question": "Qu'est-ce qu'un hyperviseur de type 2 ?",
+            "reponse_totale_multiple": ["logiciel", "execute", "machine", ["possede", "posseda"], "os"],
+            "explication": "Il est considéré comme un logiciel exécuté sur une machine possédant déjà un OS."
+        },
+        {
+            "question": "Comment un hyper viseur de type 1 alloue-t-il la couche matérielle ?",
+            "reponse_totale": ["alloue", "totalite", "couche", "materiel"],
+            "explication": "Il alloue la quasi-totalité de la couche matérielle."
+        },
+        {
+            "question": "Comment un hyper viseur de type 2 alloue-t-il la couche matérielle ?",
+            "reponse_totale": ["laisse", "hote", "ressource"],
+            "explication": "Il alloue les ressources de manière a en laisser à l'OS hôte."
+        },
+        {
+            "question": "De quel type est Hyper-V ?",
+            "reponse_multiple": ["1", "un"],
+            "explication": "1"
+        },
+        {
+            "question": "Quelle est la particularité principale d'Hyper-V ?",
+            "reponse_totale": ["communique", "directement", "hardware"],
+            "explication": "Il communique directement avec le hardware."
+        },
+        {
+            "question": "Quelles sont les caractéristiques d'Hyper-V en tant qu'Hyper viseur ?",
+            "reponse_totale_multiple": [["emulateur", "emulation"], "bios", "ordinateur", "physique", "allocation", "dynamique", "ram", "nombre", "cpu"],
+            "explication": "Emulation du BIOS de l'ordinateur physique - Allocation dynamique de la RAM - Allocation d'un certains nombre de CPU"
+        },
+        {
+            "question": "Qu'est-ce que la virtualisation Nested ?",
+            "reponse_totale_multiple": [["machine", "vm"], "execute", "vm"],
+            "explication": "VM exécutée dans une autre VM."
+        },
+        {
+            "question": "Quels sont les extensions des HDD virtuel ?",
+            "reponse_totale": ["vhd", "vhdx"],
+            "explication": "vhd - vhdx"
+        },
+        {
+            "question": "Quels sont les types d'HDD virtuels ?",
+            "reponse_totale": ["fixe", "dynamique", "pass-through"],
+            "explication": "Fixe - dynamique - pass-through"
+        },
+        {
+            "question": "A quoi servent les disques de différentiation ?",
+            "reponse_totale_multiple": [["cree", "creation"], "disque", "parent", "commun", ["vm", "machine virtuel"], "propre", "modification"],
+            "explication": "Création d'un disque parent commun à plusieurs VM et ensuite un disque propre à chaque VM contenant les modifications."
+        },
+        {
+            "question": "Qu'est-ce qu'un cluster HA ?",
+            "reponse_totale": ["groupe", "serveur", "fonctionne", "systeme", "unifie"],
+            "explication": "Groupe de serveur configuré pour fonctionner comme un système unifié"
+        },
+        {
+            "question": "Qu'est-ce qu'un cluster HA ?",
+            "reponse_totale": ["assure", "continuite", "service", "panne"],
+            "explication": "assure la continuité du service en cas de panne de l'un des composants."
+        },
+        {
+            "question": "Est-il possible de redimensionner un disque virtuel sans arrêter la VM avec Hyper-V ?",
+            "reponse": "oui",
+            "explication": "Oui"
+        },
+        {
+            "question": "Qu'est-ce qu'un checkpoint ?",
+            "reponse_totale": ["sauvegarde", ["vm", "machine virtuel"], "moment", "donne"],
+            "explication": "Une sauvegarde de la VM à un moment donné."
+        },
+        {
+            "question": "Que ce passe-t-il si un checkpoint est effectué lorsque la VM est active ?",
+            "reponse_totale": [["memoire vive", "ram"], "sauvegarde"],
+            "explication": "La mémoire vive est également sauvegardée."
+        },
+        {
+            "question": "Quels sont les 2 types de checkpoint ?",
+            "reponse_totale": ["production", "standard"],
+            "explication": "Production - standard"
+        },
+        {
+            "question": "Quelle est la spécificité du checkpoint production ?",
+            "reponse_totale": ["image", "etat", "application", "machine"],
+            "explication": "N'inclut pas une image de l'état des applications de la machine."
+        },
+        {
+            "question": "Quelle est la spécificité du checkpoint standard ?",
+            "reponse_totale": ["cree", "image", "trouve", ["vm", "machine virtuel"], "moment", "checkpoint"],
+            "explication": "Créer une image consistante permettant de retrouver la machine dans l'état où elle était au moment du checkpoint."
+        },
+        {
+            "question": "Quel est l'autre nom donné au checkpoint ?",
+            "reponse": "snapshot",
+            "explication": "Snapshot"
+        },
+        {
+            "question": "Combien de type de switch virtuel existe-t-il ?",
+            "reponse_multiple": ["3", "trois"],
+            "explication": "3"
+        },
+        {
+            "question": "Quels sont les différents types de switch virtuels existant ?",
+            "reponse_totale": ["externe", "interne", "prive"],
+            "explication": "Externe - interne - privé"
+        },
+        {
+            "question": "Qu'est-ce qu'un switch virtuel externe ?",
+            "reponse_totale": ["utilise", "carte", "reseau", "machine", "hote"],
+            "explication": "Il utilise la carte réseau de la machine hôte."
+        },
+        {
+            "question": "A quelle configuration équivaut un switch virtuel externe sur virtual box ?",
+            "reponse_totale": ["bridge"],
+            "explication": "Une configuration bridge."
+        },
+        {
+            "question": "Qu'est-ce qu'un switch virtuel interne ?",
+            "reponse_totale_multiple": [["creation","cree"], "reseau", ["vm", "machine virtuel"], "hote"],
+            "explication": "Création d'un réseau entre les VM's et la machine hôte. Pas d'accès à la carte réseau de l'hôte, donc pas d'accès au réseau local."
+        },
+        {
+            "question": "Qu'est-ce qu'un switch virtuel privé ?",
+            "reponse_totale": [["cree", "creation"], "reseau", ["vm", "machien virtuel"]],
+            "explication": "Création d'un réseau entre les VM's uniquement. L'hôte n'a pas accès à ce réseau."
+        },
+        {
+            "question": "Qu'est-ce qu'un DNS ?",
+            "reponse_totale": ["resolveur", "nom", "domaine"],
+            "explication": "C'est un résolveur de nom de domaine."
+        },
+        {
+            "question": "dans le lien https://www.fr.wikipedia.org./contact, a quoi correspond le préfixe/protocole ?",
+            "reponse": "https://",
+            "explication": "https://"
+        },
+        {
+            "question": "A quoi correspond https:// dans le lien https://www.fr.wikipedia.org./contact ?",
+            "reponse_totale": ["prefixe", "protocol"],
+            "explication": "prefixe - protocole"
+        },
+        {
+            "question": "dans le lien https://www.fr.wikipedia.org./contact, a quoi correspond le sous-domaine ?",
+            "reponse": "www",
+            "explication": "www"
+        },
+        {
+            "question": "a quoi correspond www dans le lien https://www.fr.wikipedia.org./contact ?",
+            "reponse_totale": ["sous-domaine"],
+            "explication": "le sous-domaine"
+        },
+        {
+            "question": "dans le lien https://www.fr.wikipedia.org./contact, a quoi correspond le domaine ?",
+            "reponse": "fr.wikipedia",
+            "explication": "fr.wikipedia."
+        },
+        {
+            "question": "a quoi correspond fr.wikipedia. dans le lien https://www.fr.wikipedia.org./contact ?",
+            "reponse_totale": ["domaine"],
+            "explication": "au domaine"
+        },
+        {
+            "question": "dans le lien https://www.fr.wikipedia.org./contact, a quoi correspond l'extension ?",
+            "reponse": "org.",
+            "explication": "org."
+        },
+        {
+            "question": "a quoi correspond org. dans le lien https://www.fr.wikipedia.org./contact ?",
+            "reponse_totale": ["extenstion"],
+            "explication": "l'extension"
+        },
+        {
+            "question": "dans le lien https://www.fr.wikipedia.org./contact, a quoi correspond la page demandée ?",
+            "reponse": "/contact",
+            "explication": "/contact"
+        },
+        {
+            "question": "a quoi correspond /contact dans le lien https://www.fr.wikipedia.org./contact ?",
+            "reponse_totale": ["page", "demande"],
+            "explication": "La page demandée"
+        },
+        {
+            "question": "A quoi sert le préfixe/protocole dans une URL ?",
+            "reponse_totale": ["protocole", "utilise"],
+            "explication": "indique le protocole à utiliser."
+        },
+        {
+            "question": "A quoi correspond le domaine + extension + . dans une URL ?",
+            "reponse_totale": ["fqdn"],
+            "explication": "Au FQDN"
+        },
+        {
+            "question": "Que signifie FQDN ?",
+            "reponse": "full qualified domain name",
+            "explication": "Full Qualified Domain Name"
+        },
+        {
+            "question": "Dans quel sens se lit un FQDN ?",
+            "reponse_totale": ["droite", "gauche"],
+            "explication": "de droite à gauche."
+        },
+        {
+            "question": "Que ce passe-t-il lorsqu'aucune page n'est pas précisée ?",
+            "reponse_totale": ["pointe", "page", "defaut"],
+            "explication": "Pointe vers une page par défaut"
+        },
+        {
+            "question": "Que représente le point tout à droite dans fr.wikipedia.org. ?",
+            "reponse_totale": ["domaine", "racine"],
+            "explication": "Le domaine racine"
+        },
+        {
+            "question": "que représente org dans fr.wikipedia.org. ?",
+            "reponse_totale": ["extension", "domaine", "premier", "niveau"],
+            "explication": "l'extension du domaine de premier niveau"
+        },
+        {
+            "question": "Que représente wikipédia dans fr.wikipedia.org. ?",
+            "reponse_totale": ["domaine", "second", "niveau"],
+            "explication": "Le domaine de second niveau"
+        },
+        {
+            "question": "Quels est le nombre de serveur racine (spéciaux) dans le monde ?",
+            "reponse_multiple": ["13", "treize"],
+            "explication": "13"
+        },
+        {
+            "question": "Est-ce que le rôle DNS peut être installé sur un Domain Controller ?",
+            "reponse": "oui",
+            "explication": "oui"
+        },
+        {
+            "question": "Est-ce que le rôle DNS peut être installé sur un server Membre ?",
+            "reponse": "oui",
+            "explication": "oui"
+        },
+        {
+            "question": "Est-ce que la zone DNS peut être intégré à l'AD si le serveur est seulement un serveur membre ?",
+            "reponse": "non",
+            "explication": "non"
+        },
+        {
+            "question": "Est-ce que la zone DNS peut être intégrée à l'AD si le serveur est un Domain Controller ?",
+            "reponse": "oui",
+            "explication": "oui"
+        },
+        {
+            "question": "A quoi sert le Cache DNS ?",
+            "reponse_totale": ["stocker", "resolution", "nom", "domaine"],
+            "explication": "A stocker un grand nombre de résolution de nom de domaine."
+        },
+        {
+            "question": "A l'aide de quelle commande peut-on consulter le cache DNS ?",
+            "reponse": "ipconfig /diplaydns",
+            "explication": "ipconfig /displaydns"
+        },
+        {
+            "question": "Qu'est-ce qu'un enregistrement DNS de type A ?",
+            "reponse_totale": ["lien", "nom", "hote", "adresse", "ipv4"],
+            "explication": "Lien entre nom d'hôte et une adresse IPv4."
+        },
+        {
+            "question": "Qu'est-ce qu'un enregistrement DNS de type AAAA ?",
+            "reponse_totale": ["lien", "nom", "hote", "adresse", "ipv6"],
+            "explication": "Lien entre nom d'hôte et une adresse IPv6."
+        },
+        {
+            "question": "Qu'est-ce qu'un enregistrement DNS de type PTR ?",
+            "reponse_totale": ["lien", "adresse", "ip", "nom", "hote"],
+            "explication": "Lien entre une adresse IP et un nom d'hôte."
+        },
+        {
+            "question": "Qu'est-ce qu'un enregistrement DNS de type CNAME ?",
+            "reponse_totale": ["alias", "nom", "hote", "autre", "cname"],
+            "explication": "Alias d'un nom d'hôte vers un autre nom d'hôte ou autre CNAME."
+        },
+        {
+            "question": "Qu'est-ce qu'un enregistrement DNS de type MX ?",
+            "reponse_totale": ["enregistrement", "serveur", "messagerie"],
+            "explication": "Enregistrement d'un serveur de messagerie (Mail)."
+        },
+        {
+            "question": "Qu'est-ce qu'un enregistrement DNS de type NS ?",
+            "reponse_totale": ["enregistrement", "identifiant", "serveur", "dns", "zone"],
+            "explication": "Enregistrement identifiant les serveurs DNS de la zone DNS."
+        },
+        {
+            "question": "Qu'est-ce qu'un enregistrement DNS de type SRV ?",
+            "reponse_totale": ["defini", "serveur", "specifique", "application", "service"],
+            "explication": "Défini un serveur spécifique pour une application ou un service, notamment pour la répartition de charge."
+        },
+        {
+            "question": "Qu'est-ce qu'un enregistrement DNS de type SOA ?",
+            "reponse_totale": ["defini", "serveur", "maitre", "domaine"],
+            "explication": "Définit le serveur maître du domaine. Elle contient d'importantes informations concernant la zone DNS auquel il se rapporte."
+        },
+        {
+            "question": "Est-ce qu'il est possible d'avoir plusieurs enregistrements DNS de type SOA dans une zone DNS ?",
+            "reponse": "non",
+            "explication": "non"
+        },
+        {
+            "question": "Que signifie SOA ?",
+            "reponse": "start of authority",
+            "explication": "Start Of Authority"
+        },
+        {
+            "question": "Quel est le premier enregistrement créé dans une zone DNS ?",
+            "reponse": "soa",
+            "explication": "SOA"
+        },
+        {
+            "question": "Quels sont les types de recherche DNS qui existe ?",
+            "reponse_totale": ["recursive", "iterative"],
+            "explication": "recursives - itérative"
+        },
+        {
+            "question": "Comment fonctionne une recherche récursive ?",
+            "reponse_totale": ["dns", "interroge", "dns", "resoudre", "nom"],
+            "explication": "Le DNS va interroger d'autre DNS afin de résoudre le nom."
+        },
+        {
+            "question": "Comment fonctionne une recherche itérative ?",
+            "reponse_totale": ["dns", "autre", "dns", "resoudre", "nom"],
+            "explication": "Le DNS va retourner l'adresse d'un autre DNS qui peut résoudre le nom."
+        },
+        {
+            "question": "Qu'est-ce qu'un serveur DNS faisant autorité ?",
+            "reponse_multiple_totale": [["serveur", "dns", "resultat", "requete"], ["gere", "zone", "envoye"], ["interroge", "autre", "serveur", "dns"]],
+            "explication": "Un serveur DNS contenant le résultat de la requête DNS - Il gère la zone pour laquelle il est envoyé - Il n'a pas besoin d'interroger d'autres serveur DNS"
+        },
+        {
+            "question": "Qu'est-ce qu'une zone DNS ?",
+            "reponse_totale_multiple": [["portion", "partie"], "nom", "domaine", "gere", "serveur", "dns", "autorite", "zone"],
+            "explication": "Portion du nom de domaine gérée par le serveur DNS qui a autorité sur cette zone."
+        },
+        {
+            "question": "Qu'est-ce qu'une zone primaire ?",
+            "reponse_totale": ["serveur", "modifie", "enregistrement", "zone"],
+            "explication": "Le serveur peut modifier les enregistrements de sa zone."
+        },
+        {
+            "question": "Qu'est-ce qu'une zone secondaire ?",
+            "reponse_totale": ["copie", "zone", "primaire"],
+            "explication": "Copie d'une zone primaire."
+        },
+        {
+            "question": "Est-ce qu'une zone secondaire peut être modifiée ?",
+            "reponse": "non",
+            "explication": "non"
+        },
+        {
+            "question": "Qu'est-ce qu'une zone de stub ?",
+            "reponse_totale": ["copie", "zone"],
+            "explication": "Copie d'une zone."
+        },
+        {
+            "question": "Qu'est-ce qu'un forwarder ?",
+            "reponse_totale": ["adresse", "serveur", "dns", "contacter", "resoudre", "nom", "demande"],
+            "explication": "L'adresse d'un serveur DNS que l'on va contacter si on arrive pas à résoudre le nom demandé."
+        },
+        {
+            "question": "quelle commande permet de tester la résolution d'un nom de domaine ?",
+            "reponse": "nslookup",
+            "explication": "nslookup"
+        },
+        {
+            "question": "Que permet le protocole DHCP ?",
+            "reponse_totale": ["configuration", "automatique", "interface", "reseau"],
+            "explication": "Assure la configuration automatique des interfaces réseau."
+        },
+        {
+            "question": "Par quoi commence la configuration d'un serveur DHCP ?",
+            "reponse_totale": ["creation", "etendue"],
+            "explication": "la création d'une étendue."
+        },
+        {
+            "question": "Quelles sont les conditions afin qu'un client puisse avoir accès à un site web ?",
+            "reponse_totale": ["nom", "site", "resolu", "ip", "joignable", "client", "port", "defini", "configuration", "web", "serveur", "accessible", "binding", "lier", "domaine"],
+            "explication": "Le nom du site web doit pouvoir être résolu en adresse IP - L'adresse IP du site doit être joignable à partir du client - Le port défini dans la configuration du Web Server doit être accessible - Un binding doit être configuré pour lier l'adresse avec le nom de domaine du site correspondant"
+        },
+        {
+            "question": "Que permet entre autre un binding ?",
+            "reponse_totale": ["heberger", "site", "plusieur", "web", "serveur"],
+            "explication": "D'héberger plusieurs sites sur un même Web Server"
+        },
+        {
+            "question": "Quels sont les services proposés par le Remote Access ?",
+            "reponse_totale": ["direct", "access", "vpn", "routing", "web", "application", "proxy"],
+            "explication": "Direct Access and VPN - Routing - Web Application Proxy"
+        },
+        {
+            "question": "Est-ce que VPN fourni une méthode de connexion à distance ?",
+            "reponse": "oui",
+            "explication": "oui"
+        },
+        {
+            "question": "Est-ce que Direct Access fourni une méthode de connexion à distance ?",
+            "reponse": "oui",
+            "explication": "oui"
+        },
+        {
+            "question": "Que fait un VPN lors d'un Remote Access ?",
+            "reponse_totale": ["cree", "tunnel", "appareil", "entreprise"],
+            "explication": "Créé un tunnel entre l'appareil distant et l'entreprise"
+        },
+        {
+            "question": "Que permet Direct Access ?",
+            "reponse_totale": ["utilisateur", "acceder", "ressource", "entreprise", "distance"],
+            "explication": "Permet aux utilisateurs d'accéder aux ressources de l'entreprise à distance."
+        },
+        {
+            "question": "Si aucune connexion n'est effectuée à aucun VPN avant un Direct Access à quoi l'appareil qui tente de se connecter sera-t-il connecté ?",
+            "reponse_totale": ["domaine"],
+            "explication": "Au domaine"
+        },
+        {
+            "question": "Est-ce que le client Direct Access doit être joint au domaine Active Directory pour un Remote Access ?",
+            "reponse": "oui",
+            "explication": "oui"
+        },
+        {
+            "question": "Que permet le routing ?",
+            "reponse_totale": ["routage"],
+            "explication": "Routage"
+        },
+        {
+            "question": "Que permet Web Application Proxy ?",
+            "reponse_totale": ["acces", "application", "web", "entreprise", ["exterieur", "distance"], "securise"],
+            "explication": "Accès aux applications web de l'entreprise à partir de l'extérieur et de façon sécurisée."
+        },
+        {
+            "question": "Qu'est-ce que l'Active Directory ?",
+            "reponse_totale": ["service", "utilise", "gere", "authentification", "acces", "ressources", "reseau"],
+            "explication": "Ensemble de services utilisés pour gérer l'authentification et l'accès aux ressources d'un réseau."
+        },
+        {
+            "question": "Citez 3 rôle important de l'AD.",
+            "reponse_totale": ["ldap", "dns", "kerberos"],
+            "explication": "LDAP - DNS - Kerberos"
+        },
+        {
+            "question": "Que permet le protocole LDAP ?",
+            "reponse_totale": ["gere", "annuaire"],
+            "explication": "Gérer des annuaires."
+        },
+        {
+            "question": "Est-ce que l'AD est un annuaire LDAP ?",
+            "reponse": "oui",
+            "explication": "oui"
+        },
+        {
+            "question": "Que signifie LDAP ?",
+            "reponse": "lightweight directory access protocol",
+            "explication": "Lightweight directory access protocol"
+        },
+        {
+            "question": "A quoi sert un annuaire ?",
+            "reponse_totale": ["organise", "stocke", "chercher", "information", "structure"],
+            "explication": "A organiser, stocker et chercher des informations de manière structurée."
+        },
+        {
+            "question": "Que contient LDAP ?",
+            "reponse_totale": ["ou", "utilisateur", "ordinateur"],
+            "explication": "Des OU - utilisateurs - ordinateurs"
+        },
+        {
+            "question": "Qu'est-ce qu'une OU ?",
+            "reponse_totale": ["unite", "organisation"],
+            "explication": "Une unité d'organisation."
+        },
+        {
+            "question": "A quoi sert une OU ?",
+            "reponse_totale": ["simplifie", "administration", "deleguer", "droit", "politique", "securite", "cible", "hierarchise", "annuaire"],
+            "explication": "Il permet de simplifier l'administration et de déléguer des droits et des politiques de sécurité ciblées - Permet de hiérarchiser l'annuaire AD."
+        },
+        {
+            "question": "De quoi est composé chaque objet dans LDAP ?",
+            "reponse_totale": ["guid", "dn"],
+            "explication": "GUID - DN"
+        },
+        {
+            "question": "Que signifie GUID ?",
+            "reponse": "global unique identifier",
+            "explication": "global unique identifier"
+        },
+        {
+            "question": "que signifie DN ?",
+            "reponse": "distinguished name",
+            "explication": "distinguished Name"
+        },
+        {
+            "question": "A quoi sert Kerberos ?",
+            "reponse_totale": ["authentification", "securise", "reseau"],
+            "explication": "Authentification sécurisée sur un réseau"
+        },
+        {
+            "question": "Quels est le service proposé par Kerberos ?",
+            "reponse": "kdc",
+            "explication": "KDC"
+        },
+        {
+            "question": "Que signifie KDC ?",
+            "reponse": "key distribution center",
+            "explication": "Key distribution center"
+        },
+        {
+            "question": "Que fait KDC ?",
+            "reponse_totale": ["utilise", "ticket", "crypte", "utilisateur", "service", "prouve", "identite", "envoye", "passe"],
+            "explication": "Il utilise un système de ticket crypté pour permettre aux utilisateurs et aux services de prouver leur identité sans envoyer de mot de passe sur le réseau."
+        },
+        {
+            "question": "Que contient un ticket de kerberos ?",
+            "reponse_multiple_totale": [["information", "identifie", "element", "attribue"], ["cle", "session", "chiffrer", "communication", "securise", "echange"]],
+            "explication": "De nombreuses informations qui permettent d'identifier l'élément auquel est attribué ce ticket - Une clé de session qui permet de chiffrer les communications afin de sécuriser les échanges."
+        },
+        {
+            "question": "Un domaine doit-il contenir au moins un Domain Controller ?",
+            "reponse": "oui",
+            "explication": "oui"
+        },
+        {
+            "question": "Que permet un domaine ?",
+            "reponse_totale": ["imposer", "limite", "securise", "utilisateur"],
+            "explication": "Imposer des limites de sécurité aux utilisateurs."
+        },
+        {
+            "question": "Qu'est-ce qu'un arbre ?",
+            "reponse_totale": ["suite", "domaine", "partagent", "espace", "nom", "contigu"],
+            "explication": "Suite de domaine qui partagent un espace de noms contigu."
+        },
+        {
+            "question": "Quel type de relation lie les différents domaine entre eux dans un arbre ?",
+            "reponse_totale": ["parent", "enfant"],
+            "explication": "parent / enfant"
+        },
+        {
+            "question": "Qu'est-ce qu'une forêt ?",
+            "reponse_totale": ["collection", "domaine", "active", "directory"],
+            "explication": "Collection d'un ou plusieurs domaines Active Directory."
+        },
+        {
+            "question": "Comment se nomme le premier domaine installé dans une forêt ?",
+            "reponse_totale": ["domaine", "racine"],
+            "explication": "domaine racine"
+        },
+        {
+            "question": "Qu'est-ce qu'un domaine racine ?",
+            "reponse_totale": ["premier", "domaine", "installe", "foret"],
+            "explication": "Le premier domaine installé dans une forêt."
+        },
+        {
+            "question": "Quel nom est utilisé pour une forêt ?",
+            "reponse_totale": ["nom", "premier", "domaine", "installe"],
+            "explication": "Le nom du premier domaine installé."
+        },
+        {
+            "question": "Quels sont les 5 rôles FSMO ?",
+            "reponse_totale": ["maitre", "attribution", "nom", "domaine", "controleur", "schema", "rid", "infrastructure", "emulateur", "pdc"],
+            "explication": "maître d'attribution des noms de domaine - Contrôleur de schéma - Maître RID - Maître d'infrastructure - Emulateur PDC"
+        },
+        {
+            "question": "Que signifie FSMO ?",
+            "reponse": "flexible single master operation",
+            "explication": "flexible single master operation"
+        },
+        {
+            "question": "Où se trouve ces rôles ?",
+            "reponse_totale": ["foret"],
+            "explication": "Dans une forêt"
+        },
+        {
+            "question": "Le rôle Maître d'attribution des noms de domaine est présent sur tous les domaine d'une forêt.",
+            "reponse": "non",
+            "explication": "non"
+        },
+        {
+            "question": "Le rôle Contrôleur de Schéma est présent sur tous les domaine d'une forêt.",
+            "reponse": "non",
+            "explication": "non"
+        },
+        {
+            "question": "Le rôle Maître RID est présent sur tous les domaine d'une forêt.",
+            "reponse": "oui",
+            "explication": "oui"
+        },
+        {
+            "question": "Le rôle Maître d'infrastructure est présent sur tous les domaine d'une forêt.",
+            "reponse": "oui",
+            "explication": "oui"
+        },
+        {
+            "question": "Le rôle Emulateur PDC est présent sur tous les domaine d'une forêt.",
+            "reponse": "oui",
+            "explication": "oui"
+        },
+        {
+            "question": "Que fait le rôle Maître d'attribution des noms de domaine ?",
+            "reponse_totale_multiple": ["seul", "autorise", "distribuer", "nom", "domaine", "controleur", "creation", ["cree", "creation"], ["renomme", "reomma"]],
+            "explication": "Seul autorisé à distribuer des noms de domaine aux contrôleurs de domaine lors de la création d'un nouveau domaine ou un renommage de domaine."
+        },
+        {
+            "question": "Que fait le rôle Contrôleur de Schéma ?",
+            "reponse_totale_multiple": [["dc", "domain controleur"], "seul", "initie", "changment", "schema"],
+            "explication": "Le DC qui possède ce rôle est le seul à pouvoir initier des changements au niveau du schéma."
+        },
+        {
+            "question": "Que fait le rôle Maître RID ?",
+            "reponse_totale_multiple": ["alloue", "identification", "relatif", ["dc", "domain controleur"], "domaine"],
+            "explication": "Alloue des blocs d'identificateurs relatifs (RID) à chaque DC du domaine."
+        },
+        {
+            "question": "Que fait le rôle Maître d'infrastructure ?",
+            "reponse_totale": ["responsable", "surveillance", "objet", "domaine", "foret"],
+            "explication": "Responsable de la surveillance des objets des autres domaines de la forêt."
+        },
+        {
+            "question": "Que ce passe-t-il lorsque le rôle Maître d'infrastructure, lors de la présence dans une ACL, détecte un objet étranger à son domaine ?",
+            "reponse_totale": ["verification", "etat", "objet"],
+            "explication": "Il prend en charge la vérification de l'état de ces objets."
+        },
+        {
+            "question": "Que fait le rôle Emulateur PDC ?",
+            "reponse_multiple_totale": [["modification", "strategie", "groupe", "domaine"], ["synchronise", "horloge", "controleur", "domaine"], ["gere", "verrouillage", "compte"], ["change", "passe"], ["assure", "compatibilite", "controleur", "domaine", "windows", "nt"]],
+            "explication": "Modification des stratégies de groupe du domaine - Synchroniser les horloges sur tous les contrôleurs de domaine - Gérer le verrouillage des comptes - Changer les mots de passe - Assure la compatibilité avec les contrôleurs de domaine Windows NT."
+        },
+        {
+            "question": "Quelle commande Shell permet d'afficher quels sont les domaine qui distribuent les rôles FSMO ?",
+            "reponse": "netdom query fsmo",
+            "explication": "Netdom Query FSMO"
+        },
+        {
+            "question": "Le fichier est situé dans quel dossier de la base de données Active Directory ?",
+            "reponse": "%systemroot%\\NTDS\\NTDS.dit",
+            "explication": "%systemroot%\\NTDS\\NTDS.dit"
+        },
+        {
+            "question": "Quand sont créées les partitions d'une DB Active Directory ?",
+            "reponse_totale": ["etape", "promotion", "domaine", "server"],
+            "explication": "Lors de l'étape de promotion du Domaine Server"
+        },
+        {
+            "question": "Quels sont les différentes partitions d'une DB Active Directory ?",
+            "reponse_totale": ["schema", "configuration", "domaine", "dedie", "application"],
+            "explication": "Partition de schéma - Partition de configuration - Partition de domaine - Partition dédiée aux applications."
+        },
+        {
+            "question": "Que contient la partition de schéma d'une DB Active Directory ?",
+            "reponse_totale_multiple": ["attibut", "classe", ["tous", "tout"], "objet", ["peut", "peuv"], "cree"],
+            "explication": "Tous les attributs et classes de tous les objets qui peuvent être créés."
+        },
+        {
+            "question": "Que contient la partition de configuration d'une DB Active Directory ?",
+            "reponse_totale": ["decrit", "topologie", "annuaire"],
+            "explication": "Décrit la topologie de l'annuaire."
+        },
+        {
+            "question": "Que contient la partition de domaine d'une DB Active Directory ?",
+            "reponse_totale": ["information", "objet", "cree", "domaine"],
+            "explication": "Les informations sur les objets qui ont été créés dans le domaine."
+        },
+        {
+            "question": "Que contient la partition dédiée aux applications d'une DB Active Directory ?",
+            "reponse_totale": ["base", "donnee", "application"],
+            "explication": "La ou les bases de données des applications."
+        },
+        {
+            "question": "Qu'est-ce que le Global Catalog ?",
+            "reponse_multiple_totale_multiple": [["annuaire", "element", ["provenant", "provienne"], "foret"], ["authentifie", "utilisateur", "domaine"]],
+            "explication": "Un annuaire qui regroupe des éléments provenant de l'ensemble de la forêt - Il authentifie les utilisateurs au domaine."
+        },
+        {
+            "question": "Que contient le Global Catalog ?",
+            "reponse_totale": ["copie", "attribut", "principa", ""],
+            "explication": "Une copie des attributs principaux de tous les domaines de la forêt."
+        },
+        {
+            "question": "De quoi est capable un serveur Global Catalog ?",
+            "reponse_totale": ["localise", "objet", "ensemble", "foret"],
+            "explication": "De localiser des objets dans l'ensemble de la forêt, car il a une vue d'ensemble sur tous les objets."
+        },
+        {
+            "question": "Où se trouve le Global Catalog ?",
+            "reponse_totale": ["premier", "domaine", "foret"],
+            "explication": "Dans le premier Domaine créé au sein d'une forêt."
+        },
+        {
+            "question": "Quel outil est-il conseillé d'utiliser pour explorer une DB Active Directory ?",
+            "reponse_totale": ["adsi", "edit"],
+            "explication": "ADSI Edit"
+        },
+        {
+            "question": "Est-il conseillé d'explorer une DB Active Directory ?",
+            "reponse": "non",
+            "explication": "non"
+        },
+        {
+            "question": "Quels sont les principaux objets d'Active Directory ?",
+            "reponse_totale": ["utilisateur", "ordinateur", "groupe", "unite", "organisation", "imprimante"],
+            "explication": "Utilisateur - Ordinateur - Groupe - Unité d'organisation - Imprimante"
+        },
+        {
+            "question": "Que permet l'objet Utilisateur ?",
+            "reponse_totale": ["authentifie", "utilisateur", "physique", "ouvre", "session", "domaine"],
+            "explication": "Authentifie un utilisateur physique qui ouvre une session sur le domaine."
+        },
+        {
+            "question": "Que permet l'objet ordinateur ?",
+            "reponse_totale": ["authentifie", "poste", "physique", "virtuel", "domaine"],
+            "explication": "Authentifie un poste physique ou virtuel connecté au domaine."
+        },
+        {
+            "question": "Que permet l'objet Unité d'Organisation ?",
+            "reponse_totale": ["conteneur", "organisation", "objet", "hierarchique", "applique"],
+            "explication": "Conteneur qui permet l'organisation des objets de façon hiérarchique auquel sera éventuellement appliqué une ou plusieurs stratégies de groupe (GPO)."
+        },
+        {
+            "question": "Que signifie GPO ?",
+            "reponse": "group policy object",
+            "explication": "Group Policy Object"
+        },
+        {
+            "question": "A quoi sert un site AD ?",
+            "reponse_multiple_totale": [["decoupe", "domaine", "physique"], ["lien", "activite", "directory", "topologie", "entreprise"]],
+            "explication": "Permet de découper un domaine physiquement (géographiquement) - Permet de faire un lien entre l'Active Directory et la réalité physique de la topologie de l'entreprise."
+        },
+        {
+            "question": "Qu'est-ce que la réplication intersite ?",
+            "reponse_totale": ["processu", "synchronisation", "donne", "site"],
+            "explication": "Processus de synchronisation des données entre différents sites géographiques."
+        },
+        {
+            "question": "Quels sont les 2 protocoles pouvant être utilisés pour la réplication intersite ?",
+            "reponse_totale": ["ip", "smtp"],
+            "explication": "IP - SMTP"
+        },
+        {
+            "question": "Que signifie SMTP ?",
+            "reponse": "simple mail transfert protocol",
+            "explication": "Simple mail transfert protocol"
+        },
+        {
+            "question": "Dans quel cas le protocole SMTP est-il préférable au protocole IP dans la réplication intersite ?",
+            "reponse_totale": ["connexion", "fiable"],
+            "explication": "Lorsque la connexion n'est pas fiable."
+        },
+        {
+            "question": "Que permet le protocole SMTP lors de réplication intersite ?",
+            "reponse_totale": ["utilisation", "ca"],
+            "explication": "Utilisation de CA."
+        },
+        {
+            "question": "Quels sont les conditions pour qu'un serveur puisse être promu Domain Controller ?",
+            "reponse_totale_multiple": ["volume", "partition", "formate", "ntfs", "hostname", ["15", "quinze"], "caractere", "adresse", "ip", "statique", "nom", "domaine", "dns", "serveur", "dns", "necessaire"],
+            "explication": "Les volumes et partitions doivent être formatées en NTFS - Un hostname de maximum 15 caractères - Adressage IPv4 ou IPv6 statique recommandé - Nom de domaine utilisé sous forme d'un nom DNS - Un serveur DNS est nécessaire."
+        },
+        {
+            "question": "Quel est l'intérêt d'ajouter un DC (RWDC) ?",
+            "reponse_totale": ["assure", "tolerance", "panne"],
+            "explication": "Assurer une tolérance de panne."
+        },
+        {
+            "question": "Que signifie RWDC ?",
+            "reponse": "read-write domain controller",
+            "explication": "Read-Write Domain Controller"
+        },
+        {
+            "question": "Qu'est-ce qu'un RODC ?",
+            "reponse_totale": ["controleur", "domaine", "possede", "unqiuement", "droit", "lecture", "base", "donne", ["ad", "active directory"]],
+            "explication": "Un contrôleur de domaine qui possède uniquement des droits de lecture sur la base de données Active Directory."
+        },
+        {
+            "question": "Que signifie RODC ?",
+            "reponse": "read-only domain controller",
+            "explication": "Read-Only Domain Controller"
+        },
+        {
+            "question": "Qu'est-ce que le mode DSRM ?",
+            "reponse_totale": ["demarrage", "recovery"],
+            "explication": "Mode de démarrage en recovery. Ce mode permet à un administrateur de restaurer ou réparer une base de données Active Directory."
+        },
+        {
+            "question": "Que signifie DSRM ?",
+            "reponse": "directory service restore mode",
+            "explication": "Directory Services Restore Mode"
+        },
+        {
+            "question": "Quels sont les différents objets que l'AD gère ?",
+            "reponse_totale": ["compte", "utilisateur", "groupe", "ordinateur"],
+            "explication": "Comptes utilisateur - Groupes - comptes ordinateur"
+        },
+        {
+            "question": "Comment est prouver l'identité d'un utilisateur lorsqu'il veut se connecter ?",
+            "reponse_totale": ["login", "passe"],
+            "explication": "login et mot de passe"
+        },
+        {
+            "question": "Où peuvent être stocké les identifiants d'un utilisateur ?",
+            "reponse_multiple": ["locaux", "sam", "domaine", "ad"],
+            "explication": "locaux (stocké dans la base SAM) - domaine (stocké dans l'AD)"
+        },
+        {
+            "question": "Quels sont les différents type d'utilisateur ?",
+            "reponse_totale": ["normal", "itinerant", "obligatoire"],
+            "explication": "normal - itinérant - obligatoire"
+        },
+        {
+            "question": "Où est stocké un utilisateur normal ?",
+            "reponse_totale": ["ordinateur", "connecte"],
+            "explication": "Sur l'ordinateur ou il est connecté."
+        },
+        {
+            "question": "Où est stocké un utilisateur itinérant ?",
+            "reponse_totale": ["serveur", "fichier"],
+            "explication": "Sur un serveur de fichier"
+        },
+        {
+            "question": "Pourquoi un profil obligatoire n'a-t-il pas d'emplacement de stockage ?",
+            "reponse_totale": ["profil", "supprime", "deconnexion"],
+            "explication": "Parce que le profil est supprimé à la déconnexion de l'utilisateur."
+        },
+        {
+            "question": "A quel type d'utilisateur appartient ce chemin : C:\\users\\username ?",
+            "reponse_totale": ["utilisateur", "local"],
+            "explication": "Utilisateur local."
+        },
+        {
+            "question": "A quel type d'utilisateur appartient ce chemin : \\\\\\ms1\\profiles\\user ?",
+            "reponse_totale": ["utilisateur", "itinerant"],
+            "explication": "utilisateur itinérant."
+        },
+        {
+            "question": "Que faut-il vérifier lorsqu'un dossier partagé sur le serveur de fichiers est inaccessible ?",
+            "reponse_totale": ["disponibilite", "partage", "droit", "acces", "reseau"],
+            "explication": "La disponibilité du partage - les droits d'accès - le réseau"
+        },
+        {
+            "question": "Que permet un groupe dans l'AD ?",
+            "reponse_multiple": [["regrouper", "utilisateur", "ordinateur"], ["facilite", "administration"]],
+            "explication": "De regrouper les utilisateurs et les ordinateurs - facilite l'administration"
+        },
+        {
+            "question": "Par quoi peut-on regroupé les élément d'un groupe AD ?",
+            "reponse_multiple": ["profil", "attribut"],
+            "explication": "Par profil - par attributs"
+        },
+        {
+            "question": "Quels sont les 2 types de groupe existant ?",
+            "reponse_totale": ["groupe", "securite", "distribution"],
+            "explication": "Groupe de sécurité - groupe de distribution"
+        },
+        {
+            "question": "Qu'est-ce qu'un groupe de sécurité ?",
+            "reponse_totale": ["entite", "securite", "sid", "positionne", "liste", "controle", "groupe", "diffusion"],
+            "explication": "Une entité de sécurité possédant un SID et pouvant être positionné sur une liste de contrôle ainsi qu'utilisé comme groupe de diffusion."
+        },
+        {
+            "question": "Qu'est-ce qu'un groupe de distribution ?",
+            "reponse_totale": ["groupe", "membre", "possede", "sid", "utilise", "messagerie", "mail"],
+            "explication": "Un groupe dont les membres ne possèdent pas de SID et utilisé par les messageries pour l'envoi de mails."
+        },
+        {
+            "question": "Quels sont les différentes étendues de groupe que l'on peut retrouver ?",
+            "reponse_totale": ["local", "domain", "global", "universel"],
+            "explication": "Local - domain local - global - universel"
+        },
+        {
+            "question": "Où se trouve une étendue local ?",
+            "reponse_totale": ["sam", "chaque", "serveur"],
+            "explication": "Dans la base locale SAM de chaque serveur. Sauf les DC."
+        },
+        {
+            "question": "Que peu contenir un groupe d'étendue local ?",
+            "reponse_totale": ["utilisateur", "groupe", "loca"],
+            "explication": "utilisateurs locaux - groupes locaux."
+        },
+        {
+            "question": "Dans quoi sont utilisés les groupes à étendue locale ?",
+            "reponse_totale": ["uniquement", "acl", "locale"],
+            "explication": "Uniquement dans des ACL locales."
+        },
+        {
+            "question": "Où peut être utilisé un groupe à étendue Domain Local ?",
+            "reponse_totale": ["unqiuement", "domaine", "cree"],
+            "explication": "Uniquement dans le domaine où il a été créé."
+        },
+        {
+            "question": "Que peut contenir un groupe à étendue Domain Local ?",
+            "reponse_totale": ["utilisateur", "ordinateur", "groupe", "domain", "local", "globa", "universel"],
+            "explication": "Utilisateurs - ordinateurs - groupes domain local - groupe globaux - groupe universel"
+        },
+        {
+            "question": "Où peut être utilisé un groupe à étendue global ?",
+            "reponse_totale": ["domaine", "cree", "approuve", "relation"],
+            "explication": "Dans le domaine où il a été créé ou dans un domaine approuvé via une relation."
+        },
+        {
+            "question": "Que peut contenir un groupe à étendue global ?",
+            "reponse_totale": ["objet", "domaine", "groupe", "globa"],
+            "explication": "Objets du domaine - Groupes globaux du domaine."
+        },
+        {
+            "question": "D'où un groupe à étendue universel peut-il être accessible.",
+            "reponse_totale": [["toute", "ensemble"], "foret"],
+            "explication": "Dans l'ensemble de la forêt."
+        },
+        {
+            "question": "Que peut contenir un groupe à étendue universel ?",
+            "reponse_totale": ["groupe", "objet", "importe", "domaine", "foret"],
+            "explication": "groupes et objets en provenance de n'importe quel domaine de la forêt."
+        },
+        {
+            "question": "Est-ce qu'il est possible de définir l'accès aux ressources sur tous les domaine de la forêt avec un group à étendue universel ?",
+            "reponse": "oui",
+            "explication": "oui"
+        },
+        {
+            "question": "Qu'est-ce que la méthode AGDLP ?",
+            "reponse_totale": ["pratique", "gestion", "droit", "acces", "recommande", "microsoft"],
+            "explication": "Pratique de gestion des droits d'accès recommandé par microsoft."
+        },
+        {
+            "question": "Que signifie AGDLP ?",
+            "reponse": "account global domain local permissions",
+            "explication": "Account Global Domain Local Permissions"
+        },
+        {
+            "question": "Pourquoi n'est-il pas conseillé d'utiliser seulement des groupes Domain Local ?",
+            "reponse_totale": ["utilisateur", "externe", "domaine", "acces"],
+            "explication": "Des utilisateurs externes au domaine pourraient avoir accès à ce qu'il ne devraient pas."
+        },
+        {
+            "question": "Pourquoi n'est-il pas conseillé d'utiliser uniquement des groupes Global ?",
+            "reponse_totale_multiple": [["impossibi", "impossible"], "acces", "utilisateur", "domaine"],
+            "explication": "Impossibilité de donner accès à des utilisateurs d'autres domaines."
+        },
+        {
+            "question": "Est-ce qu'un compte ordinateur possède un SID ?",
+            "reponse": "oui",
+            "explication": "oui"
+        },
+        {
+            "question": "Qu'est-ce que le dossier container computers ?",
+            "reponse_totale": ["dossier", "systeme"],
+            "explication": "Un dossier système"
+        },
+        {
+            "question": "Est-il possible d'assigner des GPO au dossier container computers ?",
+            "reponse": "non",
+            "explication": "non"
+        },
+        {
+            "question": "A quoi correspond le niveau fonctionnel du domaine de la forêt .",
+            "reponse_totale": ["version", "environnement", "active directory", "acces", "fonctionnalite", "niveau"],
+            "explication": "Version de l'environnement Active Directory et permet l'accès à plus ou moins de fonctionnalités en fonction du niveau de chacun."
+        }
+    ]
+}
