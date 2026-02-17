@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Quest créer texte</title>
+  <title>Quest créer qcm</title>
 
   <link rel="stylesheet" href="../assets/css/base.css"> <!--css global en premier-->
   <link rel="stylesheet" href="../assets/css/boutons.css"> <!--autre css global-->
-  <link rel="stylesheet" href="../assets/css/quest_creer_txt.css"> <!--css propre à ce fichier HTML-->
+  <link rel="stylesheet" href="../assets/css/quest_creer_qcm.css"> <!--css propre à ce fichier HTML-->
 
   <script src="../assets/js/boutons_navigation.js" defer></script>
 </head>
@@ -38,12 +38,11 @@
     </div>
 
     <div class="section">
-      <h1>Créer texte</h1>
+      <h1>Créer QCM</h1>
 
       <div class="corps">
         <div class="sous_corps">
-
-          <div class="champ">
+          <div class="champ_question">
             <div class="objet">
               <p>Question</p>
               <input type="text" placeholder="Question ..." class="champ_texte">
@@ -51,19 +50,46 @@
 
             <div class="objet">
               <p>Image</p>
-              <input type="text" placeholder="Nom de l'image ..." class="champ_texte">
+              <input type="text" placeholder="Chemin de l'image ..." class="champ_texte">
             </div>
           </div>
 
-          <div class="champ">
-            <div class="objet">
+          <div class="champ_reponse">
+            <div class="objet" id="reponse">
               <p>Réponse</p>
               <input type="text" placeholder="Réponse ..." class="champ_texte">
             </div>
 
-            <div class="objet">
+            <div class="objet" id="def">
               <p>Solution</p>
               <input type="text" placeholder="Solution ..." class="champ_texte">
+            </div>
+          </div>
+
+          <div class="champ_leurre">
+            <div class="objet">
+              <p>Leurre 1</p>
+              <input type="text" placeholder="Leurre ..." class="champ_texte">
+            </div>
+
+            <div class="objet">
+              <p>Leurre 2</p>
+              <input type="text" placeholder="Leurre ..." class="champ_texte">
+            </div>
+
+            <div class="objet">
+              <p>Leurre 3</p>
+              <input type="text" placeholder="Leurre ..." class="champ_texte">
+            </div>
+
+            <div class="objet">
+              <p>Leurre 4</p>
+              <input type="text" placeholder="Leurre ..." class="champ_texte">
+            </div>
+
+            <div class="objet">
+              <p>Leurre 5</p>
+              <input type="text" placeholder="Leurre ..." class="champ_texte">
             </div>
           </div>
 

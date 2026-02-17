@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="petites modifications de questionnaires">
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trier_vocabulaire_pas_encore_entrer.py" beforeDir="false" afterPath="$PROJECT_DIR$/trier_vocabulaire_pas_encore_entrer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vocabulaire.json" beforeDir="false" afterPath="$PROJECT_DIR$/vocabulaire.json" afterDir="false" />
+    <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="adaptations page création questionnaire txt">
+      <change afterPath="$PROJECT_DIR$/pages/quest_creer_langue_existe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/quest_creer_qcm_existe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/quest_creer_txt_existe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/quest_creer_choix.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/quest_creer_choix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quest_creer_texte.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quest_creer_txt.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quest_creer_txt.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +27,12 @@
     &quot;assignee&quot;: &quot;employer1&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/employer1/projet-snake.git&quot;,
-    &quot;accountId&quot;: &quot;2ee5dc0f-554d-4cf4-b2fe-821e4181a25f&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/employer1/projet-snake.git",
+    "accountId": "0d69239c-8d56-48a4-a48f-9b5694111ed2"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -37,30 +41,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "javascript.preferred.runtime.type.id": "node",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/theot/WebstormProjects/projet-snake/quest/questionnaire/langue/francais",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/theo/WebstormProjects/projet-snake/pages&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\theo\WebstormProjects\projet-snake\pages" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\langue\francais" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\theo\WebstormProjects\projet-snake\pages" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -81,6 +89,8 @@
       <workItem from="1771177631311" duration="11541000" />
       <workItem from="1771196785243" duration="41000" />
       <workItem from="1771233204063" duration="27694000" />
+      <workItem from="1771323388894" duration="2827000" />
+      <workItem from="1771326884499" duration="150000" />
     </task>
     <task id="LOCAL-00001" summary="petites modifications de questionnaires">
       <option name="closed" value="true" />
@@ -98,6 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="petites modifications de questionnaires" />
-    <option name="LAST_COMMIT_MESSAGE" value="petites modifications de questionnaires" />
+    <MESSAGE value="adaptations page création questionnaire txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="adaptations page création questionnaire txt" />
   </component>
 </project>

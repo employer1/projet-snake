@@ -6,9 +6,9 @@ const dossierQuestionnaires = "questionnaire/";
 const pagesCreationParType = {
     langue: "../pages/quest_creer_langue.html",
     qcm: "../pages/quest_creer_qcm.html",
-    txt: "../pages/quest_creer_texte.html",
-    "txt 2": "../pages/quest_creer_texte.html",
-    texte: "../pages/quest_creer_texte.html",
+    txt: "../pages/quest_creer_txt.html",
+    "txt 2": "../pages/quest_creer_txt.html",
+    texte: "../pages/quest_creer_txt.html",
 };
 
 const normaliserChemin = (chemin = "") => chemin.replace(/\\/g, "/").replace(/^\/+/, "");
