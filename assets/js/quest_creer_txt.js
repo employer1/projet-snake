@@ -43,6 +43,31 @@ const verifierAbsenceGuillemetDansInputs = (champs = []) => {
     }
 };
 
+const nettoyerGuillemetsInterdits = (valeur = "") => valeur.replace(/"/g, "");
+
+const activerFiltreGuillemets = (idChamp, nomChamp) => {
+    const champ = document.getElementById(idChamp);
+    if (!champ) {
+        return;
+    }
+
+    champ.addEventListener("input", () => {
+        if (!contientGuillemetInterdit(champ.value)) {
+            return;
+        }
+
+        champ.value = nettoyerGuillemetsInterdits(champ.value);
+        afficherErreur(`Le champ ${nomChamp} ne peut pas contenir le caractère \".`);
+    });
+};
+
+const configurerValidationGuillemets = () => {
+    activerFiltreGuillemets("question", "Question");
+    activerFiltreGuillemets("reponse", "Réponse");
+    activerFiltreGuillemets("image", "Image");
+    activerFiltreGuillemets("def", "Solution");
+};
+
 const demanderValeurTexte = (message, valeurParDefaut = "") => new Promise((resolve) => {
     const overlay = document.createElement("div");
     overlay.style.position = "fixed";
@@ -305,6 +330,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     try {
         await demanderConfigurationInitiale();
+        configurerValidationGuillemets();
     } catch (error) {
         console.error(error);
         afficherErreur(error.message || "Initialisation impossible.");
