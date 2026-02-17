@@ -1,0 +1,17 @@
+{
+    "question": "Géographie",
+    "questionnaire": [
+        {
+            "pays": "afghanistan",
+            "capitale": "kaboul",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/afghanistan.png"
+        },
+        {
+            "pays": "",
+            "capitale": "",
+            "continent": "",
+            "image": ""
+        }
+    ]
+}

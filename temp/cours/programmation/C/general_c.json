@@ -1,0 +1,1762 @@
+{
+    "question": "Général C",
+    "questionnaire": [
+        {
+            "titre": "Qu'affiche le formateur suivant ?\nEn sachant que var vaut 50.\nprintf(''%d'', var);",
+            "reponse": "50",
+            "leurre1": "50.000000",
+            "leurre2": "p",
+            "leurre3": "impossible",
+            "explication": "50\nLe formateur '%d' n'affiche que des nombres entier.",
+            "image": ""
+        },
+        {
+            "titre": "Qu'affiche le formateur suivant ?\nEn sachant que var vaut 'A'.\nprintf(''%d'', var);",
+            "reponse": "65",
+            "leurre1": "A",
+            "leurre2": "65.000000",
+            "leurre3": "impossible",
+            "explication": "65\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Qu'affiche le formateur suivant ?\nEn sachant que var vaut 203.49.\nprintf(''%f'', var);",
+            "reponse": "203.490000",
+            "leurre1": "203.49",
+            "leurre2": "203",
+            "leurre3": "impossible",
+            "explication": "203.490000\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Qu'affiche le formateur suivant ?\nEn sachant que var vaut 203.49.\nprintf(''%.1f'', var);",
+            "reponse": "203.5",
+            "leurre1": "203.49",
+            "leurre2": "203",
+            "leurre3": "impossible",
+            "explication": "203.5\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Qu'affiche le formateur suivant ?\nEn sachant que var vaut 203.49.\nprintf(''%2.f'', var);",
+            "reponse": "03.49",
+            "leurre1": "203.49",
+            "leurre2": "03.490000",
+            "leurre3": "203.490000",
+            "explication": "03.49\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Qu'affiche le formateur suivant ?\nEn sachant que var vaut 203.49.\nprintf(''%2.2f'', var);",
+            "reponse": "03.49",
+            "leurre1": "203.49",
+            "leurre2": "03.490000",
+            "leurre3": "203.490000",
+            "explication": "03.49\nL'écriture '2.2' spécifie l'affichage de deux chiffres maximum de part et d'autre de la virgule.",
+            "image": ""
+        },
+        {
+            "titre": "Qu'affiche le formateur suivant ?\nEn sachant que var vaut 'A'.\nprintf(''%c'', var);",
+            "reponse": "A",
+            "leurre1": "65",
+            "leurre2": "65.000000",
+            "leurre3": "impossible",
+            "explication": "A\nLe formateur '%c' sert à afficher des caractères unique.",
+            "image": ""
+        },
+        {
+            "titre": "Qu'affiche le formateur suivant ?\nEn sachant que var contient 'bonsoir'.\nprintf(''%s'', var);",
+            "reponse": "bonsoir",
+            "leurre1": "'bonsoir'",
+            "leurre2": "66425534762190",
+            "leurre3": "impossible",
+            "explication": "bonsoir\nLe formateur '%s' sert à afficher des chaînes de caractères.",
+            "image": ""
+        },
+        {
+            "titre": "Qu'affiche le formateur suivant ?\nEn sachant que var vaut 67.\nprintf(''%p'', var);",
+            "reponse": "impossible",
+            "leurre1": "C",
+            "leurre2": "67",
+            "leurre3": "0100 0011",
+            "explication": "impossible\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Qu'affiche le formateur suivant ?\nEn sachant que var vaut .\nprintf(''%5d'', var);",
+            "reponse": "|   25",
+            "leurre1": "25",
+            "leurre2": "00025",
+            "leurre3": "impossible",
+            "explication": "|   25\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Qu'affiche le formateur suivant ?\nEn sachant que var vaut 43.\nprintf(''%-5d'', var);",
+            "reponse": "43   |",
+            "leurre1": "43",
+            "leurre2": "43000",
+            "leurre3": "impossible",
+            "explication": "43   |\nLa notation '-5' indique que 5 espace d'affichage seront réservé pour l'affichage de la variable/valeur.\nSi la variable ne permet pas de combler les 5 espaces, ils seront remplacé par un espace vide.",
+            "image": ""
+        },
+        {
+            "titre": "Qu'affiche le formateur suivant ?\nEn sachant que var vaut 25.\nprintf(''%05d'', var);",
+            "reponse": "00025",
+            "leurre1": "|   25",
+            "leurre2": "25000",
+            "leurre3": "impossible",
+            "explication": "00025\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Quel type de variable peut afficher ce formateur : %d",
+            "reponse": "des valeurs entières signées",
+            "leurre1": "des valeurs entières non signées",
+            "leurre2": "des valeurs décimales signées",
+            "leurre3": "des valeurs décimales non signées",
+            "explication": "des valeurs entières signées",
+            "image": ""
+        },
+        {
+            "titre": "Quel type de variable peut afficher ce formateur : %c",
+            "reponse": "un caractère char signé, et un 'int'",
+            "leurre1": "un caractère char non signé",
+            "leurre2": "un caractère char non signé, et un 'int'",
+            "leurre3": "un int",
+            "explication": "un caractère char signé, et un 'int'",
+            "image": ""
+        },
+        {
+            "titre": "Quel type de variable peut afficher ce formateur : %s",
+            "reponse": "une chaîne de caractères (char *, const char *, char tab[], unsigned char*)",
+            "leurre1": "une chaîne de caractères (char *, const char *, char tab[], unsigned char*, char)",
+            "leurre2": "une chaîne de caractères (char *, const char *, char tab[])",
+            "leurre3": "une chaîne de caractères (char *, const char *)",
+            "explication": "une chaîne de caractères (char *, const char *, char tab[], unsigned char*)",
+            "image": ""
+        },
+        {
+            "titre": "Quel type de variable peut afficher ce formateur : %f",
+            "reponse": "des nombres décimaux (float, double) et des entiers (int, unsigned int)",
+            "leurre1": "des nombres décimaux (float, double)",
+            "leurre2": "des nombres décimaux (float)",
+            "leurre3": "des nombres entiers (int, unsigned int)",
+            "explication": "des nombres décimaux (float, double) et des entiers (int, unsigned int)",
+            "image": ""
+        },
+        {
+            "titre": "Quel type de variable peut afficher ce formateur : %p",
+            "reponse": "tous les types de variables",
+            "leurre1": "uniquement les chaînes de caractères",
+            "leurre2": "les chaînes de caractères et les caractères (char, unsigned char)",
+            "leurre3": "les pointeurs",
+            "explication": "tous les types de variables",
+            "image": ""
+        },
+        {
+            "titre": "Quel opérateur vient compléter cette opération :\n60 ... 3 = 63;",
+            "reponse": "addition",
+            "leurre1": "soustraction",
+            "leurre2": "décalage binaire à droite",
+            "leurre3": "décalage binaire à gauche",
+            "explication": "addition\n+\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Quel opérateur vient compléter cette opération :\n60 ... 3 = 57;",
+            "reponse": "soustraction",
+            "leurre1": "addition",
+            "leurre2": "soustraction directe",
+            "leurre3": "multiplication",
+            "explication": "soustraction\n-\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Quel opérateur vient compléter cette opération :\n60 ... 3 = 180;",
+            "reponse": "multiplication",
+            "leurre1": "division",
+            "leurre2": "décalage binaire à gauche",
+            "leurre3": "multiplication directe",
+            "explication": "multiplication\n*\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Quel opérateur vient compléter cette opération :\n60 ... 3 = 20;",
+            "reponse": "division",
+            "leurre1": "division directe",
+            "leurre2": "modulo",
+            "leurre3": "modulo directe",
+            "explication": "division\n/\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Quel opérateur vient compléter cette opération :\n60 ... 3 = 0;",
+            "reponse": "modulo",
+            "leurre1": "division",
+            "leurre2": "modulo directe",
+            "leurre3": "multiplication",
+            "explication": "modulo\n%\nCette opération permet d'afficher le reste d'une division.\nDans cette opération, le reste est égal à 0.",
+            "image": ""
+        },
+        {
+            "titre": "Quel opérateur vient compléter cette opération (a = 60) :\na... = 61;",
+            "reponse": "incrément",
+            "leurre1": "décrément",
+            "leurre2": "complément",
+            "leurre3": "négation",
+            "explication": "incrément\n++\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Quel opérateur vient compléter cette opération (a = 60) :\na... = 59;",
+            "reponse": "décrément",
+            "leurre1": "incrément",
+            "leurre2": "complément",
+            "leurre3": "négation",
+            "explication": "décrément\n--\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Quel opérateur vient compléter cette opération (a = 60) :\na ... 3 = 63;",
+            "reponse": "addition directe",
+            "leurre1": "soustraction directe",
+            "leurre2": "soustraction",
+            "leurre3": "addition",
+            "explication": "addition directe\n+=\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Quel opérateur vient compléter cette opération (a = 60) :\na ... 3 = 57;",
+            "reponse": "soustraction directe",
+            "leurre1": "addition directe",
+            "leurre2": "incrément",
+            "leurre3": "décrément",
+            "explication": "soustraction directe\n-=\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Quel opérateur vient compléter cette opération (a = 60) :\na ... 3 = 180;",
+            "reponse": "multiplication directe",
+            "leurre1": "multiplication",
+            "leurre2": "incrément",
+            "leurre3": "ou logique",
+            "explication": "multipliction directe\n*=\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Quel opérateur vient compléter cette opération (a = 60) :\na ... 3 = 20;",
+            "reponse": "division directe",
+            "leurre1": "multiplication directe",
+            "leurre2": "multiplication",
+            "leurre3": "division",
+            "explication": "division directe\n/=\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Quel opérateur vient compléter cette opération (a = 60) :\na ... 3 = 0;",
+            "reponse": "modulo directe",
+            "leurre1": "ou logique",
+            "leurre2": "et logique",
+            "leurre3": "modulo",
+            "explication": "modulo directe\n%=\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Quel opérateur vient compléter cette opération :\n107 ... 39 = 35;",
+            "reponse": "et logique",
+            "leurre1": "négation",
+            "leurre2": "ou logique",
+            "leurre3": "xor logique",
+            "explication": "et logique\n&\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Quel opérateur vient compléter cette opération :\n107 ... 39 = 111;",
+            "reponse": "ou logique",
+            "leurre1": "et logique",
+            "leurre2": "incrément",
+            "leurre3": "négation",
+            "explication": "ou logique\n|\nL'opérateur 'ou logique' augmente tous les bits à un à partir du moment ou au moins un bit est à un au même endroit dans l'un des deux nombres comparé.",
+            "image": ""
+        },
+        {
+            "titre": "Quel opérateur vient compléter cette opération :\n107 ... 39 = 76;",
+            "reponse": "xor logique",
+            "leurre1": "ou logique",
+            "leurre2": "négation",
+            "leurre3": "complément",
+            "explication": "xor logique\n^\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Quel opérateur vient compléter cette opération :\n... 107 = 148;",
+            "reponse": "complément",
+            "leurre1": "incrément",
+            "leurre2": "décrément",
+            "leurre3": "supplément",
+            "explication": "complément\n~\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Quel opérateur vient compléter cette opération :\n... 107 = 0;",
+            "reponse": "négation",
+            "leurre1": "affirmation",
+            "leurre2": "décrément",
+            "leurre3": "ou logique",
+            "explication": "négation\n!\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Quel opérateur vient compléter cette opération :\n107 ... 3 = 88;",
+            "reponse": "décalage binaire à gauche",
+            "leurre1": "décalage binaire à droite",
+            "leurre2": "incrément",
+            "leurre3": "négation",
+            "explication": "décalage binaire à gauche\n<<\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Quel opérateur vient compléter cette opération :\n107 ... 3 = 6;",
+            "reponse": "décalage bianire à droite",
+            "leurre1": "décalage bianire à gauche",
+            "leurre2": "incrément",
+            "leurre3": "ou logique",
+            "explication": "décalage binaire à droite\n>>\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf(''%d'', &var);",
+            "reponse": "correct",
+            "leurre1": "incorrect, scanf_s",
+            "leurre2": "incorrect, &var, 1)",
+            "leurre3": "incorrect, %d'', var)",
+            "explication": "correct\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf(''%d'', var);",
+            "reponse": "incorrect, &var",
+            "leurre1": "correct",
+            "leurre2": "incorrect, *var",
+            "leurre3": "incorrect, scanf_s",
+            "explication": "incorrect &var\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf_s(''%d'', &var);",
+            "reponse": "incorrect, scanf(",
+            "leurre1": "correct",
+            "leurre2": "incorrect, &var",
+            "leurre3": "incorrect, *var",
+            "explication": "incorrect, scanf(\nLe formateur '%d' reçois des nombre entier, il n'est donc pas nécessaire d'utiliser 'scanf_s' pour contrer des overflow.",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf(''%f'', &var);",
+            "reponse": "correct",
+            "leurre1": "incorrect, scanf_s",
+            "leurre2": "incorrect, var",
+            "leurre3": "incorrect, %d",
+            "explication": "correct\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf(''%f'', var);",
+            "reponse": "incorrect, &var",
+            "leurre1": "correct",
+            "leurre2": "incorrect, scanf_s",
+            "leurre3": "incorrect, *var",
+            "explication": "incorrect, &var\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf(''%f'', *var);",
+            "reponse": "incorrect, &var",
+            "leurre1": "correct",
+            "leurre2": "incorrect, %d",
+            "leurre3": "incorrect, scanf_s",
+            "explication": "incorrect, &var\n'*var' donne le contenu présent à l'adresse de 'var' et non l'adresse de 'var'.\n'&var' quant à lui, donne l'adresse de la variable 'var'.",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf_s(''%f'', &var);",
+            "reponse": "incorrect, scanf(",
+            "leurre1": "correct",
+            "leurre2": "incorrect, &var, 1)",
+            "leurre3": "incorrect, *var, 1)",
+            "explication": "incorrect, scanf(\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf_s(''%c'', &var, 1);",
+            "reponse": "correct",
+            "leurre1": "incorrect, scanf",
+            "leurre2": "incorrect, *var",
+            "leurre3": "incorrect, &var)",
+            "explication": "correct\nOn utilise 'scanf_s' pour éviter d'engendrer un overflow en récupérant plus d'un caractère.\nComme c'est dans une variable que nous allons enregistrer ce caractère, on utilise '&' pour fournir son adresse.",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf_s(''%c'', var, 1);",
+            "reponse": "incorrect, &var",
+            "leurre1": "correct",
+            "leurre2": "incorrect, %f",
+            "leurre3": "incorrect, var, 1)",
+            "explication": "incorrect, &var\n",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf_s(''%c'', *var, 1);",
+            "reponse": "incorrect, &var",
+            "leurre1": "correct",
+            "leurre2": "incorrect, scanf",
+            "leurre3": "incorrect, *var)",
+            "explication": "incorrect, &var\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf_s(''%c'', &var);",
+            "reponse": "incorrect, var, 1)",
+            "leurre1": "correct",
+            "leurre2": "incorrect, scanf",
+            "leurre3": "incorrect, %c'', var)",
+            "explication": "incorrect, var, 1)\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf(''%c'', &var, 1);",
+            "reponse": "incorrect, scanf_s",
+            "leurre1": "correct",
+            "leurre2": "incorrect, *var, 1)",
+            "leurre3": "incorrect, *var)",
+            "explication": "incorrect, scanf_s\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf_s(''%s'', tab);",
+            "reponse": "incorrect, tab, 1)",
+            "leurre1": "incorrect, scanf",
+            "leurre2": "incorrect, *tab",
+            "leurre3": "correct",
+            "explication": "incorrect, tab, 1)\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf_s(''%s'', tab[0]);",
+            "reponse": "incorrect, tab)",
+            "leurre1": "correct",
+            "leurre2": "incorrect, *tab",
+            "leurre3": "incorrect, scanf",
+            "explication": "incorrect, tab)\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf_s(''%s'', tab[]);",
+            "reponse": "incorrect, tab)",
+            "leurre1": "correct",
+            "leurre2": "incorrect, *tab)",
+            "leurre3": "incorrect, *tab, 1)",
+            "explication": "incorrect, tab)\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf_s(''%s'', *tab);",
+            "reponse": "incorrect, tab)",
+            "leurre1": "correct",
+            "leurre2": "incorrect, &tab[0]",
+            "leurre3": "incorrect, scanf",
+            "explication": "incorrect, tab)\nUn tableau étant une suite de pointeurs, il ne faut donc pas ajouter '*' ou '&' devant celui-ci.\n",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf_s(''%s'', &tab);",
+            "reponse": "incorrect, %s'', tab)",
+            "leurre1": "correct",
+            "leurre2": "incorrect, scanf",
+            "leurre3": "incorrect, *tab",
+            "explication": "incorrect, %s'', tab)\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf(''%d'', tab[0]);",
+            "reponse": "correct",
+            "leurre1": "incorrect, *tab",
+            "leurre2": "incorrect, tab",
+            "leurre3": "incorrect, scanf",
+            "explication": "correct\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf(''%d'', tab[]);",
+            "reponse": "incorrect, tab[0])",
+            "leurre1": "correct",
+            "leurre2": "incorrect, *tab",
+            "leurre3": "incorrect, &tab[]",
+            "explication": "incorrect, tab[0])\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf(''%d'', *tab[0]);",
+            "reponse": "incorrect, %d'', tab[0])",
+            "leurre1": "correct",
+            "leurre2": "incorrect, tab[]",
+            "leurre3": "incorrect, &tab",
+            "explication": "incorrect, %d'', tab[0])\nUn tableau étant déjà une suites de pointeurs, il ne faut pas utiliser '*' ou '&' pour indiquer quoi que ce soit.\nComme la valeur que nous voulons enregistrer n'est pas une chaîne de caractères, il est nécessaire d'indiquer un numéro de cellule.",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf(''%d'', &tab[0]);",
+            "reponse": "incorrect, %d'', tab[0]",
+            "leurre1": "correct",
+            "leurre2": "incorrect, *tab, 1)",
+            "leurre3": "incorrect, tab[0])",
+            "explication": "correct\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf(''%f'', tab[0]);",
+            "reponse": "correct",
+            "leurre1": "incorrect, tab[])",
+            "leurre2": "incorrect, scanf_s",
+            "leurre3": "incorrect, &tab[0]",
+            "explication": "correct\nEtant donné que l'on enregistre un nombre, il est nécessaire de préciser où l'on souhaite stocker ce nombre dans le tableau.\nUn tableau étant une succession de pointeur dissimulé, il n'est donc pas nécessaire de placer '&' devant le tableau.\nEtant donné que l'on n'enregistre pas de caractères, il n'est pas nécessaire d'utiliser 'scanf_s'.",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf(''%f'', tab[]);",
+            "reponse": "incorrect, tab[0])",
+            "leurre1": "correct",
+            "leurre2": "incorrect, scanf_s",
+            "leurre3": "incorrect, &tab[0]",
+            "explication": "incorrect, tab[0])\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf(''%f'', *tab[0]);",
+            "reponse": "incorrect, tab[0])",
+            "leurre1": "correct",
+            "leurre2": "incorrect, &tab[0]",
+            "leurre3": "incorrect, tab[]",
+            "explication": "incorrect, tab[0])\n'*tab[0]' est un 'float', ça revient à passer une copie de la valeur à 'scanf'.\nOr 'scanf' va essayer d'écrire dans cette ''valeur'', mais c'est impossible.\nDonc comportement indéfinni.",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf(''%f'', &tab[0]);",
+            "reponse": "correct",
+            "leurre1": "incorrect, *tab[]",
+            "leurre2": "incorrect, *tab",
+            "leurre3": "incorrect, %d",
+            "explication": "correct\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf_s(''%c'', tab[0], 1);",
+            "reponse": "correct",
+            "leurre1": "incorrect, scanf",
+            "leurre2": "incorrect, tab[0])",
+            "leurre3": "incorrect, &tab[0])",
+            "explication": "correct\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf(''%c'', tab[0], 1);",
+            "reponse": "incorrect, scanf_s",
+            "leurre1": "correct",
+            "leurre2": "incorrect, tab[0])",
+            "leurre3": "incorrect, &tab[0], 1)",
+            "explication": "incorrect, scan_s\nAfin d'éviter d'engendrer un over flow, l'utilisation de scanf_s est nécessaire. Scanf_s permet de limiter le nombre de caractères enregistrés dans le tableau.",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf_s(''%c'', tab[], 1);",
+            "reponse": "incorrect, tab[0]",
+            "leurre1": "correct",
+            "leurre2": "incorrect, tab[])",
+            "leurre3": "incorrect, &tab[]",
+            "explication": "incorrect, tab[0]\nLe formateur '%c' étant destiné à n'enregistrer qu'un seul caractère, il est nécessaire d'indiquer une cellule.",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf_s(''%c'', tab[0]);",
+            "reponse": "incorrect, tab[0], 1)",
+            "leurre1": "correct",
+            "leurre2": "incorrect, tab)",
+            "leurre3": "incorrect, &tab[]",
+            "explication": "incorrect, tab[0], 1)\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf_s(''%c'', *tab[0], 1);",
+            "reponse": "incorrect, %c'', tab[0]",
+            "leurre1": "correct",
+            "leurre2": "incorrect, %c'', &tab[]",
+            "leurre3": "incorrect, %c'', *tab",
+            "explication": "incorrect, %c'', tab[0]\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf_s(''%c'', &tab[0], 1);",
+            "reponse": "correct",
+            "leurre1": "incorrect, scanf",
+            "leurre2": "incorrect, %c'', &tab[]",
+            "leurre3": "incorrect, %c'', *tab",
+            "explication": "correct\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf(''%d'', ptn);",
+            "reponse": "correct",
+            "leurre1": "incorrect, *ptn",
+            "leurre2": "incorrect, &ptn",
+            "leurre3": "incorrect, scanf_s",
+            "explication": "correct\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf(''%d'', *ptn);",
+            "reponse": "incorrect, %d'', ptn)",
+            "leurre1": "correct",
+            "leurre2": "incorrect, scanf_s",
+            "leurre3": "incorrect, %d'', &ptn)",
+            "explication": "incorrect, %d'', ptn)\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf(''%d'', &ptn);",
+            "reponse": "incorrect, %d'', ptn)",
+            "leurre1": "correct",
+            "leurre2": "incorrect, %d'', &ptn",
+            "leurre3": "incorrect, %d'', ptn, 1)",
+            "explication": "incorrect, %d'', ptn)\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf(''%f'', ptn);",
+            "reponse": "correct",
+            "leurre1": "incorrect, *ptn, 1)",
+            "leurre2": "incorrect, &ptn",
+            "leurre3": "incorrect, *ptn",
+            "explication": "correct\nCorrect à partir du moment ou la variable pointée par le pointeur est de type 'float' ou 'double' et que le pointeur le soit également.\nComme pointeur est de type float, il ne faut pas ajouter de '&'. Cela donnerait : '**float'",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf(''%f'', *ptn);",
+            "reponse": "incorrect, %f'', ptn)",
+            "leurre1": "correct",
+            "leurre2": "incorrect, %f'', &ptn)",
+            "leurre3": "incorrect, %d'', &ptn)",
+            "explication": "incorrect, %f'', ptn)\n'ptn' tout seul, fourni l'adresse de la variable sur laquelle le pointeur pointe.\n'*ptn' fourni quant à lui, fourni la valeur de la variable sur laquelle il pointe, c n'est donc pas correct.",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf(''%lf'', &ptn);",
+            "reponse": "incorrect, %lf'', ptn)",
+            "leurre1": "correct",
+            "leurre2": "incorrect, %f",
+            "leurre3": "incorrect, *ptn",
+            "explication": "incorrect, %lf'', ptn)\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf_s(''%c'', ptn, 1);",
+            "reponse": "correct",
+            "leurre1": "incorrect, *ptn)",
+            "leurre2": "incorrect, &ptn)",
+            "leurre3": "incorrect, %c'', &ptn,",
+            "explication": "correct\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf_s(''%c'', *ptn, 1);",
+            "reponse": "incorrect, %c'', ptn",
+            "leurre1": "correct",
+            "leurre2": "incorrect, *ptn)",
+            "leurre3": "incorrect, &ptn",
+            "explication": "incorrect, %c'', ptn\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf_s(''%c'', &ptn, 1);",
+            "reponse": "incorrect, %c'', ptn",
+            "leurre1": "correct",
+            "leurre2": "incorrect, *ptn",
+            "leurre3": "incorrect, &ptn)",
+            "explication": "incorrect, %c'', ptn\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf_s(''%c'', ptn);",
+            "reponse": "incorrect, ptn, 1)",
+            "leurre1": "correct",
+            "leurre2": "incorrect, *ptn",
+            "leurre3": "incorrect, scanf",
+            "explication": "incorrect, ptn, 1)\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf(''%c'', ptn, 1);",
+            "reponse": "incorrect, scanf_s",
+            "leurre1": "correct",
+            "leurre2": "incorrect, ptn)",
+            "leurre3": "incorrect, *ptn",
+            "explication": "incorrect, scnaf_s\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf_s(''%s'', ptn, 20);",
+            "reponse": "correct",
+            "leurre1": "incorrect, *ptn",
+            "leurre2": "incorrect, &ptn",
+            "leurre3": "incorrect, %p'', *ptn",
+            "explication": "correct\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf_s(''%s'', *ptn, 20);",
+            "reponse": "incorrect, %s'', ptn",
+            "leurre1": "correct",
+            "leurre2": "incorrect, scanf",
+            "leurre3": "incorrect, %s'', &ptn",
+            "explication": "incorrect, %c'', ptn\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf_s(''%s'', &ptn, 20);",
+            "reponse": "incorrect, %s'', ptn",
+            "leurre1": "correct",
+            "leurre2": "incorrect, %s'', *ptn",
+            "leurre3": "incorrect, %s'', &ptn)",
+            "explication": "incorrect, %s'', ptn\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf_s(''%s'', ptn);",
+            "reponse": "incorrect, ptn, 1)",
+            "leurre1": "correct",
+            "leurre2": "incorrect, &ptn, 1)",
+            "leurre3": "incorrect, *ptn)",
+            "explication": "incorrect, ptn, 1)\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe de l'instruction suivante est-elle bonne ?\nscanf(''%s'', ptn, 20);",
+            "reponse": "incorrect, scanf_s",
+            "leurre1": "correct",
+            "leurre2": "incorrect, ptn)",
+            "leurre3": "incorrect, scanf",
+            "explication": "incorrect, scanf_s\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "L'affichage sera-t-il correct ?\nprintf(''%d'', 25);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "L'affichage sera-t-il correct ?\nprintf(''%d'', -25);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "L'affichage sera-t-il correct ?\nprintf(''%d'', 'a');",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "L'affichage sera-t-il correct ?\nprintf(''%d'', 1.5);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "L'affichage sera-t-il correct ?\nprintf(''%d'', -1.5);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nLe formateur '%d' ne peut afficher que des nombres entier.",
+            "image": ""
+        },
+        {
+            "titre": "L'affichage sera-t-il correct ?\nprintf(''%d'', ''texte'');",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "L'affichage sera-t-il correct ?\nprintf(''%f'', 25);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "L'affichage sera-t-il correct ?\nprintf(''%f'', -25);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "L'affichage sera-t-il correct ?\nprintf(''%f'', 'a');",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "L'affichage sera-t-il correct ?\nprintf(''%f'', 1.5);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "L'affichage sera-t-il correct ?\nprintf(''%f'', -1.5);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nLe formateur '%f' peut afficher toutes les nombres entier et décimaux.",
+            "image": ""
+        },
+        {
+            "titre": "L'affichage sera-t-il correct ?\nprintf(''%f'', ''texte'');",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "L'affichage sera-t-il correct ?\nprintf(''%c'', 25);",
+            "reponse": "oui (dans une certaines mesure)",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "L'affichage sera-t-il correct ?\nprintf(''%c'', -25);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "L'affichage sera-t-il correct ?\nprintf(''%c'', 'a');",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "L'affichage sera-t-il correct ?\nprintf(''%c'', 1.5);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "L'affichage sera-t-il correct ?\nprintf(''%c'', -1.5);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "L'affichage sera-t-il correct ?\nprintf(''%c'', ''texte'');",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "L'affichage sera-t-il correct ?\nprintf(''%s'', 25);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "L'affichage sera-t-il correct ?\nprintf(''%s'', -25);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "L'affichage sera-t-il correct ?\nprintf(''%s'', 'a');",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "L'affichage sera-t-il correct ?\nprintf(''%s'', 1.5);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "L'affichage sera-t-il correct ?\nprintf(''%s'', -1.5);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nLe formateur '%s' attend un deuxième argument, un pointeur 'char', représentant une chaîne de caractère terminant par '\\0'.",
+            "image": ""
+        },
+        {
+            "titre": "L'affichage sera-t-il correct ?\nprintf(''%s'', ''texte'');",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que ce formateur '%d' peut afficher ce type de variable 'int' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que ce formateur '%d' peut afficher ce type de variable 'char(ASCII)' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nLe formateur '%d' peut techniquement affiché un résultat.\nCependant, la valeur affichée sera la valeur numérique du caractère dans la table ASCII, et non le caractère en lui-même.",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que ce formateur '%d' peut afficher ce type de variable 'unsigned int' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que ce formateur '%d' peut afficher ce type de variable 'float' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nLe formateur '%d' n'affiche que des nombres entier.",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que ce formateur '%d' peut afficher ce type de variable 'double' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nLe formateur '%d' n'affiche que des nombres entier.",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que ce formateur '%d' peut afficher ce type de variable 'char *' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nLe formateur '%d' est destiné à n'afficher que des nombres entier.\nLe type 'char *' représente un pointeur vers un caractère (qui peut faire partie d'une chaîne de caractères)",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que ce formateur '%f' peut afficher ce type de variable 'float' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que ce formateur '%f' peut afficher ce type de variable 'double' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que ce formateur '%f' peut afficher ce type de variable 'long double' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que ce formateur '%f' peut afficher ce type de variable 'int(all)' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que ce formateur '%f' peut afficher ce type de variable 'char(all)' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que ce formateur '%f' peut afficher ce type de variable 'pointeur' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que ce formateur '%c' peut afficher ce type de variable 'char' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que ce formateur '%c' peut afficher ce type de variable 'unsigned char' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nLe formateur '%c' affiche un seul caractère.\nLe type 'unsigned char', malgré le fait qu'il soit non signé, sert à stocker des caractères.",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que ce formateur '%c' peut afficher ce type de variable 'int(ASCII)' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que ce formateur '%c' peut afficher ce type de variable 'char *' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que ce formateur '%c' peut afficher ce type de variable 'float' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que ce formateur '%c' peut afficher ce type de variable 'double(all)' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que ce formateur '%s' peut afficher ce type de variable 'char[]' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que ce formateur '%s' peut afficher ce type de variable 'char *' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nA condition que le type 'char *' soit un pointeur qui pointe sur un tableau de caractère ayant un '\\0'.\nCe formateur est destiné à affiché des chaînes de caractères.",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que ce formateur '%s' peut afficher ce type de variable 'const char *' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que ce formateur '%s' peut afficher ce type de variable 'char' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nPas exactement, le formateur '%s' d'une chaîne de caractères, d'un pointeur.\nUne simple variable 'char' n'est pas affichable.",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que ce formateur '%s' peut afficher ce type de variable 'int(all)' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJTLe formateur '%s' est destiné à recevoir une chaîne de caractères.",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que ce formateur '%s' peut afficher ce type de variable 'float' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que ce formateur '%s' peut afficher ce type de variable 'pointeur non char' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nLe formateur '%s' est strictement réservé aux chaînes de caractères\nIl faudrait que ptr soit un 'char *' pointant vers un tableau de caractères terminé par '\\0'.",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nint tab[3];",
+            "reponse": "correct",
+            "leurre1": "incorrect",
+            "explication": "correct\nLes valeurs sont des entiers, ce qui correspond bien avec le type 'int'\nLe tableau est déclaré correctement, accueillant un nombre de cellule suffisant pour les valeurs.",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nint tab[];",
+            "reponse": "incorrect",
+            "leurre1": "correct",
+            "explication": "incorrect\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nint tab[3] = {1, 2, 3};",
+            "reponse": "correct",
+            "leurre1": "incorrect",
+            "explication": "correct\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nint tab[3] = {0};",
+            "reponse": "correct",
+            "leurre1": "incorrect",
+            "explication": "correct\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nint tab[3] = {'a'};",
+            "reponse": "correct",
+            "leurre1": "incorrect",
+            "explication": "correct\nLe type est capable d'enregistrer la valeur numérique de 'a', mais elle ne permettra pas de restituer le caractère en lui-même.\nLa valeur numérique de 'a' sera enregistrée dans la première cellule du tableau.",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nint tab[3] = {''abc''};",
+            "reponse": "incorrect",
+            "leurre1": "correct",
+            "explication": "incorrect\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nint tab[] = {1, 2, 3};",
+            "reponse": "correct",
+            "leurre1": "incorrect",
+            "explication": "correct\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nint tab[] = {0};",
+            "reponse": "correct",
+            "leurre1": "incorrect",
+            "explication": "correct\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nint tab = {1, 2, 3};",
+            "reponse": "incorrect",
+            "leurre1": "correct",
+            "explication": "incorrect\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nint *tab = {1, 2, 3};",
+            "reponse": "incorrect",
+            "leurre1": "correct",
+            "explication": "incorrect\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nint *tab = (int)malloc(3);",
+            "reponse": "incorrect",
+            "leurre1": "correct",
+            "explication": "incorrect\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nint *tab = (int *)malloc(3 * sizeof(int));",
+            "reponse": "correct",
+            "leurre1": "incorrect",
+            "explication": "correct\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nint *tab = malloc(3 * sizeof(int));",
+            "reponse": "correct",
+            "leurre1": "incorrect",
+            "explication": "correct\n'int *tab' créé un tableau de pointeurs.\n'malloc(3 * sizeof(int))' alloue l'espace mémoire nécessaire.\nLes pointeurs sont ensuite liés à l'adresse de chaqueespace mémoire alloué.",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nint tab[20] = {var};",
+            "reponse": "correct, a condition que variable ai une valeur compatible",
+            "leurre1": "incorrect",
+            "explication": "correct, a condition que variable ai une valeur compatible\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nint *tab[3] = {{0}, {1, 2, 3}};",
+            "reponse": "incorrect",
+            "leurre1": "correct",
+            "explication": "incorrect\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nint **tab = {{0}, {1, 2, 3}};",
+            "reponse": "incorrect",
+            "leurre1": "correct",
+            "explication": "incorrect\n'int **tab' est un pointeur vers un pointeur. On ne peut pas l'initialiser avec des valeurs, quel que soit les valeurs.\nPour enregistrer les valeurs, il aurait fallu écrire 'tab[x][x]'",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nchar tab[20];",
+            "reponse": "correct",
+            "leurre1": "incorrect",
+            "explication": "correct\nLa syntaxe déclare un tableau de 20 caractères.",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nchar tab[20] = {a, b, c, d, e};",
+            "reponse": "correct",
+            "leurre1": "incorrect",
+            "explication": "correct\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nchar tab[20] = {'a'};",
+            "reponse": "correct",
+            "leurre1": "incorrect",
+            "explication": "correct\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nchar tab[20] = ''bonsoir'';",
+            "reponse": "correct",
+            "leurre1": "incorrect",
+            "explication": "correct\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nchar tab[] = {'a', 'b', 'c', 'd', 'e'};",
+            "reponse": "correct",
+            "leurre1": "incorrect",
+            "explication": "correct\nLes caractères peuvent être enregistrés de manière séparé ou sous forme de texte (''abcde'').\nLe type char accepte toutes valeurs entière ou ddécimales comprises dans la table ASCII.",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nchar tab[] = ''bonsoir'';",
+            "reponse": "correct",
+            "leurre1": "incorrect",
+            "explication": "correct\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nchar *tab = {a, b, c, d, e};",
+            "reponse": "incorrect",
+            "leurre1": "correct",
+            "explication": "incorrect\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nchar *tab = ''bonsoir'';",
+            "reponse": "correct",
+            "leurre1": "incorrect",
+            "explication": "correct\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nchar tab[20] = {var};",
+            "reponse": "incorrect",
+            "leurre1": "correct",
+            "explication": "incorrect\nn'accepte que des chaînes de caractères, les accolades démontrent",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nchar tab[20] = var;",
+            "reponse": "incorrect",
+            "leurre1": "correct",
+            "explication": "incorrect\nn'accepte que des chaînes de caractères, les accolades démontrent",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nchar *tab[3] = {{'a', 'b', 'c'}, {'d', 'e', 'f'}};",
+            "reponse": "incorrect",
+            "leurre1": "correct",
+            "explication": "incorrect\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nchar *tab[3] = {{''ab''}, {''cd''}};",
+            "reponse": "incorrect",
+            "leurre1": "correct",
+            "explication": "incorrect\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nchar **tab = {{'a', 'b', 'c'}, {'d', 'e', 'f'}};",
+            "reponse": "incorrect",
+            "leurre1": "correct",
+            "explication": "incorrect\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nchar **tab = {{''ab''}, {''cd''}};",
+            "reponse": "incorrect",
+            "leurre1": "correct",
+            "explication": "incorrect\n'char **tab' est un pointeur vers un pointeur. On ne peut pas l'initialiser avec un liste de deux chaînes entre accolades.\nPour enregistrer les valeurs, il aurait fallu écrire 'tab[x][x]'.",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nchar **tab = {{''ab''}, {'c', 'd'}};",
+            "reponse": "incorrect",
+            "leurre1": "correct",
+            "explication": "incorrect\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '0' est-elle compatible avec le type 'bool' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nLe type bool accepte uniquement les valeurs 1 et 0.",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '1' est-elle compatible avec le type 'bool' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nLe type bool accepte uniquement les valeurs 1 et 0.",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '-1' est-elle compatible avec le type 'bool' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '2' est-elle compatible avec le type 'bool' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur 'a' est-elle compatible avec le type 'bool' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '1.5' est-elle compatible avec le type 'bool' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '-1.5' est-elle compatible avec le type 'bool' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '-1' est-elle compatible avec le type 'int' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nLe type 'int' tous les nombres entier.",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '1' est-elle compatible avec le type 'int' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '0' est-elle compatible avec le type 'int' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur 'a' est-elle compatible avec le type 'int' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nIl est possible d'enregistrer la valeur numérique de 'a' dans la variable, mais une fois enregistré, elle ne sera plus considéré comme un caractère, mais un entier.",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '-1.5' est-elle compatible avec le type 'int' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '1.5' est-elle compatible avec le type 'int' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '1' est-elle compatible avec le type 'unsigned int' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '0' est-elle compatible avec le type 'unsigned int' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '-1' est-elle compatible avec le type 'unsigned int' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur 'a' est-elle compatible avec le type 'unsigned int' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '-1.5' est-elle compatible avec le type 'unsigned int' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nLe type unsigned int n'accepte que les valeurs entières au dessus de 0.",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '1.5' est-elle compatible avec le type 'unsigned int' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nLe type unsigned int n'accepte que les valeurs entières.",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '-1.5' est-elle compatible avec le type 'float' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nLe type float accepte tous les nombres décimaux négatif ou positif.",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '1.5' est-elle compatible avec le type 'float' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '0' est-elle compatible avec le type 'float' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nLe type 'float' peut stocker des nombres décimaux.",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '1' est-elle compatible avec le type 'float' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '-1' est-elle compatible avec le type 'float' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur 'a' est-elle compatible avec le type 'float' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nBien que le type float puisse accepter la valeur entière du caractère 'a', elle ne peut pas le conserver en tant que caractère.",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '-1.5' est-elle compatible avec le type 'double' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nLe type double accepte tous les nombres entier et décimaux.",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '1.5' est-elle compatible avec le type 'double' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nLe type 'double' accepte tous les nombres décimaux négatif ou positif.",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '1' est-elle compatible avec le type 'double' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '0' est-elle compatible avec le type 'double' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nLe type 'double' est un type de données utilisé pour représenter des nombres entier et à virgules flottante.",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '-1' est-elle compatible avec le type 'double' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur 'a' est-elle compatible avec le type 'double' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur 'a' est-elle compatible avec le type 'char' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '1' est-elle compatible avec le type 'char' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '0' est-elle compatible avec le type 'char' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '-1' est-elle compatible avec le type 'char' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '1.5' est-elle compatible avec le type 'char' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '-1.5' est-elle compatible avec le type 'char' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nLe type char ne peut enregistré que des nombres entier qui entrent dans la table ASCII",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '1' est-elle compatible avec le type 'unsigned char' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nLe type 'unsigned char' peut accepter tout nombre compris dans la table ASCII.",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '0' est-elle compatible avec le type 'unsigned char' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nCar le type 'unsigned char' accepte tout caractère unique ainsi que la valeur numérique de ceux-ci.\nLe type accepte uniquement les valeurs positives.",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '1.5' est-elle compatible avec le type 'unsigned char' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nCar le type 'unsigned char' accepte tout caractère unique ainsi que la valeur numérique de ceux-ci.\nLe type accepte uniquement les valeurs positives.",
+            "image": ""
+        },
+        {
+            "titre": "La valeur 'a' est-elle compatible avec le type 'unsigned char' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nCar la valeur numérique du caractère 'a' est un entier positif.\nLe type 'unsigned char' accepte toute valeur positive comprise dans la talbe ASCII.",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '-1.5' est-elle compatible avec le type 'unsigned char' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nNon, bien que le type 'char' accepte des nombres décimaux. Le fait qu'il soit non signé ne permet pas d'accepter des nombres négatifs.",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '-1' est-elle compatible avec le type 'unsigned char' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nLe type 'unsigned char' n'accepte que des valeurs positives.",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '1' est-elle compatible avec le type 'char *' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '0' est-elle compatible avec le type 'char *' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '-1' est-elle compatible avec le type 'char *' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '-1.5' est-elle compatible avec le type 'char *' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '1.5' est-elle compatible avec le type 'char *' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT'",
+            "image": ""
+        },
+        {
+            "titre": "La valeur 'a' est-elle compatible avec le type 'char *' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nAJT",
+            "image": ""
+        },
+        {
+            "titre": "La chaîne de caractère 'texte' est-elle compatible avec le type 'char *' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nLe type 'char *' est un pointeur qui pointe sur une variable qui doit être de type 'char'.\nLe type 'char' quant à lui accepte les chaînes de caractères si elles sont dans un tableau.",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que je peux associer 'tab' au type 'char *' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nLorsque l'on assigne un pointeur à un tableau, celui-ci pointera sur la première cellule de ce tableau.",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que je peux associer l'adresse d'une variable au type 'char *' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nIl est possible de le faire, mais à condition que la variable soit de type 'char'.\n'char *' est un pointeur de type 'char'.",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '1' est-elle compatible avec le type 'void *' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nLe type 'void *' doit pointer sur une variable (peu importe son type).",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '0' est-elle compatible avec le type 'void *' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nLe type 'void *' doit pointer sur une variable (peu importe son type).",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '-1' est-elle compatible avec le type 'void *' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nLe type 'void *' doit pointer sur une variable (peu importe son type).",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '1.5' est-elle compatible avec le type 'void *' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nLe type 'void *' doit pointer sur une variable (peu importe son type).",
+            "image": ""
+        },
+        {
+            "titre": "La valeur '-1.5' est-elle compatible avec le type 'void *' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nLe type 'void *' doit pointer sur une variable (peu importe son type).",
+            "image": ""
+        },
+        {
+            "titre": "La valeur 'a' est-elle compatible avec le type 'void *' ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non\nLe type 'void *' doit pointer sur une variable (peu importe son type).",
+            "image": ""
+        },
+        {
+            "titre": "Un pointeur est-il compatible avec le type 'void *' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nIl est tout à fait possible d'associer un pointeur à un autre en C.",
+            "image": ""
+        },
+        {
+            "titre": "Une variable est-il compatible avec le type 'void *' ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui\nIl est possible d'assigner une variable de nimporte quelle type à un pointeur de type 'void *'.",
+            "image": ""
+        },
+        {
+            "titre": "L’initialisation suivante est-elle correcte ?\na = 7, b = 5, c = 3;",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "initialiser plusieurs variables comme suite est totalement faisable.",
+            "image": ""
+        },
+        {
+            "titre": "L’initialisation suivante est-elle correcte ?\na = 'A', b = 'B', c = 'C';",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "initialiser plusieurs variables comme suite est totalement faisable.",
+            "image": ""
+        },
+        {
+            "titre": "L’initialisation suivante est-elle correcte ?\na = ''texte'', b = ''texte'', c = ''texte'';",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il n’est pas possible d’initialiser plusieurs variables avec des chaînes de caractère.",
+            "image": ""
+        },
+        {
+            "titre": "quel mot réservé permet d’éviter à une variable locale d’être supprimée à la fin d’une fonction.",
+            "reponse": "static",
+            "leurre1": "end",
+            "leurre2": "enum",
+            "leurre3": "define",
+            "explication": "static",
+            "image": ""
+        }
+    ]
+}

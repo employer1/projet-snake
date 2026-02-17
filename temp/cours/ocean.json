@@ -1,0 +1,1175 @@
+{
+    "question": "Géographie",
+    "questionnaire": [
+        {
+            "pays": "afghanistan",
+            "capitale": "kaboul",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/afghanistan.png"
+        },
+        {
+            "pays": "afrique du sud",
+            "capitale": "pretoria",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/afrique_du_sud.png"
+        },
+        {
+            "pays": "albanie",
+            "capitale": "tirana",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/albanie.png"
+        },
+        {
+            "pays": "algérie",
+            "capitale": "alger",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/algerie.png"
+        },
+        {
+            "pays": "allemagne",
+            "capitale": "berlin",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/allemagne.png"
+        },
+        {
+            "pays": "andorre",
+            "capitale": "andorre-la-vieille",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/andorre.png"
+        },
+        {
+            "pays": "angola",
+            "capitale": "luanda",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/angola.png"
+        },
+        {
+            "pays": "antigua-et-barbuda",
+            "capitale": "saint john's",
+            "continent": "amérique du nord",
+            "image": "questionnaire/geographie/image/antigua_et_barbuda.png"
+        },
+        {
+            "pays": "arabie saoudite",
+            "capitale": "riyad",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/arabie_saoudite.png"
+        },
+        {
+            "pays": "argentine",
+            "capitale": "buenos aires",
+            "continent": "amérique du sud",
+            "image": "questionnaire/geographie/image/argentine.png"
+        },
+        {
+            "pays": "arménie",
+            "capitale": "erevan",
+            "continent": "asie et europe",
+            "image": "questionnaire/geographie/image/armenie.png"
+        },
+        {
+            "pays": "australie",
+            "capitale": "canberra",
+            "continent": "océanie",
+            "image": "questionnaire/geographie/image/australie.png"
+        },
+        {
+            "pays": "autriche",
+            "capitale": "vienne",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/autriche.png"
+        },
+        {
+            "pays": "azerbaïdjan",
+            "capitale": "bakou",
+            "continent": "asie et europe",
+            "image": "questionnaire/geographie/image/azerbaidjan.png"
+        },
+        {
+            "pays": "bahamas",
+            "capitale": "nassau",
+            "continent": "amérique du nord",
+            "image": "questionnaire/geographie/image/bahamas.png"
+        },
+        {
+            "pays": "bahreïn",
+            "capitale": "manama",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/bahrein.png"
+        },
+        {
+            "pays": "bangladesh",
+            "capitale": "dacca",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/bangladesh.png"
+        },
+        {
+            "pays": "barbade",
+            "capitale": "bridgetown",
+            "continent": "amérique du nord",
+            "image": "questionnaire/geographie/image/barbade.png"
+        },
+        {
+            "pays": "belgique",
+            "capitale": "bruxelles",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/belgique.png"
+        },
+        {
+            "pays": "belize",
+            "capitale": "belmopan",
+            "continent": "amérique centrale",
+            "image": "questionnaire/geographie/image/belize.png"
+        },
+        {
+            "pays": "bénin",
+            "capitale": "porto-novo",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/benin.png"
+        },
+        {
+            "pays": "bhoutan",
+            "capitale": "thimphou",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/bhoutan.png"
+        },
+        {
+            "pays": "biélorussie",
+            "capitale": "minsk",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/bielorussie.png"
+        },
+        {
+            "pays": "birmanie",
+            "capitale": "naypyidaw",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/birmanie.png"
+        },
+        {
+            "pays": "bolivie",
+            "capitale": "sucre",
+            "continent": "amérique du sud",
+            "image": "questionnaire/geographie/image/bolivie.png"
+        },
+        {
+            "pays": "bosnie-herzégovie",
+            "capitale": "sarajevo",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/bosnie_herzegovie.png"
+        },
+        {
+            "pays": "botswana",
+            "capitale": "gaborone",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/botswana.png"
+        },
+        {
+            "pays": "brésil",
+            "capitale": "brasilia",
+            "continent": "amérique du sud",
+            "image": "questionnaire/geographie/image/bresil.png"
+        },
+        {
+            "pays": "brunei",
+            "capitale": "bandar seri begawan",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/brunei.png"
+        },
+        {
+            "pays": "bulgarie",
+            "capitale": "sofia",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/bulgarie.png"
+        },
+        {
+            "pays": "burkina faso",
+            "capitale": "ouagadougou",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/burkina_faso.png"
+        },
+        {
+            "pays": "burundi",
+            "capitale": "gitega",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/burundi.png"
+        },
+        {
+            "pays": "cambodge",
+            "capitale": "phnom penh",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/cambodge.png"
+        },
+        {
+            "pays": "cameroun",
+            "capitale": "yaoundé",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/cameroun.png"
+        },
+        {
+            "pays": "canada",
+            "capitale": "ottawa",
+            "continent": "amérique du nord",
+            "image": "questionnaire/geographie/image/canada.png"
+        },
+        {
+            "pays": "cap-vert",
+            "capitale": "praia",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/cap_vert.png"
+        },
+        {
+            "pays": "république centrafricaine",
+            "capitale": "bangui",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/republique_centrafricaine.png"
+        },
+        {
+            "pays": "chili",
+            "capitale": "santiago",
+            "continent": "amérique du sud",
+            "image": "questionnaire/geographie/image/chili.png"
+        },
+        {
+            "pays": "chine",
+            "capitale": "pékin",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/chine.png"
+        },
+        {
+            "pays": "chypre",
+            "capitale": "nicosie",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/chypre.png"
+        },
+        {
+            "pays": "colombie",
+            "capitale": "bogota",
+            "continent": "amérique du sud",
+            "image": "questionnaire/geographie/image/colombie.png"
+        },
+        {
+            "pays": "comores",
+            "capitale": "moroni",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/comores.png"
+        },
+        {
+            "pays": "république du congo",
+            "capitale": "brazzaville",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/republique_du_congo.png"
+        },
+        {
+            "pays": "république démocratique du congo",
+            "capitale": "kinshasa",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/republique_democratique_du_congo.png"
+        },
+        {
+            "pays": "iles cook",
+            "capitale": "avarua",
+            "continent": "océanie",
+            "image": "questionnaire/geographie/image/iles_cook.png"
+        },
+        {
+            "pays": "corée du nord",
+            "capitale": "pyongyang",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/coree_du_nord.png"
+        },
+        {
+            "pays": "corée du sud",
+            "capitale": "séoul",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/coree_du_sud.png"
+        },
+        {
+            "pays": " costa rica",
+            "capitale": "san josé",
+            "continent": "amérique centrale",
+            "image": "questionnaire/geographie/image/costa_rica.png"
+        },
+        {
+            "pays": "côte d'ivoire",
+            "capitale": "yamoussoukro",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/cote-divoire.png"
+        },
+        {
+            "pays": "croatie",
+            "capitale": "zagreb",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/croatie.png"
+        },
+        {
+            "pays": "cuba",
+            "capitale": "la havane",
+            "continent": "amérique du nord",
+            "image": "questionnaire/geographie/image/cuba.png"
+        },
+        {
+            "pays": "danemark",
+            "capitale": "copenhague",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/danemark.png"
+        },
+        {
+            "pays": "djibouti",
+            "capitale": "djibouti",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/djibouti.png"
+        },
+        {
+            "pays": "république dominicaine",
+            "capitale": "saint domingue",
+            "continent": "amérique du nord",
+            "image": "questionnaire/geographie/image/republique_dominicaine.png"
+        },
+        {
+            "pays": "dominique",
+            "capitale": "roseau",
+            "continent": "amérique du nord",
+            "image": "questionnaire/geographie/image/dominique.png"
+        },
+        {
+            "pays": "egypte",
+            "capitale": "le caire",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/egypte.png"
+        },
+        {
+            "pays": "émirats arabes unis",
+            "capitale": "abou dabi",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/emirats_arabes_unis.png"
+        },
+        {
+            "pays": "équateur",
+            "capitale": "quito",
+            "continent": "amérique du sud",
+            "image": "questionnaire/geographie/image/equateur.png"
+        },
+        {
+            "pays": "erythrée",
+            "capitale": "asmara",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/erythree.png"
+        },
+        {
+            "pays": "espagne",
+            "capitale": "madrid",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/espagne.png"
+        },
+        {
+            "pays": "estonie",
+            "capitale": "tallin",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/estonie.png"
+        },
+        {
+            "pays": "eswatini",
+            "capitale": "mbabane",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/eswatini.png"
+        },
+        {
+            "pays": "états-unis",
+            "capitale": "washington DC",
+            "continent": "amérique du nord",
+            "image": "questionnaire/geographie/image/etats_unis.png"
+        },
+        {
+            "pays": "éthiopie",
+            "capitale": "addis-abeba",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/ethiopie.png"
+        },
+        {
+            "pays": "fidji",
+            "capitale": "suva",
+            "continent": "océanie",
+            "image": "questionnaire/geographie/image/fidji.png"
+        },
+        {
+            "pays": "finlande",
+            "capitale": "helsinki",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/finlande.png"
+        },
+        {
+            "pays": "france",
+            "capitale": "paris",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/france.png"
+        },
+        {
+            "pays": "gabon",
+            "capitale": "libreville",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/gabon.png"
+        },
+        {
+            "pays": "gambie",
+            "capitale": "banjul",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/gambie.png"
+        },
+        {
+            "pays": "géorgie",
+            "capitale": "tbilissi",
+            "continent": "asie et europe",
+            "image": "questionnaire/geographie/image/georgie.png"
+        },
+        {
+            "pays": "ghana",
+            "capitale": "accra",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/ghana.png"
+        },
+        {
+            "pays": "grèce",
+            "capitale": "athènes",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/grece.png"
+        },
+        {
+            "pays": "grenade",
+            "capitale": "saint-georges",
+            "continent": "amérique du nord",
+            "image": "questionnaire/geographie/image/grenade.png"
+        },
+        {
+            "pays": "guatemala",
+            "capitale": "guatemala",
+            "continent": "amérique centrale",
+            "image": "questionnaire/geographie/image/guatemala.png"
+        },
+        {
+            "pays": "guinée",
+            "capitale": "conakry",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/guinee.png"
+        },
+        {
+            "pays": "guinée-bissau",
+            "capitale": "bissau",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/guinee_bissau.png"
+        },
+        {
+            "pays": "guinée équatoriale",
+            "capitale": "malabo",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/guinee_equatoriale.png"
+        },
+        {
+            "pays": "guyana",
+            "capitale": "georgetown",
+            "continent": "amérique du sud",
+            "image": "questionnaire/geographie/image/guyana.png"
+        },
+        {
+            "pays": "haïti",
+            "capitale": "port-au-prince",
+            "continent": "amérique du nord",
+            "image": "questionnaire/geographie/image/haiti.png"
+        },
+        {
+            "pays": "honduras",
+            "capitale": "tegucigalpa",
+            "continent": "amérique centrale",
+            "image": "questionnaire/geographie/image/honduras.png"
+        },
+        {
+            "pays": "hongrie",
+            "capitale": "budapest",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/hongrie.png"
+        },
+        {
+            "pays": "inde",
+            "capitale": "new delhi",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/inde.png"
+        },
+        {
+            "pays": "indonésie",
+            "capitale": "jakarta",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/indonesie.png"
+        },
+        {
+            "pays": "irak",
+            "capitale": "bagdad",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/irak.png"
+        },
+        {
+            "pays": "iran",
+            "capitale": "téhéran",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/iran.png"
+        },
+        {
+            "pays": "irlande",
+            "capitale": "dublin",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/irlande.png"
+        },
+        {
+            "pays": "islande",
+            "capitale": "reykjavik",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/islande.png"
+        },
+        {
+            "pays": "israël",
+            "capitale": "jérusalem",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/israel.png"
+        },
+        {
+            "pays": "italie",
+            "capitale": "rome",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/italie.png"
+        },
+        {
+            "pays": "jamaïque",
+            "capitale": "kingston",
+            "continent": "amérique du nord",
+            "image": "questionnaire/geographie/image/jamaique.png"
+        },
+        {
+            "pays": "japon",
+            "capitale": "tokyo",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/japon.png"
+        },
+        {
+            "pays": "jordanie",
+            "capitale": "amman",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/jordanie.png"
+        },
+        {
+            "pays": "kazakhstan",
+            "capitale": "astana",
+            "continent": "asie et europe",
+            "image": "questionnaire/geographie/image/kazakhstan.png"
+        },
+        {
+            "pays": "kenya",
+            "capitale": "nairobi",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/kenya.png"
+        },
+        {
+            "pays": "kirghizistan",
+            "capitale": "bichkek",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/kirghizistan.png"
+        },
+        {
+            "pays": "kiribati",
+            "capitale": "tarawa",
+            "continent": "océanie",
+            "image": "questionnaire/geographie/image/kiribati.png"
+        },
+        {
+            "pays": "koweït",
+            "capitale": "koweït",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/koweit.png"
+        },
+        {
+            "pays": "laos",
+            "capitale": "vientiane",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/laos.png"
+        },
+        {
+            "pays": "lesotho",
+            "capitale": "maseru",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/lesotho.png"
+        },
+        {
+            "pays": "lettonie",
+            "capitale": "riga",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/lettonie.png"
+        },
+        {
+            "pays": "liban",
+            "capitale": "beyrouth",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/liban.png"
+        },
+        {
+            "pays": "libéria",
+            "capitale": "afrique",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/liberia.png"
+        },
+        {
+            "pays": "libye",
+            "capitale": "tripoli",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/libye.png"
+        },
+        {
+            "pays": "liechtenstein",
+            "capitale": "vaduz",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/liechtenstein.png"
+        },
+        {
+            "pays": "lituanie",
+            "capitale": "vilnius",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/lituanie.png"
+        },
+        {
+            "pays": "macédoine du nord",
+            "capitale": "skopje",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/macedoine_du_nord.png"
+        },
+        {
+            "pays": "madagascar",
+            "capitale": "antananarivo",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/madagascar.png"
+        },
+        {
+            "pays": "malaisie",
+            "capitale": "kuala lumpur",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/malaisie.png"
+        },
+        {
+            "pays": "malawi",
+            "capitale": "lilongwe",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/malawi.png"
+        },
+        {
+            "pays": "maldives",
+            "capitale": "malé",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/maldives.png"
+        },
+        {
+            "pays": "mali",
+            "capitale": "bamako",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/mali.png"
+        },
+        {
+            "pays": "malte",
+            "capitale": "la valette",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/malte.png"
+        },
+        {
+            "pays": "maroc",
+            "capitale": "rabat",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/maroc.png"
+        },
+        {
+            "pays": "iles marshall",
+            "capitale": "delap-uliga-darrit",
+            "continent": "océanie",
+            "image": "questionnaire/geographie/image/iles_marshall.png"
+        },
+        {
+            "pays": "maurice",
+            "capitale": "port-louis",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/maurice.png"
+        },
+        {
+            "pays": "mauritanie",
+            "capitale": "nouakchott",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/mauritanie.png"
+        },
+        {
+            "pays": "mexique",
+            "capitale": "mexico",
+            "continent": "amérique du nord",
+            "image": "questionnaire/geographie/image/mexique.png"
+        },
+        {
+            "pays": "micronésie",
+            "capitale": "palikir",
+            "continent": "océanie",
+            "image": "questionnaire/geographie/image/micronesie.png"
+        },
+        {
+            "pays": "moldavie",
+            "capitale": "Chișinău",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/moldavie.png"
+        },
+        {
+            "pays": "monaco",
+            "capitale": "monaco",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/monaco.png"
+        },
+        {
+            "pays": "mongolie",
+            "capitale": "oulan-bator",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/mongolie.png"
+        },
+        {
+            "pays": "monténégro",
+            "capitale": "Podgorica",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/montenegro.png"
+        },
+        {
+            "pays": "mozambique",
+            "capitale": "maputo",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/mozambique.png"
+        },
+        {
+            "pays": "namibie",
+            "capitale": "windhoek",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/namibie.png"
+        },
+        {
+            "pays": "nauru",
+            "capitale": "aucune",
+            "continent": "océanie",
+            "image": "questionnaire/geographie/image/nauru.png"
+        },
+        {
+            "pays": "népal",
+            "capitale": "katmandou",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/nepal.png"
+        },
+        {
+            "pays": "nicaragua",
+            "capitale": "managua",
+            "continent": "amérique centrale",
+            "image": "questionnaire/geographie/image/nicaragua.png"
+        },
+        {
+            "pays": "niger",
+            "capitale": "niamey",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/niger.png"
+        },
+        {
+            "pays": "niue",
+            "capitale": "alofi",
+            "continent": "océanie",
+            "image": "questionnaire/geographie/image/niue.png"
+        },
+        {
+            "pays": "norvège",
+            "capitale": "oslo",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/norvege.png"
+        },
+        {
+            "pays": "nouvelle-zélande",
+            "capitale": "wellington",
+            "continent": "océanie",
+            "image": "questionnaire/geographie/image/nouvelle_zelande.png"
+        },
+        {
+            "pays": "oman",
+            "capitale": "mascate",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/oman.png"
+        },
+        {
+            "pays": "ouganda",
+            "capitale": "kampala",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/ouganda.png"
+        },
+        {
+            "pays": "ouzbékistan",
+            "capitale": "tachkent",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/ouzbekistan.png"
+        },
+        {
+            "pays": "pakistan",
+            "capitale": "tachkent",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/pakistan.png"
+        },
+        {
+            "pays": "palaos",
+            "capitale": "melekeok",
+            "continent": "océanie",
+            "image": "questionnaire/geographie/image/palaos.png"
+        },
+        {
+            "pays": "palestine",
+            "capitale": "ramallah",
+            "continent": "amérique du nord",
+            "image": "questionnaire/geographie/image/palestine.png"
+        },
+        {
+            "pays": "panama",
+            "capitale": "panama",
+            "continent": "amérique centrale",
+            "image": "questionnaire/geographie/image/panama.png"
+        },
+        {
+            "pays": "papouasie-nouvelle-guinée",
+            "capitale": "port moresby",
+            "continent": "océanie",
+            "image": "questionnaire/geographie/image/papouasie_nouvelle_guinee.png"
+        },
+        {
+            "pays": "paraguay",
+            "capitale": "asunción",
+            "continent": "amérique du sud",
+            "image": "questionnaire/geographie/image/paraguay.png"
+        },
+        {
+            "pays": "pays-bas",
+            "capitale": "amsterdam",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/pays_bas.png"
+        },
+        {
+            "pays": "pérou",
+            "capitale": "lima",
+            "continent": "amérique du nord",
+            "image": "questionnaire/geographie/image/perou.png"
+        },
+        {
+            "pays": "philippines",
+            "capitale": "manille",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/philippines.png"
+        },
+        {
+            "pays": "pologne",
+            "capitale": "varsovie",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/pologne.png"
+        },
+        {
+            "pays": "portugal",
+            "capitale": "lisbonne",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/portugal.png"
+        },
+        {
+            "pays": "qatar",
+            "capitale": "doha",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/qatar.png"
+        },
+        {
+            "pays": "roumanie",
+            "capitale": "bucarest",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/roumanie.png"
+        },
+        {
+            "pays": "royaume-unis",
+            "capitale": "londre",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/royaume_unis"
+        },
+        {
+            "pays": "russie",
+            "capitale": "moscou",
+            "continent": "asie et europe",
+            "image": "questionnaire/geographie/image/russie.png"
+        },
+        {
+            "pays": "rwanda",
+            "capitale": "kigali",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/rwanda.png"
+        },
+        {
+            "pays": "saint-christophe-et-niévès",
+            "capitale": "basseterre",
+            "continent": "amérique du nord",
+            "image": "questionnaire/geographie/image/saint_christophe_et_nieves.png"
+        },
+        {
+            "pays": "sainte-lucie",
+            "capitale": "castries",
+            "continent": "amérique du nord",
+            "image": "questionnaire/geographie/image/sainte_lucie.png"
+        },
+        {
+            "pays": "saint-marin",
+            "capitale": "saint marin",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/saint_marin.png"
+        },
+        {
+            "pays": "saint-vincent-et-les-grenadines",
+            "capitale": "kingstown",
+            "continent": "amérique du nord",
+            "image": "questionnaire/geographie/image/saint_vincent_et_les_grenadines.png"
+        },
+        {
+            "pays": "iles salomon",
+            "capitale": "honiara",
+            "continent": "océanie",
+            "image": "questionnaire/geographie/image/iles_salomon.png"
+        },
+        {
+            "pays": "salvador",
+            "capitale": "san salvador",
+            "continent": "amérique centrale",
+            "image": "questionnaire/geographie/image/salvador.png"
+        },
+        {
+            "pays": "samoa",
+            "capitale": "apia",
+            "continent": "océanie",
+            "image": "questionnaire/geographie/image/samoa.png"
+        },
+        {
+            "pays": "sao tomé-et-principe",
+            "capitale": "são tomé",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/sao_tome_et_principe.png"
+        },
+        {
+            "pays": "sénégal",
+            "capitale": "dakar",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/senegal.png"
+        },
+        {
+            "pays": "serbie",
+            "capitale": "belgrade",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/serbie.png"
+        },
+        {
+            "pays": "seychelles",
+            "capitale": "victoria",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/seychelles.png"
+        },
+        {
+            "pays": "sierra leone",
+            "capitale": "freetown",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/sierra_leone.png"
+        },
+        {
+            "pays": "singapour",
+            "capitale": "singapour",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/singapour.png"
+        },
+        {
+            "pays": "slovaquie",
+            "capitale": "bratislava",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/slovaquie.png"
+        },
+        {
+            "pays": "slovénie",
+            "capitale": "ljubljana",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/slovenie.png"
+        },
+        {
+            "pays": "somalie",
+            "capitale": "mogadiscio",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/somalie.png"
+        },
+        {
+            "pays": "soudan",
+            "capitale": "khartoum",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/soudan.png"
+        },
+        {
+            "pays": "soudan du sud",
+            "capitale": "djouba",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/soudan_du_sud.png"
+        },
+        {
+            "pays": "sri lanka",
+            "capitale": "colombo",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/sri_lanka.png"
+        },
+        {
+            "pays": "suède",
+            "capitale": "stockholm",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/suede.png"
+        },
+        {
+            "pays": "suisse",
+            "capitale": "berne",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/suisse.png"
+        },
+        {
+            "pays": "suriname",
+            "capitale": "paramaribo",
+            "continent": "amérique du sud",
+            "image": "questionnaire/geographie/image/suriname.png"
+        },
+        {
+            "pays": "syrie",
+            "capitale": "damas",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/syrie.png"
+        },
+        {
+            "pays": "tadjikistan",
+            "capitale": "douchanbé",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/tadjikistan.png"
+        },
+        {
+            "pays": "tanzanie",
+            "capitale": "dodoma",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/tanzanie.png"
+        },
+        {
+            "pays": "tchad",
+            "capitale": "n'djaména'",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/tchad.png"
+        },
+        {
+            "pays": "tchéquie",
+            "capitale": "prague",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/tchequie.png"
+        },
+        {
+            "pays": "thaïlande",
+            "capitale": "bangkok",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/thailande.png"
+        },
+        {
+            "pays": "timor oriental",
+            "capitale": "dili",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/timor_oriental.png"
+        },
+        {
+            "pays": "togo",
+            "capitale": "lomé",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/togo.png"
+        },
+        {
+            "pays": "tonga",
+            "capitale": "nuku'alofa'",
+            "continent": "océanie",
+            "image": "questionnaire/geographie/image/tonga.png"
+        },
+        {
+            "pays": "trinité-et-tobago",
+            "capitale": "port-d'espagne'",
+            "continent": "amérique du sud",
+            "image": "questionnaire/geographie/image/trinite_et_tobago.png"
+        },
+        {
+            "pays": "tunisie",
+            "capitale": "tunis",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/tunisie.png"
+        },
+        {
+            "pays": "turkménistan",
+            "capitale": "achgabat",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/turkmenistan.png"
+        },
+        {
+            "pays": "turquie",
+            "capitale": "ankara",
+            "continent": "asie et europe",
+            "image": "questionnaire/geographie/image/turquie.png"
+        },
+        {
+            "pays": "tuvalu",
+            "capitale": "funafuti",
+            "continent": "océanie",
+            "image": "questionnaire/geographie/image/tuvalu.png"
+        },
+        {
+            "pays": "ukraine",
+            "capitale": "kiev",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/ukraine.png"
+        },
+        {
+            "pays": "uruguay",
+            "capitale": "montevideo",
+            "continent": "amérique du sud",
+            "image": "questionnaire/geographie/image/uruguay.png"
+        },
+        {
+            "pays": "vanuatu",
+            "capitale": "port-vila",
+            "continent": "océanie",
+            "image": "questionnaire/geographie/image/vanuatu.png"
+        },
+        {
+            "pays": "vatican",
+            "capitale": "vatican",
+            "continent": "europe",
+            "image": "questionnaire/geographie/image/vatican.png"
+        },
+        {
+            "pays": "venezuela",
+            "capitale": "caracas",
+            "continent": "amérique du sud",
+            "image": "questionnaire/geographie/image/venezuela.png"
+        },
+        {
+            "pays": "vietnam",
+            "capitale": "hanoï",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/vietnam.png"
+        },
+        {
+            "pays": "yémen",
+            "capitale": "aden",
+            "continent": "asie",
+            "image": "questionnaire/geographie/image/yemen.png"
+        },
+        {
+            "pays": "zambie",
+            "capitale": "lusaka",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/zambie.png"
+        },
+        {
+            "pays": "zimbabwe",
+            "capitale": "harare",
+            "continent": "afrique",
+            "image": "questionnaire/geographie/image/zimbabwe.png"
+        }
+    ]
+}

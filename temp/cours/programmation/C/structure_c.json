@@ -1,0 +1,2611 @@
+{
+    "question": "Structure C",
+    "questionnaire": [
+        {
+            "titre": "Qu'est-ce qui ne va pas dans cette instruction ?",
+            "reponse": "pas de égal nécessaire",
+            "leurre1": "point-virgule à la place de virgule",
+            "leurre2": "'Maison' situé après et non avant les membres",
+            "leurre3": "mélange de type de variable différent",
+            "explication": "pas de égal nécessaire\ntypedef struc maison Maison {",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/1.1.png"
+        },
+        {
+            "titre": "Qu'est-ce qui ne va pas dans cette instruction ?",
+            "reponse": "oubli de déterminer la taille du tableau",
+            "leurre1": "'Maison' situé après et non avant les membres",
+            "leurre2": "point-virgule à la place de virgule",
+            "leurre3": "oubli de '='",
+            "explication": "oubli de déterminer la taille du tableau\nchar rue[30]",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/1.2.png"
+        },
+        {
+            "titre": "Qu'est-ce qui ne va pas dans cette instruction ?",
+            "reponse": "oubli de 'typedef'",
+            "leurre1": "'Maison' situé après et non avant les membres",
+            "leurre2": "point-virgule à la place de virgule",
+            "leurre3": "oubli de '='",
+            "explication": "oubli de 'typedef'\ntypedef struc maison [",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/1.3.png"
+        },
+        {
+            "titre": "Qu'est-ce qui ne va pas dans cette instruction ?",
+            "reponse": "virgule à la place du point-virgule",
+            "leurre1": "'Maison' situé après et non avant les membres",
+            "leurre2": "déclaration d'une variable en même temps que 'typedef'",
+            "leurre3": "utilisation de 'typedef' lors de la déclaration d'une variable",
+            "explication": "utilisation de virgule à la place du point virgule\ntypedef struct maison {",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/1.4.png"
+        },
+        {
+            "titre": "Qu'est-ce qui ne va pas dans cette instruction ?",
+            "reponse": "utilisation de virgule à la place du point virgule",
+            "leurre1": "oubli de l'utilisation de 'typedef'",
+            "leurre2": "oubli de '='",
+            "leurre3": "mélange de type de variable différent",
+            "explication": "utilisation de virgule à la place du point virgule\ntypedef struct maison {",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/1.5.png"
+        },
+        {
+            "titre": "Qu'est-ce qui ne va pas dans cette instruction ?",
+            "reponse": "oubli de déterminer la taille du tableau",
+            "leurre1": "oubli de l'utilisation de 'typedef'",
+            "leurre2": "oubli de '='",
+            "leurre3": "point-virgule à la place de virgule",
+            "explication": "oubli de déterminer la taille du tableau\nchar rue[30]",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/1.6.png"
+        },
+        {
+            "titre": "Qu'est-ce qui ne va pas dans cette instruction ?",
+            "reponse": "pas de égal nécessaire",
+            "leurre1": "point-virgule à la place de virgule",
+            "leurre2": "oubli de l'utilisation de 'typedef'",
+            "leurre3": "mélange de type de variable différent",
+            "explication": "pas de égal nécessaire\nstruct maison {",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/1.7.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.1.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le '=' n'est pas nécessaire.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.2.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut indiquer le nombre de cellule du tableau 'rue'.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut mettre des ';' à la fin de chaque membre, et non des virgules.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.4.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque ';' à la fin de la déclaration de la structures.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.5.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque la nouvelle notation de typedef 'Maison'.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.6.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'typedef' au début de la structure.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.7.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque le type des membres.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.8.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.9.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il n'est pas permis d'initialiser les membres dans la déclaration d'une structure.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.10.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "la déclaration d'une 'variable' doit se faire à la fin de la structure.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.11.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.12.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.13.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le '=' est de trop.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.14.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut indiquer le nombre de cellule du tableau 'rue'.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.15png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut mettre des ';' à la fin de chaque membre, et non des virgules.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.16png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque ';' à la fin de la déclaration de la structures.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.17png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque la nouvelle notation de typedef 'Maison'.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.18png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'typedef' au début de la structure.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.19png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque le type des membres.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.20png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il n'est pas permis d'initialiser les membres dans la déclaration d'une structure.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.21.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.22.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le '=' est de trop.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.23.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut indiquer le nombre de cellule du tableau 'rue'.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.24.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut mettre des ';' à la fin de chaque membre, et non des virgules.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.25.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'typedef' au début de la structure.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.26.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque le type des membres.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.27.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque le type de la structure.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.28.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il n'est pas permis d'initialiser les membres dans la déclaration d'une structure.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.29.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque la nouvelle notation de typedef 'Maison'.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.30.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.31.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le '=' est de trop.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.32.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut indiquer le nombre de cellule du tableau 'rue'.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.33.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut mettre des ';' à la fin de chaque membre, et non des virgules.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.34.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque ';' à la fin de la déclaration de la structures.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.35.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque le type des membres.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.36.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il n'est pas permis d'initialiser les membres dans la déclaration d'une structure.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.37.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.38.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le '=' est de trop.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.39.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut indiquer le nombre de cellule du tableau 'rue'.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.40.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut mettre des ';' à la fin de chaque membre, et non des virgules.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.41.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque ';' à la fin de la déclaration de la structures.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.42.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque la nouvelle notation de typedef 'Maison'.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.43.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'typedef' au début de la structure.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.44.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque le type des membres.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.45.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque le type 'maison' entre 'struct' et 'Maison'.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.46.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il n'est pas permis d'initialiser les membres dans la déclaration d'une structure.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.47.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut déclarer 'variable' à la fin de la structure.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.48.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.49.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le '=' est de trop.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.50.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il ",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.51.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut indiquer le nombre de cellule du tableau 'rue'.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.52.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque ';' à la fin de la déclaration de la structures.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.53.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'typedef' au début de la structure.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.54.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque le type des membres.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.55.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque le type 'maison' entre 'struct' et 'Maison'.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.56.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il n'est pas permis d'initialiser les membres dans la déclaration d'une structure.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/2.57.png"
+        },
+        {
+            "titre": "Est-ce que cette variable de structure est bien déclarée ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "struct exemple variable;\nou\nExemple variable;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que cette variable de structure est bien déclarée ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "struct exemple variable;\nou\nExemple variable;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que cette variable de structure est bien déclarée ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "struct exemple variable;\nou\nExemple variable;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que cette variable de structure est bien déclarée ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "struct exemple variable;\nou\nExemple variable;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que cette variable de structure est bien déclarée ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "struct exemple variable;\nou\nExemple variable;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que cette variable de structure est bien déclarée ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "struct exemple variable, variable2;\nou\nExemple variable, variable2;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que cette variable de structure est bien déclarée ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "struct exemple variable, variable2;\nou\nExemple variable, variable2;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que cette variable de structure est bien déclarée ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "struct exemple variable, variable2;\nou\nExemple variable, variable2;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que cette variable de structure est bien déclarée ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "struct exemple variable, variable2;\nou\nExemple variable, variable2;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que cette variable de structure est bien déclarée ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "struct exemple variable, variable2;\nou\nExemple variable, variable2;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que cette variables est bien initialisée lors de sa création ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/4.1.png"
+        },
+        {
+            "titre": "Est-ce que cette variables est bien initialisée lors de sa création ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "} variable = {\n\t''bonsoir'',\n\t5\n};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/4.2.png"
+        },
+        {
+            "titre": "Est-ce que cette variables est bien initialisée lors de sa création ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "} variable = {\n\t''bonsoir'',\n\t5\n};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/4.3.png"
+        },
+        {
+            "titre": "Est-ce que cette variables est bien initialisée lors de sa création ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "} variable = {\n\t''bonsoir'',\n\t5\n};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/4.4.png"
+        },
+        {
+            "titre": "Est-ce que cette variables est bien initialisée lors de sa création ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/4.5.png"
+        },
+        {
+            "titre": "Est-ce que cette variables est bien initialisée lors de sa création ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "} variable = { ''bonsoir'', 5 };",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/4.6.png"
+        },
+        {
+            "titre": "Est-ce que cette variables est bien initialisée lors de sa création ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "} variable = { ''bonsoir'', 5 };",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/4.7.png"
+        },
+        {
+            "titre": "Est-ce que cette variables est bien initialisée lors de sa création ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "} variable = { ''bonsoir'', 5 };",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/4.8.png"
+        },
+        {
+            "titre": "Est-ce que cette variables est bien initialisée lors de sa création ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/4.9.png"
+        },
+        {
+            "titre": "Est-ce que cette variables est bien initialisée lors de sa création ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/4.10.png"
+        },
+        {
+            "titre": "Est-ce que cette variables est bien initialisée lors de sa création ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque =\n} variable = {\n\t''bonsoir'',\n\t5\n};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/4.11.png"
+        },
+        {
+            "titre": "Est-ce que cette variables est bien initialisée lors de sa création ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque =\n} variable = { ''bonsoir'', 5 };",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/4.12.png"
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nvariable.membre = 5;",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "la syntaxe est valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/5.png"
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nvariable->membre = 5;",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "la syntaxe est valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/5.png"
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nvariable.membre = 5",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque ;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/5.png"
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nvariable->membre = 5",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque ;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/5.png"
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nvariable.membre.variable = 5;",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il n'est pas possible de faire appel à une autre variable après un membre.\nca n'a pas de sens",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/5.png"
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nvariable.variable.membre =5;",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "la syntaxe est valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/5.png"
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nvariable.* = NONE;",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il n'est pas possible de modifier tous les membres d'une variable hors déclaration.\n'NONE' n'est pas une valeur null en C.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/5.png"
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nvariable.membre = variable2.membre;",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "la syntaxe est valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/5.png"
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nint *ptn = &variable.membre;",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "la syntaxe est valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/5.png"
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nint ptn = &variable.membre;",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il est nécessaire d'ajouter '*' devant 'ptn'.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/5.png"
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nint var = &variable.membre;",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "la syntaxe est valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/5.png"
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nint tab[0] = &variable.membre;",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "la syntaxe est valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/5.png"
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nint *tab = variable.membre;",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "la syntaxe est valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/5.png"
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nMaison variable = {0};",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "la syntaxe est valide\ntous les membres sont initialisés à vide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/5.png"
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nvariable = {2, 3};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "l'initialisation doit se faire membre par membre si postdéclaration",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/5.png"
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nvariable = {2, ''bonsoir''};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "l'initialisation doit se faire membre par membre si postdéclaration",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/5.png"
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nvariable = {var, tab};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "l'initialisation doit se faire membre par membre si postdéclaration",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/5.png"
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nvariable = {var, 3};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "l'initialisation doit se faire membre par membre si postdéclaration",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/5.png"
+        },
+        {
+            "titre": "La syntaxe est-elle correcte ?\nvariable = variable2;",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "l'initialisation doit se faire membre par membre si postdéclaration",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/5.png"
+        },
+        {
+            "titre": "Cette instruction est-elle correcte pour modifier la variable ?\nvariable.nbPieces = 5;",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/6.png"
+        },
+        {
+            "titre": "Cette instruction est-elle correcte pour modifier la variable ?\nvariable.nbPieces = variable;",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/6.png"
+        },
+        {
+            "titre": "Cette instruction est-elle correcte pour modifier la variable ?\nvariable.nbPieces = 5",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque ;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/6.png"
+        },
+        {
+            "titre": "Cette instruction est-elle correcte pour modifier la variable ?\nvariable.nbPieces = variable",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque ;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/6.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nprintf(''%d'', variable.membre1);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe correcte",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/7.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nprintf(''%s'', variable.membre2);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe correcte",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/7.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nprintf(''%d'', variable.membre1)",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque ;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/7.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nprintf(''%s'', variable.membre2)",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque ;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/7.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nprintf(''%d'' variable.membre1);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque la virgule\n%d'', variable",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/7.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nprintf(''%s'' variable.membre2);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque la virgule\n%s'', variable",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/7.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nprintf(''%d'', membre1);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il est nécessaire de mentionner le nom de la variable.\nprintf(''%d'', variable.membre1);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/7.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nprintf(''%s'', membre2);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "printf(''%s'', variable.membre2);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/7.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nprintf(''%d'', &variable.membre1);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il ne faut pas ajouter '&' devant la variable.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/7.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nprintf(''%s'', &variable.membre2);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il ne faut pas ajouter '&' devant la variable.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/7.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nprintf(''%d'', *variable.membre1);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il ne faut pas ajouter '*' devant la variable.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/7.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nprintf(''%s'', *variable.membre2);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il ne faut pas ajouter '*' devant la variable.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/7.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nscanf(''%d'', &variable.nombre);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/9.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nscanf(''%d'', variable.nombre);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque &\nscanf(''%d'', &variable.nombre);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/9.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nscanf(''%d'', &nombre);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque variable.\nscanf(''%d'', &variable.nombre);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/9.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nscanf(''%d'', nombre);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque &variable.\nscanf(''%d'', &variable.nombre);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/9.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nscanf(''%d'', &variable.nombre)",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque ;\nscanf(''%d'', &variable.nombre);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/9.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nscanf_s(''%s'', variable.rue, );",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/9.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nscanf_s(''%s'', &variable.rue, 29);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le & est en trop\nscanf_s(''%s'', variable.rue, 29);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/9.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nscanf_s(''%s'', *variable.rue, 29);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le * est en trop\nscanf_s(''%s'', variable.rue, 29);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/9.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nscanf_s(''%s'', variable.rue, 29)",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque ;\nscanf_s(''%s'', variable.rue, 29);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/9.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nscanf_s(''%s'', rue, 29);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque variable.\nscanf_s(''%s'', variable.rue, 29);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/9.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nscanf_s(''%s'', *rue, 29);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut mettre 'variable.' à la place de *\nscanf_s(''%s'', variable.rue, 29);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/9.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nscanf_s(''%s'', &rue, 29);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut mettre 'variable.' à la place de &\nscanf_s(''%s'', variable.rue, 29);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/9.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nscanf(''%d'', &variable.tableau[0]);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/9.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nscanf(''%d'', *variable.tableau[0]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut mettre & à la place de *\nscanf(''%d'', &variable.tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/9.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nscanf(''%d'', variable.tableau[0]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque &\nscanf(''%d'', &variable.tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/9.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nscanf(''%d'', &variable.tableau[]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut préciser la cellule\nscanf(''%d'', &variable.tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/9.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nscanf(''%d'', *variable.tableau[]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut remplacer * par &.\nil faut préciser la cellule\nscanf(''%d'', &variable.tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/9.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nscanf(''%d'', variable.tableau[]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque &\nil faut préciser la cellule\nscanf(''%d'', &variable.tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/9.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nscanf(''%d'', &variable.tableau[0])",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque ;\nscanf(''%d'', &variable.tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/9.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nscanf(''%d'', tableau[0]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque &variable.\nscanf(''%d'', &variable.tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/9.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nscanf(''%d'', *tableau[0]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut remplacer * par &variable\nscanf(''%d'', &variable.tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/9.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe est correcte ?\nscanf(''%d'', &tableau[0]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque variable.\nscanf(''%d'', &variable.tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/9.png"
+        },
+        {
+            "titre": "Est-ce que la structure est correctement imbriquée ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/11.1.png"
+        },
+        {
+            "titre": "Est-ce que la structure est correctement imbriquée ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "la structure parent doit être déclaré après",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/11.2.png"
+        },
+        {
+            "titre": "Est-ce que la structure est correctement imbriquée ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "le type 'struct' n'est pas indiqué",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/11.3.png"
+        },
+        {
+            "titre": "Est-ce que la structure est correctement imbriquée ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque le nom de la variable de la structure enfant",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/11.4.png"
+        },
+        {
+            "titre": "Est-ce que la structure est correctement imbriquée ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/11.5.png"
+        },
+        {
+            "titre": "Est-ce que la structure est correctement imbriquée ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/11.6.png"
+        },
+        {
+            "titre": "Est-ce que la structure est correctement imbriquée ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "'Premier' ne peut pas être utilisé avec 'struct' pour déclarer une variable liée.\nIl faut écrire : struct premier variable;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/11.7.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nstruct enfant variable = {1, 2, {3, 4}};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "'{3, 4}' sont en trop pour la structure enfant.\nstruct enfant variable = {1, 2};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nstruct enfant variable = {{1, 2}, {3, 4}};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "deux valeurs et une paire d'accolades sont en trop pour la structure enfant.\nstruct enfant variable = {1, 2};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nstruct enfant variable = {1, 2, 3, 4};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "2 valeurs sont en trop pour la structure enfant.\nstruct enfant variable = {1, 2};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nstruct enfant variable = {1, 2};",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nstruct enfant variable = {{1, 2}};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "une paire d'accolades sont en trop pour la structure enfant.\nstruct enfant variable = {1, 2};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nstruct Enfant variable = {1, 2, {3, 4}};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "utilisation de 'Enfant' à la place de 'enfant'.\nstruct enfant variable = {1, 2};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nstruct Enfant variable = {{1, 2}, {3, 4}};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "utilisation de 'Enfant' à la place de 'enfant'.\nstruct enfant variable = {1, 2};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nstruct Enfant variable = {1, 2, 3, 4};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "utilisation de 'Enfant' à la place de 'enfant'.\nstruct enfant variable = {1, 2};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nstruct Enfant variable = {1, 2};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "utilisation de 'Enfant' à la place de 'enfant'.\nstruct enfant variable = {1, 2};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nstruct Enfant variable = {{1, 2}};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "utilisation de 'Enfant' à la place de 'enfant'.\nstruct enfant variable = {1, 2};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nEnfant variable = {1, 2, {3, 4}};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "'{3, 4}' sont en trop pour la structure enfant.\nEnfant variable = {1, 2};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nEnfant variable = {{1, 2}, {3, 4}};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "deux valeurs et une paire d'accolades sont en trop pour la structure enfant.\nEnfant variable = {1, 2};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nEnfant variable = {1, 2, 3, 4};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "2 valeurs sont en trop pour la structure enfant.\nEnfant variable = {1, 2};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nEnfant variable = {1, 2};",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nEnfant variable = {{3, 4}};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "une paire d'accolades sont en trop pour la structure enfant.\nEnfant variable = {1, 2};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nstruct parent variable = {1, 2, {3, 4}};",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nstruct parent variable = {{1, 2}, {3, 4}};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il y a une paire d'accolades en trop.\nstruct parent variable = {1, 2, {3, 4}};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nstruct parent variable = {1, 2, 3, 4};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque une paire d'accolades.\nstruct parent variable = {1, 2, {3, 4}};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nstruct parent variable = {1, 2};",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nstruct parent variable = {{3, 4}};",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nstruct Parent variable = {1, 2, {3, 4}};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "utilisation de 'Parent' à la place de 'parent'.\nstruct parent variable = {1, 2, {3, 4}};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nstruct Parent variable = {{1, 2}, {3, 4}};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "utilisation de 'Parent' à la place de 'parent'.\nstruct parent variable = {1, 2, {3, 4}};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nstruct Parent variable = {1, 2, 3, 4};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "utilisation de 'Parent' à la place de 'parent'.\nstruct parent variable = {1, 2, {3, 4}};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nstruct Parent variable = {1, 2};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "utilisation de 'Parent' à la place de 'parent'.\nstruct parent variable = {1, 2};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nstruct Parent variable = {{3, 4}};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "utilisation de 'Parent' à la place de 'parent'.\nstruct parent variable = {{3, 4}};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nParent variable = {1, 2, {3, 4}};",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nParent variable = {{1, 2}, {3, 4}};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "la première paire d'accolades est en trop.\nstruct Parent variable = {1, 2, {3, 4}};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nParent variable = {1, 2, 3, 4};",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque une paire d'accoles.\nstruct Parent variable = {1, 2, {3, 4}};",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nParent variable = {1, 2};",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Est-ce que l'initialisation de cette variable de structure est correcte ?\nParent variable = {{3, 4}};",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/12.png"
+        },
+        {
+            "titre": "Cette syntaxe peut-elle venir remplacer les '???', en sachant qu'elle doit pouvoir lié les 2 structures ?\nstruct enfant variable;",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/13.png"
+        },
+        {
+            "titre": "Cette syntaxe peut-elle venir remplacer les '???', en sachant qu'elle doit pouvoir lié les 2 structures ?\nstruct enfant variable,",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "; à la place de ,\nstruct enfant variable;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/13.png"
+        },
+        {
+            "titre": "Cette syntaxe peut-elle venir remplacer les '???', en sachant qu'elle doit pouvoir lié les 2 structures ?\nstruct parent variable;",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "utilisation de 'parent' à la place de 'enfant'.\nstruct enfant variable;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/13.png"
+        },
+        {
+            "titre": "Cette syntaxe peut-elle venir remplacer les '???', en sachant qu'elle doit pouvoir lié les 2 structures ?\nstruct parent variable,",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "utilisation de 'parent' à la place de 'enfant'.\n; à la place de ,\nstruct enfant variable;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/13.png"
+        },
+        {
+            "titre": "Cette syntaxe peut-elle venir remplacer les '???', en sachant qu'elle doit pouvoir lié les 2 structures ?\nenfant variable;",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "doit remplacer 'enfant' par 'Enfant'.\nEnfant variable;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/13.png"
+        },
+        {
+            "titre": "Cette syntaxe peut-elle venir remplacer les '???', en sachant qu'elle doit pouvoir lié les 2 structures ?\nenfant variable,",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "doit remplacer 'enfant' par 'Enfant'.\n; à la place de ,\nEnfant variable;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/13.png"
+        },
+        {
+            "titre": "Cette syntaxe peut-elle venir remplacer les '???', en sachant qu'elle doit pouvoir lié les 2 structures ?\nparent variable;",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "doit remplacer 'parent' par 'Enfant'.\nEnfant variable;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/13.png"
+        },
+        {
+            "titre": "Cette syntaxe peut-elle venir remplacer les '???', en sachant qu'elle doit pouvoir lié les 2 structures ?\nparent variable,",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "doit remplacer 'parent' par 'Enfant'.\n; à la place de ,\nEnfant variable;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/13.png"
+        },
+        {
+            "titre": "Cette syntaxe peut-elle venir remplacer les '???', en sachant qu'elle doit pouvoir lié les 2 structures ?\nvariable;",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "variable n'est pas suffisant.\nEnfant variable;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/13.png"
+        },
+        {
+            "titre": "Cette syntaxe peut-elle venir remplacer les '???', en sachant qu'elle doit pouvoir lié les 2 structures ?\nvariable,",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "variable n'est pas suffisant.\n; à la place de ,\nEnfant variable;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/13.png"
+        },
+        {
+            "titre": "Cette syntaxe peut-elle venir remplacer les '???', en sachant qu'elle doit pouvoir lié les 2 structures ?\nEnfant variable;",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/13.png"
+        },
+        {
+            "titre": "Cette syntaxe peut-elle venir remplacer les '???', en sachant qu'elle doit pouvoir lié les 2 structures ?\nEnfant variable,",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "; à la place de ,\nEnfant variable;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/13.png"
+        },
+        {
+            "titre": "Cette syntaxe peut-elle venir remplacer les '???', en sachant qu'elle doit pouvoir lié les 2 structures ?\nParent variable;",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "doit remplacer 'Parent' par 'Enfant'.\nEnfant variable;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/13.png"
+        },
+        {
+            "titre": "Cette syntaxe peut-elle venir remplacer les '???', en sachant qu'elle doit pouvoir lié les 2 structures ?\nParent variable,",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "doit remplacer 'parent' par 'Enfant'.\n; à la place de ,\nEnfant variable;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/13.png"
+        },
+        {
+            "titre": "Cette syntaxe peut-elle venir remplacer les '???', en sachant qu'elle doit pouvoir lié les 2 structures ?\nstruct Enfant variable;",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "doit remplacer 'Enfant' par 'enfant'\nou\nsupprimer 'struct'.\nEnfant variable;\nstruct enfant variable;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/13.png"
+        },
+        {
+            "titre": "Cette syntaxe peut-elle venir remplacer les '???', en sachant qu'elle doit pouvoir lié les 2 structures ?\nstruct Enfant variable,",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "doit remplacer 'Enfant' par 'enfant'\nou\nsupprimer 'struct'.\n; à la place de ,\nEnfant variable;\nstruct enfant variable;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/13.png"
+        },
+        {
+            "titre": "Cette syntaxe peut-elle venir remplacer les '???', en sachant qu'elle doit pouvoir lié les 2 structures ?\nstruct Parent variable;",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "remplacer 'Parent' par 'enfant'.\nstruct enfant variable;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/13.png"
+        },
+        {
+            "titre": "Cette syntaxe peut-elle venir remplacer les '???', en sachant qu'elle doit pouvoir lié les 2 structures ?\nstruct Parent variable,",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "remplacer 'Parent' par 'enfant'.\n; à la place de ,\nstruct enfant variable;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/13.png"
+        },
+        {
+            "titre": "Cette syntaxe d'affichage est-elle correcte ?\nprintf(''%d'', var.variable.nombre);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'affichage est-elle correcte ?\nprintf(''%d'', &var.variable.nombre);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "& pas nécessaire.\nprintf(''%d'', var.variable.nombre);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'affichage est-elle correcte ?\nprintf(''%d'', *var.variable.nombre);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "* pas nécessaire.\nprintf(''%d'', var.variable.nombre);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'affichage est-elle correcte ?\nprintf(''%d'', var.nombre);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'variable.'\nprintf(''%d'', var.variable.nombre);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'affichage est-elle correcte ?\nprintf(''%d'', variable.nombre);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'var.'\nprintf(''%d'', var.variable.nombre);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'affichage est-elle correcte ?\nprintf(''%d'', nombre);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'var.variable.'\nprintf(''%d'', var.variable.nombre);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'affichage est-elle correcte ?\nprintf(''%s'', var.variable.nom);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'affichage est-elle correcte ?\nprintf(''%s'', &var.variable.nom);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "& pas nécessaire.\nprintf(''%s'', var.variable.nom);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'affichage est-elle correcte ?\nprintf(''%s'', *var.variable.nom);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "* pas nécessaire.\nprintf(''%s'', var.variable.nom);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'affichage est-elle correcte ?\nprintf(''%s'', variable.nom);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'var.'\nprintf(''%s'', var.variable.nom);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'affichage est-elle correcte ?\nprintf(''%s'', var.nom);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'variable.'\nprintf(''%s'', var.variable.nom);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'affichage est-elle correcte ?\nprintf(''%s'', nom);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'var.variable.'\nprintf(''%s'', var.variable.nom);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'affichage est-elle correcte ?\nprintf(''%s'', var.variable.nom[0]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il ne faut pas spécifier de cellule spécifique.\nprintf(''%s'', var.variable.nom);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'affichage est-elle correcte ?\nprintf(''%s'', var.variable.nom[]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il ne faut pas ajouter de crochets.\nprintf(''%s'', var.variable.nom);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'affichage est-elle correcte ?\nprintf(''%c'', var.variable.nom[0]);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'affichage est-elle correcte ?\nprintf(''%d'', var.variable.tableau[0]);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'affichage est-elle correcte ?\nprintf(''%d'', &var.variable.tableau[0]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "& pas nécessaire\nprintf(''%d'', var.variable.tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'affichage est-elle correcte ?\nprintf(''%d'', *var.variable.tableau[0]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "* pas nécessaire\nprintf(''%d'', var.variable.tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'affichage est-elle correcte ?\nprintf(''%d'', var.tableau[0]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'variable.'\nprintf(''%d'', var.variable.tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'affichage est-elle correcte ?\nprintf(''%d'', variable.tableau[0]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'var.'\nprintf(''%d'', var.variable.tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'affichage est-elle correcte ?\nprintf(''%d'', tableau[0]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'var.variable.'\nprintf(''%d'', var.variable.tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'affichage est-elle correcte ?\nprintf(''%d'', var.variable.tableau[]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut préciser une cellule en particulier.\nprintf(''%d'', var.variable.tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'affichage est-elle correcte ?\nprintf(''%d'', var.variable.tableau);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut préciser uen cellule en particulier.\nprintf(''%d'', var.variable.tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'assignation est-elle correcte ?\nscanf(''%d'', &var.variable.nombre);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'assignation est-elle correcte ?\nscanf(''%d'', *var.variable.nombre);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "& à la place de *\nscanf(''%d'', &var.variable.nombre);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'assignation est-elle correcte ?\nscanf(''%d'', var.variable.nombre);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque & devant 'var'\nscanf(''%d'', &var.variable.nombre);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'assignation est-elle correcte ?\nscanf(''%d'', &variable.nombre);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'var.'\nscanf(''%d'', &var.variable.nombre);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'assignation est-elle correcte ?\nscanf(''%d'', &var.nombre);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'variable.'\nscanf(''%d'', &var.variable.nombre);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'assignation est-elle correcte ?\nscanf(''%d'', &nombre);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'var.variable.'\nscanf(''%d'', &var.variable.nombre);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'assignation est-elle correcte ?\nscanf_(''%s'', &var.variable.nom, 29);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'assignation est-elle correcte ?\nscanf_s(''%s'', *var.variable.nom, 29);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "& à la place de *\nscanf_s(''%s'', &var.variable.nom, 29);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'assignation est-elle correcte ?\nscanf_s(''%s'', var.variable.nom, 29);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque &\nscanf_s(''%s'', &var.variable.nom, 29);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'assignation est-elle correcte ?\nscanf_s(''%s'', &variable.nom, 29);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'var.'\nscanf_s(''%s'', &var.variable.nom, 29);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'assignation est-elle correcte ?\nscanf_s(''%s'', &var.nom, 29);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'variable.'\nscanf_s(''%s'', &var.variable.nom, 29);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'assignation est-elle correcte ?\nscanf_s(''%s'', &nom, 29);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'var.variable.'\nscanf_s(''%s'', &var.variable.nom, 29);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'assignation est-elle correcte ?\nscanf_s(''%s'', &var.variable.nom[], 29);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il ne faut pas mettre de crochets.\nscanf_s(''%s'', &var.variable.nom, 29);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'assignation est-elle correcte ?\nscanf_s(''%s'', &var.variable.nom[0], 29);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il ne faut pas mettre de crochets.\nil ne faut pas spécifier de cellule spécifique.\nscanf_s(''%s'', &var.variable.nom, 29);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'assignation est-elle correcte ?\nscanf_s(''%c'', &var.variable.nom[0], 1);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'assignation est-elle correcte ?\nscanf(''%d'', &var.variable.tableau[0]);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'assignation est-elle correcte ?\nscanf(''%d'', *var.variable.tableau[0]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "& à la place de *\nscanf(''%d'', &var.variable.tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'assignation est-elle correcte ?\nscanf(''%d'', var.variable.tableau[0]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque &\nscanf(''%d'', &var.variable.tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'assignation est-elle correcte ?\nscanf(''%d'', &variable.tableau[0]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'var.'\nscanf(''%d'', &var.variable.tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'assignation est-elle correcte ?\nscanf(''%d'', &var.tableau[0]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'variable.'\nscanf(''%d'', &var.variable.tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'assignation est-elle correcte ?\nscanf(''%d'', &tableau[0]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'var.variable.'\nscanf(''%d'', &var.variable.tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'assignation est-elle correcte ?\nscanf(''%d'', &var.variable.tableau[]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut indiquer une cellule spécifique\nscanf(''%d'', &var.variable.tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Cette syntaxe d'assignation est-elle correcte ?\nscanf(''%d'', &var.variable.tableau);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut indiquer une cellule spécifique\nscanf(''%d'', &var.variable.tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/14.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est la définition de la fonction.",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.1.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est la définition de la fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type fonction(struct type variable) {}",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.2.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est la définition de la fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type fonction(struct type variable) {}",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est la définition de la fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type fonction(struct type variable) {}",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.4.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est la définition de la fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type fonction(struct type variable) {}",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.5.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est la définition de la fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type fonction(struct type variable) {}",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.6.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est la définition de la fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type fonction(struct type variable) {}",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.7.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est la définition de la fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type fonction(struct type variable) {}",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.8.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est la définition de la fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type fonction(struct type variable) {}",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.9.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est la définition de la fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type fonction(struct type variable) {}",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.10.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est la définition de la fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type fonction(struct type variable) {}",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.11.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est la définition de la fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type fonction(struct type variable) {}",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.12.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est la définition de la fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type fonction(struct type variable) {}",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.13.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est la définition de la fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type fonction(struct type variable) {}",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.14.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est la définition de la fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type fonction(struct type variable) {}",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.15.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est la définition de la fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type fonction(struct type variable) {}",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.16.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est la définition de la fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type fonction(struct type variable) {}",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.17.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est la définition de la fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type fonction(struct type variable) {}",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est la définition de la fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type fonction(struct type variable) {}",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.19.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est la définition de la fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type fonction(struct type variable) {}",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.20.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est l'appel de cette fonction.",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.21.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est l'appel de cette fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nvariable = fonction(variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.22.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est l'appel de cette fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nvariable = fonction(variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.23.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est l'appel de cette fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nvariable = fonction(variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.24.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est l'appel de cette fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nvariable = fonction(variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.25.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est l'appel de cette fonction.",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.26.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est l'appel de cette fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type variable = fonction(variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.27.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est l'appel de cette fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type variable = fonction(variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.28.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est l'appel de cette fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type variable = fonction(variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.29.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est l'appel de cette fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type variable = fonction(variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.30.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est l'appel de cette fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type variable = fonction(variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.31.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est l'appel de cette fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type variable = fonction(variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.32.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est l'appel de cette fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type variable = fonction(variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.33.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est l'appel de cette fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type variable = fonction(variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.34.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est l'appel de cette fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type variable = fonction(variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.35.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est l'appel de cette fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type variable = fonction(variable);\nou\nvariable = fonction(variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.36.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est l'appel de cette fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type variable = fonction(variable);\nou\nvariable = fonction(variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.37.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est l'appel de cette fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type variable = fonction(variable);\nou\nvariable = fonction(variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.38.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est l'appel de cette fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type variable = fonction(variable);\nou\nvariable = fonction(variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.39.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (sans typedef) ?\nC'est l'appel de cette fonction.",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "reponse :\nstruct type variable = fonction(variable);\nou\nvariable = fonction(variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/15.40.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (avec typedef) ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque le type de la variable entre les parenthèses.\nType fonction(variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/16.1.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (avec typedef) ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/16.2.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (avec typedef) ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque le type de la variable entre les parenthèses.\nil n'est pas nécessaire d'ajouter le nom de la variable au retour.\nType variable fonction(variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/16.3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (avec typedef) ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il n'est pas nécessaire d'ajouter le nom de la variable au retour.\nType fonction(Type variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/16.4.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (avec typedef) ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/16.5.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (avec typedef) ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque le type de la variable entre les parenthèses.\nvariable = fonction(variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/16.6.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (avec typedef) ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/16.7.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de passage en argument d'une variable de structure est correcte (avec typedef) ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque le type de le variable entre les parenthèses.\nType variable = fonction(variable);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/16.8.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de création de tableau de variable est-elle correcte ?\nstruct exemple variable[3];",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de création de tableau de variable est-elle correcte ?\nstruct exemple variable[0];",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il n'est pas possible d'initialiser un tableau avec 0 cellules.\nstruct exemple variable[3];",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de création de tableau de variable est-elle correcte ?\nstruct exemple variable[];",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut indiquer le nombre de celulle que l'on souhaite créer.\nstruct exemple variable[3];",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de création de tableau de variable est-elle correcte ?\nexemple variable[3];",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "struct exemple variable[3];\nou\nExemple variable[3];",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de création de tableau de variable est-elle correcte ?\nstruct variable[3];",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'exemple'\nstruct exemple variable[3];",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de création de tableau de variable est-elle correcte ?\nstruct Exemple variable[3];",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut remplacer 'Exemple' par 'exemple'.\nstruct exemple variable[3];",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de création de tableau de variable est-elle correcte ?\nExemple variable[3];",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de création de tableau de variable est-elle correcte ?\nstruct exemple variable[3], variable2[3];",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de création de tableau de variable est-elle correcte ?\nstruct exemple variable, variable2[3];",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de création de tableau de variable est-elle correcte ?\nstruct exemple variable[3], variable2;",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de création de tableau de variable est-elle correcte ?\nstruct exemple variable[], variable2[];",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut spécifier le nombre de cellule pour chaque tableau.\nstruct exemple variable[3], variable2[3];",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de création de tableau de variable est-elle correcte ?\nexemple variable[3], variable2[3];",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut remplacer 'exemple' par 'Exemple'.\nExemple variable[3], variable2[3];",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de création de tableau de variable est-elle correcte ?\nexemple variable, variable2[3];",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut remplacer 'exemple' par 'Exemple'.\nExemple variable, variable2[3];",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de création de tableau de variable est-elle correcte ?\nexemple variable[3], variable2;",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut remplacer 'exemple' par 'Exemple'.\nexemple variable[3], variable2;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de création de tableau de variable est-elle correcte ?\nexemple variable[], variable2[];",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut remplacer 'exemple' par 'Exemple'.\nil faut indiquer le nombre de cellule par tableau.\nexemple variable[], variable2[];",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de création de tableau de variable est-elle correcte ?\nstruct variable[3], variable2[3];",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'exemple'.\nstruct exemple variable[3], variable2[3];",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de création de tableau de variable est-elle correcte ?\nstruct variable, variable2[3];",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'exemple'.\nstruct exemple variable, variable2[3];",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de création de tableau de variable est-elle correcte ?\nstruct variable[3], variable2;",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque 'exemple'.\nstruct exemple variable[3], variable2;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de création de tableau de variable est-elle correcte ?\n",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut remplacer 'Exemple' par 'exemple'.\nstruct exemple variable[3], variable2[3];",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de création de tableau de variable est-elle correcte ?\nstruct Exemple variable, variable2[3];",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut remplacer 'Exemple' par 'exemple'.\nstruct exemple variable, variable2[3];",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de création de tableau de variable est-elle correcte ?\nstruct Exemple variable[3], variable2;",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut remplacer 'Exemple' par 'exemple'.\nstruct exemple variable[3], variable2;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de création de tableau de variable est-elle correcte ?\nstruct Exemple variable[], variable2[];",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut remplacer 'Exemple' par 'exemple'.\nil faut indiquer le nombre de cellule voulu par tableau.\nstruct exemple variable[3], variable2[3];",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de création de tableau de variable est-elle correcte ?\nExemple variable[3], variable2[3];",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de création de tableau de variable est-elle correcte ?\nExemple variable, variable2[3];",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de création de tableau de variable est-elle correcte ?\nExemple variable[3], variable2;",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de création de tableau de variable est-elle correcte ?\n",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut preciser le nombre de cellule par tableau.\nExemple variable[3], variable2[3];",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de modification de variable est-elle valide ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/17.1.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de modification de variable est-elle valide ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "impossible d'avoir 'membre' avant 'variable'.\nvariable[1].variable.membre = 5;",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/17.2.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de modification de variable est-elle valide ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/17.3.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de modification de variable est-elle valide ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "Il n'est pas possible d'initialiser tous les membres à une valeur NULL.",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/17.4.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de modification de variable est-elle valide ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/17.5.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de modification de variable est-elle valide ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/17.6.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de modification de variable est-elle valide ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/17.7.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de modification de variable est-elle valide ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/17.8.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de modification de variable est-elle valide ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/17.9.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de modification de variable est-elle valide ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/17.10.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de modification de variable est-elle valide ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/17.11.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe de modification de variable est-elle valide ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/17.12.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour afficher la valeur est-elle correct ?\nprintf(''%d'', variable[0].nombre);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour afficher la valeur est-elle correct ?\nprintf(''%d'', variable.nombre[0]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il est nécessaire de préciser l'indice de la variable visée\nprintf(''%d'', variable[0].nombre);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour afficher la valeur est-elle correct ?\nprintf(''%d'', variable[].nombre);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il est nécessaire de préciser l'indice de la variable visée\nprintf(''%d'', variable[0].nombre);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour afficher la valeur est-elle correct ?\nprintf(''%d'', variable.nombre[]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il est nécessaire de préciser l'indice de la variable visée\nprintf(''%d'', variable[0].nombre);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour afficher la valeur est-elle correct ?\nprintf(''%d'', variable[].nombre);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il est nécessaire de préciser l'indice de la variable visée\nprintf(''%d'', variable[0].nombre);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour afficher la valeur est-elle correct ?\nprintf(''%s'', variable[0].nom);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour afficher la valeur est-elle correct ?\nprintf(''%s'', variable.nom[0]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut précisre la cellule de la variable visée.\nil ne faut pas préciser de cellule pour 'nom'.\nprintf(''%s'', variable[0].nom);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour afficher la valeur est-elle correct ?\nprintf(''%s'', variable[].nom);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut précisre la cellule de la variable visée.\nprintf(''%s'', variable[0].nom);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour afficher la valeur est-elle correct ?\nprintf(''%s'', variable.nom[]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut précisre la cellule de la variable visée.\nil ne faut pas préciser de cellule pour 'nom'.\nprintf(''%s'', variable[0].nom);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour afficher la valeur est-elle correct ?\nprintf(''%s'', variable.nom);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut précisre la cellule de la variable visée.\nprintf(''%s'', variable[0].nom);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour afficher la valeur est-elle correct ?\nprintf(''%d'', variable[0].tableau);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il est nécessaire de préciser la cellule visée de 'tableau'.\nprintf(''%d'', variable[0].tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour afficher la valeur est-elle correct ?\nprintf(''%d'', variable[].tableau);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il est nécessaire de préciser la cellule visée pour 'variable' et 'tableau'.\nprintf(''%d'', variable[0].tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour afficher la valeur est-elle correct ?\n",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour afficher la valeur est-elle correct ?\nprintf(''%d'', variable.tableau[0]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il est nécessaire de préciser la cellule visée pour 'variable' et 'tableau'.\nprintf(''%d'', variable[0].tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour afficher la valeur est-elle correct ?\nprintf(''%d'', variable[].tableau[]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut préciser les cellule visée pour 'tableau' et 'variable'.\nprintf(''%d'', variable[0].tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour afficher la valeur est-elle correct ?\nprintf(''%d'', variable.tableau[]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut préciser les cellule visée pour 'tableau' et 'variable'.\nprintf(''%d'', variable[0].tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour afficher la valeur est-elle correct ?\nprintf(''%d'', variable.tableau);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut préciser les cellule visée pour 'tableau' et 'variable'.\nprintf(''%d'', variable[0].tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour récupérer la valeurs est-elle correcte ?\nscanf(''%d'', &variable[0].nombre);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour récupérer la valeurs est-elle correcte ?\nscanf(''%d'', variable[0].&nombre);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "& est placé au mauvais endroit.\nscanf(''%d'', &variable[0].nombre);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour récupérer la valeurs est-elle correcte ?\nscanf(''%d'', &variable[0].&nombre);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "un & en trop.\nscanf(''%d'', &variable[0].nombre);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour récupérer la valeurs est-elle correcte ?\nscanf(''%d'', *variable[0].nombre);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "& à la place de *\nscanf(''%d'', &variable[0].nombre);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour récupérer la valeurs est-elle correcte ?\nscanf(''%d'', variable[0].nombre);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque &\nscanf(''%d'', &variable[0].nombre);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour récupérer la valeurs est-elle correcte ?\nscanf(''%d'', variable[].nombre);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut préciser l'indice de la variable.\nscanf(''%d'', &variable[0].nombre);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour récupérer la valeurs est-elle correcte ?\nscanf_s(''%s'', &variable[0].nom);",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour récupérer la valeurs est-elle correcte ?\nscanf_s(''%s'', *variable[0].nom);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "& à la place de *\nscanf_s(''%s'', &variable[0].nom);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour récupérer la valeurs est-elle correcte ?\nscanf_s(''%s'', variable[0].nom);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque &\nscanf_s(''%s'', &variable[0].nom);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour récupérer la valeurs est-elle correcte ?\nscanf_s(''%s'', &variable[0].nom[0]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il ne faut pas indiquer d'indice pour une chaîne de caractères.\nscanf_s(''%s'', &variable[0].nom);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour récupérer la valeurs est-elle correcte ?\nscanf_s(''%s'', &variable[].nom[]);",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut préciser l'indice de la variable.\nil ne faut pas préciser d'indice pour une chaîne de caractères.\nscanf_s(''%s'', &variable[0].nom);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour récupérer la valeurs est-elle correcte ?\n",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "syntaxe valide",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour récupérer la valeurs est-elle correcte ?\n",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "& à la place de *\nscanf(''%d'', &variable[0].tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour récupérer la valeurs est-elle correcte ?\n",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il manque &\nscanf(''%d'', &variable[0].tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour récupérer la valeurs est-elle correcte ?\n",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut indiquer l'indice de 'tableau'.\nscanf(''%d'', &variable[0].tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Est-ce que la syntaxe pour récupérer la valeurs est-elle correcte ?\n",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "il faut préciser l'indice de 'variable'.\nscanf(''%d'', &variable[0].tableau[0]);",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_structure/18.png"
+        },
+        {
+            "titre": "Quel mot est réservé à la création de structure ?",
+            "reponse": "struct",
+            "leurre1": "break",
+            "leurre2": "enum",
+            "leurre3": "case",
+            "explication": "struct",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que deux structures peuvent porter le même nom ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce que les membres de deux structures peuvent avoir un nom identique ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui",
+            "image": ""
+        },
+        {
+            "titre": "Est-il possible d'initialiser une variable de structure lorsqu'elle est créée en même temps que la structure ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non",
+            "image": ""
+        },
+        {
+            "titre": "L'accès par -> est-il possible si ma structure n'est pas liée à un pointeur ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non",
+            "image": ""
+        },
+        {
+            "titre": "Une structure s'initialise-t-elle de la même façon si elle l'est lors de sa déclaration ou plus tard dans le code ?",
+            "reponse": "non",
+            "leurre1": "oui",
+            "explication": "non",
+            "image": ""
+        },
+        {
+            "titre": "Est-ce qu'une variable de structure peut être retournée de la même manière qu'une simple variable ?",
+            "reponse": "oui",
+            "leurre1": "non",
+            "explication": "oui",
+            "image": ""
+        }
+    ]
+}

@@ -1,0 +1,1167 @@
+{
+    "titre": "Sécurité des données",
+    "type": "txt",
+    "reverse": 0,
+    "questionnaire": [
+        {
+            "question": "Qu'est-ce qu'une donnée ?",
+            "reponse_totale": ["fait", "sujet", "élément"],
+            "explication": "Faits recueillis sur un sujet ou un élément."
+        },
+        {
+            "question": "Qu'est-ce qu'une information ?",
+            "reponse_totale": ["resultat", "combinaison", "comparaison", "execution", "calcul", "donnee"],
+            "explication": "Résultat de la combinaison, de la comparaison et de l'exécution de calculs sur les données."
+        },
+        {
+            "question": "Qu'est-ce qu'une base de données ?",
+            "reponse_totale": ["collection", "donnee"],
+            "explication": "C'est une collection organisée de données."
+        },
+        {
+            "question": "Sous quelle forme sont habituellement stockées les bases de données ?",
+            "reponse_totale": ["electronique"],
+            "explication": "Sous forme électronique."
+        },
+        {
+            "question": "Est-ce que toutes les bases de données sont stockées sous forme électronique ?",
+            "reponse": "non",
+            "explication": "Non"
+        },
+        {
+            "question": "Comment sont traditionnellement organisées les bases de données ?",
+            "reponse_totale": ["champ", "enregistrement", "fichier"],
+            "explication": "Champ - enregistrement - fichier"
+        },
+        {
+            "question": "Est-ce que les utilisateurs ont habituellement accès aux bases de données ?",
+            "reponse": "non",
+            "explication": "Non"
+        },
+        {
+            "question": "Qu'utilise les utilisateurs pour accéder indirectement aux bases de données ?",
+            "reponse": "DBMS",
+            "explication": "DBMS"
+        },
+        {
+            "question": "Qu'est-ce que DBMS ?",
+            "reponse_totale": ["collection", "saisir", "organiser", "selectionner", "donnee"],
+            "explication": "Une collection de programmes qui permet de saisir, d'organiser et de sélectionner des données dans une base de données."
+        },
+        {
+            "question": "Qu'est-ce qu'une table bi-dimensionnelles ?",
+            "reponse_totale": ["ligne", "colonne"],
+            "explication": "Une table constituée de lignes et de colonnes."
+        },
+        {
+            "question": "De quoi est constitué une base de donnée de type plat ?",
+            "reponse_totale": ["dimensionnelle"],
+            "explication": "de tables bi-dimensionnelles."
+        },
+        {
+            "question": "Citer un serveur de base de données",
+            "reponse_totale": ["microsoft", "sql", "server"],
+            "explication": "Microsoft SQL Server"
+        },
+        {
+            "question": "Quel est le langage utilisé ?",
+            "reponse_multiple": ["sql", "t-sql"],
+            "explication": "SQL ou T-SQL"
+        },
+        {
+            "question": "Quel est le langage utilisé par Microsoft ?",
+            "reponse": "t-sql",
+            "explication": "T-SQL"
+        },
+        {
+            "question": "Quels sont les sous-langage SQL ?",
+            "reponse_totale": ["ddl", "dml", "dql", "dcl", "tcl"],
+            "explication": "DDL, DML, DQL, DCL et TCL"
+        },
+        {
+            "question": "Qu'est-ce qu'une contrainte ?",
+            "reponse_totale": ["limite", "regle", "champ"],
+            "explication": "Ce sont des limites ou des règles placées sur un champ ou une colonne."
+        },
+        {
+            "question": "Que permet une contrainte ?",
+            "reponse_totale": ["non valide"],
+            "explication": "Elle s'assure que les données considérées comme non valides ne sont pas saisies."
+        },
+        {
+            "question": "Quels sont les 5 types de contraintes disponibles dans SQL Server ?",
+            "reponse_totale_multiple": ["primaire", "etranger", ["composite", "unique"], "default", "check"],
+            "explication": "Clé primaire - Clé étrangère - Clé composite (unique) - DEFAULT - CHECK"
+        },
+        {
+            "question": "Quel est la définition de SSMS ?",
+            "reponse": "sql server management studio",
+            "explication": "SQL Server Management Studio"
+        },
+        {
+            "question": "Quelle est la fonctionnalité centrale de SSMS ?",
+            "reponse_totale": ["explorateur", "objet"],
+            "explication": "Explorateur d'objet"
+        },
+        {
+            "question": "Que permet l'explorateur d'objet ?",
+            "reponse_totale": ["naviguer", "electionner", "gerer", "objet"],
+            "explication": "Il permet à l'utilisateur de naviguer, sélectionner, gérer chacun des objets du serveur en GUI ou CLI."
+        },
+        {
+            "question": "Quels sont les 3 types de fichiers pour stocker la base de données ?",
+            "reponse_totale": ["mdf", "ndf", "ldf"],
+            "explication": "mdf - ndf - ldf"
+        },
+        {
+            "question": "Qu'est-ce qu'un schéma ?",
+            "reponse_multiple_totale": [["espace", "nom", "conteneur", "logique", "table"], ["limite", "securite"], ["reduire", "tache", "administrative", "ameliore", "securite"]],
+            "explication": "Un espace de noms qui représente un conteneur logique pour les tables - Une limite de sécurité - Permet de réduire les tâches administratives et améliore la sécurité."
+        },
+        {
+            "question": "Qu'est-ce qu'un espace de noms qui représente un conteneur logique pour des tables ?",
+            "reponse_totale": ["schema"],
+            "explication": "Un schéma"
+        },
+        {
+            "question": "Qu'est-ce qui permet de fixer des limites de sécurité ?",
+            "reponse_totale": ["schema"],
+            "explication": "Un schéma"
+        },
+        {
+            "question": "Donnez des formats de fichier représentant des bases de données plates.",
+            "reponse_multiple": ["csv", "txt", "excel"],
+            "explication": "CSV, TXT ou Excel"
+        },
+        {
+            "question": "A quoi ressemble la conception d'une base de données hiérarchique ?",
+            "reponse_totale": ["genealogique"],
+            "explication": "Un arbre généalogique"
+        },
+        {
+            "question": "Dans une base de données hiérarchique, est-ce qu'un enfant peut avoir plusieurs parents ?",
+            "reponse": "non",
+            "explication": "Non"
+        },
+        {
+            "question": "Dans une base de données hiérarchique, est-ce qu'un parent peut avoir plusieurs enfant ?",
+            "reponse": "oui",
+            "explication": "oui"
+        },
+        {
+            "question": "Qu'est-ce qu'un modèle conceptuel ?",
+            "reponse_multiple_totale": [["capture", "besoin", "fonctionnel", "informationnel", "entreprise"], ["besoin", "actuel", "futur"], ["besoin", "entreprise", "implementation"]],
+            "explication": "Il capture les besoins fonctionnels et informationnels d'une entreprise - Il est basé sur les besoins actuels, mais peut refléter des besoins futurs - Il répond aux besoins d'une entreprise, mais ne prend pas en compte l'implémentation."
+        },
+        {
+            "question": "Que permet le modèle conceptuel ?",
+            "reponse_totale": ["identifie", "entite", "importante", "relation"],
+            "explication": "Il identifie les entités importantes et les relations entre les entités."
+        },
+        {
+            "question": "Que ne spécifie pas le modèle conceptuel ?",
+            "reponse_totale": ["attribut", "identificateur"],
+            "explication": "Les attributs et les identificateurs uniques"
+        },
+        {
+            "question": "Qu'est-ce qu'un bon modèle de données conceptuel ?",
+            "reponse_totale": ["identique"],
+            "explication": "Lorsqu'il demeure identique, quel que soit le type de système de base de données finalement créé ou mis en œuvre."
+        },
+        {
+            "question": "Qu'est-ce qu'une entité ?",
+            "reponse_totale": ["information", "enumere"],
+            "explication": "Des informations qu'il est possible d'énumérer."
+        },
+        {
+            "question": "Est-ce que les entités peuvent être classées ?",
+            "reponse": "oui",
+            "explication": "oui"
+        },
+        {
+            "question": "Que contient une entité ?",
+            "reponse_totale": ["instance"],
+            "explication": "Des instances"
+        },
+        {
+            "question": "Qu'est-ce qu'une instance ?",
+            "reponse_totale": ["occurence", "unique", "entite"],
+            "explication": "Une occurrence unique d'une entité."
+        },
+        {
+            "question": "Qu'est-ce qu'une relation ?",
+            "reponse_totale_multiple": ["lien", ["deux", "2"], "table"],
+            "explication": "Un lien entre 2 tables."
+        },
+        {
+            "question": "Quelles sont les caractéristiques d'une relation ?",
+            "reponse_totale_multiple": [["deux", "2"], "entite", "max", "point", "vue", "relation", "libelle"],
+            "explication": "Elles peuvent exister entre deux entités maximum - Elles peuvent exister entre une entité et elle-même (relation récursive) - Elles ont 2 points de vue - Les 2 vue des relations doivent faire l'objet d'un libellé."
+        },
+        {
+            "question": "Qu'est-ce qu'un modèle logique ?",
+            "reponse_multiple_totale_multiple": [[["tout", "tous"], "entite", "relation", "uni"], ["modele", "erm"], ["represente", "diagramme", "erd"], [["tout", "tous"], "attribut", "uid", "entite"], ["optionnalite", "attribut"], ["optionnalite", "cardinalite", "relation"]],
+            "explication": "Il inclut toutes les entités et les relations qui les unissent - Il est appelé modèle ERM (modèle entité relation) - Il est représenté par un diagramme ERD - Il spécifie tous les attributs et UID pour chaque entité - Il détermine l'optionalité des attributs - Il détermine l'optionalité et la cardinalité des relations"
+        },
+        {
+            "question": "Qu'est-ce qu'un attribut ?",
+            "reponse_multiple_totale": [["entite"], ["information", "specifique", "connu"], ["detail", "propriete", "monovaleur"]],
+            "explication": "Ils décrivent des entités - Ils correspondent aux informations spécifiques qui doivent être connues - Il s'agit d'un détail de propriété monovaleur d'une entité"
+        },
+        {
+            "question": "Est-ce que les attributs sont affichés à l'intérieur ou à l'extérieur du cadre de l'entité dans le diagramme ERD.",
+            "reponse_totale": ["interieur"],
+            "explication": "Intérieur"
+        },
+        {
+            "question": "Un nom d'attribut est-il au singulier ou au pluriel ?",
+            "reponse_totale": ["pluriel"],
+            "explication": "au pluriel"
+        },
+        {
+            "question": "Un nom d'attribut est-il en majuscule ou en minuscule ?",
+            "reponse_totale": ["minuscule", "majuscule"],
+            "explication": "En minuscule et en majuscule"
+        },
+        {
+            "question": "Est-ce que le nom d'un attribut doit inclure celui de l'entité ?",
+            "reponse": "non",
+            "explication": "non"
+        },
+        {
+            "question": "Est-ce qu'un attribut obligatoire peut avoir une valeur ?",
+            "reponse": "oui",
+            "explication": "oui"
+        },
+        {
+            "question": "Est-ce qu'un attribut obligatoire doit obligatoirement avoir une de valeur ?",
+            "reponse": "non",
+            "explication": "non"
+        },
+        {
+            "question": "Est-ce qu'un attribut facultatif peut avoir une valeur ?",
+            "reponse": "oui",
+            "explication": "oui"
+        },
+        {
+            "question": "Est-ce qu'un attribut facultatif doit obligatoirement avoir une valeur ?",
+            "reponse": "non",
+            "explication": "non"
+        },
+        {
+            "question": "Combien de type d'attributs différents existe-t-il ?",
+            "reponse_multiple": ["2", "deux"],
+            "explication": "2"
+        },
+        {
+            "question": "Par quel caractère reconnaît-on un attribut obligatoire ?",
+            "reponse": "*",
+            "explication": "*"
+        },
+        {
+            "question": "Par quel caractère reconnaît-on un attribut facultatif ?",
+            "reponse": "o",
+            "explication": "o"
+        },
+        {
+            "question": "Par quel caractère reconnaît-on un UID ?",
+            "reponse": "#",
+            "explication": "#"
+        },
+        {
+            "question": "Qu'est-ce qu'un modèle physique ?",
+            "reponse_multiple_totale_multiple": [["extension", "modele", "donne", "logique"], ["implementation", "objet", "donne", "specifique"], ["affiche", ["tous", "tout"], "structure", "table"]],
+            "explication": "C'est une extension d'un modèle de données logique - Il décrit l'implémentation des objets dans une base de données spécifique - Il affiche toutes les structures de table, y compris les colonnes, les clés primaires et les clés étrangères"
+        },
+        {
+            "question": "Qu'indique un modèle physique ?",
+            "reponse_totale": ["definition", "type", "precision"],
+            "explication": "Les définitions de table, les types de données et la précision."
+        },
+        {
+            "question": "Qu'identifie les vues, les index et d'autres objets de base de données.",
+            "reponse_totale": ["yeux", "index", "objet"],
+            "explication": "Les vues, les index, autres objets de base de données."
+        },
+        {
+            "question": "Qu'est-ce que le principe de normalisation des bases de données relationnelles ?",
+            "reponse_totale_multiple": [["methodologie","méthodologique"], "organiser", "table", "redondance", "anomalie"],
+            "explication": "Processus méthodologique qui consiste à organiser les données dans des tables de manière à réduire les redondances et éviter les anomalies."
+        },
+        {
+            "question": "Quel sont les 5 types de normalisation de base de données ?",
+            "reponse_totale": ["1nf", "2nf", "3nf", "4nf", "5nf"],
+            "explication": "1NF - 2NF - 3NF - 4NF - 5NF"
+        },
+        {
+            "question": "A quoi sert le premier type de normalisation de base de données ?",
+            "reponse_totale": ["eliminer", "repetition", "groupe"],
+            "explication": "Eliminer la répétition de groupes"
+        },
+        {
+            "question": "A quoi sert le second type de normalisation de base de données ?",
+            "reponse_totale": ["eliminer", "donnee", "redondante"],
+            "explication": "Eliminer les données redondantes"
+        },
+        {
+            "question": "A quoi sert le troisième type de normalisation de base de données ?",
+            "reponse_totale": ["eliminer", "colonne", "cle"],
+            "explication": "Eliminer les colonnes qui ne dépendent pas des clés."
+        },
+        {
+            "question": "A quoi sert le quatrième type de normalisation de base de données ?",
+            "reponse_totale": ["isoler", "relation", "multiple", "independante"],
+            "explication": "Isoler les relations multiples indépendantes"
+        },
+        {
+            "question": "A quoi sert le cinquième type de normalisation de base de données ?",
+            "reponse_totale": ["isoler", "relation", "multiple", "semantique"],
+            "explication": "Isoler les relations multiples associées d'un point de vue sémantique"
+        },
+        {
+            "question": "A quel type de normalisation de base de données répond la clé primaire ?",
+            "reponse_multiple": ["1", "premier"],
+            "explication": "1er type"
+        },
+        {
+            "question": "Quelle est la particularité principale de la clé primaire ?",
+            "reponse_totale": ["doublon"],
+            "explication": "elle permet de n'avoir aucun doublon dans la colonne à laquelle elle est associée."
+        },
+        {
+            "question": "Est-ce que toutes les tables doivent avoir une clé primaire ?",
+            "reponse": "oui",
+            "explication": "oui"
+        },
+        {
+            "question": "Est-ce qu'une clé primaire peut avoir une valeur NULL ?",
+            "reponse": "non",
+            "explication": "non"
+        },
+        {
+            "question": "Quel condition une table doit-elle remplir afin de posséder une clé composite ?",
+            "reponse_totale": ["primaire", "plus"],
+            "explication": "Avoir plus d'une clé primaire."
+        },
+        {
+            "question": "Quand surviens une clé étrangère ?",
+            "reponse_totale": ["deux", "table", "associe"],
+            "explication": "Lorsque vous avez deux tables associées l'une à l'autre, une d'elle agira comme table primaire, tandis que l'autre agira comme table secondaire."
+        },
+        {
+            "question": "Que permet la contrainte DEFAULT ?",
+            "reponse_totale": ["valeur", "defaut"],
+            "explication": "fourni une valeur par défaut"
+        },
+        {
+            "question": "Que permet la contrainte CHECK ?",
+            "reponse_totale": ["valeur", "critere", "defini"],
+            "explication": "vérifie les valeurs par rapport à des critères définis."
+        },
+        {
+            "question": "Que permet DECLARE ?",
+            "reponse_totale": ["declare", "variable", "locale"],
+            "explication": "Permet de déclarer une variable locale."
+        },
+        {
+            "question": "Que permet PRINT ?",
+            "reponse_totale": ["message", "console"],
+            "explication": "Affiche un message texte dans la console SQL Server."
+        },
+        {
+            "question": "Que permet BEGIN END ?",
+            "reponse_totale": ["regroupe", "instruction", "bloc"],
+            "explication": "Regroupe plusieurs instructions dans un bloc"
+        },
+        {
+            "question": "Que permet IF ELSE ?",
+            "reponse_totale": ["instruction", "condition"],
+            "explication": "Exécute une instruction selon une condition."
+        },
+        {
+            "question": "Que permet RAISERROR ?",
+            "reponse_totale": ["erreur", "personnalise"],
+            "explication": "Génère une erreur personnalisée dans T-SQL."
+        },
+        {
+            "question": "Quels sont les différentes indication fournie par RAISERROR ?",
+            "reponse_totale": ["message", "niveau", "gravite", "etat"],
+            "explication": "message - niveau de gravité - état"
+        },
+        {
+            "question": "Que permet WHILE ?",
+            "reponse_totale": ["boucle", "condition"],
+            "explication": "Créer une boucle tant qu'une condition est vraie."
+        },
+        {
+            "question": "Qu'est-ce qu'une transaction ?",
+            "reponse_totale": ["instruction", "unite", "logique", "travail"],
+            "explication": "Un ensemble d'instructions qui forment une unité logique de travail."
+        },
+        {
+            "question": "Quel est l'objectif d'une transaction ?",
+            "reponse_totale": ["coherence", "donnee"],
+            "explication": "Assurer la cohérence des données."
+        },
+        {
+            "question": "Que peut contenir une transaction ?",
+            "reponse_multiple_totale": [["plusieur", "dml"], ["un", "ddl"], ["un", "dcl"]],
+            "explication": "plusieurs requête DML - Une seule requête DDL - Une seule requête DCL"
+        },
+        {
+            "question": "Combien de transaction différentes existe-t-il ?",
+            "reponse_multiple": ["3", "trois"],
+            "explication": "3"
+        },
+        {
+            "question": "Quels sont les différent types de transaction existant ?",
+            "reponse_totale": ["auto-commit", "explicite", "implicite"],
+            "explication": "auto-commit - explicite - implicite"
+        },
+        {
+            "question": "Quelle est la particularité d'une transaction individuelle ?",
+            "reponse_totale": ["chaque", "instruction", "transaction"],
+            "explication": "Chaque instruction individuelle est une transaction."
+        },
+        {
+            "question": "Quelle est la particularité d'une instruction explicite ?",
+            "reponse_totale": ["begin transaction", "commit", "rollback"],
+            "explication": "commence par BEGIN TRANSACTION et fini par COMMIT ou ROLBACK."
+        },
+        {
+            "question": "Quelle est la particularité d'une transaction implicite ?",
+            "reponse_totale": ["demarre", "automatiquement", "nouvelle", "transaction"],
+            "explication": "Chaque instruction démarre automatiquement une nouvelle transaction."
+        },
+        {
+            "question": "Comment active-t-on une transaction implicite ?",
+            "reponse": "set implicit_transactions on",
+            "explication": "SET IMPLICIT_TRANSACTIONS ON"
+        },
+        {
+            "question": "Quand utilisé ROLLBACK dans une transaction ?",
+            "reponse_totale": ["crash", "systeme"],
+            "explication": "crash du système"
+        },
+        {
+            "question": "Qui peut voir les modifications s'effectuées durant une transaction ?",
+            "reponse_totale": ["utilisateur"],
+            "explication": "uniquement l'utilisateur."
+        },
+        {
+            "question": "Quand est-ce que les autres utilisateurs voient les modifications lors d'une transaction ?",
+            "reponse_totale": ["termine"],
+            "explication": "lorsqu'elle est terminée."
+        },
+        {
+            "question": "Que réalise COMMIT ?",
+            "reponse_totale": ["cloture", "transaction", "jour"],
+            "explication": "Clôture une transaction et les données sont mises à jour dans la BD."
+        },
+        {
+            "question": "Qu'advient-il de l'état précédent de la BD lorsqu'un COMMIT est réalisé ?",
+            "reponse_totale": ["ecrase"],
+            "explication": "Il est écrasé."
+        },
+        {
+            "question": "Que ce passe-t-il avec les données lorsqu'un ROLLBACK est exécuté ?",
+            "reponse_totale": ["cloture", "transaction", "instruction", "annule"],
+            "explication": "Clôture la transaction et les instructions sont annulées."
+        },
+        {
+            "question": "Qu'est-ce qu'un SAVEPOINT ?",
+            "reponse_totale": ["point", "controle", "transaction"],
+            "explication": "point de contrôle dans une transaction."
+        },
+        {
+            "question": "Quelle commande permet de créer un SAVEPOINT ?",
+            "reponse": "save transaction",
+            "explication": "SAVE TRANSACTION"
+        },
+        {
+            "question": "Quelle commande permet de revenir à un SAVEPOINT ?",
+            "reponse": "rollback transaction",
+            "explication": "ROLLBACK TRANSACTION"
+        },
+        {
+            "question": "Que permet RELEASE dans une transaction ?",
+            "reponse_totale": ["libere", "savepoint", "inutile"],
+            "explication": "Elle libère un SAVEPOINT devenu inutile après une étape réussie."
+        },
+        {
+            "question": "Qu'est-ce qu'une vue ?",
+            "reponse_totale": ["table", "virtuelle", "sql"],
+            "explication": "C'est une table virtuelle basée sur une requête SQL."
+        },
+        {
+            "question": "Que permet une vue ?",
+            "reponse_totale": ["simplifier", "masquer", "securiser"],
+            "explication": "Permet de simplifier l'accès aux données, masquer la complexité ou sécuriser certaines colonnes."
+        },
+        {
+            "question": "Est-ce qu'une vue stocke les données ?",
+            "reponse": "non",
+            "explication": "Non"
+        },
+        {
+            "question": "Que fait une vue si elle ne stocke pas les données ?",
+            "reponse_totale": ["affiche", "resultat", "requete"],
+            "explication": "Elle affiche le résultat d'une requête à chaque appel."
+        },
+        {
+            "question": "Qu'est-ce qu'une procédure stockée ?",
+            "reponse_totale": ["bloc", "sql"],
+            "explication": "Bloc de code SQL enregistré dans la base, que l'on peut exécuter à tout moment."
+        },
+        {
+            "question": "Que permet une procédure stockée ?",
+            "reponse_multiple_totale": [["centraliser", "logique", "metier"], ["reutiliser", "code"], ["ameliorer", "performance"]],
+            "explication": "Centraliser la logique métier - réutiliser du code - améliorer les performances"
+        },
+        {
+            "question": "Est-ce qu'une procédure peut accepter des paramètres ?",
+            "reponse": "oui",
+            "explication": "oui"
+        },
+        {
+            "question": "Pourquoi assuré la sécurité des données ?",
+            "reponse_totale": ["sensible"],
+            "explication": "Informations sensibles"
+        },
+        {
+            "question": "A quoi peut porter atteinte une non-sécurisation des données ?",
+            "reponse_totale": ["confidentialite", "integrite", "disponibilite"],
+            "explication": "Confidentialité - intégrité - Disponibilité"
+        },
+        {
+            "question": "Comment garantir la sécurité ?",
+            "reponse_totale": ["authentification", "autorisation", "audibilite"],
+            "explication": "Authentification - Autorisation - Audibilité"
+        },
+        {
+            "question": "Quels sont les 2 modes d'authentification SQL Server ?",
+            "reponse_totale": ["windows", "sql server"],
+            "explication": "Authentification Windows - Authentification SQL Server"
+        },
+        {
+            "question": "Qu'est-ce qu'une permission au niveau server ?",
+            "reponse_totale": ["droit", "login", "role", "serveur", "application", "instance"],
+            "explication": "Droit accordé à un login, un rôle serveur ou une application, sur l'instance SQL Server entière."
+        },
+        {
+            "question": "Qu'est-ce que le User ?",
+            "reponse_totale": ["compte", "local", "lie", "login"],
+            "explication": "Un compte local lié à une BD, lié à un Login."
+        },
+        {
+            "question": "Qu'est-ce qu'une permission au niveau BD ?",
+            "reponse_totale": ["droit", "utilisateur", "action"],
+            "explication": "Droit accordé à un utilisateur, un rôle ou une application lui permettant d'effectuer une action spécifique sur une base de données ou sur les objets qu'elles contient."
+        },
+        {
+            "question": "Que représente un objet ?",
+            "reponse_totale": ["table", "vue", "procedure", "stocke"],
+            "explication": "Table - vue - procédure stockée"
+        },
+        {
+            "question": "Qu'est-ce qu'un objet sécurisable ?",
+            "reponse_totale": ["element", "permission", "accorde", "refuse", "revoque"],
+            "explication": "Tout élément sur lequel une permission peut être accordée, refusée ou révoquée."
+        },
+        {
+            "question": "Quels sont les principaux objets sécurisable ?",
+            "reponse_totale": ["table", "vue", "procedures stockees", "fonctions", "schema", "role", "user", "certificat", "cle"],
+            "explication": "Table - vue - procédures stockées - fonctions - schémas - rôle - user - certificats - clés"
+        },
+        {
+            "question": "Que permet la gestion des rôles et permissions ?",
+            "reponse_multiple_totale": [["simplifie", "gestion"], ["facilite", "maintenance"]],
+            "explication": "Simplifie la gestion - facilite la maintenance."
+        },
+        {
+            "question": "Quels sont les types de rôles ?",
+            "reponse_totale": ["serveur", "base", "utilisateur"],
+            "explication": "Serveur fixe - base fixe - utilisateur"
+        },
+        {
+            "question": "Citer 5 bonnes pratiques à suivre.",
+            "reponse_totale_multiple": ["moindre", "privilege", "separation", "role", "authentification", "windows", "sa", ["auditer", "documenter"], "changement"],
+            "explication": "Moindre privilège - Séparation des rôles - Authentification Windows - ne jamais utiliser sa - documenter et auditer les changements de sécurité"
+        },
+        {
+            "question": "Qu'est-ce que la disponibilité ?",
+            "reponse_totale": ["capacite","systeme","accessible","operationnel","instant"],
+            "explication": "Capacité d'un système à être accessible et opérationnel à tout instant."
+        },
+        {
+            "question": "Que signifie CIA ?",
+            "reponse_totale": ["confidentiality","integrity","availability"],
+            "explication": "Confidentiality - integrity - availability"
+        },
+        {
+            "question": "Qu'implique la garantie de la continuité d'accès aux données ?",
+            "reponse_totale": ["strategie","technique","organisation"],
+            "explication": "Mise en place de stratégies techniques et organisationnelles."
+        },
+        {
+            "question": "Que permet une stratégie de sauvegarde ?",
+            "reponse_totale": ["garanti","restaurat","rapide","complet","donne"],
+            "explication": "Garantir la restauration rapide et complète des données ?"
+        },
+        {
+            "question": "Que permet la réplication et la haute disponibilité ?",
+            "reponse_totale": ["garanti","reprise","instanta","service","panne"],
+            "explication": "Garantir la reprise instantanée du service en cas de panne du serveur principal"
+        },
+        {
+            "question": "Que ce passe-t-il lorsque l'indexation et la performance sont absent ?",
+            "reponse_totale_multiple": ["systeme",["surcharge","lent"],"indisponible"],
+            "explication": "Un système surchargé ou lent devient indisponible pour l'utilisateur"
+        },
+        {
+            "question": "Que signifie PCA ?",
+            "reponse": "plan de continuite",
+            "explication": "Plan de Continuité"
+        },
+        {
+            "question": "Qu'est-ce que PCA ?",
+            "reponse_totale_multiple": ["ensemble","mesure","mainten","service","essentiel",["incident","accident"]],
+            "explication": "Ensemble des mesures permettant de maintenir les services essentiels pendant un incident"
+        },
+        {
+            "question": "Que signifie PRA ?",
+            "reponse": "plan de reprise",
+            "explication": "Plan de Reprise."
+        },
+        {
+            "question": "Qu'est-ce que PRA ?",
+            "reponse_totale_multiple": ["ensemble","action","restaur","systeme","donne",["accident","incident"]],
+            "explication": "Ensemble des actions visant à restaurer les systèmes et les données après un incident."
+        },
+        {
+            "question": "Quelle est la définition de sauvegarde et restauration ?",
+            "reponse_totale_multiple": ["garanti","restaurat","complet","fiable","donne",["perte","corruption","sinistre"]],
+            "explication": "Garantir la restauration complète et fiable des données en cas de perte, corruption ou sinistre."
+        },
+        {
+            "question": "Quels sont les 2 contraintes fondamentale à la sauvegarde et restauration ?",
+            "reponse_totale": ["rpo","rto"],
+            "explication": "RPO (Recovery Point Objective) - RTO (Recovery Time Objective)"
+        },
+        {
+            "question": "Que signifie RPO ?",
+            "reponse": "recovery point objective",
+            "explication": "Recovery Point Objective"
+        },
+        {
+            "question": "Que signifie RTO ?",
+            "reponse": "recovery time objective",
+            "explication": "Recovery Time Objective"
+        },
+        {
+            "question": "Qu'est-ce que la contrainte RPO ?",
+            "reponse_totale": ["quantite","donne","perdre"],
+            "explication": "Quelle quantité de données peut-on perdre"
+        },
+        {
+            "question": "Qu'est-ce que la contrainte RTO ?",
+            "reponse_totale": ["temps","restaur","service"],
+            "explication": "En combien de temps peut-on restaurer le service"
+        },
+        {
+            "question": "Qu'est-ce qu'une sauvegarde complète (Full Backup) ?",
+            "reponse_totale": ["copie","ensemble","base"],
+            "explication": "Copie l'ensemble de la base de données."
+        },
+        {
+            "question": "Quel est l'avantage d'une sauvegarde complète ?",
+            "reponse_totale": ["base","strategie"],
+            "explication": "Base de toute stratégie."
+        },
+        {
+            "question": "Quel est l'inconvénient d'une sauvegarde complète ?",
+            "reponse_totale": ["temps","espace","important"],
+            "explication": "Temps et espace importants"
+        },
+        {
+            "question": "Qu'est-ce qu'une sauvegarde différentielle (différential backup) ?",
+            "reponse_totale": ["copie","donne","modifie","derniere","sauvegar"],
+            "explication": "Copie uniquement les données modifiées depuis la dernière sauvegarde complète."
+        },
+        {
+            "question": "Quel est l'avantage d'une sauvegarde différentielle ?",
+            "reponse_totale": ["gain","temps","espace"],
+            "explication": "Gain de temps et d'espace."
+        },
+        {
+            "question": "Quel est l'inconvénient d'une sauvegarde différentielle ?",
+            "reponse_totale": ["necessit","derniere","sauvegard","complete"],
+            "explication": "Nécessite la dernière sauvegarde complète."
+        },
+        {
+            "question": "Qu'est-ce qu'une sauvegarde du journal des transactions (Transaction Log Backup) ?",
+            "reponse_totale": ["copie","transaction","derniere","sauvegarde"],
+            "explication": "Copie les transactions depuis la dernière sauvegarde du log."
+        },
+        {
+            "question": "Quel est l'avantage d'une sauvegarde du journal des transactions ?",
+            "reponse_totale": ["restauration","point-in-time"],
+            "explication": "Permet une restauration point-in-time."
+        },
+        {
+            "question": "Quel est l'inconvénient d'une sauvegarde du journal des transactions ?",
+            "reponse_totale": ["modele","recuperation","complet"],
+            "explication": "Nécessite un modèle de récupération complet."
+        },
+        {
+            "question": "Qu'est-ce qu'une sauvegarde partielle ?",
+            "reponse_totale": ["sauvegarde",["sous-ensemble","ensemble"],"fichier","groupe"],
+            "explication": "Sauvegarde d'un sous-ensemble de fichiers ou de groupes de fichiers."
+        },
+        {
+            "question": "Quel est l'avantage d'une sauvegarde partielle ?",
+            "reponse_totale": ["flexible"],
+            "explication": "Flexible"
+        },
+        {
+            "question": "Quel est l'inconvénient d'une sauvegarde partielle ?",
+            "reponse_totale": ["complexe","gere"],
+            "explication": "Complexe à gérer."
+        },
+        {
+            "question": "Qu'est-ce qu'une sauvegarde du fichier ou du groupe de fichiers (flie/filegroup backup) ?",
+            "reponse_totale": ["sauvegarde","fichier","specifique","base","volumineuse"],
+            "explication": "Sauvegarde d'un fichier spécifique dans une base volumineuse"
+        },
+        {
+            "question": "Quel est l'avantage d'une sauvegarde du fichier ou du groupe de fichiers ?",
+            "reponse_totale": ["reduit","taille","sauvegarde"],
+            "explication": "Réduit la taille des sauvegardes"
+        },
+        {
+            "question": "Quel est l'inconvénient d'une sauvegarde du fichier ou du groupe de fichiers ?",
+            "reponse_totale": ["requiert","plan","restauration"],
+            "explication": "Requiert un plan rigoureux de restauration."
+        },
+        {
+            "question": "Qu'est-ce qu'un modèle de récupération simple ?",
+            "reponse_totale_multiple": ["journal","transaction",["tronque","coupe"],"automatiquement"],
+            "explication": "Journal des transactions est tronqué automatiquement, donc impossible de restaurer point-in-time."
+        },
+        {
+            "question": "Qu'est-ce qu'un modèle de récupération full ?",
+            "reponse_totale": ["transaction","enregistre","sauvegarde","log"],
+            "explication": "Toutes les transactions sont enregistrées jusqu'à sauvegarde du log, donc restauration impossible."
+        },
+        {
+            "question": "Qu'est-ce qu'un modèle de récupération bulk-logged ?",
+            "reponse_totale": ["compromi","simple","full"],
+            "explication": "Compromis entre simple et full. Certaines opérations massives (bulk) ne sont pas journalisées."
+        },
+        {
+            "question": "Quelle est la fréquence de planification de sauvegarde complète ?",
+            "reponse_totale_multiple": [["1","un"],"jour","nuit"],
+            "explication": "1 fois par jour, souvent la nuit"
+        },
+        {
+            "question": "Quelle est la fréquence de planification de sauvegarde différentielle ?",
+            "reponse_totale_multiple": [["4","quatre"],["6","six"],"h"],
+            "explication": "toutes les 4 à 6h"
+        },
+        {
+            "question": "Quelle est la fréquence de planification de sauvegarde du log de transactions ?",
+            "reponse_totale_multiple": [["15","quinze"],["30","trente"],"m"],
+            "explication": "15 à 30 minutes."
+        },
+        {
+            "question": "Sur quel support doivent se trouver les sauvegarde des 7 derniers jours ?",
+            "reponse_totale": ["disque","local"],
+            "explication": "Disque local"
+        },
+        {
+            "question": "Sur quel support doivent se trouver les sauvegarde hebdomadaire ?",
+            "reponse": "nas",
+            "explication": "NAS"
+        },
+        {
+            "question": "Sur quel support doivent se trouver les sauvegarde mensuelle ?",
+            "reponse_totale": ["stockage","externe","cloud"],
+            "explication": "Stockage externe - cloud"
+        },
+        {
+            "question": "A l'aide de quoi planifie-t-on automatiquement les sauvegardes ?",
+            "reponse": "sql server agent",
+            "explication": "SQL Server Agent"
+        },
+        {
+            "question": "A l'aide de quoi configure-t-on les configuration simplifiée pour base multiple ?",
+            "reponse": "maintenance plans wizard",
+            "explication": "Maintenance Plans Wizard"
+        },
+        {
+            "question": "A l'aide de quoi automatise-t-on les automatisations personnalisée ?",
+            "reponse_multiple_totale": [["script","t-sql"],"powershell"],
+            "explication": "Scripts T-SQL ou PowerShell"
+        },
+        {
+            "question": "Comment vérifier qu'une restauration puisse se dérouler correctement ?",
+            "reponse_multiple_totale": [["restauration","environnement","test"],["verifie","coherence","donne","integrite","base"]],
+            "explication": "Effectuer des restaurations sur un environnement de test - Vérifier la cohérence des données et l'intégrité de la base."
+        },
+        {
+            "question": "Qu'est-ce que la réplication ?",
+            "reponse_totale": ["copie","donne","base","principal","secondaire"],
+            "explication": "Copier et maintenir des copies des données d'une base de données principale vers une ou plusieurs bases secondaires."
+        },
+        {
+            "question": "Que permet la réplication ?",
+            "reponse_multiple_totale": [["assure","disponibilite","panne","serveur","principal"],["tolerance","panne"],["repartir","charge","ameliore","performance"],["faciliter","continuite","reprise","activite"]],
+            "explication": "Assurer la disponibilité en cas de panne du serveur principal - Permettre la tolérance aux pannes (fault-tolerance) - Répartir la charge (lecture/écriture) pour améliorer les performances - Faciliter la continuité et la reprise d'activité."
+        },
+        {
+            "question": "Qu'est-ce qu'une réplication transactionnelle ?",
+            "reponse_totale": ["modification","base","principal","propage","instanta","replique"],
+            "explication": "Chaque modification sur la base principale est propagée quasi-instantanément vers les répliques."
+        },
+        {
+            "question": "Quel est l'avantage d'une réplication transactionnelle ?",
+            "reponse_multiple_totale": [["donnee","jour","continu"],["faible","latence"]],
+            "explication": "Données à jour en continu - faible latence"
+        },
+        {
+            "question": "Quel est l'inconvénient d'une réplication transactionnelle ?",
+            "reponse_multiple_totale": ["complexite",["surcharge","reseau"]],
+            "explication": "Complexité - surcharge réseau."
+        },
+        {
+            "question": "Qu'est-ce qu'une réplication snapshot ?",
+            "reponse_totale": ["base","secondaire","copie","interval","regulie"],
+            "explication": "La base secondaire reçoit une copie complète à intervalles réguliers."
+        },
+        {
+            "question": "Quel est l'avantage d'une réplication snapshot ?",
+            "reponse_multiple_totale": ["simplicite",["coherence","complete"]],
+            "explication": "Simplicité - cohérence complète"
+        },
+        {
+            "question": "Quel est l'inconvénient d'une réplication snapshot ?",
+            "reponse_multiple_totale": [["donne","temps","reel"],["plu","bande","passante"]],
+            "explication": "Pas de données en temps réel - plus de bande passante"
+        },
+        {
+            "question": "Qu'est-ce qu'une réplication merge ?",
+            "reponse_totale": ["base","primaire","secondaire","jour","independa"],
+            "explication": "Les bases primaire et secondaire peuvent être mises à jour indépendamment."
+        },
+        {
+            "question": "Quel est l'avantage d'une réplication merge ?",
+            "reponse_multiple_totale": [["collaboration","multisite"],"mobilite"],
+            "explication": "Collaboration multisites - mobilité"
+        },
+        {
+            "question": "Quel est l'inconvénient d'une réplication merge ?",
+            "reponse_totale": ["gesti","conflit","complex"],
+            "explication": "Gestion des conflits plus complexe."
+        },
+        {
+            "question": "Quels sont les principaux composants disponible pour une réplication ?",
+            "reponse_totale": ["publisher","subscriber","distributor","agent","replication"],
+            "explication": "Publisher - Subscriber - Distributor - Agent de réplication"
+        },
+        {
+            "question": "Que permet Publisher ?",
+            "reponse_totale": ["base","principal","publi","donne","replique"],
+            "explication": "Base principale qui publie les données à répliquer."
+        },
+        {
+            "question": "Que permet Subscriber ?",
+            "reponse_totale": ["base","recoit","stocke","donne","replique"],
+            "explication": "Base qui reçoit et stocke les données répliquées."
+        },
+        {
+            "question": "Que permet Distributor ?",
+            "reponse_totale": ["stocke","temporaire","transaction","envoye","abonne"],
+            "explication": "Stocke temporairement les transactions avant de les envoyer aux abonnés."
+        },
+        {
+            "question": "Que permet un agent de réplication ?",
+            "reponse_totale": ["processu","gere","envoi","synchro","donne"],
+            "explication": "Processus qui gère l'envoi et la synchronisation des données."
+        },
+        {
+            "question": "Qu'est-ce que l'indexation ?",
+            "reponse_totale": ["structure","donne","reference","valeur","colonne"],
+            "explication": "Structure de données qui référence les valeurs d'une colonne ou d'un ensemble de colonnes."
+        },
+        {
+            "question": "Que permet une indexation ?",
+            "reponse_multiple_totale_multiple": [["accelere","requete","select","grande","table"],["redui","charge","serveur","limit","lecture","inutile","disque"],["ameliore","dispo",["evite","evita"],"serveur","sature","requete",["lente","optimise"]],["facilite","execution","operation","tri","filtrage"]],
+            "explication": "Accélérer les requêtes SELECT sur de grandes tables - Réduire la charge serveur en limitant les lectures inutiles sur disque - Améliorer la disponibilité en évitant que le serveur soit saturé par des requêtes lentes ou mal optimisées - Faciliter l'exécution des opérations de tri et de filtrage"
+        },
+        {
+            "question": "Qu'est-ce qu'un index Clustered ?",
+            "reponse_totale": ["tri","physique","ligne","table","cle"],
+            "explication": "Trie physiquement les lignes de la table selon la clé."
+        },
+        {
+            "question": "Quand utilisé un index Clustered ?",
+            "reponse_totale": ["colonne","utilise","tri","recherche","interval"],
+            "explication": "Colonne souvent utilisées pour le tri ou les recherches par intervalles."
+        },
+        {
+            "question": "Qu'est-ce qu'un index non-clustered ?",
+            "reponse_totale": ["structure","separe","point","ligne","table"],
+            "explication": "Structure séparée pointant vers les lignes de la table."
+        },
+        {
+            "question": "Quand utilisé un index non-clustered ?",
+            "reponse_totale": ["requete","frequente","colonne","specifique"],
+            "explication": "Requêtes fréquentes sur des colonnes spécifiques."
+        },
+        {
+            "question": "Qu'est-ce qu'un index unique ?",
+            "reponse_totale": ["garant","unicite","colonne","combinaison","colonne"],
+            "explication": "Garantit l'unicité de la colonne ou combinaison de colonnes."
+        },
+        {
+            "question": "Quand utilisé un index unique ?",
+            "reponse_totale": ["cle","primaire","colonne","identifiante"],
+            "explication": "Clé primaire - colonne identifiantes"
+        },
+        {
+            "question": "Qu'est-ce qu'un index composé ?",
+            "reponse_totale": ["index","plusieur","colonne"],
+            "explication": "Index sur plusieurs colonnes."
+        },
+        {
+            "question": "Quand utilisé un index composé ?",
+            "reponse_totale": ["requete","filtre","plusieur","colonne","simultane"],
+            "explication": "Requêtes filtrant sur plusieurs colonnes simultanément"
+        },
+        {
+            "question": "Qu'est-ce qu'un index full-text ?",
+            "reponse_totale": ["optimise","recherche","texte"],
+            "explication": "Optimisé pour recherche de texte."
+        },
+        {
+            "question": "Quand utilisé un index full-text ?",
+            "reponse_totale": ["requete","like","recherche","mot","champ","texte"],
+            "explication": "Requêtes de type LIKE, recherche de mots dans un champ texte."
+        },
+        {
+            "question": "Citer les bonne pratique à avoir pour les sauvegardes et performances :",
+            "reponse_totale": ["planification","requete","sauvegarde","chiffre","compresse","documentation"],
+            "explication": "planification régulière - Sauvegardes chiffrées et compressées - documentation"
+        },
+        {
+            "question": "Citer les bonnes pratiques à avoir pour la réplication et haute disponibilité :",
+            "reponse_totale": ["replication","adapte","surveille","plan","bascule","failover","securite","acces"],
+            "explication": "Choisir le type de réplication adapté - Surveiller la réplication - Plan de bascule et failover - Sécurité et accès"
+        },
+        {
+            "question": "Citer les bonnes pratiques à avoir pour l'indexation et les performances :",
+            "reponse_totale": ["index","judicieu","evite","sur","maintenance","reguliere","surveillance","analyse"],
+            "explication": "Indexer judicieusement - Eviter la sur-indexation - Maintenance régulière - surveillance et analyse"
+        },
+        {
+            "question": "Citer les bonnes pratiques à avoir pour la documentation et la planification :",
+            "reponse_totale": ["plan","continuite","reprise","documentation","complete"],
+            "explication": "Plan de continuité et de reprise - Documentation complète"
+        },
+        {
+            "question": "Que signifie intégrité des données ?",
+            "reponse_totale": ["exact","coherence","fiabilite","donne","cycle","vie"],
+            "explication": "exactitude, cohérence et fiabilité des données tout au long de leur cycle de vie."
+        },
+        {
+            "question": "Qu'est-ce qu'une donnée intègre ?",
+            "reponse_totale": ["donne","exacte","altere","coherente","tracable"],
+            "explication": "Une donnée exacte, non altérée, cohérente et traçable."
+        },
+        {
+            "question": "Qu'assure l'intégrité physique ?",
+            "reponse_totale": ["donne","corrompu","disque"],
+            "explication": "Les données ne sont pas corrompues sur le disque."
+        },
+        {
+            "question": "Quelle est la spécificité de l'intégrité de domaine ?",
+            "reponse_totale": ["chaque","valeur","attribut","appart","domaine","valide"],
+            "explication": "Chaque valeur d'un attribut doit appartenir à un domaine valide."
+        },
+        {
+            "question": "Quelle est la particularité de l'intégrité d'entité ?",
+            "reponse_totale": ["chaque","ligne","unique","identifi"],
+            "explication": "Chaque ligne doit être unique et identifiable."
+        },
+        {
+            "question": "Par quoi est assuré l'intégrité d'entité ?",
+            "reponse_totale": ["cle","primaire","cle","unique"],
+            "explication": "Clés primaires et clés uniques"
+        },
+        {
+            "question": "Quelle est la spécificité de l'intégrité référentielle ?",
+            "reponse_totale": ["garant","coherence","table"],
+            "explication": "Garantit la cohérence entre tables."
+        },
+        {
+            "question": "Par quoi est assuré l'intégrité référentielle ?",
+            "reponse_totale": ["cle","etranger"],
+            "explication": "Clés étrangères."
+        },
+        {
+            "question": "Quelle est la spécificité de l'intégrité logique ?",
+            "reponse_totale": ["coherence","donne","lie","processus","metie"],
+            "explication": "Cohérence entre les ensembles de données liés à un processus métier."
+        },
+        {
+            "question": "Par quoi est assuré l'intégrité logique ?",
+            "reponse_totale": ["contrainte","integrite","transaction","trigger"],
+            "explication": "Par les contraintes d'intégrité, les transactions et les triggers."
+        },
+        {
+            "question": "Citer les différentes failles d'intégrité et de mesures :",
+            "reponse_multiple_totale_multiple": [["violation","cle","primaire"],["violation","cle","etrangere"],["valeur","invalide"],["suppression",["accidentelle","controle"]],["alteration","non","autorise"],["absence","transaction"],["injection","sql"],["corruption","physique"]],
+            "explication": "Violation de clé primaire - Violation de clé étrangère - Valeurs invalides - Suppression accidentelle / non contrôlée - Altération non autorisée - Absence de transaction - Injection SQL - Corruption physique"
+        },
+        {
+            "question": "Qu'est-ce qu'une violation de clé primaire ?",
+            "reponse_totale": ["doublon","identifiant","unique"],
+            "explication": "Doublon dans un identifiant unique"
+        },
+        {
+            "question": "Qu'est-ce qu'une violation de clé étrangère ?",
+            "reponse_totale": ["reference","enregistrement","inexistant"],
+            "explication": "Référence à un enregistrement inexistant."
+        },
+        {
+            "question": "Qu'est-ce qu'une valeur invalide ?",
+            "reponse_multiple_totale": [["donne","hors","plage"],["format","incorrect"]],
+            "explication": "Données hors plage ou format incorrect."
+        },
+        {
+            "question": "Qu'est-ce qu'une suppression accidentelle / non contrôlée ?",
+            "reponse_totale": ["perte","donne","critique"],
+            "explication": "Perte de données critiques."
+        },
+        {
+            "question": "Qu'est-ce qu'une altération non autorisée ?",
+            "reponse_totale": ["modification","directe","tracabilite"],
+            "explication": "Modification directe sans traçabilité."
+        },
+        {
+            "question": "Qu'est-ce qu'une absence de transaction ?",
+            "reponse_totale": ["jour","partielle","erreur"],
+            "explication": "Mise à jour partielle après erreur."
+        },
+        {
+            "question": "Qu'est-ce qu'une injection SQL ?",
+            "reponse_totale": ["donne","modifie","requete","filtre"],
+            "explication": "Données modifiées via requête mal filtrées."
+        },
+        {
+            "question": "Qu'est-ce qu'une corruption physique ?",
+            "reponse_totale": ["secteur","defectueu","crash","disque"],
+            "explication": "Secteurs défectueux et crash disque."
+        },
+        {
+            "question": "Quelles sont la/les conséquences d'une violation de clé primaire ?",
+            "reponse_totale": ["incoherence","confusion","jointure"],
+            "explication": "Incohérence - confusion dans les jointures."
+        },
+        {
+            "question": "Quelles sont la/les conséquences d'une violation de clé étrangère ?",
+            "reponse_totale": ["donne","orpheline"],
+            "explication": "Données orphelines"
+        },
+        {
+            "question": "Quelles sont la/les conséquences de valeurs invalides ?",
+            "reponse_multiple_totale": [["erreur","calcul"],["faille","logique"]],
+            "explication": "Erreurs de calcul - failles logiques"
+        },
+        {
+            "question": "Quelles sont la/les conséquences d'une suppression accidentelle / non contrôlée ?",
+            "reponse_totale": ["rupture","coherence"],
+            "explication": "rupture de cohérence"
+        },
+        {
+            "question": "Quelles sont la/les conséquences d'une altération non autorisée ?",
+            "reponse_totale": ["fraude","coherence"],
+            "explication": "fraude - falsification"
+        },
+        {
+            "question": "Quelles sont la/les conséquences d'une absence de transactions ?",
+            "reponse_totale": ["corruption","logique"],
+            "explication": "corruption logique"
+        },
+        {
+            "question": "Quelles sont la/les conséquences injection SQL ?",
+            "reponse_totale": ["compromi","total"],
+            "explication": "Compromission totale"
+        },
+        {
+            "question": "Quelles sont la/les conséquences d'une corruption physique ?",
+            "reponse_totale": ["perte","partielle","donne"],
+            "explication": "perte partielle de données"
+        },
+        {
+            "question": "Quelle est la définition d'une injection SQL ?",
+            "reponse_totale": ["vulnerab","attaquant","donne","utilisateur","controle","interprete","code","sql","moteur","base"],
+            "explication": "Vulnérabilité où un attaquant fait en sorte que les données utilisateur non contrôlées soient interprétées comme code SQL par le moteur de base de données."
+        },
+        {
+            "question": "Est-ce qu'une injection nécessite toujours un accès privilégié côté serveur ?",
+            "reponse": "non",
+            "explication": "Non"
+        },
+        {
+            "question": "Quelles sont les différentes injection SQL ?",
+            "reponse_totale": ["injection","directe","commande","dynamique","error","based","blind","sqli","procedure","stocke","concu"],
+            "explication": "Injection directe - Injection via commande dynamique - Error-based - Blind SQLI - Injection via procédure stockée mal conçues"
+        },
+        {
+            "question": "Qu'est-ce qu'une injection SQL directe ?",
+            "reponse_totale": ["entre","insere","chaine","sql"],
+            "explication": "entrée insérée dans la chaîne SQL"
+        },
+        {
+            "question": "Qu'est-ce qu'une injection SQL via commande dynamique ?",
+            "reponse_totale": ["construction","dynamique","serveur","integrant","valeur","externe"],
+            "explication": "construction dynamique côté serveur intégrant des valeurs externes"
+        },
+        {
+            "question": "Qu'est-ce qu'une injection SQL error-based ?",
+            "reponse_totale": ["application","renvoi","message","erreur","base","attquant","information"],
+            "explication": "L'application renvoie des messages d'erreur de la base et l'attaquant en déduit des informations."
+        },
+        {
+            "question": "Qu'est-ce qu'une injection SQL Blind SQLI ?",
+            "reponse_totale": ["reponse","erreur","attaquant","dedui","comportement"],
+            "explication": "La réponse ne relève pas d'erreur ; L'attaquant déduit l'état via comportements."
+        },
+        {
+            "question": "Qu'est-ce qu'une injection SQL via procédure stockées mal conçues ?",
+            "reponse_totale": ["proc","stocke","utilise","parametre"],
+            "explication": "Les proc stockées sont sûres si elles utilisent des paramètres ; Si elles concatènent, elles restent vulnérables."
+        },
+        {
+            "question": "Qu'est-ce qui cause des injections SQL ?",
+            "reponse_multiple_totale": [["construction","requete","concaten","chaine","donne","externe"],["absence","utilisation","parametre"],["message","erreur","verbeu","structure","interne"],["droit","excessif","compte","db"],["validation","entre","insuffisa","inexistant"]],
+            "explication": "Construction de requêtes par concaténation de chaînes contenant des données externes - Absence d'utilisation de requêtes paramétrées - Messages d'erreur trop verbeux exposant la structure interne - Droits excessifs du compte DB - Validation entrée insuffisante ou inexistante."
+        },
+        {
+            "question": "Quelles sont les bonnes pratiques :",
+            "reponse_multiple_totale": [["active","journa","audit"],["utilise","trigger","surveillance","modification","sensible"],["planifie","verification","periodique","integrite"],["politique","integrite"],["implement","controle","acces","role"]],
+            "explication": "Activer les journaux d'audit - Utiliser des triggers de surveillance sur modifications sensibles - Planifier des vérifications périodiques d'intégrité - Mettre en place une politique d'intégrité - Implémenter un contrôle d'accès basé sur les rôles."
+        },
+        {
+            "question": "Sur quoi se place un index ?",
+            "reponse": ["colonne"],
+            "explication": "une colonne de table"
+        },
+        {
+            "question": "Pourquoi ne pas mettre des index partout ?",
+            "reponse_multiple_totale": [["ralent","operation"],["place"]],
+            "explication": "Ils ralentissent les autres opérations - Ils prennent de la place"
+        }
+    ]
+}

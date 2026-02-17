@@ -1,0 +1,248 @@
+{
+    "question": "Examen juin 2025 C",
+    "questionnaire": [
+        {
+            "titre": "dans le programme suivant, repérez tous les endroits où il faut ajouter une éperluette.\nLa réponse est la somme des nombres.",
+            "reponse": "13",
+            "explication": "13",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_examen/1.png"
+        },
+        {
+            "titre": "L'état actuel des caméras est stocké dans une variable etat, de type Surveillance. On veut réaliser l'opération suivante : ''Si la caméra du bureau du directeur est activée, changer la caméra de la réserve précieuse (l'activer si elle est désactivée, la désactiver si elle est activée).'' Par quoi faut-il compléter le code suivant ?",
+            "reponse": "313",
+            "explication": "313",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_examen/2.png"
+        },
+        {
+            "titre": "instruction permettant de fermer un fichier ouvert en lecture ou en écriture.\n6 lettres",
+            "reponse": "fclose",
+            "explication": "fclose (je pense)",
+            "image": ""
+        },
+        {
+            "titre": "instruction permettant d’associer un alias à l’étiquette d’une structure ou d’une énumération.\n7 lettres",
+            "reponse": "typedef",
+            "explication": "typedef",
+            "image": ""
+        },
+        {
+            "titre": "nom (standard) du paramètre de la fonction main automatiquement garni avec le nombre de mots dans la commande qui déclenche l’exécution du programme.\n4 lettres",
+            "reponse": "argc",
+            "explication": "argc",
+            "image": ""
+        },
+        {
+            "titre": "type de passage pour un paramètre d’une fonction correspondant à une variable dont on désire pouvoir modifier la valeur à l’intérieur de la fonction.\n7 lettres",
+            "reponse": "adresse",
+            "explication": "adresse",
+            "image": ""
+        },
+        {
+            "titre": "fonction indiquant si, lors de la lecture dans un fichier, on a buté contre la fin du fichier.\n4 lettres",
+            "reponse": "feof",
+            "explication": "feof",
+            "image": ""
+        },
+        {
+            "titre": "Si le tableau Client acheteurs[] est garni avec les informations des clients, par quoi faut-il compléter l'instruction suivante pour stocker dans cp le code postal de la première adresse de livraison du 1er client repris dans le tableau ?",
+            "reponse": "acheteurs[0].adressesLivraison[0].codePostal",
+            "explication": "acheteurs[0].adressesLivraison[0].codePostal",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_examen/3.png"
+        },
+        {
+            "titre": "On désire produire un exécutable utilisable en ligne de commande permettant de créer des fichiers fichier3 et fichier4 reprenant respectivement les lignes communes aux deux premiers fichiers et les lignes qui diffèrent.\nOn a employé la signature suivante pour la fonction principale : void main(int argc, char* args[])\nQuelle condition faut-il tester si on désire s'assurer que l'utilisateur a bien fourni exactement 4 arguments (pour les noms de fichiers) ?\nÉcrivez la condition sans aucun espace.",
+            "reponse": "argc!=5",
+            "explication": "argc!=5",
+            "image": ""
+        },
+        {
+            "titre": "Si on a garni les variables jeu1 et jeu2, toutes les deux de type Jeu, par quelle condition faut-il compléter le code ci-dessous pour tester que le premier jeu est paru (strictement) avant le second ?",
+            "reponse": "Jeu1.anneeSortie<Jeu2.anneeSortie",
+            "explication": "Jeu1.anneeSortie<Jeu2.anneeSortie",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_examen/4.png"
+        },
+        {
+            "titre": "Si la variable mesAnimaux, de type Compagnie, représente les animaux de compagnie que je possède, qu'indique la condition écrite ci-dessous ?",
+            "reponse": "si je n'ai pas de poisson rouge",
+            "leurre1": "si j'ai un poisson rouge (et aucun autre animal de compagnie)",
+            "leurre2": "Aucune des autres réponses ne convient.",
+            "leurre3": "si j'ai un poisson rouge (et éventuellement d'autres animaux)",
+            "leurre4": "si j'ai au moins un animal autre qu'un poisson rouge",
+            "explication": "si je n'ai pas de poisson rouge",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_examen/5.png"
+        },
+        {
+            "titre": "Parmi les phrases suivantes, repérez toutes celles qui sont vraies. La réponse attendue est la somme des valeurs associées aux phrases vraies.\n[1] Si on a déclaré le tableau double cotes[7] pour mémoriser les cotes de 7 interrogations, la syntaxe &cotes correspond à l'adresse de la première cellule du tableau.\n[4] Pour coder en C un tableau de chaînes de caractères, il faut utiliser un tableau à 2 dimensions.\n[8] Dans un programme en ligne de commande, pour tester si l'utilisateur a entré -help comme premier paramètre (par exemple : grep -help), on peut tester args[1] == ''-help''.",
+            "reponse": "5",
+            "explication": "5",
+            "image": ""
+        },
+        {
+            "titre": "Après l'instruction FILE* fichier = fopen(''toto.txt'', ''r'');, la condition fichier == NULL signifie",
+            "reponse": "que le fichier toto.txt est introuvable.",
+            "leurre1": "que le fichier toto.txt est vide.",
+            "leurre2": "que le contenu du fichier toto.txt n'est pas du tout intéressant.",
+            "explication": "que le fichier toto.txt est introuvable.",
+            "image": ""
+        },
+        {
+            "titre": "La syntaxe correcte pour lire un nombre entier dans le fichier 'fichier' (ouvert en lecture) et mettre sa valeur dans la variable entierLu est",
+            "reponse": "fscanf(fichier, ''%d'', &entierLu)",
+            "leurre1": "fscanf(fichier, ''%d'', entierLu)",
+            "leurre2": "entierLu = fscanf(fichier, ''%d'')",
+            "explication": "fscanf(fichier, ''%d'', &entierLu)",
+            "image": ""
+        },
+        {
+            "titre": "Si le fichier 'fichier' est ouvert en écriture, la condition feof(fichier) signifie",
+            "reponse": "qu'on a buté contre la fin du fichier lors de la dernière lecture.",
+            "leurre1": "qu'on a lu tous les caractères qui se trouvent dans le fichier.",
+            "leurre2": "qu'il y a un problème d'accès disque pour lire le fichier.",
+            "explication": "qu'on a buté contre la fin du fichier lors de la dernière lecture.",
+            "image": ""
+        },
+        {
+            "titre": "Le code suivant est censé afficher le prix d'un jeu sur lequel on effectue une réduction (exprimée en pourcentage).\nComplétez le trou (…) à l'aide de la bonne réponse.",
+            "reponse": "double *",
+            "leurre1": "*reductionSoldes",
+            "leurre2": "&reductionSoldes",
+            "leurre3": "&pPrix",
+            "leurre4": "reductionSoldes",
+            "leurre5": "&prixJeu",
+            "leurre6": "pPrix",
+            "leurre7": "prixJeu",
+            "leurre8": "double",
+            "leurre9": "*prixJeu",
+            "leurre10": "*pPrix",
+            "leurre11": "int",
+            "explication": "double *",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_examen/6.1.png"
+        },
+        {
+            "titre": "Le code suivant est censé afficher le prix d'un jeu sur lequel on effectue une réduction (exprimée en pourcentage).\nComplétez le trou à l'aide de la bonne réponse.",
+            "reponse": "int",
+            "leurre1": "*reductionSoldes",
+            "leurre2": "&reductionSoldes",
+            "leurre3": "&pPrix",
+            "leurre4": "double*",
+            "leurre5": "&prixJeu",
+            "leurre6": "pPrix",
+            "leurre7": "prixJeu",
+            "leurre8": "double",
+            "leurre9": "*prixJeu",
+            "leurre10": "*pPrix",
+            "leurre11": "reductionSoldes",
+            "explication": "int",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_examen/6.2.png"
+        },
+        {
+            "titre": "Le code suivant est censé afficher le prix d'un jeu sur lequel on effectue une réduction (exprimée en pourcentage).\nComplétez le trou à l'aide de la bonne réponse.",
+            "reponse": "*pPrix",
+            "leurre1": "*reductionSoldes",
+            "leurre2": "&reductionSoldes",
+            "leurre3": "&pPrix",
+            "leurre4": "double*",
+            "leurre5": "&prixJeu",
+            "leurre6": "pPrix",
+            "leurre7": "prixJeu",
+            "leurre8": "double",
+            "leurre9": "*prixJeu",
+            "leurre10": "reductionSoldes",
+            "leurre11": "int",
+            "explication": "*pPrix",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_examen/6.3.png"
+        },
+        {
+            "titre": "Le code suivant est censé afficher le prix d'un jeu sur lequel on effectue une réduction (exprimée en pourcentage).\nComplétez le trou à l'aide de la bonne réponse.",
+            "reponse": "*pPrix",
+            "leurre1": "*reductionSoldes",
+            "leurre2": "&reductionSoldes",
+            "leurre3": "&pPrix",
+            "leurre4": "double*",
+            "leurre5": "&prixJeu",
+            "leurre6": "pPrix",
+            "leurre7": "prixJeu",
+            "leurre8": "double",
+            "leurre9": "*prixJeu",
+            "leurre10": "reductionSoldes",
+            "leurre11": "int",
+            "explication": "*pPrix",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_examen/6.4.png"
+        },
+        {
+            "titre": "Le code suivant est censé afficher le prix d'un jeu sur lequel on effectue une réduction (exprimée en pourcentage).\nComplétez le trou à l'aide de la bonne réponse.",
+            "reponse": "&prixJeu",
+            "leurre1": "*reductionSoldes",
+            "leurre2": "&reductionSoldes",
+            "leurre3": "&pPrix",
+            "leurre4": "double*",
+            "leurre6": "pPrix",
+            "leurre7": "prixJeu",
+            "leurre8": "double",
+            "leurre9": "*prixJeu",
+            "leurre10": "*pPrix",
+            "leurre11": "int",
+            "leurre12": "reductionSoldes",
+            "explication": "&prixJeu",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_examen/6.5.png"
+        },
+        {
+            "titre": "Le code suivant est censé afficher le prix d'un jeu sur lequel on effectue une réduction (exprimée en pourcentage).\nComplétez le trou à l'aide de la bonne réponse.",
+            "reponse": "reductionSoldes",
+            "leurre1": "*reductionSoldes",
+            "leurre2": "&reductionSoldes",
+            "leurre3": "&pPrix",
+            "leurre4": "double*",
+            "leurre5": "&prixJeu",
+            "leurre6": "pPrix",
+            "leurre7": "prixJeu",
+            "leurre8": "double",
+            "leurre9": "*prixJeu",
+            "leurre10": "*pPrix",
+            "leurre11": "int",
+            "explication": "reductionSoldes",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_examen/6.6.png"
+        },
+        {
+            "titre": "Quel est l'affichage produit par cette instruction ?",
+            "reponse": "o",
+            "explication": "o",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_examen/7.1.png"
+        },
+        {
+            "titre": "Quel est l'affichage produit par cette instruction ?",
+            "reponse": "u",
+            "explication": "u",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_examen/7.2.png"
+        },
+        {
+            "titre": "Quel est l'affichage produit par cette instruction ?",
+            "reponse": "o",
+            "explication": "o",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_examen/7.3.png"
+        },
+        {
+            "titre": "Quel est l'affichage produit par cette instruction ?",
+            "reponse": "je serai le meilleur dresseur !",
+            "explication": "je serai le meilleur dresseur !",
+            "image": "C:/Users/theot/OneDrive/Bureau/test/projet-snake/questionnaire/programmation/C/img_examen/7.4.png"
+        },
+        {
+            "titre": "L'écriture int cotes[] pour désigner un tableau d'entiers sans préciser sa taille est valable...",
+            "reponse": "s'il s'agit d'un paramètre de fonction.",
+            "leurre1": "s'il s'agit d'un membre / une composante dans la définition d'une structure.",
+            "leurre2": "s'il s'agit d'une déclaration de variable (sans initialisation) dans une autre fonction que la fonction principale.",
+            "leurre3": "s'il s'agit d'une déclaration de variable (sans initialisation) dans la fonction principale.",
+            "explication": "s'il s'agit d'un paramètre de fonction.",
+            "image": ""
+        },
+        {
+            "titre": "L'écriture date = {26, 5, 2025} pour garnir une variable de type structure est valable...",
+            "reponse": "uniquement lors de la déclaration de la variable.",
+            "leurre1": "uniquement dans la fonction principale",
+            "leurre2": "n'importe où dans le code",
+            "explication": "uniquement lors de la déclaration de la variable.",
+            "image": ""
+        }
+    ]
+}

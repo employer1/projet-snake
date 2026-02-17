@@ -1,0 +1,81 @@
+{
+    "question": "Opérations mathématiques C",
+    "questionnaire": [
+        {
+            "operateur": "+",
+            "nom": "addition"
+        },
+        {
+            "operateur": "-",
+            "nom": "soustraction"
+        },
+        {
+            "operateur": "*",
+            "nom": "multiplication"
+        },
+        {
+            "operateur": "/",
+            "nom": "division"
+        },
+        {
+            "operateur": "%",
+            "nom": "modulo"
+        },
+        {
+            "operateur": "++",
+            "nom": "incrément"
+        },
+        {
+            "operateur": "--",
+            "nom": "décrément"
+        },
+        {
+            "operateur": "+=",
+            "nom": "addition directe"
+        },
+        {
+            "operateur": "-=",
+            "nom": "soustraction directe"
+        },
+        {
+            "operateur": "*=",
+            "nom": "multiplication directe"
+        },
+        {
+            "operateur": "/=",
+            "nom": "division directe"
+        },
+        {
+            "operateur": "%=",
+            "nom": "modulo directe"
+        },
+        {
+            "operateur": "&",
+            "nom": "et logique"
+        },
+        {
+            "operateur": "|",
+            "nom": "ou logique"
+        },
+        {
+            "operateur": "^",
+            "nom": "xor logique"
+        },
+        {
+            "operateur": "~",
+            "nom": "complément"
+        },
+        {
+            "operateur": "!",
+            "nom": "négation"
+        },
+        {
+            "operateur": "<<",
+            "nom": "décalage binaire à gauche"
+        },
+        {
+            "operateur": ">>",
+            "nom": "décalage binaire à droite"
+        }
+    ]
+}
