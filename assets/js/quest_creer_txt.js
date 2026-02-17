@@ -56,6 +56,7 @@ const demanderValeurTexte = (message, valeurParDefaut = "") => new Promise((reso
     titre.textContent = message;
     titre.style.margin = "0 0 12px 0";
     titre.style.fontSize = "1rem";
+    titre.style.color = "#000";
 
     const input = document.createElement("input");
     input.type = "text";
@@ -66,6 +67,8 @@ const demanderValeurTexte = (message, valeurParDefaut = "") => new Promise((reso
     input.style.boxSizing = "border-box";
     input.style.color = "#000";
     input.style.background = "#fff";
+    input.style.caretColor = "#000";
+    input.style.border = "1px solid #999";
 
     const actions = document.createElement("div");
     actions.style.display = "flex";
@@ -76,11 +79,18 @@ const demanderValeurTexte = (message, valeurParDefaut = "") => new Promise((reso
     boutonAnnuler.textContent = "Annuler";
     boutonAnnuler.type = "button";
     boutonAnnuler.style.color = "#000";
+    boutonAnnuler.style.background = "#f3f3f3";
 
     const boutonValider = document.createElement("button");
     boutonValider.textContent = "Valider";
     boutonValider.type = "button";
     boutonValider.style.color = "#000";
+    boutonValider.style.background = "#f3f3f3";
+
+    const appliquerFocusChamp = () => {
+        input.focus();
+        input.select();
+    };
 
     const fermer = (valeur) => {
         document.removeEventListener("keydown", onKeyDown);
@@ -104,6 +114,11 @@ const demanderValeurTexte = (message, valeurParDefaut = "") => new Promise((reso
         }
     });
     document.addEventListener("keydown", onKeyDown);
+    boite.addEventListener("click", (event) => {
+        if (event.target !== boutonAnnuler && event.target !== boutonValider) {
+            appliquerFocusChamp();
+        }
+    });
 
     actions.appendChild(boutonAnnuler);
     actions.appendChild(boutonValider);
@@ -112,8 +127,8 @@ const demanderValeurTexte = (message, valeurParDefaut = "") => new Promise((reso
     boite.appendChild(actions);
     overlay.appendChild(boite);
     document.body.appendChild(overlay);
-    input.focus();
-    input.select();
+    requestAnimationFrame(appliquerFocusChamp);
+    setTimeout(appliquerFocusChamp, 50);
 });
 
 const demanderValeurObligatoire = async (message, valeurParDefaut = "") => {
