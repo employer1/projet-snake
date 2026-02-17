@@ -122,6 +122,129 @@ const resolveQuestAsset = async (assetPath) => {
     await fs.access(questPath);
     return pathToFileURL(questPath).toString();
 };
+
+const writeQuestJson = async (fileName, payload) => {
+    if (!fileName || typeof fileName !== "string") {
+        throw new Error("Invalid quest file name");
+    }
+    if (!payload || typeof payload !== "object") {
+        throw new Error("Invalid quest payload");
+    }
+    if (path.isAbsolute(fileName)) {
+        throw new Error("Invalid quest file path");
+    }
+
+    const questDir = getQuestDestinationPath();
+    const normalizedPath = path.normalize(fileName);
+    const questPath = path.resolve(questDir, normalizedPath);
+    const questDirResolved = path.resolve(questDir);
+
+    if (questPath !== questDirResolved && !questPath.startsWith(`${questDirResolved}${path.sep}`)) {
+        throw new Error("Invalid quest file path");
+    }
+    if (!questPath.toLowerCase().endsWith(".json")) {
+        throw new Error("Invalid quest file extension");
+    }
+
+    const parentDir = path.dirname(questPath);
+    await fs.mkdir(parentDir, { recursive: true });
+    await fs.writeFile(questPath, JSON.stringify(payload, null, 4), "utf-8");
+    return { ok: true };
+};
+
+const ensureQuestDirectory = async (dirPath) => {
+    if (!dirPath || typeof dirPath !== "string") {
+        throw new Error("Invalid directory path");
+    }
+    if (path.isAbsolute(dirPath)) {
+        throw new Error("Invalid directory path");
+    }
+
+    const questDir = getQuestDestinationPath();
+    const normalizedPath = path.normalize(dirPath);
+    const targetDir = path.resolve(questDir, normalizedPath);
+    const questDirResolved = path.resolve(questDir);
+
+    if (targetDir !== questDirResolved && !targetDir.startsWith(`${questDirResolved}${path.sep}`)) {
+        throw new Error("Invalid directory path");
+    }
+
+    await fs.mkdir(targetDir, { recursive: true });
+    return { ok: true };
+};
+
+const removeQuestEntry = async (entryPath) => {
+    if (!entryPath || typeof entryPath !== "string") {
+        throw new Error("Invalid path");
+    }
+    if (path.isAbsolute(entryPath)) {
+        throw new Error("Invalid path");
+    }
+
+    const questDir = getQuestDestinationPath();
+    const normalizedPath = path.normalize(entryPath);
+    const targetPath = path.resolve(questDir, normalizedPath);
+    const questDirResolved = path.resolve(questDir);
+
+    if (targetPath !== questDirResolved && !targetPath.startsWith(`${questDirResolved}${path.sep}`)) {
+        throw new Error("Invalid path");
+    }
+
+    await fs.rm(targetPath, { recursive: true, force: true });
+    return { ok: true };
+};
+
+const copyFileToQuest = async (sourcePath, destinationPath) => {
+    if (!sourcePath || typeof sourcePath !== "string" || !destinationPath || typeof destinationPath !== "string") {
+        throw new Error("Invalid copy paths");
+    }
+    if (path.isAbsolute(destinationPath)) {
+        throw new Error("Invalid destination path");
+    }
+
+    const questDir = getQuestDestinationPath();
+    const normalizedDestination = path.normalize(destinationPath);
+    const fullDestinationPath = path.resolve(questDir, normalizedDestination);
+    const questDirResolved = path.resolve(questDir);
+
+    if (fullDestinationPath !== questDirResolved && !fullDestinationPath.startsWith(`${questDirResolved}${path.sep}`)) {
+        throw new Error("Invalid destination path");
+    }
+
+    const stats = await fs.stat(sourcePath);
+    if (!stats.isFile()) {
+        throw new Error("Source must be a file");
+    }
+
+    await fs.mkdir(path.dirname(fullDestinationPath), { recursive: true });
+    await fs.copyFile(sourcePath, fullDestinationPath);
+    return { ok: true };
+};
+
+const directoryExists = async (directoryPath) => {
+    if (!directoryPath || typeof directoryPath !== "string") {
+        return false;
+    }
+    try {
+        const stats = await fs.stat(directoryPath);
+        return stats.isDirectory();
+    } catch (_error) {
+        return false;
+    }
+};
+
+const fileExists = async (filePath) => {
+    if (!filePath || typeof filePath !== "string") {
+        return false;
+    }
+    try {
+        const stats = await fs.stat(filePath);
+        return stats.isFile();
+    } catch (_error) {
+        return false;
+    }
+};
+
 const ensureStatsDir = async () => {
     const dir = path.dirname(getStatsPath());
     await fs.mkdir(dir, { recursive: true });
@@ -203,6 +326,14 @@ app.whenReady().then(async () => {
     ipcMain.handle("quest:load", async (_event, fileName) => readQuestFile(fileName));
     ipcMain.handle("quest:delete", async (_event, fileName) => deleteQuestFile(fileName));
     ipcMain.handle("quest:resolve-asset", async (_event, assetPath) => resolveQuestAsset(assetPath));
+
+    ipcMain.handle("quest:write-json", async (_event, fileName, payload) => writeQuestJson(fileName, payload));
+    ipcMain.handle("quest:ensure-dir", async (_event, dirPath) => ensureQuestDirectory(dirPath));
+    ipcMain.handle("quest:remove-entry", async (_event, entryPath) => removeQuestEntry(entryPath));
+    ipcMain.handle("quest:copy-file", async (_event, sourcePath, destinationPath) =>
+        copyFileToQuest(sourcePath, destinationPath));
+    ipcMain.handle("fs:directory-exists", async (_event, directoryPath) => directoryExists(directoryPath));
+    ipcMain.handle("fs:file-exists", async (_event, filePath) => fileExists(filePath));
 
     app.on('activate', () => {
         if (BrowserWindow.getAllWindows().length === 0) {

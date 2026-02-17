@@ -9,6 +9,13 @@ contextBridge.exposeInMainWorld("electronAPI", {
     loadQuestnaire: (fileName) => ipcRenderer.invoke("quest:load", fileName),
     deleteQuestnaire: (fileName) => ipcRenderer.invoke("quest:delete", fileName),
     resolveQuestAsset: (assetPath) => ipcRenderer.invoke("quest:resolve-asset", assetPath),
+    writeQuestJson: (fileName, payload) => ipcRenderer.invoke("quest:write-json", fileName, payload),
+    ensureQuestDirectory: (dirPath) => ipcRenderer.invoke("quest:ensure-dir", dirPath),
+    removeQuestEntry: (entryPath) => ipcRenderer.invoke("quest:remove-entry", entryPath),
+    copyFileToQuest: (sourcePath, destinationPath) =>
+        ipcRenderer.invoke("quest:copy-file", sourcePath, destinationPath),
+    directoryExists: (directoryPath) => ipcRenderer.invoke("fs:directory-exists", directoryPath),
+    fileExists: (filePath) => ipcRenderer.invoke("fs:file-exists", filePath),
 });
 
 window.addEventListener("DOMContentLoaded", () => {
