@@ -47,6 +47,7 @@ const demanderValeurTexte = (message, valeurParDefaut = "") => new Promise((reso
     const boite = document.createElement("div");
     boite.style.width = "min(520px, 92vw)";
     boite.style.background = "#fff";
+    boite.style.color = "#000";
     boite.style.borderRadius = "12px";
     boite.style.padding = "20px";
     boite.style.boxShadow = "0 12px 32px rgba(0, 0, 0, 0.25)";
@@ -63,6 +64,8 @@ const demanderValeurTexte = (message, valeurParDefaut = "") => new Promise((reso
     input.style.padding = "10px";
     input.style.marginBottom = "14px";
     input.style.boxSizing = "border-box";
+    input.style.color = "#000";
+    input.style.background = "#fff";
 
     const actions = document.createElement("div");
     actions.style.display = "flex";
@@ -72,10 +75,12 @@ const demanderValeurTexte = (message, valeurParDefaut = "") => new Promise((reso
     const boutonAnnuler = document.createElement("button");
     boutonAnnuler.textContent = "Annuler";
     boutonAnnuler.type = "button";
+    boutonAnnuler.style.color = "#000";
 
     const boutonValider = document.createElement("button");
     boutonValider.textContent = "Valider";
     boutonValider.type = "button";
+    boutonValider.style.color = "#000";
 
     const fermer = (valeur) => {
         document.removeEventListener("keydown", onKeyDown);
