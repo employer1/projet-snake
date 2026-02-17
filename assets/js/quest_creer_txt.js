@@ -34,6 +34,91 @@ const afficherErreur = (message) => {
     window.alert(message);
 };
 
+const demanderValeurTexte = (message, valeurParDefaut = "") => new Promise((resolve) => {
+    const overlay = document.createElement("div");
+    overlay.style.position = "fixed";
+    overlay.style.inset = "0";
+    overlay.style.background = "rgba(0, 0, 0, 0.5)";
+    overlay.style.display = "flex";
+    overlay.style.alignItems = "center";
+    overlay.style.justifyContent = "center";
+    overlay.style.zIndex = "9999";
+
+    const boite = document.createElement("div");
+    boite.style.width = "min(520px, 92vw)";
+    boite.style.background = "#fff";
+    boite.style.borderRadius = "12px";
+    boite.style.padding = "20px";
+    boite.style.boxShadow = "0 12px 32px rgba(0, 0, 0, 0.25)";
+
+    const titre = document.createElement("p");
+    titre.textContent = message;
+    titre.style.margin = "0 0 12px 0";
+    titre.style.fontSize = "1rem";
+
+    const input = document.createElement("input");
+    input.type = "text";
+    input.value = valeurParDefaut;
+    input.style.width = "100%";
+    input.style.padding = "10px";
+    input.style.marginBottom = "14px";
+    input.style.boxSizing = "border-box";
+
+    const actions = document.createElement("div");
+    actions.style.display = "flex";
+    actions.style.justifyContent = "flex-end";
+    actions.style.gap = "8px";
+
+    const boutonAnnuler = document.createElement("button");
+    boutonAnnuler.textContent = "Annuler";
+    boutonAnnuler.type = "button";
+
+    const boutonValider = document.createElement("button");
+    boutonValider.textContent = "Valider";
+    boutonValider.type = "button";
+
+    const fermer = (valeur) => {
+        document.removeEventListener("keydown", onKeyDown);
+        overlay.remove();
+        resolve(valeur);
+    };
+
+    const onKeyDown = (event) => {
+        if (event.key === "Escape") {
+            fermer(null);
+        } else if (event.key === "Enter") {
+            fermer(input.value);
+        }
+    };
+
+    boutonAnnuler.addEventListener("click", () => fermer(null));
+    boutonValider.addEventListener("click", () => fermer(input.value));
+    overlay.addEventListener("click", (event) => {
+        if (event.target === overlay) {
+            fermer(null);
+        }
+    });
+    document.addEventListener("keydown", onKeyDown);
+
+    actions.appendChild(boutonAnnuler);
+    actions.appendChild(boutonValider);
+    boite.appendChild(titre);
+    boite.appendChild(input);
+    boite.appendChild(actions);
+    overlay.appendChild(boite);
+    document.body.appendChild(overlay);
+    input.focus();
+    input.select();
+});
+
+const demanderValeurObligatoire = async (message, valeurParDefaut = "") => {
+    const valeur = await demanderValeurTexte(message, valeurParDefaut);
+    if (valeur === null) {
+        throw new Error("Action annulée.");
+    }
+    return valeur;
+};
+
 const desactiverChampImage = (desactiver) => {
     const inputImage = document.getElementById("image");
     inputImage.disabled = desactiver;
@@ -53,7 +138,7 @@ const sauvegarderQuestionnaire = async () => {
 };
 
 const demanderConfigurationInitiale = async () => {
-    const dossierImages = window.prompt(
+    const dossierImages = await demanderValeurObligatoire(
         "Chemin du dossier d'images existant (optionnel, laisser vide si aucun) :",
         ""
     );
@@ -62,13 +147,13 @@ const demanderConfigurationInitiale = async () => {
         throw new Error("Le dossier d'images indiqué n'existe pas.");
     }
 
-    const nomBrut = window.prompt("Nom du fichier JSON (ex: mon_questionnaire.json) :", "");
+    const nomBrut = await demanderValeurObligatoire("Nom du fichier JSON (ex: mon_questionnaire.json) :", "");
     const nomFichier = normaliserNomFichier(nomBrut || "");
     if (!nomFichier || nomFichier === ".json") {
         throw new Error("Nom de fichier invalide.");
     }
 
-    const reverse = versEntierBinaire(window.prompt("Valeur reverse (0 ou 1) :", "0"));
+    const reverse = versEntierBinaire(await demanderValeurObligatoire("Valeur reverse (0 ou 1) :", "0"));
 
     etatCreation.jsonPath = `${DOSSIER_JSON}/${nomFichier}`;
     etatCreation.questionnaire.titre = titreDepuisNom(nomFichier);
@@ -144,11 +229,13 @@ const abandonnerEtRetourMenu = async () => {
 };
 
 const finirCreation = async () => {
-    const nouveauNom = window.prompt(
+    const nouveauNom = await demanderValeurObligatoire(
         "Nom final du questionnaire JSON (laisser vide pour conserver le nom actuel):",
         etatCreation.jsonPath.split("/").pop() || ""
     );
-    const nouveauReverse = versEntierBinaire(window.prompt("Reverse final (0 ou 1)", String(etatCreation.questionnaire.reverse)));
+    const nouveauReverse = versEntierBinaire(
+        await demanderValeurObligatoire("Reverse final (0 ou 1)", String(etatCreation.questionnaire.reverse))
+    );
 
     etatCreation.questionnaire.reverse = nouveauReverse;
 
