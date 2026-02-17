@@ -1,0 +1,62 @@
+body {
+    background-color: var(--bgColor);
+}
+
+
+h1 {
+    font-size: var(--h1SizeQuestionnaire);
+}
+.corps {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 4fr;
+}
+
+.selection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.barre {
+    background-color: #545454;
+    width: 400px;
+    border-radius: 32px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tableau {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tableau_mois {
+    background-color: #545454;
+    width: 30%;
+    height: 90%;
+    border-radius: 32px;
+
+    padding: 30px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 9fr;
+}
+
+#tableau_centre {
+    background-color: #a6a6a6;
+
+}
+
+.grille_mois {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}

@@ -1,0 +1,121 @@
+{
+    "titre": "Personnages Zootopie",
+    "type": "txt",
+    "reverse": 0,
+    "questionnaire": [
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_zootopie/benjamin_clawhauser.png",
+            "reponse": "benjamin clawhauser",
+            "def": "Benjamin Clawhauser"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_zootopie/chef_bogo.png",
+            "reponse": "chef bogo",
+            "def": "Chef Bogo"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_zootopie/dawn_bellwether.png",
+            "reponse": "dawn bellwether",
+            "def": "Dawn Bellwether"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_zootopie/finnick.png",
+            "reponse": "finnick",
+            "def": "Finnick"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_zootopie/flash_slothmore.png",
+            "reponse": "flash slothmore",
+            "def": "Flash Slothmore"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_zootopie/fru-fru.png",
+            "reponse": "fru-fru",
+            "def": "Fru-Fru"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_zootopie/gary_de'snake.png",
+            "reponse": "gary de'snake",
+            "def": "Gary De'Snake"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_zootopie/gazelle.png",
+            "reponse": "gazelle",
+            "def": "Gazelle"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_zootopie/gideon_grey.png",
+            "reponse": "gideon grey",
+            "def": "Gideon Grey"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_zootopie/jesus.png",
+            "reponse": "jesus",
+            "def": "jesus"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_zootopie/judy_hopps.png",
+            "reponse": "judy hopps",
+            "def": "Judy Hopps"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_zootopie/leodore_lionheart.png",
+            "reponse": "leodore lionheart",
+            "def": "Leodore Lionheart"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_zootopie/brian_winddancer.png",
+            "reponse": "brian winddancer",
+            "def": "Brian Winddancer"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_zootopie/milton_lynxley.png",
+            "reponse": "milton lynxley",
+            "def": "Milton Lynxley"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_zootopie/mr_big.png",
+            "reponse": "mr big",
+            "def": "Mr Big"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_zootopie/kitty_linxley.png",
+            "reponse": "kitty linxley",
+            "def": "Kitty Linxley"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_zootopie/cattrick_linxley.png",
+            "reponse": "cattrick linxley",
+            "def": "Cattrick Linxley"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_zootopie/nick_wilde.png",
+            "reponse": "nick wilde",
+            "def": "Nick Wilde"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_zootopie/pawbert_lynxley.png",
+            "reponse": "pawbert lynxley",
+            "def": "Pawbert Lynxley"
+        }
+    ]
+}

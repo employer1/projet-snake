@@ -1,0 +1,151 @@
+{
+    "titre": "Alphabet morse",
+    "type": "txt",
+    "reverse": 1,
+    "questionnaire": [
+        {
+            "question": "0",
+            "reponse": "-----"
+        },
+        {
+            "question": "1",
+            "reponse": ".----"
+        },
+        {
+            "question": "2",
+            "reponse": "..---"
+        },
+        {
+            "question": "3",
+            "reponse": "...--"
+        },
+        {
+            "question": "4",
+            "reponse": "....-"
+        },
+        {
+            "question": "5",
+            "reponse": "....."
+        },
+        {
+            "question": "6",
+            "reponse": "-...."
+        },
+        {
+            "question": "7",
+            "reponse": "--..."
+        },
+        {
+            "question": "8",
+            "reponse": "---.."
+        },
+        {
+            "question": "9",
+            "reponse": "----."
+        },
+        {
+            "question": "A",
+            "reponse": ".-"
+        },
+        {
+            "question": "B",
+            "reponse": "-..."
+        },
+        {
+            "question": "C",
+            "reponse": "-.-."
+        },
+        {
+            "question": "D",
+            "reponse": "-.."
+        },
+        {
+            "question": "E",
+            "reponse": "."
+        },
+        {
+            "question": "F",
+            "reponse": "..-."
+        },
+        {
+            "question": "G",
+            "reponse": "--."
+        },
+        {
+            "question": "H",
+            "reponse": "...."
+        },
+        {
+            "question": "I",
+            "reponse": ".."
+        },
+        {
+            "question": "J",
+            "reponse": ".---"
+        },
+        {
+            "question": "K",
+            "reponse": "-.-"
+        },
+        {
+            "question": "L",
+            "reponse": ".-.."
+        },
+        {
+            "question": "M",
+            "reponse": "--"
+        },
+        {
+            "question": "N",
+            "reponse": "-."
+        },
+        {
+            "question": "O",
+            "reponse": "---"
+        },
+        {
+            "question": "P",
+            "reponse": ".--."
+        },
+        {
+            "question": "Q",
+            "reponse": "--.-"
+        },
+        {
+            "question": "R",
+            "reponse": ".-."
+        },
+        {
+            "question": "S",
+            "reponse": "..."
+        },
+        {
+            "question": "T",
+            "reponse": "-"
+        },
+        {
+            "question": "U",
+            "reponse": "..-"
+        },
+        {
+            "question": "V",
+            "reponse": "...-"
+        },
+        {
+            "question": "W",
+            "reponse": ".--"
+        },
+        {
+            "question": "X",
+            "reponse": "-..-"
+        },
+        {
+            "question": "Y",
+            "reponse": "-.--"
+        },
+        {
+            "question": "Z",
+            "reponse": "--.."
+        }
+    ]
+}

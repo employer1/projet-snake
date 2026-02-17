@@ -1,0 +1,91 @@
+{
+    "titre": "Personnages Avatar",
+    "type": "txt",
+    "reverse": 0,
+    "questionnaire": [
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_avatar/hang.png",
+            "reponse": "hang",
+            "def": "Hang"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_avatar/katara.png",
+            "reponse": "katara",
+            "def": "Katara"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_avatar/sokka.png",
+            "reponse": "sokka",
+            "def": "Sokka"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_avatar/toph.png",
+            "reponse": "toph",
+            "def": "Toph"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_avatar/zuko.png",
+            "reponse": "zuko",
+            "def": "Zuko"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_avatar/azula.png",
+            "reponse": "azula",
+            "def": "Azula"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_avatar/iroh.png",
+            "reponse": "iroh",
+            "def": "Iroh"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_avatar/appa.png",
+            "reponse": "appa",
+            "def": "Appa"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_avatar/ty_lee.png",
+            "reponse": "ty lee",
+            "def": "Ty Lee"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_avatar/suki.png",
+            "reponse": "suki",
+            "def": "Suki"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_avatar/princess_yue.png",
+            "reponse": "princess yue",
+            "def": "Princess Yue"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_avatar/king_bumi.png",
+            "reponse": "king bumi",
+            "def": "King Bumi"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_avatar/momo.png",
+            "reponse": "momo",
+            "def": "Momo"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_avatar/mai.png",
+            "reponse": "mai",
+            "def": "Mai"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "titre": "Personnages Breaking Bad",
+    "type": "txt",
+    "reverse": 0,
+    "questionnaire": [
+        {
+            "question": "Comment se nomme ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_breaking_bad/walter_white.png",
+            "reponse": "walter white",
+            "def": "Walter White"
+        },
+        {
+            "question": "Comment se nomme ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_breaking_bad/jesse_pinkman.png",
+            "reponse": "jesse pinkman",
+            "def": "Jesse Pinkman"
+        },
+        {
+            "question": "Comment se nomme ce personnage ?",
+            "image": "/quest/questionnaire/cinema/personnages/img/img_breaking_bad/gustavo_fring.png",
+            "reponse": "gustavo fring",
+            "def": "Gustavo Fring"
+        }
+    ]
+}

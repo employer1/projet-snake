@@ -1,0 +1,40 @@
+body {
+    background-color: var(--bgColor);
+}
+
+
+h1 {
+    font-size: var(--h1SizeQuestionnaire);
+}
+.corps {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+.cote {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5fr 1fr 2fr;
+
+    justify-items: center;
+    align-items: center;
+}
+
+.milieu {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.affiche_film {
+    width: 50%;
+    height: auto;
+}
+
+.texte {
+    font-size: 1.5em;
+}

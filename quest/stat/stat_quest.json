@@ -1,0 +1,24 @@
+{
+    "nb_total_questionnaire": 3,
+    "nb_total_question": 75,
+    "historique": [
+        {
+            "date": "01-01-2025",
+            "chrono": 121,
+            "nombre_question": 13,
+            "nombre_reponse": 7
+        },
+        {
+            "date": "01-01-2025",
+            "chrono": 300,
+            "nombre_question": 50,
+            "nombre_reponse": 42
+        },
+        {
+            "date": "02-01-2025",
+            "chrono": 55,
+            "nombre_question": 12,
+            "nombre_reponse": 12
+        }
+    ]
+}
