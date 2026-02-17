@@ -1,0 +1,2419 @@
+{
+    "titre": "Traduction eng - fr de voc classique",
+    "type": "langue",
+    "questionnaire": [
+        {
+            "langue 1": {
+                "a skill": [
+                    "une compétence"
+                ],
+                "there's gotta be": [
+                    "il devrait y avoir une explication",
+                    "il doit y avoir une explication"
+                ],
+                "fearless": [
+                    "sans peur",
+                    "téméraire"
+                ],
+                "smouldering intensity": [
+                    "intense",
+                    "un regard intense"
+                ],
+                "gorgeous": [
+                    "beau",
+                    "magnifique"
+                ],
+                "venom": [
+                    "poison"
+                ],
+                "weapon": [
+                    "arme"
+                ],
+                "strength": [
+                    "force"
+                ],
+                "attorneys": [
+                    "avocats"
+                ],
+                "people-pleaser": [
+                    "veut plaire aux autres"
+                ],
+                "a worrier": [
+                    "se tracasse tout le temps"
+                ],
+                "a warrior": [
+                    "un guérrier"
+                ],
+                "scattered": [
+                    "disperse",
+                    "éparpillé"
+                ],
+                "real estat agent": [
+                    "agent immobilier"
+                ],
+                "he doesn't want to rock the boat": [
+                    "il ne veut pas faire de vague"
+                ],
+                "councilors": [
+                    "assistant social",
+                    "conseiller en"
+                ],
+                "outrageous": [
+                    "scandaleux"
+                ],
+                "accurate": [
+                    "préciser"
+                ],
+                "accuracy": [
+                    "précision"
+                ],
+                "insightful": [
+                    "perspicace"
+                ],
+                "a misconception": [
+                    "une mauvaise comprehension"
+                ],
+                "a pattern": [
+                    "modèle",
+                    "un schéma"
+                ],
+                "hands-on experience": [
+                    "une expérience du terrain",
+                    "une expérience pratique"
+                ],
+                "orderly": [
+                    "ordonné"
+                ],
+                "afterward": [
+                    "ensuite",
+                    "par la suite",
+                    "après quoi"
+                ],
+                "identity": [
+                    "identité"
+                ],
+                "access": [
+                    "accès"
+                ],
+                "noncompliant": [
+                    "non-conforme"
+                ],
+                "behavior": [
+                    "comportement"
+                ],
+                "shielding": [
+                    "blindage",
+                    "protection"
+                ],
+                "backdoor": [
+                    "porte déréobée"
+                ],
+                "knowledge": [
+                    "connaissance"
+                ],
+                "barrier": [
+                    "barricade",
+                    "barrière"
+                ],
+                "asleep": [
+                    "endormi"
+                ],
+                "dormant": [
+                    "endormi"
+                ],
+                "aberrations": [
+                    "aberrations",
+                    "anomalies"
+                ],
+                "anomalies": [
+                    "aberrations",
+                    "anomalies"
+                ],
+                "apparatus": [
+                    "appareil",
+                    "dispositif"
+                ],
+                "device": [
+                    "appareil",
+                    "dispositif"
+                ],
+                "vulnerability": [
+                    "faiblesse",
+                    "vulnérabilité"
+                ],
+                "weakness": [
+                    "faiblesse",
+                    "vulnérabilité"
+                ],
+                "surroundings": [
+                    "environnement",
+                    "environs"
+                ],
+                "environment": [
+                    "environnement",
+                    "environs"
+                ],
+                "firmly": [
+                    "fermement",
+                    "solidement"
+                ],
+                "tightly": [
+                    "fermement",
+                    "solidement"
+                ],
+                "web security": [
+                    "sécurité web"
+                ],
+                "sandboxing": [
+                    "bac à sable",
+                    "technique de confinement"
+                ],
+                "behavioral analytics": [
+                    "analyse comportementale"
+                ],
+                "network segmentation": [
+                    "segmentation du réseau",
+                    "segmentation réseau"
+                ],
+                "access control": [
+                    "contrôle d'accès",
+                    "contrôle des accès"
+                ],
+                "application security": [
+                    "sécurité des applications"
+                ],
+                "sécurité des applications": [
+                    "application security"
+                ],
+                "wireless security": [
+                    "sécurité sans fil"
+                ],
+                "zero trust network access": [
+                    "accès réseau à confiance zéro"
+                ],
+                "data loss prevention": [
+                    "prévention de la perte de données"
+                ],
+                "cloud security": [
+                    "sécurité du cloud"
+                ],
+                "email security": [
+                    "sécurité des courriels",
+                    "sécurité des mails"
+                ],
+                "firewalls": [
+                    "pare-feu"
+                ],
+                "anti-virus and anti-malware software": [
+                    "logiciel antivirus et antimalware"
+                ],
+                "mobile device security": [
+                    "sécurité des appareils mobiles"
+                ],
+                "security information and event management": [
+                    "gestion des informations et des évènements de sécurité"
+                ],
+                "intrusion prevention systems": [
+                    "systèmes de préventions d'intrusion"
+                ],
+                "digital footprint": [
+                    "empreinte numérique"
+                ],
+                "malware": [
+                    "logiciel malveillant"
+                ],
+                "a trojan horse": [
+                    "un cheval de troie"
+                ],
+                "phishing": [
+                    "hameçonnage"
+                ],
+                "spear phishing": [
+                    "hameçonnage ciblé"
+                ],
+                "encrypted connection": [
+                    "connexion chiffrée"
+                ],
+                "ransomware": [
+                    "rançongiciel"
+                ],
+                "theft": [
+                    "vol"
+                ],
+                "remotely": [
+                    "à distance"
+                ],
+                "sensitive": [
+                    "sensible"
+                ],
+                "backbone": [
+                    "colonne vertébrale",
+                    "infrastructure principale"
+                ],
+                "tailored": [
+                    "adapté",
+                    "sur mesure"
+                ],
+                "unwittingly": [
+                    "inconsciemment",
+                    "sans le savoir"
+                ],
+                "targeted": [
+                    "ciblé"
+                ],
+                "crafted": [
+                    "conçu",
+                    "élaboré"
+                ],
+                "intellectual property": [
+                    "propriété intellectuelle"
+                ],
+                "authentication": [
+                    "authenticité",
+                    "authentification"
+                ],
+                "authentification": [
+                    "authentication",
+                    "autentificité"
+                ],
+                "the credentials": [
+                    "les identifiants",
+                    "les informations d'authentification",
+                    "les informations d'authentification'"
+                ],
+                "data breach": [
+                    "violation de données"
+                ],
+                "sheer scale": [
+                    "ampleur conséidérable",
+                    "échelle énorme"
+                ],
+                "overwhelming": [
+                    "accablant",
+                    "écrasant"
+                ],
+                "web resources network": [
+                    "réseau de ressources web"
+                ],
+                "simultaneously": [
+                    "simultanément"
+                ],
+                "exceeds the networking's capacity": [
+                    "dépasser la capacité du réseau",
+                    "excéde la capacité du réseau",
+                    "dépasse la capacité du réseau"
+                ],
+                "bandwidth": [
+                    "bande passante"
+                ],
+                "data transfer rate": [
+                    "bande passante"
+                ],
+                "packet floods": [
+                    "saturation de paquets"
+                ],
+                "data overwhelm": [
+                    "saturation de paquets"
+                ],
+                "ip address": [
+                    "adresse ip"
+                ],
+                "network id": [
+                    "adresse ip"
+                ],
+                "range in layer": [
+                    "disposer en couches"
+                ],
+                "denial of service": [
+                    "déni de service"
+                ],
+                "out of service": [
+                    "déni de service"
+                ],
+                "requierements": [
+                    "exigences"
+                ],
+                "publicity-traded companies": [
+                    "entreprises cotées en bourse"
+                ],
+                "saper": [
+                    "to undermine"
+                ],
+                "former": [
+                    "ancien"
+                ],
+                "sustained": [
+                    "soutenu"
+                ],
+                "high-profile": [
+                    "de haut profile",
+                    "très en vue"
+                ],
+                "grid": [
+                    "grille",
+                    "réseau"
+                ],
+                "prime target": [
+                    "cible privilégiée"
+                ],
+                "crucial": [
+                    "très important"
+                ],
+                "very important": [
+                    "crucial",
+                    "très important"
+                ],
+                "critical": [
+                    "crucial",
+                    "très important"
+                ],
+                "revealing through investigation": [
+                    "révéler",
+                    "mettre au jour"
+                ],
+                "giving nickname": [
+                    "surnommer"
+                ],
+                "dubbled": [
+                    "surnommer"
+                ],
+                "disassembling": [
+                    "démanteler",
+                    "démonter"
+                ],
+                "dismantling": [
+                    "démanteler",
+                    "démonter"
+                ],
+                "taking down": [
+                    "démanteler",
+                    "démonter"
+                ],
+                "contending with an adversary or opposing force": [
+                    "lutter",
+                    "déranger"
+                ],
+                "despite this": [
+                    "malgré cela",
+                    "néanmois",
+                    "néanmoins"
+                ],
+                "malgré cela": [
+                    "despite this",
+                    "nonetheless"
+                ],
+                "nonetheless": [
+                    "malgré cela",
+                    "néanmoins"
+                ],
+                "encryption": [
+                    "cryptage"
+                ],
+                "decryption": [
+                    "décryptage"
+                ],
+                "drawback": [
+                    "désavantage",
+                    "inconvénient"
+                ],
+                "a tough cookie to crack": [
+                    "un problème difficile à résoudre"
+                ],
+                "cloud sécurity": [
+                    "sécurité du cloud"
+                ],
+                "back door": [
+                    "porte dérobée"
+                ],
+                "challenge": [
+                    "défi",
+                    "épreuve"
+                ],
+                "breache": [
+                    "brèche",
+                    "faille"
+                ],
+                "confidentiality": [
+                    "confidentialité"
+                ],
+                "integrity of data": [
+                    "intégrité des données"
+                ],
+                "non repudiation": [
+                    "sans rétractation"
+                ],
+                "remain private": [
+                    "reste privé"
+                ],
+                "accountable": [
+                    "responsable"
+                ],
+                "cryptographic": [
+                    "cryptographique"
+                ],
+                "personel data": [
+                    "données personnelles"
+                ],
+                "internet browsing": [
+                    "navigation sur internet"
+                ],
+                "sender": [
+                    "expéditeur"
+                ],
+                "recipient": [
+                    "destinataire"
+                ],
+                "companie": [
+                    "entreprise"
+                ],
+                "cryptocurrency": [
+                    "crypto-monnaie"
+                ],
+                "transaction": [
+                    "transaction"
+                ],
+                "key": [
+                    "clé"
+                ],
+                "symmetric": [
+                    "symétrique"
+                ],
+                "asymmetric": [
+                    "asymétrique"
+                ],
+                "privacy": [
+                    "confidentialité",
+                    "privé"
+                ],
+                "certificate": [
+                    "certificat"
+                ],
+                "website": [
+                    "page internet",
+                    "site internet"
+                ],
+                "file": [
+                    "document",
+                    "fichier"
+                ],
+                "computer science": [
+                    "l'informatique"
+                ],
+                "earlier": [
+                    "avant",
+                    "plus tôt"
+                ],
+                "academic career": [
+                    "carrière universitaire"
+                ],
+                "pursuit": [
+                    "poursuite",
+                    "recherche"
+                ],
+                "liberal": [
+                    "libéral"
+                ],
+                "fellowship": [
+                    "bourse"
+                ],
+                "significant": [
+                    "significative"
+                ],
+                "up front": [
+                    "au départ",
+                    "d'avance",
+                    "en amont",
+                    "initial"
+                ],
+                "on premises": [
+                    "dans les locaux",
+                    "sur place"
+                ],
+                "spike": [
+                    "augmentation soudaine et brève",
+                    "pic",
+                    "pointe"
+                ],
+                "dip": [
+                    "baisse légère",
+                    "creux",
+                    "diminution temporaire"
+                ],
+                "workload": [
+                    "charge de travail"
+                ],
+                "offsite": [
+                    "hors site",
+                    "à l'extérieur"
+                ],
+                "global": [
+                    "mondial",
+                    "planétaire"
+                ],
+                "hand on": [
+                    "s'entrainer",
+                    "s'exercer"
+                ],
+                "revork": [
+                    "annulation",
+                    "empêcher",
+                    "réécriture"
+                ],
+                "appalingly": [
+                    "malicieusement",
+                    "vil"
+                ],
+                "unauthorized": [
+                    "interdit",
+                    "non autorisé"
+                ],
+                "raised by": [
+                    "soulevé par"
+                ],
+                "backlash": [
+                    "contrecoup",
+                    "négative"
+                ],
+                "compliance": [
+                    "conformité",
+                    "respect"
+                ],
+                "ongoing": [
+                    "en cours"
+                ],
+                "individual rights": [
+                    "droit individuel",
+                    "liberté individuelle"
+                ],
+                "decoy": [
+                    "leurre"
+                ],
+                "deflecting": [
+                    "détournant",
+                    "déviant"
+                ],
+                "security measures": [
+                    "mesures de sécurité"
+                ],
+                "monitor attackers": [
+                    "surveiller les attaquants"
+                ],
+                "trap": [
+                    "piège"
+                ],
+                "offering enticing data": [
+                    "offrir des données attirantes",
+                    "offrir des données attrayantes"
+                ],
+                "reporting purpose": [
+                    "a des fin de rapport"
+                ],
+                "broader insights": [
+                    "perspective plus large",
+                    "vision plus large"
+                ],
+                "network-based attacks": [
+                    "attaques basées sur le réseau"
+                ],
+                "inadvertendly": [
+                    "inadvertance",
+                    "par inadvertance"
+                ],
+                "genuine": [
+                    "authentique",
+                    "réel"
+                ],
+                "aids": [
+                    "aide",
+                    "contribue",
+                    "facilite"
+                ],
+                "solely": [
+                    "seulement",
+                    "uniquement"
+                ],
+                "effectiveness": [
+                    "efficacité"
+                ],
+                "meticulously": [
+                    "méticuleusement"
+                ],
+                "effectively": [
+                    "efficacement"
+                ],
+                "launch pad": [
+                    "les utiliser pour",
+                    "rampe de lancement"
+                ],
+                "vast": [
+                    "vaste",
+                    "étendu"
+                ],
+                "which": [
+                    "laquelle",
+                    "lequel"
+                ],
+                "feature": [
+                    "fonctionnalité",
+                    "propriété"
+                ],
+                "IT infrastructure": [
+                    "infrastructure informatique"
+                ],
+                "hardware": [
+                    "matériel informatique"
+                ],
+                "software": [
+                    "logiciel informatique"
+                ],
+                "data centres": [
+                    "centres de données"
+                ],
+                "upfront capital investment": [
+                    "investissement initial"
+                ],
+                "computing resources": [
+                    "resources informatique"
+                ],
+                "reliance": [
+                    "dépendance"
+                ],
+                "pay-per-use": [
+                    "payement à l'utilisation",
+                    "payer pour utiliser"
+                ],
+                "subscription-based": [
+                    "par abonnement"
+                ],
+                "pricing model": [
+                    "modèle de payement",
+                    "modèle de tarification"
+                ],
+                "cutting-edge technologies": [
+                    "technologie avancée",
+                    "technologie de pointe"
+                ],
+                "seamless": [
+                    "transparent"
+                ],
+                "customers engagement": [
+                    "engagement client"
+                ],
+                "quickly": [
+                    "rapidement"
+                ],
+                "key business application": [
+                    "application commerciale clé",
+                    "application commerciale essentielle"
+                ],
+                "supply chains": [
+                    "chaînes d'approvisionnement"
+                ],
+                "highlighted": [
+                    "mis en évidence"
+                ],
+                "cloud service provider": [
+                    "fournisseur de service en ligne"
+                ],
+                "cloud-effectiveness": [
+                    "rentabilité"
+                ],
+                "self-service": [
+                    "libre service"
+                ],
+                "broad network access": [
+                    "accès étendu au réseau"
+                ],
+                "on-demand": [
+                    "à la demande"
+                ],
+                "whenever": [
+                    "chaque fois",
+                    "à tout moment"
+                ],
+                "enable scaling up or down": [
+                    "mise à l'échelle"
+                ],
+                "infrastructure as a service": [
+                    "infrastructure en tant que service"
+                ],
+                "plateforme as a service": [
+                    "plateforme en tant que service"
+                ],
+                "software as a service": [
+                    "logiciel en tant que service"
+                ],
+                "involve": [
+                    "impliquer"
+                ],
+                "dedicated": [
+                    "consacrer",
+                    "dédier",
+                    "dévoué"
+                ],
+                "core focus": [
+                    "objectif principal"
+                ],
+                "availability": [
+                    "disponibilité"
+                ],
+                "key components": [
+                    "composants clé",
+                    "composants essentiels"
+                ],
+                "compliance control": [
+                    "contrôle de conformité"
+                ],
+                "assets": [
+                    "actif"
+                ],
+                "threat": [
+                    "menace"
+                ],
+                "misconfiguration": [
+                    "mauvaise configuration"
+                ],
+                "advanced persistent threat": [
+                    "menace persistante avancée"
+                ],
+                "havoc": [
+                    "dégat",
+                    "ravage"
+                ],
+                "insider threat": [
+                    "menace interne"
+                ],
+                "disruption": [
+                    "perturbation"
+                ],
+                "identity management": [
+                    "gestion des identités"
+                ],
+                "intrusion detection": [
+                    "détection d'intrusion"
+                ],
+                "prevention system": [
+                    "système de prévention"
+                ],
+                "before": [
+                    "avant"
+                ],
+                "brevity": [
+                    "bref",
+                    "consis"
+                ],
+                "shy": [
+                    "timide"
+                ],
+                "clarity": [
+                    "clareté"
+                ],
+                "creative": [
+                    "créatif"
+                ],
+                "determinate": [
+                    "déterminé"
+                ],
+                "disciplined": [
+                    "discipliné"
+                ],
+                "enthusiastic": [
+                    "enthousiaste"
+                ],
+                "flexible": [
+                    "flexible"
+                ],
+                "honest": [
+                    "honête"
+                ],
+                "multitasking too much": [
+                    "se disperer",
+                    "se dispercer"
+                ],
+                "self critisism": [
+                    "l'auto-critique"
+                ],
+                "too detailed oriented": [
+                    "qui porte trop d'attention aux détails"
+                ],
+                "overthinking": [
+                    "qui réfléchi trop"
+                ],
+                "analytical": [
+                    "analytique"
+                ],
+                "perfectionist": [
+                    "perfectionniste"
+                ],
+                "inrovert": [
+                    "introverti"
+                ],
+                "easily overwhelmed": [
+                    "facilement dépassé",
+                    "facilement surpassé",
+                    "facilement débordé"
+                ],
+                "procrastinator": [
+                    "procrastinateur"
+                ],
+                "networking": [
+                    "réseautage"
+                ],
+                "jobs boards": [
+                    "tableau d'offres d'emploi"
+                ],
+                "referrals": [
+                    "réfférence"
+                ],
+                "jobs fairs": [
+                    "foires au métier"
+                ],
+                "cold calling": [
+                    "candidatures spontanées"
+                ],
+                "headhunters": [
+                    "chasseurs de tête"
+                ],
+                "temping": [
+                    "stages"
+                ],
+                "internships": [
+                    "stages"
+                ],
+                "outlandish tactics": [
+                    "tactiques créative"
+                ],
+                "upcoming": [
+                    "imminents"
+                ],
+                "resume": [
+                    "CV",
+                    "cv"
+                ],
+                "job seekers": [
+                    "chercheurs d'emploi"
+                ],
+                "billboards": [
+                    "panneaux publicitaires"
+                ],
+                "to get a foot in the door": [
+                    "avoir un pied dans l'entreprise"
+                ],
+                "word of mouth": [
+                    "le bouche à oreille"
+                ],
+                "incentives": [
+                    "bonus"
+                ],
+                "a finder's fee": [
+                    "une prime"
+                ],
+                "top-notch employee": [
+                    "un employé au top"
+                ],
+                "no laid-backness": [
+                    "être étendu"
+                ],
+                "interships": [
+                    "stages"
+                ],
+                "introvert": [
+                    "introverti"
+                ],
+                "authenticité": [
+                    "authentication"
+                ],
+                "decipher": [
+                    "déchiffrer"
+                ],
+                "to provide": [
+                    "fournir"
+                ],
+                "to decipher": [
+                    "déchiffrer"
+                ],
+                "to intend": [
+                    "avoir l'intention",
+                    "vouloir"
+                ],
+                "to ensure": [
+                    "assurer"
+                ],
+                "to transfer": [
+                    "transférer"
+                ],
+                "to recognize": [
+                    "reconnaître"
+                ],
+                "differ": [
+                    "différer"
+                ],
+                "to assess": [
+                    "évaluer"
+                ],
+                "to exhibit": [
+                    "exposer",
+                    "présenter"
+                ],
+                "to leverage": [
+                    "exploiter",
+                    "mettre à profit",
+                    "tirer parti"
+                ],
+                "to hinder": [
+                    "entraver"
+                ],
+                "to argue": [
+                    "argumenter",
+                    "se positionner"
+                ],
+                "to lure": [
+                    "attirer"
+                ],
+                "to mimic": [
+                    "imiter",
+                    "copier"
+                ],
+                "to empower": [
+                    "donner du pouvoir",
+                    "donner les moyens",
+                    "habiliter"
+                ],
+                "to offload": [
+                    "décharger",
+                    "transférer"
+                ],
+                "to safeguarding": [
+                    "protéger"
+                ],
+                "to seek": [
+                    "chercher"
+                ],
+                "to relate to": [
+                    "se rapporter à"
+                ],
+                "to be drained of energy": [
+                    "être épuisé"
+                ],
+                "to learn towards": [
+                    "pencher vers"
+                ],
+                "to allow": [
+                    "permettre"
+                ],
+                "to track": [
+                    "suivre"
+                ],
+                "to enforce": [
+                    "faire appliquer",
+                    "imposer"
+                ],
+                "to encompass": [
+                    "encercler",
+                    "englober"
+                ],
+                "to gather": [
+                    "collecter",
+                    "rassembler"
+                ],
+                "to suffer": [
+                    "souffrir",
+                    "être affecté"
+                ],
+                "to overload": [
+                    "surcharger"
+                ],
+                "to burden": [
+                    "surcharger"
+                ],
+                "to overwhelm": [
+                    "accabler",
+                    "submerger"
+                ],
+                "to overpower": [
+                    "accabler",
+                    "submerger"
+                ],
+                "to layer": [
+                    "disposer en couches"
+                ],
+                "to spoof": [
+                    "tromper",
+                    "usurper"
+                ],
+                "to trick": [
+                    "tromper",
+                    "usurper"
+                ],
+                "to drag out": [
+                    "faire durer",
+                    "prolonger"
+                ],
+                "to prolonging": [
+                    "faire durer",
+                    "prolonger"
+                ],
+                "to undermine": [
+                    "saper"
+                ],
+                "to go mainstream": [
+                    "devenir courant"
+                ],
+                "to escalate": [
+                    "intensifier",
+                    "s'aggraver"
+                ],
+                "to cripple": [
+                    "paralyser"
+                ],
+                "to issue a statement": [
+                    "faire une déclaration"
+                ],
+                "to uncover": [
+                    "mettre au jour",
+                    "révéler"
+                ],
+                "to struggle": [
+                    "déranger",
+                    "lutter"
+                ],
+                "to emphasize": [
+                    "mettre en valeur",
+                    "souligner"
+                ],
+                "to remain": [
+                    "rester"
+                ],
+                "to pool": [
+                    "mettre en commun",
+                    "mutualiser"
+                ],
+                "to spin up": [
+                    "démarrer rapidement",
+                    "mettre en route"
+                ],
+                "to turn in to": [
+                    "se tourner vers"
+                ],
+                "to infringe": [
+                    "enfreindre",
+                    "porter plainte"
+                ],
+                "to facilitating": [
+                    "faciliter"
+                ],
+                "to enhance": [
+                    "améliorer"
+                ],
+                "to gain": [
+                    "bénéfice",
+                    "to gain",
+                    "gagner"
+                ],
+                "to implement": [
+                    "exécution"
+                ],
+                "to monitor": [
+                    "surveillance"
+                ],
+                "to log": [
+                    "connexion",
+                    "enregistrement"
+                ]
+            },
+            "langue 2": {
+                "une compétence": [
+                    "a skill"
+                ],
+                "un employé au top": [
+                    "top-notch employee"
+                ],
+                "une prime": [
+                    "a finder's fee"
+                ],
+                "bonus": [
+                    "incentives"
+                ],
+                "le bouche à oreille": [
+                    "word of mouth"
+                ],
+                "avoir un pied dans l'entreprise": [
+                    "to get a foot in the door"
+                ],
+                "panneaux publicitaires": [
+                    "billboards"
+                ],
+                "chercheurs d'emploi": [
+                    "job seekers"
+                ],
+                "CV": [
+                    "resume"
+                ],
+                "cv": [
+                    "resume"
+                ],
+                "imminents": [
+                    "upcoming"
+                ],
+                "tactiques créative": [
+                    "outlandish tactics"
+                ],
+                "stages": [
+                    "temping",
+                    "interships",
+                    "internships"
+                ],
+                "chasseurs de tête": [
+                    "headhunters"
+                ],
+                "candidatures spontanées": [
+                    "cold calling"
+                ],
+                "foires au métier": [
+                    "jobs fairs"
+                ],
+                "tableau d'offres d'emploi": [
+                    "jobs boards"
+                ],
+                "réfférence": [
+                    "referrals"
+                ],
+                "réseautage": [
+                    "networking"
+                ],
+                "procrastinateur": [
+                    "procrastinator"
+                ],
+                "facilement dépassé": [
+                    "easily overwhelmed"
+                ],
+                "facilement surpassé": [
+                    "easily overwhelmed"
+                ],
+                "facilement débordé": [
+                    "easily overwhelmed"
+                ],
+                "introverti": [
+                    "introvert",
+                    "inrovert"
+                ],
+                "perfectionniste": [
+                    "perfectionist"
+                ],
+                "analytique": [
+                    "analytical"
+                ],
+                "qui réfléchi trop": [
+                    "overthinking"
+                ],
+                "qui porte trop d'attention aux détails": [
+                    "too detailed oriented"
+                ],
+                "l'auto-critique": [
+                    "self critisism"
+                ],
+                "se dispercer": [
+                    "multitasking too much"
+                ],
+                "honête": [
+                    "honest"
+                ],
+                "flexible": [
+                    "flexible"
+                ],
+                "enthousiaste": [
+                    "enthusiastic"
+                ],
+                "discipliné": [
+                    "disciplined"
+                ],
+                "déterminé": [
+                    "determinate"
+                ],
+                "créatif": [
+                    "creative"
+                ],
+                "clareté": [
+                    "clarity"
+                ],
+                "timide": [
+                    "shy"
+                ],
+                "bref": [
+                    "brevity"
+                ],
+                "consis": [
+                    "brevity"
+                ],
+                "il devrait y avoir une explication": [
+                    "there's gotta be"
+                ],
+                "il doit y avoir une explication": [
+                    "there's gotta be"
+                ],
+                "sans peur": [
+                    "fearless"
+                ],
+                "téméraire": [
+                    "fearless"
+                ],
+                "un regard intense": [
+                    "smouldering intensity"
+                ],
+                "intense": [
+                    "smouldering intensity"
+                ],
+                "beau": [
+                    "gorgeous"
+                ],
+                "magnifique": [
+                    "gorgeous"
+                ],
+                "poison": [
+                    "venom"
+                ],
+                "arme": [
+                    "weapon"
+                ],
+                "force": [
+                    "strength"
+                ],
+                "avocats": [
+                    "attorneys"
+                ],
+                "veut plaire aux autres": [
+                    "people-pleaser"
+                ],
+                "se tracasse tout le temps": [
+                    "a worrier"
+                ],
+                "un guérrier": [
+                    "a warrior"
+                ],
+                "disperse": [
+                    "scattered"
+                ],
+                "éparpillé": [
+                    "scattered"
+                ],
+                "agent immobilier": [
+                    "real estat agent"
+                ],
+                "il ne veut pas faire de vague": [
+                    "he doesn't want to rock the boat"
+                ],
+                "conseiller en": [
+                    "councilors"
+                ],
+                "scandaleux": [
+                    "outrageous"
+                ],
+                "préciser": [
+                    "accurate"
+                ],
+                "précision": [
+                    "accuracy"
+                ],
+                "perspicace": [
+                    "insightful"
+                ],
+                "une mauvaise comprehension": [
+                    "a misconception"
+                ],
+                "un schéma": [
+                    "a pattern"
+                ],
+                "modèle": [
+                    "a pattern"
+                ],
+                "une expérience du terrain": [
+                    "hands-on experience"
+                ],
+                "une expérience pratique": [
+                    "hands-on experience"
+                ],
+                "ordonné": [
+                    "orderly"
+                ],
+                "identité": [
+                    "identity"
+                ],
+                "ensuite": [
+                    "afterward"
+                ],
+                "par la suite": [
+                    "afterward"
+                ],
+                "accès": [
+                    "access"
+                ],
+                "non-conforme": [
+                    "noncompliant"
+                ],
+                "comportement": [
+                    "behavior"
+                ],
+                "protection": [
+                    "shielding"
+                ],
+                "blindage": [
+                    "shielding"
+                ],
+                "porte déréobée": [
+                    "backdoor"
+                ],
+                "connaissance": [
+                    "knowledge"
+                ],
+                "barricade": [
+                    "barrier"
+                ],
+                "barrière": [
+                    "barrier"
+                ],
+                "endormi": [
+                    "asleep",
+                    "dormant"
+                ],
+                "aberrations": [
+                    "aberrations",
+                    "anomalies"
+                ],
+                "anomalies": [
+                    "aberrations",
+                    "anomalies"
+                ],
+                "appareil": [
+                    "apparatus",
+                    "device"
+                ],
+                "dispositif": [
+                    "apparatus",
+                    "device"
+                ],
+                "vulnérabilité": [
+                    "vulnerability",
+                    "weakness"
+                ],
+                "faiblesse": [
+                    "vulnerability",
+                    "weakness"
+                ],
+                "environs": [
+                    "environment",
+                    "surroundings"
+                ],
+                "environnement": [
+                    "environment",
+                    "surroundings"
+                ],
+                "fermement": [
+                    "firmly",
+                    "tightly"
+                ],
+                "solidement": [
+                    "firmly",
+                    "tightly"
+                ],
+                "sécurité web": [
+                    "web security"
+                ],
+                "bac à sable": [
+                    "sandboxing"
+                ],
+                "technique de confinement": [
+                    "sandboxing"
+                ],
+                "analyse comportementale": [
+                    "behavioral analytics"
+                ],
+                "segmentation réseau": [
+                    "network segmentation"
+                ],
+                "contrôle d'accès": [
+                    "access control"
+                ],
+                "sécurité sans fil": [
+                    "wireless security"
+                ],
+                "accès réseau à confiance zéro": [
+                    "zero trust network access"
+                ],
+                "prévention de la perte de données": [
+                    "data loss prevention"
+                ],
+                "sécurité du cloud": [
+                    "cloud security",
+                    "cloud sécurity"
+                ],
+                "sécurité des courriels": [
+                    "email security"
+                ],
+                "sécurité des mails": [
+                    "email security"
+                ],
+                "pare-feu": [
+                    "firewalls"
+                ],
+                "logiciel antivirus et antimalware": [
+                    "anti-virus and anti-malware software"
+                ],
+                "sécurité des appareils mobiles": [
+                    "mobile device security"
+                ],
+                "gestion des informations et des évènements de sécurité": [
+                    "security information and event management"
+                ],
+                "systèmes de préventions d'intrusion": [
+                    "intrusion prevention systems"
+                ],
+                "empreinte numérique": [
+                    "digital footprint"
+                ],
+                "logiciel malveillant": [
+                    "malware"
+                ],
+                "un cheval de troie": [
+                    "a trojan horse"
+                ],
+                "hameçonnage": [
+                    "phishing"
+                ],
+                "hameçonnage ciblé": [
+                    "spear phishing"
+                ],
+                "connexion chiffrée": [
+                    "encrypted connection"
+                ],
+                "rançongiciel": [
+                    "ransomware"
+                ],
+                "vol": [
+                    "theft"
+                ],
+                "à distance": [
+                    "remotely"
+                ],
+                "sensible": [
+                    "sensitive"
+                ],
+                "infrastructure principale": [
+                    "backbone"
+                ],
+                "colonne vertébrale": [
+                    "backbone"
+                ],
+                "sur mesure": [
+                    "tailored"
+                ],
+                "adapté": [
+                    "tailored"
+                ],
+                "sans le savoir": [
+                    "unwittingly"
+                ],
+                "inconsciemment": [
+                    "unwittingly"
+                ],
+                "ciblé": [
+                    "targeted"
+                ],
+                "conçu": [
+                    "crafted"
+                ],
+                "élaboré": [
+                    "crafted"
+                ],
+                "propriété intellectuelle": [
+                    "intellectual property"
+                ],
+                "authentication": [
+                    "authenticité",
+                    "authentification"
+                ],
+                "authentification": [
+                    "authentication"
+                ],
+                "les identifiants": [
+                    "the credentials"
+                ],
+                "les informations d'authentification'": [
+                    "the credentials"
+                ],
+                "violation de données": [
+                    "data breach"
+                ],
+                "ampleur conséidérable": [
+                    "sheer scale"
+                ],
+                "échelle énorme": [
+                    "sheer scale"
+                ],
+                "écrasant": [
+                    "overwhelming"
+                ],
+                "accablant": [
+                    "overwhelming"
+                ],
+                "réseau de ressources web": [
+                    "web resources network"
+                ],
+                "simultanément": [
+                    "simultaneously"
+                ],
+                "dépasse la capacité du réseau": [
+                    "exceeds the networking's capacity"
+                ],
+                "excéde la capacité du réseau": [
+                    "exceeds the networking's capacity"
+                ],
+                "bande passante": [
+                    "data transfer rate",
+                    "bandwidth"
+                ],
+                "saturation de paquets": [
+                    "data overwhelm",
+                    "packet floods"
+                ],
+                "adresse ip": [
+                    "ip address",
+                    "network id"
+                ],
+                "déni de service": [
+                    "denial of service",
+                    "out of service"
+                ],
+                "exigences": [
+                    "requierements"
+                ],
+                "entreprises cotées en bourse": [
+                    "publicity-traded companies"
+                ],
+                "ancien": [
+                    "former"
+                ],
+                "soutenu": [
+                    "sustained"
+                ],
+                "très en vue": [
+                    "high-profile"
+                ],
+                "de haut profile": [
+                    "high-profile"
+                ],
+                "grille": [
+                    "grid"
+                ],
+                "réseau": [
+                    "grid"
+                ],
+                "cible privilégiée": [
+                    "prime target"
+                ],
+                "très important": [
+                    "critical",
+                    "crucial",
+                    "very important"
+                ],
+                "surnommer": [
+                    "dubbled",
+                    "giving nickname"
+                ],
+                "démanteler": [
+                    "disassembling",
+                    "dismantling",
+                    "taking down"
+                ],
+                "démonter": [
+                    "disassembling",
+                    "dismantling",
+                    "taking down"
+                ],
+                "malgré cela": [
+                    "despite this",
+                    "nonetheless"
+                ],
+                "néanmoins": [
+                    "nonetheless",
+                    "despite this"
+                ],
+                "cryptage": [
+                    "encryption"
+                ],
+                "décryptage": [
+                    "decryption"
+                ],
+                "decipher": [
+                    "déchiffrer"
+                ],
+                "déchiffrer": [
+                    "decipher",
+                    "to decipher"
+                ],
+                "inconvénient": [
+                    "drawback"
+                ],
+                "désavantage": [
+                    "drawback"
+                ],
+                "un problème difficile à résoudre": [
+                    "a tough cookie to crack"
+                ],
+                "porte dérobée": [
+                    "back door"
+                ],
+                "défi": [
+                    "challenge"
+                ],
+                "épreuve": [
+                    "challenge"
+                ],
+                "brèche": [
+                    "breache"
+                ],
+                "faille": [
+                    "breache"
+                ],
+                "confidentialité": [
+                    "confidentiality",
+                    "privacy"
+                ],
+                "intégrité des données": [
+                    "integrity of data"
+                ],
+                "authenticité": [
+                    "authentication"
+                ],
+                "autentificité": [
+                    "authentification"
+                ],
+                "sans rétractation": [
+                    "non repudiation"
+                ],
+                "reste privé": [
+                    "remain private"
+                ],
+                "responsable": [
+                    "accountable"
+                ],
+                "cryptographique": [
+                    "cryptographic"
+                ],
+                "données personnelles": [
+                    "personel data"
+                ],
+                "navigation sur internet": [
+                    "internet browsing"
+                ],
+                "expéditeur": [
+                    "sender"
+                ],
+                "destinataire": [
+                    "recipient"
+                ],
+                "entreprise": [
+                    "companie"
+                ],
+                "crypto-monnaie": [
+                    "cryptocurrency"
+                ],
+                "transaction": [
+                    "transaction"
+                ],
+                "clé": [
+                    "key"
+                ],
+                "symétrique": [
+                    "symmetric"
+                ],
+                "asymétrique": [
+                    "asymmetric"
+                ],
+                "privé": [
+                    "privacy"
+                ],
+                "certificat": [
+                    "certificate"
+                ],
+                "site internet": [
+                    "website"
+                ],
+                "page internet": [
+                    "website"
+                ],
+                "fichier": [
+                    "file"
+                ],
+                "document": [
+                    "file"
+                ],
+                "l'informatique": [
+                    "computer science"
+                ],
+                "plus tôt": [
+                    "earlier"
+                ],
+                "avant": [
+                    "earlier",
+                    "before"
+                ],
+                "carrière universitaire": [
+                    "academic career"
+                ],
+                "poursuite": [
+                    "pursuit"
+                ],
+                "recherche": [
+                    "pursuit"
+                ],
+                "libéral": [
+                    "liberal"
+                ],
+                "bourse": [
+                    "fellowship"
+                ],
+                "significative": [
+                    "significant"
+                ],
+                "initial": [
+                    "up front"
+                ],
+                "d'avance": [
+                    "up front"
+                ],
+                "au départ": [
+                    "up front"
+                ],
+                "en amont": [
+                    "up front"
+                ],
+                "sur place": [
+                    "on premises"
+                ],
+                "dans les locaux": [
+                    "on premises"
+                ],
+                "pic": [
+                    "spike"
+                ],
+                "pointe": [
+                    "spike"
+                ],
+                "augmentation soudaine et brève": [
+                    "spike"
+                ],
+                "baisse légère": [
+                    "dip"
+                ],
+                "creux": [
+                    "dip"
+                ],
+                "diminution temporaire": [
+                    "dip"
+                ],
+                "charge de travail": [
+                    "workload"
+                ],
+                "hors site": [
+                    "offsite"
+                ],
+                "à l'extérieur": [
+                    "offsite"
+                ],
+                "mondial": [
+                    "global"
+                ],
+                "planétaire": [
+                    "global"
+                ],
+                "s'exercer": [
+                    "hand on"
+                ],
+                "s'entrainer": [
+                    "hand on"
+                ],
+                "réécriture": [
+                    "revork"
+                ],
+                "annulation": [
+                    "revork"
+                ],
+                "empêcher": [
+                    "revork"
+                ],
+                "malicieusement": [
+                    "appalingly"
+                ],
+                "vil": [
+                    "appalingly"
+                ],
+                "non autorisé": [
+                    "unauthorized"
+                ],
+                "interdit": [
+                    "unauthorized"
+                ],
+                "soulevé par": [
+                    "raised by"
+                ],
+                "contrecoup": [
+                    "backlash"
+                ],
+                "négative": [
+                    "backlash"
+                ],
+                "conformité": [
+                    "compliance"
+                ],
+                "respect": [
+                    "compliance"
+                ],
+                "en cours": [
+                    "ongoing"
+                ],
+                "droit individuel": [
+                    "individual rights"
+                ],
+                "liberté individuelle": [
+                    "individual rights"
+                ],
+                "leurre": [
+                    "decoy"
+                ],
+                "déviant": [
+                    "deflecting"
+                ],
+                "détournant": [
+                    "deflecting"
+                ],
+                "mesures de sécurité": [
+                    "security measures"
+                ],
+                "surveiller les attaquants": [
+                    "monitor attackers"
+                ],
+                "piège": [
+                    "trap"
+                ],
+                "offrir des données attrayantes": [
+                    "offering enticing data"
+                ],
+                "offrir des données attirantes": [
+                    "offering enticing data"
+                ],
+                "a des fin de rapport": [
+                    "reporting purpose"
+                ],
+                "vision plus large": [
+                    "broader insights"
+                ],
+                "perspective plus large": [
+                    "broader insights"
+                ],
+                "attaques basées sur le réseau": [
+                    "network-based attacks"
+                ],
+                "par inadvertance": [
+                    "inadvertendly"
+                ],
+                "inadvertance": [
+                    "inadvertendly"
+                ],
+                "authentique": [
+                    "genuine"
+                ],
+                "réel": [
+                    "genuine"
+                ],
+                "facilite": [
+                    "aids"
+                ],
+                "aide": [
+                    "aids"
+                ],
+                "contribue": [
+                    "aids"
+                ],
+                "uniquement": [
+                    "solely"
+                ],
+                "seulement": [
+                    "solely"
+                ],
+                "efficacité": [
+                    "effectiveness"
+                ],
+                "méticuleusement": [
+                    "meticulously"
+                ],
+                "efficacement": [
+                    "effectively"
+                ],
+                "rampe de lancement": [
+                    "launch pad"
+                ],
+                "les utiliser pour": [
+                    "launch pad"
+                ],
+                "étendu": [
+                    "vast"
+                ],
+                "vaste": [
+                    "vast"
+                ],
+                "laquelle": [
+                    "which"
+                ],
+                "lequel": [
+                    "which"
+                ],
+                "fonctionnalité": [
+                    "feature"
+                ],
+                "propriété": [
+                    "feature"
+                ],
+                "infrastructure informatique": [
+                    "IT infrastructure"
+                ],
+                "matériel informatique": [
+                    "hardware"
+                ],
+                "logiciel informatique": [
+                    "software"
+                ],
+                "centres de données": [
+                    "data centres"
+                ],
+                "investissement initial": [
+                    "upfront capital investment"
+                ],
+                "resources informatique": [
+                    "computing resources"
+                ],
+                "dépendance": [
+                    "reliance"
+                ],
+                "payer pour utiliser": [
+                    "pay-per-use"
+                ],
+                "payement à l'utilisation": [
+                    "pay-per-use"
+                ],
+                "par abonnement": [
+                    "subscription-based"
+                ],
+                "modèle de payement": [
+                    "pricing model"
+                ],
+                "modèle de tarification": [
+                    "pricing model"
+                ],
+                "technologie de pointe": [
+                    "cutting-edge technologies"
+                ],
+                "technologie avancée": [
+                    "cutting-edge technologies"
+                ],
+                "transparent": [
+                    "seamless"
+                ],
+                "engagement client": [
+                    "customers engagement"
+                ],
+                "rapidement": [
+                    "quickly"
+                ],
+                "application commerciale clé": [
+                    "key business application"
+                ],
+                "application commerciale essentielle": [
+                    "key business application"
+                ],
+                "chaînes d'approvisionnement": [
+                    "supply chains"
+                ],
+                "mis en évidence": [
+                    "highlighted"
+                ],
+                "fournisseur de service en ligne": [
+                    "cloud service provider"
+                ],
+                "rentabilité": [
+                    "cloud-effectiveness"
+                ],
+                "libre service": [
+                    "self-service"
+                ],
+                "accès étendu au réseau": [
+                    "broad network access"
+                ],
+                "à la demande": [
+                    "on-demand"
+                ],
+                "chaque fois": [
+                    "whenever"
+                ],
+                "à tout moment": [
+                    "whenever"
+                ],
+                "mise à l'échelle": [
+                    "enable scaling up or down"
+                ],
+                "infrastructure en tant que service": [
+                    "infrastructure as a service"
+                ],
+                "plateforme en tant que service": [
+                    "plateforme as a service"
+                ],
+                "logiciel en tant que service": [
+                    "software as a service"
+                ],
+                "impliquer": [
+                    "involve"
+                ],
+                "consacrer": [
+                    "dedicated"
+                ],
+                "dédier": [
+                    "dedicated"
+                ],
+                "dévoué": [
+                    "dedicated"
+                ],
+                "objectif principal": [
+                    "core focus"
+                ],
+                "composants clé": [
+                    "key components"
+                ],
+                "composants essentiels": [
+                    "key components"
+                ],
+                "contrôle de conformité": [
+                    "compliance control"
+                ],
+                "actif": [
+                    "assets"
+                ],
+                "menace": [
+                    "threat"
+                ],
+                "mauvaise configuration": [
+                    "misconfiguration"
+                ],
+                "menace persistante avancée": [
+                    "advanced persistent threat"
+                ],
+                "ravage": [
+                    "havoc"
+                ],
+                "dégat": [
+                    "havoc"
+                ],
+                "menace interne": [
+                    "insider threat"
+                ],
+                "perturbation": [
+                    "disruption"
+                ],
+                "contrôle des accès": [
+                    "access control"
+                ],
+                "gestion des identités": [
+                    "identity management"
+                ],
+                "segmentation du réseau": [
+                    "network segmentation"
+                ],
+                "détection d'intrusion": [
+                    "intrusion detection"
+                ],
+                "système de prévention": [
+                    "prevention system"
+                ],
+                "être étendu": [
+                    "no laid-backness"
+                ],
+                "assistant social": [
+                    "councilors"
+                ],
+                "sécurité des applications": [
+                    "application security"
+                ],
+                "application security": [
+                    "sécurité des applications"
+                ],
+                "les informations d'authentification": [
+                    "the credentials"
+                ],
+                "dépasser la capacité du réseau": [
+                    "exceeds the networking's capacity"
+                ],
+                "disposer en couches": [
+                    "range in layer",
+                    "to layer"
+                ],
+                "to undermine": [
+                    "saper"
+                ],
+                "crucial": [
+                    "very important",
+                    "critical"
+                ],
+                "mettre au jour": [
+                    "revealing through investigation",
+                    "to uncover"
+                ],
+                "révéler": [
+                    "revealing through investigation",
+                    "to uncover"
+                ],
+                "déranger": [
+                    "contending with an adversary or opposing force",
+                    "to struggle"
+                ],
+                "lutter": [
+                    "contending with an adversary or opposing force",
+                    "to struggle"
+                ],
+                "néanmois": [
+                    "despite this"
+                ],
+                "despite this": [
+                    "malgré cela"
+                ],
+                "nonetheless": [
+                    "malgré cela"
+                ],
+                "disponibilité": [
+                    "availability"
+                ],
+                "availability": [
+                    "disponibilité"
+                ],
+                "se disperer": [
+                    "multitasking too much"
+                ],
+                "fournir": [
+                    "to provide"
+                ],
+                "avoir l'intention": [
+                    "to intend"
+                ],
+                "vouloir": [
+                    "to intend"
+                ],
+                "assurer": [
+                    "to ensure"
+                ],
+                "transférer": [
+                    "to transfer",
+                    "to offload"
+                ],
+                "reconnaître": [
+                    "to recognize"
+                ],
+                "différer": [
+                    "differ"
+                ],
+                "évaluer": [
+                    "to assess"
+                ],
+                "exposer": [
+                    "to exhibit"
+                ],
+                "présenter": [
+                    "to exhibit"
+                ],
+                "exploiter": [
+                    "to leverage"
+                ],
+                "mettre à profit": [
+                    "to leverage"
+                ],
+                "tirer parti": [
+                    "to leverage"
+                ],
+                "entraver": [
+                    "to hinder"
+                ],
+                "argumenter": [
+                    "to argue"
+                ],
+                "se positionner": [
+                    "to argue"
+                ],
+                "attirer": [
+                    "to lure"
+                ],
+                "imiter": [
+                    "to mimic"
+                ],
+                "copier": [
+                    "to mimic"
+                ],
+                "donner du pouvoir": [
+                    "to empower"
+                ],
+                "donner les moyens": [
+                    "to empower"
+                ],
+                "habiliter": [
+                    "to empower"
+                ],
+                "décharger": [
+                    "to offload"
+                ],
+                "protéger": [
+                    "to safeguarding"
+                ],
+                "chercher": [
+                    "to seek"
+                ],
+                "se rapporter à": [
+                    "to relate to"
+                ],
+                "être épuisé": [
+                    "to be drained of energy"
+                ],
+                "pencher vers": [
+                    "to learn towards"
+                ],
+                "permettre": [
+                    "to allow"
+                ],
+                "suivre": [
+                    "to track"
+                ],
+                "faire appliquer": [
+                    "to enforce"
+                ],
+                "imposer": [
+                    "to enforce"
+                ],
+                "encercler": [
+                    "to encompass"
+                ],
+                "englober": [
+                    "to encompass"
+                ],
+                "collecter": [
+                    "to gather"
+                ],
+                "rassembler": [
+                    "to gather"
+                ],
+                "souffrir": [
+                    "to suffer"
+                ],
+                "être affecté": [
+                    "to suffer"
+                ],
+                "surcharger": [
+                    "to overload",
+                    "to burden"
+                ],
+                "accabler": [
+                    "to overwhelm",
+                    "to overpower"
+                ],
+                "submerger": [
+                    "to overwhelm",
+                    "to overpower"
+                ],
+                "tromper": [
+                    "to spoof",
+                    "to trick"
+                ],
+                "usurper": [
+                    "to spoof",
+                    "to trick"
+                ],
+                "faire durer": [
+                    "to drag out",
+                    "to prolonging"
+                ],
+                "prolonger": [
+                    "to drag out",
+                    "to prolonging"
+                ],
+                "saper": [
+                    "to undermine"
+                ],
+                "devenir courant": [
+                    "to go mainstream"
+                ],
+                "intensifier": [
+                    "to escalate"
+                ],
+                "s'aggraver": [
+                    "to escalate"
+                ],
+                "paralyser": [
+                    "to cripple"
+                ],
+                "faire une déclaration": [
+                    "to issue a statement"
+                ],
+                "mettre en valeur": [
+                    "to emphasize"
+                ],
+                "souligner": [
+                    "to emphasize"
+                ],
+                "rester": [
+                    "to remain"
+                ],
+                "mettre en commun": [
+                    "to pool"
+                ],
+                "mutualiser": [
+                    "to pool"
+                ],
+                "démarrer rapidement": [
+                    "to spin up"
+                ],
+                "mettre en route": [
+                    "to spin up"
+                ],
+                "se tourner vers": [
+                    "to turn in to"
+                ],
+                "enfreindre": [
+                    "to infringe"
+                ],
+                "porter plainte": [
+                    "to infringe"
+                ],
+                "faciliter": [
+                    "to facilitating"
+                ],
+                "améliorer": [
+                    "to enhance"
+                ],
+                "bénéfice": [
+                    "to gain"
+                ],
+                "to gain": [
+                    "to gain"
+                ],
+                "gagner": [
+                    "to gain"
+                ],
+                "exécution": [
+                    "to implement"
+                ],
+                "surveillance": [
+                    "to monitor"
+                ],
+                "connexion": [
+                    "to log"
+                ],
+                "enregistrement": [
+                    "to log"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "titre": "Les océans du monde",
+    "type": "txt",
+    "reverse": 0,
+    "questionnaire": [
+        {
+            "question": "Comment se nomme cet ocean ?",
+            "image": "/quest/questionnaire/geographie/img/img_ocean/mer_du_nord.png",
+            "reponse": "pacifique",
+            "def": "Océan Pacifique"
+        },
+        {
+            "question": "Comment se nomme cet ocean ?",
+            "image": "/quest/questionnaire/geographie/img/img_ocean/mer_mediterranee.png",
+            "reponse": ["atlantique", "ocean atlantique"],
+            "def": "Océan Atlantique"
+        },
+        {
+            "question": "Comment se nomme cet ocean ?",
+            "image": "/quest/questionnaire/geographie/img/img_ocean/mer_adriatique.png",
+            "reponse": ["indien", "ocean indien"],
+            "def": "Océan Indien"
+        },
+        {
+            "question": "Comment se nomme cet ocean ?",
+            "image": "/quest/questionnaire/geographie/img/img_ocean/mer_adriatique.png",
+            "reponse": ["arctique", "ocean arctique"],
+            "def": "Océan Arctique"
+        },
+        {
+            "question": "Comment se nomme cet ocean ?",
+            "image": "/quest/questionnaire/geographie/img/img_ocean/mer_adriatique.png",
+            "reponse": ["austral", "antarctique", "ocean austral", "ocean antarctique"],
+            "def": "Océan Austral"
+        }
+    ]
+}

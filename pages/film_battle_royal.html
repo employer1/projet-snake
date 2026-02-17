@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Battle Royal Film</title>
+
+    <link rel="stylesheet" href="../assets/css/base.css"> <!--css global en premier-->
+    <link rel="stylesheet" href="../assets/css/boutons.css"> <!--autre css global-->
+    <link rel="stylesheet" href="../assets/css/film_battle_royal.css"> <!--css propre à ce fichier HTML-->
+
+    <script src="../assets/js/boutons_navigation.js" defer></script>
+</head>
+<body>
+<main>
+    <aside>
+        <div class="aside_haut">
+            <button class="bouton_menu">
+                <img src="../image/maison.png" alt="menu" class="btn-icon">
+                <span class="btn-text" data-page="../pages/film_menu.html">Menu</span>
+            </button>
+        </div>
+
+        <div class="space"></div>
+
+        <div class="aside_bas"></div>
+
+        <button class="bouton_param">
+            <img src="../image/engrenage.png" alt="param" class="btn-icon">
+            <span class="btn-text" data-page="../pages/options_menu.html">Paramètres</span>
+        </button>
+    </aside>
+
+    <section>
+        <div class="header">
+            <p class="position_1">1/52</p>
+
+            <p class="position_2">version 1.0</p>
+        </div>
+
+        <div class="section">
+            <h1>Battle Royal</h1>
+
+            <div class="corps">
+                <div class="cote">
+                    <img src="../image/film_exemple_1.png" alt="film 1" class="affiche_film">
+                    <p class="texte">Nom</p>
+                    <button class="bouton_fleche">
+                        <img src="../image/fleche_gauche.png" alt="film 2" class="btn-icon-petit">
+                    </button>
+                </div>
+
+                <div class="milieu">
+                    <p class="texte">Vs</p>
+
+                    <button class="bouton_petit" data-page="../pages/film_resultats_battle_royal.html">Arrêter</button>
+                </div>
+
+                <div class="cote">
+                    <img src="../image/film_exemple_2.png" alt="film 1" class="affiche_film">
+                    <p class="texte">Nom</p>
+                    <button class="bouton_fleche">
+                        <img src="../image/fleche_droite.png" alt="film 2" class="btn-icon-petit">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>

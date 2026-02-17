@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Calendrier Daily-Note</title>
+
+        <link rel="stylesheet" href="../assets/css/base.css"> <!--css global en premier-->
+        <link rel="stylesheet" href="../assets/css/boutons.css"> <!--autre css global-->
+        <link rel="stylesheet" href="../assets/css/daily-note_calendrier.css"> <!--css propre à ce fichier HTML-->
+
+        <script src="../assets/js/boutons_navigation.js" defer></script>
+    </head>
+    <body>
+        <main>
+            <aside>
+                <div class="aside_haut">
+                    <button class="bouton_menu">
+                        <img src="../image/maison.png" alt="menu" class="btn-icon">
+                        <span class="btn-text" data-page="../pages/daily-note_menu.html">Menu</span>
+                    </button>
+
+                    <button class="bouton_menu">
+                        <img src="../image/loupe.png" alt="menu" class="btn-icon">
+                        <span class="btn-text" data-page="../pages/daily-note_rechercher.html">Rechercher</span>
+                    </button>
+                </div>
+
+                <div class="space"></div>
+
+                <div class="aside_bas"></div>
+
+                <button class="bouton_param">
+                    <img src="../image/engrenage.png" alt="param" class="btn-icon">
+                    <span class="btn-text" data-page="../pages/options_menu.html">Paramètres</span>
+                </button>
+            </aside>
+
+            <section>
+                <div class="header">
+                    <p class="position_2">version 1.0</p>
+                </div>
+
+                <div class="section">
+                    <h1>Calendrier</h1>
+
+                    <div class="corps">
+                        <div class="selection">
+                            <div class="barre">
+                                <button class="bouton_fleche">
+                                    <img src="../image/fleche_gauche.png" alt="param" class="btn-icon-petit">
+                                </button>
+
+                                <span>Janvier</span>
+                                <span>Février</span>
+                                <span>Mars</span>
+
+                                <button class="bouton_fleche">
+                                    <img src="../image/fleche_droite.png" alt="param" class="btn-icon-petit">
+                                </button>
+                            </div>
+
+                            <div class="barre">
+                                <button class="bouton_fleche">
+                                    <img src="../image/fleche_gauche.png" alt="param" class="btn-icon-petit">
+                                </button>
+
+                                <span>2004</span>
+                                <span>2005</span>
+                                <span>2006</span>
+
+                                <button class="bouton_fleche">
+                                    <img src="../image/fleche_droite.png" alt="param" class="btn-icon-petit">
+                                </button>
+                            </div>
+                        </div>
+
+                        <h2>2005</h2>
+
+                        <div class="tableau">
+                            <div class="tableau_mois">
+                                <h3>Nom du mois</h3>
+                                <div class="grille_mois">
+                                    <p>1</p>
+                                    <p>2</p>
+                                    <p>3</p>
+                                    <p>4</p>
+                                    <p>5</p>
+                                    <p>6</p>
+                                    <p>7</p>
+                                    <p>8</p>
+                                    <p>9</p>
+                                    <p>10</p>
+                                    <p>11</p>
+                                    <p>12</p>
+                                    <p>13</p>
+                                    <p>14</p>
+                                    <p>15</p>
+                                    <p>16</p>
+                                    <p>17</p>
+                                    <p>18</p>
+                                    <p>19</p>
+                                    <p>20</p>
+                                    <p>21</p>
+                                    <p>22</p>
+                                    <p>23</p>
+                                    <p>24</p>
+                                    <p>25</p>
+                                    <p>26</p>
+                                    <p>27</p>
+                                    <p>28</p>
+                                    <p>29</p>
+                                    <p>30</p>
+                                    <p>31</p>
+                                </div>
+                            </div>
+
+                            <div class="tableau_mois" id="tableau_centre">
+                                <h3>Nom du mois</h3>
+                                <div class="grille_mois">
+                                    <p>1</p>
+                                    <p>2</p>
+                                    <p>3</p>
+                                    <p>4</p>
+                                    <p>5</p>
+                                    <p>6</p>
+                                    <p>7</p>
+                                    <p>8</p>
+                                    <p>9</p>
+                                    <p>10</p>
+                                    <p>11</p>
+                                    <p>12</p>
+                                    <p>13</p>
+                                    <p>14</p>
+                                    <p>15</p>
+                                    <p>16</p>
+                                    <p>17</p>
+                                    <p>18</p>
+                                    <p>19</p>
+                                    <p>20</p>
+                                    <p>21</p>
+                                    <p>22</p>
+                                    <p>23</p>
+                                    <p>24</p>
+                                    <p>25</p>
+                                    <p>26</p>
+                                    <p>27</p>
+                                    <p>28</p>
+                                    <p>29</p>
+                                    <p>30</p>
+                                    <p>31</p>
+                                </div>
+                            </div>
+
+                            <div class="tableau_mois">
+                                <h3>Nom du mois</h3>
+                                <div class="grille_mois">
+                                    <p>1</p>
+                                    <p>2</p>
+                                    <p>3</p>
+                                    <p>4</p>
+                                    <p>5</p>
+                                    <p>6</p>
+                                    <p>7</p>
+                                    <p>8</p>
+                                    <p>9</p>
+                                    <p>10</p>
+                                    <p>11</p>
+                                    <p>12</p>
+                                    <p>13</p>
+                                    <p>14</p>
+                                    <p>15</p>
+                                    <p>16</p>
+                                    <p>17</p>
+                                    <p>18</p>
+                                    <p>19</p>
+                                    <p>20</p>
+                                    <p>21</p>
+                                    <p>22</p>
+                                    <p>23</p>
+                                    <p>24</p>
+                                    <p>25</p>
+                                    <p>26</p>
+                                    <p>27</p>
+                                    <p>28</p>
+                                    <p>29</p>
+                                    <p>30</p>
+                                    <p>31</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

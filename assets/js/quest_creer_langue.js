@@ -1,0 +1,1 @@
+/*fichier JS pour quest_creer_langue.html*/

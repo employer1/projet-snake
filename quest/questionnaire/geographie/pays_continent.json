@@ -1,0 +1,1142 @@
+{
+    "titre": "Géographie pays et leur continent",
+    "type": "txt",
+    "reverse": 0,
+    "questionnaire": [
+        {
+            "question": "Sur quel contient se trouve l'Afghanistan ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Afrique du Sud ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Albanie ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Algérie ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Allemagne ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve Andorre ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Angola ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Anguilla ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve Antigua-et-Barbuda ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Arabie Saoudite ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Argentine ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Arménie ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve Aruba ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Australie ?",
+            "reponse": "oceanie",
+            "def": "Océanie"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Autriche ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Azerbaïdjan ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve les Bahamas ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Bahreïn ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve le Bangladesh ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve les Barbade ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Belgique ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve le Belize ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Bénin ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve les Bermudes ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Bhoutan ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve la Biélorussie ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve la Birmanie ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve la Bolivie ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Bosnie-Herzégovie ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve le Botswana ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Brésil ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve Brunéi Darussalam ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve la Bulgarie ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve le Burkina Faso ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Burundi ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Cambodge",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve le Cameroun ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Canada ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Cap-Vert ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Chili ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Chine ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve Chypre ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve la Colombie ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve les Comores ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Corée du Sud ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve la Corée du Nord ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve le Costa Rica ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Côte Ivoire ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Croatie ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve Cuba ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve Curaçao ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Danemark ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve Djibouti ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Dominique ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Egypte ?",
+            "reponse": ["afrique","asie"],
+            "def": "Afrique - Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve les Emirats Arabes Unis ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Equateur ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Erythrée ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Espagne ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Estonie ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Eswatini ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve les Etats-Unis",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Ethiopie ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve les Fidji ?",
+            "reponse": "oceanie",
+            "def": "Océanie"
+        },
+        {
+            "question": "Sur quel contient se trouve la Finlande ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve la France ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve le Gabon ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Gambie ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Géorgie ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve le Ghana ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Grèce ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve Grenade ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Groenland ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Guadeloupe ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve Guam ?",
+            "reponse": "oceanie",
+            "def": "Océanie"
+        },
+        {
+            "question": "Sur quel contient se trouve le Guatemala ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve Guernesey ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve la Guinée ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Guinée-Bissau ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Guinée Equatoriale ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Guyane ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Guyane Francaise ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve Haïti ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve Hawaï ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Honduras ?",
+            "reponse": ["tegucigalpa","comayaguela"],
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve Hong Kong ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve la Hongrie ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve l'île christmas ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve l'île Réunion",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve l'île Man ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve l'île Maurice ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve les îles Caimans ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve les îles Cocos ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve les îles Cook ?",
+            "reponse": "oceanie",
+            "def": "Océanie"
+        },
+        {
+            "question": "Sur quel contient se trouve les îles Féroé ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve les îles Malouines ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve les îles Marshall ?",
+            "reponse": "oceanie",
+            "def": "Océanie"
+        },
+        {
+            "question": "Sur quel contient se trouve les îles Salomon ?",
+            "reponse": "oceanie",
+            "def": "Océanie"
+        },
+        {
+            "question": "Sur quel contient se trouve les îles Vierges Americaines ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve les îles Vierges Britanniques ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Inde",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Indonésie",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Irak ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Iran ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Irlande ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Islande ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve Israël ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Italie ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve la Jamaïque ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Japon ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve Jersey ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve la Jordanie ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve le kazakhstan ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve le Kenya ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Kirghizistan ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve kiribati ?",
+            "reponse": "oceanie",
+            "def": "Océanie"
+        },
+        {
+            "question": "Sur quel contient se trouve le Koweït ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve le Laos ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve le Lesotho ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Lettonie ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve le Liban ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve le Libéria ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Libye ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Liechtenstein ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve la Lituanie ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve le Luxembourg ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve la Macédoine Nord ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve Madagascar ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Malaisie ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve les Malawi ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve les Maldives ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve le Mali ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve Malte",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve le Maroc ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Martinique ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Mauritanie ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve Mayotte ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Mexique ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve les Micronésies ?",
+            "reponse": "oceanie",
+            "def": "Océanie"
+        },
+        {
+            "question": "Sur quel contient se trouve la Moldavie ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve Monaco ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve la Mongolie ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve le Monténégro ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve le Mozambique ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Namibie ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve Nauru ?",
+            "reponse": "oceanie",
+            "def": "Océanie"
+        },
+        {
+            "question": "Sur quel contient se trouve le Népal ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve le Nicaragua ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Niger ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Nigeria ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve Niue ?",
+            "reponse": "oceanie",
+            "def": "Océanie"
+        },
+        {
+            "question": "Sur quel contient se trouve la Norvège ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve la Nouvelle Calédonie ?",
+            "reponse": "oceanie",
+            "def": "Océanie"
+        },
+        {
+            "question": "Sur quel contient se trouve la Nouvelle-Zélande ?",
+            "reponse": "oceanie",
+            "def": "Océanie"
+        },
+        {
+            "question": "Sur quel contient se trouve Oman ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Ouganda ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Ouzbékistan ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve le Pakistan ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve le Palaos ?",
+            "reponse": "oceanie",
+            "def": "Océanie"
+        },
+        {
+            "question": "Sur quel contient se trouve la Palestine ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve le Panama ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Papouasie-Nouvelle-Guinée ?",
+            "reponse": "oceanie",
+            "def": "Océanie"
+        },
+        {
+            "question": "Sur quel contient se trouve le Paraguay ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve les Pays-Bas",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve le Pérou ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve les Philippines ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve la Pologne ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve la Polynesie Française ?",
+            "reponse": "oceanie",
+            "def": "Océanie"
+        },
+        {
+            "question": "Sur quel contient se trouve Porto Rico ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Portugal ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve le Qatar ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve la République Centrafricaine ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve la République Démocratique du Congo ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve la République Dominicaine ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve la République du Congo ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve la République Tchèque ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve la Roumanie ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve le Royaume-Unis ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve la Russie ?",
+            "reponse": ["asie","europe"],
+            "def": "Asie - Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve le Rwanda ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve Saint Barthelemy ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve Saint-Christophe-et-Niévès ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve Saint-Marin ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve Saint Martin ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve Saint Vincent et les Grenadines ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve Sainte Hélène ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve Sainte-Lucie ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Salvador ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Samoa ?",
+            "reponse": "oceanie",
+            "def": "Océanie"
+        },
+        {
+            "question": "Sur quel contient se trouve Sao Tomé-et-Principe ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Sénégal ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Serbie ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve les Seychelles ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Sierra Leone ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve Singapour ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve la Slovaquie ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve la Slovénie ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve la Somalie ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Soudan ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Soudan Sud ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Sri Lanka ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve la Suède ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve la Suisse ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve le Suriname ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Syrie ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve le Tadjikistan ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve Taiwan ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve la Tanzanie ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Tchad ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Thaïlande ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve le Timor Oriental ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve le Togo ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve Tonga ?",
+            "reponse": "oceanie",
+            "def": "Océanie"
+        },
+        {
+            "question": "Sur quel contient se trouve Trinité-et-Tobago ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve la Tunisie ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Turkménistan ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve la Turquie ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve Tuvalu ?",
+            "reponse": "oceanie",
+            "def": "Océanie"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Ukraine ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve l'Uruguay ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve Vanuatu ?",
+            "reponse": "oceanie",
+            "def": "Océanie"
+        },
+        {
+            "question": "Sur quel contient se trouve le Vatican ?",
+            "reponse": "europe",
+            "def": "Europe"
+        },
+        {
+            "question": "Sur quel contient se trouve le Venezuela ?",
+            "reponse": "amerique",
+            "def": "Amérique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Vietnam ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve le Yémen ?",
+            "reponse": "asie",
+            "def": "Asie"
+        },
+        {
+            "question": "Sur quel contient se trouve la Zambie ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        },
+        {
+            "question": "Sur quel contient se trouve le Zimbabwe ?",
+            "reponse": "afrique",
+            "def": "Afrique"
+        }
+    ]
+}
