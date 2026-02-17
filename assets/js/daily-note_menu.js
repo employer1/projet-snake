@@ -1,1 +1,0 @@
-/*fichier JS de daily-note_menu*/
