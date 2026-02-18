@@ -17,6 +17,8 @@ contextBridge.exposeInMainWorld("electronAPI", {
     directoryExists: (directoryPath) => ipcRenderer.invoke("fs:directory-exists", directoryPath),
     fileExists: (filePath) => ipcRenderer.invoke("fs:file-exists", filePath),
     listFilmAffiches: () => ipcRenderer.invoke("film:list-affiches"),
+    openOrCreateDailyNote: (fileName, defaultPayload) =>
+        ipcRenderer.invoke("daily-note:open-or-create", fileName, defaultPayload),
 });
 
 window.addEventListener("DOMContentLoaded", () => {

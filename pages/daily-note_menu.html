@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="../assets/css/daily-note_menu.css"> <!--css propre à ce fichier HTML-->
 
         <script src="../assets/js/boutons_navigation.js" defer></script>
+        <script src="../assets/js/daily-note_menu.js" defer></script>
     </head>
     <body>
         <main>
@@ -18,12 +19,12 @@
                 <div class="aside_haut">
                     <button class="bouton_menu">
                         <img src="../image/loupe.png" alt="menu" class="btn-icon">
-                        <span class="btn-text" data-page="../pages/daily-note_menu.html">Rechercher</span>
+                        <span class="btn-text" data-page="../pages/daily-note_rechercher.html">Rechercher</span>
                     </button>
 
                     <button class="bouton_menu">
                         <img src="../image/calendrier.png" alt="menu" class="btn-icon">
-                        <span class="btn-text">Calendrier</span>
+                        <span class="btn-text" data-page="../pages/daily-note_calendrier.html">Calendrier</span>
                     </button>
                 </div>
 
@@ -50,9 +51,9 @@
                     <h1 class="titre_principal">Daily-Note</h1>
 
                     <div class="corps">
-                        <h2>Date d'aujourd'hui</h2>
+                        <h2 id="daily-note-date">Date d'aujourd'hui</h2>
 
-                        <button class="bouton" data-page="../pages/daily-note_lecture.html">Créer une note</button>
+                        <button class="bouton" id="daily-note-create">Créer une note</button>
                     </div>
                 </div>
             </section>

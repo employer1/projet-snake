@@ -8,6 +8,7 @@ const getQuestStatsPath = () =>
     path.join(app.getPath("userData"), "quest", "stat_quest.json");
 const getQuestDestinationPath = () => path.join(app.getPath("userData"), "quest");
 const getQuestSourcePath = () => path.join(app.getAppPath(), "quest");
+const getDailyNoteDestinationPath = () => path.join(app.getPath("userData"), "daily-note");
 const normaliserChemin = (chemin = "") => chemin.replace(/\\/g, "/").replace(/^\/+/, "");
 
 const getFilmAffichesPath = () => path.join(app.getAppPath(), "film", "affiche");
@@ -258,6 +259,52 @@ const listFilmAffiches = async () => {
         .sort((a, b) => a.localeCompare(b, "fr", { sensitivity: "base" }));
 };
 
+const openOrCreateDailyNote = async (fileName, defaultPayload) => {
+    if (!fileName || typeof fileName !== "string") {
+        throw new Error("Invalid daily note file name");
+    }
+    if (!defaultPayload || typeof defaultPayload !== "object") {
+        throw new Error("Invalid daily note payload");
+    }
+    if (path.isAbsolute(fileName)) {
+        throw new Error("Invalid daily note path");
+    }
+
+    const dailyNoteDir = getDailyNoteDestinationPath();
+    const normalizedPath = path.normalize(fileName);
+    const notePath = path.resolve(dailyNoteDir, normalizedPath);
+    const dailyNoteDirResolved = path.resolve(dailyNoteDir);
+
+    if (notePath !== dailyNoteDirResolved && !notePath.startsWith(`${dailyNoteDirResolved}${path.sep}`)) {
+        throw new Error("Invalid daily note path");
+    }
+    if (!notePath.toLowerCase().endsWith(".json")) {
+        throw new Error("Invalid daily note extension");
+    }
+
+    await fs.mkdir(path.dirname(notePath), { recursive: true });
+
+    try {
+        const contenu = await fs.readFile(notePath, "utf-8");
+        return {
+            created: false,
+            fileName: normaliserChemin(path.relative(dailyNoteDirResolved, notePath)),
+            content: JSON.parse(contenu),
+        };
+    } catch (error) {
+        if (error.code !== "ENOENT") {
+            throw error;
+        }
+    }
+
+    await fs.writeFile(notePath, JSON.stringify(defaultPayload, null, 4), "utf-8");
+    return {
+        created: true,
+        fileName: normaliserChemin(path.relative(dailyNoteDirResolved, notePath)),
+        content: defaultPayload,
+    };
+};
+
 const ensureStatsDir = async () => {
     const dir = path.dirname(getStatsPath());
     await fs.mkdir(dir, { recursive: true });
@@ -348,6 +395,8 @@ app.whenReady().then(async () => {
     ipcMain.handle("fs:directory-exists", async (_event, directoryPath) => directoryExists(directoryPath));
     ipcMain.handle("fs:file-exists", async (_event, filePath) => fileExists(filePath));
     ipcMain.handle("film:list-affiches", async () => listFilmAffiches());
+    ipcMain.handle("daily-note:open-or-create", async (_event, fileName, defaultPayload) =>
+        openOrCreateDailyNote(fileName, defaultPayload));
 
     app.on('activate', () => {
         if (BrowserWindow.getAllWindows().length === 0) {
