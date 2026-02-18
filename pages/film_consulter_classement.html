@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Sélection Quest</title>
+    <title>Consulter Classement Film</title>
 
     <link rel="stylesheet" href="../assets/css/base.css"> <!--css global en premier-->
     <link rel="stylesheet" href="../assets/css/boutons.css"> <!--autre css global-->
-    <link rel="stylesheet" href="../assets/css/film_selection.css"> <!--css propre à ce fichier HTML-->
+    <link rel="stylesheet" href="../assets/css/film_resultats_classement.css"> <!--css propre à ce fichier HTML-->
 
     <script src="../assets/js/boutons_navigation.js" defer></script>
-    <script src="../assets/js/film_selection.js" defer></script>
 </head>
 <body>
 <main>
@@ -35,29 +34,35 @@
 
     <section>
         <div class="header">
-            <p class="position_1">1/52</p>
             <p class="position_2">version 1.0</p>
         </div>
 
         <div class="section">
-            <h1>Sélection</h1>
+            <h1>Classement</h1>
 
             <div class="corps">
-                <div class="cote">
-                    <button class="bouton_tres_petit">< Pas vu</button>
+                <div class="sous_corps">
+                    <div class="ligne">
+                        <img src="../image/film_exemple_1.png" alt="ligne" class="image">
+                        <p>1st</p>
+                        <p>Nom</p>
+                    </div>
 
-                    <button class="bouton_petit">Retour</button>
+                    <div class="ligne">
+                        <img src="../image/film_exemple_2.png" alt="ligne" class="image">
+                        <p>2nd</p>
+                        <p>Nom</p>
+                    </div>
+
+                    <div class="ligne">
+                        <img src="../image/film_exemple_3.png" alt="ligne" class="image">
+                        <p>3rd</p>
+                        <p>Nom</p>
+                    </div>
                 </div>
 
-                <div class="milieu">
-                    <img src="../image/film_exemple_1.png" alt="ligne" class="image">
-                    <p id="nom">Nom</p>
-                </div>
-
-                <div class="cote">
-                    <button class="bouton_tres_petit">Vu ></button>
-
-                    <button class="bouton_petit" id="film-start-button" data-page="../pages/film_battle_royal.html">Start</button>
+                <div class="pied">
+                    <button class="bouton_petit" data-page="../pages/film_menu.html">Menu</button>
                 </div>
             </div>
         </div>
