@@ -12,7 +12,7 @@
         },
         {
             "question": "La viande est cuite à l'extérieur, mais garde un cœur rouge vif et juteux, avec une température interne d'environ 55°C.",
-            "images": "/quest/questionnaire/autre/img_cuisson_viande/2.png",
+            "images": "/quest/questionnaire/autre/img/img_cuisson_viande/2.png",
             "reponse": "saignant",
             "leurre1": "bleu",
             "leurre2": "à point",
@@ -20,7 +20,7 @@
         },
         {
             "question": "La viande est cuite uniformément, avec un centre rosé et légèrement juteux, et une température interne d'environ 60°C.",
-            "images": "/quest/questionnaire/autre/img_cuisson_viande/3.png",
+            "images": "/quest/questionnaire/autre/img/img_cuisson_viande/3.png",
             "reponse": "à point",
             "leurre1": "bleu",
             "leurre2": "saignant",
@@ -28,7 +28,7 @@
         },
         {
             "question": "La viande est cuite de manière homogène, avec une couleur plus claire, et une température interne généralement supérieure à 70°C.",
-            "images": "/quest/questionnaire/autre/img_cuisson_viande/4.png",
+            "images": "/quest/questionnaire/autre/img/img_cuisson_viande/4.png",
             "reponse": "bien cuit",
             "leurre1": "bleu",
             "leurre2": "saignant",

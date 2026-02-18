@@ -5,9 +5,16 @@ body {
 }
 
 .corps {
-    width:60%;
+    width: 100%;
     justify-self: center;
     align-self: center;
+
+    justify-items: center;
+}
+
+.centre {
+    width: 50%;
+    min-width: 400px;
 
     display: flex;
     justify-content: space-between;
