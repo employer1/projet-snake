@@ -34,7 +34,9 @@ let filmsSelectionnes = [];
 const normaliserNomFilm = (nomFichier) => {
     const dernierPoint = nomFichier.lastIndexOf(".");
     const base = dernierPoint > 0 ? nomFichier.slice(0, dernierPoint) : nomFichier;
-    return base.replaceAll("_", " ");
+    // `replaceAll` n'est pas disponible sur certaines versions plus anciennes
+    // d'Electron/Chromium. Le regex global reste compatible partout.
+    return base.replace(/_/g, " ");
 };
 
 const mettreAJourBoutonStart = () => {
