@@ -163,7 +163,7 @@ const initialiserNavigation = () => {
         });
     }
 
-    const boutonMenu = document.querySelector(".bouton_menu .btn-text");
+    const boutonMenu = document.querySelector(".bouton_menu");
     if (boutonMenu) {
         boutonMenu.addEventListener("click", abandonnerSelection);
     }
