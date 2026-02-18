@@ -11,7 +11,7 @@ h1 {
 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 5fr 1fr 20fr;
+    grid-template-rows: auto 1fr 20fr;
 }
 
 .input {
@@ -70,4 +70,28 @@ h4 {
 
 p {
     font-size: 0.9em;
+}
+
+select.input {
+    color: #ffffff;
+}
+
+.sous_corps {
+    grid-template-columns: repeat(3, minmax(180px, 1fr));
+    grid-auto-rows: minmax(120px, auto);
+    align-content: start;
+    overflow-y: auto;
+}
+
+.exemple {
+    cursor: pointer;
+    border: none;
+    color: inherit;
+    text-align: left;
+}
+
+.message-vide {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: #d9d9d9;
 }

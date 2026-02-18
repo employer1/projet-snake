@@ -395,6 +395,83 @@ const mergeDailyNoteTags = async (payload) => {
     await fs.writeFile(destinationPath, JSON.stringify(Array.from(tagsUniques), null, 2), "utf-8");
 };
 
+
+const lireJson = async (filePath) => {
+    const contenu = await fs.readFile(filePath, "utf-8");
+    return JSON.parse(contenu);
+};
+
+const listerTagsDailyNote = async () => {
+    const destinationPath = getDailyNoteTagsPath();
+    const sourcePath = getDailyNoteTagsSourcePath();
+
+    let tags = [];
+    try {
+        tags = await lireTagsJson(destinationPath);
+    } catch (error) {
+        if (error.code === "ENOENT") {
+            try {
+                tags = await lireTagsJson(sourcePath);
+            } catch (sourceError) {
+                if (sourceError.code !== "ENOENT") {
+                    throw sourceError;
+                }
+            }
+        } else {
+            throw error;
+        }
+    }
+
+    return Array.from(new Set(tags)).sort((a, b) => a.localeCompare(b, "fr", { sensitivity: "base" }));
+};
+
+const listDailyNotesByTag = async (tag) => {
+    if (!tag || typeof tag !== "string") {
+        return [];
+    }
+
+    const recherche = tag.trim();
+    if (!recherche) {
+        return [];
+    }
+
+    const dailyNoteDir = getDailyNoteDestinationPath();
+    await fs.mkdir(dailyNoteDir, { recursive: true });
+
+    const entries = await fs.readdir(dailyNoteDir, { withFileTypes: true });
+    const fichiers = entries
+        .filter((entry) => entry.isFile() && entry.name.toLowerCase().endsWith(".json"))
+        .map((entry) => entry.name);
+
+    const resultats = [];
+
+    for (const fileName of fichiers) {
+        const fullPath = path.join(dailyNoteDir, fileName);
+        try {
+            const contenu = await lireJson(fullPath);
+            const histoires = Array.isArray(contenu?.histoire)
+                ? contenu.histoire
+                : Object.values(contenu || {});
+
+            const correspondance = histoires.some((histoire) => {
+                const tags = Array.isArray(histoire?.tags) ? histoire.tags : [];
+                return tags.some((item) => typeof item === "string" && item.trim() === recherche);
+            });
+
+            if (correspondance) {
+                resultats.push({
+                    fileName,
+                    titre: fileName.replace(/\.json$/i, ""),
+                });
+            }
+        } catch (_error) {
+            // Fichier ignoré si JSON invalide
+        }
+    }
+
+    return resultats.sort((a, b) => b.fileName.localeCompare(a.fileName, "fr", { sensitivity: "base" }));
+};
+
 const ensureStatsDir = async () => {
     const dir = path.dirname(getStatsPath());
     await fs.mkdir(dir, { recursive: true });
@@ -489,6 +566,8 @@ app.whenReady().then(async () => {
         openOrCreateDailyNote(fileName, defaultPayload));
     ipcMain.handle("daily-note:save", async (_event, fileName, payload) =>
         saveDailyNote(fileName, payload));
+    ipcMain.handle("daily-note:list-tags", async () => listerTagsDailyNote());
+    ipcMain.handle("daily-note:list-by-tag", async (_event, tag) => listDailyNotesByTag(tag));
 
     app.on('activate', () => {
         if (BrowserWindow.getAllWindows().length === 0) {

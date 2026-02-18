@@ -21,6 +21,8 @@ contextBridge.exposeInMainWorld("electronAPI", {
         ipcRenderer.invoke("daily-note:open-or-create", fileName, defaultPayload),
     saveDailyNote: (fileName, payload) =>
         ipcRenderer.invoke("daily-note:save", fileName, payload),
+    listDailyNoteTags: () => ipcRenderer.invoke("daily-note:list-tags"),
+    listDailyNotesByTag: (tag) => ipcRenderer.invoke("daily-note:list-by-tag", tag),
 });
 
 window.addEventListener("DOMContentLoaded", () => {
