@@ -210,14 +210,28 @@ const construireTraduction = () => {
     dictionnaire["langue 1"] ||= {};
     dictionnaire["langue 2"] ||= {};
 
-    const existeDejaLangue1 = Object.prototype.hasOwnProperty.call(dictionnaire["langue 1"], motLangue1);
-    const existeDejaLangue2 = Object.prototype.hasOwnProperty.call(dictionnaire["langue 2"], motLangue2);
-    if (existeDejaLangue1 || existeDejaLangue2) {
+    const traductionsLangue1 = dictionnaire["langue 1"][motLangue1] || [];
+    const traductionsLangue2 = dictionnaire["langue 2"][motLangue2] || [];
+
+    const ajoutDansLangue1 = !traductionsLangue1.includes(motLangue2);
+    const ajoutDansLangue2 = !traductionsLangue2.includes(motLangue1);
+
+    if (!ajoutDansLangue1 && !ajoutDansLangue2) {
         throw new Error("Cette traduction existe déjà dans le questionnaire.");
     }
 
-    dictionnaire["langue 1"][motLangue1] = [motLangue2];
-    dictionnaire["langue 2"][motLangue2] = [motLangue1];
+    if (ajoutDansLangue1) {
+        dictionnaire["langue 1"][motLangue1] = [...traductionsLangue1, motLangue2];
+    } else {
+        dictionnaire["langue 1"][motLangue1] = traductionsLangue1;
+    }
+
+    if (ajoutDansLangue2) {
+        dictionnaire["langue 2"][motLangue2] = [...traductionsLangue2, motLangue1];
+    } else {
+        dictionnaire["langue 2"][motLangue2] = traductionsLangue2;
+    }
+
     etatCreation.questionnaire.questionnaire[0] = dictionnaire;
 };
 
