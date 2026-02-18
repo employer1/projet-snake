@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="ajout fichier de modification de questionnaire existant">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daily_note/notes/05-12-2025.json" beforeDir="false" afterPath="$PROJECT_DIR$/daily_note/notes/05-12-2025.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/daily-note_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/daily-note_menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/daily-note_lecture.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/daily-note_lecture.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
