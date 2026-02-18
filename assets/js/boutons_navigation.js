@@ -1,3 +1,20 @@
+const nativeAlert = window.alert.bind(window);
+
+window.alert = (message) => {
+    const elementActifAvantAlerte = document.activeElement instanceof HTMLElement
+        ? document.activeElement
+        : null;
+
+    nativeAlert(message);
+
+    if (elementActifAvantAlerte) {
+        elementActifAvantAlerte.focus();
+        if (typeof elementActifAvantAlerte.select === "function") {
+            elementActifAvantAlerte.select();
+        }
+    }
+};
+
 // Navigation: tous les boutons qui ont data-page
 document.querySelectorAll("[data-page]").forEach((button) => {
     button.addEventListener("click", () => {
