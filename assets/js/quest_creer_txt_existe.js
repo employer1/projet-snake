@@ -1,8 +1,8 @@
 /*fichier JS de quest_creer_txt_existe.html*/
 
-const DOSSIER_JSON = "questionnaire/autre";
-const DOSSIER_IMG_BASE = "questionnaire/autre/img";
+const DOSSIER_IMG_BASE = "questionnaire/creer/txt/img";
 const PAGE_MENU = "../pages/quest_menu.html";
+const STOCKAGE_EDITION_QUEST = "quest_creation_selection";
 
 const etatCreation = {
     jsonPath: "",
@@ -16,19 +16,7 @@ const etatCreation = {
     },
 };
 
-const normaliserNomFichier = (nom = "") => {
-    let valeur = nom.trim().replace(/\\/g, "/").split("/").pop() || "";
-    if (!valeur.toLowerCase().endsWith(".json")) {
-        valeur = `${valeur}.json`;
-    }
-    return valeur.replace(/[^a-zA-Z0-9._-]/g, "_");
-};
-
-const titreDepuisNom = (nomFichier) => nomFichier.replace(/\.json$/i, "").replace(/_/g, " ");
-
 const normaliserNomImage = (nom = "") => (nom.trim().replace(/\\/g, "/").split("/").pop() || "");
-
-const versEntierBinaire = (valeur) => (String(valeur).trim() === "1" ? 1 : 0);
 
 const afficherErreur = (message) => {
     window.alert(message);
@@ -165,14 +153,6 @@ const demanderValeurTexte = (message, valeurParDefaut = "") => new Promise((reso
     setTimeout(appliquerFocusChamp, 50);
 });
 
-const demanderValeurObligatoire = async (message, valeurParDefaut = "") => {
-    const valeur = await demanderValeurTexte(message, valeurParDefaut);
-    if (valeur === null) {
-        throw new Error("Action annulée.");
-    }
-    return valeur;
-};
-
 const desactiverChampImage = (desactiver) => {
     const inputImage = document.getElementById("image");
     inputImage.disabled = desactiver;
@@ -191,38 +171,98 @@ const sauvegarderQuestionnaire = async () => {
     await window.electronAPI.writeQuestJson(etatCreation.jsonPath, etatCreation.questionnaire);
 };
 
-const demanderConfigurationInitiale = async () => {
-    const dossierImages = await demanderValeurObligatoire(
-        "Chemin du dossier d'images existant (optionnel, laisser vide si aucun) :",
+const extraireNomDossierImagesDepuisQuestionnaire = (questionnaire) => {
+    const questions = questionnaire?.questionnaire || [];
+    for (const entree of questions) {
+        const cheminImage = entree?.image;
+        if (!cheminImage) {
+            continue;
+        }
+
+        const correspondance = String(cheminImage)
+            .replace(/^\/+/, "")
+            .match(/^quest\/questionnaire\/creer\/txt\/img\/([^/]+)\//i);
+
+        if (correspondance?.[1]) {
+            return correspondance[1];
+        }
+    }
+
+    return "";
+};
+
+const chargerQuestionnaireExistant = async () => {
+    const edition = localStorage.getItem(STOCKAGE_EDITION_QUEST);
+    if (!edition) {
+        throw new Error("Aucun questionnaire sélectionné pour l'édition.");
+    }
+
+    let configurationEdition;
+    try {
+        configurationEdition = JSON.parse(edition);
+    } catch {
+        throw new Error("La configuration d'édition est invalide.");
+    }
+
+    if (!configurationEdition?.fichier) {
+        throw new Error("Le fichier du questionnaire à modifier est introuvable.");
+    }
+
+    etatCreation.jsonPath = configurationEdition.fichier;
+
+    if (!window.electronAPI?.loadQuestnaire) {
+        throw new Error("Chargement indisponible dans cet environnement");
+    }
+
+    const questionnaireExistant = await window.electronAPI.loadQuestnaire(etatCreation.jsonPath);
+    const type = (questionnaireExistant?.type || "").toLowerCase();
+    if (!["txt", "txt 2", "texte"].includes(type)) {
+        throw new Error("Le questionnaire sélectionné n'est pas de type texte.");
+    }
+
+    etatCreation.questionnaire = {
+        ...questionnaireExistant,
+        questionnaire: Array.isArray(questionnaireExistant?.questionnaire)
+            ? questionnaireExistant.questionnaire
+            : [],
+    };
+
+    const dossierImageExistant = extraireNomDossierImagesDepuisQuestionnaire(etatCreation.questionnaire);
+    if (dossierImageExistant) {
+        etatCreation.imgFolderName = dossierImageExistant;
+        await window.electronAPI.ensureQuestDirectory(`${DOSSIER_IMG_BASE}/${etatCreation.imgFolderName}`);
+    }
+};
+
+const initialiserGestionImages = async () => {
+    const dossierImages = await demanderValeurTexte(
+        "Chemin du dossier d'images source (optionnel, laisser vide si aucun) :",
         ""
     );
 
-    if (dossierImages && !await window.electronAPI?.directoryExists?.(dossierImages.trim())) {
+    if (dossierImages === null || !dossierImages.trim()) {
+        if (!etatCreation.imgFolderName) {
+            desactiverChampImage(true);
+        }
+        return;
+    }
+
+    const dossierSource = dossierImages.trim();
+    const dossierExiste = await window.electronAPI?.directoryExists?.(dossierSource);
+    if (!dossierExiste) {
         throw new Error("Le dossier d'images indiqué n'existe pas.");
     }
 
-    const nomBrut = await demanderValeurObligatoire("Nom du fichier JSON (ex: mon_questionnaire.json) :", "");
-    const nomFichier = normaliserNomFichier(nomBrut || "");
-    if (!nomFichier || nomFichier === ".json") {
-        throw new Error("Nom de fichier invalide.");
+    etatCreation.sourceImageDir = dossierSource;
+
+    if (!etatCreation.imgFolderName) {
+        const nomFichier = (etatCreation.jsonPath.split("/").pop() || "questionnaire.json")
+            .replace(/\.json$/i, "");
+        etatCreation.imgFolderName = `img_${nomFichier}.json`;
     }
 
-    const reverse = versEntierBinaire(await demanderValeurObligatoire("Valeur reverse (0 ou 1) :", "0"));
-
-    etatCreation.jsonPath = `${DOSSIER_JSON}/${nomFichier}`;
-    etatCreation.questionnaire.titre = titreDepuisNom(nomFichier);
-    etatCreation.questionnaire.reverse = reverse;
-
-    if (dossierImages && dossierImages.trim()) {
-        etatCreation.sourceImageDir = dossierImages.trim();
-        etatCreation.imgFolderName = `img_${nomFichier}`;
-        await window.electronAPI.ensureQuestDirectory(`${DOSSIER_IMG_BASE}/${etatCreation.imgFolderName}`);
-        desactiverChampImage(false);
-    } else {
-        desactiverChampImage(true);
-    }
-
-    await sauvegarderQuestionnaire();
+    await window.electronAPI.ensureQuestDirectory(`${DOSSIER_IMG_BASE}/${etatCreation.imgFolderName}`);
+    desactiverChampImage(false);
 };
 
 const construireQuestion = async () => {
@@ -287,12 +327,6 @@ const viderChamps = () => {
 };
 
 const abandonnerEtRetourMenu = async () => {
-    if (etatCreation.jsonPath) {
-        await window.electronAPI.removeQuestEntry(etatCreation.jsonPath);
-    }
-    if (etatCreation.imgFolderName) {
-        await window.electronAPI.removeQuestEntry(`${DOSSIER_IMG_BASE}/${etatCreation.imgFolderName}`);
-    }
     window.location.href = PAGE_MENU;
 };
 
@@ -301,27 +335,7 @@ const finirCreation = async () => {
         throw new Error("Ajoutez au moins une question avant de terminer le questionnaire.");
     }
 
-    const nouveauNom = await demanderValeurObligatoire(
-        "Nom final du questionnaire JSON (laisser vide pour conserver le nom actuel):",
-        etatCreation.jsonPath.split("/").pop() || ""
-    );
-    const nouveauReverse = versEntierBinaire(
-        await demanderValeurObligatoire("Reverse final (0 ou 1)", String(etatCreation.questionnaire.reverse))
-    );
-
-    etatCreation.questionnaire.reverse = nouveauReverse;
-
-    const nomNettoye = normaliserNomFichier(nouveauNom || etatCreation.jsonPath.split("/").pop() || "");
-    if (nomNettoye && nomNettoye !== etatCreation.jsonPath.split("/").pop()) {
-        const nouveauPath = `${DOSSIER_JSON}/${nomNettoye}`;
-        etatCreation.questionnaire.titre = titreDepuisNom(nomNettoye);
-        await window.electronAPI.writeQuestJson(nouveauPath, etatCreation.questionnaire);
-        await window.electronAPI.removeQuestEntry(etatCreation.jsonPath);
-        etatCreation.jsonPath = nouveauPath;
-    } else {
-        await sauvegarderQuestionnaire();
-    }
-
+    await sauvegarderQuestionnaire();
     window.location.href = PAGE_MENU;
 };
 
@@ -333,7 +347,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     try {
-        await demanderConfigurationInitiale();
+        await chargerQuestionnaireExistant();
+        await initialiserGestionImages();
         configurerValidationGuillemets();
     } catch (error) {
         console.error(error);
