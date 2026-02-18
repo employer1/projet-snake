@@ -22,14 +22,14 @@
                         <span class="btn-text" data-page="../pages/daily-note_menu.html">Menu</span>
                     </button>
 
-                    <button class="bouton_menu">
+                    <button class="bouton_menu" id="daily-note-save-btn">
                         <img src="../image/sauvegarde.png" alt="menu" class="btn-icon">
                         <span class="btn-text">Sauvegarder</span>
                     </button>
 
-                    <button class="bouton_menu">
+                    <button class="bouton_menu" id="daily-note-new-story-btn">
                         <img src="../image/tag.png" alt="menu" class="btn-icon">
-                        <span class="btn-text">Ajouter tag</span>
+                        <span class="btn-text">Nouvelle Note</span>
                     </button>
                 </div>
 
@@ -49,38 +49,26 @@
                 </div>
 
                 <div class="section">
-                    <h1 id="daily-note-lecture-title">Note du X Mois Année</h1>
+                    <h1 id="daily-note-lecture-title">note.json</h1>
 
                     <div class="corps">
                         <div class="haut">
                             <div class="titre">
                                 <div class="jsp">
                                     <h3>Titre :</h3>
-                                    <input type="text" placeholder="Titre ..." class="champ_texte" id="daily-note-title-input">
+                                    <input type="text" placeholder="Titre ..." class="champ_texte" id="titre">
                                 </div>
 
                                 <div class="jsp">
                                     <h3>Tags :</h3>
-                                    <div id="champ_titre" class="champ_texte"></div>
+                                    <input type="text" placeholder="Tag1, Tag2" class="champ_texte" id="tags">
                                 </div>
                             </div>
                         </div>
 
-                        <input type="text" placeholder="Texte ..." class="champ_texte_grand" id="daily-note-text-input">
+                        <textarea placeholder="Texte ..." class="champ_texte_grand" id="texte"></textarea>
 
-                        <div class="bas">
-                            <div class="exemple">
-                                <h4>Titre</h4>
-                            </div>
-
-                            <div class="exemple">
-                                <h4>Titre</h4>
-                            </div>
-
-                            <div class="exemple">
-                                <h4>Titre</h4>
-                            </div>
-                        </div>
+                        <div class="bas" id="daily-note-story-list"></div>
                     </div>
                 </div>
             </section>
