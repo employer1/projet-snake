@@ -2,6 +2,8 @@
 const stockageDailyNoteSelection = "daily_note_selection";
 const stockageDailyNoteContenu = "daily_note_contenu";
 
+const LIMITE_HISTOIRES = 5;
+
 const structureParDefaut = {
     histoire: [
         {
@@ -43,7 +45,7 @@ const normaliserContenu = (contenu) => {
         return structuredClone(structureParDefaut);
     }
 
-    const histoires = Array.isArray(contenu.histoire) ? contenu.histoire : [];
+    const histoires = Array.isArray(contenu.histoire) ? contenu.histoire.slice(0, LIMITE_HISTOIRES) : [];
     const histoiresNettoyees = histoires.map((histoire) => ({
         titre: typeof histoire?.titre === "string" ? histoire.titre : "",
         tags: Array.isArray(histoire?.tags)
@@ -241,6 +243,11 @@ const sauvegarderNote = async () => {
 const ajouterNouvelleHistoire = () => {
     const champsValides = sauvegarderChampsDansEtat();
     if (!champsValides) {
+        return;
+    }
+
+    if (etat.content.histoire.length >= LIMITE_HISTOIRES) {
+        alert(`Vous ne pouvez pas ajouter plus de ${LIMITE_HISTOIRES} histoires.`);
         return;
     }
 
