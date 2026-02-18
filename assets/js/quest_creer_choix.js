@@ -4,11 +4,11 @@ const stockageEditionQuest = "quest_creation_selection";
 const dossierQuestionnaires = "questionnaire/";
 
 const pagesCreationParType = {
-    langue: "../pages/quest_creer_langue.html",
-    qcm: "../pages/quest_creer_qcm.html",
-    txt: "../pages/quest_creer_txt.html",
-    "txt 2": "../pages/quest_creer_txt.html",
-    texte: "../pages/quest_creer_txt.html",
+    langue: "../pages/quest_creer_langue_existe.html",
+    qcm: "../pages/quest_creer_qcm_existe.html",
+    txt: "../pages/quest_creer_txt_existe.html",
+    "txt 2": "../pages/quest_creer_txt_existe.html",
+    texte: "../pages/quest_creer_txt_existe.html",
 };
 
 const normaliserChemin = (chemin = "") => chemin.replace(/\\/g, "/").replace(/^\/+/, "");
