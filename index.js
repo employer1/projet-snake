@@ -10,6 +10,8 @@ const getQuestDestinationPath = () => path.join(app.getPath("userData"), "quest"
 const getQuestSourcePath = () => path.join(app.getAppPath(), "quest");
 const normaliserChemin = (chemin = "") => chemin.replace(/\\/g, "/").replace(/^\/+/, "");
 
+const getFilmAffichesPath = () => path.join(app.getAppPath(), "film", "affiche");
+
 const copyDirectory = async (sourceDir, destinationDir) => {
     await fs.mkdir(destinationDir, { recursive: true });
     const entries = await fs.readdir(sourceDir, { withFileTypes: true });
@@ -245,6 +247,17 @@ const fileExists = async (filePath) => {
     }
 };
 
+const listFilmAffiches = async () => {
+    const affichesDir = getFilmAffichesPath();
+    const entries = await fs.readdir(affichesDir, { withFileTypes: true });
+
+    return entries
+        .filter((entry) => entry.isFile())
+        .map((entry) => entry.name)
+        .filter((fileName) => /\.(png|jpe?g|webp|gif|bmp)$/i.test(fileName))
+        .sort((a, b) => a.localeCompare(b, "fr", { sensitivity: "base" }));
+};
+
 const ensureStatsDir = async () => {
     const dir = path.dirname(getStatsPath());
     await fs.mkdir(dir, { recursive: true });
@@ -334,6 +347,7 @@ app.whenReady().then(async () => {
         copyFileToQuest(sourcePath, destinationPath));
     ipcMain.handle("fs:directory-exists", async (_event, directoryPath) => directoryExists(directoryPath));
     ipcMain.handle("fs:file-exists", async (_event, filePath) => fileExists(filePath));
+    ipcMain.handle("film:list-affiches", async () => listFilmAffiches());
 
     app.on('activate', () => {
         if (BrowserWindow.getAllWindows().length === 0) {

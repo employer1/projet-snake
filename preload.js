@@ -16,6 +16,7 @@ contextBridge.exposeInMainWorld("electronAPI", {
         ipcRenderer.invoke("quest:copy-file", sourcePath, destinationPath),
     directoryExists: (directoryPath) => ipcRenderer.invoke("fs:directory-exists", directoryPath),
     fileExists: (filePath) => ipcRenderer.invoke("fs:file-exists", filePath),
+    listFilmAffiches: () => ipcRenderer.invoke("film:list-affiches"),
 });
 
 window.addEventListener("DOMContentLoaded", () => {
