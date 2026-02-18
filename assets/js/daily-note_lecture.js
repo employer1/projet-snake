@@ -113,6 +113,14 @@ const afficherErreurTags = (message) => {
     }
 };
 
+
+const afficherErreurFormulaire = (message) => {
+    const erreurFormulaire = document.getElementById("daily-note-form-error");
+    if (erreurFormulaire) {
+        erreurFormulaire.textContent = message || "";
+    }
+};
+
 const validerChampTags = () => {
     const champTags = document.getElementById("tags");
     const valeur = champTags?.value ?? "";
@@ -126,12 +134,36 @@ const validerChampTags = () => {
 
     if (tagInvalide) {
         afficherErreurTags("Un tag ne doit pas contenir d'espace.");
-        return false;
+        return { valide: false, tagsNettoyes: tags };
+    }
+
+    const tagsUniques = [];
+    const tagsVus = new Set();
+    let doublonTrouve = false;
+
+    tags.forEach((tag) => {
+        const tagNormalise = tag.toLowerCase();
+        if (tagsVus.has(tagNormalise)) {
+            doublonTrouve = true;
+            return;
+        }
+
+        tagsVus.add(tagNormalise);
+        tagsUniques.push(tag);
+    });
+
+    if (doublonTrouve) {
+        if (champTags) {
+            champTags.value = tagsUniques.join(", ");
+        }
+        afficherErreurTags("Un tag en doublon a été supprimé avant l'enregistrement.");
+        return { valide: true, tagsNettoyes: tagsUniques, doublonSupprime: true };
     }
 
     afficherErreurTags("");
-    return true;
+    return { valide: true, tagsNettoyes: tags, doublonSupprime: false };
 };
+
 
 const sauvegarderContexteLocal = () => {
     localStorage.setItem(stockageDailyNoteSelection, etat.fileName);
@@ -148,15 +180,28 @@ const sauvegarderChampsDansEtat = () => {
         return false;
     }
 
-    if (!validerChampTags()) {
+    const titre = champTitre?.value?.trim() ?? "";
+    const tagsBruts = champTags?.value?.trim() ?? "";
+    const texte = champTexte?.value?.trim() ?? "";
+
+    if (!titre || !tagsBruts || !texte) {
+        afficherErreurFormulaire("Les champs Titre, Tags et Texte sont obligatoires.");
         return false;
     }
 
-    histoire.titre = champTitre?.value ?? "";
-    histoire.tags = parserTags(champTags?.value ?? "");
-    histoire.texte = champTexte?.value ?? "";
+    const validationTags = validerChampTags();
+    if (!validationTags.valide) {
+        return false;
+    }
+
+    afficherErreurFormulaire("");
+
+    histoire.titre = titre;
+    histoire.tags = validationTags.tagsNettoyes;
+    histoire.texte = texte;
     return true;
 };
+
 
 const afficherChamps = () => {
     const histoire = etat.content.histoire[etat.indexActif] || { titre: "", tags: [], texte: "" };
@@ -175,7 +220,8 @@ const afficherChamps = () => {
         champTexte.value = histoire.texte;
     }
 
-    validerChampTags();
+    afficherErreurFormulaire("");
+    void validerChampTags();
 };
 
 const afficherTitrePage = () => {
@@ -290,6 +336,7 @@ const initialiserPageLecture = async () => {
         const champTags = document.getElementById("tags");
         if (champTags) {
             champTags.addEventListener("input", () => {
+                afficherErreurFormulaire("");
                 void validerChampTags();
             });
         }
