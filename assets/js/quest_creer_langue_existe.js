@@ -1,1 +1,1 @@
-/*fichier JS pour quest_creer_langue.html*/
+/*fichier JS pour quest_creer_langue_existe.html*/

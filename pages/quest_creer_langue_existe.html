@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../assets/css/quest_creer_langue_existe.css"> <!--css propre à ce fichier HTML-->
 
     <script src="../assets/js/boutons_navigation.js" defer></script>
+    <script src="../assets/js/quest_creer_langue.js" defer></script>
   </head>
   <body>
     <main>
@@ -41,24 +42,20 @@
           <h1>Créer langue</h1>
 
           <div class="corps">
-            <div class="space"></div>
-
             <div class="sous_corps">
               <p>mot langue 1</p>
-              <input type="text" placeholder="Mot ..." class="champ_texte">
+              <input id="langue_1" type="text" placeholder="Mot ..." class="champ_texte">
             </div>
-
-            <div class="space"></div>
 
             <div class="sous_corps">
               <p>mot langue 2</p>
-              <input type="text" placeholder="Mot ..." class="champ_texte">
+              <input id="langue_2" type="text" placeholder="Mot ..." class="champ_texte">
             </div>
 
             <div class="pied">
-              <button class="bouton_petit">Abandonner</button>
-              <button class="bouton_petit">Ajouter</button>
-              <button class="bouton_petit">Finir</button>
+              <button id="abandonner" class="bouton_petit">Abandonner</button>
+              <button id="ajouter" class="bouton_petit">Ajouter</button>
+              <button id="finir" class="bouton_petit">Finir</button>
             </div>
           </div>
         </div>

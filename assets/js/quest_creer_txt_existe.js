@@ -1,4 +1,4 @@
-/*fichier JS de quest_creer_txt*/
+/*fichier JS de quest_creer_txt_existe.html*/
 
 const DOSSIER_JSON = "questionnaire/autre";
 const DOSSIER_IMG_BASE = "questionnaire/autre/img";
