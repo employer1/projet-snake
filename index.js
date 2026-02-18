@@ -8,8 +8,8 @@ const getQuestStatsPath = () =>
     path.join(app.getPath("userData"), "quest", "stat_quest.json");
 const getQuestDestinationPath = () => path.join(app.getPath("userData"), "quest");
 const getQuestSourcePath = () => path.join(app.getAppPath(), "quest");
-const getDailyNoteDestinationPath = () => path.join(app.getPath("userData"), "film", "notes");
-const getDailyNoteTagsPath = () => path.join(app.getPath("userData"), "film", "tags.json");
+const getDailyNoteDestinationPath = () => path.join(app.getPath("userData"), "daily_note", "notes");
+const getDailyNoteTagsPath = () => path.join(app.getPath("userData"), "daily_note", "tags.json");
 const getDailyNoteTagsSourcePath = () => path.join(app.getAppPath(), "daily_note", "tags.json");
 const normaliserChemin = (chemin = "") => chemin.replace(/\\/g, "/").replace(/^\/+/, "");
 

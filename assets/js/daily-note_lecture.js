@@ -64,6 +64,73 @@ const parserTags = (valeurBrute) => valeurBrute
     .map((tag) => tag.trim())
     .filter((tag) => tag.length > 0);
 
+const formatterDateTitre = (nomFichier) => {
+    const match = /^(\d{4})-(\d{2})-(\d{2})\.json$/i.exec(nomFichier || "");
+    if (!match) {
+        return nomFichier || obtenirNomFichierDuJour();
+    }
+
+    const [, anneeBrute, moisBrut, jourBrut] = match;
+    const annee = Number(anneeBrute);
+    const mois = Number(moisBrut);
+    const jour = Number(jourBrut);
+    const date = new Date(annee, mois - 1, jour);
+
+    if (Number.isNaN(date.getTime())) {
+        return nomFichier;
+    }
+
+    const moisNoms = [
+        "Janvier",
+        "Février",
+        "Mars",
+        "Avril",
+        "Mai",
+        "Juin",
+        "Juillet",
+        "Août",
+        "Septembre",
+        "Octobre",
+        "Novembre",
+        "Décembre",
+    ];
+
+    return `${jour} ${moisNoms[mois - 1]} ${annee}`;
+};
+
+const afficherErreurTags = (message) => {
+    const champTags = document.getElementById("tags");
+    const erreurTags = document.getElementById("daily-note-tags-error");
+
+    if (erreurTags) {
+        erreurTags.textContent = message || "";
+    }
+
+    if (champTags) {
+        champTags.classList.toggle("erreur", Boolean(message));
+    }
+};
+
+const validerChampTags = () => {
+    const champTags = document.getElementById("tags");
+    const valeur = champTags?.value ?? "";
+
+    const tags = valeur
+        .split(",")
+        .map((tag) => tag.trim())
+        .filter((tag) => tag.length > 0);
+
+    const tagInvalide = tags.find((tag) => /\s/.test(tag));
+
+    if (tagInvalide) {
+        afficherErreurTags("Un tag ne doit pas contenir d'espace.");
+        return false;
+    }
+
+    afficherErreurTags("");
+    return true;
+};
+
 const sauvegarderContexteLocal = () => {
     localStorage.setItem(stockageDailyNoteSelection, etat.fileName);
     localStorage.setItem(stockageDailyNoteContenu, JSON.stringify(etat.content));
@@ -76,12 +143,17 @@ const sauvegarderChampsDansEtat = () => {
     const histoire = etat.content.histoire[etat.indexActif];
 
     if (!histoire) {
-        return;
+        return false;
+    }
+
+    if (!validerChampTags()) {
+        return false;
     }
 
     histoire.titre = champTitre?.value ?? "";
     histoire.tags = parserTags(champTags?.value ?? "");
     histoire.texte = champTexte?.value ?? "";
+    return true;
 };
 
 const afficherChamps = () => {
@@ -100,6 +172,8 @@ const afficherChamps = () => {
     if (champTexte) {
         champTexte.value = histoire.texte;
     }
+
+    validerChampTags();
 };
 
 const afficherTitrePage = () => {
@@ -108,7 +182,7 @@ const afficherTitrePage = () => {
         return;
     }
 
-    titrePage.textContent = etat.fileName || obtenirNomFichierDuJour();
+    titrePage.textContent = formatterDateTitre(etat.fileName || obtenirNomFichierDuJour());
 };
 
 const creerCarteHistoire = (histoire, index) => {
@@ -125,7 +199,11 @@ const creerCarteHistoire = (histoire, index) => {
     carte.appendChild(titre);
 
     carte.addEventListener("click", () => {
-        sauvegarderChampsDansEtat();
+        const champsValides = sauvegarderChampsDansEtat();
+        if (!champsValides) {
+            return;
+        }
+
         etat.indexActif = index;
         afficherChamps();
         afficherListeHistoires();
@@ -147,7 +225,10 @@ const afficherListeHistoires = () => {
 };
 
 const sauvegarderNote = async () => {
-    sauvegarderChampsDansEtat();
+    const champsValides = sauvegarderChampsDansEtat();
+    if (!champsValides) {
+        return;
+    }
 
     if (window.electronAPI?.saveDailyNote) {
         await window.electronAPI.saveDailyNote(etat.fileName, etat.content);
@@ -158,7 +239,11 @@ const sauvegarderNote = async () => {
 };
 
 const ajouterNouvelleHistoire = () => {
-    sauvegarderChampsDansEtat();
+    const champsValides = sauvegarderChampsDansEtat();
+    if (!champsValides) {
+        return;
+    }
+
     etat.content.histoire.push({ titre: "", tags: [], texte: "" });
     etat.indexActif = etat.content.histoire.length - 1;
     afficherChamps();
@@ -194,6 +279,13 @@ const initialiserPageLecture = async () => {
         afficherChamps();
         afficherListeHistoires();
         sauvegarderContexteLocal();
+
+        const champTags = document.getElementById("tags");
+        if (champTags) {
+            champTags.addEventListener("input", () => {
+                void validerChampTags();
+            });
+        }
 
         const boutonSauvegarde = document.getElementById("daily-note-save-btn");
         if (boutonSauvegarde) {
