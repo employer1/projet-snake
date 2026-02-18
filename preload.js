@@ -19,6 +19,8 @@ contextBridge.exposeInMainWorld("electronAPI", {
     listFilmAffiches: () => ipcRenderer.invoke("film:list-affiches"),
     openOrCreateDailyNote: (fileName, defaultPayload) =>
         ipcRenderer.invoke("daily-note:open-or-create", fileName, defaultPayload),
+    saveDailyNote: (fileName, payload) =>
+        ipcRenderer.invoke("daily-note:save", fileName, payload),
 });
 
 window.addEventListener("DOMContentLoaded", () => {

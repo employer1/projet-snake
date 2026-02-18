@@ -2,28 +2,27 @@
 const stockageDailyNoteSelection = "daily_note_selection";
 const stockageDailyNoteContenu = "daily_note_contenu";
 
-const formatterDateAffichage = (date) => {
-    const formattee = new Intl.DateTimeFormat("fr-FR", {
-        day: "numeric",
-        month: "long",
-        year: "numeric",
-    }).format(date);
-
-    return formattee.replace(/\b\p{L}/u, (lettre) => lettre.toUpperCase());
+const structureParDefaut = {
+    histoire: [
+        {
+            titre: "",
+            tags: [],
+            texte: "",
+        },
+    ],
 };
 
-const extraireDateDepuisNomFichier = (nomFichier) => {
-    if (!nomFichier) {
-        return null;
-    }
+const etat = {
+    fileName: "",
+    content: structuredClone(structureParDefaut),
+    indexActif: 0,
+};
 
-    const correspondance = String(nomFichier).match(/(\d{4})-(\d{2})-(\d{2})\.json$/);
-    if (!correspondance) {
-        return null;
-    }
-
-    const [, annee, mois, jour] = correspondance;
-    return new Date(Number(annee), Number(mois) - 1, Number(jour));
+const obtenirNomFichierDuJour = (date = new Date()) => {
+    const annee = date.getFullYear();
+    const mois = String(date.getMonth() + 1).padStart(2, "0");
+    const jour = String(date.getDate()).padStart(2, "0");
+    return `${annee}-${mois}-${jour}.json`;
 };
 
 const lireContenuLocal = () => {
@@ -39,69 +38,180 @@ const lireContenuLocal = () => {
     }
 };
 
-const afficherListeTags = (tags) => {
-    const conteneurTags = document.getElementById("champ_titre");
-    if (!conteneurTags) {
+const normaliserContenu = (contenu) => {
+    if (!contenu || typeof contenu !== "object") {
+        return structuredClone(structureParDefaut);
+    }
+
+    const histoires = Array.isArray(contenu.histoire) ? contenu.histoire : [];
+    const histoiresNettoyees = histoires.map((histoire) => ({
+        titre: typeof histoire?.titre === "string" ? histoire.titre : "",
+        tags: Array.isArray(histoire?.tags)
+            ? histoire.tags.filter((tag) => typeof tag === "string")
+            : [],
+        texte: typeof histoire?.texte === "string" ? histoire.texte : "",
+    }));
+
+    if (histoiresNettoyees.length === 0) {
+        histoiresNettoyees.push({ titre: "", tags: [], texte: "" });
+    }
+
+    return { histoire: histoiresNettoyees };
+};
+
+const parserTags = (valeurBrute) => valeurBrute
+    .split(",")
+    .map((tag) => tag.trim())
+    .filter((tag) => tag.length > 0);
+
+const sauvegarderContexteLocal = () => {
+    localStorage.setItem(stockageDailyNoteSelection, etat.fileName);
+    localStorage.setItem(stockageDailyNoteContenu, JSON.stringify(etat.content));
+};
+
+const sauvegarderChampsDansEtat = () => {
+    const champTitre = document.getElementById("titre");
+    const champTags = document.getElementById("tags");
+    const champTexte = document.getElementById("texte");
+    const histoire = etat.content.histoire[etat.indexActif];
+
+    if (!histoire) {
         return;
     }
 
-    conteneurTags.innerHTML = "";
+    histoire.titre = champTitre?.value ?? "";
+    histoire.tags = parserTags(champTags?.value ?? "");
+    histoire.texte = champTexte?.value ?? "";
+};
 
-    if (!Array.isArray(tags) || tags.length === 0) {
-        conteneurTags.textContent = "Aucun tag disponible";
+const afficherChamps = () => {
+    const histoire = etat.content.histoire[etat.indexActif] || { titre: "", tags: [], texte: "" };
+
+    const champTitre = document.getElementById("titre");
+    const champTags = document.getElementById("tags");
+    const champTexte = document.getElementById("texte");
+
+    if (champTitre) {
+        champTitre.value = histoire.titre;
+    }
+    if (champTags) {
+        champTags.value = histoire.tags.join(", ");
+    }
+    if (champTexte) {
+        champTexte.value = histoire.texte;
+    }
+};
+
+const afficherTitrePage = () => {
+    const titrePage = document.getElementById("daily-note-lecture-title");
+    if (!titrePage) {
         return;
     }
 
-    const liste = document.createElement("ul");
+    titrePage.textContent = etat.fileName || obtenirNomFichierDuJour();
+};
 
-    tags.forEach((tag) => {
-        const element = document.createElement("li");
-        element.textContent = String(tag);
-        liste.appendChild(element);
+const creerCarteHistoire = (histoire, index) => {
+    const carte = document.createElement("button");
+    carte.className = "exemple";
+    carte.type = "button";
+
+    if (index === etat.indexActif) {
+        carte.style.border = "2px solid #ffffff";
+    }
+
+    const titre = document.createElement("h4");
+    titre.textContent = histoire.titre || `Histoire ${index + 1}`;
+    carte.appendChild(titre);
+
+    carte.addEventListener("click", () => {
+        sauvegarderChampsDansEtat();
+        etat.indexActif = index;
+        afficherChamps();
+        afficherListeHistoires();
     });
 
-    conteneurTags.appendChild(liste);
+    return carte;
 };
 
-const chargerTagsDisponibles = async () => {
+const afficherListeHistoires = () => {
+    const liste = document.getElementById("daily-note-story-list");
+    if (!liste) {
+        return;
+    }
+
+    liste.innerHTML = "";
+    etat.content.histoire.forEach((histoire, index) => {
+        liste.appendChild(creerCarteHistoire(histoire, index));
+    });
+};
+
+const sauvegarderNote = async () => {
+    sauvegarderChampsDansEtat();
+
+    if (window.electronAPI?.saveDailyNote) {
+        await window.electronAPI.saveDailyNote(etat.fileName, etat.content);
+    }
+
+    sauvegarderContexteLocal();
+    afficherListeHistoires();
+};
+
+const ajouterNouvelleHistoire = () => {
+    sauvegarderChampsDansEtat();
+    etat.content.histoire.push({ titre: "", tags: [], texte: "" });
+    etat.indexActif = etat.content.histoire.length - 1;
+    afficherChamps();
+    afficherListeHistoires();
+    sauvegarderContexteLocal();
+};
+
+const chargerDepuisContexteOuDisque = async () => {
+    const nomDepuisContexte = localStorage.getItem(stockageDailyNoteSelection) || "";
+    const contenuContexte = lireContenuLocal();
+
+    if (nomDepuisContexte && contenuContexte) {
+        etat.fileName = nomDepuisContexte;
+        etat.content = normaliserContenu(contenuContexte);
+        return;
+    }
+
+    etat.fileName = nomDepuisContexte || obtenirNomFichierDuJour();
+    if (window.electronAPI?.openOrCreateDailyNote) {
+        const resultat = await window.electronAPI.openOrCreateDailyNote(etat.fileName, structureParDefaut);
+        etat.fileName = resultat?.fileName || etat.fileName;
+        etat.content = normaliserContenu(resultat?.content);
+        return;
+    }
+
+    etat.content = structuredClone(structureParDefaut);
+};
+
+const initialiserPageLecture = async () => {
     try {
-        const reponse = await fetch("../daily_note/tags.json");
-        if (!reponse.ok) {
-            afficherListeTags([]);
-            return;
+        await chargerDepuisContexteOuDisque();
+        afficherTitrePage();
+        afficherChamps();
+        afficherListeHistoires();
+        sauvegarderContexteLocal();
+
+        const boutonSauvegarde = document.getElementById("daily-note-save-btn");
+        if (boutonSauvegarde) {
+            boutonSauvegarde.addEventListener("click", () => {
+                void sauvegarderNote();
+            });
         }
 
-        const tags = await reponse.json();
-        afficherListeTags(tags);
-    } catch (_error) {
-        afficherListeTags([]);
+        const boutonNouvelleHistoire = document.getElementById("daily-note-new-story-btn");
+        if (boutonNouvelleHistoire) {
+            boutonNouvelleHistoire.addEventListener("click", ajouterNouvelleHistoire);
+        }
+    } catch (error) {
+        console.error("Impossible de charger la note", error);
+        alert("Impossible de charger la note.");
     }
 };
 
-const initialiserPageLecture = () => {
-    const nomFichier = localStorage.getItem(stockageDailyNoteSelection) || "";
-    const dateFichier = extraireDateDepuisNomFichier(nomFichier);
-
-    const titrePage = document.getElementById("daily-note-lecture-title");
-    if (titrePage && dateFichier) {
-        titrePage.textContent = `Note du ${formatterDateAffichage(dateFichier)}`;
-    }
-
-    const contenu = lireContenuLocal();
-    const premiereHistoire = Array.isArray(contenu?.histoire) ? contenu.histoire[0] : null;
-
-    const champTitre = document.getElementById("daily-note-title-input");
-    const champTexte = document.getElementById("daily-note-text-input");
-
-    if (champTitre && typeof premiereHistoire?.titre === "string") {
-        champTitre.value = premiereHistoire.titre;
-    }
-
-    if (champTexte && typeof premiereHistoire?.texte === "string") {
-        champTexte.value = premiereHistoire.texte;
-    }
-
-    chargerTagsDisponibles();
-};
-
-document.addEventListener("DOMContentLoaded", initialiserPageLecture);
+document.addEventListener("DOMContentLoaded", () => {
+    void initialiserPageLecture();
+});
