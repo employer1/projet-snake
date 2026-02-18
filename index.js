@@ -9,6 +9,8 @@ const getQuestStatsPath = () =>
 const getQuestDestinationPath = () => path.join(app.getPath("userData"), "quest");
 const getQuestSourcePath = () => path.join(app.getAppPath(), "quest");
 const getDailyNoteDestinationPath = () => path.join(app.getPath("userData"), "film", "notes");
+const getDailyNoteTagsPath = () => path.join(app.getPath("userData"), "film", "tags.json");
+const getDailyNoteTagsSourcePath = () => path.join(app.getAppPath(), "daily_note", "tags.json");
 const normaliserChemin = (chemin = "") => chemin.replace(/\\/g, "/").replace(/^\/+/, "");
 
 const getFilmAffichesPath = () => path.join(app.getAppPath(), "film", "affiche");
@@ -331,11 +333,66 @@ const saveDailyNote = async (fileName, payload) => {
 
     await fs.mkdir(path.dirname(notePath), { recursive: true });
     await fs.writeFile(notePath, JSON.stringify(payload, null, 4), "utf-8");
+    await mergeDailyNoteTags(payload);
 
     return {
         ok: true,
         fileName: normaliserChemin(path.relative(dailyNoteDirResolved, notePath)),
     };
+};
+
+const lireTagsJson = async (filePath) => {
+    const contenu = await fs.readFile(filePath, "utf-8");
+    const parsed = JSON.parse(contenu);
+    if (!Array.isArray(parsed)) {
+        throw new Error("Invalid tags payload");
+    }
+
+    return parsed
+        .filter((tag) => typeof tag === "string")
+        .map((tag) => tag.trim())
+        .filter((tag) => tag.length > 0);
+};
+
+const extraireTagsDailyNote = (payload) => {
+    const histoires = Array.isArray(payload?.histoire) ? payload.histoire : [];
+    return histoires
+        .flatMap((histoire) => (Array.isArray(histoire?.tags) ? histoire.tags : []))
+        .filter((tag) => typeof tag === "string")
+        .map((tag) => tag.trim())
+        .filter((tag) => tag.length > 0);
+};
+
+const mergeDailyNoteTags = async (payload) => {
+    const tagsAAjouter = extraireTagsDailyNote(payload);
+    if (tagsAAjouter.length === 0) {
+        return;
+    }
+
+    const destinationPath = getDailyNoteTagsPath();
+    const sourcePath = getDailyNoteTagsSourcePath();
+    await fs.mkdir(path.dirname(destinationPath), { recursive: true });
+
+    let tagsExistants = [];
+    try {
+        tagsExistants = await lireTagsJson(destinationPath);
+    } catch (error) {
+        if (error.code === "ENOENT") {
+            try {
+                tagsExistants = await lireTagsJson(sourcePath);
+            } catch (sourceError) {
+                if (sourceError.code !== "ENOENT") {
+                    throw sourceError;
+                }
+            }
+        } else {
+            throw error;
+        }
+    }
+
+    const tagsUniques = new Set(tagsExistants);
+    tagsAAjouter.forEach((tag) => tagsUniques.add(tag));
+    await fs.writeFile(destinationPath, JSON.stringify(Array.from(tagsUniques), null, 2), "utf-8");
 };
 
 const ensureStatsDir = async () => {
