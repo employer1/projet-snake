@@ -916,7 +916,7 @@
             "reponse": "fange"
         },
         {
-            "question": "Extraordinaire par son ampleur : Une somme faramineuse.",
+            "question": "Extraordinaire par son ampleur : Une somme ***.",
             "reponse": "faramineux"
         },
         {
@@ -1240,7 +1240,7 @@
             "reponse": "outrecuidance"
         },
         {
-            "question": "Epidémie qui s'étend sur un oiu plusieurs continents.",
+            "question": "Epidémie qui s'étend sur un ou plusieurs continents.",
             "reponse": "pandémie"
         },
         {
