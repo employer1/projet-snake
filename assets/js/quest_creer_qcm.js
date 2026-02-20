@@ -179,7 +179,7 @@ const desactiverChampImage = (desactiver) => {
         inputImage.value = "";
         inputImage.placeholder = "Image désactivée (pas de dossier image)";
     } else {
-        inputImage.placeholder = "nom_image.png ...";
+        inputImage.placeholder = "nom_image.png ou nom_image.jpg ...";
     }
 };
 
@@ -264,8 +264,8 @@ const construireQuestion = async () => {
         }
 
         const nomImage = normaliserNomImage(imageBrute);
-        if (!nomImage.toLowerCase().endsWith(".png")) {
-            throw new Error("L'image doit être un fichier .png.");
+        if (!/\.(png|jpg)$/i.test(nomImage)) {
+            throw new Error("L'image doit être un fichier .png ou .jpg.");
         }
 
         const sourcePath = `${etatCreation.sourceImageDir.replace(/[\\/]$/, "")}/${nomImage}`;
