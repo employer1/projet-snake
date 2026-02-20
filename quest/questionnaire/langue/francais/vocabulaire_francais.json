@@ -1438,6 +1438,950 @@
         {
             "question": "1 Qui a un caractère universel. 2 Relatif à l'***. 3 Qui rassemble des personnes aux idées, aux sensibilités différentes : Ils vont organiser un grand débat *** sur les violences urbaines.",
             "reponse": "œcuménique"
+        },
+        {
+            "question": "Vêtements en loques ; guenille.",
+            "reponse": "haillon"
+        },
+        {
+            "question": "1 Zone circulaire diffuse autour d'une source lumineuse : Le *** des phares. 2 Cercle lumineux légèrement irisé qui entoure quelquefois le Soleil ou la Lune, par suite de la réfraction de la lumière au sein de cristaux ou de nuages de glace. 3 Auréole qui entoure parfois l'image photographique d'un point lumineux.",
+            "reponse": "halo"
+        },
+        {
+            "question": "Groupement de quelques maisons rurales situées en dehors de l'agglomération principale d'une commune.",
+            "reponse": "hameau"
+        },
+        {
+            "question": "1 Manche en bois qui supporte un drapeau, une arme d'hast, etc. 2 Trait vertical des lettres 't', 'h', 'j', etc. et des notes de musique. 3 Axe florifère allongé, terminé par une fleur ou par un groupe de fleurs.",
+            "reponse": "hampe"
+        },
+        {
+            "question": "Adresser une harangue à : Le rockeur *** son public.",
+            "reponse": "haranguer"
+        },
+        {
+            "question": "1 Qui montre de l'audace et de la décision en face d'un danger ; intrépide : Des sauveteurs ***. 2 Qui agit avec effronterie ou impudence : Tu es bien *** de le contredire. 3 Qui témoigne d'audace, d'originalité : Une théorie ***. Sert à encourager : *** les gars !",
+            "reponse": "hardi"
+        },
+        {
+            "question": "Qui affiche une supériorité méprisante ; condescandant : Une femme ***.",
+            "reponse": "hautain"
+        },
+        {
+            "question": "Exprime le regret, la douleur : ***, la trêve a été rompue.",
+            "reponse": "hélas"
+        },
+        {
+            "question": "Perte de la vue atteignant une moitié du champ visuel d'un œil ou de chacun des deux yeux.",
+            "reponse": "hémianopsie"
+        },
+        {
+            "question": "1 Un pauvre ***, un homme misérable. Jeune cerf ou jeune daim âgé de six mois à un an et n'ayant pas encore ses premiers bois.",
+            "reponse": "hère"
+        },
+        {
+            "question": "Qui tient de l'*** ; qui constitue une *** : Doctrine ***. Qui professe ou soutient une *** (par opposition à orthodoxe).",
+            "reponse": "hérétique"
+        },
+        {
+            "question": "Composé d'éléments disparates ; hétérgène : Des cabanes faites de matériaux ***.",
+            "reponse": "hétéroclite"
+        },
+        {
+            "question": "Rabaisser quelqu'un en le faisant apparaître comme inférieur, méprisable ; mortifier : Chercher à *** un adversaire. S'***, avoir une attitude servile, par lâcheté ou intérêt ; se rabaisser.",
+            "reponse": "humilier"
+        },
+        {
+            "question": "Tout instrument de communication linguistique utilisé par une communauté (langue, dialecte, patois, etc.)",
+            "reponse": "idiome"
+        },
+        {
+            "question": "1 Amour tendre et naïf. 2 Relation harmonieuse entre individus ou groupes : Une *** entre les partis de l'opposition. 3 Petit poème pastoral chantant l'amour.",
+            "reponse": "idylles"
+        },
+        {
+            "question": "1 Marqué par une entente parfaite : Relation ***. 2 Qui représente une version idéaliste de quelque chose : Une vision *** de la politique. 3 Relatif à l'idylle.",
+            "reponse": "idyllique"
+        },
+        {
+            "question": "Pénétré d'une idée, d'un sentiment : *** de préjugés. Etre *** de soi-même, être persuadé de sa supériorité ; être prétencieux.",
+            "reponse": "imbu"
+        },
+        {
+            "question": "Qui ennuie ou irrite par son insistance, son caractère déplacé : Une visite, un visiteur ***.",
+            "reponse": "importun"
+        },
+        {
+            "question": "1 Caractère d'une personne, d'une action *** ; cynisme : Tourner le dos avec ***. 2 Action, parole *** ; insolence.",
+            "reponse": "impudence"
+        },
+        {
+            "question": "1 Attribuer à quelqu'un, à quelque chose la responsabilité de. 2 Porter une somme au compte de : *** une dépense sur un chapitre du budget.",
+            "reponse": "imputer"
+        },
+        {
+            "question": "Léger écart de conduite ; frasque.",
+            "reponse": "incartade"
+        },
+        {
+            "question": "1 Relations sexuelles entre deux personnes liées par un degré de parenté entraînant la prohibition du mariage. 2 Relations sexuelles entre parents très proches.",
+            "reponse": "inceste"
+        },
+        {
+            "question": "Etre imposé à quelqu'un, en parlant d'une charge, d'un devoir ; revenir à : Cette révélation *** à son médecin.",
+            "reponse": "incmober"
+        },
+        {
+            "question": "1 Caractère d'un comportement, d'un acte inepte ; absurdité. 2 Action ou parole stupide ; niaiserie.",
+            "reponse": "ineptie"
+        },
+        {
+            "question": "De façon inextricable.",
+            "reponse": "inextricablement"
+        },
+        {
+            "question": "Qui ne peut être démêlé, résolu : Sa situation est ***.",
+            "reponse": "inextricable"
+        },
+        {
+            "question": "1 Action ou parole vile, honteuse ; bassesse : Il a commis des ***. 2 Etat de déshonneur ; ignominie. 3 Caractère d'une personne ou d'une action infâme ; abjection : L'*** d'un chantage.",
+            "reponse": "infamie"
+        },
+        {
+            "question": "Extrêmement petit. Calcul ***, partie des mathématiques recouvrant principalement le calcul différentiel et le calcul intégral, fondée sur l'étude des infiniment petits et des limites.",
+            "reponse": "infinitésimal"
+        },
+        {
+            "question": "Qui est courbé de dehors en dedans ; incurvé. Voyelle ***, qui a subi une inflexion.",
+            "reponse": "infléchit"
+        },
+        {
+            "question": "Phénomène d'arrêt, de blocage ou de ralentissement d'un processus chimique, physiologique ou psychologique. En psychiatrie, l'inhibition peut être un moment du processus de refoulement.",
+            "reponse": "inhibition"
+        },
+        {
+            "question": "Qui arrive sans qu'on l'ait prévu ; inattendu.",
+            "reponse": "inopiné"
+        },
+        {
+            "question": "1 Qui n'a pas de saveur, de goût : L'eau pure est ***. 2 Sans agrément ; ennuyeux : Roman ***.",
+            "reponse": "insipide"
+        },
+        {
+            "question": "1 Qui ne peut être tari : Puits ***. 2 Qui ne s'épuise pas : Imagination ***. 3 Dont il est difficile d'arrêter les paroles : Il est *** sur la mondialisation.",
+            "reponse": "intarissable"
+        },
+        {
+            "question": "1 Compatibilité des équipements, des procédures ou des organisations permettant à plusieurs systèmes, forces armées ou organismes d'agir ensemble : *** des forces de l'OTAN. 2 Capacité de matériels, de logiciels ou de protocoles différents à fonctionner ensemble et à partager des informations : *** des réseaux téléphoniques.",
+            "reponse": "interopérabilité"
+        },
+        {
+            "question": "de façon intrinsèque ; en soi.",
+            "reponse": "intrinsèquement"
+        },
+        {
+            "question": "Qui est inhérent à quelqu'un, à quelque chose, qui lui appartient en propre, indépendamment des facteurs extérieurs (par opposition à extrinsèque) : Valeur ***.",
+            "reponse": "intrinsèque"
+        },
+        {
+            "question": "Qui vient du dehors (par opposition à intrinsèque) : Causes ***.",
+            "reponse": "extrinsèque"
+        },
+        {
+            "question": "1 Introduction d'un objet, d'un organe dans un autre. 2 Introduction du pénis dans le vagin.",
+            "reponse": "intromission"
+        },
+        {
+            "question": "Parole violente et injurieuse : Se répandre en *** contre quelqu'un",
+            "reponse": "invective"
+        },
+        {
+            "question": "Qui brille avec des reflets irisés : Des gouttes de rosée ***.",
+            "reponse": "iridescente"
+        },
+        {
+            "question": "Variété de lignite d'un noir brillant, pouvant être polie et taillée. (Noir) de ***, d'un noir brillant : Des yeux de ***.",
+            "reponse": "jais"
+        },
+        {
+            "question": "1 Pousser un cri, en parlant des jeunes chiens ou des petits chiens, du renard et du chacal. 2 Aboyer en parlant de tous les chiens.",
+            "reponse": "japper"
+        },
+        {
+            "question": "Récipient rond et sans rebord ; son contenu : Une *** de lait.",
+            "reponse": "jatte"
+        },
+        {
+            "question": "Lutte spectaculaire ou l'on rivalise de talent ; duel : *** oratoire. 2 Au Moyen Âge, combat entre deux hommes à cheval armés d'une lance. *** nautique, lyonnaise, sétoise, jeu où deux personnes, debout sur une barque, cherchent à se faire tomber à l'eau en se poussant avec une longue perche.",
+            "reponse": "joug"
+        },
+        {
+            "question": "Qui manifeste une gaieté simple et communicative ; enjoué.",
+            "reponse": "jovial"
+        },
+        {
+            "question": "Ancien soldat vagabond. Joyeux ***, homme joviale.",
+            "reponse": "drille"
+        },
+        {
+            "question": "1 Fibre textile extraite des tiges d'une plante de la famille des tiliacées. 2 Etoffe faite avec cette fibre.",
+            "reponse": "jute"
+        },
+        {
+            "question": "Relatif à la jeunesse ; qui en a la vivacité : Allure, ardeur ***.",
+            "reponse": "juvénille"
+        },
+        {
+            "question": "Longue suite ininterrompue : Une *** de critiques.",
+            "reponse": "kyrielle"
+        },
+        {
+            "question": "Personne qui transforme la réalité, construit des récits purement imaginaires.",
+            "reponse": "affabulateur"
+        },
+        {
+            "question": "1 Manière mensongère de présenter la réalité. 2 Trame, organisation des évènements intervenant dans une œvre de fiction.",
+            "reponse": "affabulation"
+        },
+        {
+            "question": "Caractère de ce qui est autre ; différence : L'*** des cultures.",
+            "reponse": "altérité"
+        },
+        {
+            "question": "1 Ancienne mesure de longueur, utilisée surtout pour les étoffes et valant environt 1,20 milions. A l'*** de quelque chose, en prenant cette chose comme référence : On ne mesure pas la qualité d'un roman à l'*** de ses ventes.",
+            "reponse": "aune"
+        },
+        {
+            "question": "1 Ensemble des plumes qui garnissent le talon d'une flèche pour régulariser son mouvement. 2 Chacune des surfaces situées à l'arrière du fuselage d'un avion destinées à lui donner une stabilité en profondeur (*** horizontal) et en direction (*** vertical). 3 Ensemble des ailettes arrière d'un projectile non tournant, servant à le stabiliser.",
+            "reponse": "empennage"
+        },
+        {
+            "question": "Ecart de conduite sans gravité ; incartade : Les dernières frasques d'une vedette.",
+            "reponse": "frasque"
+        },
+        {
+            "question": "Qui porte des fleurs.",
+            "reponse": "florifère"
+        },
+        {
+            "question": "Lié d'une manière intime et nécessaire à quelque chose ; intrinsèque : Les droits *** à la personne humaine.",
+            "reponse": "inhérent"
+        },
+        {
+            "question": "1 Fonctionnalité chargé de l'administration financière d'un établissement public ou d'enseignement. 2 personne chargée d'administrer les affaires, le patrimoine d'une collectivité ou d'un particulier. 3 Anciennement, officier de l'intendance militaire. Aujourd'hui, commissaire de l'armée de terre. 4 Dans la France d'Ancien Régime, commissaire royal établi dans une généralité.",
+            "reponse": "intendant"
+        },
+        {
+            "question": "1 Qui comporte des lacunes : Exposé ***. 2 Qui présente des lacunes ; qui est dû à des lacunes : Syndrome ***. Amnésie ***, oubli portant sur une ou plusieurs périodes bien circonscrites de la vie passée.",
+            "reponse": "lacunaire"
+        },
+        {
+            "question": "1 Ce qui manque pour compléter une chose : Il a beaucoup de *** en géographie. 2 Interruption dans un texte : Le texte retrouvé comporte des ***. 3 Espace vide dans l'intérieur d'un corps. 4 Absence d'un niveau géologique dans une série stratigraphique. 5 Petite perte de substance dans un organe, par destruction locale : *** cérébrale.",
+            "reponse": "lacune"
+        },
+        {
+            "question": "Agir avec lenteur, sans énergie ni vivacité.",
+            "reponse": "lambiner"
+        },
+        {
+            "question": "Se plaindre de son sort ; se désoler.",
+            "reponse": "lamenter"
+        },
+        {
+            "question": "Qui lancine : Douleur, musique, souvenir ***.",
+            "reponse": "lancinante"
+        },
+        {
+            "question": "Faire souffrir par des élancements répétés ; élancer. Tourmenter de façon persistante ; obséder.",
+            "reponse": "lanciner"
+        },
+        {
+            "question": "Petit vol commis sans effraction ni violence ; produit de ce vol.",
+            "reponse": "larcin"
+        },
+        {
+            "question": "1 Hélas 2 Qui éprouve, manifeste une grande fatigue physique : Etre *** à la fin de la journée. Etre *** de, être ennuyé, dégouté de : Je suis *** d'attendre, de ces mesquineries.",
+            "reponse": "las"
+        },
+        {
+            "question": "Lieux d'aisances sommaires, dans une collectivité.",
+            "reponse": "latrines"
+        },
+        {
+            "question": "1 Eprouver une peine qui dure et dépérir : *** d'amour. 2 traîner en longueur ; manquer d'animation : La conversation ***. 3 Attendre longtemps : Cesse de me faire ***. Attendre impatiemment et souffrir de cette attente ; soupirer après. Se ***, éprouver de la tristesse du fait de l'absence de.",
+            "reponse": "languir"
+        },
+        {
+            "question": "Economiser avec exès : Lésiner sur la qualité des matériaux. Ne pas *** sur, ne pas hésiter à utiliser abondamment.",
+            "reponse": "lésiner"
+        },
+        {
+            "question": "1 Modification pathologique de la structure d'un tissu, d'un organe, visible à l'œil nu ou au microscope. 2 Préjudice qu'éprouve une partie dans un contrat ou un partage.",
+            "reponse": "lésion"
+        },
+        {
+            "question": "1 Sommeil pathologique profond et prolongé. 2 Affaiblissement extrême ; prostration.",
+            "reponse": "léthargie"
+        },
+        {
+            "question": "Energie psychique de la pulsion sexuelle.",
+            "reponse": "libido"
+        },
+        {
+            "question": "Longue et ennuyeuse énumération : Une *** de reproches. Suite de courtes invocations, que les fidèles récitent ou chantent en l'honneur de Dieu, de la vierge ou des saints.",
+            "reponse": "litanie"
+        },
+        {
+            "question": "Extrêmement pâle ; blême : Un visage ***.",
+            "reponse": "livide"
+        },
+        {
+            "question": "Qui parle beaucoup ; bavard.",
+            "reponse": "locace"
+        },
+        {
+            "question": "Qui exprime ou inspire la tristesse ; sinistre : Une maison, une atmosphère ***.",
+            "reponse": "lugubre"
+        },
+        {
+            "question": "Synonyme de 'Cadavre' commençant par un 'm'",
+            "reponse": "macchabée"
+        },
+        {
+            "question": "Pièce de bois très épaisse, employée en construction.",
+            "reponse": "madrier"
+        },
+        {
+            "question": "En grand nombre : *** personne l'a déploré. A maintes reprises.",
+            "reponse": "maint"
+        },
+        {
+            "question": "Qui est d'une constitution fragile ; chétif.",
+            "reponse": "malingre"
+        },
+        {
+            "question": "Dans l'hindouisme et le bouddhisme, syllabe ou phrase sacrée dotée d'un pouvoir spirituel. Le *** est prononcé au début de toute récitation sacrée.",
+            "reponse": "mantra"
+        },
+        {
+            "question": "1 Aux échecs, mettre le roi, l'adversaire en position de mat. 2 Faire mat. 3 Réduire à l'obeissance ; discipliner : *** un élève turbulent. 4 Empêcher le développement de : *** une rébellion. 5 *** une soudure, la battre avec un matoir. 6 Regarder ; surveiller. 7 Epier avec convoitise ; lorgner.",
+            "reponse": "mater"
+        },
+        {
+            "question": "Formule brève énonçant une règle de morale ou de conduite, ou une réflexion d'ordre général.",
+            "reponse": "maxime"
+        },
+        {
+            "question": "1 Personne atteinte de ***. 2 Personne qui manifeste des idées de grandeur, un orgueil excessif.",
+            "reponse": "mégalomane"
+        },
+        {
+            "question": "1 Chant monotone et triste : Les pleureuses entonnent leur *** funèbre. 2 Chant rythmé qui accompagnait la déclamation.",
+            "reponse": "mélopée"
+        },
+        {
+            "question": "Mauvaise opinion que l'on a de quelqu'un ; mépris.",
+            "reponse": "mesestimes"
+        },
+        {
+            "question": "Qui manque de grandeur ; médiocre : Un esprit *** ; qui dénote de l'avarice ; chiche : Un cadeau ***.",
+            "reponse": "mesquin"
+        },
+        {
+            "question": "Qui manifeste une hostilité systématique à l'égard des hommes (par oppoisiton à misogyne).",
+            "reponse": "misandre"
+        },
+        {
+            "question": "Qui ne dure qu'un moment ; temporaire : Une coupure d'eau ***.",
+            "reponse": "momentané"
+        },
+        {
+            "question": "1 Chiffre composé des lettres ou des principales lettres d'un nom entrelacées en un seul caractère. 2 Marque ou signature abrégée d'un artiste.",
+            "reponse": "monogramme"
+        },
+        {
+            "question": "D'un brun chaud avec des reflets dorés.",
+            "reponse": "mordoré"
+        },
+        {
+            "question": "1 Empreint de tristesse ; morose : Rester *** et silencieux. 2 Qui inspire la tristesse ; lugubre : Un ciel ***. 3 Sans éclat ; terne : Couleur ***.",
+            "reponse": "morne"
+        },
+        {
+            "question": "Grimace de mécontentement, faite en avançant les lèvres : Faire la ***.",
+            "reponse": "moue"
+        },
+        {
+            "question": "De nombreux : Poser *** questions.",
+            "reponse": "moult"
+        },
+        {
+            "question": "1 Changement dans le plumage, le poil, la peau, auquel les animaux vertébrés sont sujets à certaines époques de l'année ; époque de ce changement. 2 Rejet total et reconstitution du tégument chitineux, permettant la croissance des arthropodes ; ce tégument abandonné. 3 Changement qui s'opère dans le timbre de la voix des jeunes gens au moment de la puberté ; temps où arrive ce changement.",
+            "reponse": "mue"
+        },
+        {
+            "question": "1 Instrument de musique à air, composé d'un réservoir en forme de sac alimenté par un soufflet et muni de un ou deux tuyaux à anches (chalumeaux) et quelques grands tuyaux (bourdons). 2 Pièce instrumentale de tempo modéré, de mesure à 2/4, 3/4 ou 6/8. 3 Danse théâtrale, interprétée dans les opéras français du XVIIIème siècle. Bal ***, bal populaire où l'on danse au son de l'accordéon (à l'origine, de la ***). Genre musical, style propre aux orchestres des bals ***. Sac de toile porté en bandouillère.",
+            "reponse": "musette"
+        },
+        {
+            "question": "Quantité innombrable, indéfinie : Des *** de fourmis, de lumières.",
+            "reponse": "myriade"
+        },
+        {
+            "question": "1 Grand navire à voiles, au Moyen Âge ; littérature, navire. 2 Partie d'une église de plan allongé qui s'étend depuis le chœur ou le transept jusqu'à la façade principale ou au narthex ; chacun des vaisseaux parallèles pouvant composer cette partie : *** principale. *** latérales.",
+            "reponse": "nef"
+        },
+        {
+            "question": "Personne d'origine urbaine installée dans une zone rurale pour y excercer une activité professionnelle.",
+            "reponse": "néorural"
+        },
+        {
+            "question": "Qui agit d'une manière sotte, maladroite ; niais.",
+            "reponse": "nigaud"
+        },
+        {
+            "question": "1 Orner d'un ***. 2 Entourer d'un halo ; auréole : Le brouillard *** les hauteurs.",
+            "reponse": "nimber"
+        },
+        {
+            "question": "1 Ensemble des termes techniques d'une discipline, présentés selon un classement méthodique. 2 Ensemble des entrées d'un dictionnaire.",
+            "reponse": "nomenclature"
+        },
+        {
+            "question": "Qui manifeste de la nonchalance : La canicule nous rend ***.",
+            "reponse": "nonchalant"
+        },
+        {
+            "question": "1 Absence d'ardeur, d'énergie, de zèle. 2 Lenteur naturelle ou affectée des gestes ; indolence.",
+            "reponse": "nonchalance"
+        },
+        {
+            "question": "1 Su d'un grand nombre de personnes et indiscuté ; avéré : Son implication dans cette affaire est ***.",
+            "reponse": "notoire"
+        },
+        {
+            "question": "1 Passer sous silence : *** les faits compromettants. *** un souvenir. 2 En parlant d'un astre, cacher un autre astre par ***. 3 Rendre invisible un signal lumineux danbs un périmètre donné.",
+            "reponse": "occulter"
+        },
+        {
+            "question": "Inutile parce que superficiel et vain : Question ***.",
+            "reponse": "oiseuses"
+        },
+        {
+            "question": "1 Action d'omettre ; oubli : L'*** d'une virgule peut changer le sens d'un texte. 2 Ce qui est omis ; lacune : Des omissions dans un récit.",
+            "reponse": "omission"
+        },
+        {
+            "question": "1 Relatif au rêve, à l'***. 2 Qui équivoque le rêve : Scènes *** d'un film.",
+            "reponse": "onirique"
+        },
+        {
+            "question": "1 Extrême abodance de biens matériels ; richesse : Vivre dans l'***. 2 Caractère opulent de quelque chose : L'*** d'une poitrine.",
+            "reponse": "opulence"
+        },
+        {
+            "question": "1 Prière mentale sous forme de méditation. 2 Courte prière liturgique récitée par l'officiant. *** funèbre, discours prononcé en l'honneur d'un mort illustre.",
+            "reponse": "oraison"
+        },
+        {
+            "question": "1 Estime excessive de sa propre valeur ; fatuité : Etre bouffi d'***. 2 Sentiment de fierté légitime : Tirer *** d'une promotion. 3 Sujet de fierté : Cet écrivain célèbre, ce tramway ultramoderne est l'*** de la ville.",
+            "reponse": "orgueil"
+        },
+        {
+            "question": "Fidèle, par rapport au prêtre : Un curé et ses ***.",
+            "reponse": "ouailles"
+        },
+        {
+            "question": "Qui donne une impression de douceur ou de confort douillet.",
+            "reponse": "ouaté"
+        },
+        {
+            "question": "Faire un ourlet à.",
+            "reponse": "ourler"
+        },
+        {
+            "question": "1 Bordé d'un ourlet. 2 Dont le bord est bien dessiné : Lèvres ***.",
+            "reponse": "ourlé"
+        },
+        {
+            "question": "Manger la végétation la plus basse : *** l'herbe. Manger de l'herbe : Faire *** un troupeau (Synonyme : Pacager, Pâturer). Envoyer *** quelqu'un, l'éconduire avec brusquerie.",
+            "reponse": "paître"
+        },
+        {
+            "question": "1 Assemblage de plumes flottantes servant d'ornement : Un chapeau à ***. 2 Ce qui évoque un *** : *** de fumée. 3 Bravoure pleine d'élégance ; brio : Discours plein de ***. 4 Bois caducs des cervidés : Un *** d'original. 5 Surface concave, appareillée en éventail, d'un pendentif ou d'une trompe.",
+            "reponse": "panache"
+        },
+        {
+            "question": "Ecran composé de panneaux verticaux articulés entre eux, servant à isoler quelqu'un, à masquer quelque chose ou à protéger des courants d'air.",
+            "reponse": "paravent"
+        },
+        {
+            "question": "1 De la couleur mauve de la violette de ***. 2 Jambon d'appelation d'origine protégée fabriqué dans la région de ***.",
+            "reponse": "parme"
+        },
+        {
+            "question": "Territoire sur lequel s'exerce le ministère d'un curé, d'un pasteur.",
+            "reponse": "paroisse"
+        },
+        {
+            "question": "Relatif au passéisme ; qui a une tendance au passéisme.",
+            "reponse": "passéiste"
+        },
+        {
+            "question": "Attachement excessif aux valeurs du passé.",
+            "reponse": "passéisme"
+        },
+        {
+            "question": "1 Relatif aux bergers : Vie ***. 2 Relatif à l'élevage itinérant. 3 Qui évoque la vie champêtre, les amours de bergers et de bergères sur un mode idéaliste ; bucolique : Poésie pastorale. 4 Qui concerne le ministre du culte, particulièrement l'évèque, en tant que pasteur d'âmes.",
+            "reponse": "pastoral"
+        },
+        {
+            "question": "1 Qui évoque la poésie pastorale. 2 Qui aime la vie à la campagne : D'humeur ***. Poème évoquant des scènes ou des sentiments liés à la vie pastorale.",
+            "reponse": "bucolique"
+        },
+        {
+            "question": "1 Support fixé à un mur pour accrocher des vêtements ou pour soutenir des rideaux, des tentures. 2 Coupe à boire évasée et peu profonde. 3 Ornement en forme de rosace.",
+            "reponse": "patère"
+        },
+        {
+            "question": "1 Subir un dommage à cause de ; souffrir : Les salariés *** des restrictions budgétaires. 2 Eprouver les conséquences néfastes de : Les hortensias ont *** de la sécheresse.",
+            "reponse": "pâtir"
+        },
+        {
+            "question": "1 Chef d'une entreprise industrielle ou commerciale ; employeur par rapport à ses employés. 2 Professeur, maître qui dirige un travail de recherche : *** de thèse. 3 Dirigeant d'une organisation, d'un parti : La nouvelle *** du syndicat. 4 Saint dont on porte le nom ; saint à qui une église est dédiée ; saint protecteur. 5 Commandant d'un bateau de pêche. 6 Citoyen puissant accordant sa protection à d'autres citoyens. 7 Modèle en toile, en papier; fort, etc., d'après lequel on taille un vêtement. ...",
+            "reponse": "patron"
+        },
+        {
+            "question": "1 Un pauvre ***, un homme misérable. 2 Jeune cerf ou jeune daim âgé de six mois à un an et n'ayant pas encore ses premiers bois;",
+            "reponse": "hère"
+        },
+        {
+            "question": "Orner un navire, un édifice, etc., de pavillons, de drapeaux. Manifester une grande fierté à l'occasion d'un succès. Il n'y a pas de quoi ***, il n'y a pas de quoi être fier.",
+            "reponse": "pavoiser"
+        },
+        {
+            "question": "Homme qui pratique la pédérasterie.",
+            "reponse": "pédéraste"
+        },
+        {
+            "question": "Confus à la suite d'une maladresse, d'une déconvenue.",
+            "reponse": "penaud"
+        },
+        {
+            "question": "1 Ruine morale : Lieu de ***. 2 Etat de péché menant à la ruine de l'âme. En ***, se dit d'un navire en danger de faire naufrage ; se dit d'une entreprise, d'un groupe menacés d'être ruinés, anéantis.",
+            "reponse": "perdition"
+        },
+        {
+            "question": "Rendre durable ; perpétuer : *** une tradition.",
+            "reponse": "pérénniser"
+        },
+        {
+            "question": "Caractère de ce qui dure toujours ou très longtemps : La *** de la démocratie.",
+            "reponse": "pérénnité"
+        },
+        {
+            "question": "1 Dangereux pour la santé ; nocif : Emanations ***. 2 Nuisible d'un point de vu moral, social ; malsain : Théorie ***. 3 Se dit d'une maladie particulièrement grave.",
+            "reponse": "pernicieux"
+        },
+        {
+            "question": "Discourir longuement et avec emphase.",
+            "reponse": "pérorer"
+        },
+        {
+            "question": "Exagération pompeuse dans le ton, les termes employés ; grandiloquence.",
+            "reponse": "emphase"
+        },
+        {
+            "question": "1 Se dit d'un malade atteint de la peste. 2 Se dit d'une personne que les autres fuient ou évitent.",
+            "reponse": "pestiféré"
+        },
+        {
+            "question": "Qui dégage une odeur infecte ; nauséabond : Emanations ***.",
+            "reponse": "pestilentiel"
+        },
+        {
+            "question": "1 Qui cause des nausées : Egouts ***. 2 Qui provoque le dégoût, le rejet ; immonde : Film ***.",
+            "reponse": "nauséabond"
+        },
+        {
+            "question": "1 Attachement respectueux et fervent à Dieu et à la religion. 2 Affection déférente, respectueuse : *** filiale.",
+            "reponse": "piété"
+        },
+        {
+            "question": "Qui est de peu de valeur ; médiocre : Un *** acteur, résultat.",
+            "reponse": "piètre"
+        },
+        {
+            "question": "Nourriture journalière : Une maigre ***.",
+            "reponse": "pitance"
+        },
+        {
+            "question": "1 Se dit d'un amour sans relations charnelles. 2 Sans effet réel ; formel : Protestation ***.",
+            "reponse": "platonique"
+        },
+        {
+            "question": "1 Etat de ce qui est cmoplet, entier ; intégralité : Retrouver la *** de ses moyens. 2 Sentiment de contentement absolu.",
+            "reponse": "plénitude"
+        },
+        {
+            "question": "1 Personnage grotesque, bossu et pansu, du théâtre de marionnettes, issu de la comédie italienne. 2 Jout (marionnette) en forme de ***. 3 Personne ridicule, en qui l'on ne peut placer se confiance ; pantin. Secret ***, chose que l'on veut dissimuler mais qui est connue de tous.",
+            "reponse": "polichinelle"
+        },
+        {
+            "question": "Qui a peur et manque de courage ; lâche.",
+            "reponse": "poltronne"
+        },
+        {
+            "question": "Porte dérobée percée dans la muraille d'une fortification et donnant souvent sur le fossé.",
+            "reponse": "poterne"
+        },
+        {
+            "question": "1 Critiquer vigoureusement ; s'attaquer à : *** les préjugés. 2 Fendre de haut en bas avec une arme tranchante.",
+            "reponse": "pourfendres"
+        },
+        {
+            "question": "1 Personne ou chose qui fournit quelque chose : L'internet pourrait être un *** d'emplois. Servant d'une arme à feu collective, chargé de la ravitailler en munitions.",
+            "reponse": "pourvoyeurs"
+        },
+        {
+            "question": "1 Doctrine qui prend pour critère de la vérité la valeur pratique, considérant qu'il n'y a pas de vérité absolue et que n'est vrai que ce qui réussit. 2 Attitude de quelqu'un qui s'adapte à toutes les situations, qui est orienté vers l'action pratique.",
+            "reponse": "pragmatisme"
+        },
+        {
+            "question": "1 Introduction à un discours, un exposé ; avant-propos. 2 Partie préliminaire d'une constitution, d'un traité, énonçant des principes fondamentaux. 3 Ce qui précède, annonce quelque chose ; prédule : Le *** d'une crise.",
+            "reponse": "préambule"
+        },
+        {
+            "question": "Supériorité absolue sur les autres ; primauté : Réaffirmer la *** de la science dans le progrès.",
+            "reponse": "prééminence"
+        },
+        {
+            "question": "1 Premières manifestations de quelque chose ; commencement : Les *** d'un conflit.",
+            "reponse": "prémices"
+        },
+        {
+            "question": "Qui manifeste une trop haute opinion de soi ; prétentieux.",
+            "reponse": "présomptueux"
+        },
+        {
+            "question": "1 Salle d'audience d'un tribunal. 2 Tente du général, dans un camp ; palais du préteur, dans les provinces.",
+            "reponse": "prétoires"
+        },
+        {
+            "question": "1 Qui agit rapidement ; vif : Il est *** à la colère. 2 Qui ne tarde pas ; rapide : Un *** rétablissement.",
+            "reponse": "prompte"
+        },
+        {
+            "question": "En état de prostation ; abattu.",
+            "reponse": "prostré"
+        },
+        {
+            "question": "Etat d'abattement physique et psychique provoqué par certaines maladies.",
+            "reponse": "prostration"
+        },
+        {
+            "question": "1 Réciter, chanter un psaume sans inflexion de voix, avec des repos marqués. 2 Dire, réciter d'une manière monotone.",
+            "reponse": "psalmodier"
+        },
+        {
+            "question": "Chant liturgique de la religion d'Israël (attribué au roi David), passé dans le culte chrétien et constitué d'une suite variable de versets.",
+            "reponse": "psaume"
+        },
+        {
+            "question": "Solliciter humblement et avec insistance : *** une aide financière.",
+            "reponse": "quémander"
+        },
+        {
+            "question": "Chercher avec l'intention d'amener, d'apporter : Je vais *** du secours. (S'emploie seulement à l'infinitif après les verbes 'aller', 'venir', 'envoyer', 'faire')",
+            "reponse": "quérir"
+        },
+        {
+            "question": "En 2 mots (tiret). Sur le ***, sur ses gardes pour parer à tout danger.",
+            "reponse": "qui-vive"
+        },
+        {
+            "question": "Erreur qui fait prendre une chose, une personne pour une autre ; méprise : La présence des jumeaux a entraîné plusieurs ***.",
+            "reponse": "quiproquo"
+        },
+        {
+            "question": "Tourner en ridicule ; se moquer de : Humoriste qui *** les travers des hommes politiques.",
+            "reponse": "railler"
+        },
+        {
+            "question": "Petite branche d'arbre ; ramification de la tige d'un végétal. 2 Subdivision d'un ensemble (linguistique, généalogique, etc.) représenté sous forme d'arbre. 3 Petite branche d'un vaisseau, d'un nerf. Les ***x, fête commémorant l'entrée triomphale de Jésus à Jérusalem, une semaine avant Pâques, et qui est célébrée le dernier dimanche du carême.",
+            "reponse": "rameau"
+        },
+        {
+            "question": "1 Division d'un végétal arborescent. 2 Division d'un vaisseau, d'un nerf en rameaux ; chacun de ces rameaux. 3 Subdivision de ce qui va dans des directions différentes ; prolongement ; Les *** d'un complot, d'un groupuscule terroriste.",
+            "reponse": "ramification"
+        },
+        {
+            "question": "1 Ensemble des branches et des rameaux d'un arbre ; ramée. 2 Bois du cerf, du daim, du renne, du chevreuil, de l'élan.",
+            "reponse": "ramure"
+        },
+        {
+            "question": "Rendre la sérénité, le calme à ; rassurer : Votre lettre l'a ***. Se ***, retrouver son calme.",
+            "reponse": "rasséréner"
+        },
+        {
+            "question": "Agir sur la sensibilité de ; affecter : L'annonce de son départ nous a émus. S'*** : 1 Ressentir une émotion, un trouble qui boulverse, touche. 2 S'affecter de quelque chose ; s'alarmer : Ses parents se sont *** de sa pâleur",
+            "reponse": "émouvoir"
+        },
+        {
+            "question": "Colorer de pourpre, de rouge : Le soleil *** le couchant. S'*** Rougir : Son visage s'est ***.",
+            "reponse": "empourprer"
+        },
+        {
+            "question": "Enchaîner ; accumuler : *** les buts, les arrestations.",
+            "reponse": "enquiller"
+        },
+        {
+            "question": "Portique ou vestibule transversal, à l'entrée de certaines églises paléochrétiennes et médiévales, où se tenaient les catéchumènes et les pénitents",
+            "reponse": "narthex"
+        },
+        {
+            "question": "Personne, généralement adulte, que l'on instruit pour la disposer à recevoir le baptême.",
+            "reponse": "catéchumènes"
+        },
+        {
+            "question": "Refus brutal ou désobligeant : Ils ont essuyé une *** du ministre.",
+            "reponse": "rebuffade"
+        },
+        {
+            "question": "Qui résiste avec opiniâtreté ; rétif : Expliquer la géométrie à un enfant ***.",
+            "reponse": "récalcitrant"
+        },
+        {
+            "question": "Volonté tenace ; détermination : L'*** d'un juge.",
+            "reponse": "opiniâtreté"
+        },
+        {
+            "question": "1 Se dit des prêtres qui, sous la Révolution française, avaient refusé de prêter serment à la Constitution civile du clergé (par opposition à assermenté) 2 Se dit d'un conscrit qui, sous le Consulat et l'Empire, refusait d'accomplir le service militaire. 3 Se dit des citoyens français qui, en 1943 et 1944, se dérobaient au Service du travail obligatoire (STO) en Allemagne.",
+            "reponse": "réfractaire"
+        },
+        {
+            "question": "Démontrer la fausseté d'une affirmation par des épreuves contraires : *** une thèse.",
+            "reponse": "réfuter"
+        },
+        {
+            "question": "Terme, souvent utilisé dans la littérature médiévale-fantastique, désignant un territoire, un État ou un peuple gouverné par une reine.",
+            "reponse": "reinaume"
+        },
+        {
+            "question": "1 Mauvaise odeur qui persiste ; remugle : Un *** de moisi. 2 Ce qui reste de quelque chose ; trace : Un *** de gauchisme",
+            "reponse": "relent"
+        },
+        {
+            "question": "1 Ce qui subsiste de quelque chose ; vestige. 2 Ce qui reste dû après un arrêté de comptes",
+            "reponse": "reliquat"
+        },
+        {
+            "question": "1 Retour involontaire d'un souvenir. 2 Emprunt fait inconsciemment à des souvenirs de lecture : On trouve des *** de Perec dans ce texte ; souvenir vague et imprécis : J'ai quelques *** de cette époque.",
+            "reponse": "réminiscence"
+        },
+        {
+            "question": "1 Reproche adressé à quelqu'un ; réprimande. 2 Dans la France de l'Ancien Régime, observation adressée au roi par le parlement et les autres cours souveraines pour lui signaler les inconvénients d'un de ses actes législatifs.",
+            "reponse": "remontrance"
+        },
+        {
+            "question": "1 Tourbillon d'eau qui se forme derrière un navire en marche. 2 Tourbillon qui se forme après le passage de l'eau sur un obstacle. 3 Contre-courant le long des rives d'un cours d'eau. 4 Ensemble de mouvements en sens divers ; agitation : Les remous de la foule. 5 Mouvements divers qui agitent ou divisent l'opinion : L'affaire p^rovoque des ***.",
+            "reponse": "remous"
+        },
+        {
+            "question": "1 Personne qui abjure sa religion. 2 Personne qui renie ses opinions, sa patrie ; traitre.",
+            "reponse": "renégat"
+        },
+        {
+            "question": "1 Douleur morale causée par la conscience d'avoir mal agi ; contrition. 2 Trace d'un changement apporté à une œuvre durant son exécution.",
+            "reponse": "repentir"
+        },
+        {
+            "question": "Souvenri d'une injustice accompagné du désir de s'en venger ; rancune.",
+            "reponse": "ressentiment"
+        },
+        {
+            "question": "1 Qui s'arrête ou recule au lieu d'avancer : jugement ***. 2 Difficile à diriger, à persuader ; récalcitrant : Ecolier ***.",
+            "reponse": "rétif"
+        },
+        {
+            "question": "1 Qui est passé ; qui n'existe plus : Des temps ***. 2 Complétement achevé : Avoir vingt ans ***.",
+            "reponse": "révolu"
+        },
+        {
+            "question": "Arbustre des régions tempérées de l'hémisphère Nord, dont certaines espèces sont cultivées pour leurs grandes fleurs ornementales.",
+        "reponse": "rhododendron"
+        },
+        {
+            "question": "Qui est l'objet d'un respect quasi religieux.",
+            "reponse": "sacro-saint"
+        },
+        {
+            "question": "Qui sauve : Geste ***. Trouver une autre définition ...",
+            "reponse": "salvateur"
+        },
+        {
+            "question": "D'une ironie mordante, acerbe ; sardonique : Rire ***. Chroniqueuse ***.",
+            "reponse": "sarcastique"
+        },
+        {
+            "question": "D'une bizarrerie ridicule ; absurde : Idée ***.",
+            "reponse": "saugrenue"
+        },
+        {
+            "question": "1 Qui manifeste du scepticisme ; incrédule. 2 Relatif au scepticisme ; qui en est partisan.",
+            "reponse": "sceptique"
+        },
+        {
+            "question": "1 Etat d'esprit d'une personne qui refuse son adhésion à des croyances ou à des affirmations généralement admises. 2 Courant de la philosophie antique qui s'est attaché à montrer de façon méthodique que l'esprit humain ne saurait atteindre une quelconque vérité, et qu'il convient donc de suspendre son jugement si l'on veut parvenir à l'ataraxie.",
+            "reponse": "scepticisme"
+        },
+        {
+            "question": "Quiétude absolue de l'âme (principe du bonheur selon l'épicurisme et le stoïcisme).",
+            "reponse": "ataraxie"
+        },
+        {
+            "question": "Répété indéfiniment, au point de lasser ; De *** jérémiades.",
+            "reponse": "sempiternelle"
+        },
+        {
+            "question": "1 Relatif au servage. 2 Qui fait preuve d'une soumission excessive ; obséquieux : Employé, acquiescement ***. 3 Qui suit trop étroitement le modèle : Traduction ***.",
+            "reponse": "servile"
+        },
+        {
+            "question": "1 Etat de dépendance d'une personne à l'égard du maître à qui appartenait la terre sur laquelle elle travaillait. 2 Esclavage ; servitude : Clandestins soumis au servage pour payer leur passage.",
+            "reponse": "servage"
+        },
+        {
+            "question": "Qui va bien à : Une couleur très seyante.",
+            "reponse": "seyant"
+        },
+        {
+            "question": "1 Frapper de stupeur ; effarer. 2 Provoquer la sidération de.",
+            "reponse": "sidérer"
+        },
+        {
+            "question": "1 D'une saleté repoussante ; misérable : Des taudis ***. 2 D'une grande bassesse morale ; abject : Une affaire ***. 3 Marqué par l'âpreté au gain ; mesquin : De *** questions d'intérêt.",
+            "reponse": "sordide"
+        },
+        {
+            "question": "1 Saut brusque et imprévu : Le cheval fit un ***. 2 Mouvement brusque et involontaire du corps ; tressaillement. 3 Saut bref, de petite amplitude, les deux pieds joints.",
+            "reponse": "soubresaut"
+        },
+        {
+            "question": "1 Dans une écurie, une étable, emplacement occupé par un animal et délimité par des cloisons. 2 Chacun des sièges de bois, à dossier haut, garnissant les deux côtés du chœur de certaines églises et réservés au clergé.",
+            "reponse": "stalle"
+        },
+        {
+            "question": "Ruse habile.",
+            "reponse": "stratagème"
+        },
+        {
+            "question": "1 Qui est dit en pe de mots ; concis : Présentation ***. 2 Qui exprime en peu de mots ; laconique : Je vais tenter d'être ***. 3 Peu abondant : Un dîner ***.",
+            "reponse": "succinct"
+        },
+        {
+            "question": "Partie en saillie, qui avance au-dessus du vide. En ***, en avant de l'aplomb : Terrasse en ***.",
+            "reponse": "surplomb"
+        },
+        {
+            "question": "Murmurrer doucement.",
+            "reponse": "susurrer"
+        },
+        {
+            "question": "1 Exécuter le filetage d'un trou à l'aide d'un taraud. 2 Tourmenter moralement ; ronger.",
+            "reponse": "tarauder"
+        },
+        {
+            "question": "Se glorifier de quelque chose avec arrogance ; se vanter.",
+            "reponse": "targuer"
+        },
+        {
+            "question": "Sonnerie de cloche répétée et prolongée, pour donner l'alarme.",
+            "reponse": "toscin"
+        },
+        {
+            "question": "1 Manteau de laine, ample et long, qui était le vêtement d'apparat des Romains. 2 Robe de magistrat, d'avocat, de professeur.",
+            "reponse": "toge"
+        },
+        {
+            "question": "1 Etat de quelqu'un chez qui l'activité psychique et physique est réduite ; engourdissement : La sonnerie l'a tiré de sa ***. 2 Ralentissement général des activités ; somnolence : La *** d'une ville sous la canicule.",
+            "reponse": "torpeur"
+        },
+        {
+            "question": "Se dit d'un regard oblique et menaçant.",
+            "reponse": "torve"
+        },
+        {
+            "question": "Borosilicate d'aluminium, de coloration variée, parfois utilisé comme pierre fine.",
+            "reponse": "tourmaline"
+        },
+        {
+            "question": "Très amaigri : Visage ***.",
+            "reponse": "émacié"
+        },
+        {
+            "question": "Rendre maigre ; amaigrir. S'***, devenir très maigre.",
+            "reponse": "émacier"
+        },
+        {
+            "question": "1 Situation d'un voyageur qui, lors d'une escale aérienne, demeure dans l'enceinte de l'aéroport : Etre en ***. 2 Régime de franchise des droits de douane pour les marchandises qui traversent le territoire national, sans s'y arrêter, à destination d'un pays étranger. Cité de ***, ensemble de logements destinés à l'hébergement provisoire des occupants de locaux insalubres, à rénover ou à détruire. *** intestinal, déplacement du contenu du tube digestif depuis le pylore jusqu'au rectum, sous l'influence des contractions péristaltiques de l'intestin.",
+            "reponse": "transit"
+        },
+        {
+            "question": "1 Petit défaut de l'esprit ou du caractère ; manie : Il a les *** d'une diva. 2 Côté, flanc d'un navire. A *** quelque chose, en traversant quelque chose : A *** champs. Au *** de quelque chose, par l'intermédiaire, le biais de. De ***, dans une position anormale : Le miroir est de *** ; de manière inexacte : Il a compris de *** ; de la mauvaise ; mal : Tout va de ***. En *** (de quelque chose), suivant la largeur : Scier une planche en *** ; dans une position transversale : Camion en *** de la route.",
+            "reponse": "travers"
+        },
+        {
+            "question": "1 Orateur populaire à l'éloquence puissante et directe. 2 Magistrat chargé, à l'origine, de l'administration d'une tribu. 3 Membre du Tribunat, en France, sous le Consulat et l'Empire. *** de la plèbe; magistrat élu par les comices tributes (citoyen réunis en tribus) et chargé de défendre les intérêts de la plèbe. *** militaire ou des soldats, l'un des six officiers supérieurs à la tête d'une légion.",
+            "reponse": "tribun"
+        },
+        {
+            "question": "Par le *** de, par l'intermédiaire, l'entremise de.",
+            "reponse": "truchement"
+        },
+        {
+            "question": "Plei de tumulte ; houleux : Une réunion ***.",
+            "reponse": "tumultueux"
+        },
+        {
+            "question": "1 Grand désordre bruyant ; tapage : Le juge n'a pas réussi à faire cesser le ***. 2 Grande agitation désordonnée ; effervescence : Le *** de la vie urbaine.",
+            "reponse": "tumulte"
+        },
+        {
+            "question": "1 Procédé de composition et d'impression sur des caractères mobiles et des clichés en relief. 2 Présentation graphique d'un texte imprimé : Une *** moderne.",
+            "reponse": "typographie"
+        },
+        {
+            "question": "1 Cri de l'enfant nouveauné. 2 Cri faible et plaintif du lièvre, du crocodile.",
+            "reponse": "vagissement"
+        },
+        {
+            "question": "Manifestation violente et passionnée d'un sentiment ; exaltation.",
+            "reponse": "véhémence"
+        },
+        {
+            "question": "Séjour de repos, à la campagne ou dans un lieu de plaisance (ville d'eaux, plage...).",
+            "reponse": "villégiature"
+        },
+        {
+            "question": "1 Relatif aux viscères : Cavité ***. 2 Qui vient des profondeurs de l'être : Une peur de l'être : Une peur ***.",
+            "reponse": "viscéral"
+        },
+        {
+            "question": "Donner la vie, de la santé, de la vigueur à ; tonifier.",
+            "reponse": "vivifier"
+        },
+        {
+            "question": "Se dit d'une voix atteinte d'enrouement ; éraillé.",
+            "reponse": "enroué"
+        },
+        {
+            "question": "Altération de la voix, rendue rauque par une atteinte du larynx (synonyme : dysphonie).",
+            "reponse": "enrouement"
+        },
+        {
+            "question": "Anormalement courbé : Dos ***.",
+            "reponse": "vouté"
         }
     ]
 }
