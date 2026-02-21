@@ -25,7 +25,7 @@ const imageAffiche = document.querySelector(".image");
 const elementNom = document.getElementById("nom");
 const boutonVu = document.getElementById("btn-vu");
 const boutonPasVu = document.getElementById("btn-pas-vu");
-const boutonRetour = document.getElementById("btn-retour-selection");
+const boutonRetourSelection = document.getElementById("btn-retour-selection");
 
 let affiches = [];
 let indexAffiche = 0;
@@ -181,8 +181,8 @@ const initialiserNavigation = () => {
         boutonMenu.addEventListener("click", abandonnerSelection);
     }
 
-    if (boutonRetour) {
-        boutonRetour.addEventListener("click", () => {
+    if (boutonRetourSelection) {
+        boutonRetourSelection.addEventListener("click", () => {
             abandonnerSelection();
             window.location.href = "../pages/film_menu.html";
         });
