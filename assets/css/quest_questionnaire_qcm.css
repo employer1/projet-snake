@@ -32,9 +32,11 @@ h2 {
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(var(--qcm-nb-lignes), minmax(0, 1fr));
+    grid-template-rows: repeat(var(--qcm-nb-lignes), auto);
+    gap: 10px;
 
-    align-items: center;
+    align-items: stretch;
+    align-content: start;
     justify-items: center;
     justify-self: center;
 }
