@@ -3,7 +3,8 @@ ce putain de projet de merde. Il est aussi a chier que le reste de ce monde
 
 Pour exécuter le projet. Ouvrir le CMD de l'ordinateur et se diriger dans
 "C:\Users\theot\WebstormProjects\projet-snake"
-ou dans "C:\Users\theo\WebstormProjects\projet-snake" sur mon portable.
+ou dans
+"C:\Users\theo\WebstormProjects\projet-snake" sur mon portable.
 Exécutez "npx electron .".
 
 Vérifier si les modifications s'appliquent quand même avec "npm start" depuis le terminal de WebStorm.

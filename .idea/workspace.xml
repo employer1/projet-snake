@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="modifications mineures">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vocabulaire.json" beforeDir="false" afterPath="$PROJECT_DIR$/vocabulaire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/quest_creer_qcm.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/quest_creer_qcm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/quest_creer_qcm_existe.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/quest_creer_qcm_existe.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/livre_permis_conduire.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/autre/livre_permis_conduire.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +38,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/employer1/projet-snake.git&quot;,
-    &quot;accountId&quot;: &quot;2ee5dc0f-554d-4cf4-b2fe-821e4181a25f&quot;
+    &quot;accountId&quot;: &quot;0d69239c-8d56-48a4-a48f-9b5694111ed2&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -108,6 +110,10 @@
       <workItem from="1771521505515" duration="26910000" />
       <workItem from="1771583903742" duration="3361000" />
       <workItem from="1771591409051" duration="1619000" />
+      <workItem from="1771619584837" duration="1948000" />
+      <workItem from="1771639131244" duration="344000" />
+      <workItem from="1771668498810" duration="1169000" />
+      <workItem from="1771707831068" duration="631000" />
     </task>
     <task id="LOCAL-00001" summary="petites modifications de questionnaires">
       <option name="closed" value="true" />
