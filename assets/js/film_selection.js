@@ -25,11 +25,22 @@ const imageAffiche = document.querySelector(".image");
 const elementNom = document.getElementById("nom");
 const boutonVu = document.getElementById("btn-vu");
 const boutonPasVu = document.getElementById("btn-pas-vu");
-const boutonRetour = document.getElementById("btn-retour-selection");
+const boutonRetourSelection = document.getElementById("btn-retour-selection");
 
 let affiches = [];
 let indexAffiche = 0;
 let filmsSelectionnes = [];
+
+const melangerTableau = (elements) => {
+    const copie = [...elements];
+
+    for (let index = copie.length - 1; index > 0; index -= 1) {
+        const indexAleatoire = Math.floor(Math.random() * (index + 1));
+        [copie[index], copie[indexAleatoire]] = [copie[indexAleatoire], copie[index]];
+    }
+
+    return copie;
+};
 
 const normaliserNomFilm = (nomFichier) => {
     const dernierPoint = nomFichier.lastIndexOf(".");
@@ -47,6 +58,12 @@ const mettreAJourBoutonStart = () => {
     const peutDemarrer = filmsSelectionnes.length >= MINIMUM_FILMS;
     boutonDemarrer.disabled = !peutDemarrer;
     boutonDemarrer.setAttribute("aria-disabled", String(!peutDemarrer));
+
+    if (peutDemarrer) {
+        boutonDemarrer.dataset.page = configuration.pageDemarrer;
+    } else {
+        boutonDemarrer.removeAttribute("data-page");
+    }
 
     if (peutDemarrer) {
         boutonDemarrer.title = "";
@@ -152,16 +169,10 @@ const initialiserNavigation = () => {
     }
 
     if (boutonDemarrer) {
-        boutonDemarrer.dataset.page = configuration.pageDemarrer;
-        boutonDemarrer.addEventListener("click", (event) => {
-            const peutDemarrer = filmsSelectionnes.length >= MINIMUM_FILMS;
-            if (!peutDemarrer) {
-                event.preventDefault();
-                event.stopPropagation();
-                return;
+        boutonDemarrer.addEventListener("click", () => {
+            if (filmsSelectionnes.length >= MINIMUM_FILMS) {
+                sauvegarderSelection();
             }
-
-            sauvegarderSelection();
         });
     }
 
@@ -170,8 +181,8 @@ const initialiserNavigation = () => {
         boutonMenu.addEventListener("click", abandonnerSelection);
     }
 
-    if (boutonRetour) {
-        boutonRetour.addEventListener("click", () => {
+    if (boutonRetourSelection) {
+        boutonRetourSelection.addEventListener("click", () => {
             abandonnerSelection();
             window.location.href = "../pages/film_menu.html";
         });
@@ -203,6 +214,8 @@ const chargerAffiches = async () => {
     if (!Array.isArray(affiches)) {
         affiches = [];
     }
+
+    affiches = melangerTableau(affiches);
 
     indexAffiche = 0;
     afficherAfficheCourante();
