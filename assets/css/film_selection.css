@@ -32,7 +32,8 @@ h1 {
 
 .image {
     width: 80%;
-    height: auto;
+    height: 80%;
+    object-fit: contain;
 }
 
 #nom {
