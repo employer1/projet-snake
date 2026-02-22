@@ -5,6 +5,8 @@ const { pathToFileURL } = require("url");
 
 const getStatsPath = () => path.join(app.getPath("userData"), "dactylo", "stat_dactylo.json");
 const getQuestStatsPath = () =>
+    path.join(app.getPath("userData"), "quest", "stat", "stat_quest.json");
+const getLegacyQuestStatsPath = () =>
     path.join(app.getPath("userData"), "quest", "stat_quest.json");
 const getQuestDestinationPath = () => path.join(app.getPath("userData"), "quest");
 const getQuestSourcePath = () => path.join(app.getAppPath(), "quest");
@@ -509,6 +511,29 @@ const ensureQuestStatsDir = async () => {
     await fs.mkdir(dir, { recursive: true });
 };
 
+const migrateLegacyQuestStats = async () => {
+    try {
+        await fs.access(getQuestStatsPath());
+        return;
+    } catch (error) {
+        if (error.code !== "ENOENT") {
+            throw error;
+        }
+    }
+
+    try {
+        await fs.access(getLegacyQuestStatsPath());
+    } catch (error) {
+        if (error.code === "ENOENT") {
+            return;
+        }
+        throw error;
+    }
+
+    await ensureQuestStatsDir();
+    await fs.rename(getLegacyQuestStatsPath(), getQuestStatsPath());
+};
+
 const readStatsFile = async () => {
     try {
         const contenu = await fs.readFile(getStatsPath(), "utf-8");
@@ -527,6 +552,7 @@ const writeStatsFile = async (stats) => {
 };
 
 const readQuestStatsFile = async () => {
+    await migrateLegacyQuestStats();
     try {
         const contenu = await fs.readFile(getQuestStatsPath(), "utf-8");
         return JSON.parse(contenu);
@@ -539,6 +565,7 @@ const readQuestStatsFile = async () => {
 };
 
 const writeQuestStatsFile = async (stats) => {
+    await migrateLegacyQuestStats();
     await ensureQuestStatsDir();
     await fs.writeFile(getQuestStatsPath(), JSON.stringify(stats, null, 4), "utf-8");
 };
