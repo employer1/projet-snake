@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="préparation mineure pour film">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/film_classement.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/film_classement.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +110,7 @@
       <workItem from="1771619584837" duration="1948000" />
       <workItem from="1771639131244" duration="344000" />
       <workItem from="1771668498810" duration="1169000" />
-      <workItem from="1771707831068" duration="11405000" />
+      <workItem from="1771707831068" duration="13030000" />
     </task>
     <task id="LOCAL-00001" summary="petites modifications de questionnaires">
       <option name="closed" value="true" />
@@ -217,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771712247862</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="préparation mineure pour film">
+      <option name="closed" value="true" />
+      <created>1771721514491</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1771721514491</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
