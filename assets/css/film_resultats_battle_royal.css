@@ -58,3 +58,17 @@ h1 {
     justify-self: center;
     align-content: center;
 }
+.classement_complet {
+    margin-top: 1rem;
+    max-height: 35vh;
+    overflow: auto;
+}
+
+#classement_liste {
+    margin: 0;
+    padding-left: 2rem;
+}
+
+#sauvegarde_info {
+    font-size: 0.9rem;
+}

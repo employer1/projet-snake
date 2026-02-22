@@ -1,5 +1,6 @@
 /*fichier JS de film_resultats_battle_royal.html*/
 const CLE_TOP3_BATTLE_ROYAL = "film_top3_battle_royal";
+const CLE_CLASSEMENT_FILMS = "film_classement_complet";
 
 const affiches = {
     premiere: document.getElementById("affiche_film_2"),
@@ -12,6 +13,9 @@ const noms = {
     deuxieme: document.getElementById("nom_film_2"),
     troisieme: document.getElementById("nom_film_3")
 };
+
+const listeClassement = document.getElementById("classement_liste");
+const elementSauvegarde = document.getElementById("sauvegarde_info");
 
 const normaliserNomFilm = (nomFichier) => {
     const dernierPoint = nomFichier.lastIndexOf(".");
@@ -36,9 +40,54 @@ const remplirCarte = (elementImage, elementNom, nomFichier, position) => {
     elementNom.textContent = normaliserNomFilm(nomFichier);
 };
 
-const initialiser = () => {
+const remplirClassementComplet = (classement) => {
+    if (!listeClassement) {
+        return;
+    }
+
+    listeClassement.innerHTML = "";
+
+    classement.forEach((film) => {
+        const item = document.createElement("li");
+        item.textContent = normaliserNomFilm(film);
+        listeClassement.appendChild(item);
+    });
+};
+
+const sauvegarderClassement = async (classement) => {
+    if (!elementSauvegarde) {
+        return;
+    }
+
+    if (!window.electronAPI?.saveFilmClassement) {
+        elementSauvegarde.textContent = "Sauvegarde indisponible.";
+        return;
+    }
+
+    try {
+        const resultat = await window.electronAPI.saveFilmClassement(classement);
+        if (resultat?.filePath) {
+            elementSauvegarde.textContent = `Classement enregistré dans ${resultat.filePath}`;
+            return;
+        }
+        elementSauvegarde.textContent = "Classement enregistré.";
+    } catch (_error) {
+        elementSauvegarde.textContent = "Impossible d'enregistrer le classement.";
+    }
+};
+
+const chargerClassement = () => {
+    const classementBrut = sessionStorage.getItem(CLE_CLASSEMENT_FILMS);
     const top3Brut = sessionStorage.getItem(CLE_TOP3_BATTLE_ROYAL);
+
+    let classement = [];
     let top3 = [];
+
+    try {
+        classement = JSON.parse(classementBrut ?? "[]");
+    } catch (_error) {
+        classement = [];
+    }
 
     try {
         top3 = JSON.parse(top3Brut ?? "[]");
@@ -46,13 +95,26 @@ const initialiser = () => {
         top3 = [];
     }
 
-    if (!Array.isArray(top3)) {
-        top3 = [];
+    if (!Array.isArray(classement)) {
+        classement = [];
     }
 
-    remplirCarte(affiches.premiere, noms.premiere, top3[0], "1");
-    remplirCarte(affiches.deuxieme, noms.deuxieme, top3[1], "2");
-    remplirCarte(affiches.troisieme, noms.troisieme, top3[2], "3");
+    if (classement.length === 0 && Array.isArray(top3)) {
+        classement = top3;
+    }
+
+    return classement;
 };
 
-initialiser();
+const initialiser = async () => {
+    const classement = chargerClassement();
+
+    remplirCarte(affiches.premiere, noms.premiere, classement[0], "1");
+    remplirCarte(affiches.deuxieme, noms.deuxieme, classement[1], "2");
+    remplirCarte(affiches.troisieme, noms.troisieme, classement[2], "3");
+
+    remplirClassementComplet(classement);
+    await sauvegarderClassement(classement);
+};
+
+void initialiser();
