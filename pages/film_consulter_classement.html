@@ -1,56 +1,56 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Langue Quest</title>
+    <title>Résultats Classement Quest</title>
 
-        <link rel="stylesheet" href="../assets/css/base.css"> <!--css global en premier-->
-        <link rel="stylesheet" href="../assets/css/boutons.css"> <!--autre css global-->
-        <link rel="stylesheet" href="../assets/css/film_consulter_classement.css"> <!--css propre à ce fichier HTML-->
+    <link rel="stylesheet" href="../assets/css/base.css"> <!--css global en premier-->
+    <link rel="stylesheet" href="../assets/css/boutons.css"> <!--autre css global-->
+    <link rel="stylesheet" href="../assets/css/film_consulter_classement.css"> <!--css propre à ce fichier HTML-->
 
-        <script src="../assets/js/boutons_navigation.js" defer></script>
-    </head>
-    <body>
-        <main>
-            <aside>
-                <div class="aside_haut">
-                    <button class="bouton_menu">
-                        <img src="../image/maison.png" alt="menu" class="btn-icon">
-                        <span class="btn-text">Menu</span>
-                    </button>
+    <script src="../assets/js/boutons_navigation.js" defer></script>
+    <script src="../assets/js/film_consulter_classement.js" defer></script>
+</head>
+<body>
+<main>
+    <aside>
+        <div class="aside_haut">
+            <button class="bouton_menu">
+                <img src="../image/maison.png" alt="menu" class="btn-icon">
+                <span class="btn-text" data-page="../pages/film_menu.html">Menu</span>
+            </button>
+        </div>
+
+        <div class="space"></div>
+
+        <div class="aside_bas"></div>
+
+        <button class="bouton_param">
+            <img src="../image/engrenage.png" alt="param" class="btn-icon">
+            <span class="btn-text" data-page="../pages/options_menu.html">Paramètres</span>
+        </button>
+    </aside>
+
+    <section>
+        <div class="header">
+            <p class="position_2">version 1.0</p>
+        </div>
+
+        <div class="section">
+            <h1>Résultats</h1>
+
+            <div class="corps">
+                <div class="sous_corps" id="liste_classement"></div>
+                <p id="sauvegarde_info"></p>
+
+                <div class="pied">
+                    <button class="bouton_petit" id="quitter" data-page="../pages/film_menu.html">Menu</button>
                 </div>
-
-                <div class="space"></div>
-
-                <div class="aside_bas"></div>
-
-                <button class="bouton_param">
-                    <img src="../image/engrenage.png" alt="param" class="btn-icon">
-                    <span class="btn-text">Paramètres</span>
-                </button>
-            </aside>
-
-            <section>
-                <div class="header">
-                    <p class="position_2">version 1.0</p>
-                </div>
-
-                <div class="section">
-                    <h1>Résultats</h1>
-
-                    <div class="corps">
-                        <h2>Consulter Classement</h2>
-
-                        <div class="sous_corps">
-                            <select name="choix" class="choix" aria-label="Choisir un questionnaire">
-                                <option value="">Chargement des questionnaires...</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-    </body>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
 </html>

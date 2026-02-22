@@ -40,8 +40,16 @@ h1 {
 }
 
 .pied {
+    width: 40%;
+    min-width: 400px;
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
     justify-self: center;
-    align-self: center;
 }
 
 p {

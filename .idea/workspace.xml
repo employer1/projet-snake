@@ -4,7 +4,104 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="modification mineure pour film" />
+    <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="modification mineure pour film">
+      <change afterPath="$PROJECT_DIR$/assets/css/film_lecture.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/film_lecture.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/film_lecture.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_104.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_105.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_109.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_110.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_114.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_115.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_116.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_117.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_118.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_119.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_120.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_121.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_122.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_48.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_49.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_51.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_52.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_58.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_62.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_63.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_65.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_66.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_67.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_68.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_69.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_70.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_71.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_72.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_73.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_74.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_75.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_76.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_77.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_78.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_79.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_86.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_87.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_89.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_91.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_92.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_93.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_94.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_95.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_96.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_97.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_99.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/creer/qcm/img/img_livre_permis_conduire/0_27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/creer/qcm/img/img_livre_permis_conduire/0_28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/creer/qcm/img/img_livre_permis_conduire/0_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/creer/qcm/img/img_livre_permis_conduire/0_33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/creer/qcm/img/img_livre_permis_conduire/0_37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/creer/qcm/img/img_livre_permis_conduire/0_38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/creer/qcm/img/img_livre_permis_conduire/0_42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/creer/qcm/img/img_livre_permis_conduire/0_43.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/film_consulter_classement.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/film_consulter_classement.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/film_resultats_classement.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/film_resultats_classement.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/film/classement/05-12-2025-12-43.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/film_consulter_classement.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/film_consulter_classement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/film_resultats_classement.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/film_resultats_classement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/creer/langue/test_langue.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/creer/txt/test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/creer/txt/test_2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/creer/txt/test_3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +111,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="tsconfig.json" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -43,34 +140,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/theo/WebstormProjects/projet-snake&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/theot/WebstormProjects/projet-snake/assets/css",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\theot\WebstormProjects\projet-snake\assets\css" />
+      <recent name="C:\Users\theot\WebstormProjects\projet-snake\pages" />
       <recent name="C:\Users\theo\WebstormProjects\projet-snake" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\daily_note\notes" />
-      <recent name="C:\Users\theot\WebstormProjects\projet-snake\pages" />
-      <recent name="C:\Users\theot\WebstormProjects\projet-snake\assets\css" />
       <recent name="C:\Users\theo\WebstormProjects\projet-snake\quest\questionnaire" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
