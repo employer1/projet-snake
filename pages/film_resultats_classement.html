@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../assets/css/film_resultats_classement.css"> <!--css propre à ce fichier HTML-->
 
     <script src="../assets/js/boutons_navigation.js" defer></script>
+    <script src="../assets/js/film_resultats_classement.js" defer></script>
 </head>
 <body>
 <main>
@@ -41,25 +42,8 @@
             <h1>Résultats</h1>
 
             <div class="corps">
-                <div class="sous_corps">
-                    <div class="ligne">
-                        <img src="../image/film_exemple_1.png" alt="ligne" class="image">
-                        <p>1st</p>
-                        <p>Nom</p>
-                    </div>
-
-                    <div class="ligne">
-                        <img src="../image/film_exemple_2.png" alt="ligne" class="image">
-                        <p>2nd</p>
-                        <p>Nom</p>
-                    </div>
-
-                    <div class="ligne">
-                        <img src="../image/film_exemple_3.png" alt="ligne" class="image">
-                        <p>3rd</p>
-                        <p>Nom</p>
-                    </div>
-                </div>
+                <div class="sous_corps" id="liste_classement"></div>
+                <p id="sauvegarde_info"></p>
 
                 <div class="pied">
                     <button class="bouton_petit" id="quitter" data-page="../pages/film_menu.html">Menu</button>

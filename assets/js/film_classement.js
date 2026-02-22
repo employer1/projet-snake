@@ -96,7 +96,7 @@ const afficherComparaison = () => {
 
 const finaliserClassement = () => {
     sessionStorage.setItem(CLE_CLASSEMENT_FILMS, JSON.stringify(classement));
-    window.location.href = "../pages/film_resultats_battle_royal.html";
+    window.location.href = "../pages/film_resultats_classement.html";
 };
 
 const avancerInsertion = (filmGagnant) => {
