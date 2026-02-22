@@ -61,6 +61,7 @@ const activerFiltreGuillemets = (idChamp, nomChamp) => {
 };
 
 const configurerValidationGuillemets = () => {
+    activerFiltreGuillemets("titre", "Titre");
     activerFiltreGuillemets("question", "Question");
     activerFiltreGuillemets("reponse", "Réponse");
     activerFiltreGuillemets("image", "Image");
@@ -201,6 +202,18 @@ const desactiverChampImage = (desactiver) => {
     }
 };
 
+const lireTitreQuestionnaire = () => {
+    const champTitre = document.getElementById("titre");
+    const titre = champTitre?.value.trim() || "";
+
+    if (!titre) {
+        throw new Error("Le champ Titre est obligatoire.");
+    }
+
+    verifierAbsenceGuillemetDansInputs([{ nom: "Titre", valeur: titre }]);
+    etatCreation.questionnaire.titre = titre;
+};
+
 const sauvegarderQuestionnaire = async () => {
     if (!window.electronAPI?.writeQuestJson) {
         throw new Error("Sauvegarde indisponible dans cet environnement");
@@ -225,7 +238,16 @@ const demanderConfigurationInitiale = async () => {
     }
 
     etatCreation.jsonPath = `${DOSSIER_JSON}/${nomFichier}`;
-    etatCreation.questionnaire.titre = titreDepuisNom(nomFichier);
+
+    const titreQuestionnaire = await demanderValeurObligatoire(
+        "Titre du questionnaire :",
+        titreDepuisNom(nomFichier)
+    );
+    const champTitre = document.getElementById("titre");
+    if (champTitre) {
+        champTitre.value = titreQuestionnaire.trim();
+    }
+    lireTitreQuestionnaire();
 
     if (dossierImages && dossierImages.trim()) {
         etatCreation.sourceImageDir = dossierImages.trim();
@@ -323,6 +345,8 @@ const abandonnerEtRetourMenu = async () => {
 };
 
 const finirCreation = async () => {
+    lireTitreQuestionnaire();
+
     if (etatCreation.questionnaire.questionnaire.length === 0) {
         throw new Error("Ajoutez au moins une question avant de terminer le questionnaire.");
     }
@@ -335,7 +359,6 @@ const finirCreation = async () => {
     const nomNettoye = normaliserNomFichier(nouveauNom || etatCreation.jsonPath.split("/").pop() || "");
     if (nomNettoye && nomNettoye !== etatCreation.jsonPath.split("/").pop()) {
         const nouveauPath = `${DOSSIER_JSON}/${nomNettoye}`;
-        etatCreation.questionnaire.titre = titreDepuisNom(nomNettoye);
         await window.electronAPI.writeQuestJson(nouveauPath, etatCreation.questionnaire);
         await window.electronAPI.removeQuestEntry(etatCreation.jsonPath);
         etatCreation.jsonPath = nouveauPath;
@@ -365,6 +388,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     document.getElementById("ajouter").addEventListener("click", async () => {
         try {
+            lireTitreQuestionnaire();
             const entree = await construireQuestion();
             etatCreation.questionnaire.questionnaire.push(entree);
             await sauvegarderQuestionnaire();
