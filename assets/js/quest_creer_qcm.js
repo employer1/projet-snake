@@ -25,6 +25,7 @@ const normaliserNomFichier = (nom = "") => {
 };
 
 const titreDepuisNom = (nomFichier) => nomFichier.replace(/\.json$/i, "").replace(/_/g, " ");
+const nomDossierImageDepuisNomFichier = (nomFichier) => `img_${nomFichier.replace(/\.json$/i, "")}`;
 
 const normaliserNomImage = (nom = "") => (nom.trim().replace(/\\/g, "/").split("/").pop() || "");
 
@@ -211,7 +212,7 @@ const demanderConfigurationInitiale = async () => {
 
     if (dossierImages && dossierImages.trim()) {
         etatCreation.sourceImageDir = dossierImages.trim();
-        etatCreation.imgFolderName = `img_${nomFichier}`;
+        etatCreation.imgFolderName = nomDossierImageDepuisNomFichier(nomFichier);
         await window.electronAPI.ensureQuestDirectory(`${DOSSIER_IMG_BASE}/${etatCreation.imgFolderName}`);
         desactiverChampImage(false);
     } else {

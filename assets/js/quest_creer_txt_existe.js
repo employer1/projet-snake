@@ -17,6 +17,7 @@ const etatCreation = {
 };
 
 const normaliserNomImage = (nom = "") => (nom.trim().replace(/\\/g, "/").split("/").pop() || "");
+const nomDossierImageDepuisNomFichier = (nomFichier) => `img_${nomFichier.replace(/\.json$/i, "")}`;
 
 const afficherErreur = (message) => {
     window.alert(message);
@@ -258,7 +259,7 @@ const initialiserGestionImages = async () => {
     if (!etatCreation.imgFolderName) {
         const nomFichier = (etatCreation.jsonPath.split("/").pop() || "questionnaire.json")
             .replace(/\.json$/i, "");
-        etatCreation.imgFolderName = `img_${nomFichier}.json`;
+        etatCreation.imgFolderName = nomDossierImageDepuisNomFichier(nomFichier);
     }
 
     await window.electronAPI.ensureQuestDirectory(`${DOSSIER_IMG_BASE}/${etatCreation.imgFolderName}`);
