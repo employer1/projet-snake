@@ -87,7 +87,21 @@ const deleteQuestFile = async (fileName) => {
     if (!questPath.toLowerCase().endsWith(".json")) {
         throw new Error("Invalid quest file extension");
     }
+
+    const dossierQuestionnaire = normaliserChemin(path.dirname(cheminRelatif));
+    const nomQuestionnaire = path.basename(questPath, ".json");
+    const dossiersImagesAssocies = [
+        `questionnaire/creer/qcm/img/img_${nomQuestionnaire}`,
+        `questionnaire/creer/txt/img/img_${nomQuestionnaire}`,
+    ].filter((dossierImage) => dossierImage.startsWith(`${dossierQuestionnaire}/img/`));
+
     await fs.unlink(questPath);
+
+    for (const dossierImageRelatif of dossiersImagesAssocies) {
+        const dossierImageAbsolu = path.resolve(questDirResolved, path.normalize(dossierImageRelatif));
+        await fs.rm(dossierImageAbsolu, { recursive: true, force: true });
+    }
+
     return { ok: true };
 };
 
