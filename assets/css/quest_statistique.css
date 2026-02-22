@@ -6,6 +6,24 @@ h1 {
     font-size: var(--h1SizeQuestionnaire);
 }
 
+main {
+    display: block;
+    min-height: 100vh;
+}
+
+aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: var(--aside-width);
+    height: 100vh;
+}
+
+section {
+    margin-left: var(--aside-width);
+    min-height: 100vh;
+}
+
 .corps {
     display: grid;
     grid-template-columns: 1fr;
@@ -71,6 +89,20 @@ h1 {
 
 .legend-dot-reponse {
     background-color: #66e49c;
+}
+
+
+.stats-resume {
+    width: min(900px, 90%);
+    display: grid;
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
+    gap: 10px 24px;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.stats-resume p {
+    margin: 0;
 }
 
 .stats-empty {

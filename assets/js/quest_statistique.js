@@ -2,6 +2,10 @@
 (() => {
     const canvas = document.getElementById("stats-chart");
     const emptyMessage = document.querySelector(".stats-empty");
+    const elementNbTotalQuestion = document.getElementById("nb-total-question");
+    const elementNbTotalQuestionnaire = document.getElementById("nb-total-questionnaire");
+    const elementNbTotalReponse = document.getElementById("nb-total-reponse");
+    const elementTauxBonneReponse = document.getElementById("taux-bonne-reponse");
     const fichierStatistiques = "stat_quest.json";
     const nombreSemaines = 20;
 
@@ -208,9 +212,31 @@
         });
     };
 
+    const afficherResume = (stats) => {
+        const nbTotalQuestion = Number(stats.nb_total_question) || 0;
+        const nbTotalQuestionnaire = Number(stats.nb_total_questionnaire) || 0;
+        const nbTotalReponse = Number(stats.nb_total_reponse) || 0;
+        const tauxBonneReponse =
+            nbTotalQuestion > 0 ? Math.round((nbTotalReponse / nbTotalQuestion) * 100) : 0;
+
+        if (elementNbTotalQuestion) {
+            elementNbTotalQuestion.textContent = `${nbTotalQuestion}`;
+        }
+        if (elementNbTotalQuestionnaire) {
+            elementNbTotalQuestionnaire.textContent = `${nbTotalQuestionnaire}`;
+        }
+        if (elementNbTotalReponse) {
+            elementNbTotalReponse.textContent = `${nbTotalReponse}`;
+        }
+        if (elementTauxBonneReponse) {
+            elementTauxBonneReponse.textContent = `${tauxBonneReponse} %`;
+        }
+    };
+
     const initialiser = async () => {
         const stats = await chargerStatistiques();
         const liste = Array.isArray(stats.historique) ? stats.historique : [];
+        afficherResume(stats);
         const { semaines, valeursQuestions, valeursReponses } = agregerSemaines(liste);
 
         const maxValeur = Math.max(...valeursQuestions, ...valeursReponses);
