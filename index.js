@@ -14,6 +14,7 @@ const getDailyNoteTagsSourcePath = () => path.join(app.getAppPath(), "daily_note
 const normaliserChemin = (chemin = "") => chemin.replace(/\\/g, "/").replace(/^\/+/, "");
 
 const getFilmAffichesPath = () => path.join(app.getAppPath(), "film", "affiche");
+const getFilmClassementPath = () => path.join(app.getAppPath(), "film", "classement");
 
 const copyDirectory = async (sourceDir, destinationDir) => {
     await fs.mkdir(destinationDir, { recursive: true });
@@ -259,6 +260,32 @@ const listFilmAffiches = async () => {
         .map((entry) => entry.name)
         .filter((fileName) => /\.(png|jpe?g|webp|gif|bmp)$/i.test(fileName))
         .sort((a, b) => a.localeCompare(b, "fr", { sensitivity: "base" }));
+};
+
+
+const saveFilmClassement = async (classement) => {
+    if (!Array.isArray(classement)) {
+        throw new Error("Invalid film classement payload");
+    }
+
+    const classementDir = getFilmClassementPath();
+    await fs.mkdir(classementDir, { recursive: true });
+
+    const horodatage = new Date().toISOString().replace(/[:.]/g, "-");
+    const nomFichier = `classement_${horodatage}.json`;
+    const cheminFichier = path.join(classementDir, nomFichier);
+
+    const payload = {
+        date: new Date().toISOString(),
+        classement
+    };
+
+    await fs.writeFile(cheminFichier, JSON.stringify(payload, null, 4), "utf-8");
+
+    return {
+        ok: true,
+        filePath: normaliserChemin(path.relative(app.getAppPath(), cheminFichier))
+    };
 };
 
 const openOrCreateDailyNote = async (fileName, defaultPayload) => {
@@ -562,6 +589,7 @@ app.whenReady().then(async () => {
     ipcMain.handle("fs:directory-exists", async (_event, directoryPath) => directoryExists(directoryPath));
     ipcMain.handle("fs:file-exists", async (_event, filePath) => fileExists(filePath));
     ipcMain.handle("film:list-affiches", async () => listFilmAffiches());
+    ipcMain.handle("film:save-classement", async (_event, classement) => saveFilmClassement(classement));
     ipcMain.handle("daily-note:open-or-create", async (_event, fileName, defaultPayload) =>
         openOrCreateDailyNote(fileName, defaultPayload));
     ipcMain.handle("daily-note:save", async (_event, fileName, payload) =>

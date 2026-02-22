@@ -22,7 +22,7 @@ h1 {
     justify-self: center;
 
     display: grid;
-    grid-template-rows: repeat(3, 80px);
+    grid-auto-rows: 80px;
     grid-template-columns: auto;
 }
 
@@ -46,4 +46,9 @@ h1 {
 
 p {
     font-size: 1.1em
+}
+
+#sauvegarde_info {
+    justify-self: center;
+    margin-top: 0.5rem;
 }
