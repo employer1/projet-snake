@@ -68,6 +68,23 @@ const configurerValidationGuillemets = () => {
     IDS_LEURRES.forEach((idLeurre, index) => activerFiltreGuillemets(idLeurre, `Leurre ${index + 1}`));
 };
 
+const verifierUniciteReponseEtLeurres = (reponse, leurres = []) => {
+    const propositions = [
+        { nom: "Réponse", valeur: reponse },
+        ...leurres.map((leurre, index) => ({ nom: `Leurre ${index + 1}`, valeur: leurre })),
+    ].filter(({ valeur }) => Boolean(valeur));
+
+    const valeursDejaVues = new Map();
+    for (const proposition of propositions) {
+        const cle = proposition.valeur.toLowerCase();
+        if (valeursDejaVues.has(cle)) {
+            const premierChamp = valeursDejaVues.get(cle);
+            throw new Error(`Les champs ${premierChamp} et ${proposition.nom} doivent être différents.`);
+        }
+        valeursDejaVues.set(cle, proposition.nom);
+    }
+};
+
 const demanderValeurTexte = (message, valeurParDefaut = "") => new Promise((resolve) => {
     const overlay = document.createElement("div");
     overlay.style.position = "fixed";
@@ -240,6 +257,8 @@ const construireQuestion = async () => {
         { nom: "Solution", valeur: definition },
         ...leurres.map((leurre, index) => ({ nom: `Leurre ${index + 1}`, valeur: leurre })),
     ]);
+
+    verifierUniciteReponseEtLeurres(reponse, leurres);
 
     const questionExisteDeja = etatCreation.questionnaire.questionnaire.some(
         (entreeExistante) => entreeExistante.question?.trim().toLowerCase() === question.toLowerCase()
