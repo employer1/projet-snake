@@ -33,6 +33,49 @@ const afficherErreur = (message) => {
     window.alert(message);
 };
 
+const normaliserNomQuestionnaire = (valeur = "") => valeur.trim().toLowerCase();
+
+const recupererFichiersQuestionnaire = async () => {
+    if (!window.electronAPI?.listQuestnaires) {
+        return [];
+    }
+    const fichiers = await window.electronAPI.listQuestnaires();
+    return Array.isArray(fichiers)
+        ? fichiers.filter((fichier) => typeof fichier === "string" && fichier.toLowerCase().endsWith(".json"))
+        : [];
+};
+
+const verifierNomFichierDisponible = async (nomFichier, cheminActuel = "") => {
+    const fichiers = await recupererFichiersQuestionnaire();
+    const cible = `${DOSSIER_JSON}/${nomFichier}`.toLowerCase();
+    const courant = cheminActuel.toLowerCase();
+    const existeDeja = fichiers.some((fichier) => fichier.toLowerCase() === cible && fichier.toLowerCase() !== courant);
+    if (existeDeja) {
+        throw new Error("Un questionnaire utilise déjà ce nom de fichier.");
+    }
+};
+
+const verifierTitreQuestionnaireDisponible = async (titre, cheminActuel = "") => {
+    const titreNormalise = normaliserNomQuestionnaire(titre);
+    if (!titreNormalise) {
+        return;
+    }
+
+    const fichiers = await recupererFichiersQuestionnaire();
+    const courant = cheminActuel.toLowerCase();
+
+    for (const fichier of fichiers) {
+        if (fichier.toLowerCase() === courant) {
+            continue;
+        }
+
+        const questionnaire = await window.electronAPI.loadQuestnaire(fichier);
+        if (normaliserNomQuestionnaire(questionnaire?.titre) === titreNormalise) {
+            throw new Error("Un questionnaire portant ce nom existe déjà.");
+        }
+    }
+};
+
 const contientGuillemetInterdit = (valeur = "") => valeur.includes('"');
 
 const verifierAbsenceGuillemetDansInputs = (champs = []) => {
@@ -236,6 +279,7 @@ const demanderConfigurationInitiale = async () => {
     if (!nomFichier || nomFichier === ".json") {
         throw new Error("Nom de fichier invalide.");
     }
+    await verifierNomFichierDisponible(nomFichier);
 
     etatCreation.jsonPath = `${DOSSIER_JSON}/${nomFichier}`;
 
@@ -248,6 +292,7 @@ const demanderConfigurationInitiale = async () => {
         champTitre.value = titreQuestionnaire.trim();
     }
     lireTitreQuestionnaire();
+    await verifierTitreQuestionnaireDisponible(etatCreation.questionnaire.titre, etatCreation.jsonPath);
 
     if (dossierImages && dossierImages.trim()) {
         etatCreation.sourceImageDir = dossierImages.trim();
@@ -346,6 +391,7 @@ const abandonnerEtRetourMenu = async () => {
 
 const finirCreation = async () => {
     lireTitreQuestionnaire();
+    await verifierTitreQuestionnaireDisponible(etatCreation.questionnaire.titre, etatCreation.jsonPath);
 
     if (etatCreation.questionnaire.questionnaire.length === 0) {
         throw new Error("Ajoutez au moins une question avant de terminer le questionnaire.");
@@ -358,6 +404,7 @@ const finirCreation = async () => {
 
     const nomNettoye = normaliserNomFichier(nouveauNom || etatCreation.jsonPath.split("/").pop() || "");
     if (nomNettoye && nomNettoye !== etatCreation.jsonPath.split("/").pop()) {
+        await verifierNomFichierDisponible(nomNettoye, etatCreation.jsonPath);
         const nouveauPath = `${DOSSIER_JSON}/${nomNettoye}`;
         await window.electronAPI.writeQuestJson(nouveauPath, etatCreation.questionnaire);
         await window.electronAPI.removeQuestEntry(etatCreation.jsonPath);
