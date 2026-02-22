@@ -1,7 +1,5 @@
 body {
-    background-image: url('../../image/fond_menu.png');  /*couleur de fond*/
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: var(--bgColor);
 }
 
 .corps {
