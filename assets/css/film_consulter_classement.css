@@ -40,8 +40,9 @@ h1 {
 }
 
 .pied {
+    height: 100px;
+
     justify-self: center;
-    align-self: center;
 }
 
 p {
