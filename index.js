@@ -290,6 +290,45 @@ const saveFilmClassement = async (classement) => {
     };
 };
 
+const listFilmClassements = async () => {
+    const classementDir = getFilmClassementPath();
+    await fs.mkdir(classementDir, { recursive: true });
+
+    const entries = await fs.readdir(classementDir, { withFileTypes: true });
+
+    return entries
+        .filter((entry) => entry.isFile() && entry.name.toLowerCase().endsWith(".json"))
+        .map((entry) => entry.name)
+        .sort((a, b) => b.localeCompare(a, "fr", { sensitivity: "base" }));
+};
+
+const loadFilmClassement = async (fileName) => {
+    if (!fileName || typeof fileName !== "string") {
+        throw new Error("Invalid film classement file name");
+    }
+    if (path.isAbsolute(fileName)) {
+        throw new Error("Invalid film classement file path");
+    }
+
+    const classementDir = getFilmClassementPath();
+    const normalizedPath = path.normalize(fileName);
+    const classementPath = path.resolve(classementDir, normalizedPath);
+    const classementDirResolved = path.resolve(classementDir);
+
+    if (
+        classementPath !== classementDirResolved
+        && !classementPath.startsWith(`${classementDirResolved}${path.sep}`)
+    ) {
+        throw new Error("Invalid film classement file path");
+    }
+    if (!classementPath.toLowerCase().endsWith(".json")) {
+        throw new Error("Invalid film classement file extension");
+    }
+
+    const contenu = await fs.readFile(classementPath, "utf-8");
+    return JSON.parse(contenu);
+};
+
 const openOrCreateDailyNote = async (fileName, defaultPayload) => {
     if (!fileName || typeof fileName !== "string") {
         throw new Error("Invalid daily note file name");
@@ -617,6 +656,8 @@ app.whenReady().then(async () => {
     ipcMain.handle("fs:file-exists", async (_event, filePath) => fileExists(filePath));
     ipcMain.handle("film:list-affiches", async () => listFilmAffiches());
     ipcMain.handle("film:save-classement", async (_event, classement) => saveFilmClassement(classement));
+    ipcMain.handle("film:list-classements", async () => listFilmClassements());
+    ipcMain.handle("film:load-classement", async (_event, fileName) => loadFilmClassement(fileName));
     ipcMain.handle("daily-note:open-or-create", async (_event, fileName, defaultPayload) =>
         openOrCreateDailyNote(fileName, defaultPayload));
     ipcMain.handle("daily-note:save", async (_event, fileName, payload) =>
