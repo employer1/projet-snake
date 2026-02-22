@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="../assets/css/film_lecture.css"> <!--css propre à ce fichier HTML-->
 
         <script src="../assets/js/boutons_navigation.js" defer></script>
+        <script src="../assets/js/film_lecture.js" defer></script>
     </head>
     <body>
         <main>
@@ -18,7 +19,7 @@
                 <div class="aside_haut">
                     <button class="bouton_menu">
                         <img src="../image/maison.png" alt="menu" class="btn-icon">
-                        <span class="btn-text">Menu</span>
+                        <span class="btn-text" data-page="../pages/film_menu.html">Menu</span>
                     </button>
                 </div>
 
@@ -28,7 +29,7 @@
 
                 <button class="bouton_param">
                     <img src="../image/engrenage.png" alt="param" class="btn-icon">
-                    <span class="btn-text">Paramètres</span>
+                    <span class="btn-text" data-page="../pages/options_menu.html">Paramètres</span>
                 </button>
             </aside>
 
@@ -41,8 +42,8 @@
                     <h1>Lecture</h1>
 
                     <div class="corps">
-                        <select name="choix" class="choix" aria-label="Choisir un questionnaire">
-                            <option value="">Chargement des questionnaires...</option>
+                        <select name="choix" class="choix" aria-label="Choisir un classement">
+                            <option value="">Chargement des classements...</option>
                         </select>
 
                         <div class="actions-questionnaire">

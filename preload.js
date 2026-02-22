@@ -18,6 +18,8 @@ contextBridge.exposeInMainWorld("electronAPI", {
     fileExists: (filePath) => ipcRenderer.invoke("fs:file-exists", filePath),
     listFilmAffiches: () => ipcRenderer.invoke("film:list-affiches"),
     saveFilmClassement: (classement) => ipcRenderer.invoke("film:save-classement", classement),
+    listFilmClassements: () => ipcRenderer.invoke("film:list-classements"),
+    loadFilmClassement: (fileName) => ipcRenderer.invoke("film:load-classement", fileName),
     openOrCreateDailyNote: (fileName, defaultPayload) =>
         ipcRenderer.invoke("daily-note:open-or-create", fileName, defaultPayload),
     saveDailyNote: (fileName, payload) =>
