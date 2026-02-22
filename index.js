@@ -265,7 +265,7 @@ const listFilmAffiches = async () => {
 };
 
 
-const saveFilmClassement = async (classement) => {
+const saveFilmClassement = async (classement, nomClassement) => {
     if (!Array.isArray(classement)) {
         throw new Error("Invalid film classement payload");
     }
@@ -274,7 +274,16 @@ const saveFilmClassement = async (classement) => {
     await fs.mkdir(classementDir, { recursive: true });
 
     const horodatage = new Date().toISOString().replace(/[:.]/g, "-");
-    const nomFichier = `classement_${horodatage}.json`;
+    const nomSaisi = typeof nomClassement === "string" ? nomClassement.trim() : "";
+    const nomNettoye = nomSaisi
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^a-zA-Z0-9_-]/g, "_")
+        .replace(/_+/g, "_")
+        .replace(/^_+|_+$/g, "");
+
+    const baseNomFichier = nomNettoye || `classement_${horodatage}`;
+    const nomFichier = `${baseNomFichier}.json`;
     const cheminFichier = path.join(classementDir, nomFichier);
 
     const payload = {
@@ -655,7 +664,8 @@ app.whenReady().then(async () => {
     ipcMain.handle("fs:directory-exists", async (_event, directoryPath) => directoryExists(directoryPath));
     ipcMain.handle("fs:file-exists", async (_event, filePath) => fileExists(filePath));
     ipcMain.handle("film:list-affiches", async () => listFilmAffiches());
-    ipcMain.handle("film:save-classement", async (_event, classement) => saveFilmClassement(classement));
+    ipcMain.handle("film:save-classement", async (_event, classement, nomClassement) =>
+        saveFilmClassement(classement, nomClassement));
     ipcMain.handle("film:list-classements", async () => listFilmClassements());
     ipcMain.handle("film:load-classement", async (_event, fileName) => loadFilmClassement(fileName));
     ipcMain.handle("daily-note:open-or-create", async (_event, fileName, defaultPayload) =>

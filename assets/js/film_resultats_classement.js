@@ -3,6 +3,7 @@ const CLE_CLASSEMENT_FILMS = "film_classement_complet";
 
 const listeClassement = document.getElementById("liste_classement");
 const elementSauvegarde = document.getElementById("sauvegarde_info");
+const boutonSauvegarder = document.getElementById("sauvegarder");
 
 const normaliserNomFilm = (nomFichier) => {
     const dernierPoint = nomFichier.lastIndexOf(".");
@@ -69,13 +70,27 @@ const sauvegarderClassement = async (classement) => {
         return;
     }
 
+    const nomClassement = window.prompt("Nom du classement (nom du fichier) :");
+
+    if (nomClassement === null) {
+        elementSauvegarde.textContent = "Sauvegarde annulée.";
+        return;
+    }
+
+    if (!nomClassement.trim()) {
+        elementSauvegarde.textContent = "Veuillez saisir un nom de fichier valide.";
+        return;
+    }
+
     try {
-        const resultat = await window.electronAPI.saveFilmClassement(classement);
+        const resultat = await window.electronAPI.saveFilmClassement(classement, nomClassement);
         if (resultat?.filePath) {
             elementSauvegarde.textContent = `Classement enregistré dans ${resultat.filePath}`;
+            window.location.href = "../pages/film_menu.html";
             return;
         }
         elementSauvegarde.textContent = "Classement enregistré.";
+        window.location.href = "../pages/film_menu.html";
     } catch (_error) {
         elementSauvegarde.textContent = "Impossible d'enregistrer le classement.";
     }
@@ -98,10 +113,15 @@ const chargerClassement = () => {
     return classement;
 };
 
-const initialiser = async () => {
+const initialiser = () => {
     const classement = chargerClassement();
     afficherClassement(classement);
-    await sauvegarderClassement(classement);
+
+    if (boutonSauvegarder) {
+        boutonSauvegarder.addEventListener("click", async () => {
+            await sauvegarderClassement(classement);
+        });
+    }
 };
 
 void initialiser();
