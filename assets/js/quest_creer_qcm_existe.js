@@ -23,40 +23,6 @@ const afficherErreur = (message) => {
     window.alert(message);
 };
 
-const contientGuillemetInterdit = (valeur = "") => valeur.includes('"');
-
-const verifierAbsenceGuillemetDansInputs = (champs = []) => {
-    const champInvalide = champs.find(({ valeur }) => contientGuillemetInterdit(valeur));
-    if (champInvalide) {
-        throw new Error(`Le champ ${champInvalide.nom} ne peut pas contenir le caractère \".`);
-    }
-};
-
-const nettoyerGuillemetsInterdits = (valeur = "") => valeur.replace(/"/g, "");
-
-const activerFiltreGuillemets = (idChamp, nomChamp) => {
-    const champ = document.getElementById(idChamp);
-    if (!champ) {
-        return;
-    }
-
-    champ.addEventListener("input", () => {
-        if (!contientGuillemetInterdit(champ.value)) {
-            return;
-        }
-
-        champ.value = nettoyerGuillemetsInterdits(champ.value);
-        afficherErreur(`Le champ ${nomChamp} ne peut pas contenir le caractère \".`);
-    });
-};
-
-const configurerValidationGuillemets = () => {
-    activerFiltreGuillemets("question", "Question");
-    activerFiltreGuillemets("reponse", "Réponse");
-    activerFiltreGuillemets("image", "Image");
-    activerFiltreGuillemets("def", "Solution");
-    IDS_LEURRES.forEach((idLeurre, index) => activerFiltreGuillemets(idLeurre, `Leurre ${index + 1}`));
-};
 
 const verifierUniciteReponseEtLeurres = (reponse, leurres = []) => {
     const propositions = [
@@ -294,14 +260,6 @@ const construireQuestion = async () => {
         throw new Error("Les champs Question, Réponse et Leurre 1 sont obligatoires.");
     }
 
-    verifierAbsenceGuillemetDansInputs([
-        { nom: "Question", valeur: question },
-        { nom: "Réponse", valeur: reponse },
-        { nom: "Image", valeur: imageBrute },
-        { nom: "Solution", valeur: definition },
-        ...leurres.map((leurre, index) => ({ nom: `Leurre ${index + 1}`, valeur: leurre })),
-    ]);
-
     verifierUniciteReponseEtLeurres(reponse, leurres);
 
     const questionExisteDeja = etatCreation.questionnaire.questionnaire.some(
@@ -379,7 +337,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     try {
         await chargerQuestionnaireExistant();
         await initialiserGestionImages();
-        configurerValidationGuillemets();
     } catch (error) {
         console.error(error);
         afficherErreur(error.message || "Initialisation impossible.");

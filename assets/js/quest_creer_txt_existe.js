@@ -23,39 +23,6 @@ const afficherErreur = (message) => {
     window.alert(message);
 };
 
-const contientGuillemetInterdit = (valeur = "") => valeur.includes('"');
-
-const verifierAbsenceGuillemetDansInputs = (champs = []) => {
-    const champInvalide = champs.find(({ valeur }) => contientGuillemetInterdit(valeur));
-    if (champInvalide) {
-        throw new Error(`Le champ ${champInvalide.nom} ne peut pas contenir le caractère \".`);
-    }
-};
-
-const nettoyerGuillemetsInterdits = (valeur = "") => valeur.replace(/"/g, "");
-
-const activerFiltreGuillemets = (idChamp, nomChamp) => {
-    const champ = document.getElementById(idChamp);
-    if (!champ) {
-        return;
-    }
-
-    champ.addEventListener("input", () => {
-        if (!contientGuillemetInterdit(champ.value)) {
-            return;
-        }
-
-        champ.value = nettoyerGuillemetsInterdits(champ.value);
-        afficherErreur(`Le champ ${nomChamp} ne peut pas contenir le caractère \".`);
-    });
-};
-
-const configurerValidationGuillemets = () => {
-    activerFiltreGuillemets("question", "Question");
-    activerFiltreGuillemets("reponse", "Réponse");
-    activerFiltreGuillemets("image", "Image");
-    activerFiltreGuillemets("def", "Solution");
-};
 
 const demanderValeurTexte = (message, valeurParDefaut = "") => new Promise((resolve) => {
     const overlay = document.createElement("div");
@@ -276,13 +243,6 @@ const construireQuestion = async () => {
         throw new Error("Les champs Question et Réponse sont obligatoires.");
     }
 
-    verifierAbsenceGuillemetDansInputs([
-        { nom: "Question", valeur: question },
-        { nom: "Réponse", valeur: reponse },
-        { nom: "Image", valeur: imageBrute },
-        { nom: "Solution", valeur: definition },
-    ]);
-
     const questionExisteDeja = etatCreation.questionnaire.questionnaire.some(
         (entreeExistante) => entreeExistante.question?.trim().toLowerCase() === question.toLowerCase()
     );
@@ -350,7 +310,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     try {
         await chargerQuestionnaireExistant();
         await initialiserGestionImages();
-        configurerValidationGuillemets();
     } catch (error) {
         console.error(error);
         afficherErreur(error.message || "Initialisation impossible.");
