@@ -109,27 +109,48 @@
 
         statistiques.forEach((stat) => {
             const date = parserDate(stat.date);
-            const valeur = Number(stat["mot-min"]);
-            if (!date || !Number.isFinite(valeur)) return;
+            const valeurMotsMinute = Number(stat["mot-min"]);
+            const valeurMotsCorrects = Number(stat["mot-correct"]);
+            if (
+                !date ||
+                (!Number.isFinite(valeurMotsMinute) && !Number.isFinite(valeurMotsCorrects))
+            ) {
+                return;
+            }
             const semaine = obtenirDebutSemaine(date);
             if (semaine < debut || semaine > fin) return;
             const cle = semaine.toISOString();
-            const actuel = buckets.get(cle) || { total: 0, count: 0 };
-            actuel.total += valeur;
+            const actuel = buckets.get(cle) || {
+                totalMotsMinute: 0,
+                totalMotsCorrects: 0,
+                count: 0,
+            };
+            if (Number.isFinite(valeurMotsMinute)) {
+                actuel.totalMotsMinute += valeurMotsMinute;
+            }
+            if (Number.isFinite(valeurMotsCorrects)) {
+                actuel.totalMotsCorrects += valeurMotsCorrects;
+            }
             actuel.count += 1;
             buckets.set(cle, actuel);
         });
 
-        const valeurs = semaines.map((semaine) => {
+        const valeursMotsMinute = semaines.map((semaine) => {
             const bucket = buckets.get(semaine.toISOString());
             if (!bucket || bucket.count === 0) return 0;
-            return Math.round(bucket.total / bucket.count);
+            return Math.round(bucket.totalMotsMinute / bucket.count);
         });
 
-        return { semaines, valeurs };
+        const valeursMotsCorrects = semaines.map((semaine) => {
+            const bucket = buckets.get(semaine.toISOString());
+            if (!bucket || bucket.count === 0) return 0;
+            return Math.round(bucket.totalMotsCorrects / bucket.count);
+        });
+
+        return { semaines, valeursMotsMinute, valeursMotsCorrects };
     };
 
-    const dessinerGraphique = (semaines, valeurs) => {
+    const dessinerGraphique = (semaines, valeursMotsMinute, valeursMotsCorrects) => {
         const ctx = canvas.getContext("2d");
         if (!ctx) return;
 
@@ -146,10 +167,10 @@
         const innerWidth = largeur - padding.left - padding.right;
         const innerHeight = hauteur - padding.top - padding.bottom;
 
-        const maxValeur = Math.max(1, ...valeurs);
+        const maxValeur = Math.max(1, ...valeursMotsMinute, ...valeursMotsCorrects);
         const pasGraduation = 10;
         const maxGraduation = Math.max(pasGraduation, Math.ceil(maxValeur / pasGraduation) * pasGraduation);
-        const stepX = innerWidth / (valeurs.length - 1 || 1);
+        const stepX = innerWidth / (valeursMotsMinute.length - 1 || 1);
 
         ctx.strokeStyle = "#ffffff2f";
         ctx.lineWidth = 1;
@@ -166,27 +187,55 @@
             ctx.fillText(`${valeur}`, padding.left - 8, y);
         }
 
-        ctx.strokeStyle = "#7cc7ff";
-        ctx.lineWidth = 2;
-        ctx.beginPath();
-        valeurs.forEach((valeur, index) => {
-            const x = padding.left + stepX * index;
-            const y = padding.top + innerHeight - (valeur / maxGraduation) * innerHeight;
-            if (index === 0) {
-                ctx.moveTo(x, y);
-            } else {
-                ctx.lineTo(x, y);
-            }
-        });
-        ctx.stroke();
-
-        ctx.fillStyle = "#ffffff";
-        valeurs.forEach((valeur, index) => {
-            const x = padding.left + stepX * index;
-            const y = padding.top + innerHeight - (valeur / maxGraduation) * innerHeight;
+        const dessinerSerie = (valeurs, couleurLigne, couleurPoint) => {
+            ctx.strokeStyle = couleurLigne;
+            ctx.lineWidth = 2;
             ctx.beginPath();
-            ctx.arc(x, y, 4, 0, Math.PI * 2);
-            ctx.fill();
+            valeurs.forEach((valeur, index) => {
+                const x = padding.left + stepX * index;
+                const y = padding.top + innerHeight - (valeur / maxGraduation) * innerHeight;
+                if (index === 0) {
+                    ctx.moveTo(x, y);
+                } else {
+                    ctx.lineTo(x, y);
+                }
+            });
+            ctx.stroke();
+
+            ctx.fillStyle = couleurPoint;
+            valeurs.forEach((valeur, index) => {
+                const x = padding.left + stepX * index;
+                const y = padding.top + innerHeight - (valeur / maxGraduation) * innerHeight;
+                ctx.beginPath();
+                ctx.arc(x, y, 4, 0, Math.PI * 2);
+                ctx.fill();
+            });
+        };
+
+        dessinerSerie(valeursMotsMinute, "#7cc7ff", "#ffffff");
+        dessinerSerie(valeursMotsCorrects, "#ff9f5b", "#ffd8b5");
+
+        const legende = [
+            { texte: "Mots/min", couleur: "#7cc7ff" },
+            { texte: "Mots corrects", couleur: "#ff9f5b" },
+        ];
+        const legendeY = padding.top - 12;
+        const largeurPastille = 14;
+        const ecartLegende = 110;
+        legende.forEach((item, index) => {
+            const x = padding.left + index * ecartLegende;
+            ctx.strokeStyle = item.couleur;
+            ctx.lineWidth = 3;
+            ctx.beginPath();
+            ctx.moveTo(x, legendeY);
+            ctx.lineTo(x + largeurPastille, legendeY);
+            ctx.stroke();
+
+            ctx.fillStyle = "#ffffffd9";
+            ctx.font = "12px sans-serif";
+            ctx.textAlign = "left";
+            ctx.textBaseline = "middle";
+            ctx.fillText(item.texte, x + largeurPastille + 6, legendeY);
         });
 
         ctx.fillStyle = "#ffffffb5";
@@ -208,18 +257,20 @@
         const liste = Array.isArray(stats.statistique_dactylo)
             ? stats.statistique_dactylo
             : [];
-        const { semaines, valeurs } = agregerSemaines(liste);
+        const { semaines, valeursMotsMinute, valeursMotsCorrects } = agregerSemaines(liste);
 
-        const maxValeur = Math.max(...valeurs);
+        const maxValeur = Math.max(...valeursMotsMinute, ...valeursMotsCorrects);
         if (emptyMessage) {
             emptyMessage.textContent =
                 maxValeur === 0
                     ? "Aucune donnée enregistrée sur les 20 dernières semaines."
-                    : "Moyenne hebdomadaire des mots par minute (20 dernières semaines).";
+                    : "Moyenne hebdomadaire des mots/min et mots corrects (20 dernières semaines).";
         }
 
-        dessinerGraphique(semaines, valeurs);
-        window.addEventListener("resize", () => dessinerGraphique(semaines, valeurs));
+        dessinerGraphique(semaines, valeursMotsMinute, valeursMotsCorrects);
+        window.addEventListener("resize", () =>
+            dessinerGraphique(semaines, valeursMotsMinute, valeursMotsCorrects)
+        );
     };
 
     initialiser();
