@@ -60,6 +60,18 @@ const afficherClassement = (classement) => {
     });
 };
 
+const demanderNomClassement = () => {
+    try {
+        if (typeof window.prompt !== "function") {
+            return "";
+        }
+
+        return window.prompt("Nom du classement (nom du fichier) :");
+    } catch (_error) {
+        return "";
+    }
+};
+
 const sauvegarderClassement = async (classement) => {
     if (!elementSauvegarde) {
         return;
@@ -70,15 +82,10 @@ const sauvegarderClassement = async (classement) => {
         return;
     }
 
-    const nomClassement = window.prompt("Nom du classement (nom du fichier) :");
+    const nomClassement = demanderNomClassement();
 
     if (nomClassement === null) {
         elementSauvegarde.textContent = "Sauvegarde annulée.";
-        return;
-    }
-
-    if (!nomClassement.trim()) {
-        elementSauvegarde.textContent = "Veuillez saisir un nom de fichier valide.";
         return;
     }
 
