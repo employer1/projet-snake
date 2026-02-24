@@ -5,51 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="modification mineure pour film">
-      <change afterPath="$PROJECT_DIR$/dactylo/stat_dactylo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_125.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_126.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_127.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_129.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_132.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_133.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_145.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_146.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_147.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_148.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_149.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_150.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_151.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_152.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_153.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_154.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/livre_permis_conduire.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/autre/livre_permis_conduire.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vocabulaire.json" beforeDir="false" afterPath="$PROJECT_DIR$/vocabulaire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,28 +46,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "javascript.preferred.runtime.type.id": "node",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/theot/WebstormProjects/projet-snake/quest/questionnaire/autre/img/img_livre_permis_conduire",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/theot/WebstormProjects/projet-snake/quest/questionnaire/autre/img/img_livre_permis_conduire&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\autre\img\img_livre_permis_conduire" />
@@ -157,7 +114,9 @@
       <workItem from="1771707831068" duration="13030000" />
       <workItem from="1771808538150" duration="697000" />
       <workItem from="1771810117733" duration="626000" />
-      <workItem from="1771843581586" duration="12187000" />
+      <workItem from="1771843581586" duration="12893000" />
+      <workItem from="1771931629778" duration="54000" />
+      <workItem from="1771933255750" duration="20766000" />
     </task>
     <task id="LOCAL-00001" summary="petites modifications de questionnaires">
       <option name="closed" value="true" />
@@ -311,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771794330299</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="modification mineure pour film">
+      <option name="closed" value="true" />
+      <created>1771896446101</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1771896446101</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
