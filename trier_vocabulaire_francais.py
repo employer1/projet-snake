@@ -32,26 +32,41 @@ def cle_tri_reponse(entree: object) -> tuple[int, str]:
     if not isinstance(entree, dict):
         return (1, "")
 
-    reponse = entree.get("reponse")
-    if reponse is None:
+    texte_reponse = extraire_reponse_texte(entree)
+    if texte_reponse is None:
         return (1, "")
 
-    texte = str(reponse).strip().casefold()
+    texte = texte_reponse.casefold()
     texte = unicodedata.normalize("NFKD", texte)
     texte_sans_accents = "".join(c for c in texte if not unicodedata.combining(c))
     return (0, texte_sans_accents)
+
+
+def extraire_reponse_texte(entree: dict[str, object]) -> str | None:
+    reponse = entree.get("reponse")
+    if reponse is None:
+        return None
+
+    if isinstance(reponse, list):
+        if not reponse:
+            return None
+        premier = reponse[0]
+        texte = str(premier).strip()
+        return texte or None
+
+    texte = str(reponse).strip()
+    return texte or None
 
 
 def normaliser_reponse_pour_doublon(entree: object) -> str | None:
     if not isinstance(entree, dict):
         return None
 
-    reponse = entree.get("reponse")
-    if reponse is None:
+    texte_reponse = extraire_reponse_texte(entree)
+    if texte_reponse is None:
         return None
 
-    texte = str(reponse).strip().casefold()
-    return texte or None
+    return texte_reponse.casefold()
 
 
 def verifier_doublons(questionnaire: list[object]) -> list[str]:
@@ -64,7 +79,7 @@ def verifier_doublons(questionnaire: list[object]) -> list[str]:
             continue
 
         frequences[cle] = frequences.get(cle, 0) + 1
-        libelles.setdefault(cle, str(entree.get("reponse", "")).strip())
+        libelles.setdefault(cle, extraire_reponse_texte(entree) or "")
 
     return sorted(libelles[cle] for cle, count in frequences.items() if count > 1)
 
