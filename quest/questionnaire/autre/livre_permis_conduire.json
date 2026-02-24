@@ -1,9 +1,9 @@
 {
-    "titre": "Cuisson des viandes",
+    "titre": "Questions du permis de conduire",
     "type": "qcm",
     "questionnaire": [
         {
-            "question": "Comment choisir un moyen de transport ?",
+            "question": "1. Comment choisir un moyen de transport ?",
             "reponse": "Je vais à pied ou à bicyclette si c'est possible.",
             "leurres": [
                 "Je roule en voiture quand j'en ai une.",
@@ -11,7 +11,7 @@
             ]
         },
         {
-            "question": "Qu'est-ce qu'un plan de transport scolaire ?",
+            "question": "2. Qu'est-ce qu'un plan de transport scolaire ?",
             "reponse": "Un plan d'action scolaire concernant la sécurité et le respect de l'environnement des alentours d'une école.",
             "leurres": [
                 "Le trajet du bus scolaire.",
@@ -19,11 +19,2097 @@
             ]
         },
         {
-            "question": "Que signifie l'aménagement du territoire ?",
+            "question": "3. Que signifie l'aménagement du territoire ?",
             "reponse": "Aménager l'espace public et le structurer en fonction de certaines caractéristiques.",
             "leurres": [
                 "Aménager les alentours de l'école.",
                 "Evaluer un environnement scolaire en fonction de la distance à parcourir."
+            ]
+        },
+        {
+            "question": "4. Quel est le transport le plus cher par kilomètre parcouru ?",
+            "reponse": "la voiture",
+            "def": "La voiture",
+            "leurres": [
+                "Le train",
+                "La bicyclette"
+            ]
+        },
+        {
+            "question": "5. Quel moyen de transport est préférable pour un déplacement de moins d'un kilomètre ?",
+            "reponse": "La marche",
+            "leurres": [
+                "La bicyclette",
+                "Les transports en commun"
+            ]
+        },
+        {
+            "question": "6. Les usagers de la voie publique sont",
+            "reponse": "Toutes les personnes faisant usage de la voie publique en tant que piéton ou conducteur.",
+            "leurres": [
+                "Uniquement les personnes qui se déplacent à pied.",
+                "Uniquement les personnes qui conduisent un véhicule."
+            ]
+        },
+        {
+            "question": "7. Le conducteur d'une voiture automobile doit au moins :",
+            "reponse": "Être porteur d'un permis de conduire de la catégorie B.",
+            "leurres": [
+                "Être porteur d'un permis de conduire de la catégorie B + E.",
+                "Être porteur d'un permis de conduire de la catégorie C."
+            ]
+        },
+        {
+            "question": "8. Tout enfant dont la taille est inférieure à 1,35 m ne peut pas prendre place dans une voiture sauf :",
+            "reponse": "Si un siège spécial est prévu ou s'il porte la ceinture de sécurité.",
+            "leurres": [
+                "S'il porte un casque protecteur.",
+                "Si le conducteur est âgé de 24 ans ou plus."
+            ]
+        },
+        {
+            "question": "9. Peut-on conduire une voiture le dimanche à 23 heures en étant titulaire d'un permis provisoire ?",
+            "reponse": "Non",
+            "leurres": [
+                "Oui",
+                "Oui, si le conducteur est âgé de 24 ans au moins."
+            ]
+        },
+        {
+            "question": "10. Une personne ayant eu une crise d'épilepsie :",
+            "reponse": "Doit spontanément restituer son permis de conduire.",
+            "leurres": [
+                "Peut conduire une voiture si elle prend les médicaments qui préviennent une nouvelle crise.",
+                "Doit uniquement restituer son permis de conduire si le médecin la déclare inapte à conduire une voiture."
+            ]
+        },
+        {
+            "question": "11. Quand faut-il placer le triangle de danger ?",
+            "reponse": "Après un accident de la route, quand les véhicules concernés ne peuvent pas être déplacés immédiatemment et sont un obstacle sur la voir publique.",
+            "leurres": [
+                "Toujours en cas d'accident de roulage avec dégats matériels.",
+                "Toujours en cas d'accident de roulage avec ou sans blessés."
+            ]
+        },
+        {
+            "question": "12. Quels sont les documents qui doivent être présents dans chaque voiture ?",
+            "reponse": "Le certificat d'immatriculation, le certificat d'assurance et le certificat de conformité.",
+            "leurres": [
+                "Le certificat de conformité, le certificat d'immatriculation et le rapport d'identification.",
+                "Le certificat d'assurance et le certificat de visite."
+            ]
+        },
+        {
+            "question": "13. Le conducteur ne doit pas porter la ceinture de sécurité :",
+            "reponse": "Lorsqu'il recule.",
+            "leurres": [
+                "Lorsqu'il conduit dans une agglomération.",
+                "Lorsque sa vitesse ne dépasse pas les 50 km/h."
+            ]
+        },
+        {
+            "question": "14. Doivent se trouver à bord de chaque véhicule :",
+            "reponse": "Un triangle de danger, un extincteur d'incendie, une veste de sécurité rétro-réfléchissante et une boîte de secours.",
+            "leurres": [
+                "Deux triangles de danger et un extincteur d'incendie.",
+                "Une boîte de secours et une roue de réserve."
+            ]
+        },
+        {
+            "question": "15. Le conducteur d'une voiture qui se rend sur la voie publique doit être en possession de :",
+            "reponse": "Sa carte d'identité et son permis de conduire.",
+            "leurres": [
+                "Sa carte d'identité.",
+                "Son permis de conduire."
+            ]
+        },
+        {
+            "question": "16. Je dois vérifier la pression des pneus de ma voiture :",
+            "reponse": "A froid.",
+            "leurres": [
+                "A chaud.",
+                "N'importe quand."
+            ]
+        },
+        {
+            "question": "17. La profondeur des rainures principales des pneus d'une voiture doit être d'au moins :",
+            "reponse": "1,6 mm.",
+            "leurres": [
+                "1,2 mm.",
+                "2,6 mm."
+            ]
+        },
+        {
+            "question": "18. Je me prépare à un long trajet sur l'autoroute.",
+            "reponse": "J'augmente la pression des pneus.",
+            "leurres": [
+                "Je diminue la pression des pneus.",
+                "Je ne tiens pas compte de la pression des pneus."
+            ]
+        },
+        {
+            "question": "19. Qui doit être transporté dans un système de retenue pour enfants ?",
+            "reponse": "Les enfants dont la taille ne dépasse pas 1,35 m.",
+            "leurres": [
+                "Les enfants de moins de 18 ans.",
+                "Toute personne dont la taille ne dépasse pas 1,35 m."
+            ]
+        },
+        {
+            "question": "20. Les pneus à clous peuvent être utilisés :",
+            "reponse": "Du 1er novembre au 31 mars.",
+            "leurres": [
+                "Uniquement en cas de neige ou de verglas.",
+                "Jamais."
+            ]
+        },
+        {
+            "question": "21. Pour des raisons de sécurité, il vous suffit d'avoir une copie des documents de bord dans la voiture.",
+            "reponse": "Ceci est interdit.",
+            "leurres": [
+                "Ceci est autorisé."
+            ]
+        },
+        {
+            "question": "22. De combien de vestes de sécurité faut-il disposer dans une voiture ?",
+            "reponse": "Une",
+            "leurres": [
+                "Aucune",
+                "Autant de vestes que de passagers."
+            ]
+        },
+        {
+            "question": "23. Le candidat-conducteur conduisant une voiture de l'auto-école :",
+            "reponse": "Peut rouler sur autoroute.",
+            "leurres": [
+                "Ne peut pas rouler sur autoroute.",
+                "Peut rouler sur autoroute à une vitesse maximale de 90 km/h."
+            ]
+        },
+        {
+            "question": "24. La chaussée peut être divisée dans le sens longitudinal par une ou plusieurs lignes blanches continues ou discontinues. La partie entre les lignes s'appelle :",
+            "reponse": "Une bande de circulation.",
+            "leurres": [
+                "Un sens de la circulation.",
+                "Une piste cyclable."
+            ]
+        },
+        {
+            "question": "25. La piste cyclable fait partie de :",
+            "reponse": "La voie publique.",
+            "leurres": [
+                "La chaussée."
+            ]
+        },
+        {
+            "question": "26. Peut-on s'immobiliser un instant sur une piste cyclable avec une voiture, afin de consulter une carte routière ou afin de mettre au point son GPS ?",
+            "reponse": "Non",
+            "leurres": [
+                "Oui",
+                "Oui, pour demander rapidement le chemin à un passant."
+            ]
+        },
+        {
+            "question": "27. Est-ce que je peux accéder à une route comportant ce signal routier ?",
+            "reponse": "Oui, uniquement pour atteindre une parcelle avoisinante.",
+            "leurres": [
+                "Oui.",
+                "Non, cette route est réservée aux véhicules agricoles, aux piétons, aux cyclistes et aux cavaliers."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_27.png"
+        },
+        {
+            "question": "28. Où est -ce que je dois rouler ?",
+            "reponse": "Le plus près possible du bord droit de la chaussée.",
+            "leurres": [
+                "Du côté droit de la chaussée.",
+                "Au milieu ou à droite sur la chaussée, tant qu'il n'y a pas de conducteurs en sens inverse."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_28.jpg"
+        },
+        {
+            "question": "29. Est-ce qu'un chemin de terre est aussi une voie publique ?",
+            "reponse": "Oui",
+            "leurres": [
+                "Non"
+            ]
+        },
+        {
+            "question": "30.Je veux débarquer un passager. C'est pourquoi je m'immobilise :",
+            "reponse": "Sur la chaussée.",
+            "leurres": [
+                "Sur le trottoir.",
+                "Sur la piste cyclable."
+            ]
+        },
+        {
+            "question": "31. Quel propos concernant le piéton est correct ?",
+            "reponse": "Dans une zones résidentielles, le piéton peut circuler où il veut.",
+            "leurres": [
+                "Quand un piéton conduit une bicyclette à la main, il doit circuler du côté gauche de la chaussée.",
+                "Un piéton doit emprunter un passage pour piétons quand il se trouve à moins de 50 mètres de celui-ci."
+            ]
+        },
+        {
+            "question": "32. Où se trouve ce signal ?",
+            "reponse": "Près d'un dispositif surélevé qui ne se trouve pas près d'un carrefour.",
+            "leurres": [
+                "A courte distance d'un dispositif surélevé, afin d'en signaler la présence.",
+                "Près de tout dispositif surélevé."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_32.png"
+        },
+        {
+            "question": "33. Ces véhicules peuvent-ils circuler sur la bande rouge pour se croiser ?",
+            "reponse": "Oui, s'il s'agit d'une bande cyclable suggérée. Les conducteurs doivent l'emprunter.",
+            "leurres": [
+                "Non, il s'agit d'une piste cyclable. Il est toujours interdit aux conducteurs de l'emprunter."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_33.jpg"
+        },
+        {
+            "question": "34 .Le choix de la bande de circulation est autorisé :",
+            "reponse": "Dans une agglomération sur une chaussée à sens unique, divisée en bandes de circulation.",
+            "leurres": [
+                "Sur toutes les chaussées à sens unique, divisées en bandes de circulation.",
+                "Sur toutes les chaussées à deux sens de circulation, divisées en bandes de circulation."
+            ]
+        },
+        {
+            "question": "35. Il faut longer un îlot directionnel sans signaux routiers :",
+            "reponse": "Par la droite.",
+            "leurres": [
+                "Par la gauche.",
+                "Par la gauche ou par la droite."
+            ]
+        },
+        {
+            "question": "36. Les voitures peuvent-elles circuler sur les bandes cyclables suggérées ?",
+            "reponse": "Oui, elles doivent les emprunter.",
+            "leurres": [
+                "Non, cela leur est interdit.",
+                "Oui, mais uniquement pour se croiser."
+            ]
+        },
+        {
+            "question": "37. La voiture peut-elle continuer à emprunter cette bande de circulation ?",
+            "reponse": "Non",
+            "leurres": [
+                "Oui"
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_37.jpg"
+        },
+        {
+            "question": "38. Quelle bande de circulation est-ce que je peux emprunter ?",
+            "reponse": "Uniquement la bande A.",
+            "leurres": [
+                "Toutes les quatre.",
+                "Uniquement les bandes 1 et B."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_38.jpg"
+        },
+        {
+            "question": "39. Un automobiliste :",
+            "reponse": "Doit rouler le plus près possible du bord droit de la chaussée.",
+            "leurres": [
+                "Peut emprunter la bande de droite entière.",
+                "Doit rester sur l'extrême droite, contre le bord de la chaussée."
+            ]
+        },
+        {
+            "question": "40. L'autoroute. Je peux :",
+            "reponse": "Emprunter la bande de circulation située à l'extrême gauche pour me conformer aux indications des signaux F15 (choix de directions).",
+            "leurres": [
+                "Emprunter la bande de circulation dituée à l'extrême gauche uniquement pour dépasser.",
+                "Emprunter la bande de circulation située à l'extrême gauche uniquement pour rouler en file."
+            ]
+        },
+        {
+            "question": "41. Puis-je emprunter le site spécial franchissable pour longer une voie en panne ?",
+            "reponse": "Oui",
+            "leurres": [
+                "Non"
+            ]
+        },
+        {
+            "question": "42. La voiture grise peut-elle emprunter la bande BUS pour tourner à droite au signal lumineux ?",
+            "reponse": "Oui",
+            "leurres": [
+                "Non"
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_42.jpg"
+        },
+        {
+            "question": "43. Vous voulez rouler dans la direction d'Evere. Sur cette bande de circulation, pouvez-vous rouler plus vite que la voiture qui vous précède ?",
+            "reponse": "Oui",
+            "leurres": [
+                "Non"
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_43.jpg"
+        },
+        {
+            "question": "44. Quelle est la vitesse maximale autorisée dans les zones résidentielles ?",
+            "reponse": "20 km/h.",
+            "leurres": [
+                "L'allure du pas.",
+                "30 km/h."
+            ]
+        },
+        {
+            "question": "45. Cette ligne blanche continue sur la chaussée :",
+            "reponse": "Vous ne pouvez la franchir en aucun cas.",
+            "leurres": [
+                "Vous ne pouvez pas la franchir, sauf pour tourner à gauche.",
+                "Vous pouvez la franchir pour dépasser par la gauche."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_45.jpg"
+        },
+        {
+            "question": "46. Cette ligne blanche transversale continue signifie :",
+            "reponse": "Vous devez vous arrêter devant cette ligne puisqu'il y a un signal STOP.",
+            "leurres": [
+                "Il est interdit de stationner devant cette ligne.",
+                "Vous pouvez y stationner jusqu'à cette ligne."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_46.jpg"
+        },
+        {
+            "question": "47. Cette ligne transversale constituée par des triangles blancs signifie que les conducteurs :",
+            "reponse": "Doivent s'immobiliser si nécessaire pour céder la priorité.",
+            "leurres": [
+                "Doivent s'immobiliser pour céder la priorité.",
+                "Ne peuvent pas circuler sur cette ligne quand ils doivent céder la priorité."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_47.jpg"
+        },
+        {
+            "question": "48. Ces flèches blanches signifient que les conducteurs se trouvant dans le carrefour :",
+            "reponse": "Doivent suivre la direction indiqué par la flèche.",
+            "leurres": [
+                "Doivent, de préférence, suivre la directoin indiquée par la flèche.",
+                "Peuvent passer de la bande de droite à la bande degauche, mais pas le contraire."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_48.jpg"
+        },
+        {
+            "question": "49. Cette marque indique :",
+            "reponse": "Une zone avancée pour cyclistes et conducteurs de cyclomoteurs à deux roues.",
+            "leurres": [
+                "La fin d'une piste cyclable.",
+                "L'endroit où les cyclistes et les cyclomotoristes doivent poser pied à terre."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_49.jpg"
+        },
+        {
+            "question": "50. Ces flèches blanches signifient :",
+            "reponse": "Diminution du nombre de bandes de circulation dans la direction suivie.",
+            "leurres": [
+                "Obligation de tourner à droite au carrefour suivant.",
+                "Interdiction de circuler sur cette bande de circulation."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_50.jpg"
+        },
+        {
+            "question": "51. Le conducteur doit notamment tenir compte :",
+            "reponse": "Des lignes orange et il ne peut pas dépasser.",
+            "leurres": [
+                "Des lignes blanches et il peut dépasser.",
+                "Des lignes orange et il ne peut pas dépasser mais bien tourner à gauche."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_51.jpg"
+        },
+        {
+            "question": "52. Les lignes discontinues de couleur jaune sur le bord de la chaussée signifient :",
+            "reponse": "Défense de stationner sur la chaussée.",
+            "leurres": [
+                "Défense de s'arrêter sur la chaussée.",
+                "Défense de s'arrêter ou de stationner sur la chaussée et sur l'accotement."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_52.jpg"
+        },
+        {
+            "question": "53. Ce signal routier signifie :",
+            "reponse": "Une bande de circulation réservée aux autobus, taxi et bus scolaire.",
+            "leurres": [
+                "Un arrêt d'autobus.",
+                "Une bande de circulation réservée aux autobus."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_53.png"
+        },
+        {
+            "question": "54. Ce signal routier signifie :",
+            "reponse": "Accès interdit, dans les deux sens, à tout conducteur.",
+            "leurres": [
+                "Sens interdit, dans ce sens, à tout conducteur, excepté les cyclistes et les cyclomotoristes à deux roues.",
+                "Accès interdit à tout conducteur."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_54.png"
+        },
+        {
+            "question": "55. Ce signal routier signifie :",
+            "reponse": "Série de virages dont le premier va à droite.",
+            "leurres": [
+                "Virage dangereux.",
+                "Vous avez la priorité sur cette route."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_55.png"
+        },
+        {
+            "question": "56. Ce signal routier signifie :",
+            "reponse": "Interdiction de tourner à gauche au prochain carrefour.",
+            "leurres": [
+                "Obligation de tourner à droite au carrefour suivant.",
+                "Interdiction de faire demi-tour sur la chaussée."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_56.png"
+        },
+        {
+            "question": "57. Ce signal routier signifie :",
+            "reponse": "Endroit spécialement fréquenté par les enfants.",
+            "leurres": [
+                "Zone de récréation pour les enfants.",
+                "Passage pour piétons."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_57.png"
+        },
+        {
+            "question": "58. Ce signal routier signifie :",
+            "reponse": "La circulation est autorisée dans les deux sens, sur une partie la chaussée à sens unique.",
+            "leurres": [
+                "Les conducteurs doivent rouler sur deux files.",
+                "Quatre bandes de circulation sans terre-plein central."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_58.jpg"
+        },
+        {
+            "question": "59. Ce signal routier signifie :",
+            "reponse": "Le début d'une agglomération.",
+            "leurres": [
+                "La limite entre les deux communes.",
+                "Le début d'une agglomération où la priorité est d'application."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_59.png"
+        },
+        {
+            "question": "60. Je veux tourner à droite. Ce signal routier indique :",
+            "reponse": "La présence de cyclistes et de cyclomotoristes suivant la même route.",
+            "leurres": [
+                "Un passage pour cyclistes sur la route que je vais emprunter.",
+                "Une direction obligatoire pour tous les cyclistes."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_60.png"
+        },
+        {
+            "question": "61. A ce signal routier, l'accès est interdit :",
+            "reponse": "Aux conducteurs de véhicules motorisés à plus de deux roues et aux motocyclettes avec side-car.",
+            "leurres": [
+                "Aux conducteurs de voitures.",
+                "Aux conducteurs de véhicules avec passager."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_61.png"
+        },
+        {
+            "question": "62. Qu'est-ce que ce signal routier signifie ?",
+            "reponse": "Immobilisez -vous et cédez la priorité.",
+            "leurres": [
+                "Cédez la priorité et immobilisez-vosu au besoin.",
+                "Immobilisez-vous et cédez le passage uniquement à ceux qui viennent de droite."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_62.png"
+        },
+        {
+            "question": "63. Qu'est-ce que ce signal routier signifie ?",
+            "reponse": "Cédez la priorité aux piétons.",
+            "leurres": [
+                "Regardez attentivement.",
+                "Poursuivez votre route."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_63.png"
+        },
+        {
+            "question": "64. Ce signal routier :",
+            "reponse": "Astreint le conducteur à suivre une des directions indiquées par les flèches.",
+            "leurres": [
+                "Conseille au conducteur de suivre une des directions indiquées par les flèches.",
+                "Laisse au conducteur le choix de la direction à prendre."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_64.png"
+        },
+        {
+            "question": "65. Que signifie ce signal routier ?",
+            "reponse": "Carrefour où la priorité de droite est d'application.",
+            "leurres": [
+                "Passage à niveau sans barrières.",
+                "Carrefour à quatre bras où j'ai la priorité."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_65.png"
+        },
+        {
+            "question": "66. Que signifie ce signal routier ?",
+            "reponse": "Interdiction de dépasser par la gauche un véhicule attelé ou un véhicule à plus de deux roues.",
+            "leurres": [
+                "Interdiction de dépasser.",
+                "Interdiction à tout véhicule à moteur à plus de deux roues."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_66.png"
+        },
+        {
+            "question": "67. Qu'indique ce signal routier dans un tunnel ?",
+            "reponse": "La sortie de secours la plus proche.",
+            "leurres": [
+                "La bande d'arrêt d'urgence la plus proche.",
+                "Le parking le plus proche."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_67.jpg"
+        },
+        {
+            "question": "68. Passé ce signal, la vitesse maximum autorisée est de 50 km/h.",
+            "reponse": "Faux",
+            "leurres": [
+                "Correct"
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_68.png"
+        },
+        {
+            "question": "69. Ce signal routier signifie :",
+            "reponse": "Route à sens unique.",
+            "leurres": [
+                "Direction obligatoire.",
+                "Chaussée à une bande de circulation."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_69.png"
+        },
+        {
+            "question": "70. Quand les signaux lumineux sont au rouge, cela signifie que :",
+            "reponse": "Il est interdit de dépasser la ligne d'arrêt ou le signal lumineux s'il n'y a pas de ligne d'arrêt.",
+            "leurres": [
+                "Le conducteur ne peut pas passer ce feu sauf si, au moment où le feu s'allume, le conducteur s'en trouve si près qu'il lui est impossible de s'immobiliser dans des conditions de sécurité suffisantes."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_70.jpg"
+        },
+        {
+            "question": "Un feu clignotant jaune-orange signifie : attention,",
+            "reponse": "Vous pouvez passer le signal de priorité n'est pas modifiée.",
+            "leurres": [
+                "Vous devez céder le passage à ceux qui viennent de gauche et de droite.",
+                "Passage pour piétons. Vous pouvez passer le feu, après avoir marqué un temps d'arrêt."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_71.jpg"
+        },
+        {
+            "question": "72. Un feu jaune-orange fixe signifie :",
+            "reponse": "Vous ne pouvez pas passer le feu, sauf si vous vous trouvez si près qu'il est impossible de vous immobiliser  dans des conditions de sécurité suffisantes.",
+            "leurres": [
+                "Vous ne pouvez pas passer le feu.",
+                "Que les feux vont changer, mais vous pouvez passer aussi longtemps que le feu n'est pas passé au rouge."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_72.jpg"
+        },
+        {
+            "question": "73. Une flèche verte orientée vers la droite et utilisée en même temps qu'un feu rouge, signifie :",
+            "reponse": "Que les conducteurs peuvent tourner à droite, mais doivent céder la priorité à ceux qui viennent éventuellement de droite ou de gauche.",
+            "leurres": [
+                "Que les conducteurs peuvent tourner à droite et gardent la priorité.",
+                "Qu'il est interdit de tourner à droite."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_73.jpg"
+        },
+        {
+            "question": "74. Une flèche verte orientée vers la gauche est placée à la sortie d'un carrefour. Cette flèche signifie que :",
+            "reponse": "Le conducteur qui se trouve sur le carrefour peut quitter le carrefour par la gauche.",
+            "leurres": [
+                "Tous les conducteurs qui s'engagent dans le carrefour doivent suivre la direction indiquée par la flèche."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_74.jpg"
+        },
+        {
+            "question": "75. Les signaux lumineux avec la représentation d'une bicyclette sont d'application :",
+            "reponse": "Pour les conducteurs de bicyclettes et de cyclomoteurs à deux roues.",
+            "leurres": [
+                "Pour les conducteurs de bicyclettes.",
+                "Pour les conducteurs de bicyclettes, de cyclomoteurs à deux roues et de motocyclettes."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_75.jpg"
+        },
+        {
+            "question": "76. Un feu clignotant jaune-orange signifie que :",
+            "reponse": "Vous pouvez passer le signal avec extrême prudence, la règle de priorité n'est pas modifiée.",
+            "leurres": [
+                "Vous devez vous arrêter.",
+                "Vous ne pouvez pas passer le signal lumineux."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_76.jpg"
+        },
+        {
+            "question": "77. Le signal lumineux signifie :",
+            "reponse": "Que le conducteur peut passer le feu dans la direction indiquée.",
+            "leurres": [
+                "Qu'il est interdit de passer la ligne d'arrêt ou le signal lumineux.",
+                "Que le conducteur ne peut pas passer ce feu sauf si, au moment où le feu s'allume, le conducteur s'en trouve si près qu'il lui est impossible de s'immobiliser dans des conditions de sécurité suffisantes."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_77.jpg"
+        },
+        {
+            "question": "78. Le signal lumineux signifie :",
+            "reponse": "Qu'il est interdit de passer la ligne d'arrêt ou le signal lumineux.",
+            "leurres": [
+                "Qu'il est interdit de passer le signal lumineux ou la ligne d'arrêt, sauf si les barrières ne sont pas encore en mouvement.",
+                "Que le passage est autorisé sauf si le signal sonore fonctionne."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_78.jpg"
+        },
+        {
+            "question": "79. Ce signal routier signifie :",
+            "reponse": "Accès interdit à tout véhicule transportant des matières inflammables dangereuses ou des matières explosives.",
+            "leurres": [
+                "Accès interdit à tout véhicule équipé d'une installation au gaz.",
+                "Accès interdit à tout véhicule transportant des matières polluantes dangereuses."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_79.jpg"
+        },
+        {
+            "question": "80. A parti de quel taux d'alcoolémie commettez-vous une infraction ?",
+            "reponse": "0,5 pour mille.",
+            "leurres": [
+                "0,2 pour mille.",
+                "0,8 pour mille."
+            ]
+        },
+        {
+            "question": "81. Peut être soumis au test de l'haleine :",
+            "reponse": "Tout conducteur d'un véhicule circulant sur la voie publique.",
+            "leurres": [
+                "Tout piéton.",
+                "Toute personne qui conduit un cyclomoteur à la main."
+            ]
+        },
+        {
+            "question": "82. Quand le conducteur doit-il subir un prélèvement sanguin ?",
+            "reponse": "Quand le test de l'haleine indique 0,22 mg/l et qu'une analyse de l'haleine ne peut être effectuée.",
+            "leurres": [
+                "Dés qu'il conduit un véhicule.",
+                "Dés qu'il conduit et qu'il y a une présomption d'ivresse."
+            ]
+        },
+        {
+            "question": "83. Le résultat de l'analyse de l'haleine indique plus de 0,35 mg d'alcool par litre d'air alvéolaire expiré. La police doit :",
+            "reponse": "Imposer au conducteur une interdiction temporaire de conduire pendant 6 heures et, éventuellement, retirer le permis de conduire.",
+            "leurres": [
+                "Uniquement imposer au conducteur une interdiction temporaire de conduire de 6 heures.",
+                "Uniquement retirer le permis de conduire pendant 6 heures."
+            ]
+        },
+        {
+            "question": "84. L'usage d'alcool en combinaison avec des médicaments :",
+            "reponse": "Aggrave l'intoxication.",
+            "leurres": [
+                "Diminue l'intoxication.",
+                "N'a pas d'influence sur l'intoxication."
+            ]
+        },
+        {
+            "question": "85. Pouvez-vous demander un délai lors d'un test de l'haleine ?",
+            "reponse": "Oui, de 15 minutes.",
+            "leurres": [
+                "Non",
+                "Oui, de 30 minutes."
+            ]
+        },
+        {
+            "question": "86. Un ou les deux bras tendus horizontalement signifie que :",
+            "reponse": "Les usagers se trouvant devant ou derrière l'agent doivent s'immobiliser.",
+            "leurres": [
+                "L'usager se trouvant devant ou derrière l'agent doivent tourner à gauche ou à droite.",
+                "Les usagers se trouvant à gauche ou à droite de l'agent doivent s'immobiliser."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_86.jpg"
+        },
+        {
+            "question": "87. Un bras tendu horizontalement signifie que :",
+            "reponse": "Les usagers se trouvant à droite ou à gauche de l'agent peuvent passer ou tourner.",
+            "leurres": [
+                "Tous les usagers peuvent tourner dans la direction indiquée par le bras et ont la priorité.",
+                "Les conducteurs peuvent seulement tourner à gauche."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_87.jpg"
+        },
+        {
+            "question": "88.Quelle est l'affirmation correcte quand vous entendez le signal sonore d'un agent ?",
+            "reponse": "L'agent veut attirer l'attention du conducteur.",
+            "leurres": [
+                "Tout le monde doit s'arrêter.",
+                "Le coup de sifflet est une injonction."
+            ]
+        },
+        {
+            "question": "89. Un bras tendu verticalement signifie :",
+            "reponse": "Tous les usagers doivent s'arrêter et ceux qui se trouvent dans le carrefour doivent le dégager.",
+            "leurres": [
+                "Tous les conducteurs doivent s'arrêter sauf les cyclistes et les cyclomotoristes.",
+                "Tous les usagers doivent s'arrêter même ceux qui se trouvent dans le carrefour."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_89.jpg"
+        },
+        {
+            "question": "90. Lorsque vous grillez un feu rouge :",
+            "reponse": "Vous risquez le retrait immédiat de votre permis de conduire.",
+            "leurres": [
+                "Vous risquez une perception immédiate maximale de 50 euros.",
+                "Vous risquez une perception immédiate maximale de 100 euros."
+            ]
+        },
+        {
+            "question": "91. Vous commettez une infraction de vitesse de 8 km/h. La perception immédiate est de :",
+            "reponse": "50 euros",
+            "leurres": [
+                "150 euros",
+                "100 euros"
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_91.jpg"
+        },
+        {
+            "question": "92. Le conducteur doit tenir compte :",
+            "reponse": "De l'agent.",
+            "leurres": [
+                "Des signaux relatifs à la priorité.",
+                "Des signaux lumineux."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_92.jpg"
+        },
+        {
+            "question": "93. A ce carrefour,",
+            "reponse": "Vous ne pouvez pas vous engager maintenant.",
+            "leurres": [
+                "Vous pouvez vous engager et tourner à gauche.",
+                "Vous pouvez vous engager et tourner à gauche après avoir cédé la priorité."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_93.jpg"
+        },
+        {
+            "question": "94. Qui peut s'engager dans le carrefour ?",
+            "reponse": "La voiture verte.",
+            "leurres": [
+                "Aucune des deux voitures.",
+                "La voiture rouge."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_94.jpg"
+        },
+        {
+            "question": "95. La voiture bleue :",
+            "reponse": "Ne peut pas s'engager dans le carrefour maintenant.",
+            "leurres": [
+                "A la priorité de droite et peut tourner à gauche.",
+                "Doit céder la priorité à la voiture verte."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_95.jpg"
+        },
+        {
+            "question": "96. Le signal lumineux orange clignote.",
+            "reponse": "La voiture verte a la priorité.",
+            "leurres": [
+                "La voiture bleue a la priorité.",
+                "Aucune des deux voitures n'a la priorité. Les conducteurs doivent être prudents et décider de qui va passer en premier lieu."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_96.jpg"
+        },
+        {
+            "question": "97. L'injonction d'un agent :",
+            "reponse": "Prévaut : la voiture rouge peut poursuivre sa route, la voiture verte ne peut pas s'engager dans le carrefour.",
+            "leurres": [
+                "Prévaut : la voiture rouge doit d'abord s'immobiliser devant la ligne stop et peut ensuite poursuivre sa route et la voiture verte ne peut pas s'engager dans le carrefour.",
+                "N'est pas d'application ici : la voiture rouge doit s'immobiliser, la voiture verte peut poursuivre sa route."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_97.jpg"
+        },
+        {
+            "question": "98. Quand un véhicule prioritaire utilise un feu clignotant bleu et un avertisseur sonore spécial, les autres usagers de la route doivent immédiatement :",
+            "reponse": "Céder le passage, donner la priorité et s'immobiliser au besoin.",
+            "leurres": [
+                "S'écarter et poursuivre leur route en roulant lentement.",
+                "S'écarter sans augmenter la vitesse."
+            ]
+        },
+        {
+            "question": "99. Ce signal routier indique :",
+            "reponse": "Un croisement de la voie publique et de rails intégrés dans la chaussée.",
+            "leurres": [
+                "Un croisement où j'ai priorité sur le tram.",
+                "Un croisement où la priorité de droite est d'application."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_99.jpg"
+        },
+        {
+            "question": "100. Le conducteur qui, à un carrefour sans signaux routiers, vient de droite par rapport à un autre conducteur a :",
+            "reponse": "La priorité, quelle que soit la direction qu'il choisisse.",
+            "leurres": [
+                "Toujours la priorité, même s'il sort d'un chemin de terre.",
+                "Uniquement la priorité s'il roule tout droit dans le carrefour."
+            ]
+        },
+        {
+            "question": "101. La priorité de droite est d'application dans un carrefour :",
+            "reponse": "Qui se compose d'une ou de plusieurs chaussées.",
+            "leurres": [
+                "Qui se compose d'une chaussée et d'un chemin de terre.",
+                "Qui est équipé d'un de ces signaux relatifs à la priorité."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_101.jpg"
+        },
+        {
+            "question": "102. La droite a la priorité signifie :",
+            "reponse": "Un conducteur doit céder le passage à ceux qui viennent de droite.",
+            "leurres": [
+                "Le conducteur venant le plus de droite doit, dans un carrefour, céder la priorité à tous les autres conducteurs.",
+                "Dans un carrefour, les voitures ont toujours la priorité sur les motocyclettes, les cyclomoteurs et les bicyclettes."
+            ]
+        },
+        {
+            "question": "103. Le conducteur qui vient de droite dans un carrefour sans signaux routiers a :",
+            "reponse": "Toujours la priorité ; il peut tourner à gauche ou à droite ou rouler tout droit.",
+            "leurres": [
+                "Uniquement la priorité s'il roule tout droit.",
+                "Uniquement la priorité s'il roule tout droit ou s'il tourne à droite."
+            ]
+        },
+        {
+            "question": "104. A un carrefour avec ce signal routier, je dois :",
+            "reponse": "M'immobiliser et céder la priorité.",
+            "leurres": [
+                "Céder la priorité.",
+                "Céder la priorité à droite."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_104.png"
+        },
+        {
+            "question": "105. A un carrefour avec ce signal routier, je dois :",
+            "reponse": "Céder la priorité et m'immobiliser au besoin.",
+            "leurres": [
+                "M'immobiliser et céder la priorité.",
+                "Céder la priorité à droite."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_105.png"
+        },
+        {
+            "question": "106. Je m'approche d'un carrefour où je dois :",
+            "reponse": "Céder la priorité et m'immobiliser au besoin.",
+            "leurres": [
+                "M'immobiliser et céder la priorité.",
+                "Céder la priorité à droite."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_106.jpg"
+        },
+        {
+            "question": "107. Je m'approche d'un carrefour où je dois.",
+            "reponse": "M'immobiliser et céder la priorité.",
+            "leurres": [
+                "Céder la priorité.",
+                "Céder la priorité à droite."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_107.jpg"
+        },
+        {
+            "question": "108. Je m'approche d'un carrefour où :",
+            "reponse": "Je dois tenir compte d'un autre règlement de la priorité.",
+            "leurres": [
+                "J'ai la priorité.",
+                "Je dois m'immobiliser et céder la priorité."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_108.jpg"
+        },
+        {
+            "question": "109. Lorsque vous rencontrez ce signal routier sur votre route,",
+            "reponse": "Le véhicule venant en sens inverse doit vous laisser la priorité.",
+            "leurres": [
+                "Vous devez laisser la priorité au véhicule venant en sesn inverse.",
+                "C'est celui qui arrive en premier au rétrécissement de la chaussée qui a la priorité."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_109.png"
+        },
+        {
+            "question": "110. Je m'approche d'un carrefour où :",
+            "reponse": "La voie prioritaire tourne vers la gauche.",
+            "leurres": [
+                "Je dois m'immobiliser et céder la priorité.",
+                "La voie prioritaire prend fin."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_110.png"
+        },
+        {
+            "question": "111. Le véhicule B s'est immobilisé. Indiquez les priorités successives.",
+            "reponse": "A B C",
+            "leurres": [
+                "B C A",
+                "B A C"
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_111.jpg"
+        },
+        {
+            "question": "112. Tous les véhicules sont en mouvement. Indiquez les priorités successives.",
+            "reponse": "C A B",
+            "leurres": [
+                "A B C",
+                "C B A"
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_112.jpg"
+        },
+        {
+            "question": "113. Tous les véhicules sont en mouvement. Quelle voiture a la priorité ?",
+            "reponse": "La voiture B, car elle se trouve sur un rond-point.",
+            "leurres": [
+                "La voiture A, parce qu'elle vient de droite.",
+                "La voiture 1, parce qu'elle tourne à droite."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_113.jpg"
+        },
+        {
+            "question": "114. Tous les véhicules sont en mouvement. Indiquez les priorités successives.",
+            "reponse": "Le cycliste A - La voiture C - la voiture B",
+            "leurres": [
+                "La voiture B - la voiture C - le cycliste A",
+                "Le cycliste A - la voiture B - la voiture C"
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_114.jpg"
+        },
+        {
+            "question": "115. Tous les véhicules sont en mouvement. Qui doit accéder au carrefour en dernier lieu ?",
+            "reponse": "La voiture A",
+            "leurres": [
+                "Le cyclomotoriste C",
+                "La voiture B"
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_115.jpg"
+        },
+        {
+            "question": "116. Tous les véhicules sont en mouvement. Indiquez les priorités successives.",
+            "reponse": "A C B D",
+            "leurres": [
+                "A B C D",
+                "B C D A"
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_116.jpg"
+        },
+        {
+            "question": "117. Tous les véhicules sont en mouvement. Indiquez les priorités successives.",
+            "reponse": "B A C D",
+            "leurres": [
+                "D B A C",
+                "B C D A"
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_117.jpg"
+        },
+        {
+            "question": "118. Tous les véhicules sont en mouvement. Qui a la priorité ?",
+            "reponse": "La voiture 1, parce qu'elle vient de droite.",
+            "leurres": [
+                "Le cycliste B.",
+                "La voiture A, parce qu'elle tourne à droite."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_118.jpg"
+        },
+        {
+            "question": "119. Tous les véhicules sont en mouvement. Indiquez les priorités successives.",
+            "reponse": "B C A",
+            "leurres": [
+                "C B A",
+                "A B C"
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_119.jpg"
+        },
+        {
+            "question": "120. A et B roulent sur une chaussée, C sort d'un chemin de terre, D sort d'un sentier. Indiquez les priorités successives.",
+            "reponse": "B A D C",
+            "leurres": [
+                "B A C D",
+                "D A C B"
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_120.jpg"
+        },
+        {
+            "question": "121. Tous les véhicules sont en mouvement. Indiquez les priorités successives.",
+            "reponse": "Le tram A - la voiture C - la motocyclette B",
+            "leurres": [
+                "Le tram A - la motocyclette B - la voiture C",
+                "La voiture C - la motocyclette B - le tram A"
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_121.jpg"
+        },
+        {
+            "question": "122. Tous les véhicules sont en mouvement. Indiquez les priorités successives.",
+            "reponse": "Le tram A - la motocyclette C - la voiture B",
+            "leurres": [
+                "Le tram A - la voiture B - la motocyclette C",
+                "La voiture B - la motocyclette C - le tram A"
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_122.jpg"
+        },
+        {
+            "question": "123. Vous roulez à une vitesse de 90 km/h. Pour immobiliser votre voiture, il vous faut une distance d'environ :",
+            "reponse": "81 à 90 mètres.",
+            "leurres": [
+                "40 à 45 mètres.",
+                "110 à 120 mètres."
+            ]
+        },
+        {
+            "question": "124. La distance d'arrêt est la distance parcourue.",
+            "reponse": "Le temps d'apercevoir le danger et le lieu de l'immobilisation.",
+            "leurres": [
+                "Le temps d'apercevoir le danger et d'enfoncer la pédale de frein.",
+                "Le temps d'enfoncer la pédale de frein et le moment de l'immobilisation."
+            ]
+        },
+        {
+            "question": "125. A partir de ce signal routier, la vitesse est limitée à :",
+            "reponse": "20 km/h",
+            "leurres": [
+                "50 km/h",
+                "30 km/h"
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_125.png"
+        },
+        {
+            "question": "A partir de ce signal routier, la vitesse est limitée à :",
+            "reponse": "30 km/h",
+            "leurres": [
+                "20 km/h",
+                "50 km/h"
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_126.png"
+        },
+        {
+            "question": "127. Dans cette agglomération, la vitesse est limitée à ... pour tous les véhicules :",
+            "reponse": "30 km/h",
+            "leurres": [
+                "25 km/h",
+                "50 km/h"
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_127.jpg"
+        },
+        {
+            "question": "128. Sur une route pour automobile dans une agglomération, la vitesse est limitée à :",
+            "reponse": "50 km/h",
+            "leurres": [
+                "70 km/h",
+                "90 km/h"
+            ]
+        },
+        {
+            "question": "129. A partir de ce signal routier, la vitesse est limitée à :",
+            "reponse": "50 km/h",
+            "leurres": [
+                "30 km/h",
+                "45 km/h"
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_129.png"
+        },
+        {
+            "question": "130. Sur une route ordinaire, le conducteur ne peut pas gêner la circulation des autres usagers :",
+            "reponse": "En roulant à une vitesse anormalement basse sans raison valable.",
+            "leurres": [
+                "En déterminant lui-même sa vitesse.",
+                "En limitant toujours sa vitesse à moins de 20 km/h quand le trafic est intense."
+            ]
+        },
+        {
+            "question": "131. Sur une route pour automobile avec 2x2 bandes de circulation et sans terre-plein central, la vitesse est limitée à :",
+            "reponse": "90 km/h hors agglomération.",
+            "leurres": [
+                "120 km/h hors agglomération.",
+                "90 km/h en agglomération et en dehors."
+            ]
+        },
+        {
+            "question": "132. La limitation de vitesse imposée par ce signal routier :",
+            "reponse": "Est valable jusqu'au prochain carrefour.",
+            "leurres": [
+                "Est valable dans toute l'agglomération.",
+                "Est valable jusqu'au prochain signal routier."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_132.png"
+        },
+        {
+            "question": "133. J'habite dans cette rue. Que puis-je faire ?",
+            "reponse": "Je peux y circuler à l'allure du pas.",
+            "leurres": [
+                "Je ne peux pas y circuler.",
+                "Je peux y circuler à 30 km/h."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_133.jpg"
+        },
+        {
+            "question": "134. A l'approche de bétail, d'animaux de trait, de charge ou de monture qui manifestent des signes de frayeur, les conducteurs doivent.",
+            "reponse": "S'immobiliser.",
+            "leurres": [
+                "Ralentir et klaxonner de façon ininterrompue.",
+                "Ralentir et poursuivre leur chemin."
+            ]
+        },
+        {
+            "question": "135. Quand faut-il utiliser l'indicateur de direction ?",
+            "reponse": "A chaque fois que vous changez de direction, que vous dépassez ou que vous exécutez une manœuvre et qu'un déplacement latéral est nécessaire.",
+            "leurres": [
+                "Uniquement en dépassant.",
+                "A chaque fois que vous exécutez une manœuvre, mais uniquement quand il y a d'autres usagers dans les environs."
+            ]
+        },
+        {
+            "question": "136. Il est interdit de dépasser une voiture :",
+            "reponse": "Sur les passages à niveau sans barrière ni signaux lumineux.",
+            "leurres": [
+                "Sur tous les passages à niveau.",
+                "Sur les passages à niveau avec barrières ou signaux lumineux."
+            ]
+        },
+        {
+            "question": "137. Un conducteur qui va être dépassé par la gauche, doit :",
+            "reponse": "Serrer autant que possible à droite sans accélérer.",
+            "leurres": [
+                "Serrer autant que possible à droite et ralentir.",
+                "Emprunter l'accotement de plied pour laisser passer le conducteur qui dépasse, s'il n'y a pas assez vous avez terminé la manœuvre de dépassement."
+            ]
+        },
+        {
+            "question": "138. Lors d'un dépassement par la gauche, il faut éteindre l'indicateur de direction dés que :",
+            "reponse": "Vous avez effectué le déplacement latéral.",
+            "leurres": [
+                "Vous avez dépassé le véhicule concerné.",
+                "Vous avez terminé la manœuvre de dépassement."
+            ]
+        },
+        {
+            "question": "139. Faut-il utiliser un indicateur de direction en quittant ou en s'engageant sur un rond-point ?",
+            "reponse": "Pas en s'y engageant mais bien en quittant le rond-point.",
+            "leurres": [
+                "Oui",
+                "Ni en s'y engageant, ni en quittant le rond-point."
+            ]
+        },
+        {
+            "question": "140. Sur un dispositif surélevé, vous ne pouvez pas :",
+            "reponse": "Dépasser un cycliste par la gauche.",
+            "leurres": [
+                "Dépassez un cycliste par la droite.",
+                "Dépasser un cycliste par la gauche ou par la droite."
+            ]
+        },
+        {
+            "question": "141. Il est interdit de dépasser une voiture :",
+            "reponse": "Quand elle s'approche d'un passage pour piétons ou quand elle s'immobilise devant ce passage.",
+            "leurres": [
+                "Quand elle s'approche d'un passage pour piétons.",
+                "Quand elle s'immobilise devant un passage pour piétons."
+            ]
+        },
+        {
+            "question": "142. En dehors d'une agglomération. Le conducteur d'un autobus veut quitter son point d'arrêt.",
+            "reponse": "Le conducteur d'autobus doit me céder la priorité.",
+            "leurres": [
+                "Je dois m'immobiliser derrière l'autobus.",
+                "Je dois céder la priorité au conducteur d'autobus."
+            ]
+        },
+        {
+            "question": "143. En exécutant un croisement dans une rue étroite,",
+            "reponse": "Je peux rouler sur l'accotement de plain-pied.",
+            "leurres": [
+                "Je dois céder la priorité au véhicule venant en sens inverse.",
+                "Le véhicule venant en sens inverse doit me céder la priorité."
+            ]
+        },
+        {
+            "question": "144. Quand je tourne à droite dans un carrefour,",
+            "reponse": "Je dois surveiller les piétons qui sont en train de traverser. Ils ont la priorité.",
+            "leurres": [
+                "Je dois uniquement céder la priorité aux piétons qui se trouvent sur un passage pour piétons. S'il n'y a pas de passage pour piétons, j'ai la priorité.",
+                "Tout piéton doit me céder la priorité."
+            ]
+        },
+        {
+            "question": "145. Dans cette situation, vous pouvez dépasser le tram par la gauche.",
+            "reponse": "Exact. Le passage à droite est trop étroit.",
+            "leurres": [
+                "Inexact. Il faut toujours dépasser un tram par la droite.",
+                "Inexact. Vous devez rouler à droite, sur l'accotement."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_145.jpg"
+        },
+        {
+            "question": "146. Pouvez-vous dépasser la voiture ?",
+            "reponse": "Non",
+            "leurres": [
+                "Oui, s'il n'y a pas de conducteurs venant en sens inverse.",
+                "Oui, ce signal est uniquement applicable aux camions."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_146.jpg"
+        },
+        {
+            "question": "147. Pouvez-vous dépasser la voiture ?",
+            "reponse": "Oui, le signal ne l'interdit pas.",
+            "leurres": [
+                "Oui, mais il faut klaxonner.",
+                "Non, le signal l'interdit."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_147.jpg"
+        },
+        {
+            "question": "148. Le conducteur veut tourner à gauche. Il doit :",
+            "reponse": "Prendre le virage le plus large possible.",
+            "leurres": [
+                "Prendre le virage le plus serré possible.",
+                "Prendre un virage à 90°."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_148.jpg"
+        },
+        {
+            "question": "149. Indiquez les priorités successives. A s'est immobilisé, B et C roulent.",
+            "reponse": "C B A",
+            "leurres": [
+                "A B C",
+                "B C A"
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_149.jpg"
+        },
+        {
+            "question": "150. Quel est le véhicule qui a la meilleure présélection ?",
+            "reponse": "Le véhicule C.",
+            "leurres": [
+                "Le véhicule B.",
+                "Le véhicule A."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_150.jpg"
+        },
+        {
+            "question": "151. Route où la circulation est admise dans les deux sens.",
+            "reponse": "C ne peut pas dépasser B et A en même temps.",
+            "leurres": [
+                "C peut dépasser B et A en même temps.",
+                "A doit ralentir car B et C veulent dépasser le véhicule A."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_151.jpg"
+        },
+        {
+            "question": "152. Le conducteur qui veut tourner à droite, doit :",
+            "reponse": "Prendre le virage le plus serré possible.",
+            "leurres": [
+                "Prendre le virage le plus large possible.",
+                "Prendre un virage à 90°."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_152.jpg"
+        },
+        {
+            "question": "153. Tous les véhicules sont en mouvement. Qui peut dépasser d'abord ?",
+            "reponse": "C, car il a déjà fait fonctionner l'indicateur de direction et s'est déjà écarté.",
+            "leurres": [
+                "B, car il se trouve devant C et il a déjà fait fonctionner l'indicateur de direction.",
+                "B et C ensemble. Il y a suffisamment d'espace pour les deux."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_153.jpg"
+        },
+        {
+            "question": "154. Qui à la priorité ?",
+            "reponse": "Le véhicule 1 qui veut tourner à droite.",
+            "leurres": [
+                "Le véhicule B qui veut tourner à gauche.",
+                "Les deux véhicules, car il exécuent tous deux un mouvement."
+            ],
+            "image": "/quest/questionnaire/autre/img/img_livre_permis_conduire/0_154.jpg"
+        },
+        {
+            "question": "155. Quand un conducteur s'approche d'un passage pour piétons,",
+            "reponse": "Il doit s'immobiliser si nécessaire, afin de céder la priorité aux piétons qui veulent s'y engager.",
+            "leurres": [
+                "Il a la priorité sur les piétons qui s'y trouvent.",
+                "Il doit uniquement s'immobiliser pour laisser passer les piétons qui s'y trouvent."
+            ]
+        },
+        {
+            "question": "156. Un conducteur qui veut dépasser un autobus du côté où les passagers montent ou descendent, doit :",
+            "reponse": "S'immobiliser, afin que les passagers puissent traverser la chaussée.",
+            "leurres": [
+                "Klaxonner de façon ininterrompue et modérer sa vitesse.",
+                "Modérer sa vitesse et être prudent afin de ne pas surprendre d'éventuels passagers qui traverseraient."
+            ]
+        },
+        {
+            "question": "157. Un conducteur doit garder une certaine distance entre son véhicule et un piéton qui se trouve sur la chaussée. Quelle est cette distance ?",
+            "reponse": "Au moins 1 mètre.",
+            "leurres": [
+                "Au moins 1,5 mètre.",
+                "Au moins 0,5 mètre."
+            ]
+        },
+        {
+            "question": "158. L'agglomération. Au bord de la chaussée, un piéton attend pour traverser. Je ne vois pas de passage pour piétons.",
+            "reponse": "Je ne dois pas céder la priorité au piéton.",
+            "leurres": [
+                "Je dosi m'immobiliser et céder la priorité au piéton.",
+                "Je dois céder la priorité au piéton."
+            ]
+        },
+        {
+            "question": "159. Est-ce que je dois tenir compte des enfants qui jouent sur le trottoir ?",
+            "reponse": "Oui, les mouvements des enfants sont imprévisibles, ils peuvent soudainement s'engager sur la chaussée.",
+            "leurres": [
+                "Non, s'ils se trouvent sur le trottoir, je ne dois pas tenir compte des enfants.",
+                "Il suffit de klaxonner en guise d'avertissement."
+            ]
+        },
+        {
+            "question": "160. Un bus scolaire s'arrête devant moi et fait fonctionner ses quatre indicateurs de direction. Que dois-je faire ?",
+            "reponse": "Je ralentis et je regarde attentivement afin de ne pas surprendre d'éventuels enfants qui traverseraient.",
+            "leurres": [
+                "Je longe rapidement le bus du côté gauche.",
+                "Je m'immobilise et j'attends que le bus reparte."
+            ]
+        },
+        {
+            "question": "161. Quand il aperçoit des enfants, un conducteur doit :",
+            "reponse": "Ralentir, s'écarter et s'immobiliser au besoin.",
+            "leurres": [
+                "Klaxonner et poursuivre son chemin.",
+                "S'immobiliser immédiatement."
+            ]
+        },
+        {
+            "question": "162. Dans l'obscurité, j'accroche un piéton qui n'est pas éclairé ou qui ne porte pas de vêtements rétroréfléchissants. Qui a commis une infraction ?",
+            "reponse": "Moi, car le piéton est un obstacle prévisible.",
+            "leurres": [
+                "Le piéton. Dans l'obscurité, il doit être éclairé ou porter un vêtement rétro-réfléchissant."
+            ]
+        },
+        {
+            "question": "163. A l'approche d'un groupe de coureurs participant à une course cycliste, les automobilistes doivent :",
+            "reponse": "S'écarter et s'immobiliser immédiatement.",
+            "leurres": [
+                "Ralentir et s'immobiliser au besoin.",
+                "Suivre les éventuelles injonctions d'un capitaine de route."
+            ]
+        },
+        {
+            "question": "164. Sur autoroute, il est interdit de circuler avec :",
+            "reponse": "Un véhicule qui n'atteint pas les 70 km/h.",
+            "leurres": [
+                "Une motocyclette et un passager.",
+                "Une remorque."
+            ]
+        },
+        {
+            "question": "165. Sur autoroute, il est interdit :",
+            "reponse": "D'emprunter les raccords transversaux, sauf si des signaux routiers obligent à la faire.",
+            "leurres": [
+                "De rouler à moins de 90 km/h.",
+                "De rouler à plus de 90 km/h."
+            ]
+        },
+        {
+            "question": "166. L'accès aux routes pour automobiles est interdit :",
+            "reponse": "A tous les véhicules agricoles.",
+            "leurres": [
+                "A tous les véhicules qui n'atteignent pas les 70 km/h.",
+                "A toutes les motocyclettes."
+            ]
+        },
+        {
+            "question": "167. L'accès aux autoroutes est interdit :",
+            "reponse": "A tous les cyclomoteurs.",
+            "leurres": [
+                "Aux conducteurs en possession d'un permis de conduire provisoire.",
+                "A toutes les camionnettes."
+            ]
+        },
+        {
+            "question": "168. Sur une autoroute et à droite de la ligne continue, le conducteur :",
+            "reponse": "Ne peut ni stationner ne s'arrêter.",
+            "leurres": [
+                "Ne peut pas stationner mais il peut s'arrêter.",
+                "Peut répondre à un appel téléphonique sur son GSM."
+            ]
+        },
+        {
+            "question": "169. Lorsqu'un conducteur doit abandonner son véhicule sur la bande de détresse d'une autoroute :",
+            "reponse": "Il doit porter une veste rétro-réfléchissante pour placer le triangle de danger.",
+            "leurres": [
+                "Il doit porter une veste rétro-réfléchissante.",
+                "Il doit placer le triangle de danger."
+            ]
+        },
+        {
+            "question": "170. Sur les routes pour automobiles, il est interdit :",
+            "reponse": "D'emprunter les raccords transversaux, sauf si des signaux routiers obligent à le faire.",
+            "leurres": [
+                "De rouler à moins de 70 km/h.",
+                "De rouler à plus de 70km/h."
+            ]
+        },
+        {
+            "question": "171. Sur les routes pour automobiles, il est interdit de circuler avec :",
+            "reponse": "Un quatre roues motorisé, sans espace pour un passager, du style quad",
+            "leurres": [
+                "Une motocyclette et un passager.",
+                "Une remorque sur pneumatiques."
+            ]
+        },
+        {
+            "question": "172. Sur une route pour automobiles située dans une agglomération, la vitesse maximum autorisée est de :",
+            "reponse": "50 km/h",
+            "leurres": [
+                "70 km/h",
+                "90 km/h"
+            ]
+        },
+        {
+            "question": "173. Les feux de route doivent êtres éteints :",
+            "reponse": "Dés que le conducteur venant en sens inverse approche.",
+            "leurres": [
+                "Quand le conducteur venant en sens inverse allume ses feux de route.",
+                "Seulement quand le conducteur venant en sens inverse fait des appels de phares."
+            ]
+        },
+        {
+            "question": "174. Quand faut-il allumer le feu de brouillard arrière .?",
+            "reponse": "En cas de brouillard ou de chute de neige, lorsque la visibilité est inférieure à 100 mètres et également en cas de fortes pluies.",
+            "leurres": [
+                "Cette obligation n'est jamais d'application. Vous pouvez l'allumer en cas de brouillard ou de chute de neige.",
+                "En cas de brouillard ou de chute de neige."
+            ]
+        },
+        {
+            "question": "175. Les feux de croisement doivent être allumés,",
+            "reponse": "Quand la visibilité est de moins de 200 mètres.",
+            "leurres": [
+                "Aussi bien le jour que la nuit.",
+                "Quand la visibilité est de moins de 100 mètres."
+            ]
+        },
+        {
+            "question": "176. De jour, l'usage du klaxon :",
+            "reponse": "Est autorisé en dehors des agglomérations, lorsque vous voulez avertir un conducteur de votre intention de le dépasser.",
+            "leurres": [
+                "Est toujours autorisé.",
+                "N'est pas autorisé."
+            ]
+        },
+        {
+            "question": "177. Les feux de route ne peuvent pas être allumés :",
+            "reponse": "A l'approche d'un usager venant en sens inverse.",
+            "leurres": [
+                "Quand la visibilité est de moins de 200 mètres.",
+                "Quand il n'y a pas d'éclairage public."
+            ]
+        },
+        {
+            "question": "178. Je conduis la nuit dans une agglomération. Chaussée éclairée suffisamment et de façon ininterrompue, 150 mètres de visibilité.",
+            "reponse": "Je dois allumer les feux de croisement.",
+            "leurres": [
+                "Je dois allumer les feux de position.",
+                "Je dois allumer les feux de route."
+            ]
+        },
+        {
+            "question": "179. Les feux de route doivent être éteints et les feux de croisement allumés lorsque je suis un autre véhicule à moins de :",
+            "reponse": "50 mètres, sauf si je dépasse.",
+            "leurres": [
+                "50 mètres, même si je dépasse.",
+                "100 mètres, sauf si je dépasse."
+            ]
+        },
+        {
+            "question": "180. Dois-je allumer les feux de position quand je gare ma voiture, le soir, sur un accotement de plain-pied ?",
+            "reponse": "Oui, sauf si mon véhicule se trouve sous l'éclairage public et est clairement visible à 100 mètres.",
+            "leurres": [
+                "Non",
+                "Non, sauf si je stationne en partie sur la chaussée et en partie sur l'accotement."
+            ]
+        },
+        {
+            "question": "181. En cas de fortes pluies,",
+            "reponse": "Vous devez allumer les feux de brouillard arrière.",
+            "leurres": [
+                "Vous pouvez allumer les feux de brouillard arrière.",
+                "Vous ne pouvez jamais allumer les feux de brouillard arrière."
+            ]
+        },
+        {
+            "question": "182. Quand puis-je employer les quatre indicateurs de direction ?",
+            "reponse": "Quand je veux attirer l'attention des autres usagers sur un danger imminent d'accident.",
+            "leurres": [
+                "Pour l'embarquement et le débarquement des passagers.",
+                "Quand je veux livrer des marchandises dans une rue où je ne trouve pas d'emplacement de stationnement."
+            ]
+        },
+        {
+            "question": "183. Un chargement indivisible ne peut pas dépasser, à l'arrière,",
+            "reponse": "De plus de 3 mètres.",
+            "leurres": [
+                "De plus d'un mètre.",
+                "Ne peut pas dépasser."
+            ]
+        },
+        {
+            "question": "184. La largeur d'un chargement normal est de :",
+            "reponse": "2,55 mètres au maximum.",
+            "leurres": [
+                "2,50 mètres au maximum.",
+                "3,00 mètres au maximum."
+            ]
+        },
+        {
+            "question": "185. Le chargement peut.",
+            "reponse": "Ne peut pas dépasser à l'avant du véhicule.",
+            "leurres": [
+                "Dépasser de 30 cm au maximum, à l'avant du véhicule.",
+                "Dépasser de 50 cm au maximum, à l'avant du véhicule."
+            ]
+        },
+        {
+            "question": "186. La hauteur maximale d'une voiture particulière chargée est de :",
+            "reponse": "4 mètres",
+            "leurres": [
+                "2,55 mètres",
+                "3 mètres"
+            ]
+        },
+        {
+            "question": "187. Le chargement indivisible dépasse de 2 mètres à l'arrière du véhicule. De jour, je dois signaler ce chargement par :",
+            "reponse": "Un panneau carré d'environ 0,50 mètre peint en bandes alternées rouges et blanches réfléchissantes.",
+            "leurres": [
+                "Un catadioptre rouge.",
+                "Un feu rouge dirigé vers l'arrière."
+            ]
+        },
+        {
+            "question": "188. Le chargement rend invisibles les feux de ma voiture.",
+            "reponse": "Ceci n'est jamais autorisé.",
+            "leurres": [
+                "Ceci est autorisé de jour.",
+                "Ceci est autorisé de nuit, s'il s'agit des feux du côté droit."
+            ]
+        },
+        {
+            "question": "189. Une byciclette attachée peut dépasser à l'arrière d'un véhicule. Quelle est la longueur maximale autorisée ?",
+            "reponse": "1 mètre",
+            "leurres": [
+                "1,5 mètre",
+                "2 mètres"
+            ]
+        },
+        {
+            "question": "190. Peut-on garder ouvertes les portières latérales ou arrière lorsqu'on transporte un chargement ?",
+            "reponse": "Oui, si elles sont fixées de manière à ne pas dépasser le contour latéral maximal du véhicule.",
+            "leurres": [
+                "Non, ceci n'est jamais autorisé.",
+                "Oui, si un panneau carré d'environ 0,50 mètre peint en bandes alternées rouges et blanches réfléchissantes est attaché à l'extrémité du chargement."
+            ]
+        },
+        {
+            "question": "191. Ces signaux signifient :",
+            "reponse": "Attention, produits corrosifs.",
+            "leurres": [
+                "Attention, produits toxiques.",
+                "Attention, liquides inflammables."
+            ]
+        },
+        {
+            "question": "192. Où faut-il immobiliser ou stationner une voiture particulière sur la chaussée ?",
+            "reponse": "A droite dans le sens de la marche et en une seule file.",
+            "leurres": [
+                "A 1,5 mètre du bord de la chaussée.",
+                "A gauche ou à droite de la chaussée en fonction de la place disponible."
+            ]
+        },
+        {
+            "question": "193. Le stationnement est interdit à moins de :",
+            "reponse": "1 mètre devant ou derrière un autre véhicule à l'arrêt ou en stationnement.",
+            "leurres": [
+                "2 mètres devant ou derrière un autre véhicule à l'arrêt ou en stationnement.",
+                "5 mètres devant ou derrière un autre véhicule à l'arrêt ou en stationnement."
+            ]
+        },
+        {
+            "question": "194. Le stationnement est interdit,",
+            "reponse": "Sur les trottoirs et dans les agglomérations, sur les accotements en saillie.",
+            "leurres": [
+                "Sur la chaussée le long d'une ligne blanche continue indiquant le bord de la chaussée.",
+                "Sur les accotements en saillie où des lignes blanches délimitent des bandes de stationnement."
+            ]
+        },
+        {
+            "question": "195. Peut-on laisser une remorque sur une bande de stationnement ?",
+            "reponse": "Oui, maximum 24 heures d'affilée.",
+            "leurres": [
+                "Non",
+                "Oui, dans une agglomération."
+            ]
+        },
+        {
+            "question": "196. Peut-on stationner une voiture sur un dispositif surélevé ?",
+            "reponse": "Non",
+            "leurres": [
+                "Oui",
+                "Oui, si la voiture ne gêne pas les piétons."
+            ]
+        },
+        {
+            "question": "197. Sur une piste cyclable,",
+            "reponse": "Vous ne pouvez ni stationner ni vous arrêtez.",
+            "leurres": [
+                "Vous pouvez vous arrêter, mais pas stationner.",
+                "Vous ne abandonner un véhicule en panne."
+            ]
+        },
+        {
+            "question": "198. En cas de stationnement alterné, vous devez changer de côté.",
+            "reponse": "Le dernier jour de chaque période entre 19h30 et 20h.",
+            "leurres": [
+                "Tous les jours entre 19h30 et 20h.",
+                "Toutes les nuits à minuit."
+            ]
+        },
+        {
+            "question": "199. Le stationnement est interdit,",
+            "reponse": "A moins de 15 mètres de part et d'autre d'un panneau indiquant un arrêt d'autobus ou de tram.",
+            "leurres": [
+                "A moins de 10 mètres de part et d'autre d'un panneau indiquant un arrêt d'autobus ou de tram.",
+                "A moins de 5 mètres devant un panneau indiquant un arrêt d'autobus ou de tram."
+            ]
+        },
+        {
+            "question": "200. Sur une chaussée à sens unique, une voiture :",
+            "reponse": "Peut s'arrêter et stationner à gauche.",
+            "leurres": [
+                "Ne peut pas stationner à gauche.",
+                "Peut stationner à gauche."
+            ]
+        },
+        {
+            "question": "201. Une voiture qui fait débarquer un passager sur la voie publique,",
+            "reponse": "Est un véhicule à l'arrêt.",
+            "leurres": [
+                "Est un véhicule en stationnement.",
+                "N'est pas un véhicule à l'arrêt ou en stationnement puisque l'arrêt ne dure pas 10 minutes."
+            ]
+        },
+        {
+            "question": "202. Vous avertissez les services de secours qu'un accident est survenu. L'élément le plus important à mentionner est :",
+            "reponse": "Le lieu de l'accident, le nombre de blessés et l'état dans lequel ils se trouvent.",
+            "leurres": [
+                "Le lieu de l'accident et le nombre de blessés.",
+                "Votre nom et le nombre de véhicules concernés."
+            ]
+        },
+        {
+            "question": "203. Un blessé grave demande à boire sur le lieu de l'accident. Vous lui donnez :",
+            "reponse": "Rien",
+            "leurres": [
+                "Ce qu'il vous demande.",
+                "Une gorgée d'eau."
+            ]
+        },
+        {
+            "question": "204. Il y a eu un accident comptant des blessés. Le moteur d'un des véhicules tourne encore. Que faites-vous ?",
+            "reponse": "Je coupe le contact du moteur qui tourne encore.",
+            "leurres": [
+                "J'écarte les personnes se trouvant près du véhicule.",
+                "Je place le triangle de danger sur le toit du véhicule."
+            ]
+        },
+        {
+            "question": "205. Vous êtes impliqué dans un accident de roulage comptant des blessés légers.",
+            "reponse": "J'avertis les autres conducteurs en allumant les quatre feux clignotants et en plaçant le triangle de danger.",
+            "leurres": [
+                "J'avertis en premier lieu les services de secours.",
+                "Je déplace les véhicules."
+            ]
+        },
+        {
+            "question": "206. Devez-vous faire une déclaration à la police lors d'un accident de roulage dans lequel vous êtes impliqué ?",
+            "reponse": "Seulement en cas d'accident comptant des blessés ou des personnes décédées.",
+            "leurres": [
+                "Toujours, en cas d'accident de roulage avec ou sans dommages corporels.",
+                "Seulement en cas d'accident ayant occasionné des dommages matériels."
+            ]
+        },
+        {
+            "question": "207. Que faites-vous lorsque vous constatez qu'un blessé a de sérieux problèmes respiratoires sur le lieu de l'accident ?",
+            "reponse": "J'enlève au plus vite les restes de vomissements de la gorge.",
+            "leurres": [
+                "J'essaie en premier lieu de contacter un médecin.",
+                "Je pratique en premier lieu la respiration artificielle."
+            ]
+        },
+        {
+            "question": "208. Accident de roulage avec dommages corporels.",
+            "reponse": "Le passager et le conducteur doivent venir en aide.",
+            "leurres": [
+                "Le passager ne doit pas venir en aide. Le conducteur doit venir en aide.",
+                "Le passager doit seulement avertir le service de secours (100 ou 112)."
+            ]
+        },
+        {
+            "question": "209. Un blessé a une plaie importante à l'avant-bras. Il n'y a pas de saleté dans la plaie.",
+            "reponse": "Je couvre la plaie d'une bande compressive.",
+            "leurres": [
+                "Je mets un garrot sur la partie supérieure du bras.",
+                "Je mets un garrot à l'avant-bras."
+            ]
+        },
+        {
+            "question": "210. Accident de roulage avec blessés ; ques devez-vous faire en premier leu ?",
+            "reponse": "Sécuriser le lieu de l'accident.",
+            "leurres": [
+                "Venir en aide au blessé.",
+                "Appeler le 100 ou le 112."
+            ]
+        },
+        {
+            "question": "211. Que faire quand vous approchez d'une file dans un tunnel ?",
+            "reponse": "J'allume les 4 indicateurs de direction.",
+            "leurres": [
+                "Je fais demi-tour et je sors du tunnel.",
+                "Je stationne mon véhicule sur la chaussée, le plus à droite possible."
+            ]
+        },
+        {
+            "question": "212. Comment communiquer au mieux qu'un accident a eu lieu dans un tunnel ?",
+            "reponse": "Au moyen de la borne d'appel d'urgence.",
+            "leurres": [
+                "Au moyen du GSM, c'est le moyen le plus rapide.",
+                "Vous sortez du tunnel et vous avertissez les services de secours via la borne d'appel."
+            ]
+        },
+        {
+            "question": "213. L'opérateur vous localise instantanément.",
+            "reponse": "Si vous téléphonez au moyen de la borne d'appel d'urgence.",
+            "leurres": [
+                "Si vous téléphonez au moyen du GSM.",
+                "Si vous vous arrêtez dans un garage."
+            ]
+        },
+        {
+            "question": "214. Il y a des dégagement de fumée importants dans le tunnel et vous abandonnez votre voiture.",
+            "reponse": "Vous laissez la clé sur le contact.",
+            "leurres": [
+                "Vous fermez les portières.",
+                "Vous laissez les portières ouvertes mais vous emportez la clé."
+            ]
+        },
+        {
+            "question": "215. Une voiture brûle fort dans un tunnel. Que faites-vous ?",
+            "reponse": "Je range mon véhicule le plus à droite possible et je quitte le tunnel par une issue de secours.",
+            "leurres": [
+                "Je ferme ma voiture et j'attends les secours à l'extérieur du véhicule.",
+                "J'immobilise ma voiture et j'attends les secours en restant dans le véhicule."
+            ]
+        },
+        {
+            "question": "216. Que faites-vous en entrant dans un tunnel ?",
+            "reponse": "J'allume les feux de croisement et j'ôte mes lunettes de soleil.",
+            "leurres": [
+                "J'allume le feu de brouillard.",
+                "J'éteins la radio."
+            ]
+        },
+        {
+            "question": "217. Je suis impliqué dans un accident de roulage en tant que passager. Je :",
+            "reponse": "Dois montrer ma carte d'identité si la partie adverse le demande.",
+            "leurres": [
+                "Ne dois pas montrer ma carte d'identité à la partie adverse. Le conducteur doit montrer sa carte d'identité.",
+                "Dois seulement montrer ma carte à l'agent de police qui se trouve sur place."
+            ]
+        },
+        {
+            "question": "218. Je suis impliqué dans un accident de roulage avec dommages matériels légers. Que dois-je faire en premier lieu ?",
+            "reponse": "Je dois prendre les mesures nécessaires pour garantir la sécurité de la circulation.",
+            "leurres": [
+                "Je dois remplir au plus vite un formulaire de constat d'accident.",
+                "Je dois appeler la police et attendre sa venue."
+            ]
+        },
+        {
+            "question": "219. Quand je suis impliqué dans un accident de roulage avec seulement des dommages matériels,",
+            "reponse": "Je ne suis pas obligé de faire une déclaration d'accident à la police.",
+            "leurres": [
+                "Je dois faire une déclaration d'accident à la police.",
+                "Je dois rester sur place jusqu'au moment où la police a fait les constatations."
+            ]
+        },
+        {
+            "question": "220. Accident de roulage impliquant un motocyliste. Dans l'attente des secours,",
+            "reponse": "Je n'enlève pas son casque.",
+            "leurres": [
+                "Je déplace le motocycliste vers le bord de la chaussée, où il sera en sécurité.",
+                "J'enlève le casque du motocycliste pour favoriser sa respiration."
+            ]
+        },
+        {
+            "question": "221. Je ne peux pas emprunter la bande d'arrêt d'urgence,",
+            "reponse": "Si je dois répondre d'urgence à un appel par GSM.",
+            "leurres": [
+                "Si j'ai causé un accident.",
+                "Si je suis en panne ou si j'ai un malaise."
+            ]
+        },
+        {
+            "question": "222. Le permis de conduire peut être retiré immédiatement,",
+            "reponse": "Lors d'un délit de fuite en cas d'accident de roulage avec dégâts matériels.",
+            "leurres": [
+                "Si le conducteur transporte un passager qui est manifestement en état d'ébriété.",
+                "Si le conducteur n'a pas son permis de conduire sur lui."
+            ]
+        },
+        {
+            "question": "223. Une pression des pneus trop faible engendre :",
+            "reponse": "Une consommation plus élevée de carburant.",
+            "leurres": [
+                "Une consommation moins élevée de carburant.",
+                "Une consommation égale à celle qui est normale pour une pression des pneus correcte."
+            ]
+        },
+        {
+            "question": "224. La pression des pneus prescrite doit être respectée à :",
+            "reponse": "100%",
+            "leurres": [
+                "80%",
+                "90%"
+            ]
+        },
+        {
+            "question": "225. Dans quelle mesure le froid influence-t-il les prestations de la batterie ?",
+            "reponse": "Elles diminuent.",
+            "leurres": [
+                "Elles augmentent.",
+                "Elles ne changent pas."
+            ]
+        },
+        {
+            "question": "226. Lorsqu'une lampe témoin s'allume sur le tableau de bord, vous devez :",
+            "reponse": "Consulter le carnet d'instructions et agir en conséquence.",
+            "leurres": [
+                "Poursuivre votre route.",
+                "Toujours vous arrêtez immédiatement."
+            ]
+        },
+        {
+            "question": "227. On trouve la mention '195/65 R15' sur un pneu.",
+            "reponse": "195 = largeur du pneu en mm.",
+            "leurres": [
+                "65 = la largeur du pneu en mm.",
+                "15 = la largeur du pneu en mm."
+            ]
+        },
+        {
+            "question": "228. On trouve la mention '195/65 R15' sur un pneu.",
+            "reponse": "65 = le rapport hauteur/largeur du pneu en %.",
+            "leurres": [
+                "195 = le rapport hauteur/largeur du pneu en %.",
+                "15 = le rapport hauteur/largeur du pneu en %."
+            ]
+        },
+        {
+            "question": "229. On trouve la mention '195/65/ R 15 94 H' sur un pneu.",
+            "reponse": "H = le symbole de vitesse (la vitesse maximale)",
+            "leurres": [
+                "94 = la vitesse maximale.",
+                "R = le symbole de vitesse (la vitesse maximale)."
+            ]
+        },
+        {
+            "question": "230. Je teste les freins :",
+            "reponse": "Avant ou lors du départ.",
+            "leurres": [
+                "Seulement en hiver.",
+                "Jamais"
+            ]
+        },
+        {
+            "question": "231. Je contrôle le niveau d'huile,",
+            "reponse": "Quand le moteur est froid ou qu'il n'a pas tourné tout un temps.",
+            "leurres": [
+                "Quand le moteur est chaud.",
+                "N'importe quand."
+            ]
+        },
+        {
+            "question": "232. Si les pneus de ma voiture s'usent anormalement vite,",
+            "reponse": "Je dois les faire vérifier.",
+            "leurres": [
+                "Je roule plus prudemment.",
+                "J'intervertis les pneus avant et arrière."
+            ]
+        },
+        {
+            "question": "233. Il faut que je rajoute du liquide de frein.",
+            "reponse": "Je dois prévenir le garage car il y a une fuite.",
+            "leurres": [
+                "Je peux rajouter du liquide de refroidissement.",
+                "Je dois rajouter de l'eau distillée."
+            ]
+        },
+        {
+            "question": "234. Pour avoir une meilleure adhérence au revêtement routier.",
+            "reponse": "Jerespecte la pression des pneus prescrite.",
+            "leurres": [
+                "J'augmente la pression des pneus.",
+                "Je diminue la pression des pneus."
+            ]
+        },
+        {
+            "question": "235. Je peux augmenter la pression des pneus :",
+            "reponse": "Lorsque je parcours une longue distance ou si j'ai un chargement lourd.",
+            "leurres": [
+                "En hiver.",
+                "En cas de pluie."
+            ]
+        },
+        {
+            "question": "236. Il y a une tâche d'huile sous ma voiture.",
+            "reponse": "Je fais régler, au plus vite, le problème par le garage.",
+            "leurres": [
+                "Je continue à rouler jusqu'au prochain entretien.",
+                "Je ne fais rien à moins qu'il y ait d'autres problèmes à la voiture."
+            ]
+        },
+        {
+            "question": "237. En cas d'usage du système ABS sur revêtement mouillé,",
+            "reponse": "La distance de freinage sera plus longue que sur revêtement sec.",
+            "leurres": [
+                "La distance de freinage sera plus courte que sur revêtement sec.",
+                "La distance de freinage est identique."
+            ]
+        },
+        {
+            "question": "238. Je freine et mon véhicule dévie à gauche ou à droite. Ceci est dû :",
+            "reponse": "Au dispositif de freinage.",
+            "leurres": [
+                "A la mauvaise qualité des pneus.",
+                "Au dispositif de conduite."
+            ]
+        },
+        {
+            "question": "239. Une conduite défensive, c'est :",
+            "reponse": "Eviter tout risque d'être impliqué dans un accident en évaluant à temps le danger.",
+            "leurres": [
+                "Veiller à prévenir les accidents en conduisant lentement.",
+                "Veiller à prévenir les accidents en conduisant rapidement."
+            ]
+        },
+        {
+            "question": "240. Pour entrer dans une voiture,",
+            "reponse": "Je passe de préférence devant la voiture pour atteindre la portière du conducteur.",
+            "leurres": [
+                "Je ne passe jamais devant la voiture pour atteindre la portière du conducteur.",
+                "Je passe de préférence derrière la voiture pour atteindre la portière du conducteur."
+            ]
+        },
+        {
+            "question": "241. En conduisant, je regarde :",
+            "reponse": "Le plus loin possible devant moi, afin d'évaluer à temps un éventuel danger.",
+            "leurres": [
+                "Surtout le véhicule qui me précède, afin d'évaluer son comportement et de respecter une distance de sécurité."
+            ]
+        },
+        {
+            "question": "242. Que signifie anticiper ?",
+            "reponse": "J'observe la circulation autour de moi et j'essaie de réagir le plus rapidement possible.",
+            "leurres": [
+                "Je roule le plus vite possible pour anticiper les embouteillages.",
+                "J'observe la circulation devant moi afin de pouvoir m'arrêter à temps."
+            ]
+        },
+        {
+            "question": "243. Quand il aperçoit des enfants, un conducteur doit :",
+            "reponse": "Ralentir, s'écarter et s'arrêter au besoin.",
+            "leurres": [
+                "Klaxonner, s'écarter et s'arrêter au besoin.",
+                "S'immobiliser immédiatement."
+            ]
+        },
+        {
+            "question": "244. Pourquoi une voiture jaune est-elle sûre ?",
+            "reponse": "On la discerne mieux dans la circulation.",
+            "leurres": [
+                "On la voit de loin.",
+                "En été, la température intérieure ne monte pas trop fort."
+            ]
+        },
+        {
+            "question": "245. Avant de dépasser un véhicule sur autoroute, vous regardez dans vos rétroviseurs intérieur et latéral. Regarder ensuite à gauche au-dessus de votre épaule :",
+            "reponse": "Est conseillé, afin de vous assurer qu'aucun autre véhicule n'a entamé une manœuvre de dépassement.",
+            "leurres": [
+                "Est interdit, puisque vous perdez de vue ce qui se passe devant vous.",
+                "Est conseillé : en tournant continuellement la tête et les yeux, vous resterez concentré sur la circulation."
+            ]
+        },
+        {
+            "question": "246. J'approche d'un virage. Je dois freiner,",
+            "reponse": "Avant de prendre le virage.",
+            "leurres": [
+                "Dans le virage.",
+                "Après le virage."
+            ]
+        },
+        {
+            "question": "247. Un véhicule chargé consomme :",
+            "reponse": "Plus de carburant.",
+            "leurres": [
+                "Moins de carburant.",
+                "Autant de carburant qu'un véhicule non chargé."
+            ]
+        },
+        {
+            "question": "248. Où placez-vous de préférence les bicyclettes ?",
+            "reponse": "Sur le porte-vélos à l'arrière.",
+            "leurres": [
+                "Droit sur le toit.",
+                "A plat sur le toit."
+            ]
+        },
+        {
+            "question": "249. Rouler les fenêtres ouvertes fait consommer :",
+            "reponse": "Plus de carburant.",
+            "leurres": [
+                "Moins de carburant.",
+                "Autant de carburant que rouler fenêtres fermées."
+            ]
+        },
+        {
+            "question": "250. Sous l'influence du soleil, les gaz d'échappement se transforment en :",
+            "reponse": "Ozone",
+            "leurres": [
+                "Benzène",
+                "Oxyde d'azote."
+            ]
+        },
+        {
+            "question": "251. Quel est le diesel le plus respectueux de l'environnement ?",
+            "reponse": "Le diesel pauvre en soufre.",
+            "leurres": [
+                "Le diesel blanc.",
+                "Le diesel rouge."
+            ]
+        },
+        {
+            "question": "252. Vous rentrez de vacances à la neige. Vous ôtez du toit de votre voiture :",
+            "reponse": "L'impériale et le coffre à skis.",
+            "leurres": [
+                "Le coffre à skis, l'impériale peut rester sur le toit.",
+                "Rien"
+            ]
+        },
+        {
+            "question": "253. A quel régime la consommation de carburant du moteur est-elle plus élevée ?",
+            "reponse": "A un régime élevé.",
+            "leurres": [
+                "A un régime bas.",
+                "Il n'y a aucun rapport entre les deux."
+            ]
+        },
+        {
+            "question": "254. Je dois attendre devant un passage à niveau fermé. A quel moment vais-je couper le moteur.",
+            "reponse": "Si j'estime devoir attendre plus d'une minute.",
+            "leurres": [
+                "Si j'estime devoir attendre plus de trois minutes.",
+                "Si j'estime devoir attendre plus de cinq minutes."
             ]
         }
     ]
