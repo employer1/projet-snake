@@ -47,15 +47,16 @@ def extraire_reponse_texte(entree: dict[str, object]) -> str | None:
     if reponse is None:
         return None
 
-    if isinstance(reponse, list):
-        if not reponse:
-            return None
-        premier = reponse[0]
-        texte = str(premier).strip()
-        return texte or None
+    # Les réponses peuvent être une chaîne simple ou une liste de chaînes.
+    # Pour le tri, on veut les traiter de la même façon : on retient la
+    # première valeur textuelle non vide.
+    valeurs = reponse if isinstance(reponse, list) else [reponse]
+    for valeur in valeurs:
+        texte = str(valeur).strip()
+        if texte:
+            return texte
 
-    texte = str(reponse).strip()
-    return texte or None
+    return None
 
 
 def normaliser_reponse_pour_doublon(entree: object) -> str | None:
