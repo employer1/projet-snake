@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="modification mineure pour film">
+    <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="adaptation du vocabulaire dans le questionnaire &quot;vocabulaire_francais.json&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vocabulaire.json" beforeDir="false" afterPath="$PROJECT_DIR$/vocabulaire.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +117,8 @@
       <workItem from="1771810117733" duration="626000" />
       <workItem from="1771843581586" duration="12893000" />
       <workItem from="1771931629778" duration="54000" />
-      <workItem from="1771933255750" duration="20766000" />
+      <workItem from="1771933255750" duration="40840000" />
+      <workItem from="1772014668251" duration="1279000" />
     </task>
     <task id="LOCAL-00001" summary="petites modifications de questionnaires">
       <option name="closed" value="true" />
@@ -278,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771896446101</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="adaptation du vocabulaire dans le questionnaire &quot;vocabulaire_francais.json&quot;">
+      <option name="closed" value="true" />
+      <created>1771964145307</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1771964145307</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +315,7 @@
     <MESSAGE value="import des affiches parce qu'elles sont vides en fait." />
     <MESSAGE value="préparation mineure pour film" />
     <MESSAGE value="modification mineure pour film" />
-    <option name="LAST_COMMIT_MESSAGE" value="modification mineure pour film" />
+    <MESSAGE value="adaptation du vocabulaire dans le questionnaire &quot;vocabulaire_francais.json&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="adaptation du vocabulaire dans le questionnaire &quot;vocabulaire_francais.json&quot;" />
   </component>
 </project>
