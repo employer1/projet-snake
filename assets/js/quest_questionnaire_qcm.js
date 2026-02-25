@@ -139,14 +139,6 @@ const obtenirValeurParCles = (objet, cles) => {
 
 const extraireQuestionsQcm = (questionnaire) => {
     if (!questionnaire || !Array.isArray(questionnaire.questionnaire)) return [];
-    const poolReponses = [];
-    questionnaire.questionnaire.forEach((entree) => {
-        const reponse = obtenirValeurParCles(entree, clesReponse);
-        if (reponse) {
-            poolReponses.push(reponse);
-        }
-    });
-
     return questionnaire.questionnaire
         .map((entree) => {
             if (!entree || typeof entree !== "object") return null;
@@ -174,19 +166,7 @@ const extraireQuestionsQcm = (questionnaire) => {
                 ),
             );
 
-            if (leurresFiltres.length < 3) {
-                const leurresSupp = melanger(
-                    poolReponses.filter((valeur) => normaliserTexte(valeur) !== normaliseReponse),
-                );
-                leurresSupp.forEach((valeur) => {
-                    if (leurresFiltres.length >= 3) return;
-                    if (!leurresFiltres.includes(valeur)) {
-                        leurresFiltres.push(valeur);
-                    }
-                });
-            }
-
-            const nombreReponsesDisponibles = Math.min(6, Math.max(2, 1 + leurresFiltres.length));
+            const nombreReponsesDisponibles = Math.min(6, Math.max(1, 1 + leurresFiltres.length));
 
             return {
                 question: question || "Question",
@@ -370,7 +350,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         const reponsesUniq = Array.from(new Set([question.reponse, ...question.leurres]));
         const nombreReponses = Math.min(
             elements.labels.length,
-            Math.max(2, Number(question.nombreReponses) || reponsesUniq.length || 2),
+            Math.max(1, Number(question.nombreReponses) || reponsesUniq.length || 1),
         );
         const reponsesAffichees = [question.reponse];
         melanger(reponsesUniq).forEach((valeur) => {
@@ -378,9 +358,6 @@ document.addEventListener("DOMContentLoaded", async () => {
             if (normaliserTexte(valeur) === normaliserTexte(question.reponse)) return;
             reponsesAffichees.push(valeur);
         });
-        while (reponsesAffichees.length < nombreReponses) {
-            reponsesAffichees.push("");
-        }
         const reponsesMelangees = melanger(reponsesAffichees);
 
         if (elements.conteneurReponses) {
