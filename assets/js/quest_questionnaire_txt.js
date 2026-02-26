@@ -37,9 +37,11 @@ const enregistrerStatsQuest = async ({ chronoSecondes, nombreQuestion, nombreRep
         const historique = Array.isArray(stats?.historique) ? stats.historique : [];
         const nbTotalQuestionnaire = Number(stats?.nb_total_questionnaire) || 0;
         const nbTotalQuestion = Number(stats?.nb_total_question) || 0;
+        const nbTotalReponse = Number(stats?.nb_total_reponse) || 0;
         const nouvellesStats = {
             nb_total_questionnaire: nbTotalQuestionnaire + 1,
             nb_total_question: nbTotalQuestion + nombreQuestion,
+            nb_total_reponse: nbTotalReponse + nombreReponse,
             historique: [
                 ...historique,
                 {
