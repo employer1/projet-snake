@@ -4,9 +4,689 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="adaptation du vocabulaire dans le questionnaire &quot;vocabulaire_francais.json&quot;">
+    <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="tri questionnaire json">
+      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_127.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_cuisson_viande/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_cuisson_viande/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_cuisson_viande/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_cuisson_viande/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_cuisson_viande/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_cuisson_viande/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_cuisson_viande/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_cuisson_viande/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_101.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_101.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_104.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_104.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_105.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_105.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_106.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_106.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_107.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_107.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_108.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_108.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_109.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_109.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_110.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_110.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_111.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_111.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_112.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_113.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_113.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_114.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_114.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_115.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_115.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_116.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_116.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_117.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_117.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_118.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_118.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_119.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_119.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_120.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_120.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_121.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_121.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_122.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_122.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_125.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_125.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_126.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_126.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_127.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_129.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_129.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_132.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_132.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_133.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_133.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_145.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_145.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_146.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_146.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_147.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_147.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_148.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_148.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_149.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_149.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_150.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_151.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_151.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_152.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_152.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_153.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_153.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_154.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_154.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_27.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_27.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_28.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_32.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_33.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_33.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_37.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_37.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_38.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_38.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_42.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_42.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_43.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_43.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_45.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_45.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_46.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_46.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_47.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_47.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_48.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_48.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_49.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_49.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_50.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_50.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_51.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_51.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_52.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_52.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_53.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_53.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_54.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_54.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_55.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_55.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_56.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_56.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_57.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_57.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_58.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_58.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_59.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_59.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_60.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_60.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_61.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_61.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_62.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_62.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_63.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_63.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_64.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_64.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_65.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_65.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_66.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_66.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_67.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_67.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_68.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_68.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_69.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_69.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_70.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_70.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_71.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_71.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_72.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_72.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_73.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_73.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_74.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_74.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_75.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_75.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_76.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_76.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_77.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_77.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_78.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_78.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_79.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_79.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_86.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_86.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_87.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_87.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_89.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_89.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_91.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_91.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_92.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_92.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_93.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_93.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_94.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_94.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_95.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_95.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_96.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_96.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_97.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_97.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/0_99.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/0_99.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/1_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/1_10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/1_11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/1_12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/1_13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/1_14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/1_15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/1_16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/1_17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/1_18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/1_19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/1_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/1_20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/1_21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/1_22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/1_23.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/1_24.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/1_25.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/1_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/1_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/1_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/1_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/1_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/1_8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/img/img_livre_permis_conduire/1_9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/1_9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_acteur/brad_pitt.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_acteur/brad_pitt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_acteur/leonardo_dicaprio.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_acteur/leonardo_dicaprio.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_acteur/robert_de_niro.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_acteur/robert_de_niro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_avatar/appa.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_avatar/appa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_avatar/azula.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_avatar/azula.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_avatar/hang.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_avatar/hang.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_avatar/iroh.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_avatar/iroh.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_avatar/katara.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_avatar/katara.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_avatar/king_bumi.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_avatar/king_bumi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_avatar/mai.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_avatar/mai.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_avatar/momo.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_avatar/momo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_avatar/princess_yue.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_avatar/princess_yue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_avatar/sokka.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_avatar/sokka.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_avatar/suki.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_avatar/suki.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_avatar/toph.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_avatar/toph.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_avatar/ty_lee.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_avatar/ty_lee.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_avatar/zuko.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_avatar/zuko.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_breaking_bad/gustavo_fring.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_breaking_bad/gustavo_fring.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_breaking_bad/jesse_pinkman.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_breaking_bad/jesse_pinkman.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_breaking_bad/walter_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_breaking_bad/walter_white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_celebrite/adele_castillon.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_celebrite/adele_castillon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_celebrite/alexandra_trusova.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_celebrite/alexandra_trusova.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_celebrite/ariana_grande.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_celebrite/ariana_grande.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_euphoria/fezco.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_euphoria/fezco.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_euphoria/jules_vaughn.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_euphoria/jules_vaughn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_euphoria/rue_bennett.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_euphoria/rue_bennett.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/aemon_targaryen.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/aemon_targaryen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/alliser_thorne.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/alliser_thorne.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/arya_stark.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/arya_stark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/barristan_selmy.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/barristan_selmy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/benjen_stark.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/benjen_stark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/beric_dondarrion.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/beric_dondarrion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/bran_stark.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/bran_stark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/bronn.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/bronn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/catelyn_stark.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/catelyn_stark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/cersei_lannister.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/cersei_lannister.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/corneille_a_trois_yeux.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/corneille_a_trois_yeux.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/daenerys_targaryen.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/daenerys_targaryen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/drogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/drogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/eddard_stark.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/eddard_stark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/gendry_baratheon.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/gendry_baratheon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/gregor_clegane.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/gregor_clegane.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/grenn.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/grenn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/hodor.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/hodor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/jaime_lannister.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/jaime_lannister.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/jaqen_h'ghar.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/jaqen_h'ghar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/jeor_mormont.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/jeor_mormont.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/joffrey_baratheon.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/joffrey_baratheon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/jon_omble.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/jon_omble.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/jon_snow.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/jon_snow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/jorah_mormont.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/jorah_mormont.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/lancel_lannister.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/lancel_lannister.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/loras_tyrell.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/loras_tyrell.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/luwin.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/luwin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/lysa_arryn.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/lysa_arryn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/meryn_trant.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/meryn_trant.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/mordane.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/mordane.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/myrcella_baratheon.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/myrcella_baratheon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/osha.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/osha.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/petyr_baelish.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/petyr_baelish.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/pycelle.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/pycelle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/pypar.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/pypar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/rast.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/rast.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/renly_baratheon.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/renly_baratheon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/rickon_stark.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/rickon_stark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/robb_stark.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/robb_stark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/robert_baratheon.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/robert_baratheon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/robin_arryn.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/robin_arryn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/rodrik_cassel.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/rodrik_cassel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/samwell_tarly.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/samwell_tarly.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/sandor_clegane.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/sandor_clegane.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/sansa_stark.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/sansa_stark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/syrio_forel.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/syrio_forel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/theon_greyjoy.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/theon_greyjoy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/tommen_baratheon.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/tommen_baratheon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/tourte_chaude.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/tourte_chaude.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/tyrion_lannister.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/tyrion_lannister.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/tywin_lannister.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/tywin_lannister.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/varys.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/varys.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/viserys_targaryen.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/viserys_targaryen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_game_of_thrones/walder_frey.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_game_of_thrones/walder_frey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_the_walking_dead/daryl_dixon.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_the_walking_dead/daryl_dixon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_the_walking_dead/negan.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_the_walking_dead/negan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_the_walking_dead/rick_grimes.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_the_walking_dead/rick_grimes.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_zootopie/benjamin_clawhauser.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_zootopie/benjamin_clawhauser.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_zootopie/brian_winddancer.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_zootopie/brian_winddancer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_zootopie/cattrick_linxley.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_zootopie/cattrick_linxley.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_zootopie/chef_bogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_zootopie/chef_bogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_zootopie/dawn_bellwether.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_zootopie/dawn_bellwether.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_zootopie/finnick.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_zootopie/finnick.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_zootopie/flash_slothmore.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_zootopie/flash_slothmore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_zootopie/fru-fru.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_zootopie/fru-fru.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_zootopie/gary_de'snake.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_zootopie/gary_de'snake.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_zootopie/gazelle.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_zootopie/gazelle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_zootopie/gideon_grey.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_zootopie/gideon_grey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_zootopie/jesus.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_zootopie/jesus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_zootopie/judy_hopps.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_zootopie/judy_hopps.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_zootopie/kitty_linxley.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_zootopie/kitty_linxley.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_zootopie/leodore_lionheart.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_zootopie/leodore_lionheart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_zootopie/milton_lynxley.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_zootopie/milton_lynxley.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_zootopie/mr_big.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_zootopie/mr_big.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_zootopie/nick_wilde.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_zootopie/nick_wilde.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/img/img_zootopie/pawbert_linxley.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_zootopie/pawbert_linxley.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/afghanistan.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/afghanistan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/afrique_du_sud.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/afrique_du_sud.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/albanie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/albanie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/algerie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/algerie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/allemagne.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/allemagne.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/andorre.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/andorre.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/angola.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/angola.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/anguilla.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/anguilla.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/antigua_et_barbuda.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/antigua_et_barbuda.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/arabie_saoudite.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/arabie_saoudite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/argentine.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/argentine.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/armenie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/armenie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/aruba.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/aruba.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/australie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/australie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/autriche.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/autriche.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/azerbaidjan.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/azerbaidjan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/bahamas.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/bahamas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/bahrein.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/bahrein.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/bangladesh.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/bangladesh.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/barbade.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/barbade.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/belgique.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/belgique.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/belize.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/belize.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/benin.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/benin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/bermudes.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/bermudes.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/bhoutan.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/bhoutan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/bielorussie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/bielorussie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/birmanie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/birmanie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/bolivie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/bolivie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/bosnie_herzegovie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/bosnie_herzegovie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/botswana.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/botswana.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/bresil.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/bresil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/brunei_darussalam.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/brunei_darussalam.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/bulgarie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/bulgarie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/burkina_faso.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/burkina_faso.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/burundi.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/burundi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/cambodge.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/cambodge.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/cameroun.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/cameroun.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/canada.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/canada.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/cap_vert.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/cap_vert.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/chili.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/chili.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/chine.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/chine.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/chypre.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/chypre.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/colombie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/colombie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/comores.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/comores.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/coree_du_nord.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/coree_du_nord.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/coree_du_sud.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/coree_du_sud.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/costa_rica.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/costa_rica.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/cote_divoire.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/cote_divoire.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/croatie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/croatie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/cuba.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/cuba.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/curacao.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/curacao.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/danemark.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/danemark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/djibouti.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/djibouti.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/dominique.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/dominique.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/egypte.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/egypte.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/emirats_arabes_unis.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/emirats_arabes_unis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/equateur.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/equateur.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/erythree.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/erythree.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/espagne.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/espagne.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/estonie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/estonie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/eswatini.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/eswatini.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/etats_unis.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/etats_unis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/ethiopie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/ethiopie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/fidji.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/fidji.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/finlande.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/finlande.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/france.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/france.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/gabon.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/gabon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/gambie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/gambie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/georgie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/georgie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/ghana.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/ghana.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/grece.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/grece.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/grenade.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/grenade.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/groenland.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/groenland.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/guadeloupe.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/guadeloupe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/guam.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/guam.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/guatemala.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/guatemala.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/guernesey.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/guernesey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/guinee.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/guinee.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/guinee_bissau.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/guinee_bissau.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/guinee_equatoriale.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/guinee_equatoriale.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/guyane.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/guyane.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/guyane_francaise.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/guyane_francaise.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/haiti.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/haiti.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/hawai.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/hawai.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/honduras.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/honduras.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/hong_kong.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/hong_kong.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/hongrie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/hongrie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/ile_christmas.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/ile_christmas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/ile_de_la_reunion.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/ile_de_la_reunion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/ile_de_man.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/ile_de_man.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/ile_maurice.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/ile_maurice.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/iles_caimans.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/iles_caimans.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/iles_cocos.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/iles_cocos.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/iles_cook.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/iles_cook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/iles_feroe.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/iles_feroe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/iles_malouines.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/iles_malouines.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/iles_marshall.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/iles_marshall.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/iles_salomon.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/iles_salomon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/iles_vierges_americaines.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/iles_vierges_americaines.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/iles_vierges_britanniques.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/iles_vierges_britanniques.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/inde.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/inde.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/indonesie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/indonesie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/irak.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/irak.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/iran.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/iran.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/irlande.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/irlande.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/islande.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/islande.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/israel.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/israel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/italie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/italie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/jamaique.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/jamaique.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/japon.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/japon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/jersey.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/jersey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/jordanie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/jordanie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/kazakhstan.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/kazakhstan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/kenya.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/kenya.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/kirghizistan.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/kirghizistan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/kiribati.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/kiribati.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/koweit.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/koweit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/laos.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/laos.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/lesotho.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/lesotho.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/lettonie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/lettonie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/liban.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/liban.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/liberia.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/liberia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/libye.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/libye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/liechtenstein.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/liechtenstein.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/lituanie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/lituanie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/luxembourg.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/luxembourg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/macédoine_du_nord.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/macédoine_du_nord.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/madagascar.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/madagascar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/malaisie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/malaisie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/malawi.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/malawi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/maldives.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/maldives.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/mali.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/mali.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/malte.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/malte.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/maroc.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/maroc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/martinique.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/martinique.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/mauritanie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/mauritanie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/mayotte.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/mayotte.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/mexique.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/mexique.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/micronesie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/micronesie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/moldavie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/moldavie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/monaco.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/monaco.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/mongolie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/mongolie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/montenegro.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/montenegro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/mozambique.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/mozambique.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/namibie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/namibie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/nauru.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/nauru.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/nepal.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/nepal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/nicaragua.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/nicaragua.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/niger.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/niger.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/nigeria.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/nigeria.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/niue.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/niue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/norvege.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/norvege.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/nouvelle_caledonie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/nouvelle_caledonie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/nouvelle_zelande.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/nouvelle_zelande.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/oman.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/oman.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/ouganda.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/ouganda.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/ouzbekistan.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/ouzbekistan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/pakistan.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/pakistan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/palaos.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/palaos.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/palestine.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/palestine.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/panama.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/panama.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/papouasie_nouvelle_guinee.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/papouasie_nouvelle_guinee.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/paraguay.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/paraguay.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/pays_bas.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/pays_bas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/perou.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/perou.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/philippines.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/philippines.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/pologne.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/pologne.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/polynesie_francaise.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/polynesie_francaise.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/porto_rico.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/porto_rico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/portugal.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/portugal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/qatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/qatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/republique_centrafricaine.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/republique_centrafricaine.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/republique_democratique_du_congo.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/republique_democratique_du_congo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/republique_dominicaine.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/republique_dominicaine.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/republique_du_congo.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/republique_du_congo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/republique_tcheque.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/republique_tcheque.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/roumanie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/roumanie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/royaume_unis.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/royaume_unis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/russie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/russie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/rwanda.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/rwanda.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/saint_barthelemy.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/saint_barthelemy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/saint_christophe_et_nieves.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/saint_christophe_et_nieves.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/saint_marin.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/saint_marin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/saint_martin.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/saint_martin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/saint_vincent_et_les_grenadines.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/saint_vincent_et_les_grenadines.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/sainte_helene.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/sainte_helene.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/sainte_lucie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/sainte_lucie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/salvador.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/salvador.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/samoa.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/samoa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/sao_tome_et_principe.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/sao_tome_et_principe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/senegal.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/senegal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/serbie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/serbie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/seychelles.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/seychelles.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/sierra_leone.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/sierra_leone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/singapour.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/singapour.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/slovaquie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/slovaquie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/slovenie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/slovenie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/somalie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/somalie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/soudan.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/soudan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/soudan_du_sud.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/soudan_du_sud.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/sri_lanka.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/sri_lanka.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/suede.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/suede.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/suisse.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/suisse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/suriname.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/suriname.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/syrie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/syrie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/tadjikistan.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/tadjikistan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/taiwan.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/taiwan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/tanzanie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/tanzanie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/tchad.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/tchad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/thailande.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/thailande.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/timor_oriental.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/timor_oriental.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/togo.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/togo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/tonga.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/tonga.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/trinite_et_tobago.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/trinite_et_tobago.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/tunisie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/tunisie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/turkmenistan.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/turkmenistan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/turquie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/turquie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/tuvalu.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/tuvalu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/ukraine.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/ukraine.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/uruguay.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/uruguay.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/vanuatu.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/vanuatu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/vatican.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/vatican.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/venezuela.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/venezuela.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/vietnam.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/vietnam.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/yemen.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/yemen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/zambie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/zambie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/drapeau/zimbabwe.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_drapeau/zimbabwe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/afghanistan_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/afghanistan_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/afrique_du_sud_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/afrique_du_sud_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/albanie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/albanie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/algerie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/algerie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/allemagne_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/allemagne_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/andorre_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/andorre_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/angola_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/angola_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/anguilla_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/anguilla_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/antigua_et_barbuda_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/antigua_et_barbuda_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/arabie_saoudite_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/arabie_saoudite_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/argentine_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/argentine_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/armenie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/armenie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/aruba_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/aruba_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/australie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/australie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/autriche_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/autriche_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/azerbaidjan_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/azerbaidjan_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/bahamas_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/bahamas_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/bahrein_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/bahrein_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/bangladesh_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/bangladesh_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/barbade_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/barbade_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/belgique_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/belgique_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/belize_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/belize_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/benin_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/benin_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/bermudes_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/bermudes_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/bhoutan_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/bhoutan_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/bielorussie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/bielorussie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/birmanie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/birmanie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/bolivie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/bolivie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/bosnie_herzegovie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/bosnie_herzegovie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/botswana_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/botswana_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/bresil_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/bresil_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/brunei_darussalam_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/brunei_darussalam_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/bulgarie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/bulgarie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/burundi_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/burundi_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/cambodge_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/cambodge_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/cameroun_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/cameroun_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/canada_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/canada_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/cap_vert_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/cap_vert_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/chili_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/chili_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/chine_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/chine_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/chypre_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/chypre_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/colombie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/colombie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/comores_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/comores_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/coree_du_nord_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/coree_du_nord_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/coree_du_sud_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/coree_du_sud_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/costa_rica_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/costa_rica_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/cote_d'ivoire_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/cote_d'ivoire_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/croatie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/croatie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/cuba_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/cuba_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/curacao_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/curacao_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/danemark_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/danemark_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/djibouti_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/djibouti_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/dominique_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/dominique_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/egypte_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/egypte_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/emirats_arabes_unis_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/emirats_arabes_unis_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/equateur_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/equateur_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/erythree_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/erythree_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/espagne_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/espagne_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/estonie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/estonie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/eswatini_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/eswatini_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/etats_unis_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/etats_unis_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/ethiopie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/ethiopie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/fidji_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/fidji_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/finlande_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/finlande_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/france_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/france_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/gabon_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/gabon_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/gambie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/gambie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/georgie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/georgie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/ghana_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/ghana_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/grece_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/grece_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/grenade_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/grenade_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/groenland_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/groenland_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/guadeloupe_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/guadeloupe_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/guam_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/guam_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/guatemala_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/guatemala_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/guernesey_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/guernesey_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/guinee_equatoriale_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/guinee_equatoriale_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/guinee_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/guinee_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/guyane_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/guyane_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/guyane_francaise_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/guyane_francaise_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/haiti_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/haiti_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/honduras_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/honduras_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/hong_kong_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/hong_kong_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/hongrie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/hongrie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/ile_christmas_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/ile_christmas_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/ile_de_la_reunion_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/ile_de_la_reunion_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/ile_de_man_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/ile_de_man_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/ile_maurice_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/ile_maurice_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/iles_caimans_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/iles_caimans_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/iles_cocos_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/iles_cocos_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/iles_cook_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/iles_cook_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/iles_feroe_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/iles_feroe_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/iles_malouines_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/iles_malouines_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/iles_salomon_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/iles_salomon_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/iles_vierges_americaines_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/iles_vierges_americaines_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/iles_vierges_britanniques_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/iles_vierges_britanniques_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/inde_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/inde_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/indonesie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/indonesie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/irak_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/irak_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/iran_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/iran_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/irlande_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/irlande_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/islande_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/islande_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/israel_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/israel_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/italie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/italie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/jamaique_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/jamaique_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/japon_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/japon_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/jordanie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/jordanie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/kazakstan_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/kazakstan_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/kenya_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/kenya_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/kirghizistan_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/kirghizistan_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/kiribati_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/kiribati_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/koweit_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/koweit_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/laos_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/laos_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/lesotho_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/lesotho_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/lettonie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/lettonie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/liban_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/liban_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/liberia_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/liberia_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/libye_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/libye_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/liechtenstein_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/liechtenstein_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/lituanie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/lituanie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/luxembourg_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/luxembourg_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/macedoine_du_nord_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/macedoine_du_nord_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/madagascar_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/madagascar_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/malaisie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/malaisie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/malawi_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/malawi_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/maldives_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/maldives_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/mali_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/mali_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/malte_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/malte_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/maroc_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/maroc_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/martinique_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/martinique_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/mauritanie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/mauritanie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/mayotte_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/mayotte_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/mexique_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/mexique_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/moldavie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/moldavie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/monaco_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/monaco_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/mongolie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/mongolie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/montenegro_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/montenegro_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/mozambique_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/mozambique_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/namibie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/namibie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/nauru_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/nauru_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/nepal_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/nepal_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/nicaragua_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/nicaragua_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/niger_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/niger_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/nigeria_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/nigeria_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/niue_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/niue_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/norvege_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/norvege_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/nouvell_zelande_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/nouvell_zelande_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/nouvelle_caledonie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/nouvelle_caledonie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/oman_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/oman_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/ouganda_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/ouganda_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/ouzbekistan_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/ouzbekistan_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/pakistan_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/pakistan_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/panama_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/panama_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/papouasie_nouvelle_guinee_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/papouasie_nouvelle_guinee_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/paraguay_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/paraguay_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/pays_bas_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/pays_bas_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/perou_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/perou_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/philippines_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/philippines_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/pologne_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/pologne_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/polynesie_francaise_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/polynesie_francaise_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/porto_rico_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/porto_rico_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/portugal_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/portugal_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/qatar_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/qatar_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/republique_centrafricaine_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/republique_centrafricaine_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/republique_democratique_du_congo_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/republique_democratique_du_congo_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/republique_dominicaine_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/republique_dominicaine_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/republique_du_congo_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/republique_du_congo_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/republique_tcheque_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/republique_tcheque_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/roumanie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/roumanie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/royaume_unis_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/royaume_unis_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/russie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/russie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/rwanda_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/rwanda_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/saint_barthelemy_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/saint_barthelemy_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/saint_marin_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/saint_marin_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/saint_martin_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/saint_martin_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/saint_vincent_et_les_grenadines_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/saint_vincent_et_les_grenadines_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/sainte_helene_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/sainte_helene_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/sainte_lucie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/sainte_lucie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/salvador_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/salvador_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/samoa_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/samoa_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/sao_tome_et_principe_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/sao_tome_et_principe_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/senegal_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/senegal_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/serbie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/serbie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/seychelles_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/seychelles_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/sierra_leone_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/sierra_leone_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/singapour_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/singapour_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/slovaquie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/slovaquie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/slovenie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/slovenie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/somalie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/somalie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/soudan_du_sud_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/soudan_du_sud_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/soudan_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/soudan_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/sri_lanka_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/sri_lanka_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/suede_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/suede_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/suisse_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/suisse_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/surinema_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/surinema_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/syrie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/syrie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/tadjikistan_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/tadjikistan_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/taiwan_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/taiwan_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/tanzanie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/tanzanie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/tchad_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/tchad_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/thailande_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/thailande_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/timor_orientale_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/timor_orientale_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/togo_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/togo_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/tonga_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/tonga_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/trinite_et_tobago_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/trinite_et_tobago_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/tunisie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/tunisie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/turkmenistan_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/turkmenistan_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/turquie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/turquie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/ukraine_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/ukraine_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/uruguay_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/uruguay_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/vanuatu_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/vanuatu_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/vatican_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/vatican_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/venezuela_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/venezuela_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/vietnam_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/vietnam_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/yemen_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/yemen_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/zambie_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/zambie_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/forme/zimbabwe_forme.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_forme/zimbabwe_forme.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/img/carte_belgique.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_belgique/carte_belgique.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/img/chaine_de_montagne/alpes.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_chaine_de_montagne/alpes.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/img/chaine_de_montagne/cordillere_des_andes.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_chaine_de_montagne/cordillere_des_andes.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/img/chaine_de_montagne/himalaya.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_chaine_de_montagne/himalaya.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/img/img_continent/amerique_du_nord.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_continent/amerique_du_nord.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/img/img_continent/amerique_du_sud.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_continent/amerique_du_sud.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/img/img_continent/antarctique.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_continent/antarctique.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/img/img_continent/asie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_continent/asie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/img/img_continent/europe.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_continent/europe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/img/img_continent/oceanie.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_continent/oceanie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/img/img_mer/mer_adriatique.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_mer/mer_adriatique.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/img/img_mer/mer_du_nord.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_mer/mer_du_nord.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/img/img_mer/mer_mediterranee.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_mer/mer_mediterranee.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/informatique/acronyme_informatique.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/autre/acronyme_informatique.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vocabulaire.json" beforeDir="false" afterPath="$PROJECT_DIR$/vocabulaire.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,37 +727,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/theot/WebstormProjects/projet-snake/quest/questionnaire/autre/img/img_livre_permis_conduire&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/theot/WebstormProjects/projet-snake/quest/img",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\img" />
+      <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\langue\francais" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\autre\img\img_livre_permis_conduire" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\autre\img" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\autre" />
-      <recent name="C:\Users\theot\WebstormProjects\projet-snake\dactylo" />
-      <recent name="C:\Users\theot\WebstormProjects\projet-snake\assets\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\autre" />
+      <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\img\img_belgique" />
+      <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\img" />
       <recent name="C:\Users\theo\WebstormProjects\projet-snake\film\affiche" />
       <recent name="C:\Users\theo\WebstormProjects\projet-snake\pages" />
     </key>
@@ -118,7 +801,8 @@
       <workItem from="1771843581586" duration="12893000" />
       <workItem from="1771931629778" duration="54000" />
       <workItem from="1771933255750" duration="40840000" />
-      <workItem from="1772014668251" duration="1279000" />
+      <workItem from="1772014668251" duration="14146000" />
+      <workItem from="1772110685870" duration="7945000" />
     </task>
     <task id="LOCAL-00001" summary="petites modifications de questionnaires">
       <option name="closed" value="true" />
@@ -288,7 +972,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771964145307</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="tri questionnaire json">
+      <option name="closed" value="true" />
+      <created>1772016020753</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1772016020753</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,6 +1008,7 @@
     <MESSAGE value="préparation mineure pour film" />
     <MESSAGE value="modification mineure pour film" />
     <MESSAGE value="adaptation du vocabulaire dans le questionnaire &quot;vocabulaire_francais.json&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="adaptation du vocabulaire dans le questionnaire &quot;vocabulaire_francais.json&quot;" />
+    <MESSAGE value="tri questionnaire json" />
+    <option name="LAST_COMMIT_MESSAGE" value="tri questionnaire json" />
   </component>
 </project>

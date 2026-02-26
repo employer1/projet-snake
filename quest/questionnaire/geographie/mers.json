@@ -5,19 +5,19 @@
     "questionnaire": [
         {
             "question": "Comment se nomme cette mer ?",
-            "image": "/quest/questionnaire/geographie/img/img_mer/mer_du_nord.png",
+            "image": "/quest/img/img_mer/mer_du_nord.png",
             "reponse": "mer du nord",
             "def": "Mer du Nord"
         },
         {
             "question": "Comment se nomme cette mer ?",
-            "image": "/quest/questionnaire/geographie/img/img_mer/mer_mediterranee.png",
+            "image": "/quest/img/img_mer/mer_mediterranee.png",
             "reponse": "mer mediterranee",
             "def": "Mer Méditérranée"
         },
         {
             "question": "Comment se nomme cette mer ?",
-            "image": "/quest/questionnaire/geographie/img/img_mer/mer_adriatique.png",
+            "image": "/quest/img/img_mer/mer_adriatique.png",
             "reponse": "mer adriatique",
             "def": "Mer Adriatique"
         }

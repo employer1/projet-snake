@@ -5,43 +5,43 @@
     "questionnaire": [
         {
             "question": "Comment se nomme ce continent ?",
-            "image": "/quest/questionnaire/geographie/img/img_euphoria/europe.png",
+            "image": "/quest/img/img_euphoria/europe.png",
             "reponse": "europe",
             "def": "Europe"
         },
         {
             "question": "Comment se nomme ce continent ?",
-            "image": "/quest/questionnaire/geographie/img/img_euphoria/asie.png",
+            "image": "/quest/img/img_euphoria/asie.png",
             "reponse": "asie",
             "def": "Asie"
         },
         {
             "question": "Comment se nomme ce continent ?",
-            "image": "/quest/questionnaire/geographie/img/img_euphoria/afrique.png",
+            "image": "/quest/img/img_euphoria/afrique.png",
             "reponse": "afrique",
             "def": "Afrique"
         },
         {
             "question": "Comment se nomme ce continent ?",
-            "image": "/quest/questionnaire/geographie/img/img_euphoria/amerique_du_nord.png",
+            "image": "/quest/img/img_euphoria/amerique_du_nord.png",
             "reponse": "amerique du nord",
             "def": "Amérique du Nord"
         },
         {
             "question": "Comment se nomme ce continent ?",
-            "image": "/quest/questionnaire/geographie/img/img_euphoria/amerique_du_sud.png",
+            "image": "/quest/img/img_euphoria/amerique_du_sud.png",
             "reponse": "amerique du sud",
             "def": "Amérique du Sud"
         },
         {
             "question": "Comment se nomme ce continent ?",
-            "image": "/quest/questionnaire/geographie/img/img_euphoria/oceanie.png",
+            "image": "/quest/img/img_euphoria/oceanie.png",
             "reponse": "oceanie",
             "def": "Océanie"
         },
         {
             "question": "Comment se nomme ce continent ?",
-            "image": "/quest/questionnaire/geographie/img/img_euphoria/antarctique.png",
+            "image": "/quest/img/img_euphoria/antarctique.png",
             "reponse": "antarctique",
             "def": "Antarctique"
         }

@@ -5,25 +5,25 @@
     "questionnaire": [
         {
             "question": "Comment se nomme cette célébrité ?",
-            "image": "/quest/questionnaire/cinema/personnages/img/img_celebrite/adele_castillon.png",
+            "image": "/quest/img/img_celebrite/adele_castillon.png",
             "reponse": "adele castillon",
             "def": "Adèle Castillon"
         },
         {
             "question": "Comment se nomme cette célébrité ?",
-            "image": "/quest/questionnaire/cinema/personnages/img/img_celebrite/alexandra_trusova.png",
+            "image": "/quest/img/img_celebrite/alexandra_trusova.png",
             "reponse": "alexandra trusova",
             "def": "Alexandra Trusova"
         },
         {
             "question": "Comment se nomme cette célébrité ?",
-            "image": "/quest/questionnaire/cinema/personnages/img/img_celebrite/ariana_grande.png",
+            "image": "/quest/img/img_celebrite/ariana_grande.png",
             "reponse": "ariana grande",
             "def": "Ariana Grande"
         },
         {
             "question": "Comment se nomme cette célébrité ?",
-            "image": "/quest/questionnaire/cinema/personnages/img/img_celebrite/stephane_filok.png",
+            "image": "/quest/img/img_celebrite/stephane_filok.png",
             "reponse": "stephane filok",
             "def": "Stephane Filok"
         }

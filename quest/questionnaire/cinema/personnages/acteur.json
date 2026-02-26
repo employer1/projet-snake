@@ -5,19 +5,19 @@
     "questionnaire": [
         {
             "question": "Qui est cet acteur ?",
-            "image": "/quest/questionnaire/cinema/personnages/img/img_acteur/leonardo_dicaprio.png",
+            "image": "/quest/img/img_acteur/leonardo_dicaprio.png",
             "reponse": "leonardo dicaprio",
             "def": "Léonardo Dicaprio"
         },
         {
             "question": "Qui est cet acteur ?",
-            "image": "/quest/questionnaire/cinema/personnages/img/img_acteur/brad_pitt.png",
+            "image": "/quest/img/img_acteur/brad_pitt.png",
             "reponse": "brad pitt",
             "def": "Brad Pitt"
         },
         {
             "question": "Qui est cet acteur ?",
-            "image": "/quest/questionnaire/cinema/personnages/img/img_acteur/robert_de_niro.png",
+            "image": "/quest/img/img_acteur/robert_de_niro.png",
             "reponse": "robert de niro",
             "def": "Robert De Niro"
         }
