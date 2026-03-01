@@ -87,8 +87,29 @@ const normaliserListe = (valeur) => {
     return texte ? [texte] : [];
 };
 
+const construireCheminImage = (dossierImage, image) => {
+    if (image === null || image === undefined) return null;
+    const imageTexte = String(image).trim();
+    if (!imageTexte) return null;
+
+    if (/[\\/]/.test(imageTexte)) {
+        return imageTexte;
+    }
+
+    const dossierTexte = dossierImage === null || dossierImage === undefined
+        ? ""
+        : String(dossierImage).trim();
+    if (!dossierTexte) {
+        return imageTexte;
+    }
+
+    const dossierSansSlash = dossierTexte.replace(/[\\/]+$/, "");
+    return `${dossierSansSlash}/${imageTexte}`;
+};
+
 const extraireQuestionsTxt = (questionnaire) => {
     if (!questionnaire || !Array.isArray(questionnaire.questionnaire)) return [];
+    const dossierImage = questionnaire.path ?? questionnaire.imagePath ?? "";
     return questionnaire.questionnaire
         .map((entree) => {
             if (!entree || typeof entree !== "object") return null;
@@ -102,7 +123,7 @@ const extraireQuestionsTxt = (questionnaire) => {
                 question: libelle,
                 reponses,
                 definition,
-                image: entree.image ?? entree.images ?? null,
+                image: construireCheminImage(dossierImage, entree.image ?? entree.images ?? null),
             };
         })
         .filter(Boolean);
