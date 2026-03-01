@@ -108,7 +108,7 @@
         {
             "question": "Qui est ce personnage ?",
             "image": "/quest/img/img_zootopie/nick_wilde.png",
-            "reponse": "nick wilde",
+            "reponse": ["nick wilde","nicholas wilde"],
             "def": "Nick Wilde"
         },
         {

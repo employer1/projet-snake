@@ -1108,7 +1108,7 @@
             "reponse": "exhiber"
         },
         {
-            "question": "Paroles par lesquelles on exhorte ; appel : Une *** au calme.",
+            "question": "Paroles par lesquelles on *** ; appel : Une *** au calme.",
             "reponse": "exhortation"
         },
         {
@@ -1968,6 +1968,7 @@
         {
             "question": "1 Qui manque de finesse, de sagacité : Des badauds ***. 2 Se dit d'un angle dont la mesure est comprise strictement entre 90° et 180°.",
             "reponse": [
+                "obtus",
                 "obtuse"
             ]
         },
@@ -2714,7 +2715,7 @@
             "reponse": "ubiquité"
         },
         {
-            "question": "⬥ 1 Qui est issu de la même mère, mais non du même père (par opposition à sonsanguin). 2 Matrilinéaire.",
+            "question": "⬥ 1 Qui est issu de la même mère, mais non du même père (par opposition à consanguin). 2 Matrilinéaire.",
             "reponse": [
                 "utérin",
                 "utérine"
