@@ -125,6 +125,27 @@ const melanger = (liste) => {
     return copie;
 };
 
+
+const construireCheminImage = (dossierImage, image) => {
+    if (image === null || image === undefined) return null;
+    const imageTexte = String(image).trim();
+    if (!imageTexte) return null;
+
+    if (/[\\/]/.test(imageTexte)) {
+        return imageTexte;
+    }
+
+    const dossierTexte = dossierImage === null || dossierImage === undefined
+        ? ""
+        : String(dossierImage).trim();
+    if (!dossierTexte) {
+        return imageTexte;
+    }
+
+    const dossierSansSlash = dossierTexte.replace(/[\\/]+$/, "");
+    return `${dossierSansSlash}/${imageTexte}`;
+};
+
 const obtenirValeurParCles = (objet, cles) => {
     if (!objet || typeof objet !== "object") return "";
     for (const cle of cles) {
@@ -141,6 +162,7 @@ const obtenirValeurParCles = (objet, cles) => {
 
 const extraireQuestionsQcm = (questionnaire) => {
     if (!questionnaire || !Array.isArray(questionnaire.questionnaire)) return [];
+    const dossierImage = questionnaire.path ?? questionnaire.imagePath ?? "";
     return questionnaire.questionnaire
         .map((entree) => {
             if (!entree || typeof entree !== "object") return null;
@@ -175,7 +197,7 @@ const extraireQuestionsQcm = (questionnaire) => {
                 reponse,
                 leurres: leurresFiltres,
                 nombreReponses: nombreReponsesDisponibles,
-                image: entree.image ?? entree.images ?? null,
+                image: construireCheminImage(dossierImage, entree.image ?? entree.images ?? null),
             };
         })
         .filter(Boolean);

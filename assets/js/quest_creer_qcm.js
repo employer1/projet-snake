@@ -1,7 +1,6 @@
 /*fichier JS de quest_creer_qcm*/
 
 const DOSSIER_JSON = "questionnaire/creer/qcm";
-const DOSSIER_IMG_BASE = "questionnaire/creer/qcm/img";
 const PAGE_MENU = "../pages/quest_menu.html";
 const IDS_LEURRES = ["leurre_1", "leurre_2", "leurre_3", "leurre_4", "leurre_5"];
 
@@ -26,6 +25,15 @@ const normaliserNomFichier = (nom = "") => {
 
 const titreDepuisNom = (nomFichier) => nomFichier.replace(/\.json$/i, "").replace(/_/g, " ");
 const nomDossierImageDepuisNomFichier = (nomFichier) => `img_${nomFichier.replace(/\.json$/i, "")}`;
+const dossierDepuisCheminJson = (cheminJson = "") => {
+    const segments = String(cheminJson).replace(/\\/g, "/").split("/").filter(Boolean);
+    segments.pop();
+    return segments.join("/");
+};
+const construireCheminDossierImage = (cheminJson, nomDossierImage) => {
+    const dossierJson = dossierDepuisCheminJson(cheminJson);
+    return dossierJson ? `${dossierJson}/${nomDossierImage}` : nomDossierImage;
+};
 
 const normaliserNomImage = (nom = "") => (nom.trim().replace(/\\/g, "/").split("/").pop() || "");
 
@@ -260,7 +268,11 @@ const demanderConfigurationInitiale = async () => {
     if (dossierImages && dossierImages.trim()) {
         etatCreation.sourceImageDir = dossierImages.trim();
         etatCreation.imgFolderName = nomDossierImageDepuisNomFichier(nomFichier);
-        await window.electronAPI.ensureQuestDirectory(`${DOSSIER_IMG_BASE}/${etatCreation.imgFolderName}`);
+        etatCreation.questionnaire.path = construireCheminDossierImage(
+            etatCreation.jsonPath,
+            etatCreation.imgFolderName,
+        );
+        await window.electronAPI.ensureQuestDirectory(etatCreation.questionnaire.path);
         desactiverChampImage(false);
     } else {
         desactiverChampImage(true);
@@ -316,9 +328,17 @@ const construireQuestion = async () => {
             throw new Error(`Image introuvable: ${nomImage}`);
         }
 
-        const destinationRelative = `${DOSSIER_IMG_BASE}/${etatCreation.imgFolderName}/${nomImage}`;
+        if (!etatCreation.questionnaire.path) {
+            etatCreation.questionnaire.path = construireCheminDossierImage(
+                etatCreation.jsonPath,
+                etatCreation.imgFolderName,
+            );
+            await window.electronAPI.ensureQuestDirectory(etatCreation.questionnaire.path);
+        }
+
+        const destinationRelative = `${etatCreation.questionnaire.path}/${nomImage}`;
         await window.electronAPI.copyFileToQuest(sourcePath, destinationRelative);
-        entree.image = `/quest/${destinationRelative}`;
+        entree.image = nomImage;
     }
 
     return entree;
@@ -339,7 +359,9 @@ const abandonnerEtRetourMenu = async () => {
         await window.electronAPI.removeQuestEntry(etatCreation.jsonPath);
     }
     if (etatCreation.imgFolderName) {
-        await window.electronAPI.removeQuestEntry(`${DOSSIER_IMG_BASE}/${etatCreation.imgFolderName}`);
+        await window.electronAPI.removeQuestEntry(
+            etatCreation.questionnaire.path || construireCheminDossierImage(etatCreation.jsonPath, etatCreation.imgFolderName),
+        );
     }
     window.location.href = PAGE_MENU;
 };
