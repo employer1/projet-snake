@@ -16,6 +16,8 @@ const optionsParType = {
     txt: ["mode", "nbQuestions", "ordre", "avance", "reverse", "afficherReponse", "chrono"],
 };
 
+const typesAvecModeLecture = ["langue", "qcm", "txt"];
+
 const optionsDefaut = {
     mode: "question",
     ordre: false,
@@ -78,6 +80,19 @@ const definirEtatBoutonMode = (boutons, modeActif) => {
         const estActif = bouton.dataset.mode === modeActif;
         bouton.classList.toggle("is-active", estActif);
     });
+};
+
+const mettreAJourDisponibiliteLecture = (questionnaire, boutonsMode, options) => {
+    const boutonLecture = boutonsMode.find((bouton) => bouton.dataset.mode === "lecture");
+    if (!boutonLecture) return;
+
+    const lectureDisponible = typesAvecModeLecture.includes(questionnaire.type);
+    boutonLecture.classList.toggle("option-hidden", !lectureDisponible);
+    boutonLecture.disabled = !lectureDisponible;
+
+    if (!lectureDisponible && options.mode === "lecture") {
+        options.mode = "question";
+    }
 };
 
 const mettreAJourAffichageOptions = (questionnaire, options) => {
@@ -252,12 +267,14 @@ const appliquerConfiguration = (questionnaire) => {
         selectSens.value = options.sens;
     }
 
+    mettreAJourDisponibiliteLecture(questionnaire, boutonsMode, options);
     definirEtatBoutonMode(boutonsMode, options.mode);
     mettreAJourAffichageOptions(questionnaire, options);
 
     boutonsMode.forEach((bouton) => {
         bouton.addEventListener("click", () => {
             options.mode = bouton.dataset.mode;
+            mettreAJourDisponibiliteLecture(questionnaire, boutonsMode, options);
             definirEtatBoutonMode(boutonsMode, options.mode);
             mettreAJourAffichageOptions(questionnaire, options);
         });
