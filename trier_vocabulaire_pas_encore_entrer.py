@@ -1,6 +1,12 @@
 import json
 import os
 import unicodedata
+"""Trie le questionnaire de vocabulaire français par le champ `reponse`.
+
+Ce script agit uniquement sur :
+quest/questionnaire/langue/francais/vocabulaire_francais.json
+(dans le dossier AppData de projet-snake).
+"""
 
 fichier = "vocabulaire.json"
 
