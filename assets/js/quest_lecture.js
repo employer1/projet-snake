@@ -135,7 +135,7 @@ const appliquerOrdreEtLimite = (items, options) => {
     return liste.slice(0, Math.max(0, Math.min(limite, liste.length)));
 };
 
-const afficherItem = (items, index, elements) => {
+const afficherItem = async (items, index, elements) => {
     const total = items.length;
     const item = items[index];
 
@@ -160,8 +160,20 @@ const afficherItem = (items, index, elements) => {
 
     const image = item.image || "";
     if (image) {
-        elements.image.src = image;
-        elements.imageContainer.hidden = false;
+        try {
+            const url = await window.electronAPI?.resolveQuestAsset(image);
+            if (url) {
+                elements.image.src = url;
+                elements.imageContainer.hidden = false;
+            } else {
+                elements.image.removeAttribute("src");
+                elements.imageContainer.hidden = true;
+            }
+        } catch (error) {
+            console.error("Impossible de charger l'image du questionnaire", error);
+            elements.image.removeAttribute("src");
+            elements.imageContainer.hidden = true;
+        }
     } else {
         elements.image.removeAttribute("src");
         elements.imageContainer.hidden = true;
@@ -208,17 +220,17 @@ document.addEventListener("DOMContentLoaded", async () => {
     const items = appliquerOrdreEtLimite(extraireItemsLecture(questionnaire, options), options);
     let index = 0;
 
-    afficherItem(items, index, elements);
+    await afficherItem(items, index, elements);
 
     elements.precedent.addEventListener("click", () => {
         if (index <= 0) return;
         index -= 1;
-        afficherItem(items, index, elements);
+        void afficherItem(items, index, elements);
     });
 
     elements.suivant.addEventListener("click", () => {
         if (index >= items.length - 1) return;
         index += 1;
-        afficherItem(items, index, elements);
+        void afficherItem(items, index, elements);
     });
 });
