@@ -341,32 +341,18 @@ const abandonnerEtRetourMenu = async () => {
 
 const finirCreation = async () => {
     lireTitreQuestionnaire();
-    await verifierTitreQuestionnaireDisponible(etatCreation.questionnaire.titre, etatCreation.jsonPath);
 
     if (etatCreation.questionnaire.questionnaire.length === 0) {
         throw new Error("Ajoutez au moins une question avant de terminer le questionnaire.");
     }
 
-    const nouveauNom = await demanderValeurObligatoire(
-        "Nom final du questionnaire JSON (laisser vide pour conserver le nom actuel):",
-        etatCreation.jsonPath.split("/").pop() || ""
-    );
     const nouveauReverse = versEntierBinaire(
         await demanderValeurObligatoire("Reverse final (0 ou 1)", String(etatCreation.questionnaire.reverse))
     );
 
     etatCreation.questionnaire.reverse = nouveauReverse;
 
-    const nomNettoye = normaliserNomFichier(nouveauNom || etatCreation.jsonPath.split("/").pop() || "");
-    if (nomNettoye && nomNettoye !== etatCreation.jsonPath.split("/").pop()) {
-        await verifierNomFichierDisponible(nomNettoye, etatCreation.jsonPath);
-        const nouveauPath = `${DOSSIER_JSON}/${nomNettoye}`;
-        await window.electronAPI.writeQuestJson(nouveauPath, etatCreation.questionnaire);
-        await window.electronAPI.removeQuestEntry(etatCreation.jsonPath);
-        etatCreation.jsonPath = nouveauPath;
-    } else {
-        await sauvegarderQuestionnaire();
-    }
+    await sauvegarderQuestionnaire();
 
     window.location.href = PAGE_MENU;
 };

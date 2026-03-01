@@ -312,7 +312,6 @@ const abandonnerEtRetourMenu = async () => {
 
 const finirCreation = async () => {
     lireTitreQuestionnaire();
-    await verifierTitreQuestionnaireDisponible(etatCreation.questionnaire.titre, etatCreation.jsonPath);
 
     const dictionnaire = etatCreation.questionnaire.questionnaire[0];
     const nombreEntrees = Object.keys(dictionnaire?.["langue 1"] || {}).length;
@@ -320,21 +319,7 @@ const finirCreation = async () => {
         throw new Error("Ajoutez au moins une traduction avant de terminer le questionnaire.");
     }
 
-    const nouveauNom = await demanderValeurObligatoire(
-        "Nom final du questionnaire JSON (laisser vide pour conserver le nom actuel):",
-        etatCreation.jsonPath.split("/").pop() || ""
-    );
-
-    const nomNettoye = normaliserNomFichier(nouveauNom || etatCreation.jsonPath.split("/").pop() || "");
-    if (nomNettoye && nomNettoye !== etatCreation.jsonPath.split("/").pop()) {
-        await verifierNomFichierDisponible(nomNettoye, etatCreation.jsonPath);
-        const nouveauPath = `${DOSSIER_JSON}/${nomNettoye}`;
-        await window.electronAPI.writeQuestJson(nouveauPath, etatCreation.questionnaire);
-        await window.electronAPI.removeQuestEntry(etatCreation.jsonPath);
-        etatCreation.jsonPath = nouveauPath;
-    } else {
-        await sauvegarderQuestionnaire();
-    }
+    await sauvegarderQuestionnaire();
 
     window.location.href = PAGE_MENU;
 };
