@@ -184,7 +184,7 @@ const chargerQuestionnaireExistant = async () => {
 
     const questionnaireExistant = await window.electronAPI.loadQuestnaire(etatCreation.jsonPath);
     const type = (questionnaireExistant?.type || "").toLowerCase();
-    if (!["txt", "txt 2", "texte"].includes(type)) {
+    if (!["txt", "texte"].includes(type)) {
         throw new Error("Le questionnaire sélectionné n'est pas de type texte.");
     }
 

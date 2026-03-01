@@ -4,7 +4,6 @@ const stockageOptionsQuest = "quest_options";
 
 const pagesQuestionnaire = {
     txt: "../pages/quest_questionnaire_txt.html",
-    "txt 2": "../pages/quest_questionnaire_txt.html",
     qcm: "../pages/quest_questionnaire_qcm.html",
     alphabet: "../pages/quest_questionnaire_alphabet.html",
     langue: "../pages/quest_questionnaire_langue.html",

@@ -2,6 +2,7 @@
     "titre": "Géographie pays et leur continent",
     "type": "txt",
     "reverse": 0,
+    "path": "",
     "questionnaire": [
         {
             "question": "Sur quel contient se trouve l'Afghanistan ?",

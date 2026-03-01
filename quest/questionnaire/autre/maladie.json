@@ -2,6 +2,7 @@
     "titre": "Maladie",
     "type": "txt",
     "reverse": 0,
+    "path": "",
     "questionnaire": [
         {
             "question": "",

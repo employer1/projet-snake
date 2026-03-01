@@ -7,7 +7,6 @@ const pagesCreationParType = {
     langue: "../pages/quest_creer_langue_existe.html",
     qcm: "../pages/quest_creer_qcm_existe.html",
     txt: "../pages/quest_creer_txt_existe.html",
-    "txt 2": "../pages/quest_creer_txt_existe.html",
     texte: "../pages/quest_creer_txt_existe.html",
 };
 

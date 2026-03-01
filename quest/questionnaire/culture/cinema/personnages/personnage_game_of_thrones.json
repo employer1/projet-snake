@@ -2,28 +2,29 @@
     "titre": "Personnages de Game of Thrones",
     "type": "txt",
     "reverse": 0,
+    "path": "quest/img/img_personnage_game_of_thrones",
     "questionnaire": [
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_game_of_thrones/aemon_targaryen.png",
+            "image": "aemon_targaryen.png",
             "reponse": "aemon targaryen",
             "def": "Aemon Targaryen"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_game_of_thrones/alliser_thorne.png",
+            "image": "alliser_thorne.png",
             "reponse": "alliser thorne",
             "def": "Alliser Thorne"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_game_of_thrones/arya_stark.png",
+            "image": "arya_stark.png",
             "reponse": "arya stark",
             "def": "Arya Stark"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_game_of_thrones/barristan_selmy.png",
+            "image": "barristan_selmy.png",
             "reponse": "barristan selmy",
             "def": "Barristan Selmy"
         }

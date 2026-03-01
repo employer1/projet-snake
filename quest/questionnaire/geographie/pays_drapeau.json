@@ -2,1366 +2,1367 @@
     "titre": "Géographie des pays et leur drapeau",
     "type": "txt",
     "reverse": 0,
+    "path": "quest/img/img_drapeau",
     "questionnaire": [
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/afghanistan.png",
+            "image": "afghanistan.png",
             "reponse": "afghanistan",
             "def": "Afghanistan"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/afrique_du_sud.png",
+            "image": "afrique_du_sud.png",
             "reponse": "afrique du sud",
             "def": "Afrique du Sud"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/albanie.png",
+            "image": "albanie.png",
             "reponse": "albanie",
             "def": "Albanie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/algerie.png",
+            "image": "algerie.png",
             "reponse": "algerie",
             "def": "Algérie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/allemagne.png",
+            "image": "allemagne.png",
             "reponse": "allemagne",
             "def": "Allemagne"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/andorre.png",
+            "image": "andorre.png",
             "reponse": "andorre",
             "def": "Andorre"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/angola.png",
+            "image": "angola.png",
             "reponse": "angola",
             "def": "Angola"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/anguilla.png",
+            "image": "anguilla.png",
             "reponse": "anguilla",
             "def": "Anguilla"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/antigua_et_barbuda.png",
+            "image": "antigua_et_barbuda.png",
             "reponse": "antigua-et-barbuda",
             "def": "Antigua-et-Barbuda"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/arabie_saoudite.png",
+            "image": "arabie_saoudite.png",
             "reponse": "arabie saoudite",
             "def": "Arabie Saoudite"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/argentine.png",
+            "image": "argentine.png",
             "reponse": "argentine",
             "def": "Argentine"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/armenie.png",
+            "image": "armenie.png",
             "reponse": "armenie",
             "def": "Arménie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/aruba.png",
+            "image": "aruba.png",
             "reponse": "aruba",
             "def": "Aruba"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/australie.png",
+            "image": "australie.png",
             "reponse": "australie",
             "def": "Australie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/autriche.png",
+            "image": "autriche.png",
             "reponse": "autriche",
             "def": "Autriche"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/azerbaidjan.png",
+            "image": "azerbaidjan.png",
             "reponse": "azerbaïdjan",
             "def": "Azerbaïdjan"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/bahamas.png",
+            "image": "bahamas.png",
             "reponse": "bahamas",
             "def": "Bahamas"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/bahrein.png",
+            "image": "bahrein.png",
             "reponse": "bahrein",
             "def": "Barheïn"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/bangladesh.png",
+            "image": "bangladesh.png",
             "reponse": "bangladesh",
             "def": "Bangladesh"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/barbade.png",
+            "image": "barbade.png",
             "reponse": "barbade",
             "def": "Barbade"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/belgique.png",
+            "image": "belgique.png",
             "reponse": "belgique",
             "def": "Belgique"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/belize.png",
+            "image": "belize.png",
             "reponse": "belize",
             "def": "Belize"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/benin.png",
+            "image": "benin.png",
             "reponse": "benin",
             "def": "Bénin"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/bermudes.png",
+            "image": "bermudes.png",
             "reponse": "bermudes",
             "def": "Bermudes"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/bhoutan.png",
+            "image": "bhoutan.png",
             "reponse": "bhoutan",
             "def": "Bhoutan"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/bielorussie.png",
+            "image": "bielorussie.png",
             "reponse": "bielorussie",
             "def": "Biélorussie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/birmanie.png",
+            "image": "birmanie.png",
             "reponse": "birmanie",
             "def": "Birmanie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/bolivie.png",
+            "image": "bolivie.png",
             "reponse": "bolivie",
             "def": "Bolivie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/bosnie_herzegovie.png",
+            "image": "bosnie_herzegovie.png",
             "reponse": "bosnie-herzegovie",
             "def": "Bosnie-Herzégovie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/botswana.png",
+            "image": "botswana.png",
             "reponse": "botswana",
             "def": "Botswana"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/bresil.png",
+            "image": "bresil.png",
             "reponse": "bresil",
             "def": "Brésil"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/brunei_durassalam.png",
+            "image": "brunei_durassalam.png",
             "reponse": "brunei darussalam",
             "def": "Brunei Darussalam"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/bulgarie.png",
+            "image": "bulgarie.png",
             "reponse": "bulgarie",
             "def": "Bulgarie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/burkina_faso.png",
+            "image": "burkina_faso.png",
             "reponse": "burkina faso",
             "def": "Burkina Faso"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/burundi.png",
+            "image": "burundi.png",
             "reponse": "burundi",
             "def": "Burundi"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/cambodge.png",
+            "image": "cambodge.png",
             "reponse": "cambodge",
             "def": "Cambodge"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/cameroun.png",
+            "image": "cameroun.png",
             "reponse": "cameroun",
             "def": "Cameroun"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/canada.png",
+            "image": "canada.png",
             "reponse": "canada",
             "def": "Canada"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/cap_vert.png",
+            "image": "cap_vert.png",
             "reponse": "cap-vert",
             "def": "Cap-Vert"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/chili.png",
+            "image": "chili.png",
             "reponse": "chili",
             "def": "Chili"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/chine.png",
+            "image": "chine.png",
             "reponse": "chine",
             "def": "Chine"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/chypre.png",
+            "image": "chypre.png",
             "reponse": "chypre",
             "def": "Chypre"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/colombie.png",
+            "image": "colombie.png",
             "reponse": "colombie",
             "def": "Colombie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/comores.png",
+            "image": "comores.png",
             "reponse": "comores",
             "def": "Comores"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/coree_du_sud.png",
+            "image": "coree_du_sud.png",
             "reponse": "coree du sud",
             "def": "Corée du Sud"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/coree_du_nord.png",
+            "image": "coree_du_nord.png",
             "reponse": "coree du nord",
             "def": "Corée du Nord"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/costa_rica.png",
+            "image": "costa_rica.png",
             "reponse": " costa rica",
             "def": "Costa Rica"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/cote-divoire.png",
+            "image": "cote-divoire.png",
             "reponse": "cote d'ivoire",
             "def": "Côte d'Ivoire"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/croatie.png",
+            "image": "croatie.png",
             "reponse": "croatie",
             "def": "Croatie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/cuba.png",
+            "image": "cuba.png",
             "reponse": "cuba",
             "def": "Cuba"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/curacao.png",
+            "image": "curacao.png",
             "reponse": "curacao",
             "def": "Curaçao"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/danemark.png",
+            "image": "danemark.png",
             "reponse": "danemark",
             "def": "Danemark"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/djibouti.png",
+            "image": "djibouti.png",
             "reponse": "djibouti",
             "def": "Djibouti"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/dominique.png",
+            "image": "dominique.png",
             "reponse": "dominique",
             "def": "Dominique"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/egypte.png",
+            "image": "egypte.png",
             "reponse": "egypte",
             "def": "Egypte"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/emirats_arabes_unis.png",
+            "image": "emirats_arabes_unis.png",
             "reponse": "emirats arabes unis",
             "def": "Emirats Arabes Unis"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/equateur.png",
+            "image": "equateur.png",
             "reponse": "equateur",
             "def": "Equateur"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/erythree.png",
+            "image": "erythree.png",
             "reponse": "erythree",
             "def": "Erythrée"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/espagne.png",
+            "image": "espagne.png",
             "reponse": "espagne",
             "def": "Espagne"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/estonie.png",
+            "image": "estonie.png",
             "reponse": "estonie",
             "def": "Estonie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/eswatini.png",
+            "image": "eswatini.png",
             "reponse": "eswatini",
             "def": "Eswatini"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/etats_unis.png",
+            "image": "etats_unis.png",
             "reponse": "etats-unis",
             "def": "Etats-Unis"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/ethiopie.png",
+            "image": "ethiopie.png",
             "reponse": "ethiopie",
             "def": "Ethiopie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/fidji.png",
+            "image": "fidji.png",
             "reponse": "fidji",
             "def": "Fidji"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/finlande.png",
+            "image": "finlande.png",
             "reponse": "finlande",
             "def": "Finlande"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/france.png",
+            "image": "france.png",
             "reponse": "france",
             "def": "France"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/gabon.png",
+            "image": "gabon.png",
             "reponse": "gabon",
             "def": "Gabon"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/gambie.png",
+            "image": "gambie.png",
             "reponse": "gambie",
             "def": "Gambie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/georgie.png",
+            "image": "georgie.png",
             "reponse": "georgie",
             "def": "Géorgie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/ghana.png",
+            "image": "ghana.png",
             "reponse": "ghana",
             "def": "Ghana"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/grece.png",
+            "image": "grece.png",
             "reponse": "grece",
             "def": "Grèce"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/grenade.png",
+            "image": "grenade.png",
             "reponse": "grenade",
             "def": "Grenade"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/groenland.png",
+            "image": "groenland.png",
             "reponse": "groenland",
             "def": "Groenland"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/guadeloupe.png",
+            "image": "guadeloupe.png",
             "reponse": "guadeloupe",
             "def": "Guadeloupe"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/guam.png",
+            "image": "guam.png",
             "reponse": "guam",
             "def": "Guam"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/guatemala.png",
+            "image": "guatemala.png",
             "reponse": "guatemala",
             "def": "Guatemala"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/guernesey.png",
+            "image": "guernesey.png",
             "reponse": "guernesey",
             "def": "Guernesey"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/guinee.png",
+            "image": "guinee.png",
             "reponse": "guinee",
             "def": "Guinée"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/guinee_bissau.png",
+            "image": "guinee_bissau.png",
             "reponse": "guinee-bissau",
             "def": "Guinée-Bissau"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/guinee_equatoriale.png",
+            "image": "guinee_equatoriale.png",
             "reponse": "guinee equatoriale",
             "def": "Guinée Equatoriale"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/guyana.png",
+            "image": "guyana.png",
             "reponse": "guyane",
             "def": "Guyane"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/guyane_francaise.png",
+            "image": "guyane_francaise.png",
             "reponse": "guyane francaise",
             "def": "Guyane Française"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/haiti.png",
+            "image": "haiti.png",
             "reponse": "haiti",
             "def": "Haïti"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/hawai.png",
+            "image": "hawai.png",
             "reponse": "hawai",
             "def": "Hawaï"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/honduras.png",
+            "image": "honduras.png",
             "reponse": "honduras",
             "def": "Honduras"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/hong_kong.png",
+            "image": "hong_kong.png",
             "reponse": "hong kong",
             "def": "Hong Kong"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/hongrie.png",
+            "image": "hongrie.png",
             "reponse": "hongrie",
             "def": "Hongrie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/ile_christmas.png",
+            "image": "ile_christmas.png",
             "reponse": "ile christmas",
             "def": "île Christmas"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/ile_de_la_reunion.png",
+            "image": "ile_de_la_reunion.png",
             "reponse": "ile de la reunion",
             "def": "île de la Réunion"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/ile_de_man.png",
+            "image": "ile_de_man.png",
             "reponse": "ile de man",
             "def": "île de man"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/ile_maurice.png",
+            "image": "ile_maurice.png",
             "reponse": "ile maurice",
             "def": "île Maurice"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/iles_caimans.png",
+            "image": "iles_caimans.png",
             "reponse": "iles caimans",
             "def": "îles Caimans"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/iles_cocos.png",
+            "image": "iles_cocos.png",
             "reponse": "iles cocos",
             "def": "îles Cocos"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/iles_cook.png",
+            "image": "iles_cook.png",
             "reponse": "ile cook",
             "def": "île Cook"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/iles_feroe.png",
+            "image": "iles_feroe.png",
             "reponse": "iles feroe",
             "def": "îles Féroé"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/iles_malouines.png",
+            "image": "iles_malouines.png",
             "reponse": "iles malouines",
             "def": "îles Malouines"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/iles_marshall.png",
+            "image": "iles_marshall.png",
             "reponse": "iles marshall",
             "def": "îles Marshall"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/iles_salomon.png",
+            "image": "iles_salomon.png",
             "reponse": "iles salomon",
             "def": "îles Salomon"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/iles_vierges_americaines.png",
+            "image": "iles_vierges_americaines.png",
             "reponse": "iles vierges americaines",
             "def": "îles Vierges Américaines"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/iles_vierges_britanniques.png",
+            "image": "iles_vierges_britanniques.png",
             "reponse": "iles vierges britanniques",
             "def": "îles Vierges Britanniques"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/inde.png",
+            "image": "inde.png",
             "reponse": "inde",
             "def": "Inde"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/indonesie.png",
+            "image": "indonesie.png",
             "reponse": "indonesie",
             "def": "Indonésie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/irak.png",
+            "image": "irak.png",
             "reponse": "irak",
             "def": "Irak"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/iran.png",
+            "image": "iran.png",
             "reponse": "iran",
             "def": "Iran"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/irlande.png",
+            "image": "irlande.png",
             "reponse": "irlande",
             "def": "Irlande"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/islande.png",
+            "image": "islande.png",
             "reponse": "islande",
             "def": "Islande"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/israel.png",
+            "image": "israel.png",
             "reponse": "israel",
             "def": "Israël"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/italie.png",
+            "image": "italie.png",
             "reponse": "italie",
             "def": "Italie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/jamaique.png",
+            "image": "jamaique.png",
             "reponse": "jamaique",
             "def": "Jamaïque"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/japon.png",
+            "image": "japon.png",
             "reponse": "japon",
             "def": "Japon"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/jersey.png",
+            "image": "jersey.png",
             "reponse": "jersey",
             "def": "Jersey"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/jordanie.png",
+            "image": "jordanie.png",
             "reponse": "jordanie",
             "def": "Jordanie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/kazakhstan.png",
+            "image": "kazakhstan.png",
             "reponse": "kazakhstan",
             "def": "Kazakstan"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/kenya.png",
+            "image": "kenya.png",
             "reponse": "kenya",
             "def": "Kenya"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/kirghizistan.png",
+            "image": "kirghizistan.png",
             "reponse": "kirghizistan",
             "def": "Kirghizistan"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/kiribati.png",
+            "image": "kiribati.png",
             "reponse": "kiribati",
             "def": "Kiribati"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/koweit.png",
+            "image": "koweit.png",
             "reponse": "koweit",
             "def": "Koweït"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/laos.png",
+            "image": "laos.png",
             "reponse": "laos",
             "def": "Laos"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/lesotho.png",
+            "image": "lesotho.png",
             "reponse": "lesotho",
             "def": "Lesotho"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/lettonie.png",
+            "image": "lettonie.png",
             "reponse": "lettonie",
             "def": "Lettonie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/liban.png",
+            "image": "liban.png",
             "reponse": "liban",
             "def": "Liban"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/liberia.png",
+            "image": "liberia.png",
             "reponse": "liberia",
             "def": "Libéria"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/libye.png",
+            "image": "libye.png",
             "reponse": "libye",
             "def": "Libye"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/liechtenstein.png",
+            "image": "liechtenstein.png",
             "reponse": "liechtenstein",
             "def": "Liechtenstein"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/lituanie.png",
+            "image": "lituanie.png",
             "reponse": "lituanie",
             "def": "Lituanie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/luxembourg.png",
+            "image": "luxembourg.png",
             "reponse": "luxembourg",
             "def": "Luxembourg"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/macedoine_du_nord.png",
+            "image": "macedoine_du_nord.png",
             "reponse": "macedoine du nord",
             "def": "Macédoine du Nord"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/madagascar.png",
+            "image": "madagascar.png",
             "reponse": "madagascar",
             "def": "Madagascar"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/malaisie.png",
+            "image": "malaisie.png",
             "reponse": "malaisie",
             "def": "Malaisie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/malawi.png",
+            "image": "malawi.png",
             "reponse": "malawi",
             "def": "Malawi"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/maldives.png",
+            "image": "maldives.png",
             "reponse": "maldives",
             "def": "Maldives"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/mali.png",
+            "image": "mali.png",
             "reponse": "mali",
             "def": "Mali"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/malte.png",
+            "image": "malte.png",
             "reponse": "malte",
             "def": "Malte"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/maroc.png",
+            "image": "maroc.png",
             "reponse": "maroc",
             "def": "Maroc"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/martinique.png",
+            "image": "martinique.png",
             "reponse": "martinique",
             "def": "Martinique"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/mauritanie.png",
+            "image": "mauritanie.png",
             "reponse": "mauritanie",
             "def": "Mauritanie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/mayotte.png",
+            "image": "mayotte.png",
             "reponse": "mayotte",
             "def": "Mayotte"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/mexique.png",
+            "image": "mexique.png",
             "reponse": "mexique",
             "def": "Mexique"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/micronesie.png",
+            "image": "micronesie.png",
             "reponse": "micronesie",
             "def": "Micronésie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/moldavie.png",
+            "image": "moldavie.png",
             "reponse": "moldavie",
             "def": "Moldavie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/monaco.png",
+            "image": "monaco.png",
             "reponse": "monaco",
             "def": "Monaco"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/mongolie.png",
+            "image": "mongolie.png",
             "reponse": "mongolie",
             "def": "Mongolie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/montenegro.png",
+            "image": "montenegro.png",
             "reponse": "montenegro",
             "def": "Monténégro"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/mozambique.png",
+            "image": "mozambique.png",
             "reponse": "mozambique",
             "def": "Mozambique"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/namibie.png",
+            "image": "namibie.png",
             "reponse": "namibie",
             "def": "Namibie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/nauru.png",
+            "image": "nauru.png",
             "reponse": "nauru",
             "def": "Nauru"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/nepal.png",
+            "image": "nepal.png",
             "reponse": "népal",
             "def": "Népal"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/nicaragua.png",
+            "image": "nicaragua.png",
             "reponse": "nicaragua",
             "def": "Nicaragua"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/niger.png",
+            "image": "niger.png",
             "reponse": "niger",
             "def": "Niger"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/nigeria.png",
+            "image": "nigeria.png",
             "reponse": "nigeria",
             "def": "Nigeria"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/niue.png",
+            "image": "niue.png",
             "reponse": "niue",
             "def": "Niue"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/norvege.png",
+            "image": "norvege.png",
             "reponse": "norvège",
             "def": "Norvège"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/nouvelle_caledonie.png",
+            "image": "nouvelle_caledonie.png",
             "reponse": "nouvelle caledonie",
             "def": "Nouvelle Calédonie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/nouvelle_zelande.png",
+            "image": "nouvelle_zelande.png",
             "reponse": "nouvelle-zélande",
             "def": "Nouvelle-Zélande"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/oman.png",
+            "image": "oman.png",
             "reponse": "oman",
             "def": "Oman"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/ouganda.png",
+            "image": "ouganda.png",
             "reponse": "ouganda",
             "def": "Ouganda"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/ouzbekistan.png",
+            "image": "ouzbekistan.png",
             "reponse": "ouzbékistan",
             "def": "Ouzbékistan"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/pakistan.png",
+            "image": "pakistan.png",
             "reponse": "pakistan",
             "def": "Pakistan"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/palaos.png",
+            "image": "palaos.png",
             "reponse": "palaos",
             "def": "Palaos"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/palestine.png",
+            "image": "palestine.png",
             "reponse": "palestine",
             "def": "Palestine"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/panama.png",
+            "image": "panama.png",
             "reponse": "panama",
             "def": "Panama"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/papouasie_nouvelle_guinee.png",
+            "image": "papouasie_nouvelle_guinee.png",
             "reponse": "papouasie-nouvelle-guinée",
             "def": "Papouasie-Nouvelle-Guinée"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/paraguay.png",
+            "image": "paraguay.png",
             "reponse": "paraguay",
             "def": "Paraguay"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/pays_bas.png",
+            "image": "pays_bas.png",
             "reponse": "pays-bas",
             "def": "Pays-Bas"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/perou.png",
+            "image": "perou.png",
             "reponse": "perou",
             "def": "Pérou"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/philippines.png",
+            "image": "philippines.png",
             "reponse": "philippines",
             "def": "Philippines"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/pologne.png",
+            "image": "pologne.png",
             "reponse": "pologne",
             "def": "Pologne"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/polynesie_francaise.png",
+            "image": "polynesie_francaise.png",
             "reponse": "polynesie francaise",
             "def": "Polynésie Française"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/porto_rico.png",
+            "image": "porto_rico.png",
             "reponse": "porto rico",
             "def": "Porto Rico"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/portugal.png",
+            "image": "portugal.png",
             "reponse": "portugal",
             "def": "Portugal"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/qatar.png",
+            "image": "qatar.png",
             "reponse": "qatar",
             "def": "Qatar"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/republique_centrafricaine.png",
+            "image": "republique_centrafricaine.png",
             "reponse": "republique centrafricaine",
             "def": "République Centrafricaine"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/republique_democratique_du_congo.png",
+            "image": "republique_democratique_du_congo.png",
             "reponse": "republique democratique du congo",
             "def": "République Démocratiqeu du Congo"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/republique_dominicaine.png",
+            "image": "republique_dominicaine.png",
             "reponse": "republique dominicaine",
             "def": "République Dominicaine"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/republique_du_congo.png",
+            "image": "republique_du_congo.png",
             "reponse": "republique du congo",
             "def": "République du Congo"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/republique_tcheque.png",
+            "image": "republique_tcheque.png",
             "reponse": "republique tcheque",
             "def": "République Tchèque"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/roumanie.png",
+            "image": "roumanie.png",
             "reponse": "roumanie",
             "def": "Roumanie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/royaume_unis",
+            "image": "royaume_unis",
             "reponse": "royaume-unis",
             "def": "Royaume-Unis"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/russie.png",
+            "image": "russie.png",
             "reponse": "russie",
             "def": "Russie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/rwanda.png",
+            "image": "rwanda.png",
             "reponse": "rwanda",
             "def": "Rwanda"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/saint_barthelemy.png",
+            "image": "saint_barthelemy.png",
             "reponse": "saint_barthelemy",
             "def": "Saint Barthelemy"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/saint_christophe_et_nieves.png",
+            "image": "saint_christophe_et_nieves.png",
             "reponse": "saint-christophe-et-nieves",
             "def": "Saint-Christophe-et-Niévès"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/saint_marin.png",
+            "image": "saint_marin.png",
             "reponse": "saint marin",
             "def": "Saint Marin"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/saint_martin.png",
+            "image": "saint_martin.png",
             "reponse": "saint_martin",
             "def": "Saint Martin"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/saint_vincent_et_les_grenadines.png",
+            "image": "saint_vincent_et_les_grenadines.png",
             "reponse": "saint vincent et les grenadines",
             "def": "Saint Vincent et les Grenadines"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/sainte_helene.png",
+            "image": "sainte_helene.png",
             "reponse": "sainte helene",
             "def": "Sainte Hélène"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/sainte_lucie.png",
+            "image": "sainte_lucie.png",
             "reponse": "sainte-lucie",
             "def": "Sainte-Lucie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/salvador.png",
+            "image": "salvador.png",
             "reponse": "salvador",
             "def": "Salvador"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/samoa.png",
+            "image": "samoa.png",
             "reponse": "samoa",
             "def": "Samoa"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/sao_tome_et_principe.png",
+            "image": "sao_tome_et_principe.png",
             "reponse": "sao tome-et-principe",
             "def": "Sao Tomé-et-Principe"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/senegal.png",
+            "image": "senegal.png",
             "reponse": "senegal",
             "def": "Sénégal"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/serbie.png",
+            "image": "serbie.png",
             "reponse": "serbie",
             "def": "Serbie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/seychelles.png",
+            "image": "seychelles.png",
             "reponse": "seychelles",
             "def": "Seychelles"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/sierra_leone.png",
+            "image": "sierra_leone.png",
             "reponse": "sierra leone",
             "def": "Sierra Leone"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/singapour.png",
+            "image": "singapour.png",
             "reponse": "singapour",
             "def": "Singapour"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/slovaquie.png",
+            "image": "slovaquie.png",
             "reponse": "slovaquie",
             "def": "Slovaquie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/slovenie.png",
+            "image": "slovenie.png",
             "reponse": "slovenie",
             "def": "Slovénie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/somalie.png",
+            "image": "somalie.png",
             "reponse": "somalie",
             "def": "Somalie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/soudan.png",
+            "image": "soudan.png",
             "reponse": "soudan",
             "def": "Soudan"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/soudan_du_sud.png",
+            "image": "soudan_du_sud.png",
             "reponse": "soudan du sud",
             "def": "Soudan du Sud"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/sri_lanka.png",
+            "image": "sri_lanka.png",
             "reponse": "sri lanka",
             "def": "Sri Lanka"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/suede.png",
+            "image": "suede.png",
             "reponse": "suede",
             "def": "Suède"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/suisse.png",
+            "image": "suisse.png",
             "reponse": "suisse",
             "def": "Suisse"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/suriname.png",
+            "image": "suriname.png",
             "reponse": "suriname",
             "def": "Suriname"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/syrie.png",
+            "image": "syrie.png",
             "reponse": "syrie",
             "def": "Syrie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/tadjikistan.png",
+            "image": "tadjikistan.png",
             "reponse": "tadjikistan",
             "def": "Tadjikistan"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/taiwan.png",
+            "image": "taiwan.png",
             "reponse": "taiwan",
             "def": "Taiwan"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/tanzanie.png",
+            "image": "tanzanie.png",
             "reponse": "tanzanie",
             "def": "Tanzanie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/tchad.png",
+            "image": "tchad.png",
             "reponse": "tchad",
             "def": "Tchad"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/thailande.png",
+            "image": "thailande.png",
             "reponse": "thailande",
             "def": "Thaïlande"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/timor_oriental.png",
+            "image": "timor_oriental.png",
             "reponse": "timor oriental",
             "def": "Timor Oriental"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/togo.png",
+            "image": "togo.png",
             "reponse": "togo",
             "def": "Togo"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/tonga.png",
+            "image": "tonga.png",
             "reponse": "tonga",
             "def": "Tonga"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/trinite_et_tobago.png",
+            "image": "trinite_et_tobago.png",
             "reponse": "trinite-et-tobago",
             "def": "Trinité-et-Tobago"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/tunisie.png",
+            "image": "tunisie.png",
             "reponse": "tunisie",
             "def": "Tunisie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/turkmenistan.png",
+            "image": "turkmenistan.png",
             "reponse": "turkmenistan",
             "def": "Turkménistan"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/turquie.png",
+            "image": "turquie.png",
             "reponse": "turquie",
             "def": "Turquie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/tuvalu.png",
+            "image": "tuvalu.png",
             "reponse": "tuvalu",
             "def": "Tuvalu"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/ukraine.png",
+            "image": "ukraine.png",
             "reponse": "ukraine",
             "def": "Ukraine"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/uruguay.png",
+            "image": "uruguay.png",
             "reponse": "uruguay",
             "def": "Uruguay"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/vanuatu.png",
+            "image": "vanuatu.png",
             "reponse": "vanuatu",
             "def": "Vanuatu"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/vatican.png",
+            "image": "vatican.png",
             "reponse": "vatican",
             "def": "Vatican"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/venezuela.png",
+            "image": "venezuela.png",
             "reponse": "venezuela",
             "def": "Venezuela"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/vietnam.png",
+            "image": "vietnam.png",
             "reponse": "vietnam",
             "def": "Vietnam"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/yemen.png",
+            "image": "yemen.png",
             "reponse": "yemen",
             "def": "Yémen"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/zambie.png",
+            "image": "zambie.png",
             "reponse": "zambie",
             "def": "Zambie"
         },
         {
             "question": "A quel pays appartient ce drapeau ?",
-            "image": "/quest/img/zimbabwe.png",
+            "image": "zimbabwe.png",
             "reponse": "zimbabwe",
             "def": "Zimbabwe"
         }

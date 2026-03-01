@@ -2,6 +2,7 @@
     "titre": "Géographie des pays et leur capitale",
     "type": "txt",
     "reverse": 0,
+    "path": "",
     "questionnaire": [
         {
             "question": "Quelle est la capitale de l'Afghanistan ?",

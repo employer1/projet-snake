@@ -2,6 +2,7 @@
     "titre": "Alphabet morse",
     "type": "txt",
     "reverse": 1,
+    "path": "",
     "questionnaire": [
         {
             "question": "0",

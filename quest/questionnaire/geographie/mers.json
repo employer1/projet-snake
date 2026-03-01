@@ -2,22 +2,23 @@
     "titre": "Les mers du monde",
     "type": "txt",
     "reverse": 0,
+    "path": "quest/img/img_mer",
     "questionnaire": [
         {
             "question": "Comment se nomme cette mer ?",
-            "image": "/quest/img/img_mer/mer_du_nord.png",
+            "image": "mer_du_nord.png",
             "reponse": "mer du nord",
             "def": "Mer du Nord"
         },
         {
             "question": "Comment se nomme cette mer ?",
-            "image": "/quest/img/img_mer/mer_mediterranee.png",
+            "image": "mer_mediterranee.png",
             "reponse": "mer mediterranee",
             "def": "Mer Méditérranée"
         },
         {
             "question": "Comment se nomme cette mer ?",
-            "image": "/quest/img/img_mer/mer_adriatique.png",
+            "image": "mer_adriatique.png",
             "reponse": "mer adriatique",
             "def": "Mer Adriatique"
         }

@@ -2,88 +2,89 @@
     "titre": "Personnages Avatar",
     "type": "txt",
     "reverse": 0,
+    "path": "quest/img/img_personnage_avatar",
     "questionnaire": [
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_avatar/hang.png",
+            "image": "hang.png",
             "reponse": "hang",
             "def": "Hang"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_avatar/katara.png",
+            "image": "katara.png",
             "reponse": "katara",
             "def": "Katara"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_avatar/sokka.png",
+            "image": "sokka.png",
             "reponse": "sokka",
             "def": "Sokka"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_avatar/toph.png",
+            "image": "toph.png",
             "reponse": "toph",
             "def": "Toph"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_avatar/zuko.png",
+            "image": "zuko.png",
             "reponse": "zuko",
             "def": "Zuko"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_avatar/azula.png",
+            "image": "azula.png",
             "reponse": "azula",
             "def": "Azula"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_avatar/iroh.png",
+            "image": "iroh.png",
             "reponse": "iroh",
             "def": "Iroh"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_avatar/appa.png",
+            "image": "appa.png",
             "reponse": "appa",
             "def": "Appa"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_avatar/ty_lee.png",
+            "image": "ty_lee.png",
             "reponse": "ty lee",
             "def": "Ty Lee"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_avatar/suki.png",
+            "image": "suki.png",
             "reponse": "suki",
             "def": "Suki"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_avatar/princess_yue.png",
+            "image": "princess_yue.png",
             "reponse": "princess yue",
             "def": "Princess Yue"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_avatar/king_bumi.png",
+            "image": "king_bumi.png",
             "reponse": "king bumi",
             "def": "King Bumi"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_avatar/momo.png",
+            "image": "momo.png",
             "reponse": "momo",
             "def": "Momo"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_avatar/mai.png",
+            "image": "mai.png",
             "reponse": "mai",
             "def": "Mai"
         }

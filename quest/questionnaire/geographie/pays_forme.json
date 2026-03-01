@@ -2,1306 +2,1307 @@
     "titre": "Géographie des pays et leur forme",
     "type": "txt",
     "reverse": 0,
+    "path": "quest/img/img_forme",
     "questionnaire": [
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/afghanistan_forme.png",
+            "image": "afghanistan_forme.png",
             "reponse": "afghanistan",
             "def": "Afghanistan"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/afrique_du_sud_forme.png",
+            "image": "afrique_du_sud_forme.png",
             "reponse": "afriqeu du sud",
             "def": "Afrique du Sud"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/albanie_forme.png",
+            "image": "albanie_forme.png",
             "reponse": "albanie",
             "def": "Albanie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/algerie_forme.png",
+            "image": "algerie_forme.png",
             "reponse": "algerie",
             "def": "Algérie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/allemagne_forme.png",
+            "image": "allemagne_forme.png",
             "reponse": "allemagne",
             "def": "Allemagne"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/andorre_forme.png",
+            "image": "andorre_forme.png",
             "reponse": "andorre",
             "def": "Andorre"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/angola_forme.png",
+            "image": "angola_forme.png",
             "reponse": "angola",
             "def": "Angola"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/anguilla_forme.png",
+            "image": "anguilla_forme.png",
             "reponse": "anguilla",
             "def": "Anguilla"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/antigua_et_barbuda_forme.png",
+            "image": "antigua_et_barbuda_forme.png",
             "reponse": "antigua-et-barbuda",
             "def": "Antigua-et-Barbuda"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/arabie_saoudite_forme.png",
+            "image": "arabie_saoudite_forme.png",
             "reponse": "arabie saoudite",
             "def": "Arabie Saoudite"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/argentine_forme.png",
+            "image": "argentine_forme.png",
             "reponse": "argentine",
             "def": "Argentine"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/armenie_forme.png",
+            "image": "armenie_forme.png",
             "reponse": "armenie",
             "def": "Arménie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/aruba_forme.png",
+            "image": "aruba_forme.png",
             "reponse": "aruba",
             "def": "Aruba"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/australie_forme.png",
+            "image": "australie_forme.png",
             "reponse": "australie",
             "def": "Australie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/autriche_forme.png",
+            "image": "autriche_forme.png",
             "reponse": "autriche",
             "def": "Autriche"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/azerbaidjan_forme.png",
+            "image": "azerbaidjan_forme.png",
             "reponse": "azerbaidjan",
             "def": "Azerbaïdjan"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/bahamas_forme.png",
+            "image": "bahamas_forme.png",
             "reponse": "bahamas",
             "def": "Bahamas"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/bahrein_forme.png",
+            "image": "bahrein_forme.png",
             "reponse": "bahrein",
             "def": "Bahreïn"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/bangladesh_forme.png",
+            "image": "bangladesh_forme.png",
             "reponse": "bangladesh",
             "def": "Bangladesh"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/barbade_forme.png",
+            "image": "barbade_forme.png",
             "reponse": "barbade",
             "def": "Barbade"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/belgique_forme.png",
+            "image": "belgique_forme.png",
             "reponse": "belgique",
             "def": "Belgique"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/belize_forme.png",
+            "image": "belize_forme.png",
             "reponse": "belize",
             "def": "Belize"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/benin_forme.png",
+            "image": "benin_forme.png",
             "reponse": "benin",
             "def": "Bénin"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/bermudes_forme.png",
+            "image": "bermudes_forme.png",
             "reponse": "bermudes",
             "def": "Bermudes"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/bhoutan_forme.png",
+            "image": "bhoutan_forme.png",
             "reponse": "bhoutan",
             "def": "Bhoutan"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/bielorussie_forme.png",
+            "image": "bielorussie_forme.png",
             "reponse": "bielorussie",
             "def": "Biélorussie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/birmanie_forme.png",
+            "image": "birmanie_forme.png",
             "reponse": "birmanie",
             "def": "Birmanie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/bolivie_forme.png",
+            "image": "bolivie_forme.png",
             "reponse": "bolivie",
             "def": "Bolivie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/bosnie_herzegovie_forme.png",
+            "image": "bosnie_herzegovie_forme.png",
             "reponse": "bosnie-herzegovie",
             "def": "Bosnie-Herzégovie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/botswana_forme.png",
+            "image": "botswana_forme.png",
             "reponse": "botswana",
             "def": "Botswana"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/bresil_forme.png",
+            "image": "bresil_forme.png",
             "reponse": "bresil",
             "def": "Brésil"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/brunei_darussalam_forme.png",
+            "image": "brunei_darussalam_forme.png",
             "reponse": "brunei darussalam",
             "def": "Brunéi Darussalam"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/bulgarie_forme.png",
+            "image": "bulgarie_forme.png",
             "reponse": "bulgarie",
             "def": "Bulgarie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/burundi_forme.png",
+            "image": "burundi_forme.png",
             "reponse": "burundi",
             "def": "Burundi"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/cambodge_forme.png",
+            "image": "cambodge_forme.png",
             "reponse": "cambodge",
             "def": "Cambodge"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/cameroun_forme.png",
+            "image": "cameroun_forme.png",
             "reponse": "cameroun",
             "def": "Cameroun"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/canada_forme.png",
+            "image": "canada_forme.png",
             "reponse": "canada",
             "def": "Canada"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/cap_vert_forme.png",
+            "image": "cap_vert_forme.png",
             "reponse": "cap-vert",
             "def": "Cap-Vert"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/chili_forme.png",
+            "image": "chili_forme.png",
             "reponse": "chili",
             "def": "Chili"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/chine_forme.png",
+            "image": "chine_forme.png",
             "reponse": "chine",
             "def": "Chine"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/chypre_forme.png",
+            "image": "chypre_forme.png",
             "reponse": "chypre",
             "def": "Chypre"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/colombie_forme.png",
+            "image": "colombie_forme.png",
             "reponse": "colombie",
             "def": "Colombie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/comores_forme.png",
+            "image": "comores_forme.png",
             "reponse": "comores",
             "def": "Comores"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/coree_du_sud_forme.png",
+            "image": "coree_du_sud_forme.png",
             "reponse": "coree du sud",
             "def": "Corée du Sud"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/coree_du_nord_forme.png",
+            "image": "coree_du_nord_forme.png",
             "reponse": "coree du nord",
             "def": "Corée du Nord"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/costa_rica_forme.png",
+            "image": "costa_rica_forme.png",
             "reponse": "costa rica",
             "def": "Costa Rica"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/cote_d'ivoire_forme.png",
+            "image": "cote_d'ivoire_forme.png",
             "reponse": "Cote d'ivoire",
             "def": "Côte d'Ivoire"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/croatie_forme.png",
+            "image": "croatie_forme.png",
             "reponse": "croatie",
             "def": "Croatie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/cuba_forme.png",
+            "image": "cuba_forme.png",
             "reponse": "cuba",
             "def": "Cuba"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/curacao_forme.png",
+            "image": "curacao_forme.png",
             "reponse": "curacao",
             "def": "Curaçao"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/danemark_forme.png",
+            "image": "danemark_forme.png",
             "reponse": "danemark",
             "def": "Danemark"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/djibouti_forme.png",
+            "image": "djibouti_forme.png",
             "reponse": "djibouti",
             "def": "Djibouti"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/dominique_forme.png",
+            "image": "dominique_forme.png",
             "reponse": "dominique",
             "def": "Dominique"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/egypte_forme.png",
+            "image": "egypte_forme.png",
             "reponse": "egypte",
             "def": "Egypte"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/emirats_arabes_unis_forme.png",
+            "image": "emirats_arabes_unis_forme.png",
             "reponse": "emirats arabes unis",
             "def": "Emirats Arabes Unis"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/equateur_forme.png",
+            "image": "equateur_forme.png",
             "reponse": "equateur",
             "def": "Equateur"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/erythree_forme.png",
+            "image": "erythree_forme.png",
             "reponse": "erythree",
             "def": "Erythrée"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/espagne_forme.png",
+            "image": "espagne_forme.png",
             "reponse": "espagne",
             "def": "Espagne"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/estonie_forme.png",
+            "image": "estonie_forme.png",
             "reponse": "estonie",
             "def": "Estonie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/eswatini_forme.png",
+            "image": "eswatini_forme.png",
             "reponse": "eswatini",
             "def": "Eswatini"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/etats_unis_forme.png",
+            "image": "etats_unis_forme.png",
             "reponse": "etats-unis",
             "def": "Etats-Unis"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/ethiopie_forme.png",
+            "image": "ethiopie_forme.png",
             "reponse": "ethiopie",
             "def": "Ethiopie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/fidji_forme.png",
+            "image": "fidji_forme.png",
             "reponse": "fidji",
             "def": "Fidji"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/finlande_forme.png",
+            "image": "finlande_forme.png",
             "reponse": "finlande",
             "def": "Finlande"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/france_forme.png",
+            "image": "france_forme.png",
             "reponse": "france",
             "def": "France"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/gabon_forme.png",
+            "image": "gabon_forme.png",
             "reponse": "gabon",
             "def": "Gabon"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/gambie_forme.png",
+            "image": "gambie_forme.png",
             "reponse": "gambie",
             "def": "Gambie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/georgie_forme.png",
+            "image": "georgie_forme.png",
             "reponse": "georgie",
             "def": "Georgie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/ghana_forme.png",
+            "image": "ghana_forme.png",
             "reponse": "ghana",
             "def": "Ghana"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/grece_forme.png",
+            "image": "grece_forme.png",
             "reponse": "grece",
             "def": "Grèce"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/grenade_forme.png",
+            "image": "grenade_forme.png",
             "reponse": "grenade",
             "def": "Grenade"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/groenland_forme.png",
+            "image": "groenland_forme.png",
             "reponse": "groenland",
             "def": "Groenland"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/guadeloupe_forme.png",
+            "image": "guadeloupe_forme.png",
             "reponse": "guadeloupe",
             "def": "Guadeloupe"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/guam_forme.png",
+            "image": "guam_forme.png",
             "reponse": "guam",
             "def": "Guam"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/guatemala_forme.png",
+            "image": "guatemala_forme.png",
             "reponse": "guatemala",
             "def": "Guatemala"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/guernesey_forme.png",
+            "image": "guernesey_forme.png",
             "reponse": "guernesey",
             "def": "Guernesey"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/guinee_forme.png",
+            "image": "guinee_forme.png",
             "reponse": "guinee",
             "def": "Guinée"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/guinee_equatoriale_forme.png",
+            "image": "guinee_equatoriale_forme.png",
             "reponse": "guinee equatoriale",
             "def": "Guinée Equatoriale"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/guyane_forme.png",
+            "image": "guyane_forme.png",
             "reponse": "guyane",
             "def": "Guyane"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/guyane_francaise_forme.png",
+            "image": "guyane_francaise_forme.png",
             "reponse": "guyane francaise",
             "def": "Guyane Française"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/haiti_forme.png",
+            "image": "haiti_forme.png",
             "reponse": "haiti",
             "def": "Haïti"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/honduras_forme.png",
+            "image": "honduras_forme.png",
             "reponse": "honduras",
             "def": "Honduras"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/hong_kong_forme.png",
+            "image": "hong_kong_forme.png",
             "reponse": "hong kong",
             "def": "Hong Kong"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/hongrie_forme.png",
+            "image": "hongrie_forme.png",
             "reponse": "hongrie",
             "def": "Hongrie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/ile_christmas_forme.png",
+            "image": "ile_christmas_forme.png",
             "reponse": "ile christmas",
             "def": "île Christmas"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/ile_de_la_reunion_forme.png",
+            "image": "ile_de_la_reunion_forme.png",
             "reponse": "île de la reunion",
             "def": "île de la Réunion"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/ile_de_man_forme.png",
+            "image": "ile_de_man_forme.png",
             "reponse": "ile de man",
             "def": "île de Man"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/ile_maurice_forme.png",
+            "image": "ile_maurice_forme.png",
             "reponse": "ile maurice",
             "def": "île Maurice"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/iles_caimans_forme.png",
+            "image": "iles_caimans_forme.png",
             "reponse": "iles caimans",
             "def": "îles Caimans"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/iles_cocos_forme.png",
+            "image": "iles_cocos_forme.png",
             "reponse": "iles cocos",
             "def": "îles Cocos"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/iles_cook_forme.png",
+            "image": "iles_cook_forme.png",
             "reponse": "iles cook",
             "def": "îles Cook"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/iles_feroe_forme.png",
+            "image": "iles_feroe_forme.png",
             "reponse": "iles feroe",
             "def": "îles Féroé"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/iles_malouines_forme.png",
+            "image": "iles_malouines_forme.png",
             "reponse": "iles malouines",
             "def": "îles Malouines"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/iles_salomon_forme.png",
+            "image": "iles_salomon_forme.png",
             "reponse": "iles salomon",
             "def": "îles Salomon"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/iles_vierges_americaines_forme.png",
+            "image": "iles_vierges_americaines_forme.png",
             "reponse": "iles vierges americaines",
             "def": "îles Vierges Américaines"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/iles_vierges_britanniques_forme.png",
+            "image": "iles_vierges_britanniques_forme.png",
             "reponse": "iles vierges britanniques",
             "def": "îles Vierges Britanniques"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/inde_forme.png",
+            "image": "inde_forme.png",
             "reponse": "inde",
             "def": "Inde"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/indonesie_forme.png",
+            "image": "indonesie_forme.png",
             "reponse": "indonesie",
             "def": "Indonésie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/irak_forme.png",
+            "image": "irak_forme.png",
             "reponse": "irak",
             "def": "Irak"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/iran_forme.png",
+            "image": "iran_forme.png",
             "reponse": "iran",
             "def": "Iran"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/irlande_forme.png",
+            "image": "irlande_forme.png",
             "reponse": "irlande",
             "def": "Irlande"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/islande_forme.png",
+            "image": "islande_forme.png",
             "reponse": "islande",
             "def": "Islande"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/israel_forme.png",
+            "image": "israel_forme.png",
             "reponse": "israel",
             "def": "Israël"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/italie_forme.png",
+            "image": "italie_forme.png",
             "reponse": "italie",
             "def": "Italie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/jamaique_forme.png",
+            "image": "jamaique_forme.png",
             "reponse": "jamaique",
             "def": "Jamaïque"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/japon_forme.png",
+            "image": "japon_forme.png",
             "reponse": "japon",
             "def": "Japon"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/jordanie_forme.png",
+            "image": "jordanie_forme.png",
             "reponse": "jordanie",
             "def": "Jordanie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/kazakhstan_forme.png",
+            "image": "kazakhstan_forme.png",
             "reponse": "kazakhstan",
             "def": "Kazakhstan"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/kenya_forme.png",
+            "image": "kenya_forme.png",
             "reponse": "kenya",
             "def": "Kenya"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/kirghizistan_forme.png",
+            "image": "kirghizistan_forme.png",
             "reponse": "kirghizistan",
             "def": "Kirghizistan"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/kiribati_forme.png",
+            "image": "kiribati_forme.png",
             "reponse": "kiribati",
             "def": "Kiribati"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/koweit_forme.png",
+            "image": "koweit_forme.png",
             "reponse": "koweit",
             "def": "Koweït"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/laos_forme.png",
+            "image": "laos_forme.png",
             "reponse": "laos",
             "def": "laos"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/lesotho_forme.png",
+            "image": "lesotho_forme.png",
             "reponse": "lesotho",
             "def": "Lesotho"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/lettonie_forme.png",
+            "image": "lettonie_forme.png",
             "reponse": "lettonie",
             "def": "Lettonie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/liban_forme.png",
+            "image": "liban_forme.png",
             "reponse": "liban",
             "def": "Liban"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/liberia_forme.png",
+            "image": "liberia_forme.png",
             "reponse": "liberia",
             "def": "Liberia"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/libye_forme.png",
+            "image": "libye_forme.png",
             "reponse": "libye",
             "def": "Libye"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/liechtenstein_forme.png",
+            "image": "liechtenstein_forme.png",
             "reponse": "liechtenstein",
             "def": "Liechtenstein"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/lituanie_forme.png",
+            "image": "lituanie_forme.png",
             "reponse": "lituanie",
             "def": "Lituanie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/luxembourg_forme.png",
+            "image": "luxembourg_forme.png",
             "reponse": "luxembourg",
             "def": "Luxembourg"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/macedoine_du_nord_forme.png",
+            "image": "macedoine_du_nord_forme.png",
             "reponse": "macedoine du nord",
             "def": "Macédoine du Nord"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/madagascar_forme.png",
+            "image": "madagascar_forme.png",
             "reponse": "madagascar",
             "def": "Madagascar"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/malaisie_forme.png",
+            "image": "malaisie_forme.png",
             "reponse": "malaisie",
             "def": "Malaisie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/malawi_forme.png",
+            "image": "malawi_forme.png",
             "reponse": "malawi",
             "def": "Malawi"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/maldives_forme.png",
+            "image": "maldives_forme.png",
             "reponse": "maldives",
             "def": "Maldives"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/mali_forme.png",
+            "image": "mali_forme.png",
             "reponse": "mali",
             "def": "Mali"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/malte_forme.png",
+            "image": "malte_forme.png",
             "reponse": "malte",
             "def": "Malte"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/maroc_forme.png",
+            "image": "maroc_forme.png",
             "reponse": "maroc",
             "def": "Maroc"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/martinique_forme.png",
+            "image": "martinique_forme.png",
             "reponse": "martinique",
             "def": "Martinique"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/mauritanie_forme.png",
+            "image": "mauritanie_forme.png",
             "reponse": "mauritanie",
             "def": "Mauritanie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/mayotte_forme.png",
+            "image": "mayotte_forme.png",
             "reponse": "mayotte",
             "def": "Mayotte"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/mexique_forme.png",
+            "image": "mexique_forme.png",
             "reponse": "mexique",
             "def": "Mexique"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/moldavie_forme.png",
+            "image": "moldavie_forme.png",
             "reponse": "moldavie",
             "def": "Moldavie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/monaco_forme.png",
+            "image": "monaco_forme.png",
             "reponse": "monaco",
             "def": "Monaco"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/mongolie_forme.png",
+            "image": "mongolie_forme.png",
             "reponse": "mongolie",
             "def": "Mongolie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/montenegro_forme.png",
+            "image": "montenegro_forme.png",
             "reponse": "montenegro",
             "def": "Monténégro"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/mozambique_forme.png",
+            "image": "mozambique_forme.png",
             "reponse": "mozambique",
             "def": "Mozambique"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/namibie_forme.png",
+            "image": "namibie_forme.png",
             "reponse": "namibie",
             "def": "Namibie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/nauru_forme.png",
+            "image": "nauru_forme.png",
             "reponse": "nauru",
             "def": "Nauru"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/nepal_forme.png",
+            "image": "nepal_forme.png",
             "reponse": "nepal",
             "def": "Népal"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/nicaragua_forme.png",
+            "image": "nicaragua_forme.png",
             "reponse": "nicaragua",
             "def": "Nicaragua"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/niger_forme.png",
+            "image": "niger_forme.png",
             "reponse": "niger",
             "def": "Niger"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/nigeria_forme.png",
+            "image": "nigeria_forme.png",
             "reponse": "Nigeria",
             "def": "Nigeria"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/niue_forme.png",
+            "image": "niue_forme.png",
             "reponse": "niue",
             "def": "Niue"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/norvege_forme.png",
+            "image": "norvege_forme.png",
             "reponse": "norvege",
             "def": "Norvège"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/nouvelle_caledonie_forme.png",
+            "image": "nouvelle_caledonie_forme.png",
             "reponse": "nouvelle caledonie",
             "def": "Nouvelle Calédonie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/nouvelle_zelande_forme.png",
+            "image": "nouvelle_zelande_forme.png",
             "reponse": "nouvelle zelande",
             "def": "Nouvelle Zélande"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/oman_forme.png",
+            "image": "oman_forme.png",
             "reponse": "oman",
             "def": "Oman"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/ouganda_forme.png",
+            "image": "ouganda_forme.png",
             "reponse": "ouganda",
             "def": "Ouganda"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/ouzbekistan_forme.png",
+            "image": "ouzbekistan_forme.png",
             "reponse": "ouzbekistan",
             "def": "Ouzbékistan"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/pakistan_forme.png",
+            "image": "pakistan_forme.png",
             "reponse": "pakistan",
             "def": "Pakistan"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/panama_forme.png",
+            "image": "panama_forme.png",
             "reponse": "panama",
             "def": "Panama"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/papouasie_nouvelle_guinee_forme.png",
+            "image": "papouasie_nouvelle_guinee_forme.png",
             "reponse": "papouasie nouvelle guinee",
             "def": "Papouasie Nouvelle Guinée"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/paraguay_forme.png",
+            "image": "paraguay_forme.png",
             "reponse": "paraguay",
             "def": "Paraguay"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/pays_bas_forme.png",
+            "image": "pays_bas_forme.png",
             "reponse": "pays-bas",
             "def": "Pays-Bas"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/perou_forme.png",
+            "image": "perou_forme.png",
             "reponse": "perou",
             "def": "Pérou"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/philippines_forme.png",
+            "image": "philippines_forme.png",
             "reponse": "philippines",
             "def": "Phillipines"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/pologne_forme.png",
+            "image": "pologne_forme.png",
             "reponse": "pologne",
             "def": "Pologne"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/polynesie_francaise_forme.png",
+            "image": "polynesie_francaise_forme.png",
             "reponse": "polynesie francaise",
             "def": "Polynesie Française"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/porto_rico_forme.png",
+            "image": "porto_rico_forme.png",
             "reponse": "porto rico",
             "def": "Porto Rico"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/portugal_forme.png",
+            "image": "portugal_forme.png",
             "reponse": "portugal",
             "def": "Portugal"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/qatar_forme.png",
+            "image": "qatar_forme.png",
             "reponse": "qatar",
             "def": "Qatar"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/republique_centrafricaine_forme.png",
+            "image": "republique_centrafricaine_forme.png",
             "reponse": "republique centrafricaine",
             "def": "République Centrafricaine"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/republique_democratique_du_congo_forme.png",
+            "image": "republique_democratique_du_congo_forme.png",
             "reponse": "republique democratique du congo",
             "def": "République Démocratique du Congo"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/republique_dominicaine_forme.png",
+            "image": "republique_dominicaine_forme.png",
             "reponse": "republique dominicaine",
             "def": "République Dominicaine"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/republique_du_congo_forme.png",
+            "image": "republique_du_congo_forme.png",
             "reponse": "republique du congo",
             "def": "République du Congo"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/republique_tcheque_forme.png",
+            "image": "republique_tcheque_forme.png",
             "reponse": "republique tcheque",
             "def": "République Tchèque"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/roumanie_forme.png",
+            "image": "roumanie_forme.png",
             "reponse": "roumanie",
             "def": "Roumanie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/royaume_unis_forme.png",
+            "image": "royaume_unis_forme.png",
             "reponse": "royaume-unis",
             "def": "Royaume-Unis"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/russie_forme.png",
+            "image": "russie_forme.png",
             "reponse": "russie",
             "def": "Russie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/rwanda_forme.png",
+            "image": "rwanda_forme.png",
             "reponse": "rwanda",
             "def": "Rwanda"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/saint_barthelemy_forme.png",
+            "image": "saint_barthelemy_forme.png",
             "reponse": "saint barthelemy",
             "def": "Saint Barthelemy"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/saint_marin_forme.png",
+            "image": "saint_marin_forme.png",
             "reponse": "saint marin",
             "def": "Saint Marin"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/saint_martin_forme.png",
+            "image": "saint_martin_forme.png",
             "reponse": "saint martin",
             "def": "Saint Martin"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/saint_vincent_et_les_grenadines_forme.png",
+            "image": "saint_vincent_et_les_grenadines_forme.png",
             "reponse": "saint vincent et les grenadines",
             "def": "Saint Vincent et les Grenadines"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/sainte_helene_forme.png",
+            "image": "sainte_helene_forme.png",
             "reponse": "sainte helene",
             "def": "Sainte Hélène"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/sainte_lucie_forme.png",
+            "image": "sainte_lucie_forme.png",
             "reponse": "sainte lucie",
             "def": "Sainte Lucie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/salvador_forme.png",
+            "image": "salvador_forme.png",
             "reponse": "salvador",
             "def": "Salvador"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/samoa_forme.png",
+            "image": "samoa_forme.png",
             "reponse": "samoa",
             "def": "Samoa"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/sao_tome_et_principe_forme.png",
+            "image": "sao_tome_et_principe_forme.png",
             "reponse": "sao tome-et-principe",
             "def": "Sao Tomé-et-Principe"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/senegal_forme.png",
+            "image": "senegal_forme.png",
             "reponse": "senegal",
             "def": "Sénégal"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/serbie_forme.png",
+            "image": "serbie_forme.png",
             "reponse": "serbie",
             "def": "Serbie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/seychelles_forme.png",
+            "image": "seychelles_forme.png",
             "reponse": "seychelles",
             "def": "Seychelles"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/sierra_leone_forme.png",
+            "image": "sierra_leone_forme.png",
             "reponse": "sierra leone",
             "def": "Sierra Leone"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/singapour_forme.png",
+            "image": "singapour_forme.png",
             "reponse": "singapour",
             "def": "Singapour"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/slovaquie_forme.png",
+            "image": "slovaquie_forme.png",
             "reponse": "slovaquie",
             "def": "Slovaquie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/slovenie_forme.png",
+            "image": "slovenie_forme.png",
             "reponse": "slovenie",
             "def": "Slovénie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/somalie_forme.png",
+            "image": "somalie_forme.png",
             "reponse": "somalie",
             "def": "Somalie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/soudan_forme.png",
+            "image": "soudan_forme.png",
             "reponse": "soudan",
             "def": "Soudan"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/soudan_du_sud_forme.png",
+            "image": "soudan_du_sud_forme.png",
             "reponse": "soudan du sud",
             "def": "Soudan du Sud"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/sri_lanka_forme.png",
+            "image": "sri_lanka_forme.png",
             "reponse": "sri lanka",
             "def": "Sri Lanka"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/suede_forme.png",
+            "image": "suede_forme.png",
             "reponse": "suede",
             "def": "Suède"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/suisse_forme.png",
+            "image": "suisse_forme.png",
             "reponse": "suisse",
             "def": "Suisse"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/suriname_forme.png",
+            "image": "suriname_forme.png",
             "reponse": "suriname",
             "def": "Suriname"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/syrie_forme.png",
+            "image": "syrie_forme.png",
             "reponse": "syrie",
             "def": "Syrie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/tadjikistan_forme.png",
+            "image": "tadjikistan_forme.png",
             "reponse": "tadjikistan",
             "def": "Tadjikistan"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/taiwan_forme.png",
+            "image": "taiwan_forme.png",
             "reponse": "taiwan",
             "def": "Taiwan"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/tanzanie_forme.png",
+            "image": "tanzanie_forme.png",
             "reponse": "tanzanie",
             "def": "Tanzanie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/tchad_forme.png",
+            "image": "tchad_forme.png",
             "reponse": "tchad",
             "def": "Tchad"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/thailande_forme.png",
+            "image": "thailande_forme.png",
             "reponse": "thailande",
             "def": "Thaïlande"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/timor_oriental_forme.png",
+            "image": "timor_oriental_forme.png",
             "reponse": "timor oritental",
             "def": "Timor Oriental"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/togo_forme.png",
+            "image": "togo_forme.png",
             "reponse": "togo",
             "def": "Togo"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/tonga_forme.png",
+            "image": "tonga_forme.png",
             "reponse": "tonga",
             "def": "Tonga"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/trinite_et_tobago_forme.png",
+            "image": "trinite_et_tobago_forme.png",
             "reponse": "trinite-et-tobago",
             "def": "Trinité-et-Tobago"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/tunisie_forme.png",
+            "image": "tunisie_forme.png",
             "reponse": "tunisie",
             "def": "Tunisie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/turkmenistan_forme.png",
+            "image": "turkmenistan_forme.png",
             "reponse": "turkmenistan",
             "def": "Turkménistan"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/turquie_forme.png",
+            "image": "turquie_forme.png",
             "reponse": "turquie",
             "def": "Turquie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/ukraine_forme.png",
+            "image": "ukraine_forme.png",
             "reponse": "ukraine",
             "def": "Ukraine"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/uruguay_forme.png",
+            "image": "uruguay_forme.png",
             "reponse": "uruguay",
             "def": "Uruguay"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/vanuatu_forme.png",
+            "image": "vanuatu_forme.png",
             "reponse": "vanuatu",
             "def": "Vanuatu"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/vatican_forme.png",
+            "image": "vatican_forme.png",
             "reponse": "vatican",
             "def": "Vatican"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/venezuela_forme.png",
+            "image": "venezuela_forme.png",
             "reponse": "venezuela",
             "def": "Venezuela"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/vietnam_forme.png",
+            "image": "vietnam_forme.png",
             "reponse": "vietnam",
             "def": "Vietnam"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/yemen_forme.png",
+            "image": "yemen_forme.png",
             "reponse": "yemen",
             "def": "Yémen"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/zambie_forme.png",
+            "image": "zambie_forme.png",
             "reponse": "zambie",
             "def": "Zambie"
         },
         {
             "question": "A quel pays correspond cette image ?",
-            "image": "/quest/img/zimbabwe_forme.png",
+            "image": "zimbabwe_forme.png",
             "reponse": "zimbabwe",
             "def": "Zimbabwe"
         }

@@ -2,22 +2,23 @@
     "titre": "Les chaînes de montagne du monde",
     "type": "txt",
     "reverse": 0,
+    "path": "quest/img/img_chaine_de_montagne",
     "questionnaire": [
         {
             "question": "Comment se nomme cette chaine de montagne ?",
-            "image": "/quest/img/img_chaine_de_montagne/alpes.png",
+            "image": "alpes.png",
             "reponse": "alpes",
             "def": "Alpes"
         },
         {
             "question": "Comment se nomme cette chaine de montagne ?",
-            "image": "/quest/img/img_chaine_de_montagne/himalaya.png",
+            "image": "himalaya.png",
             "reponse": "himalaya",
             "def": "Himalaya"
         },
         {
             "question": "Comment se nomme cette chaine de montagne ?",
-            "image": "/quest/img/img_chaine_de_montagne/cordillere_des_andes.png",
+            "image": "cordillere_des_andes.png",
             "reponse": "cordillere des andes",
             "def": "Cordillère des Andes"
         }

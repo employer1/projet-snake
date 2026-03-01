@@ -4,7 +4,6 @@ const stockageOptionsQuest = "quest_options";
 
 const pagesQuestionnaire = {
     txt: "../pages/quest_questionnaire_txt.html",
-    "txt 2": "../pages/quest_questionnaire_txt.html",
     qcm: "../pages/quest_questionnaire_qcm.html",
     alphabet: "../pages/quest_questionnaire_alphabet.html",
     langue: "../pages/quest_questionnaire_langue.html",
@@ -15,7 +14,6 @@ const optionsParType = {
     langue: ["mode", "nbQuestions", "ordre", "sens", "afficherReponse", "chrono"],
     qcm: ["mode", "nbQuestions", "ordre", "avance", "afficherReponse", "chrono"],
     txt: ["mode", "nbQuestions", "ordre", "avance", "reverse", "afficherReponse", "chrono"],
-    "txt 2": ["mode", "nbQuestions", "ordre", "avance", "afficherReponse", "chrono"],
 };
 
 const optionsDefaut = {

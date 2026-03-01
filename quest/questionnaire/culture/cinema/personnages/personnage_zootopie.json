@@ -2,118 +2,119 @@
     "titre": "Personnages Zootopie",
     "type": "txt",
     "reverse": 0,
+    "path": "quest/img/img_personnage_zootopie",
     "questionnaire": [
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_zootopie/benjamin_clawhauser.png",
+            "image": "benjamin_clawhauser.png",
             "reponse": "benjamin clawhauser",
             "def": "Benjamin Clawhauser"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_zootopie/chef_bogo.png",
+            "image": "chef_bogo.png",
             "reponse": "chef bogo",
             "def": "Chef Bogo"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_zootopie/dawn_bellwether.png",
+            "image": "dawn_bellwether.png",
             "reponse": "dawn bellwether",
             "def": "Dawn Bellwether"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_zootopie/finnick.png",
+            "image": "finnick.png",
             "reponse": "finnick",
             "def": "Finnick"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_zootopie/flash_slothmore.png",
+            "image": "flash_slothmore.png",
             "reponse": "flash slothmore",
             "def": "Flash Slothmore"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_zootopie/fru-fru.png",
+            "image": "fru-fru.png",
             "reponse": "fru-fru",
             "def": "Fru-Fru"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_zootopie/gary_de'snake.png",
+            "image": "gary_de'snake.png",
             "reponse": "gary de'snake",
             "def": "Gary De'Snake"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_zootopie/gazelle.png",
+            "image": "gazelle.png",
             "reponse": "gazelle",
             "def": "Gazelle"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_zootopie/gideon_grey.png",
+            "image": "gideon_grey.png",
             "reponse": "gideon grey",
             "def": "Gideon Grey"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_zootopie/jesus.png",
+            "image": "jesus.png",
             "reponse": "jesus",
             "def": "jesus"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_zootopie/judy_hopps.png",
+            "image": "judy_hopps.png",
             "reponse": "judy hopps",
             "def": "Judy Hopps"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_zootopie/leodore_lionheart.png",
+            "image": "leodore_lionheart.png",
             "reponse": "leodore lionheart",
             "def": "Leodore Lionheart"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_zootopie/brian_winddancer.png",
+            "image": "brian_winddancer.png",
             "reponse": "brian winddancer",
             "def": "Brian Winddancer"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_zootopie/milton_lynxley.png",
+            "image": "milton_lynxley.png",
             "reponse": "milton lynxley",
             "def": "Milton Lynxley"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_zootopie/mr_big.png",
+            "image": "mr_big.png",
             "reponse": "mr big",
             "def": "Mr Big"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_zootopie/kitty_linxley.png",
+            "image": "kitty_linxley.png",
             "reponse": "kitty linxley",
             "def": "Kitty Linxley"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_zootopie/cattrick_linxley.png",
+            "image": "cattrick_linxley.png",
             "reponse": "cattrick linxley",
             "def": "Cattrick Linxley"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_zootopie/nick_wilde.png",
+            "image": "nick_wilde.png",
             "reponse": ["nick wilde","nicholas wilde"],
             "def": "Nick Wilde"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "/quest/img/img_zootopie/pawbert_lynxley.png",
+            "image": "pawbert_lynxley.png",
             "reponse": "pawbert lynxley",
             "def": "Pawbert Lynxley"
         }

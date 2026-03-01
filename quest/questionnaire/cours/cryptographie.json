@@ -2,6 +2,7 @@
     "titre": "Questionnaire cryptographie",
     "type": "txt",
     "reverse": 1,
+    "path": "",
     "questionnaire": [
         {
             "question": "",

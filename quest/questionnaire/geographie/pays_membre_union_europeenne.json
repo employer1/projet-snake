@@ -1,7 +1,8 @@
 {
-    "titre": "Géographie des pays et leur capitale",
+    "titre": "Pays membre de l'UE",
     "type": "txt",
     "reverse": 0,
+    "path": "",
     "questionnaire": [
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\nalbanie",
@@ -65,103 +66,178 @@
         },
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\nhongrie",
-            "reponse": ""
+            "reponse": "",
+            "leurres": [
+                ""
+            ]
         },
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\nirlande",
-            "reponse": ""
+            "reponse": "",
+            "leurres": [
+                ""
+            ]
         },
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\nislande",
-            "reponse": ""
+            "reponse": "",
+            "leurres": [
+                ""
+            ]
         },
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\nitalie",
-            "reponse": ""
+            "reponse": "",
+            "leurres": [
+                ""
+            ]
         },
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\nlettonie",
-            "reponse": ""
+            "reponse": "",
+            "leurres": [
+                ""
+            ]
         },
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\nliechtenstein",
-            "reponse": ""
+            "reponse": "",
+            "leurres": [
+                ""
+            ]
         },
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\nlituanie",
-            "reponse": ""
+            "reponse": "",
+            "leurres": [
+                ""
+            ]
         },
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\nmalte",
-            "reponse": ""
+            "reponse": "",
+            "leurres": [
+                ""
+            ]
         },
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\nmoldavie",
-            "reponse": ""
+            "reponse": "",
+            "leurres": [
+                ""
+            ]
         },
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\nmonaco",
-            "reponse": ""
+            "reponse": "",
+            "leurres": [
+                ""
+            ]
         },
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\nmonténégro",
-            "reponse": ""
+            "reponse": "",
+            "leurres": [
+                ""
+            ]
         },
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\nnorvège",
-            "reponse": ""
+            "reponse": "",
+            "leurres": [
+                ""
+            ]
         },
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\npologne",
-            "reponse": ""
+            "reponse": "",
+            "leurres": [
+                ""
+            ]
         },
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\nportugal",
-            "reponse": ""
+            "reponse": "",
+            "leurres": [
+                ""
+            ]
         },
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\nroyaume-unis",
-            "reponse": ""
+            "reponse": "",
+            "leurres": [
+                ""
+            ]
         },
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\nrussie",
-            "reponse": ""
+            "reponse": "",
+            "leurres": [
+                ""
+            ]
         },
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\nserbie",
-            "reponse": ""
+            "reponse": "",
+            "leurres": [
+                ""
+            ]
         },
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\nslovaquie",
-            "reponse": ""
+            "reponse": "",
+            "leurres": [
+                ""
+            ]
         },
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\nslovénie",
-            "reponse": ""
+            "reponse": "",
+            "leurres": [
+                ""
+            ]
         },
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\nsuède",
-            "reponse": ""
+            "reponse": "",
+            "leurres": [
+                ""
+            ]
         },
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\nsuisse",
-            "reponse": ""
+            "reponse": "",
+            "leurres": [
+                ""
+            ]
         },
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\ntchéquie",
-            "reponse": ""
+            "reponse": "",
+            "leurres": [
+                ""
+            ]
         },
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\nturquie",
-            "reponse": ""
+            "reponse": "",
+            "leurres": [
+                ""
+            ]
         },
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\nukraine",
-            "reponse": ""
+            "reponse": "",
+            "leurres": [
+                ""
+            ]
         },
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\nvatican",
-            "reponse": ""
+            "reponse": "",
+            "leurres": [
+                ""
+            ]
         }
     ]
 }

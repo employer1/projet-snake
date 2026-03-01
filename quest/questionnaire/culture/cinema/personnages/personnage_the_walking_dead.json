@@ -2,22 +2,23 @@
     "titre": "Personnages the Walking Dead",
     "type": "txt",
     "reverse": 0,
+    "path": "quest/img/img_personnage_the_walking_dead",
     "questionnaire": [
         {
             "question": "Comment se nomme ce personnage ?",
-            "image": "/quest/img/img_euphoria/rick_grimes.png",
+            "image": "rick_grimes.png",
             "reponse": "rick grimes",
             "def": "Rick Grimes"
         },
         {
             "question": "Comment se nomme ce personnage ?",
-            "image": "/quest/img/img_euphoria/daryl_dixon.png",
+            "image": "daryl_dixon.png",
             "reponse": "daryl dixon",
             "def": "Daryl Dixon"
         },
         {
             "question": "Comment se nomme ce personnage ?",
-            "image": "/quest/img/img_euphoria/negan.png",
+            "image": "negan.png",
             "reponse": "negan",
             "def": "Negan"
         }

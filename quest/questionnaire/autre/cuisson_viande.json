@@ -1,6 +1,7 @@
 {
     "titre": "Cuisson des viandes",
     "type": "qcm",
+    "path": "quest/img/img_cuisson_viande",
     "questionnaire": [
         {
             "question": "Très peu cuite, avec une température interne d'environ 50°C.\nElle est saisie rapidement à l'extérieur et reste rouge vif à l'intérieur, avec un aspect presque cru.",

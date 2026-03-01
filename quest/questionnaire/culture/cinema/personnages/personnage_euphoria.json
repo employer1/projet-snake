@@ -2,22 +2,23 @@
     "titre": "Personnages d'Euphoria",
     "type": "txt",
     "reverse": 0,
+    "path": "quest/img/img_personnage_euphoria",
     "questionnaire": [
         {
             "question": "Comment se nomme ce personnage ?",
-            "image": "/quest/img/img_euphoria/rue_bennett.png",
+            "image": "rue_bennett.png",
             "reponse": "rue bennett",
             "def": "Rue Bennett"
         },
         {
             "question": "Comment se nomme ce personnage ?",
-            "image": "/quest/img/img_euphoria/jules_vaughn.png",
+            "image": "jules_vaughn.png",
             "reponse": "jules vaughn",
             "def": "Jules Vaughn"
         },
         {
             "question": "Comment se nomme ce personnage ?",
-            "image": "/quest/img/img_euphoria/fezco.png",
+            "image": "fezco.png",
             "reponse": "fezco",
             "def": "Fezco"
         }

@@ -4,9 +4,130 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="adaptation emplacement image questionnaire">
+    <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="modifications mineures">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/personnage_zootopie.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/personnage_zootopie.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_avatar/appa.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_avatar/appa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_avatar/azula.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_avatar/azula.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_avatar/hang.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_avatar/hang.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_avatar/iroh.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_avatar/iroh.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_avatar/katara.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_avatar/katara.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_avatar/king_bumi.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_avatar/king_bumi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_avatar/mai.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_avatar/mai.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_avatar/momo.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_avatar/momo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_avatar/princess_yue.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_avatar/princess_yue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_avatar/sokka.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_avatar/sokka.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_avatar/suki.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_avatar/suki.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_avatar/toph.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_avatar/toph.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_avatar/ty_lee.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_avatar/ty_lee.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_avatar/zuko.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_avatar/zuko.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_breaking_bad/gustavo_fring.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_breaking_bad/gustavo_fring.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_breaking_bad/jesse_pinkman.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_breaking_bad/jesse_pinkman.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_breaking_bad/walter_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_breaking_bad/walter_white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_euphoria/fezco.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_euphoria/fezco.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_euphoria/jules_vaughn.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_euphoria/jules_vaughn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_euphoria/rue_bennett.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_euphoria/rue_bennett.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/aemon_targaryen.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/aemon_targaryen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/alliser_thorne.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/alliser_thorne.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/arya_stark.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/arya_stark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/barristan_selmy.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/barristan_selmy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/benjen_stark.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/benjen_stark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/beric_dondarrion.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/beric_dondarrion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/bran_stark.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/bran_stark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/bronn.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/bronn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/catelyn_stark.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/catelyn_stark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/cersei_lannister.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/cersei_lannister.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/corneille_a_trois_yeux.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/corneille_a_trois_yeux.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/daenerys_targaryen.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/daenerys_targaryen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/drogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/drogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/eddard_stark.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/eddard_stark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/gendry_baratheon.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/gendry_baratheon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/gregor_clegane.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/gregor_clegane.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/grenn.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/grenn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/hodor.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/hodor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/jaime_lannister.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/jaime_lannister.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/jaqen_h'ghar.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/jaqen_h'ghar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/jeor_mormont.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/jeor_mormont.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/joffrey_baratheon.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/joffrey_baratheon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/jon_omble.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/jon_omble.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/jon_snow.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/jon_snow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/jorah_mormont.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/jorah_mormont.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/lancel_lannister.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/lancel_lannister.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/loras_tyrell.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/loras_tyrell.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/luwin.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/luwin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/lysa_arryn.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/lysa_arryn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/meryn_trant.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/meryn_trant.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/mordane.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/mordane.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/myrcella_baratheon.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/myrcella_baratheon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/osha.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/osha.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/petyr_baelish.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/petyr_baelish.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/pycelle.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/pycelle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/pypar.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/pypar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/rast.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/rast.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/renly_baratheon.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/renly_baratheon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/rickon_stark.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/rickon_stark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/robb_stark.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/robb_stark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/robert_baratheon.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/robert_baratheon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/robin_arryn.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/robin_arryn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/rodrik_cassel.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/rodrik_cassel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/samwell_tarly.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/samwell_tarly.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/sandor_clegane.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/sandor_clegane.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/sansa_stark.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/sansa_stark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/syrio_forel.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/syrio_forel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/theon_greyjoy.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/theon_greyjoy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/tommen_baratheon.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/tommen_baratheon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/tourte_chaude.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/tourte_chaude.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/tyrion_lannister.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/tyrion_lannister.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/tywin_lannister.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/tywin_lannister.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/varys.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/varys.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/viserys_targaryen.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/viserys_targaryen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_game_of_thrones/walder_frey.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_game_of_thrones/walder_frey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_the_walking_dead/daryl_dixon.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_the_walking_dead/daryl_dixon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_the_walking_dead/negan.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_the_walking_dead/negan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_the_walking_dead/rick_grimes.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_the_walking_dead/rick_grimes.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_zootopie/benjamin_clawhauser.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_zootopie/benjamin_clawhauser.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_zootopie/brian_winddancer.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_zootopie/brian_winddancer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_zootopie/cattrick_linxley.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_zootopie/cattrick_linxley.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_zootopie/chef_bogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_zootopie/chef_bogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_zootopie/dawn_bellwether.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_zootopie/dawn_bellwether.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_zootopie/finnick.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_zootopie/finnick.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_zootopie/flash_slothmore.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_zootopie/flash_slothmore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_zootopie/fru-fru.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_zootopie/fru-fru.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_zootopie/gary_de'snake.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_zootopie/gary_de'snake.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_zootopie/gazelle.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_zootopie/gazelle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_zootopie/gideon_grey.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_zootopie/gideon_grey.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_zootopie/jesus.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_zootopie/jesus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_zootopie/judy_hopps.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_zootopie/judy_hopps.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_zootopie/kitty_linxley.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_zootopie/kitty_linxley.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_zootopie/leodore_lionheart.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_zootopie/leodore_lionheart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_zootopie/milton_lynxley.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_zootopie/milton_lynxley.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_zootopie/mr_big.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_zootopie/mr_big.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_zootopie/nick_wilde.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_zootopie/nick_wilde.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_zootopie/pawbert_linxley.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_zootopie/pawbert_linxley.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/acronyme_informatique.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/autre/acronyme_informatique.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/cuisson_viande.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/autre/cuisson_viande.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/livre_permis_conduire.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/autre/livre_permis_conduire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/maladie.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/autre/maladie.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/acteur.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/acteur.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/celebrite.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/celebrite.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/personnage_avatar.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_avatar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/personnage_breaking_bad.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_breaking_bad.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/personnage_euphoria.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_euphoria.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/personnage_game_of_thrones.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_game_of_thrones.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/personnage_the_walking_dead.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_the_walking_dead.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/personnages/personnage_zootopie.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_zootopie.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cinema/traduction_film.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/traduction_film.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cours/cryptographie.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/cours/cryptographie.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/chaines_de_montagne.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/chaine_de_montagne.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/continent.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/continent.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/mers.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/mers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/ocean.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/ocean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_capitale.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_capitale.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_continent.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_continent.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_drapeau.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_drapeau.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_forme.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_forme.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_membre_union_europeenne.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_membre_union_europeenne.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/province_et_chef_lieu.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/province_et_chef_lieu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/langue/alphabet_morse.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/langue/alphabet_morse.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,11 +199,11 @@
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\autre\img\img_livre_permis_conduire" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\culture" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\autre" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\img\img_belgique" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\img" />
       <recent name="C:\Users\theo\WebstormProjects\projet-snake\film\affiche" />
-      <recent name="C:\Users\theo\WebstormProjects\projet-snake\pages" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -125,7 +246,7 @@
       <workItem from="1772110685870" duration="16132000" />
       <workItem from="1772154302217" duration="1618000" />
       <workItem from="1772190511674" duration="6700000" />
-      <workItem from="1772372345124" duration="752000" />
+      <workItem from="1772372345124" duration="6076000" />
     </task>
     <task id="LOCAL-00001" summary="petites modifications de questionnaires">
       <option name="closed" value="true" />
@@ -311,7 +432,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772123644271</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="modifications mineures">
+      <option name="closed" value="true" />
+      <created>1772373143305</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1772373143306</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,13 +463,13 @@
     <MESSAGE value="push de jsp quoi" />
     <MESSAGE value="ajout fichier de modification de questionnaire existant" />
     <MESSAGE value="adaptation des notes daily-note." />
-    <MESSAGE value="modifications mineures" />
     <MESSAGE value="import des affiches parce qu'elles sont vides en fait." />
     <MESSAGE value="préparation mineure pour film" />
     <MESSAGE value="modification mineure pour film" />
     <MESSAGE value="adaptation du vocabulaire dans le questionnaire &quot;vocabulaire_francais.json&quot;" />
     <MESSAGE value="tri questionnaire json" />
     <MESSAGE value="adaptation emplacement image questionnaire" />
-    <option name="LAST_COMMIT_MESSAGE" value="adaptation emplacement image questionnaire" />
+    <MESSAGE value="modifications mineures" />
+    <option name="LAST_COMMIT_MESSAGE" value="modifications mineures" />
   </component>
 </project>

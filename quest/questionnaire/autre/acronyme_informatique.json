@@ -1,7 +1,8 @@
 {
     "titre": "question informatique",
-    "type": "txt 2",
+    "type": "txt",
     "reverse": 0,
+    "path": "",
     "questionnaire": [
         {
             "question": "4G",
@@ -683,7 +684,7 @@
             "reponse": ["wireless fidelity protected area"] },
         {
             "question": "WPAN",
-            "reponse": ["wireless personnal area network"] },
+            "reponse": ["wireless personal area network"] },
         {
             "question": "WPS",
             "reponse": ["wireless fidelity protected setup"] },
