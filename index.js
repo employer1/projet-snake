@@ -90,10 +90,16 @@ const deleteQuestFile = async (fileName) => {
 
     const dossierQuestionnaire = normaliserChemin(path.dirname(cheminRelatif));
     const nomQuestionnaire = path.basename(questPath, ".json");
-    const dossiersImagesAssocies = [
+    const contenuQuestionnaire = JSON.parse(await fs.readFile(questPath, "utf-8"));
+    const cheminImagesQuestionnaire = normaliserChemin(contenuQuestionnaire?.path || "");
+    const dossiersImagesAssocies = new Set([
         `questionnaire/creer/qcm/img/img_${nomQuestionnaire}`,
         `questionnaire/creer/txt/img/img_${nomQuestionnaire}`,
-    ].filter((dossierImage) => dossierImage.startsWith(`${dossierQuestionnaire}/img/`));
+    ].filter((dossierImage) => dossierImage.startsWith(`${dossierQuestionnaire}/img/`)));
+
+    if (cheminImagesQuestionnaire.startsWith("img/")) {
+        dossiersImagesAssocies.add(cheminImagesQuestionnaire);
+    }
 
     await fs.unlink(questPath);
 
