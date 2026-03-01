@@ -204,11 +204,10 @@ const desactiverChampImage = (desactiver) => {
 };
 
 const lireTitreQuestionnaire = () => {
-    const champTitre = document.getElementById("titre");
-    const titre = champTitre?.value.trim() || "";
+    const titre = etatCreation.questionnaire.titre?.trim() || "";
 
     if (!titre) {
-        throw new Error("Le champ Titre est obligatoire.");
+        throw new Error("Le titre du questionnaire est obligatoire.");
     }
     etatCreation.questionnaire.titre = titre;
 };
@@ -245,10 +244,7 @@ const demanderConfigurationInitiale = async () => {
         "Titre du questionnaire :",
         titreDepuisNom(nomFichier)
     );
-    const champTitre = document.getElementById("titre");
-    if (champTitre) {
-        champTitre.value = titreQuestionnaire.trim();
-    }
+    etatCreation.questionnaire.titre = titreQuestionnaire.trim();
     lireTitreQuestionnaire();
     await verifierTitreQuestionnaireDisponible(etatCreation.questionnaire.titre, etatCreation.jsonPath);
     etatCreation.questionnaire.reverse = reverse;
