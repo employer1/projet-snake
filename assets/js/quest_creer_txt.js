@@ -1,6 +1,7 @@
 /*fichier JS de quest_creer_txt*/
 
 const DOSSIER_JSON = "questionnaire/creer/txt";
+const DOSSIER_IMAGE_QUEST = "img";
 const PAGE_MENU = "../pages/quest_menu.html";
 
 const etatCreation = {
@@ -30,10 +31,7 @@ const dossierDepuisCheminJson = (cheminJson = "") => {
     segments.pop();
     return segments.join("/");
 };
-const construireCheminDossierImage = (cheminJson, nomDossierImage) => {
-    const dossierJson = dossierDepuisCheminJson(cheminJson);
-    return dossierJson ? `${dossierJson}/${nomDossierImage}` : nomDossierImage;
-};
+const construireCheminDossierImage = (_cheminJson, nomDossierImage) => `${DOSSIER_IMAGE_QUEST}/${nomDossierImage}`;
 
 const normaliserNomImage = (nom = "") => (nom.trim().replace(/\\/g, "/").split("/").pop() || "");
 
