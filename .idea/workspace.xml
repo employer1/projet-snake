@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="adaptation lecture questionnaire">
+    <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="modifications mineures">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/quest_questionnaire_qcm.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/quest_questionnaire_qcm.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vocabulaire.json" beforeDir="false" afterPath="$PROJECT_DIR$/vocabulaire.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +124,12 @@
       <workItem from="1772110685870" duration="16132000" />
       <workItem from="1772154302217" duration="1618000" />
       <workItem from="1772190511674" duration="6700000" />
-      <workItem from="1772372345124" duration="18939000" />
+      <workItem from="1772372345124" duration="19584000" />
+      <workItem from="1772402419012" duration="19000" />
+      <workItem from="1772403140715" duration="851000" />
+      <workItem from="1772405396780" duration="3000" />
+      <workItem from="1772405421940" duration="1301000" />
+      <workItem from="1772453154806" duration="3303000" />
     </task>
     <task id="LOCAL-00001" summary="petites modifications de questionnaires">
       <option name="closed" value="true" />
@@ -343,7 +347,23 @@
       <option name="project" value="LOCAL" />
       <updated>1772386751227</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="modifications mineures">
+      <option name="closed" value="true" />
+      <created>1772400024989</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1772400024989</updated>
+    </task>
+    <task id="LOCAL-00029" summary="modifications mineures">
+      <option name="closed" value="true" />
+      <created>1772400121191</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1772400121191</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,9 +392,9 @@
     <MESSAGE value="adaptation du vocabulaire dans le questionnaire &quot;vocabulaire_francais.json&quot;" />
     <MESSAGE value="tri questionnaire json" />
     <MESSAGE value="adaptation emplacement image questionnaire" />
-    <MESSAGE value="modifications mineures" />
     <MESSAGE value="modifications globales" />
     <MESSAGE value="adaptation lecture questionnaire" />
-    <option name="LAST_COMMIT_MESSAGE" value="adaptation lecture questionnaire" />
+    <MESSAGE value="modifications mineures" />
+    <option name="LAST_COMMIT_MESSAGE" value="modifications mineures" />
   </component>
 </project>
