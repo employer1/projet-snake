@@ -150,6 +150,62 @@
         return { semaines, valeursMotsMinute, valeursMotsCorrects };
     };
 
+    const calculerMeilleursScores = (statistiques) => {
+        const debutSemaineCourante = obtenirDebutSemaine(new Date());
+        const meilleurs = {
+            semaineMotsMinute: 0,
+            semaineMotsCorrects: 0,
+            globalMotsMinute: 0,
+            globalMotsCorrects: 0,
+        };
+
+        statistiques.forEach((stat) => {
+            const date = parserDate(stat.date);
+            const motsMinute = Number(stat["mot-min"]);
+            const motsCorrects = Number(stat["mot-correct"]);
+
+            if (Number.isFinite(motsMinute)) {
+                meilleurs.globalMotsMinute = Math.max(meilleurs.globalMotsMinute, motsMinute);
+            }
+            if (Number.isFinite(motsCorrects)) {
+                meilleurs.globalMotsCorrects = Math.max(meilleurs.globalMotsCorrects, motsCorrects);
+            }
+
+            if (!date) return;
+            const debutSemaineResultat = obtenirDebutSemaine(date);
+            if (debutSemaineResultat.getTime() !== debutSemaineCourante.getTime()) return;
+
+            if (Number.isFinite(motsMinute)) {
+                meilleurs.semaineMotsMinute = Math.max(meilleurs.semaineMotsMinute, motsMinute);
+            }
+            if (Number.isFinite(motsCorrects)) {
+                meilleurs.semaineMotsCorrects = Math.max(meilleurs.semaineMotsCorrects, motsCorrects);
+            }
+        });
+
+        return meilleurs;
+    };
+
+    const afficherMeilleursScores = (meilleurs) => {
+        const meilleurMotsSemaine = document.getElementById("nb-total-question");
+        const meilleurMotsCorrectsSemaine = document.getElementById("nb-total-questionnaire");
+        const meilleurMotsGlobal = document.getElementById("nb-total-reponse");
+        const meilleurMotsCorrectsGlobal = document.getElementById("taux-bonne-reponse");
+
+        if (meilleurMotsSemaine) {
+            meilleurMotsSemaine.textContent = `${meilleurs.semaineMotsMinute}`;
+        }
+        if (meilleurMotsCorrectsSemaine) {
+            meilleurMotsCorrectsSemaine.textContent = `${meilleurs.semaineMotsCorrects}`;
+        }
+        if (meilleurMotsGlobal) {
+            meilleurMotsGlobal.textContent = `${meilleurs.globalMotsMinute}`;
+        }
+        if (meilleurMotsCorrectsGlobal) {
+            meilleurMotsCorrectsGlobal.textContent = `${meilleurs.globalMotsCorrects}`;
+        }
+    };
+
     const dessinerGraphique = (semaines, valeursMotsMinute, valeursMotsCorrects) => {
         const ctx = canvas.getContext("2d");
         if (!ctx) return;
@@ -258,6 +314,8 @@
             ? stats.statistique_dactylo
             : [];
         const { semaines, valeursMotsMinute, valeursMotsCorrects } = agregerSemaines(liste);
+        const meilleurs = calculerMeilleursScores(liste);
+        afficherMeilleursScores(meilleurs);
 
         const maxValeur = Math.max(...valeursMotsMinute, ...valeursMotsCorrects);
         if (emptyMessage) {

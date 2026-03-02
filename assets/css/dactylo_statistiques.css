@@ -54,6 +54,20 @@ h1 {
     display: block;
 }
 
+
+.stats-resume {
+    width: min(900px, 90%);
+    display: grid;
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
+    gap: 10px 24px;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.stats-resume p {
+    margin: 0;
+}
+
 .stats-empty {
     color: #ffffffb5;
     min-height: 1.2em;
