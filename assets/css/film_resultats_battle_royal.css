@@ -41,17 +41,26 @@ h1 {
 
 #affiche_film_1 {
     width: 50%;
+    max-width: 460px;
+    max-height: 46vh;
     height: auto;
+    object-fit: contain;
 }
 
 #affiche_film_2 {
     width: 60%;
+    max-width: 540px;
+    max-height: 52vh;
     height: auto;
+    object-fit: contain;
 }
 
 #affiche_film_3 {
     width: 40%;
+    max-width: 400px;
+    max-height: 40vh;
     height: auto;
+    object-fit: contain;
 }
 
 .quitter {
