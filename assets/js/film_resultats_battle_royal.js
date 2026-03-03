@@ -46,7 +46,9 @@ const remplirClassementComplet = (classement) => {
 
     listeClassement.innerHTML = "";
 
-    classement.forEach((film) => {
+    const classementSansTop3 = classement.slice(3);
+
+    classementSansTop3.forEach((film) => {
         const item = document.createElement("li");
         item.textContent = normaliserNomFilm(film);
         listeClassement.appendChild(item);
