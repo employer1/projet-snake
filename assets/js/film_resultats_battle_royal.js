@@ -15,7 +15,6 @@ const noms = {
 };
 
 const listeClassement = document.getElementById("classement_liste");
-const elementSauvegarde = document.getElementById("sauvegarde_info");
 
 const normaliserNomFilm = (nomFichier) => {
     const dernierPoint = nomFichier.lastIndexOf(".");
@@ -54,28 +53,6 @@ const remplirClassementComplet = (classement) => {
     });
 };
 
-const sauvegarderClassement = async (classement) => {
-    if (!elementSauvegarde) {
-        return;
-    }
-
-    if (!window.electronAPI?.saveFilmClassement) {
-        elementSauvegarde.textContent = "Sauvegarde indisponible.";
-        return;
-    }
-
-    try {
-        const resultat = await window.electronAPI.saveFilmClassement(classement);
-        if (resultat?.filePath) {
-            elementSauvegarde.textContent = `Classement enregistré dans ${resultat.filePath}`;
-            return;
-        }
-        elementSauvegarde.textContent = "Classement enregistré.";
-    } catch (_error) {
-        elementSauvegarde.textContent = "Impossible d'enregistrer le classement.";
-    }
-};
-
 const chargerClassement = () => {
     const classementBrut = sessionStorage.getItem(CLE_CLASSEMENT_FILMS);
     const top3Brut = sessionStorage.getItem(CLE_TOP3_BATTLE_ROYAL);
@@ -106,7 +83,7 @@ const chargerClassement = () => {
     return classement;
 };
 
-const initialiser = async () => {
+const initialiser = () => {
     const classement = chargerClassement();
 
     remplirCarte(affiches.premiere, noms.premiere, classement[0], "1");
@@ -114,7 +91,6 @@ const initialiser = async () => {
     remplirCarte(affiches.troisieme, noms.troisieme, classement[2], "3");
 
     remplirClassementComplet(classement);
-    await sauvegarderClassement(classement);
 };
 
-void initialiser();
+initialiser();
