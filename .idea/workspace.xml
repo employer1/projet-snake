@@ -5,102 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="ajout phrase explication questionnaire.">
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/2_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/2_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/2_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/2_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/2_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/2_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/2_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/2_16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/2_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/2_18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/2_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/2_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/2_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/2_21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/2_22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/2_23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/2_24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/2_25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/2_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/2_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/2_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/2_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/2_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/2_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/2_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/3_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/3_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/3_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/3_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/3_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/3_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/3_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/3_16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/3_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/3_18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/3_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/3_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/3_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/3_21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/3_22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/3_23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/3_24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/3_25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/3_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/3_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/3_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/3_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/3_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/3_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/3_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/4_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/4_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/4_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/4_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/4_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/4_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/4_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/4_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/4_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/4_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/4_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/4_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/4_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/4_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/img/img_livre_permis_conduire/4_9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/acronyme_informatique.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/autre/acronyme_informatique.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/cuisson_viande.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/autre/cuisson_viande.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/livre_permis_conduire.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/autre/livre_permis_conduire.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/maladie.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/autre/maladie.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cours/cryptographie.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/cours/cryptographie.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/acteur.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/acteur.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/celebrite.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/celebrite.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_avatar.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_avatar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_breaking_bad.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_breaking_bad.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_euphoria.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_euphoria.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_game_of_thrones.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_game_of_thrones.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_the_walking_dead.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_the_walking_dead.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_zootopie.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_zootopie.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/traduction_film.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/traduction_film.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/chaine_de_montagne.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/chaine_de_montagne.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/continent.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/continent.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/mers.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/mers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/ocean.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/ocean.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_capitale.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_capitale.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_continent.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_continent.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_drapeau.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_drapeau.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_forme.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_forme.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_membre_union_europeenne.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_membre_union_europeenne.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/province_et_chef_lieu.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/province_et_chef_lieu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/langue/alphabet.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/langue/alphabet.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/langue/alphabet_morse.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/langue/alphabet_morse.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/langue/anglais/trad_fr_classique.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/langue/anglais/trad_fr_classique.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/stat/stat_quest.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/stat/stat_quest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vocabulaire.json" beforeDir="false" afterPath="$PROJECT_DIR$/vocabulaire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/film_resultats_battle_royal.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/film_resultats_battle_royal.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +132,7 @@
       <workItem from="1772453154806" duration="11708000" />
       <workItem from="1772534436794" duration="661000" />
       <workItem from="1772541700040" duration="633000" />
-      <workItem from="1772544695213" duration="7866000" />
+      <workItem from="1772544695213" duration="11511000" />
     </task>
     <task id="LOCAL-00001" summary="petites modifications de questionnaires">
       <option name="closed" value="true" />
@@ -484,7 +390,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772549916304</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="ajout phrase explication questionnaire.">
+      <option name="closed" value="true" />
+      <created>1772558418879</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1772558418879</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
