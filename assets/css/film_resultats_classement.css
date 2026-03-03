@@ -30,8 +30,32 @@ h1 {
     display: grid;
     width: 100%;
     grid-template-columns: 50px 50px 1fr;
+    gap: 0.5rem;
 
     align-items: center;
+}
+
+.classement_input {
+    border: 1px solid #6b6b6b;
+    border-radius: 8px;
+    padding: 0.35rem 0.5rem;
+    font-size: 1rem;
+    background: #ececec;
+    color: #202020;
+}
+
+.classement_input:focus {
+    outline: none;
+}
+
+.classement_input--position {
+    text-align: center;
+    font-weight: 700;
+    width: 100%;
+}
+
+.classement_input--nom {
+    width: 100%;
 }
 
 .image {

@@ -52,11 +52,19 @@ const afficherClassement = (classement) => {
         image.src = `../film/affiche/${encodeURIComponent(film)}`;
         image.alt = `Affiche du film classé ${index + 1}`;
 
-        const position = document.createElement("p");
-        position.textContent = formatPosition(index);
+        const position = document.createElement("input");
+        position.type = "text";
+        position.className = "classement_input classement_input--position";
+        position.value = formatPosition(index);
+        position.readOnly = true;
+        position.setAttribute("aria-label", `Position du film ${index + 1}`);
 
-        const nom = document.createElement("p");
-        nom.textContent = normaliserNomFilm(film);
+        const nom = document.createElement("input");
+        nom.type = "text";
+        nom.className = "classement_input classement_input--nom";
+        nom.value = normaliserNomFilm(film);
+        nom.readOnly = true;
+        nom.setAttribute("aria-label", `Nom du film classé ${index + 1}`);
 
         ligne.appendChild(image);
         ligne.appendChild(position);
