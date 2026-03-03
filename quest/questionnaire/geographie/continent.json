@@ -3,6 +3,7 @@
     "type": "txt",
     "reverse": 0,
     "path": "quest/img/img_continent",
+    "description": "Regroupe les contients du monde. Je sais qu'ils sont tous la, donc pas besoin de me contacter.",
     "questionnaire": [
         {
             "question": "Comment se nomme ce continent ?",

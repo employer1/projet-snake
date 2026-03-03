@@ -2,6 +2,7 @@
     "titre": "Questions du permis de conduire",
     "type": "qcm",
     "path": "quest/img/img_livre_permis_conduire",
+    "description": "Répertorie les questions présente dans le livre du permis de conduire.",
     "questionnaire": [
         {
             "question": "1. Comment choisir un moyen de transport ?",
@@ -30,7 +31,6 @@
         {
             "question": "4. Quel est le transport le plus cher par kilomètre parcouru ?",
             "reponse": "la voiture",
-            "def": "La voiture",
             "leurres": [
                 "Le train",
                 "La bicyclette"
@@ -3622,7 +3622,6 @@
         {
             "question": "19. Au préalable, je dois tenir compte :",
             "reponse": "De voitures qui peuvent changer de file ou de motocyclettes qui circulent entre les files.",
-            "def": "De voitures qui peuvent s'immobiliser brusquement.",
             "leurres": [
                 "De véhicules derrière moi.",
                 "De voitures qui peuvent s'immobiliser brusquement."

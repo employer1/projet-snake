@@ -3,6 +3,7 @@
     "type": "txt",
     "reverse": 0,
     "path": "quest/img/img_celebrite",
+    "description": "Regroupe les célébrités de tous horizons, chanteu, acteur, riche, litéraire, etc. Ils ne sont pas tous la, donc hésiter pas à me contacter.",
     "questionnaire": [
         {
             "question": "Comment se nomme cette célébrité ?",

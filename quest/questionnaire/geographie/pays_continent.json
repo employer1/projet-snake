@@ -3,6 +3,7 @@
     "type": "txt",
     "reverse": 0,
     "path": "",
+    "description": "Devine sur quel continent se trouve chaque pays. Certaines îles sont présentes mais pas toutes.",
     "questionnaire": [
         {
             "question": "Sur quel contient se trouve l'Afghanistan ?",

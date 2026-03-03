@@ -3,6 +3,7 @@
     "type": "txt",
     "reverse": 1,
     "path": "",
+    "description": "Répertorie les questions du quizz de cryptographie.",
     "questionnaire": [
         {
             "question": "",

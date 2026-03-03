@@ -5,7 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="modifications mineures">
-      <change beforePath="$PROJECT_DIR$/pages/dactylo_statistiques.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dactylo_statistiques.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/acronyme_informatique.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/autre/acronyme_informatique.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/cuisson_viande.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/autre/cuisson_viande.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/livre_permis_conduire.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/autre/livre_permis_conduire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/maladie.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/autre/maladie.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cours/cryptographie.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/cours/cryptographie.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/acteur.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/acteur.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/celebrite.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/celebrite.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_avatar.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_avatar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_breaking_bad.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_breaking_bad.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_euphoria.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_euphoria.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_game_of_thrones.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_game_of_thrones.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_the_walking_dead.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_the_walking_dead.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_zootopie.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_zootopie.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/traduction_film.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/traduction_film.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/chaine_de_montagne.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/chaine_de_montagne.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/continent.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/continent.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/mers.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/mers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/ocean.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/ocean.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_capitale.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_capitale.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_continent.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_continent.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_drapeau.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_drapeau.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_forme.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_forme.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_membre_union_europeenne.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_membre_union_europeenne.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/province_et_chef_lieu.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/province_et_chef_lieu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/langue/alphabet.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/langue/alphabet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/langue/alphabet_morse.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/langue/alphabet_morse.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/langue/anglais/trad_fr_classique.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/langue/anglais/trad_fr_classique.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/stat/stat_quest.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/stat/stat_quest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vocabulaire.json" beforeDir="false" afterPath="$PROJECT_DIR$/vocabulaire.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +85,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/theot/WebstormProjects/projet-snake/quest/questionnaire/cinema/personnages&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/theot/WebstormProjects/projet-snake/quest/questionnaire/geographie&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -69,11 +99,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\geographie" />
+      <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\culture\cinema" />
+      <recent name="C:\Users\theot\WebstormProjects\projet-snake" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\cinema\personnages" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest" />
-      <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\img" />
-      <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\langue\francais" />
-      <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\autre\img\img_livre_permis_conduire" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\culture" />
@@ -128,7 +158,10 @@
       <workItem from="1772403140715" duration="851000" />
       <workItem from="1772405396780" duration="3000" />
       <workItem from="1772405421940" duration="1301000" />
-      <workItem from="1772453154806" duration="3677000" />
+      <workItem from="1772453154806" duration="11708000" />
+      <workItem from="1772534436794" duration="661000" />
+      <workItem from="1772541700040" duration="633000" />
+      <workItem from="1772544695213" duration="1981000" />
     </task>
     <task id="LOCAL-00001" summary="petites modifications de questionnaires">
       <option name="closed" value="true" />
@@ -370,7 +403,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772467727557</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="modifications mineures">
+      <option name="closed" value="true" />
+      <created>1772467977078</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1772467977078</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

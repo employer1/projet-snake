@@ -1,5 +1,6 @@
 {
     "titre": "Alphabet",
     "type": "alphabet",
+    "description": "Déterminez rapidement si la première lettre se situe avant ou après la seconde lettre dans l'alphabet.",
     "questionnaire": [ "A", "B", "c", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 }

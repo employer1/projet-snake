@@ -3,6 +3,7 @@
     "type": "txt",
     "reverse": 0,
     "path": "quest/img/img_personnage_avatar",
+    "description": "Regroupe les personnages principaux du dessin animé Avatar.",
     "questionnaire": [
         {
             "question": "Qui est ce personnage ?",

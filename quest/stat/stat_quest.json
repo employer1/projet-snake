@@ -1,7 +1,7 @@
 {
-    "nb_total_questionnaire": 9,
-    "nb_total_question": 39,
-    "nb_total_reponse": 16,
+    "nb_total_questionnaire": 13,
+    "nb_total_question": 65,
+    "nb_total_reponse": 37,
     "historique": [
         {
             "date": "17-02-2026",
@@ -56,6 +56,24 @@
             "chrono": 9,
             "nombre_question": 6,
             "nombre_reponse": 3
+        },
+        {
+            "date": "01-03-2026",
+            "chrono": 713,
+            "nombre_question": 4,
+            "nombre_reponse": 3
+        },
+        {
+            "date": "01-03-2026",
+            "chrono": 2056,
+            "nombre_question": 12,
+            "nombre_reponse": 10
+        },
+        {
+            "date": "02-03-2026",
+            "chrono": 465,
+            "nombre_question": 10,
+            "nombre_reponse": 8
         }
     ]
 }

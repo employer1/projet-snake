@@ -3,6 +3,7 @@
     "type": "txt",
     "reverse": 0,
     "path": "quest/img/img_drapeau",
+    "description": "Retrouver le pays de chaque drapeau. Certaines îles sont présentes mais pas toutes.",
     "questionnaire": [
         {
             "question": "A quel pays appartient ce drapeau ?",

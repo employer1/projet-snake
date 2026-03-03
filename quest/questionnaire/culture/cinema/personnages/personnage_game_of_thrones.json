@@ -3,6 +3,7 @@
     "type": "txt",
     "reverse": 0,
     "path": "quest/img/img_personnage_game_of_thrones",
+    "description": "Regroupe les personnages principaux de la série Game of Thrones.",
     "questionnaire": [
         {
             "question": "Qui est ce personnage ?",

@@ -3,6 +3,7 @@
     "type": "txt",
     "reverse": 0,
     "path": "quest/img/img_belgique",
+    "description": "Retrouvez les provinces et les chefs lieux de la Belgique.",
     "questionnaire": [
         {
             "question": "Comment se nomme cette province (1) ?",

@@ -3,6 +3,7 @@
     "type": "txt",
     "reverse": 0,
     "path": "",
+    "description": "Devinez lequel de ces pays fait parti de l'union européenne. Rassurez-vous, vous ne ferez pas tous les pays du monde.",
     "questionnaire": [
         {
             "question": "Ce pays est-il membre de l'UE (oui/non) :\nalbanie",
