@@ -11,6 +11,7 @@ const etatCreation = {
     questionnaire: {
         type: "txt",
         titre: "",
+        explication: "",
         reverse: 0,
         questionnaire: [],
     },
@@ -210,6 +211,10 @@ const lireTitreQuestionnaire = () => {
     etatCreation.questionnaire.titre = titre;
 };
 
+const lireExplicationQuestionnaire = () => {
+    etatCreation.questionnaire.explication = etatCreation.questionnaire.explication?.trim() || "";
+};
+
 const sauvegarderQuestionnaire = async () => {
     if (!window.electronAPI?.writeQuestJson) {
         throw new Error("Sauvegarde indisponible dans cet environnement");
@@ -245,6 +250,13 @@ const demanderConfigurationInitiale = async () => {
     etatCreation.questionnaire.titre = titreQuestionnaire.trim();
     lireTitreQuestionnaire();
     await verifierTitreQuestionnaireDisponible(etatCreation.questionnaire.titre, etatCreation.jsonPath);
+
+    const explicationQuestionnaire = await demanderValeurObligatoire(
+        "Explication du questionnaire :",
+        ""
+    );
+    etatCreation.questionnaire.explication = explicationQuestionnaire.trim();
+    lireExplicationQuestionnaire();
     etatCreation.questionnaire.reverse = reverse;
 
     if (dossierImages && dossierImages.trim()) {
@@ -339,6 +351,7 @@ const abandonnerEtRetourMenu = async () => {
 
 const finirCreation = async () => {
     lireTitreQuestionnaire();
+    lireExplicationQuestionnaire();
 
     if (etatCreation.questionnaire.questionnaire.length === 0) {
         throw new Error("Ajoutez au moins une question avant de terminer le questionnaire.");
@@ -374,6 +387,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     document.getElementById("ajouter").addEventListener("click", async () => {
         try {
             lireTitreQuestionnaire();
+            lireExplicationQuestionnaire();
             const entree = await construireQuestion();
             etatCreation.questionnaire.questionnaire.push(entree);
             await sauvegarderQuestionnaire();
