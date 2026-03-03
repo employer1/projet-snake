@@ -14,8 +14,6 @@ const noms = {
     troisieme: document.getElementById("nom_film_3")
 };
 
-const listeClassement = document.getElementById("classement_liste");
-
 const normaliserNomFilm = (nomFichier) => {
     const dernierPoint = nomFichier.lastIndexOf(".");
     const base = dernierPoint > 0 ? nomFichier.slice(0, dernierPoint) : nomFichier;
@@ -37,22 +35,6 @@ const remplirCarte = (elementImage, elementNom, nomFichier, position) => {
     elementImage.src = `../film/affiche/${encodeURIComponent(nomFichier)}`;
     elementImage.alt = `Film classé ${position}`;
     elementNom.textContent = normaliserNomFilm(nomFichier);
-};
-
-const remplirClassementComplet = (classement) => {
-    if (!listeClassement) {
-        return;
-    }
-
-    listeClassement.innerHTML = "";
-
-    const classementSansTop3 = classement.slice(3);
-
-    classementSansTop3.forEach((film) => {
-        const item = document.createElement("li");
-        item.textContent = normaliserNomFilm(film);
-        listeClassement.appendChild(item);
-    });
 };
 
 const chargerClassement = () => {
@@ -91,8 +73,6 @@ const initialiser = () => {
     remplirCarte(affiches.premiere, noms.premiere, classement[0], "1");
     remplirCarte(affiches.deuxieme, noms.deuxieme, classement[1], "2");
     remplirCarte(affiches.troisieme, noms.troisieme, classement[2], "3");
-
-    remplirClassementComplet(classement);
 };
 
 initialiser();
