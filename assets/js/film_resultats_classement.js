@@ -4,6 +4,11 @@ const CLE_CLASSEMENT_FILMS = "film_classement_complet";
 const listeClassement = document.getElementById("liste_classement");
 const elementSauvegarde = document.getElementById("sauvegarde_info");
 const boutonSauvegarder = document.getElementById("sauvegarder");
+const fenetreSauvegarde = document.getElementById("fenetre_sauvegarde");
+const champNomSauvegarde = document.getElementById("nom_sauvegarde");
+const elementNomSauvegardeInfo = document.getElementById("nom_sauvegarde_info");
+const boutonAnnulerSauvegarde = document.getElementById("annuler_sauvegarde");
+const boutonConfirmerSauvegarde = document.getElementById("confirmer_sauvegarde");
 
 const normaliserNomFilm = (nomFichier) => {
     const dernierPoint = nomFichier.lastIndexOf(".");
@@ -60,17 +65,89 @@ const afficherClassement = (classement) => {
     });
 };
 
-const demanderNomClassement = () => {
-    try {
-        if (typeof window.prompt !== "function") {
-            return "";
+const ouvrirFenetreNomSauvegarde = () => {
+    if (!fenetreSauvegarde || !champNomSauvegarde) {
+        return;
+    }
+
+    fenetreSauvegarde.hidden = false;
+    champNomSauvegarde.value = "";
+    if (elementNomSauvegardeInfo) {
+        elementNomSauvegardeInfo.textContent = "";
+    }
+    champNomSauvegarde.focus();
+};
+
+const fermerFenetreNomSauvegarde = () => {
+    if (!fenetreSauvegarde) {
+        return;
+    }
+
+    fenetreSauvegarde.hidden = true;
+};
+
+const demanderNomClassement = () => new Promise((resolve) => {
+    if (!fenetreSauvegarde || !champNomSauvegarde || !boutonAnnulerSauvegarde || !boutonConfirmerSauvegarde) {
+        resolve("");
+        return;
+    }
+
+    const nettoyerEcouteurs = () => {
+        boutonAnnulerSauvegarde.removeEventListener("click", gererAnnulation);
+        boutonConfirmerSauvegarde.removeEventListener("click", gererConfirmation);
+        champNomSauvegarde.removeEventListener("keydown", gererClavier);
+        fenetreSauvegarde.removeEventListener("click", gererClicFond);
+    };
+
+    const terminer = (valeur) => {
+        nettoyerEcouteurs();
+        fermerFenetreNomSauvegarde();
+        resolve(valeur);
+    };
+
+    const gererAnnulation = () => {
+        terminer(null);
+    };
+
+    const gererConfirmation = () => {
+        const nomSaisi = champNomSauvegarde.value.trim();
+
+        if (!nomSaisi) {
+            if (elementNomSauvegardeInfo) {
+                elementNomSauvegardeInfo.textContent = "Veuillez saisir un nom de sauvegarde.";
+            }
+            champNomSauvegarde.focus();
+            return;
         }
 
-        return window.prompt("Nom du classement (nom du fichier) :");
-    } catch (_error) {
-        return "";
-    }
-};
+        terminer(nomSaisi);
+    };
+
+    const gererClavier = (event) => {
+        if (event.key === "Escape") {
+            event.preventDefault();
+            gererAnnulation();
+            return;
+        }
+        if (event.key === "Enter") {
+            event.preventDefault();
+            gererConfirmation();
+        }
+    };
+
+    const gererClicFond = (event) => {
+        if (event.target === fenetreSauvegarde) {
+            gererAnnulation();
+        }
+    };
+
+    boutonAnnulerSauvegarde.addEventListener("click", gererAnnulation);
+    boutonConfirmerSauvegarde.addEventListener("click", gererConfirmation);
+    champNomSauvegarde.addEventListener("keydown", gererClavier);
+    fenetreSauvegarde.addEventListener("click", gererClicFond);
+
+    ouvrirFenetreNomSauvegarde();
+});
 
 const sauvegarderClassement = async (classement) => {
     if (!elementSauvegarde) {
@@ -82,7 +159,7 @@ const sauvegarderClassement = async (classement) => {
         return;
     }
 
-    const nomClassement = demanderNomClassement();
+    const nomClassement = await demanderNomClassement();
 
     if (nomClassement === null) {
         elementSauvegarde.textContent = "Sauvegarde annulée.";
