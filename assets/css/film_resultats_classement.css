@@ -6,10 +6,19 @@ body {
 h1 {
     font-size: var(--h1SizeQuestionnaire);
 }
+
+section {
+    min-height: 0;
+}
+
 .corps {
+    height: 100%;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 5fr 1fr;
+    grid-template-rows: 1fr auto;
+    gap: 1rem;
+
+    min-height: 0;
 }
 
 .sous_corps {
@@ -24,6 +33,20 @@ h1 {
     display: grid;
     grid-auto-rows: 80px;
     grid-template-columns: auto;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    min-height: 0;
+}
+
+.sous_corps::-webkit-scrollbar {
+    width: 10px;
+}
+
+.sous_corps::-webkit-scrollbar-thumb {
+    background: rgba(16, 23, 40, 0.45);
+    border-radius: 999px;
 }
 
 .ligne {
