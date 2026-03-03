@@ -47,6 +47,14 @@ const chargerQuestionnaire = async (nomFichier) => {
     return window.electronAPI.loadQuestnaire(nomFichier);
 };
 
+const mettreAJourExplication = (explication) => {
+    const explicationElement = document.getElementById("questionnaire-explication");
+    if (!explicationElement) return;
+    const texte = typeof explication === "string" ? explication.trim() : "";
+    explicationElement.textContent = texte;
+    explicationElement.classList.toggle("option-hidden", !texte);
+};
+
 const mettreAJourTitre = (titre) => {
     const titreElement = document.querySelector(".section h1");
     if (!titreElement) return;
@@ -348,6 +356,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         const questionnaire = await chargerQuestionnaire(selection);
         questionnaire.fichier = selection;
         mettreAJourTitre(questionnaire.titre);
+        mettreAJourExplication(questionnaire.explication);
         const options = appliquerConfiguration(questionnaire);
         if (!options) {
             boutonDemarrer.disabled = true;

@@ -8,6 +8,7 @@ const etatCreation = {
     questionnaire: {
         type: "langue",
         titre: "",
+        explication: "",
         questionnaire: [
             {
                 "langue 1": {},
@@ -228,6 +229,10 @@ const lireTitreQuestionnaire = () => {
     etatCreation.questionnaire.titre = titre;
 };
 
+const lireExplicationQuestionnaire = () => {
+    etatCreation.questionnaire.explication = etatCreation.questionnaire.explication?.trim() || "";
+};
+
 const sauvegarderQuestionnaire = async () => {
     if (!window.electronAPI?.writeQuestJson) {
         throw new Error("Sauvegarde indisponible dans cet environnement");
@@ -252,6 +257,13 @@ const demanderConfigurationInitiale = async () => {
     etatCreation.questionnaire.titre = titreQuestionnaire.trim();
     lireTitreQuestionnaire();
     await verifierTitreQuestionnaireDisponible(etatCreation.questionnaire.titre, etatCreation.jsonPath);
+
+    const explicationQuestionnaire = await demanderValeurObligatoire(
+        "Explication du questionnaire :",
+        ""
+    );
+    etatCreation.questionnaire.explication = explicationQuestionnaire.trim();
+    lireExplicationQuestionnaire();
 
     await sauvegarderQuestionnaire();
 };
@@ -312,6 +324,7 @@ const abandonnerEtRetourMenu = async () => {
 
 const finirCreation = async () => {
     lireTitreQuestionnaire();
+    lireExplicationQuestionnaire();
 
     const dictionnaire = etatCreation.questionnaire.questionnaire[0];
     const nombreEntrees = Object.keys(dictionnaire?.["langue 1"] || {}).length;
@@ -344,6 +357,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     document.getElementById("ajouter").addEventListener("click", async () => {
         try {
             lireTitreQuestionnaire();
+            lireExplicationQuestionnaire();
             construireTraduction();
             await sauvegarderQuestionnaire();
             viderChamps();
