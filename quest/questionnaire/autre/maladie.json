@@ -3,7 +3,7 @@
     "type": "txt",
     "reverse": 0,
     "path": "",
-    "description": "Répertorie les maladies et leurs symptômes.",
+    "explication": "Répertorie les maladies et leurs symptômes.",
     "questionnaire": [
         {
             "question": "",

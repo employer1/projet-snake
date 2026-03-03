@@ -2,7 +2,7 @@
     "titre": "Questions du permis de conduire",
     "type": "qcm",
     "path": "quest/img/img_livre_permis_conduire",
-    "description": "Répertorie les questions présente dans le livre du permis de conduire.",
+    "explication": "Répertorie les questions présente dans le livre du permis de conduire.",
     "questionnaire": [
         {
             "question": "1. Comment choisir un moyen de transport ?",

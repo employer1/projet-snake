@@ -2,7 +2,7 @@
     "titre": "Cuisson des viandes",
     "type": "qcm",
     "path": "quest/img/img_cuisson_viande",
-    "description": "Permet de s'entrainer à reconnaître les différentes cuisson des viandes.",
+    "explication": "Permet de s'entrainer à reconnaître les différentes cuisson des viandes.",
     "questionnaire": [
         {
             "question": "Très peu cuite, avec une température interne d'environ 50°C.\nElle est saisie rapidement à l'extérieur et reste rouge vif à l'intérieur, avec un aspect presque cru.",

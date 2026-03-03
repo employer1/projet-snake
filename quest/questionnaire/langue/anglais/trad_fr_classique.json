@@ -1,7 +1,7 @@
 {
     "titre": "Traduction eng - fr de voc classique",
     "type": "langue",
-    "description": "Liste de mots français et leur traduction anglaise. Langue 1 -> langue 2, correspond à traduire en français.",
+    "explication": "Liste de mots français et leur traduction anglaise. Langue 1 -> langue 2, correspond à traduire en français.",
     "questionnaire": [
         {
             "langue 1": {

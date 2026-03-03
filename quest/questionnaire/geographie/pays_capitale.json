@@ -3,7 +3,7 @@
     "type": "txt",
     "reverse": 0,
     "path": "",
-    "description": "Retrouve la capitale de chaque pays. Certaines îles sont présentes mais pas toutes.",
+    "explication": "Retrouve la capitale de chaque pays. Certaines îles sont présentes mais pas toutes.",
     "questionnaire": [
         {
             "question": "Quelle est la capitale de l'Afghanistan ?",

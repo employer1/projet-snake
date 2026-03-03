@@ -3,7 +3,7 @@
     "type": "txt",
     "reverse": 0,
     "path": "quest/img/img_personnage_breaking_bad",
-    "description": "Regroupe les personnages principaux de la série Breaking Bad.",
+    "explication": "Regroupe les personnages principaux de la série Breaking Bad.",
     "questionnaire": [
         {
             "question": "Comment se nomme ce personnage ?",

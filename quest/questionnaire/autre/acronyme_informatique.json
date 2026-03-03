@@ -3,7 +3,7 @@
     "type": "txt",
     "reverse": 0,
     "path": "",
-    "description": "Questionnaire regroupant tous les acronymes connus dans le domaine de l'informatique. Ils ne pourront jamais être tous réunit, donc n'hésiter pas à me prévenir.",
+    "explication": "Questionnaire regroupant tous les acronymes connus dans le domaine de l'informatique. Ils ne pourront jamais être tous réunit, donc n'hésiter pas à me prévenir.",
     "questionnaire": [
         {
             "question": "4G",

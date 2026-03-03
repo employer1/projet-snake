@@ -3,7 +3,7 @@
     "type": "txt",
     "reverse": 1,
     "path": "",
-    "description": "Regroupe les noms de films et leur traduction. Uniquement anglais et français.",
+    "explication": "Regroupe les noms de films et leur traduction. Uniquement anglais et français.",
     "questionnaire": [
         {
             "question": "la guerre des étoiles",

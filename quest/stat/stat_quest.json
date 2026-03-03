@@ -1,7 +1,7 @@
 {
-    "nb_total_questionnaire": 13,
-    "nb_total_question": 65,
-    "nb_total_reponse": 37,
+    "nb_total_questionnaire": 14,
+    "nb_total_question": 115,
+    "nb_total_reponse": 46,
     "historique": [
         {
             "date": "17-02-2026",
@@ -74,6 +74,12 @@
             "chrono": 465,
             "nombre_question": 10,
             "nombre_reponse": 8
+        },
+        {
+            "date": "03-03-2026",
+            "chrono": 2141,
+            "nombre_question": 50,
+            "nombre_reponse": 9
         }
     ]
 }

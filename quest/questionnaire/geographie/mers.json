@@ -3,7 +3,7 @@
     "type": "txt",
     "reverse": 0,
     "path": "quest/img/img_mer",
-    "description": "Regroupe les mers du monde. Elles ne sont probablement pas toutes la, donc n'hésitez pas à me contacter.",
+    "explication": "Regroupe les mers du monde. Elles ne sont probablement pas toutes la, donc n'hésitez pas à me contacter.",
     "questionnaire": [
         {
             "question": "Comment se nomme cette mer ?",

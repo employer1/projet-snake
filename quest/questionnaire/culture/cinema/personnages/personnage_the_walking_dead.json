@@ -3,7 +3,7 @@
     "type": "txt",
     "reverse": 0,
     "path": "quest/img/img_personnage_the_walking_dead",
-    "description": "Regroupe les personnages principaux de la série The Walking Dead.",
+    "explication": "Regroupe les personnages principaux de la série The Walking Dead.",
     "questionnaire": [
         {
             "question": "Comment se nomme ce personnage ?",
