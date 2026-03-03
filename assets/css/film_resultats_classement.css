@@ -60,3 +60,49 @@ p {
     justify-self: center;
     margin-top: 0.5rem;
 }
+
+.fenetre_sauvegarde {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fenetre_sauvegarde[hidden] {
+    display: none;
+}
+
+.fenetre_sauvegarde_contenu {
+    background: var(--bgColor);
+    border-radius: 18px;
+    padding: 1.5rem;
+    min-width: 320px;
+    width: 32vw;
+    max-width: 520px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+}
+
+#nom_sauvegarde {
+    padding: 0.6rem;
+    border-radius: 8px;
+    border: 1px solid #888;
+    font-size: 1rem;
+}
+
+#nom_sauvegarde_info {
+    min-height: 1.3rem;
+    color: #b00020;
+    margin: 0;
+}
+
+.fenetre_actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
