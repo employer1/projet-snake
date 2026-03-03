@@ -36,7 +36,10 @@ h1 {
 
 .image {
     width: 80%;
+    max-width: 100px;
+    max-height: 56px;
     height: auto;
+    object-fit: contain;
 }
 
 .pied {
