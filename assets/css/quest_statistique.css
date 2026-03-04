@@ -109,3 +109,23 @@ section {
     color: #ffffffb5;
     min-height: 1.2em;
 }
+
+
+.barre {
+    width: min(900px, 90%);
+    height: 1px;
+    background-color: #ffffff3b;
+}
+
+.stats_resume_2 {
+    width: min(900px, 90%);
+    display: grid;
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
+    gap: 10px 24px;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.stats_resume_2 p {
+    margin: 0;
+}
