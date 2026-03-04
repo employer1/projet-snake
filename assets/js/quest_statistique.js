@@ -6,6 +6,12 @@
     const elementNbTotalQuestionnaire = document.getElementById("nb-total-questionnaire");
     const elementNbTotalReponse = document.getElementById("nb-total-reponse");
     const elementTauxBonneReponse = document.getElementById("taux-bonne-reponse");
+    const elementNbTotalQuestionSemaine = document.getElementById("nb-total-question_semaine");
+    const elementNbBonneReponseSemaine = document.getElementById("nb-bonne-reponse_semaine");
+    const elementNbTotalQuestionnaireSemaine = document.getElementById("nb-total-questionnaire_semaine");
+    const elementNbMoyenQuestionQuestionnaireSemaine = document.getElementById("nb-moyen-question-questionnaire_semaine");
+    const elementTauxBonneReponseSemaine = document.getElementById("taux-bonne-reponse_semaine");
+    const elementTempsMoyenQuestionSemaine = document.getElementById("temps-moyen-question_semaine");
     const fichierStatistiques = "stat_quest.json";
     const nombreSemaines = 20;
 
@@ -212,6 +218,77 @@
         });
     };
 
+
+    const calculerStatsSemaine = (historique) => {
+        const debutSemaine = obtenirDebutSemaine(new Date());
+        const finSemaine = new Date(debutSemaine);
+        finSemaine.setDate(finSemaine.getDate() + 7);
+
+        let nbTotalQuestionSemaine = 0;
+        let nbBonneReponseSemaine = 0;
+        let totalChronoSemaine = 0;
+        let nbQuestionnaireSemaine = 0;
+
+        historique.forEach((entree) => {
+            const date = parserDate(entree.date);
+            if (!date || date < debutSemaine || date >= finSemaine) return;
+
+            const nombreQuestion = Number(entree.nombre_question);
+            const nombreReponse = Number(entree.nombre_reponse);
+            const chrono = Number(entree.chrono);
+
+            nbTotalQuestionSemaine += Number.isFinite(nombreQuestion) ? nombreQuestion : 0;
+            nbBonneReponseSemaine += Number.isFinite(nombreReponse) ? nombreReponse : 0;
+            totalChronoSemaine += Number.isFinite(chrono) ? chrono : 0;
+            nbQuestionnaireSemaine += 1;
+        });
+
+        const nbMoyenQuestionQuestionnaireSemaine =
+            nbQuestionnaireSemaine > 0
+                ? (nbTotalQuestionSemaine / nbQuestionnaireSemaine).toFixed(1)
+                : "0";
+        const tauxBonneReponseSemaine =
+            nbTotalQuestionSemaine > 0
+                ? Math.round((nbBonneReponseSemaine / nbTotalQuestionSemaine) * 100)
+                : 0;
+        const tempsMoyenQuestionSemaine =
+            nbTotalQuestionSemaine > 0
+                ? Math.round(totalChronoSemaine / nbTotalQuestionSemaine)
+                : 0;
+
+        return {
+            nbTotalQuestionSemaine,
+            nbBonneReponseSemaine,
+            nbQuestionnaireSemaine,
+            nbMoyenQuestionQuestionnaireSemaine,
+            tauxBonneReponseSemaine,
+            tempsMoyenQuestionSemaine,
+        };
+    };
+
+    const afficherResumeSemaine = (historique) => {
+        const statsSemaine = calculerStatsSemaine(historique);
+
+        if (elementNbTotalQuestionSemaine) {
+            elementNbTotalQuestionSemaine.textContent = `${statsSemaine.nbTotalQuestionSemaine}`;
+        }
+        if (elementNbBonneReponseSemaine) {
+            elementNbBonneReponseSemaine.textContent = `${statsSemaine.nbBonneReponseSemaine}`;
+        }
+        if (elementNbTotalQuestionnaireSemaine) {
+            elementNbTotalQuestionnaireSemaine.textContent = `${statsSemaine.nbQuestionnaireSemaine}`;
+        }
+        if (elementNbMoyenQuestionQuestionnaireSemaine) {
+            elementNbMoyenQuestionQuestionnaireSemaine.textContent = `${statsSemaine.nbMoyenQuestionQuestionnaireSemaine}`;
+        }
+        if (elementTauxBonneReponseSemaine) {
+            elementTauxBonneReponseSemaine.textContent = `${statsSemaine.tauxBonneReponseSemaine} %`;
+        }
+        if (elementTempsMoyenQuestionSemaine) {
+            elementTempsMoyenQuestionSemaine.textContent = `${statsSemaine.tempsMoyenQuestionSemaine} s`;
+        }
+    };
+
     const afficherResume = (stats) => {
         const nbTotalQuestion = Number(stats.nb_total_question) || 0;
         const nbTotalQuestionnaire = Number(stats.nb_total_questionnaire) || 0;
@@ -237,6 +314,7 @@
         const stats = await chargerStatistiques();
         const liste = Array.isArray(stats.historique) ? stats.historique : [];
         afficherResume(stats);
+        afficherResumeSemaine(liste);
         const { semaines, valeursQuestions, valeursReponses } = agregerSemaines(liste);
 
         const maxValeur = Math.max(...valeursQuestions, ...valeursReponses);
