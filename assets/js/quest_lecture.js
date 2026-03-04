@@ -1,5 +1,6 @@
 /*fichier JS de quest_lecture.html*/
 const stockageOptionsQuest = "quest_options";
+const delaiAvanceAutomatiqueMs = 10_000;
 
 const chargerOptions = () => {
     const brut = localStorage.getItem(stockageOptionsQuest);
@@ -219,18 +220,51 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const items = appliquerOrdreEtLimite(extraireItemsLecture(questionnaire, options), options);
     let index = 0;
+    let timerAvanceAutomatique = null;
+    let compteurAvanceAutomatiqueMs = 0;
 
-    await afficherItem(items, index, elements);
+    const effacerTimerAvanceAutomatique = () => {
+        if (!timerAvanceAutomatique) return;
+        clearTimeout(timerAvanceAutomatique);
+        timerAvanceAutomatique = null;
+    };
+
+    const programmerAvanceAutomatique = () => {
+        effacerTimerAvanceAutomatique();
+        compteurAvanceAutomatiqueMs = 0;
+
+        if (!options?.avance) return;
+        if (index >= items.length - 1) return;
+
+        timerAvanceAutomatique = setTimeout(() => {
+            compteurAvanceAutomatiqueMs = delaiAvanceAutomatiqueMs;
+            if (index >= items.length - 1) return;
+            index += 1;
+            void afficherEtProgrammer(items, index, elements);
+        }, delaiAvanceAutomatiqueMs);
+    };
+
+    const afficherEtProgrammer = async (liste, position, elementsAffichage) => {
+        await afficherItem(liste, position, elementsAffichage);
+        programmerAvanceAutomatique();
+    };
+
+    await afficherEtProgrammer(items, index, elements);
 
     elements.precedent.addEventListener("click", () => {
         if (index <= 0) return;
         index -= 1;
-        void afficherItem(items, index, elements);
+        void afficherEtProgrammer(items, index, elements);
     });
 
     elements.suivant.addEventListener("click", () => {
         if (index >= items.length - 1) return;
         index += 1;
-        void afficherItem(items, index, elements);
+        void afficherEtProgrammer(items, index, elements);
+    });
+
+    window.addEventListener("beforeunload", () => {
+        compteurAvanceAutomatiqueMs = 0;
+        effacerTimerAvanceAutomatique();
     });
 });
