@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="suppresion classement complet">
+    <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="ajout bouton recommencer dactylo.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/dactylo_resultats.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/dactylo_resultats.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/dactylo_resultats.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dactylo_resultats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vocabulaire.json" beforeDir="false" afterPath="$PROJECT_DIR$/vocabulaire.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +133,7 @@
       <workItem from="1772534436794" duration="661000" />
       <workItem from="1772541700040" duration="633000" />
       <workItem from="1772544695213" duration="11511000" />
-      <workItem from="1772627973792" duration="7728000" />
+      <workItem from="1772627973792" duration="8870000" />
     </task>
     <task id="LOCAL-00001" summary="petites modifications de questionnaires">
       <option name="closed" value="true" />
@@ -402,7 +399,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772558418879</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="ajout bouton recommencer dactylo.">
+      <option name="closed" value="true" />
+      <created>1772637251387</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1772637251387</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,6 +440,7 @@
     <MESSAGE value="adaptation lecture questionnaire" />
     <MESSAGE value="modifications mineures" />
     <MESSAGE value="ajout phrase explication questionnaire." />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout phrase explication questionnaire." />
+    <MESSAGE value="ajout bouton recommencer dactylo." />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout bouton recommencer dactylo." />
   </component>
 </project>
