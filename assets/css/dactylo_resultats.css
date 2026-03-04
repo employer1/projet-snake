@@ -20,6 +20,13 @@ h1 {
 }
 
 .pied {
+    min-width: 400px;
+    width: 50%;
+
     justify-self: center;
     align-self: center;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

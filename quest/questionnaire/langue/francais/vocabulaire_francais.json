@@ -6,6 +6,13 @@
     "explication": "Regroupe des mots distingué du vocabulaire français.",
     "questionnaire": [
         {
+            "question": "Dont la bassesse suscite le mépris : Une action ***. Un homme ***.",
+            "reponse": [
+                "abject",
+                "abjecte"
+            ]
+        },
+        {
             "question": "Appliquer l'un contre l'autre des conduits par leurs ouvertures : *** deux tuyaux. 2 Mettre en rapport de personnes : *** un informaticien avec un éditeur. ⬥ S'***, se mettre en rapport avec : S'*** avec un individu louche",
             "reponse": "aboucher"
         },
@@ -35,6 +42,10 @@
         {
             "question": "Action, fait d'*** ; ce que l'on *** : L'*** d'une carte mémoire à un ordinateur.",
             "reponse": "adjonction"
+        },
+        {
+            "question": "1 Armerchevalier par l'***ment. 2 Reconnaître comme faisant partie des meilleurs : Humoriste *** par ses pairs.",
+            "reponse": "adouber"
         },
         {
             "question": "Qualité, comportement d'une personne *** ; courtoisie.",
@@ -84,6 +95,10 @@
         {
             "question": "Joie très vive qui extériorise : Un long cri d'*** monta du public.",
             "reponse": "allégresse"
+        },
+        {
+            "question": "Discours assez court mais de caractère officiel : L'*** télévisée du chef de l'Etat.",
+            "reponse": "allocution"
         },
         {
             "question": "En 2 mots. Personne à qui l'on se fie totalement et que l'on charge éventuellement d'agir à sa place.",
@@ -373,6 +388,10 @@
                 "casanier",
                 "casanière"
             ]
+        },
+        {
+            "question": "1 Grand boulversement causé par un phénomène naturel (tremblement de terre, cyclone, etc.). 2 Boulversement total dans la situation d'un groupement humain ; désastre : L'explosion de la centrale nucléaire a été un ***.",
+            "reponse": "cataclysme"
         },
         {
             "question": "Personne, généralement adulte, que l'on instruit pour la disposer à recevoir le baptême.",
@@ -1129,6 +1148,10 @@
             "reponse": "expectative"
         },
         {
+            "question": "Déposséder quelqu'un de sa propriété, dans un but d'utilité publique, suivant des formes légales généralement accompagnées d'indemnités",
+            "reponse": "exproprier"
+        },
+        {
             "question": "1 Qui a perdu beaucoup de sang. 2 Très pâle : Visage ***. 3 Vidé de sa force, de sa vigueur : La guerre a laissé le pays ***.",
             "reponse": "exsangue"
         },
@@ -1445,12 +1468,27 @@
             "reponse": "hère"
         },
         {
+            "question": "1 Doctrine d'origine chrétienne contraire à la foi et condamnée par l'Eglise. 2 Doctrine qui s'oppose à l'orthodoxie dans toute religion établie. 3 Idée, action jugée contraire à celles qui sont généralement admises, pratiquées : Une *** gastronomique. 4 Manière d'agir jugée aberrante : Gâcher autant de papier, c'est une ***.",
+            "reponse": "hérésie"
+        },
+        {
             "question": "Qui tient de l'*** ; qui constitue une *** : Doctrine ***. ⬥ Qui professe ou soutient une *** (par opposition à orthodoxe).",
             "reponse": "hérétique"
         },
         {
             "question": "Composé d'éléments disparates ; hétérgène : Des cabanes faites de matériaux ***.",
             "reponse": "hétéroclite"
+        },
+        {
+            "question": "Qui horripile ; très agaçant.",
+            "reponse": [
+                "horripilant",
+                "horripilante"
+            ]
+        },
+        {
+            "question": "Mettre hors de soi ; exaspérer : Ce bruit continu m'***.",
+            "reponse": "horripiler"
         },
         {
             "question": "Rabaisser quelqu'un en le faisant apparaître comme inférieur, méprisable ; mortifier : Chercher à *** un adversaire. ⬥ S'***, avoir une attitude servile, par lâcheté ou intérêt ; se rabaisser.",
@@ -1488,6 +1526,10 @@
             "reponse": "impudence"
         },
         {
+            "question": "1 Qui peut, qui doit être imputé à quelque chose, à quelqu'un : Retard *** à un embouteillage. 2 Qui peut être prélevé sur tel compte, tel budget.",
+            "reponse": "imputable"
+        },
+        {
             "question": "1 Attribuer à quelqu'un, à quelque chose la responsabilité de. 2 Porter une somme au compte de : *** une dépense sur un chapitre du budget.",
             "reponse": "imputer"
         },
@@ -1502,6 +1544,10 @@
         {
             "question": "Etre imposé à quelqu'un, en parlant d'une charge, d'un devoir ; revenir à : Cette révélation *** à son médecin.",
             "reponse": "incomber"
+        },
+        {
+            "question": "1 Somme allouée pour dédommager d'un préjudice. 2 Elément d'une rémunération ou d'un salaire destiné à compenser une augmentation du coût de la vie ou à rembourser une dépense imputable à l'exercice de la profession. ■ *** de licenciement, versée par l'employeur à un salarié licencié sans faute grave, calculée en proportion de son salaire et de son ancienneté. ■ *** journalière, prestation en espèces destinées à compenser la perte de salaire subie par l'assuré social, incapable temporairement de travailler. ■ *** parlementaire, traitement perçu par un député ou un sénateur.",
+            "reponse": "indemnité"
         },
         {
             "question": "1 Caractère d'un comportement, d'un acte inepte ; absurdité. 2 Action ou parole stupide ; niaiserie.",
@@ -1620,6 +1666,10 @@
             "reponse": "japper"
         },
         {
+            "question": "1 Langage incorrect employé par quelqu'un qui a une connaissance approximative d'une langue. 2 Langue que l'on ne comprend pas ; charabia. 3 Vocabulaire propre à une profession, à une discipline, etc. ; argot de métier : Le *** informatique.",
+            "reponse": "jargon"
+        },
+        {
             "question": "Récipient rond et sans rebord ; son contenu : Une *** de lait.",
             "reponse": "jatte"
         },
@@ -1697,6 +1747,14 @@
         {
             "question": "Lieux d'aisances sommaires, dans une collectivité.",
             "reponse": "latrines"
+        },
+        {
+            "question": "1 Indulgence, tolérance excessive ; laisser-aller. 2 Système selon lequel on peut suivre une opinion du moment qu'elle est un tant soit peu probable.",
+            "reponse": "laxisme"
+        },
+        {
+            "question": "Qui manifeste du laxisme. 2 Relatif au laxisme ; qui en est partisan.",
+            "reponse": "laxiste"
         },
         {
             "question": "Economiser avec exès : Lésiner sur la qualité des matériaux. ■ Ne pas *** sur, ne pas hésiter à utiliser abondamment.",
@@ -1789,6 +1847,14 @@
             "reponse": "marasme"
         },
         {
+            "question": "1 Qui est écrit dans la marge : Notes ***. 2 Qui a une valeur, une importance secondaire : Phénomènes ***. Jouer un rôle ***. 3 Se dit de ce qui est situé sur les bords d'un organe : Nervure ***. AUTRE DEF : Qui vit en marge de la société, faute de pouvoir s'y intégrer ou par refus de se soumettre à ses normes.",
+            "reponse": [
+                "marginal",
+                "marginale",
+                "marginaux"
+            ]
+        },
+        {
             "question": "Carrière de marne.",
             "reponse": "marnière"
         },
@@ -1818,6 +1884,10 @@
         {
             "question": "Mauvaise opinion que l'on a de quelqu'un ; mépris.",
             "reponse": "mesestime"
+        },
+        {
+            "question": "Mauvaise opinion que l'on a de quelqu'un ; mépris.",
+            "reponse": "mésestime"
         },
         {
             "question": "Qui manque de grandeur ; médiocre : Un esprit *** ; qui dénote de l'avarice ; chiche : Un cadeau ***.",
@@ -1879,6 +1949,10 @@
         {
             "question": "De nombreux : Poser *** questions.",
             "reponse": "moult"
+        },
+        {
+            "question": "Etablissement où les personnes âgées ou gravement malades terminent misérablement leur vie.",
+            "reponse": "mouroir"
         },
         {
             "question": "1 Changement dans le plumage, le poil, la peau, auquel les animaux vertébrés sont sujets à certaines époques de l'année ; époque de ce changement. 2 Rejet total et reconstitution du tégument chitineux, permettant la croissance des arthropodes ; ce tégument abandonné. 3 Changement qui s'opère dans le timbre de la voix des jeunes gens au moment de la puberté ; temps où arrive ce changement.",
@@ -1996,6 +2070,10 @@
         {
             "question": "Volonté tenace ; détermination : L'*** d'un juge.",
             "reponse": "opiniâtreté"
+        },
+        {
+            "question": "1 Réprobation publique qui s'attache aux acteurs d'actions condamnables. 2 Cause de honte ; déshonneur : Ce charlatan est l'*** de la profession. 3 Etat d'avilissement ; déchéance.",
+            "reponse": "opprobre"
         },
         {
             "question": "1 Extrême abodance de biens matériels ; richesse : Vivre dans l'***. 2 Caractère opulent de quelque chose : L'*** d'une poitrine.",
@@ -2190,6 +2268,10 @@
             ]
         },
         {
+            "question": "Discours violent dirigé contre quelqu'un ; diatribe.",
+            "reponse": "philippique"
+        },
+        {
             "question": "1 Attachement respectueux et fervent à Dieu et à la religion. 2 Affection déférente, respectueuse : *** filiale.",
             "reponse": "piété"
         },
@@ -2223,6 +2305,10 @@
                 "poltron",
                 "poltronne"
             ]
+        },
+        {
+            "question": "1 Assemblage de pièces de bois ou de métal formant équerre, pour soutenir ou pour suspendre quelque chose. 2 Instrument servant au supplice de la pendaison ; le supplice lui-même.",
+            "reponse": "potence"
         },
         {
             "question": "Porte dérobée percée dans la muraille d'une fortification et donnant souvent sur le fossé.",
@@ -2391,6 +2477,10 @@
             "reponse": "réfuter"
         },
         {
+            "question": "1 Chagrin causé par la perte de qualque chose, ou par la mort de quelqu'un ; contrariété causée par la non-résiliation d'un désir. 2 Remords douloureux ; repentir : L'accusé n'a exprimé aucun ***. ■ A ***, malgré soi ; à contre-cœur. ■ Être au *** de, éprouver du déplaisir d'avoir à faire quelque chose : Nous sommes au *** de ne pouvoir donner suite à votre demande.",
+            "reponse": "regret"
+        },
+        {
             "question": "Terme, souvent utilisé dans la littérature médiévale-fantastique, désignant un territoire, un État ou un peuple gouverné par une reine.",
             "reponse": "reinaume"
         },
@@ -2409,6 +2499,10 @@
         {
             "question": "1 Reproche adressé à quelqu'un ; réprimande. 2 Dans la France de l'Ancien Régime, observation adressée au roi par le parlement et les autres cours souveraines pour lui signaler les inconvénients d'un de ses actes législatifs.",
             "reponse": "remontrance"
+        },
+        {
+            "question": "Vif regret d'avoir fait ou de n'avoir pas fait quelque chose : Dis-le-lui, comme ça tu n'auras pas de remords.",
+            "reponse": "remords"
         },
         {
             "question": "1 Tourbillon d'eau qui se forme derrière un navire en marche. 2 Tourbillon qui se forme après le passage de l'eau sur un obstacle. 3 Contre-courant le long des rives d'un cours d'eau. 4 Ensemble de mouvements en sens divers ; agitation : Les remous de la foule. 5 Mouvements divers qui agitent ou divisent l'opinion : L'affaire p^rovoque des ***.",
@@ -2449,6 +2543,10 @@
             ]
         },
         {
+            "question": "1 Mouvement du corps que l'on fait pour saluer, soit en s'inclinant, soit en pliant les genoux. 2 Respect profond ; vénération : Parler à quelqu'un avec ***. ■ *** parler, se dit pour excuser un propos jugé inconvenant. ■ Tirer sa ***, quitter quelqu'un, s'en aller avec désinvolture.",
+            "reponse": "révérence"
+        },
+        {
             "question": "1 Qui est passé ; qui n'existe plus : Des temps ***. 2 Complétement achevé : Avoir vingt ans ***.",
             "reponse": [
                 "révolu",
@@ -2469,6 +2567,10 @@
                 "sacro-saint",
                 "sacro-sainte"
             ]
+        },
+        {
+            "question": "Doué de sagacité ; perspicace : Esprit s'***.",
+            "reponse": "sagace"
         },
         {
             "question": "Qui sauve : Geste ***. Trouver une autre définition ...",
@@ -2509,6 +2611,13 @@
             "reponse": [
                 "scrupuleux",
                 "scrupuleuse"
+            ]
+        },
+        {
+            "question": "D'une vivacité pétillante et gaie ; fringant : Un *** quinquagénaire.",
+            "reponse": [
+                "sémillant",
+                "sémillante"
             ]
         },
         {
@@ -2724,12 +2833,20 @@
             ]
         },
         {
+            "question": "Bruit assourdissant ; tapage.",
+            "reponse": "vacarme"
+        },
+        {
             "question": "1 Cri de l'enfant nouveauné. 2 Cri faible et plaintif du lièvre, du crocodile.",
             "reponse": "vagissement"
         },
         {
             "question": "Manifestation violente et passionnée d'un sentiment ; exaltation.",
             "reponse": "véhémence"
+        },
+        {
+            "question": "1 Pièce ou couloir d'entrée d'une maison, d'un édifice, donnant accès aux autres pièces, à l'escalier. 2 Cavité ou dépression s'ouvrant sur une autre cavité. ■ *** (de l'oreille interne), cavité osseuse formant la partie moyenne du labyrinthe, communiquant avec la cochlée et les canaux semi-circulaires, contenant deux poches membraneuses, l'utricule et le saccule, et jouant un rôle dans l'équilibration.",
+            "reponse": "vestibule"
         },
         {
             "question": "Déterioré par le temps ; délabré : Immeuble ***.",
