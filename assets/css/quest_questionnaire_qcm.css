@@ -9,7 +9,7 @@ h1 {
 .corps {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto minmax(0, 1fr) auto;
+    grid-template-rows: auto auto minmax(0, 1fr) minmax(150px, auto);
     gap: 12px;
 }
 .question-image {
@@ -27,16 +27,17 @@ h2 {
 
 .sous_corps {
     width: 100%;
+    min-height: 0;
 
     --qcm-nb-lignes: 2;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(var(--qcm-nb-lignes), auto);
+    grid-template-rows: repeat(var(--qcm-nb-lignes), minmax(52px, 1fr));
     gap: 10px;
 
     align-items: stretch;
-    align-content: start;
+    align-content: stretch;
     justify-items: center;
     justify-self: center;
 }
@@ -82,6 +83,7 @@ label.option-inactive {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    min-height: 150px;
 }
 
 
