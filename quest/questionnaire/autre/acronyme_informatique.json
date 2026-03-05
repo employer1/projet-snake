@@ -694,6 +694,262 @@
             "reponse": ["windows server update services"] },
         {
             "question": "xDSL",
-            "reponse": ["digital subscriber line"] }
+            "reponse": ["digital subscriber line"] },
+        {
+            "question": "TPR",
+            "reponse": ["time domain reflectometry"] },
+        {
+            "question": "RHEL",
+            "reponse": ["red hat entreprise linux"] },
+        {
+            "question": "CI/CD",
+            "reponse": ["continuous integration and continuous deployment","continuous integration & continuous deployment"] },
+        {
+            "question": "CVE",
+            "reponse": ["common vulnerability and exposures"] },
+        {
+            "question": "MITM",
+            "reponse": ["man in the middle"] },
+        {
+            "question": "API REST",
+            "reponse": ["api representation rest transfert","representation transfert","application programming interface representation rest transfert"] },
+        {
+            "question": "ISV",
+            "reponse": ["independant software vendor"] },
+        {
+            "question": "FIPS",
+            "reponse": ["federal information processing standards"] },
+        {
+            "question": "PID",
+            "reponse": ["process identifier"] },
+        {
+            "question": "OCI",
+            "reponse": ["open conteneur initiative"] },
+        {
+            "question": "COW",
+            "reponse": ["copy-on-write"] },
+        {
+            "question": "SDN",
+            "reponse": ["software defined networks"] },
+        {
+            "question": "IPAM",
+            "reponse": ["ip address management"] },
+        {
+            "question": "VXLAN",
+            "reponse": ["virtual extensible local area networks"] },
+        {
+            "question": "IPVLAN",
+            "reponse": ["ip virtual area network","internet protocol virtual area network"] },
+        {
+            "question": "YAML",
+            "reponse": ["yaml ain't markup language"] },
+        {
+            "question": "OCI",
+            "reponse": ["open container initiative"] },
+        {
+            "question": "CNM",
+            "reponse": ["container network model"] },
+        {
+            "question": "MacVLAN",
+            "reponse": ["mac virtual local area network","media access control virtual local area network"] },
+        {
+            "question": "WSL",
+            "reponse": ["windows subsystem for linux"] },
+        {
+            "question": "PHP",
+            "reponse": ["hypertext preprocessor"] },
+        {
+            "question": "TCL",
+            "reponse": ["tool command language"] },
+        {
+            "question": "PAM",
+            "reponse": ["privilegied access management"] },
+        {
+            "question": "LDAP",
+            "reponse": ["lightweight directory access protocol"] },
+        {
+            "question": "AD",
+            "reponse": ["active directory"] },
+        {
+            "question": "SSO",
+            "reponse": ["single sign on"] },
+        {
+            "question": "OTP",
+            "reponse": ["one-time password"] },
+        {
+            "question": "GDM",
+            "reponse": ["gnome display manager"] },
+        {
+            "question": "KVM",
+            "reponse": ["kernel-based virtual machine","keyboard video mouse"] },
+        {
+            "question": "PBKDF2",
+            "reponse": ["password-based key derivation function 2"] },
+        {
+            "question": "UMASK",
+            "reponse": ["user file-creation mode mask"] },
+        {
+            "question": "PPID",
+            "reponse": ["parent process identifier"] },
+        {
+            "question": "2FA",
+            "reponse": ["double authentification"] },
+        {
+            "question": "LEPP",
+            "reponse": ["linux nginx postgresql php","linux enginx potgresql php"] },
+        {
+            "question": "OWASP",
+            "reponse": ["open web application security project"] },
+        {
+            "question": "DVWA",
+            "reponse": ["damn vulnerable web application"] },
+        {
+            "question": "P2P",
+            "reponse": ["point to point","point 2 point"] },
+        {
+            "question": "LAMP",
+            "reponse": ["linux apache mysql php","linux apache mysql perl","linux apache mysql python","linux apache mariadb php","linux apache mariadb perl","linux apache mariadb python"] },
+        {
+            "question": "WAMP",
+            "reponse": ["windows apache mysql php","windows apache mysql perl","windows apache mysql python","windows apache mariadb php","windows apache mariadb perl","windows apache mariadb python","windows apache web server mysql php","windows apache web server mysql perl","windows apache web server mysql python","windows apache web server mariadb php","windows apache web server mariadb perl","windows apache web server mariadb python"],
+            "def":  "windows apache (apache web server) mysql (mariadb) php (perl, python)"},
+        {
+            "question": "WISA",
+            "reponse": ["windows iis sql server asp.net"] },
+        {
+            "question": "MEAN",
+            "reponse": ["mongodb express.js angular node.js"] },
+        {
+            "question": "CMS",
+            "reponse": ["content page system"] },
+        {
+            "question": "ARM",
+            "reponse": ["advanced risc machine"] },
+        {
+            "question": "HTML",
+            "reponse": ["hyper text markup language"] },
+        {
+            "question": "DRM",
+            "reponse": ["digital right management"] },
+        {
+            "question": "CSS",
+            "reponse": ["cascading style sheets"] },
+        {
+            "question": "URI",
+            "reponse": ["uniform resource identifier"] },
+        {
+            "question": "URN",
+            "reponse": ["uniform resource name"] },
+        {
+            "question": "URL",
+            "reponse": ["uniform resource locator"] },
+        {
+            "question": "UDP",
+            "reponse": ["user datagram protocol"] },
+        {
+            "question": "DKIM",
+            "reponse": ["domainkeys identified mail"] },
+        {
+            "question": "TLD",
+            "reponse": ["top level domain"] },
+        {
+            "question": "ISP",
+            "reponse": ["internet service provider"] },
+        {
+            "question": "HOL",
+            "reponse": ["head of line"] },
+        {
+            "question": "QUIK",
+            "reponse": ["quick udp internet connections"] },
+        {
+            "question": "TLS",
+            "reponse": ["transport layer security"] },
+        {
+            "question": "RSA",
+            "reponse": ["rivest-shamir-adleman"] },
+        {
+            "question": "CURL",
+            "reponse": ["client for urls"] },
+        {
+            "question": "W3C",
+            "reponse": ["world wide web consortium"] },
+        {
+            "question": "DOM",
+            "reponse": ["document object model"] },
+        {
+            "question": "SIEM",
+            "reponse": ["security information and event management"] },
+        {
+            "question": "HIPAA",
+            "reponse": ["health insurance and accountability act"] },
+        {
+            "question": "OWASP",
+            "reponse": ["open web application security project"] },
+        {
+            "question": "ELK",
+            "reponse": ["elasticsearch logstach kibana"] },
+        {
+            "question": "SNMP",
+            "reponse": ["simple network management protocol"] },
+        {
+            "question": "ITIL",
+            "reponse": ["information technology infrastructure library"] },
+        {
+            "question": "IDS",
+            "reponse": ["intrusion detection system"] },
+        {
+            "question": "IPS",
+            "reponse": ["intrusion prevention system"] },
+        {
+            "question": "SYSLOG",
+            "reponse": ["system logging protocol"] },
+        {
+            "question": "PCI DSS",
+            "reponse": ["payment card industry data security standard"] },
+        {
+            "question": "FISMA",
+            "reponse": ["federal information security management act"] },
+        {
+            "question": "GLBA",
+            "reponse": ["gramm-leach-bliley act"] },
+        {
+            "question": "SOX",
+            "reponse": ["sarbanes-oxley act"] },
+        {
+            "question": "NMS",
+            "reponse": ["network ùanagement system"] },
+        {
+            "question": "SEM",
+            "reponse": ["security event management"] },
+        {
+            "question": "SIM",
+            "reponse": ["security information management"] },
+        {
+            "question": "CMDB",
+            "reponse": ["configuration management database"] },
+        {
+            "question": "SOC",
+            "reponse": ["security operations center"] },
+        {
+            "question": "VPN",
+            "reponse": ["virtual private network"] },
+        {
+            "question": "NIST SP",
+            "reponse": ["national institute of standards and technology - special publication"] },
+        {
+            "question": "NIS",
+            "reponse": ["network and information security directive"] },
+        {
+            "question": "EoS",
+            "reponse": ["end of support"] },
+        {
+            "question": "SSL",
+            "reponse": ["secure sockets layer"] },
+        {
+            "question": "RELP",
+            "reponse": ["reliable event logging protocol"] },
+        {
+            "question": "CWD",
+            "reponse": ["current working directory"] }
     ]
 }
