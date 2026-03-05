@@ -86,12 +86,6 @@
             ]
         },
         {
-            "question": "ARM",
-            "reponse": [
-                "advanced risc machine"
-            ]
-        },
-        {
             "question": "ARP",
             "reponse": [
                 "address resolution protocol"
@@ -504,12 +498,6 @@
         {
             "question": "ELK",
             "reponse": [
-                "elasticsearch logstash kibana"
-            ]
-        },
-        {
-            "question": "ELK",
-            "reponse": [
                 "elasticsearch logstach kibana"
             ]
         },
@@ -571,12 +559,6 @@
             "question": "FIPS",
             "reponse": [
                 "federal information processing standards"
-            ]
-        },
-        {
-            "question": "FISMA",
-            "reponse": [
-                "federal information security management act"
             ]
         },
         {
@@ -857,12 +839,6 @@
             ]
         },
         {
-            "question": "ITIL",
-            "reponse": [
-                "information technology infrastructure library"
-            ]
-        },
-        {
             "question": "JPEG",
             "reponse": [
                 "joint photographic experts group"
@@ -1057,12 +1033,6 @@
             ]
         },
         {
-            "question": "NMS",
-            "reponse": [
-                "network ùanagement system"
-            ]
-        },
-        {
             "question": "NNI",
             "reponse": [
                 "natwork-network interface"
@@ -1084,12 +1054,6 @@
             "question": "OCI",
             "reponse": [
                 "open conteneur initiative"
-            ]
-        },
-        {
-            "question": "OCI",
-            "reponse": [
-                "open container initiative"
             ]
         },
         {
@@ -1144,24 +1108,6 @@
             "question": "OTP",
             "reponse": [
                 "one-time password"
-            ]
-        },
-        {
-            "question": "OTP",
-            "reponse": [
-                "one-time password"
-            ]
-        },
-        {
-            "question": "OWASP",
-            "reponse": [
-                "open web application security project"
-            ]
-        },
-        {
-            "question": "OWASP",
-            "reponse": [
-                "open web application security project"
             ]
         },
         {
@@ -1486,12 +1432,6 @@
             ]
         },
         {
-            "question": "SIEM",
-            "reponse": [
-                "security information and event management"
-            ]
-        },
-        {
             "question": "SIM",
             "reponse": [
                 "security information management"
@@ -1522,12 +1462,6 @@
             ]
         },
         {
-            "question": "SNMP",
-            "reponse": [
-                "simple network management protocol"
-            ]
-        },
-        {
             "question": "SOC",
             "reponse": [
                 "security operations center"
@@ -1537,12 +1471,6 @@
             "question": "SOX",
             "reponse": [
                 "sarbane oxley act"
-            ]
-        },
-        {
-            "question": "SOX",
-            "reponse": [
-                "sarbanes-oxley act"
             ]
         },
         {
@@ -1594,12 +1522,6 @@
             ]
         },
         {
-            "question": "SSO",
-            "reponse": [
-                "single sign on"
-            ]
-        },
-        {
             "question": "SYSLOG",
             "reponse": [
                 "system logging protocol"
@@ -1642,12 +1564,6 @@
             ]
         },
         {
-            "question": "TLD",
-            "reponse": [
-                "top level domain"
-            ]
-        },
-        {
             "question": "TLS",
             "reponse": [
                 "transport layer security"
@@ -1669,12 +1585,6 @@
             "question": "TXT",
             "reponse": [
                 "text"
-            ]
-        },
-        {
-            "question": "UDP",
-            "reponse": [
-                "user datagram protocol"
             ]
         },
         {
@@ -1738,21 +1648,9 @@
             ]
         },
         {
-            "question": "URL",
-            "reponse": [
-                "uniform resource locator"
-            ]
-        },
-        {
             "question": "URN",
             "reponse": [
                 "uniform ressource name"
-            ]
-        },
-        {
-            "question": "URN",
-            "reponse": [
-                "uniform resource name"
             ]
         },
         {
@@ -1795,12 +1693,6 @@
             "question": "VPI",
             "reponse": [
                 "virtual path identifier"
-            ]
-        },
-        {
-            "question": "VPN",
-            "reponse": [
-                "virtual private network"
             ]
         },
         {
