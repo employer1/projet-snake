@@ -1,0 +1,151 @@
+{
+    "titre": "Traduction eng - fr de voc classique",
+    "type": "langue",
+    "explication": "Liste de mots français et leur traduction anglaise. Langue 1 -> langue 2, correspond à traduire en français.",
+    "langue 1": {
+        "adiós": [
+            "adieu",
+            "au revoir"
+        ],
+        "bien, gracias": [
+            "bien, merci"
+        ],
+        "buenos días": [
+            "bon matin",
+            "bonjour"
+        ],
+        "ella": [
+            "elle"
+        ],
+        "ella es": [
+            "elle est"
+        ],
+        "ella es mi amiga sandra": [
+            "c'est mon amie sandra"
+        ],
+        "ella es sofia": [
+            "c'est sofia"
+        ],
+        "hola": [
+            "bonjour"
+        ],
+        "muy bien": [
+            "très bien"
+        ],
+        "qué tal": [
+            "comment vas-tu"
+        ],
+        "tú eres": [
+            "tu eres"
+        ],
+        "tú eres carlos": [
+            "Est-ce que tu es carlos"
+        ],
+        "y tú": [
+            "et toi"
+        ],
+        "yo": [
+            "moi"
+        ],
+        "yo soy": [
+            "je suis"
+        ],
+        "yo soy alex y ella es sandra": [
+            "je suis alex et c'est sandra"
+        ],
+        "yo soy maría": [
+            "je m'appelle Maria"
+        ],
+        "él": [
+            "il"
+        ],
+        "él es": [
+            "il est"
+        ],
+        "él es mi amigo antonio": [
+            "c'est mon ami antonio",
+            "c'est mon ami, antonio"
+        ],
+        "él es mi amigo david": [
+            "voici mon ami david"
+        ],
+        "él es paco": [
+            "c'est paco"
+        ]
+    },
+    "langue 2": {
+        "Est-ce que tu es carlos": [
+            "tú eres carlos"
+        ],
+        "adieu": [
+            "adiós"
+        ],
+        "au revoir": [
+            "adiós"
+        ],
+        "bien, merci": [
+            "bien, gracias"
+        ],
+        "bon matin": [
+            "buenos días"
+        ],
+        "bonjour": [
+            "buenos días",
+            "hola"
+        ],
+        "c'est mon ami antonio": [
+            "él es mi amigo antonio"
+        ],
+        "c'est mon ami, antonio": [
+            "él es mi amigo antonio"
+        ],
+        "c'est mon amie sandra": [
+            "ella es mi amiga sandra"
+        ],
+        "c'est paco": [
+            "él es paco"
+        ],
+        "c'est sofia": [
+            "ella es sofia"
+        ],
+        "comment vas-tu": [
+            "qué tal"
+        ],
+        "elle": [
+            "ella"
+        ],
+        "elle est": [
+            "ella es"
+        ],
+        "et toi": [
+            "y tú"
+        ],
+        "il": [
+            "él"
+        ],
+        "il est": [
+            "él es"
+        ],
+        "je m'appelle Maria": [
+            "yo soy maría"
+        ],
+        "je suis": [
+            "yo soy"
+        ],
+        "je suis alex et c'est sandra": [
+            "yo soy alex y ella es sandra"
+        ],
+        "moi": [
+            "yo"
+        ],
+        "très bien": [
+            "muy bien"
+        ],
+        "tu eres": [
+            "tú eres"
+        ],
+        "voici mon ami david": [
+            "él es mi amigo david"
+        ]
+    }
+}
