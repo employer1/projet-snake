@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="ajout des champs dans statistiques quest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/acronyme_informatique.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/autre/acronyme_informatique.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vocabulaire.json" beforeDir="false" afterPath="$PROJECT_DIR$/vocabulaire.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +135,8 @@
       <workItem from="1772541700040" duration="633000" />
       <workItem from="1772544695213" duration="11511000" />
       <workItem from="1772627973792" duration="14681000" />
-      <workItem from="1772715070554" duration="8930000" />
+      <workItem from="1772715070554" duration="11784000" />
+      <workItem from="1772784898156" duration="1886000" />
     </task>
     <task id="LOCAL-00001" summary="petites modifications de questionnaires">
       <option name="closed" value="true" />
@@ -433,7 +434,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772726014407</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="ajout des champs dans statistiques quest">
+      <option name="closed" value="true" />
+      <created>1772737236321</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1772737236321</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
