@@ -342,15 +342,9 @@ document.addEventListener("DOMContentLoaded", async () => {
             .filter(Boolean);
         const reponsesUtilisateurUniques = [...new Set(reponsesUtilisateur)];
         const reponsesValidesUniques = [...new Set(reponsesValides)];
-        let bonneReponse = false;
-        if (reponsesValidesUniques.length === 1) {
-            bonneReponse = reponsesUtilisateurUniques.includes(reponsesValidesUniques[0]);
-        } else if (reponsesValidesUniques.length > 1) {
-            bonneReponse =
-                reponsesValidesUniques.every((reponse) =>
-                    reponsesUtilisateurUniques.includes(reponse),
-                ) && reponsesUtilisateurUniques.length === reponsesValidesUniques.length;
-        }
+        const bonneReponse = reponsesValidesUniques.some((reponse) =>
+            reponsesUtilisateurUniques.includes(reponse),
+        );
         const reponseTexte =
             (question.definition && question.definition.trim()) || question.reponses.join(", ");
 
