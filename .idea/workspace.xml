@@ -5,10 +5,129 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="preparation au .exe">
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/langue/anglais/vocabulaire_anglais.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quest/questionnaire/langue/espagnol/vocabulaire_espagnol.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/101.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/102.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/103.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/104.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/105.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/106.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/107.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/108.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/109.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/110.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/62.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/63.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/65.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/66.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/67.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/68.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/69.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/71.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/73.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/74.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/75.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/77.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/78.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/79.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/81.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/82.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/83.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/84.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/85.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/86.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/87.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/88.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/89.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/90.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/91.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/92.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/93.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/94.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/95.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/97.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/98.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_bien_etre_pictogramme/99.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/autre/anniversaire.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/cours/bien_etre_pictogramme.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/culture/race_de_chien.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/langue/anglais/trad_fr_classique.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/cours/bien_etre_pictogramme.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/cours/golfe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/cours/img_bien_etre/111.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/cours/img_bien_etre/112.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/cours/img_bien_etre/113.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/cours/img_bien_etre/114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/cours/mer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/cours/ocean.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/langues/anglais/trad_fr_verbe_irregulier.json" beforeDir="false" afterPath="$PROJECT_DIR$/temp/langues/anglais/trad_fr_verbe_irregulier.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +157,14 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/employer1/projet-snake.git&quot;,
-    &quot;accountId&quot;: &quot;2ee5dc0f-554d-4cf4-b2fe-821e4181a25f&quot;
+    &quot;accountId&quot;: &quot;0d69239c-8d56-48a4-a48f-9b5694111ed2&quot;
   }
 }</component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="projet-snake/invalid/Python facet" />
+    </ignored-facets>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
@@ -62,7 +186,7 @@
     "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/theot/WebstormProjects/projet-snake/quest/questionnaire/langue/espagnol",
+    "last_opened_file_path": "C:/Users/theo/WebstormProjects/projet-snake/quest/questionnaire/autre",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -77,18 +201,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\theo\WebstormProjects\projet-snake\quest\questionnaire\autre" />
+      <recent name="C:\Users\theo\WebstormProjects\projet-snake\quest\questionnaire\culture" />
+      <recent name="C:\Users\theo\WebstormProjects\projet-snake\quest\img" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\langue\espagnol" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\langue\anglais" />
-      <recent name="C:\Users\theot\WebstormProjects\projet-snake\assets\css" />
-      <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\langue\francais" />
-      <recent name="C:\Users\theot\WebstormProjects\projet-snake" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\theo\WebstormProjects\projet-snake\quest\questionnaire\cours" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\culture" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\autre" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\img\img_belgique" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\img" />
-      <recent name="C:\Users\theo\WebstormProjects\projet-snake\film\affiche" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -143,6 +267,8 @@
       <workItem from="1772627973792" duration="14681000" />
       <workItem from="1772715070554" duration="11784000" />
       <workItem from="1772784898156" duration="6618000" />
+      <workItem from="1772897929304" duration="2574000" />
+      <workItem from="1772918944413" duration="10663000" />
     </task>
     <task id="LOCAL-00001" summary="petites modifications de questionnaires">
       <option name="closed" value="true" />
