@@ -1,7 +1,7 @@
 {
     "titre": "Les races de chien",
     "type": "txt",
-    "reverse": 1,
+    "reverse": 0,
     "path": "quest/img/img_race_de_chien",
     "explication": "Répertorie les races de chien.",
     "questionnaire": [

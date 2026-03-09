@@ -7,7 +7,7 @@
     "questionnaire": [
         {
             "question": "Quelle est la date d'anniversaire de Maman ?",
-            "reponse": "16 mars"
+            "reponse": "16 mars 1971"
         },
         {
             "question": "Quelle est la date d'anniversaire de Papa ?",
@@ -31,7 +31,7 @@
         },
         {
             "question": "Quelle est la date d'anniversaire de Jacques Thill ?",
-            "reponse": "14 mars"
+            "reponse": "14 mars 1948"
         },
         {
             "question": "Quelle est la date d'anniversaire de Liliane Marchall ?",
@@ -63,11 +63,39 @@
         },
         {
             "question": "Quelle est la date d'anniversaire de Hervé Toulemonde ?",
-            "reponse": "17 juillet"
+            "reponse": "17 juillet 1974"
         },
         {
             "question": "Quelle est la date d'anniversaire de Emeline Toulemonde ?",
             "reponse": "30 juin"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Femme d'Hervé ?",
+            "reponse": "18 juillet 1973"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Spirou ?",
+            "reponse": "14 fevrier 2008"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Sammy ?",
+            "reponse": "1 juillet 2015"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Max ?",
+            "reponse": "11 novembre 2018"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Carline ?",
+            "reponse": "9 avril 2011"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Capsule ?",
+            "reponse": "26 avril 2007"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Meadow ?",
+            "reponse": "26 mars 2010"
         }
     ]
 }

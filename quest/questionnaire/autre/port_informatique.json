@@ -1,0 +1,65 @@
+{
+    "titre": "Les races de chien",
+    "type": "txt",
+    "reverse": 0,
+    "path": "",
+    "explication": "Répertorie les races de chien.",
+    "questionnaire": [
+        {
+            "question": "Port : FTP controle",
+            "reponse": "21"
+        },
+        {
+            "question": "Port : FTP donnee",
+            "reponse": "20"
+        },
+        {
+            "question": "Port : HTTP",
+            "reponse": "80"
+        },
+        {
+            "question": "Port : SSH",
+            "reponse": "22"
+        },
+        {
+            "question": "Port : HTTPS",
+            "reponse": "443"
+        },
+        {
+            "question": "Port : DNS",
+            "reponse": "53"
+        },
+        {
+            "question": "Port : telnet",
+            "reponse": "23"
+        },
+        {
+            "question": "Port : SMTP",
+            "reponse": "25"
+        },
+        {
+            "question": "Port : POP3",
+            "reponse": "110"
+        },
+        {
+            "question": "Port : IMAP",
+            "reponse": "143"
+        },
+        {
+            "question": "Port : TFTP",
+            "reponse": "69"
+        },
+        {
+            "question": "Port : serveur proxy (le plus souvent)",
+            "reponse": "8080"
+        },
+        {
+            "question": "Port : NMAP",
+            "reponse": "689"
+        },
+        {
+            "question": "Port : SFTP",
+            "reponse": "115"
+        }
+    ]
+}
