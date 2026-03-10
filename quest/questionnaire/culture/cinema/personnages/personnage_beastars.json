@@ -1,0 +1,209 @@
+{
+    "titre": "Personnages Beastars",
+    "type": "txt",
+    "reverse": 0,
+    "path": "quest/img/img_personnage_beastars",
+    "explication": "Regroupe les personnages de Beastars.",
+    "questionnaire": [
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "legoshi.png",
+            "reponse": "Legoshi"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "haru.png",
+            "reponse": "Haru"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "agata.png",
+            "reponse": "Agata"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "airdo.png",
+            "reponse": "Airdo"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "ako.png",
+            "reponse": "Ako"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "aoba.png",
+            "reponse": "Aoba"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "bill.png",
+            "reponse": "Bill"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "boss.png",
+            "reponse": "Boss"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "cosmo.png",
+            "reponse": "Cosmo"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "dom.png",
+            "reponse": "Dom"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "durham.png",
+            "reponse": "Durham"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "els.png",
+            "reponse": "Els"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "free.png",
+            "reponse": "Free"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "fudge.png",
+            "reponse": "Fudge"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "gohin.png",
+            "reponse": "Gohin"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "gon.png",
+            "reponse": "Gon"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "gosha.png",
+            "reponse": "Gosha"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "ibuki.png",
+            "reponse": "Ibuki"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "jack.png",
+            "reponse": "Jack"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "juno.png",
+            "reponse": "Juno"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "kai.png",
+            "reponse": "Kai"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "kibi.png",
+            "reponse": "Kibi"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "kolo.png",
+            "reponse": "Kolo"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "leano.png",
+            "reponse": "Leano"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "legom.png",
+            "reponse": "Legom"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "louis.png",
+            "reponse": "Louis"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "miguno.png",
+            "reponse": "Miguno"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "mizuchi.png",
+            "reponse": "Mizuchi"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "oguma.png",
+            "reponse": "Oguma"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "pina.png",
+            "reponse": "Pina"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "riz.png",
+            "reponse": "Riz"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "rokume.png",
+            "reponse": "Rokume"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "sanu.png",
+            "reponse": "Sanu"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "seven.png",
+            "reponse": "Seven"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "sheila.png",
+            "reponse": "Sheila"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "sunaga.png",
+            "reponse": "Sunaga"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "tao.png",
+            "reponse": "Tao"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "tem.png",
+            "reponse": "Tem"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "yafya.png",
+            "reponse": "Yafya"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "zaguan.png",
+            "reponse": "Zaguan"
+        }
+    ]
+}

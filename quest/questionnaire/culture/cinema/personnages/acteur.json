@@ -6,22 +6,134 @@
     "explication": "Regroupe les acteurs connus via l'image de leur tête. Ils ne sont pas tous la, donc hésiter pas à me contacter si il en manque un.",
     "questionnaire": [
         {
-            "question": "Qui est cet acteur ?",
+            "question": "Qui est cet acteur/rice ?",
             "image": "leonardo_dicaprio.png",
-            "reponse": "leonardo dicaprio",
-            "def": "Léonardo Dicaprio"
+            "reponse": "Léonardo Dicaprio"
         },
         {
-            "question": "Qui est cet acteur ?",
+            "question": "Qui est cet acteur/rice ?",
             "image": "brad_pitt.png",
-            "reponse": "brad pitt",
-            "def": "Brad Pitt"
+            "reponse": "Brad Pitt"
         },
         {
-            "question": "Qui est cet acteur ?",
+            "question": "Qui est cet acteur/rice ?",
             "image": "robert_de_niro.png",
-            "reponse": "robert de niro",
-            "def": "Robert De Niro"
+            "reponse": "Robert De Niro"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "will_smith.png",
+            "reponse": "Will Smith"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "johnny_depp.png",
+            "reponse": "Jhonny Depp"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "jack_nichlson.png",
+            "reponse": "Jack Nichlson"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "samuel_l_jackson.png",
+            "reponse": ["Samuel L Jackson","Samuel L. Jackson"]
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "morgan_freeman.png",
+            "reponse": "Morgan Freeman"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "russel_crowe.png",
+            "reponse": "Russel Crowe"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "denzel_washington.png",
+            "reponse": "Denzel Washington"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "clint_eastwood.png",
+            "reponse": "Clint Eastwood"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "joaquin_phoenix.png",
+            "reponse": "Joaquin Phoenix"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "bruce_willis.png",
+            "reponse": "Bruce Willis"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "tom_cruise.png",
+            "reponse": "Tom Cruise"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "jake_gyllenhaal.png",
+            "reponse": "Jake Gyllenhaal"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "john_travolta.png",
+            "reponse": "John Travolta"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "forest_whitaker.png",
+            "reponse": "Forest Whitaker"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "tom_hardy.png",
+            "reponse": "Tom Hardy"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "matt_damon.png",
+            "reponse": "Matt Damon"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "robert_downey_jr.png",
+            "reponse": ["Robert Downey Junior","Robert Downey Jr","Robert Downey Jr."]
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "nicolas_cage.png",
+            "reponse": "Nicolas_cage.png"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "arnold_schwarzenegger.png",
+            "reponse": "Arnold Schwarzenegger"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "sylvester_stallone.png",
+            "reponse": "Sylvester Stallone"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "robin_williams.png",
+            "reponse": "Robin Williams"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "anthony_hopkins.png",
+            "reponse": "Anthony Hopkins"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "ryan_gosling.png",
+            "reponse": "Ryan Gosling"
         }
     ]
 }
