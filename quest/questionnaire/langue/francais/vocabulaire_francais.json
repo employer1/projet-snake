@@ -6,6 +6,10 @@
     "explication": "Regroupe des mots distingué du vocabulaire français.",
     "questionnaire": [
         {
+            "question": "Sans avoir rien mangé ni bu depuis le réveil.",
+            "reponse": "a jeun"
+        },
+        {
             "question": "Dont la bassesse suscite le mépris : Une action ***. Un homme ***.",
             "reponse": [
                 "abject",
@@ -80,6 +84,14 @@
         {
             "question": "Personne qui vit de procédés indélicats.",
             "reponse": "aigrefin"
+        },
+        {
+            "question": "",
+            "reponse": "alcologue"
+        },
+        {
+            "question": "Renfoncement ménagé dans une chambre pour recevoir un lit. ■ D'***, relatif à la vie intime, amoureuse : Secret d'***. Public friand d'histoire d'***.",
+            "reponse": "alcôve"
         },
         {
             "question": "1 Qui fait envie ; appétissant : Une odeur ***. 2 Qui séduit par le plaisir que l'on en attend : Une offre ***. ",
@@ -516,6 +528,21 @@
             ]
         },
         {
+            "question": "Personne qui vit en concubinage.",
+            "reponse": [
+                "concubin",
+                "concubine"
+            ]
+        },
+        {
+            "question": "Union de fait entre deiux personnes célibataires, de même sexe ou de sexe différent, vivant ensemble de manière stable et continue. (On dit aussi \"union libre\" ou \"civile\")",
+            "reponse": "concubinage"
+        },
+        {
+            "question": "1 Valeur que prennent des paroles au-delà de leur signification première : Un discours aux *** racistes.",
+            "reponse": "connotation"
+        },
+        {
             "question": "1 Qui peut arriver ou ne pas arriver ; fortuit : Des évènements ***. 2 Qui peut se produire ou non, être ou ne pas être (par oppos. à nécessaire). 3 Ensemble des jeunes appelés au service national, au cours d'une même année civile. 4 Quantité que quelqu'un doit fournir ou recevoir ; quota.",
             "reponse": [
                 "contingent",
@@ -725,6 +752,10 @@
             "reponse": "disparate"
         },
         {
+            "question": "Répandre çà et là : *** des appâts dans l'eau. *** des espions dans la foule.",
+            "reponse": "disséminer"
+        },
+        {
             "question": "Vive opposition de sentiments, d'intérêts, d'idées ; désaccord.",
             "reponse": "dissension"
         },
@@ -809,6 +840,18 @@
         {
             "question": "Etre dévolu par le hasard ; revenir à : La tâche de les prévenir lui a ***. ⬥ Arriver à échéance, en parlant d'une dette, d'un engagement : Le terme *** à la fin du trimestre. Les délais sont ***.",
             "reponse": "échoir"
+        },
+        {
+            "question": "1 Science qui étudie les relations des êtres vivants avec leur environnement. 2 ***gisme.",
+            "reponse": "écologie"
+        },
+        {
+            "question": "Courant de pensée, mouvement tendant au respect des équilibres naturels, à la protection de l'environnement contre les nuisances de la société industrielle.",
+            "reponse": "écologisme"
+        },
+        {
+            "question": "Spécialiste en écologie.",
+            "reponse": "écologue"
         },
         {
             "question": "Refuser de recevoir quelqu'un ; écarter sans ménagement : La ministre à *** les journalistes.",
@@ -984,6 +1027,17 @@
             "reponse": "entrelacs"
         },
         {
+            "question": "Personne qui s'entremet dans des affaires amoureuses.",
+            "reponse": [
+                "entremetteur",
+                "entremetteuse"
+            ]
+        },
+        {
+            "question": "Intervenir pour mettre des personnes en relation ou faciliter une action : S'*** pour aider quelqu'un à obtenir un logement.",
+            "reponse": "entremettre"
+        },
+        {
             "question": "Donner libre cours à un sentiment : *** son amertume. ⬥ S'*** 1 Se confier librement ; se livrer : Elle s'est *** sur son blog. 2 Se manifester librement, en parlant d'un sentiment. 3 En parlant d'un liquide de l'organisme, se répandre hors de sa cavité naturelle ou dans des tissus.",
             "reponse": "épancher"
         },
@@ -1079,6 +1133,10 @@
             "reponse": "etayer"
         },
         {
+            "question": "",
+            "reponse": "éthologue"
+        },
+        {
             "question": "Faire pousser un légume à l'abri de la lumière pour le faire blanchir : *** des endives.⬥ S'*** 1 Devenir rabougri, en parlant d'une plante. 2 Devenir malingre, chétif ; dépérir.",
             "reponse": "étioler"
         },
@@ -1142,6 +1200,10 @@
                 "expansif",
                 "expansive"
             ]
+        },
+        {
+            "question": "Obliger quelqu'un à quitter sa partie. ⬥ S'***, quitter sa patrie pour s'établir ailleurs.",
+            "reponse": "expatrier"
         },
         {
             "question": "Attitude prudente de quelqu'un qui attend avant d'agir : Rester dans l'***.",
@@ -1360,8 +1422,20 @@
             "reponse": "geôle"
         },
         {
+            "question": "1 Science des matériaux qui constituent le globe terrestre (en particulier ceux qui sont directement accessibles à l'observation) et étude des transformations actuelles et passées subies par la terre. 2 Ensemble des caractéristiques du sous-sol d'une région : La *** des Alpes.",
+            "reponse": "géologie"
+        },
+        {
+            "question": "Spécialiste de géologie.",
+            "reponse": "géologue"
+        },
+        {
             "question": "1 Cuisse de chevreuil. 2 Jambe. ■ Grande ***, Fille grande et maigre. 3 Pièce instrumentale de tempo vif, de coupe binaire à reprises et de rythme ternaire, concluant une suite. 4 Danse d'origine anglaise, exécutée en solo, caractérisée par des frappements vifs et alternés des talons et des pointes.",
             "reponse": "gigue"
+        },
+        {
+            "question": "Etude des gîtes métallifères.",
+            "reponse": "gîtologie"
         },
         {
             "question": "1 Epée courte à deux tranchants. 2 Symbole de la guerre, des combats : Conquérir par le ***.",
@@ -1544,6 +1618,13 @@
         {
             "question": "Etre imposé à quelqu'un, en parlant d'une charge, d'un devoir ; revenir à : Cette révélation *** à son médecin.",
             "reponse": "incomber"
+        },
+        {
+            "question": "Qui va contre les règles du savoir-vivre, de la bienséance ; inconvenant : Réflexion ***.",
+            "reponse": [
+                "incongru",
+                "incongrue"
+            ]
         },
         {
             "question": "1 Somme allouée pour dédommager d'un préjudice. 2 Elément d'une rémunération ou d'un salaire destiné à compenser une augmentation du coût de la vie ou à rembourser une dépense imputable à l'exercice de la profession. ■ *** de licenciement, versée par l'employeur à un salarié licencié sans faute grave, calculée en proportion de son salaire et de son ancienneté. ■ *** journalière, prestation en espèces destinées à compenser la perte de salaire subie par l'assuré social, incapable temporairement de travailler. ■ *** parlementaire, traitement perçu par un député ou un sénateur.",
@@ -1808,8 +1889,16 @@
             "reponse": "lorgner"
         },
         {
+            "question": "Personne qui crée des jeux pour les médias.",
+            "reponse": "ludologue"
+        },
+        {
             "question": "Qui exprime ou inspire la tristesse ; sinistre : Une maison, une atmosphère ***.",
             "reponse": "lugubre"
+        },
+        {
+            "question": "1 Dont l'humeur est changeante et imprévisible. 2 Qui est distrait, dans la lune, qui a la tête ailleurs.",
+            "reponse": "lunatique"
         },
         {
             "question": "Qui a trait à la mort ; funèbre : En creusant les fondations, ils ont fait une découverte ***. Humour ***.",
@@ -1897,6 +1986,10 @@
             ]
         },
         {
+            "question": "Qui renferme un métal : Gisement ***.",
+            "reponse": "métallifère"
+        },
+        {
             "question": "Appareil servant à marquer la pulsation rythmique d'un morceau de musique.",
             "reponse": "métronome"
         },
@@ -1971,6 +2064,14 @@
             "reponse": "mystique"
         },
         {
+            "question": "1 Ensemble des mythes et des légendes propres à un peuple, à une civilisation, à une région : La *** celtique. 2 Mythes et légendes de la civilisation gréco-romaine. 3 Etude systématique des mythes. 4 Ensemble de croyances se rapportant à un même thème et s'imposant au sein d'une collectivité : La *** du sport.",
+            "reponse": "mythologie"
+        },
+        {
+            "question": "Spécialiste de mythologie.",
+            "reponse": "mythologue"
+        },
+        {
             "question": "Malicieux et moqueur ; railleur : Les élus de l'opposition étaient ***.",
             "reponse": [
                 "narquois",
@@ -2019,6 +2120,10 @@
             "reponse": "nimber"
         },
         {
+            "question": "Science qui étudie d'une part la typologie et transformation des cristaux de neige, d'autre part la structure et l'évolution du manteau neigeux, de façon, notamment, à prévenir les risques liés aux avalanches.",
+            "reponse": "nivologie"
+        },
+        {
             "question": "Cérémonie du mariage ; ensemble des personnes qui y participent. ■ Faire la ***, mener une vie dissolue ; faire la fête. ■ Ne pas être la ***, être dans une situation gênante, critique. ⬥ 1 Célébration du mariage ; réjouissance nuptiales : Le repas de ***. 2 Chacun des mariages contractés par quelqu'un : En secondes ***. ■ *** d'argent, d'or, de diamant, 25è, 50è et 60è anniversaire de mariage.",
             "reponse": "noce"
         },
@@ -2062,6 +2167,21 @@
         {
             "question": "1 Action d'omettre ; oubli : L'*** d'une virgule peut changer le sens d'un texte. 2 Ce qui est omis ; lacune : Des omissions dans un récit.",
             "reponse": "omission"
+        },
+        {
+            "question": "Cancérologie.",
+            "reponse": "oncologie"
+        },
+        {
+            "question": "Spécialiste d'oncologie.",
+            "reponse": "oncologue"
+        },
+        {
+            "question": "Qui occasionne des frais importants : Loisirs ***. ■ A titre ***, en payant.",
+            "reponse": [
+                "onéreux",
+                "onéreuse"
+            ]
         },
         {
             "question": "1 Relatif au rêve, à l'***. 2 Qui évoque le rêve : Scènes *** d'un film.",
@@ -2128,6 +2248,13 @@
         {
             "question": "Manger la végétation la plus basse : *** l'herbe. ⬥Manger de l'herbe : Faire *** un troupeau (Synonyme : Pacager, Pâturer). ■ Envoyer *** quelqu'un, l'éconduire avec brusquerie.",
             "reponse": "paître"
+        },
+        {
+            "question": "Personne qui panse, soigne les chevaux.",
+            "reponse": [
+                "palefrenier",
+                "palefrenière"
+            ]
         },
         {
             "question": "1 Assemblage de plumes flottantes servant d'ornement : Un chapeau à ***. 2 Ce qui évoque un *** : *** de fumée. 3 Bravoure pleine d'élégance ; brio : Discours plein de ***. 4 Bois caducs des cervidés : Un *** d'original. 5 Surface concave, appareillée en éventail, d'un pendentif ou d'une trompe.",
@@ -2203,6 +2330,14 @@
         {
             "question": "Homme qui pratique la pédérasterie.",
             "reponse": "pédéraste"
+        },
+        {
+            "question": "Etude des sols, de leurs caractéristiques chimiques, physiques et biologiques, de leur évolution.",
+            "reponse": "pédologie"
+        },
+        {
+            "question": "Spécialiste de pédologie.",
+            "reponse": "pedologue"
         },
         {
             "question": "1 Maison ; foyer : Fixer ses *** à la campagne. 2 Divinités du foyer ; statues de ces divinités.",
@@ -2294,6 +2429,14 @@
         {
             "question": "1 Etat de ce qui est cmoplet, entier ; intégralité : Retrouver la *** de ses moyens. 2 Sentiment de contentement absolu.",
             "reponse": "plénitude"
+        },
+        {
+            "question": "Discipline paramédicale qui étudie le pied et ses maladies.",
+            "reponse": "podologie"
+        },
+        {
+            "question": "Auxiliaire médical qui exerce la podologie.",
+            "reponse": "podologue"
         },
         {
             "question": "1 Personnage grotesque, bossu et pansu, du théâtre de marionnettes, issu de la comédie italienne. 2 Jout (marionnette) en forme de ***. 3 Personne ridicule, en qui l'on ne peut placer se confiance ; pantin. ■ Secret ***, chose que l'on veut dissimuler mais qui est connue de tous.",
@@ -2528,6 +2671,10 @@
             "reponse": "réprobation"
         },
         {
+            "question": "Renoncer volontairement à une charge, une fonction ; démissionner de : *** sa charge d'huissier. ⬥ Se ***, se soumettre sans protestation à quelque chose ; se résoudre à : Se *** à s'expatrier, à l'expatriation.",
+            "reponse": "résigner"
+        },
+        {
             "question": "Faire disparaître peu à peu : Comment *** le chômage. ⬥ Se ***. Disparaître ou être absorbé peu à peu.",
             "reponse": "résorber"
         },
@@ -2552,6 +2699,10 @@
                 "révolu",
                 "révolue"
             ]
+        },
+        {
+            "question": "Science des lois de comportement des matériaux, qui lient les contraintes aux déformations (élasticité, plasticité, viscosité, etc.)",
+            "reponse": "rheologie"
         },
         {
             "question": "Arbustre des régions tempérées de l'hémisphère Nord, dont certaines espèces sont cultivées pour leurs grandes fleurs ornementales.",
@@ -2636,6 +2787,10 @@
             ]
         },
         {
+            "question": "Spécialité médicale qui étudie et traite mes pathologies du sein.",
+            "reponse": "sénologie"
+        },
+        {
             "question": "1 Qui est porté vers les plaisirs des sens, les plaisirs érotiques, notamment. 2 Dont l'aspect, le cmoportement, l'œuvre évoquent les plaisirs des sens : Un artiste ***. Qui évoque le goût des plaisirs des sens : Une bouche ***.",
             "reponse": [
                 "sensuel",
@@ -2649,6 +2804,14 @@
         {
             "question": "1 Relatif au servage. 2 Qui fait preuve d'une soumission excessive ; obséquieux : Employé, acquiescement ***. 3 Qui suit trop étroitement le modèle : Traduction ***.",
             "reponse": "servile"
+        },
+        {
+            "question": "Etude de la sexualité, de ses troubles.",
+            "reponse": "sexologie"
+        },
+        {
+            "question": "Spécialiste de sexologie.",
+            "reponse": "sexologue"
         },
         {
             "question": "Qui va bien à : Une couleur très seyante.",
@@ -2668,6 +2831,18 @@
         {
             "question": "Qui rappelle le singe : Grimaces ***.",
             "reponse": "simiesque"
+        },
+        {
+            "question": "Etude de l'histoire, de la langue et de la civilisation chinoises.",
+            "reponse": "sinologie"
+        },
+        {
+            "question": "Spécialiste de sinologie (synonyme : sinisant).",
+            "reponse": "sinologue"
+        },
+        {
+            "question": "Spécialiste de l'étude et de ka cconversation des sites naturels.",
+            "reponse": "sitologue"
         },
         {
             "question": "1 D'une saleté repoussante ; misérable : Des taudis ***. 2 D'une grande bassesse morale ; abject : Une affaire ***. 3 Marqué par l'âpreté au gain ; mesquin : De *** questions d'intérêt.",
@@ -2755,6 +2930,10 @@
             "reponse": "targuer"
         },
         {
+            "question": "Arty de tirer les cartes, les tarots.",
+            "reponse": "tarologie"
+        },
+        {
             "question": "Personne qui fait ou prétend faire des miracles.",
             "reponse": "thaumaturge"
         },
@@ -2826,6 +3005,22 @@
             "reponse": "ubiquité"
         },
         {
+            "question": "Etude des ovnis.",
+            "reponse": "ufologie"
+        },
+        {
+            "question": "Spécialiste d'ufologie.",
+            "reponse": "ufologue"
+        },
+        {
+            "question": "Spécialité médicale qui étudie les maladies des voies urinaires des deux sexes et de l'appareil génito-urinaire masculin.",
+            "reponse": "urologie"
+        },
+        {
+            "question": "Spécialiste d'urologie.",
+            "reponse": "urologue"
+        },
+        {
             "question": "⬥ 1 Qui est issu de la même mère, mais non du même père (par opposition à consanguin). 2 Matrilinéaire.",
             "reponse": [
                 "utérin",
@@ -2843,6 +3038,13 @@
         {
             "question": "Manifestation violente et passionnée d'un sentiment ; exaltation.",
             "reponse": "véhémence"
+        },
+        {
+            "question": "1 Gâté par des vers : Prune ***. 2 Qui est malhonnête, louche : Article, journaliste ***.",
+            "reponse": [
+                "véreux",
+                "véreuse"
+            ]
         },
         {
             "question": "1 Pièce ou couloir d'entrée d'une maison, d'un édifice, donnant accès aux autres pièces, à l'escalier. 2 Cavité ou dépression s'ouvrant sur une autre cavité. ■ *** (de l'oreille interne), cavité osseuse formant la partie moyenne du labyrinthe, communiquant avec la cochlée et les canaux semi-circulaires, contenant deux poches membraneuses, l'utricule et le saccule, et jouant un rôle dans l'équilibration.",
@@ -2868,6 +3070,10 @@
             "reponse": "villégiature"
         },
         {
+            "question": "Partie de la microbiologie et de la médecine qui étudie les virus.",
+            "reponse": "virologie"
+        },
+        {
             "question": "1 Relatif aux viscères : Cavité ***. 2 Qui vient des profondeurs de l'être : Une peur de l'être : Une peur ***.",
             "reponse": [
                 "viscéral",
@@ -2891,8 +3097,20 @@
             "reponse": "zézayer"
         },
         {
+            "question": "Branche des sciences de la vie qui étudie les animaux.",
+            "reponse": "zoologie"
+        },
+        {
             "question": "1 Qui a un caractère universel. 2 Relatif à l'***. 3 Qui rassemble des personnes aux idées, aux sensibilités différentes : Ils vont organiser un grand débat *** sur les violences urbaines. ■ Concile ***, dont la convocation a été notifiée à l'ensemble des évêques.",
             "reponse": "œcuménique"
+        },
+        {
+            "question": "Science et technique de la fabrication et de la conservation des vins ; science de la dégustation des vins.",
+            "reponse": "œnologie"
+        },
+        {
+            "question": "Spécialiste d'œnologie.",
+            "reponse": "œnologue"
         }
     ]
 }

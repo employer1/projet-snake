@@ -6,12 +6,877 @@
     "explication": "Répertorie les questions du quizz de cryptographie.",
     "questionnaire": [
         {
-            "question": "",
-            "reponse": ""
+            "question": "Un désavantage du protocole Diffie-Hellman est :",
+            "reponse": "Qu'il exige la simultaneité des actions des interlocuteurs.",
+            "leurre": [
+                "Qu'il est nécessaire d'échanger la clé sur le réseau.",
+                "Que la clé générée ne peut dépasser 64 bits.",
+                "Les 3 propositions citées."
+            ]
         },
         {
-            "question": "",
-            "reponse": ""
+            "question": "Quelles sont les tailles préconisées pour se défendre des attaques cryptanalytiques ?",
+            "reponse": "Taille de hach : 256 bits - clé asymétrique : 2048 bits - clé symétrique : 256 bits",
+            "leurre": [
+                "taille de hach : 128 bits - clé asymétrique : 2048 bits - clé symétrique : 256 bits.",
+                "taille de hach : 256 bits - clé asymétrique : 2048 bits - clé symétrique : 128 bits.",
+                "taille de hach : 256 bits - clé asymétrique : 2048 bits - clé symétrique : 1024 bits."
+            ]
+        },
+        {
+            "question": "Quelle est la signification du terme anglais \"plaintext\" ?",
+            "reponse": "Message sous sa forme originelle non chiffrée.",
+            "leurre": [
+                "Action de chiffrer le message.",
+                "Algorithme de chiffrement.",
+                "Message sous sa forme chiffrée et donc incompréhensible."
+            ]
+        },
+        {
+            "question": "Un message chiffré avec une clé publique.",
+            "reponse": "Ne pourra pas être déchiffré que par la clé privée associée à cette clé publique.",
+            "leurre": [
+                "Ne pourra pas être déchiffrée.",
+                "Ne pourra être déchiffré que par cette même clé publique.",
+                "Pourra être déchiffré par cette clé publique et par la clé privée associée."
+            ]
+        },
+        {
+            "question": "Combien de clés différentes existe-t-il si la taille de la clé est de 4 bits ?",
+            "reponse": "16",
+            "leurre": [
+                "32",
+                "8",
+                "4"
+            ]
+        },
+        {
+            "question": "Lors du protocole BB84, un photon polarisé diagonalement.",
+            "reponse": "A une probabilité de 50% de passer un filtre polarisant placé horizontalement.",
+            "leurre": [
+                "Ne passera pas un filtre polarisant placé horizontalement.",
+                "Passera par un fitre polarisant placé horizontalement.",
+                "N'est pas utilisé pour ce protocole."
+            ]
+        },
+        {
+            "question": "Le fait d'utiliser une clé de session permet :",
+            "reponse": "D'utiliser les avantages des chiffrements symétrique et asymétrique.",
+            "leurre": [
+                "Est de n'utiliser que le chiffrement symétrique.",
+                "Est de n'utiliser que le chiffrement asymétrique.",
+                "Est de permettre de changer de mot de passe à chaque nouvelle session."
+            ]
+        },
+        {
+            "question": "Pour une fonction de hachage, on dit qu'il y a collision lorsque :",
+            "reponse": "Deux données différentes donnent la même empreinte.",
+            "leurre": [
+                "Deux empreintes différentes proviennent d'une donnée identique.",
+                "Les adresses IP de 2 serveurs sont identiques.",
+                "Deux fonctions de hachage donnent la même empreinte pour le même fichier."
+            ]
+        },
+        {
+            "question": "La fiabilité du protocole RSA tient du fait qu'il est difficile :",
+            "reponse": "De factoriser de très grands nombres.",
+            "leurre": [
+                "De multiplier de très grands nombres.",
+                "D'appliquer des XOR sur de très grands nombres.",
+                "De retrouver l'IP de l'initiateur de la conversation."
+            ]
+        },
+        {
+            "question": "Lors d'un chiffrement de type poly-alphabétique, la relation entre caractère :",
+            "reponse": "Du texte en clair et du texte chiffré a une correspondance de un à plusieurs.",
+            "leurre": [
+                "Du texte en clair et du texxte chiffré a une correspondance de un à un.",
+                "Du texte en clair et du texte chiffré a une correspondance de plusieurs à un.",
+                "Du texte en clair et du texte chiffré est aléatoire."
+            ]
+        },
+        {
+            "question": "La manière de lier une clé privée et sa clé publique est d'utiliser :",
+            "reponse": "Des fonctions à sens unique avec trappe secrète.",
+            "leurre": [
+                "Des fonctions secrètes, seulement connue des interlocuteurs.",
+                "Des fonctions qui permettent de trouver la clé privée à partir de la clé publique.",
+                "Un algorithme symétrique pour les générer."
+            ]
+        },
+        {
+            "question": "Cette manière de chiffrer modifie la position des caractères mais pas leur identité.",
+            "reponse": "Transposition",
+            "leurre": [
+                "Substitution",
+                "Indentation",
+                "Caractérisation"
+            ]
+        },
+        {
+            "question": "Un certificat électronique doit être signé par :",
+            "reponse": "La clé privée de l'organisme de certification.",
+            "leurre": [
+                "La clé privée du destinataire.",
+                "La clé privée de l'émetteur.",
+                "Les 3 clés mentionnées."
+            ]
+        },
+        {
+            "question": "La substitution par rotation :",
+            "reponse": "N'a pas besoin de table de conversion (nécessaire à la substitution arbitraire).",
+            "leurre": [
+                "Toutes les propositions citées.",
+                "Il faut appliquer un XOR entre le message et la clé de chiffrement.",
+                "Est équivalente au chiffre de Vernam."
+            ]
+        },
+        {
+            "question": "Quelle est la signification du terme anglais \"ciphertext\" ?",
+            "reponse": "Message sous sa forme chiffrée et donc incompréhensible.",
+            "leurre": [
+                "Action de chiffrer le message.",
+                "Algorithme de chiffrement.",
+                "Message sous sa forme originelle non chiffrée."
+            ]
+        },
+        {
+            "question": "Quel est l'agorithme de chiffrement symétrique ?",
+            "reponse": "3DES",
+            "leurre": [
+                "RSA",
+                "SHA-1",
+                "MD5"
+            ]
+        },
+        {
+            "question": "L'algorithme de chiffrement RC4 :",
+            "reponse": "Est mal implémenté pour le standard Wi-Fi WEP.",
+            "leurre": [
+                "Est une méthode de chiffrement par bloc.",
+                "A été conçu pour le remplacement du DES.",
+                "Les 3 propositions citées."
+            ]
+        },
+        {
+            "question": "Les algorithmes de chiffrement utilisent un vecteur d'initialisation ou IV pour :",
+            "reponse": "Générer des clés différentes à partir d'une clé partagée entre les interlocuteurs.",
+            "leurre": [
+                "Pour initialiser l'échange de clé.",
+                "Pour initialiser le dialogue entre les interlocuteurs.",
+                "Pour choisir une clé au hasard dans un dictionnaire de clés."
+            ]
+        },
+        {
+            "question": "IL est possible de récupérer l'image d'un écran à l'aide :",
+            "reponse": "Les 3 propositions citées.",
+            "leurre": [
+                "De la réflexion de celui-ci sur une théière.",
+                "De la réflection de celui-ci sur une cuillère.",
+                "De la réflection de celui-ci sur une bouteille en plastique."
+            ]
+        },
+        {
+            "question": "Un des principes de Kerckoffs émet le fait que :",
+            "reponse": "La sécurité ne repose que sur le secret de la clé.",
+            "leurre": [
+                "Les faiblesses d'un système cryptographique doivent rester secrètes.",
+                "La clé peut être publique mais pas l'algorithme.",
+                "La sécurité ne repose que sur l'algorithme."
+            ]
+        },
+        {
+            "question": "Le standard de chiffrement AES supporte entre autre des clés de :",
+            "reponse": "128 bits",
+            "leurre": [
+                "64 bits",
+                "1024 bits",
+                "16 bits"
+            ]
+        },
+        {
+            "question": "Dans une infrastructure PKI, un CA (certificate authority) :",
+            "reponse": "Emet et révoque des certificats.",
+            "leurre": [
+                "Détient les certificats (avec leur clé publique).",
+                "Agit comme vérificateur d'identité.",
+                "Initie les transactions."
+            ]
+        },
+        {
+            "question": "La signature d'un message :",
+            "reponse": "Permet d'authentifier l'émetteur d'un message.",
+            "leurre": [
+                "Permet d'authentifier le destinataire d'un message.",
+                "Demande à l'émetteur deu message de le signer avec sa clé publique.",
+                "Demande au destinataire du message de vérifier la signature avec sa clé privée."
+            ]
+        },
+        {
+            "question": "L'attaque par dictionnaire est douvent utilisée :",
+            "reponse": "Pour retrouver des mots de passes.",
+            "leurre": [
+                "Pour retrouver des clés de chiffrement.",
+                "Pour retrouver des documents à partir de leur empreinte.",
+                "Pour retrouver Robert."
+            ]
+        },
+        {
+            "question": "Quel est l'algorithme de chiffrement asymétrique ?",
+            "reponse": "Diffie-Hellman",
+            "leurre": [
+                "SHA-1",
+                "DES",
+                "MD5"
+            ]
+        },
+        {
+            "question": "En chiffrement par bloc, le mode ECB n'est pas recommandé car :",
+            "reponse": "Il est possible de créer un dictionnaire de code pour décrypter le message.",
+            "leurre": [
+                "C''est un mode qui est très lent.",
+                "C'est un mode qui nécessite beaucoup de puissance de calcul.",
+                "Il est possible de retrouver la clé à l'aide d'un algorithme bien connu."
+            ]
+        },
+        {
+            "question": "Lors du chiffrement par flot :",
+            "reponse": "La longueur du message ne doit pas être connue à l'avance.",
+            "leurre": [
+                "La longueur du message doit être connue à l'avance.",
+                "La clé doit être changée tout les 16 bytes.",
+                "La clé doit être décidée à l'avance et être aussi longue que le message."
+            ]
+        },
+        {
+            "question": "Qu'est-ce que la sténographie ?",
+            "reponse": "L'art de dissimuler un message dans un autre support de manière à ce que sa présence passe inaperçue.",
+            "leurre": [
+                "La méthode utilisée pour protéger des données en utilisant des signatures numériques.",
+                "La technique de casser des codes secrets sans connaître la clé de chiffrement.",
+                "L'art de chiffrer des messages pour les rendre illisibles sans la clé secrète."
+            ]
+        },
+        {
+            "question": "La technique du chiffre de César correspond à une technique :",
+            "reponse": "De substitution par rotation.",
+            "leurre": [
+                "De permutation.",
+                "Utilisant XOR.",
+                "De permutation rectangulaire."
+            ]
+        },
+        {
+            "question": "Lors du chiffremnt par bloc, si la longueur du message n'est pas multiple de la taille d'un bloc :",
+            "reponse": "Il faut effectuer du padding.",
+            "leurre": [
+                "LE dernier bloc n'est pas pris en compte.",
+                "Il faut effectuer du salage.",
+                "La taille d'un bloc sera modifiée pour que la taille du message en soit un multiple."
+            ]
+        },
+        {
+            "question": "Qu'est-ce qu'une scytale utilise comme clé de chiffrement ?",
+            "reponse": "Un morceau de bois.",
+            "leurre": [
+                "Deux roues concentriques contenant l'alphabet de manière inversée.",
+                "Un tableau à double entrée.",
+                "Un coffre fort."
+            ]
+        },
+        {
+            "question": "SSL et TLS sont des protocoles permettant :",
+            "reponse": "Les trois propositions proposées.",
+            "leurre": [
+                "L'authentification des intervenants.",
+                "De vérifier l'intégrité des échanges de données.",
+                "La confidentialité des données échangées."
+            ]
+        },
+        {
+            "question": "L'analyse fréquentielle permettant par exemple de casser le chiffre de César consiste à compter :",
+            "reponse": "Les occurences de chaque lettre de l'alphabet dans le texte chiffré.",
+            "leurre": [
+                "La fréquence des espaces entre les mots dans le texte chiffré.",
+                "Le nombre de fois qu'une même suite de mot apparait dans le texte chiffré.",
+                "Le nombre de mot en moyenne par phrase."
+            ]
+        },
+        {
+            "question": "L'utilité du protocole Diffie-Hellman est de :",
+            "reponse": "Partager une clé sans à avoir à la communiquer.",
+            "leurre": [
+                "Chiffrer des données rapidement.",
+                "De produire facilement une paire de clés publique et privée.",
+                "Transférer une clé sur le réseau en protégeant sa communication."
+            ]
+        },
+        {
+            "question": "Les algorithmes quantiques utilisant les futurs ordinateurs quantiques :",
+            "reponse": "Pourront casser RSA et Diffie-Hellman dans un temps raisonnable.",
+            "leurre": [
+                "Pourront casser AES-256, RSA et DH dans un temps raisonnable.",
+                "N'auront aucune influence sur les méthodes de cryptographie classique.",
+                "Doubleront la vitesse de factorisation par rapport aux algorithmes classiques."
+            ]
+        },
+        {
+            "question": "Le principe de chiffrement par substitution mono alphabétique consiste à :",
+            "reponse": "Décaler les lettres de l'alphabet d'un nombre \"n\".",
+            "leurre": [
+                "Remplacer des groupes de lettres par une seule lettre.",
+                "Permuter les lettres du message.",
+                "Toutes les propositions citées."
+            ]
+        },
+        {
+            "question": "La technique de la sténographie signifie que :",
+            "reponse": "Le message est en clair et bien caché.",
+            "leurre": [
+                "Le message est chiffré et à la vue de tous.",
+                "Le message est en clair et à la vue de tous.",
+                "Le message est chiffré et bien caché."
+            ]
+        },
+        {
+            "question": "Un Qbit :",
+            "reponse": "Equivaut à une superposition de l'état 1 et 0.",
+            "leurre": [
+                "Equivaut à 4 bits classqiues.",
+                "Equivaut à 16 bits classiques.",
+                "Equivaut à une superposition de 10 états."
+            ]
+        },
+        {
+            "question": "L'ordinateur quantique repose sur un des principes ou techniques quantiques suivant :",
+            "reponse": "Les 3 principes.",
+            "leurre": [
+                "La superposition quantique (probabilité de se trouver à un endroit donné).",
+                "L'intrication quantique (plusieurs particules ne forment qu'un seul système).",
+                "Le qbit (analogue au bit classique)."
+            ]
+        },
+        {
+            "question": "L'algorithme MD5 :",
+            "reponse": "Ne doit être utilisé que s'il n'y a pas d'autres possibilité.",
+            "leurre": [
+                "Est un algorithme de chiffrement asymétrique.",
+                "Est l'algorithme de prise d'empreinte le plus sécurisé du moment.",
+                "Est un algorithme de chiffrement symétrique."
+            ]
+        },
+        {
+            "question": "Quelle est la signification du terme anglais \"decryption\" ?",
+            "reponse": "Les trois propositions proposées.",
+            "leurre": [
+                "Action de déchiffrer le message.",
+                "Action de decrypter le message.",
+                "Action de rendre/transformer un \"cyphertext\" en \"plaintext\"."
+            ]
+        },
+        {
+            "question": "Pour pouvoir réaliser du chiffrement/déchiffrement symétrique :",
+            "reponse": "Il vaut mieux disposer d'un canal sûr pour échanger la clé.",
+            "leurre": [
+                "La clé est sécurisée et peut transiter sans souci par un canal non sûr.",
+                "Il n'y a pas besoin de clé pour déchiffrer le message.",
+                "Il suffit de regarder le message dans un miroir pour le déchiffrer."
+            ]
+        },
+        {
+            "question": "Un des principes du chiffrement asymétrique est que :",
+            "reponse": "Un message chiffré avec une clé ne sait être déchiffré avec cette même clé.",
+            "leurre": [
+                "La clé de chiffrement est identique à celle de déchiffrement.",
+                "La clé privée doit être distribuée à tous les interlocuteur.",
+                "La clé publique et la clé privée n'ont aucun lien entre-elles."
+            ]
+        },
+        {
+            "question": "Lors du chiffrement Playfair, il faut construire un tableau de :",
+            "reponse": "5*5 lettres",
+            "leurre": [
+                "2*2 lettres",
+                "6*6 lettres",
+                "26 lettres"
+            ]
+        },
+        {
+            "question": "Un des atouts de la méthode de chiffrement de Vigenère est :",
+            "reponse": "Qu'une même lettre ne sera pas toujours chiffrée par une même autre lettre.",
+            "leurre": [
+                "Qu'elle est très rapide à effectuer à la main.",
+                "Qu'elle n'a pas besoin de clé de chiffrement.",
+                "Qu'uen même lettre sera toujours chiffrée par une même autre lettre."
+            ]
+        },
+        {
+            "question": "Le chiffrement à clé publique :",
+            "reponse": "Est équivalent à du chiffrement asymétrique.",
+            "leurre": [
+                "Est équivalent à du chiffrement symétrique.",
+                "Permet aux interlocuteurs de n'utiliser qu'une seule clé partagée.",
+                "Permet de rendre publique toutes les clés utilisées pour l'échange du message."
+            ]
+        },
+        {
+            "question": "Le gros désavantage du chiffrement symétrique est :",
+            "reponse": "Le nombre de clés à échanger lorsque le nombre d'interlocuteurs est élevé.",
+            "leurre": [
+                "Qu'il est très lent.",
+                "Qu'il consomme beaucoup de ressource CPU.",
+                "Qu'il faut des clés de taille élevées (plus de 1024 bits)."
+            ]
+        },
+        {
+            "question": "L'\"intégrité\" d'un message est vérifiée lorsque :",
+            "reponse": "Le message n'a pas été falsifié ou détruit.",
+            "leurre": [
+                "On ne peut nié qu'un message à été envoyé, reçu, etc.",
+                "Il est incompréhensible pour les personens non impliquées.",
+                "On est certain de l'identité des personnes impliquées."
+            ]
+        },
+        {
+            "question": "Pour valider un certificat électronique il faut :",
+            "reponse": "Les trois propositions proposées.",
+            "leurre": [
+                "Comparer le hash calculé et celui se trouvant dans la signature.",
+                "Vérifier que la période de validité du certificat est correcte.",
+                "Obtenir la clé publique de l'organisme de certification."
+            ]
+        },
+        {
+            "question": "Actuellement, un des principes les plus important en cryptographie est que :",
+            "reponse": "Le plus important est la clé et non l'algorithme.",
+            "leurre": [
+                "Le secret du message chiffré est basé sur le secret de l'algorithme.",
+                "L'algorithme de chiffrement doit absolument rester privé.",
+                "Le plus important est l'algorithme et non la clé."
+            ]
+        },
+        {
+            "question": "L'\"authentification\" d'un message est vérifiée lorsque :",
+            "reponse": "On est certain de l'identité des personnes cimpliquées.",
+            "leurre": [
+                "On ne peut nié qu'un message à été envoyé, reçu, etc.",
+                "Le message n'a pas été falsifié ou détruit.",
+                "Qu'il est incompréhensible pour les personnes non impliquées."
+            ]
+        },
+        {
+            "question": "Lors de \"power-monitoring side channel attack\" d'une clé RSA, on essaye :",
+            "reponse": "D'identifier les 1 et les 0 de la clé privée à l'aide de la consommation électrique.",
+            "leurre": [
+                "De retrouver l'algorithme utilisé lors du déchiffrement du message.",
+                "De retrouver le message en clair avant le chiffrement de celui-ci.",
+                "Les 3 propositions citées."
+            ]
+        },
+        {
+            "question": "Décrypter un message chiffré est :",
+            "reponse": "L'action de rendre ce message intelligible alors que la clé n'est pas connue.",
+            "leurre": [
+                "L'action dfe rendre ce message intelligible en utilisant la clé en sa possession.",
+                "Equivalent à cryptographier.",
+                "Aucune des trois autres propositions."
+            ]
+        },
+        {
+            "question": "Si vous chiffrez DIVAN en ROT4, vous obtenez :",
+            "reponse": "HMZER",
+            "leurre": [
+                "INAFS",
+                "QVINA",
+                "WVTTL"
+            ]
+        },
+        {
+            "question": "Le terme \"déchiffrer\", en cryptographie signifie :",
+            "reponse": "L'action de rendre ce message intelligible en utilisatn la clé en sa possession.",
+            "leurre": [
+                "L'action de rendre ce message intelligible alors que la clé n'est pas connue.",
+                "Equivalent à cryptographier.",
+                "Aucune des trois autres propositions."
+            ]
+        },
+        {
+            "question": "L'attaque \"Man in the Middle\" :",
+            "reponse": "Peut être utile lors de l'échange de clés asymétriques.",
+            "leurre": [
+                "Permet d'accélérer le décryptage du 2-DES.",
+                "Ne fonctionne que si une analyse de fréquence a été effectuée.",
+                "Aucune des trois autre propositions."
+            ]
+        },
+        {
+            "question": "Cette manière de chiffrer modifie l'identité des caractères mais pas leur position :",
+            "reponse": "Substitution",
+            "leurre": [
+                "Transposition",
+                "Indentation",
+                "Position"
+            ]
+        },
+        {
+            "question": "Sur les 64 bits de la clé DES, 56 sont utilisés réellement, les autres servent :",
+            "reponse": "De bits de parité.",
+            "leurre": [
+                "Aux 8 tours de chiffrement de l'algorithme.",
+                "A la conception de 16 sous-clés.",
+                "De vecteur d'initialisation."
+            ]
+        },
+        {
+            "question": "La distribution quantique de clé :",
+            "reponse": "Aucune des trois autres propositions.",
+            "leurre": [
+                "N'est utilisée que pour du chiffrement asymétrique.",
+                "Est plus sécurisée grâce aux algorithmes mathématiquement plus cmopliqués.",
+                "Permet d'utiliser une méthode de chiffrement sans clé secrète."
+            ]
+        },
+        {
+            "question": "Le chiffrement par flot tente d'imiter :",
+            "reponse": "Le chiffre de Verman.",
+            "leurre": [
+                "Le chiffre de César.",
+                "Le chiffre de Vigenère.",
+                "Le chiffre de Playfair."
+            ]
+        },
+        {
+            "question": "Les protocoles Diffie-Helmann et RSA :",
+            "reponse": "Pourraient être cassé avec une puissance de calcul et un temps infini.",
+            "leurre": [
+                "Ne pourront jamais être cassés.",
+                "Pourraient être cassé en une centaine d'années avec la technologie actuelle.",
+                "Pourraient être cassé si on utilisait la puissance de 10000 serveurs actuels."
+            ]
+        },
+        {
+            "question": "Au vu du paradoxe des anniversaires, lataille d'une empreinte devra être de minimum :",
+            "reponse": "256 bits",
+            "leurre": [
+                "128 bits",
+                "1 Mbits",
+                "16 bits"
+            ]
+        },
+        {
+            "question": "La \"non-répudiation\" d'un message est vérifiée lorsque :",
+            "reponse": "On ne peut nié qu'un message à été envoyé, reçu, etc.",
+            "leurre": [
+                "Le message n'a pas été falsifié ou détruit.",
+                "Il est incompréhensible pour les personnes non impliquées.",
+                "On est certain de l'identité des personnes impliquées."
+            ]
+        },
+        {
+            "question": "Le protocole BB84 :",
+            "reponse": "Utilisé des photons pouvant avoir 4 directions de polarisations différentes.",
+            "leurre": [
+                "Utilise des photons pouvant avoir 2 directions de polarisations différentes.",
+                "Utilise des filtres polarisants placés dans 4 directions différentes.",
+                "Utilise des filtres polarisants placés dans toutes les directions."
+            ]
+        },
+        {
+            "question": "La génération de nombre parfaitement aléatoire :",
+            "reponse": "Peut être produite à l'aide de la physique quantique :",
+            "leurre": [
+                "Peut être approchée, mais pas parfaitement à l'aide de la physique quantique.",
+                "N'est pas utile pour créer des clés de chiffrement symétriques.",
+                "N'est jamais utilisé en cryptographie."
+            ]
+        },
+        {
+            "question": "La \"Rainbow Table Attack\" :",
+            "reponse": "Les3 propositions citées.",
+            "leurre": [
+                "A pour but de trouver un bon compromis temps- mémoire lors du décryptage.",
+                "Nécessite obligatoirement plusieurs étapes pour retrouver un mot de passe.",
+                "Ne fonctionne que si on connait la méthode de hachage des mots de passes."
+            ]
+        },
+        {
+            "question": "Lorsqu'on ajoute un bit à la taille d'une clé cryptographique :",
+            "reponse": "On double le nombde de clés possibles.",
+            "leurre": [
+                "On ajoute une possibilité de clé.",
+                "Le nombre de clés possibles est multiplié par 4.",
+                "Si \"n\" était le nombre de clés possibles maintenant il sera de (n+1)*n"
+            ]
+        },
+        {
+            "question": "Un des avantages du chiffrement asymétrique est :",
+            "reponse": "Que la clé privée ne transite pas par le réseau.",
+            "leurre": [
+                "Que les clés privée et publique ne transitent pas par le réseau.",
+                "Que la clé privée transite par le réseau mais n'est pas déchiffrable.",
+                "Que la clé publique n'a pas besoin d'être communiquée à l'avance."
+            ]
+        },
+        {
+            "question": "Le terme \"cryptographie\" est formé à partir de deux mots grecs. Que signifient ces deux termes ?",
+            "reponse": "Ecrire et caché.",
+            "leurre": [
+                "Lirte et caché.",
+                "Ecrire et visible.",
+                "Lire et visible."
+            ]
+        },
+        {
+            "question": "AES est une méthode de chiffrement :",
+            "reponse": "Par bloc.",
+            "leurre": [
+                "Par flux.",
+                "Asymétrique.",
+                "Les trois propositions proposées."
+            ]
+        },
+        {
+            "question": "Pour déchiffrer un message chiffré avec XOR, il faut :",
+            "reponse": "Appliquer au message chiffré un XOR avec la clé de chiffrement.",
+            "leurre": [
+                "Appliquer au message chiffré un NOR avec la clé de chiffrement.",
+                "Être certain que la clé est plus courte que le message en clair.",
+                "Aucune des trois autres propositions."
+            ]
+        },
+        {
+            "question": "La sécurité du protocole BB84 repose sur le fait qu'Eve :",
+            "reponse": "Ne sait pas cloner un photon écouté (même polarisation).",
+            "leurre": [
+                "Ne comprendra pas la clé échangée vu qu'elle est chiffrée.",
+                "N'a pas l'équipement nécessaire pour comprendre le protocole.",
+                "Aucune des trois autres propositions."
+            ]
+        },
+        {
+            "question": "Lors de l'utilisation d'une machine Enigma :",
+            "reponse": "Chiffrer et déchiffrer un message se fait sans modifier le système.",
+            "leurre": [
+                "Il est impossible de déchiffrer un message sans modifier la machine.",
+                "Le système est basé sur le principe de la scytale.",
+                "Le système utilise 128 rotors."
+            ]
+        },
+        {
+            "question": "En chiffrement par bloc, lors de l'utilisation du mode CBC :",
+            "reponse": "Un bloc est chiffré à l'aide, entre autre, du bloc précédent.",
+            "leurre": [
+                "Il est possible de créer un dictionnaire de code pour décrypter le message.",
+                "Si une image est chiffrée, il est tout de même facile de la reconnaître.",
+                "Le déchiffrement n'est plus possible."
+            ]
+        },
+        {
+            "question": "Quelle contre-mesure n'est pas d'application pour se défendre d'application de cryptanalyse ?",
+            "reponse": "Le nombre d'opérations par clé doit être maximum.",
+            "leurre": [
+                "Les clés ne doivent pas se trouver dans des codes sources ni dans des fichiers.",
+                "Le transfert de clé privée ne doit pas être autorisé pour la signature de certificat.",
+                "L'authentification doit être implémenté pour les chiffrement à clé symétrique."
+            ]
+        },
+        {
+            "question": "Quelle définition représente le mieux un Atbash ?",
+            "reponse": "Deux roues concentriques contenant l'alphabet de manière inversée.",
+            "leurre": [
+                "Un tableau à double entrée permettant le chiffrement de message.",
+                "Un morceau de bois utilisé pour chiffrer des messages.",
+                "Un outil permettant de cahché des messages sans devoir les chiffrer."
+            ]
+        },
+        {
+            "question": "Un des principes du chiffrement symétrique est que :",
+            "reponse": "La clé de chiffrement est identique à celle de déchiffrement.",
+            "leurre": [
+                "La clé de chiffrement est l'inverse de celle de déchiffrement.",
+                "Un message chiffré avec une clé ne sait être déchiffré avec cette même clé.",
+                "Il n'y a pas besoin d'échange de clé pour une communication sécurisée."
+            ]
+        },
+        {
+            "question": "Une caractéristiques du chiffrement par l'opération logique XOR est :",
+            "reponse": "Qu'il est très simple.",
+            "leurre": [
+                "Qu'il est très lent.",
+                "Qu'il est très sécurisé.",
+                "Toutes les propositions citées."
+            ]
+        },
+        {
+            "question": "L'utilité du protocole RSA est de :",
+            "reponse": "De produire facilement une paire de clés publique et privée.",
+            "leurre": [
+                "Chiffrer des données rapidement.",
+                "Partager une clé sans à avoir à la communiquer.",
+                "Transférer une clé privée sur le réseau en protégeant sa communication."
+            ]
+        },
+        {
+            "question": "Quelle est la signification du terme anglais \"cipher\" ?",
+            "reponse": "Algorithme de chiffrement.",
+            "leurre": [
+                "Action de chiffrer le message.",
+                "Message sous sa forme originelle non chiffrée.",
+                "Aucune des trois autres propositions."
+            ]
+        },
+        {
+            "question": "En utilisant du chiffrement symétrique, 100 utilisateurs devant communiquer les uns avec les autres :",
+            "reponse": "Nécessiteront 4950 clés.",
+            "leurre": [
+                "Nécessiteront 100 clés.",
+                "Nécessiteront 200 clés.",
+                "Nécessiteront 195 clés."
+            ]
+        },
+        {
+            "question": "Le chiffre de Vigenère est une méthode utilisant :",
+            "reponse": "La substitution poly alphabétique.",
+            "leurre": [
+                "La substitution mono alphabétique.",
+                "La substitution mono alphabétique.",
+                "La permutation poly alphabétique."
+            ]
+        },
+        {
+            "question": "Quel est l'algorithme de hachage ?",
+            "reponse": "SHA-1",
+            "leurre": [
+                "3DES",
+                "RSA",
+                "Diffie-Hellman"
+            ]
+        },
+        {
+            "question": "A quel impératif doit répondre le chiffre de Verman ?",
+            "reponse": "La clé doit être parfaitement aléatoire.",
+            "leurre": [
+                "La clé doit être plus courte que le message.",
+                "Une clé doit être construite de façon non-aléatoire.",
+                "La même clé doit servir pour le premier et le dernier message envoyé."
+            ]
+        },
+        {
+            "question": "Une des demandes du cahier des charges pour la conception de la méthode de chiffrement DES est :",
+            "reponse": "Que l'algorithme doit être facile à implémenter.",
+            "leurre": [
+                "D'avoir une très grande clé ne servant qu'au chiffrement.",
+                "D'avoir une petite clé ne servant qu'au chiffrement.",
+                "Que la sureté ne doit se baser que sur la confidentialité de l'algorithme."
+            ]
+        },
+        {
+            "question": "Une fonction de hachage génère une empreinte :",
+            "reponse": "Toutes les propositions citées.",
+            "leurre": [
+                "Ayant toujours la même taille.",
+                "Unique (2 messages sont sensés avoir une empreinte différente).",
+                "Ne permettant pas de retrouver le message d'origine."
+            ]
+        },
+        {
+            "question": "Lors du chiffrement par permutation :",
+            "reponse": "Les caractères restent inchangés mais les positions de ceux-ci sont modifiées.",
+            "leurre": [
+                "Un caractère est remplacé par celui se trouvant \"n\" place plus loin dans l'alphabet.",
+                "Il faut appliquer un XOR entre le message et la clé de chiffrement.",
+                "Il faut absolument une clé plus longue que le message."
+            ]
+        },
+        {
+            "question": "La \"confidentialité\" d'un message est vérifiée lorsque :",
+            "reponse": "Qu'il est cmopréhensible pour les personnes non impliquées.",
+            "leurre": [
+                "On ne peut nié qu'un message à été envoyé, reçu, etc.",
+                "Le message n'a pas été falsifié ou détruit.",
+                "On est certain de l'identité des personnes impliquées."
+            ]
+        },
+        {
+            "question": "Les attaques par canaux auxiliaires :",
+            "reponse": "Utilisent des informations de types physiques plutôt que logiques.",
+            "leurre": [
+                "Utilisent des informations de types logiques plutôt que physiques.",
+                "Permettent de créer des liens entre un serveur et son PC auxiliaire.",
+                "Ont pour but de trouver un bon compromis temps-mémoire lors du décryptage."
+            ]
+        },
+        {
+            "question": "Alice signe numériquement en chiffrant l'empreinte du message.",
+            "reponse": "Avec sa clé privée.",
+            "leurre": [
+                "Avec sa clé publique.",
+                "Avec la clé publique de Bob",
+                "Avec la clé privée de Bob"
+            ]
+        },
+        {
+            "question": "Le terme \"crypter\" dans le contexte de la cryptographie :",
+            "reponse": "Est un abus de langage, il voudrait dire chiffrer un message sans la clé.",
+            "leurre": [
+                "Est équivalent au terme chiffrer.",
+                "Signifie enterrer quelqu'un dans une crypte.",
+                "Remplace le terme chiffrer lorsque la clé est constituée de chiffres."
+            ]
+        },
+        {
+            "question": "Pour utiliser la distribution quantique de clés :",
+            "reponse": "Il n'est pas nécessaire d'utiliser un ordinateur quantique.",
+            "leurre": [
+                "Il faut absolument utiliser un ordinateur quantique.",
+                "Il faut utiliser un algorithme de factorisation quantique.",
+                "Il faut absolument communiquer l'information chiffrée par fibre optique."
+            ]
+        },
+        {
+            "question": "Lors d'une attaque Man in the Middle pour le chiffrement asymétrique, l'usurpateur :",
+            "reponse": "Se fait passer pour quelqu'un qu'il n'est pas.",
+            "leurre": [
+                "Envoie sa clé privée en se faisant passer pour le destinataire.",
+                "Envoie la clé publique de l'émetteur à la place de la sienne.",
+                "Déchiffre le message avec la clé privée du destinataire."
+            ]
+        },
+        {
+            "question": "Qu'est-ce que la cryptanalise ?",
+            "reponse": "Les techniques mises en œuvre pour tenter de déchiffrer un message codé dont on ne connaît pas la clé.",
+            "leurre": [
+                "L'art de chiffrer des messages pour les rendre illisibles dans la clé secrète.",
+                "L'art de dissimuler un message dans un autre support de manière à ce que sa présnce passe inaperçue.",
+                "La méthode utilisée pour protéger des données en utilisant des signatures numériques."
+            ]
+        },
+        {
+            "question": "Quelle est le résutlat de l'opération XOR suivante : 110 XOR 101 ?",
+            "reponse": "11",
+            "leurre": [
+                "100",
+                "110",
+                "111"
+            ]
+        },
+        {
+            "question": "L'attaque par Brute Force :",
+            "reponse": "A pour principe de tester toutes les clés possible de manière exhaustive.",
+            "leurre": [
+                "A pour principe d'utiliser la force pour récupérer des composants matériels.",
+                "Permet de trouver facilement des clés de grandes tailles.",
+                "Est utilisée pour retrouver des documents à partir de leur empreinte."
+            ]
+        },
+        {
+            "question": "Une différence entre les protocoles E91 et BB84 est que :",
+            "reponse": "Des photons intriqués sont utilisés pour E91 et pas pour BB84.",
+            "leurre": [
+                "La polarisation des photons n'est pas nécessaire pour E91.",
+                "La protocole E91 n'utilise pas de propriété de physique quantique.",
+                "E91 est utilisé pour créé des empreintes et BB84 pour échanger des clés."
+            ]
         }
     ]
 }
