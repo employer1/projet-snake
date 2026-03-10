@@ -1,9 +1,9 @@
 {
-    "titre": "Anniversaire",
+    "titre": "Map Mario Kart",
     "type": "txt",
     "reverse": 0,
     "path": "quest/img/img_map_mario_kart",
-    "explication": "Petit rappel sur les anniversaires des autres.",
+    "explication": "Trouvez le noms de ces map mario kart.",
     "questionnaire": [
         {
             "question": "Quel est le nom de ce circuit ?",
@@ -73,7 +73,7 @@
         {
             "question": "Quel est le nom de ce circuit ?",
             "reponse": "desert toussec",
-            "image": "dsert_toussec.png"
+            "image": "desert_toussec.png"
         },
         {
             "question": "Quel est le nom de ce circuit ?",
@@ -263,7 +263,7 @@
         {
             "question": "Quel est le nom de ce circuit ?",
             "reponse": "supermarche coco",
-            "image": "supermache_coco.png"
+            "image": "supermarche_coco.png"
         },
         {
             "question": "Quel est le nom de ce circuit ?",
@@ -383,7 +383,7 @@
         {
             "question": "Quel est le nom de ce circuit ?",
             "reponse": "ile de yoshi",
-            "image": "ile_yoshi.png"
+            "image": "ile_de_yoshi.png"
         },
         {
             "question": "Quel est le nom de ce circuit ?",
