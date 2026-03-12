@@ -14,7 +14,7 @@
         {
             "question": "Qui est ce personnage ?",
             "image": "chef_bogo.png",
-            "reponse": "chef bogo",
+            "reponse": ["chef bogo","chef burger"],
             "def": "Chef Bogo"
         },
         {
@@ -68,7 +68,7 @@
         {
             "question": "Qui est ce personnage ?",
             "image": "judy_hopps.png",
-            "reponse": "judy hopps",
+            "reponse": ["judy hopps","carrotte","lapin crétin","lapin malin","trudy cabbagepatch"],
             "def": "Judy Hopps"
         },
         {
@@ -110,7 +110,7 @@
         {
             "question": "Qui est ce personnage ?",
             "image": "nick_wilde.png",
-            "reponse": ["nick wilde","nicholas wilde"],
+            "reponse": ["nick wilde","nicholas wilde","renard malin","rick wilde"],
             "def": "Nick Wilde"
         },
         {
@@ -118,6 +118,11 @@
             "image": "pawbert_lynxley.png",
             "reponse": "pawbert lynxley",
             "def": "Pawbert Lynxley"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "nibbles_maplestick.png",
+            "reponse": ["nibbles maplestick","taille crayon"]
         }
     ]
 }
