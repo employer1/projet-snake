@@ -8,20 +8,17 @@
         {
             "question": "Comment se nomme ce personnage ?",
             "image": "rue_bennett.png",
-            "reponse": "rue bennett",
-            "def": "Rue Bennett"
+            "reponse": "Rue Bennett"
         },
         {
             "question": "Comment se nomme ce personnage ?",
             "image": "jules_vaughn.png",
-            "reponse": "jules vaughn",
-            "def": "Jules Vaughn"
+            "reponse": "Jules Vaughn"
         },
         {
             "question": "Comment se nomme ce personnage ?",
             "image": "fezco.png",
-            "reponse": "fezco",
-            "def": "Fezco"
+            "reponse": "Fezco"
         }
     ]
 }

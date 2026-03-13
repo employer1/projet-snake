@@ -8,26 +8,22 @@
         {
             "question": "Qui est ce personnage ?",
             "image": "aemon_targaryen.png",
-            "reponse": "aemon targaryen",
-            "def": "Aemon Targaryen"
+            "reponse": "Aemon Targaryen"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "alliser_thorne.png",
-            "reponse": "alliser thorne",
-            "def": "Alliser Thorne"
+            "reponse": "Alliser Thorne"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "arya_stark.png",
-            "reponse": "arya stark",
-            "def": "Arya Stark"
+            "reponse": "Arya Stark"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "barristan_selmy.png",
-            "reponse": "barristan selmy",
-            "def": "Barristan Selmy"
+            "reponse": "Barristan Selmy"
         }
     ]
 }

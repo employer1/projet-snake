@@ -8,20 +8,17 @@
         {
             "question": "Comment se nomme ce personnage ?",
             "image": "rick_grimes.png",
-            "reponse": "rick grimes",
-            "def": "Rick Grimes"
+            "reponse": "Rick Grimes"
         },
         {
             "question": "Comment se nomme ce personnage ?",
             "image": "daryl_dixon.png",
-            "reponse": "daryl dixon",
-            "def": "Daryl Dixon"
+            "reponse": "Daryl Dixon"
         },
         {
             "question": "Comment se nomme ce personnage ?",
             "image": "negan.png",
-            "reponse": "negan",
-            "def": "Negan"
+            "reponse": "Negan"
         }
     ]
 }

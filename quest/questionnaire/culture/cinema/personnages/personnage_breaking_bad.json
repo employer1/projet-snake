@@ -8,20 +8,17 @@
         {
             "question": "Comment se nomme ce personnage ?",
             "image": "walter_white.png",
-            "reponse": "walter white",
-            "def": "Walter White"
+            "reponse": "Walter White"
         },
         {
             "question": "Comment se nomme ce personnage ?",
             "image": "jesse_pinkman.png",
-            "reponse": "jesse pinkman",
-            "def": "Jesse Pinkman"
+            "reponse": "Jesse Pinkman"
         },
         {
             "question": "Comment se nomme ce personnage ?",
             "image": "gustavo_fring.png",
-            "reponse": "gustavo fring",
-            "def": "Gustavo Fring"
+            "reponse": "Gustavo Fring"
         }
     ]
 }

@@ -6,8 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="import des modifications perdues">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_zootopie.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_zootopie.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vocabulaire.json" beforeDir="false" afterPath="$PROJECT_DIR$/vocabulaire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/celebrite.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/celebrite.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_avatar.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_avatar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_breaking_bad.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_breaking_bad.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_euphoria.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_euphoria.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_game_of_thrones.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_game_of_thrones.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_the_walking_dead.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_the_walking_dead.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -546,7 +550,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773440036500</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="import des modifications perdues">
+      <option name="closed" value="true" />
+      <created>1773442049325</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1773442049325</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

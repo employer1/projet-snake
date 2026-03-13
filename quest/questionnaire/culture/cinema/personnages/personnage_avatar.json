@@ -8,86 +8,72 @@
         {
             "question": "Qui est ce personnage ?",
             "image": "hang.png",
-            "reponse": "hang",
-            "def": "Hang"
+            "reponse": "Hang"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "katara.png",
-            "reponse": "katara",
-            "def": "Katara"
+            "reponse": "Katara"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "sokka.png",
-            "reponse": "sokka",
-            "def": "Sokka"
+            "reponse": "Sokka"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "toph.png",
-            "reponse": "toph",
-            "def": "Toph"
+            "reponse": "Toph"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "zuko.png",
-            "reponse": "zuko",
-            "def": "Zuko"
+            "reponse": "Zuko"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "azula.png",
-            "reponse": "azula",
-            "def": "Azula"
+            "reponse": "Azula"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "iroh.png",
-            "reponse": "iroh",
-            "def": "Iroh"
+            "reponse": "Iroh"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "appa.png",
-            "reponse": "appa",
-            "def": "Appa"
+            "reponse": "Appa"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "ty_lee.png",
-            "reponse": "ty lee",
-            "def": "Ty Lee"
+            "reponse": "Ty Lee"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "suki.png",
-            "reponse": "suki",
-            "def": "Suki"
+            "reponse": "Suki"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "princess_yue.png",
-            "reponse": "princess yue",
-            "def": "Princess Yue"
+            "reponse": "Princess Yue"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "king_bumi.png",
-            "reponse": "king bumi",
-            "def": "King Bumi"
+            "reponse": "King Bumi"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "momo.png",
-            "reponse": "momo",
-            "def": "Momo"
+            "reponse": "Momo"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "mai.png",
-            "reponse": "mai",
-            "def": "Mai"
+            "reponse": "Mai"
         }
     ]
 }

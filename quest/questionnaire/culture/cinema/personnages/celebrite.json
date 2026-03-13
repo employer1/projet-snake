@@ -8,26 +8,22 @@
         {
             "question": "Comment se nomme cette célébrité ?",
             "image": "adele_castillon.png",
-            "reponse": "adele castillon",
-            "def": "Adèle Castillon"
+            "reponse": "Adèle Castillon"
         },
         {
             "question": "Comment se nomme cette célébrité ?",
             "image": "alexandra_trusova.png",
-            "reponse": "alexandra trusova",
-            "def": "Alexandra Trusova"
+            "reponse": "Alexandra Trusova"
         },
         {
             "question": "Comment se nomme cette célébrité ?",
             "image": "ariana_grande.png",
-            "reponse": "ariana grande",
-            "def": "Ariana Grande"
+            "reponse": "Ariana Grande"
         },
         {
             "question": "Comment se nomme cette célébrité ?",
             "image": "stephane_filok.png",
-            "reponse": "stephane filok",
-            "def": "Stephane Filok"
+            "reponse": "Stephane Filok"
         }
     ]
 }
