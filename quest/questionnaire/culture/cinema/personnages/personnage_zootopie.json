@@ -8,62 +8,53 @@
         {
             "question": "Qui est ce personnage ?",
             "image": "benjamin_clawhauser.png",
-            "reponse": "benjamin clawhauser",
-            "def": "Benjamin Clawhauser"
+            "reponse": "Benjamin Clawhauser"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "chef_bogo.png",
-            "reponse": ["chef bogo","chef burger"],
+            "reponse": ["Chef Bogo","Chef Burger"],
             "def": "Chef Bogo"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "dawn_bellwether.png",
-            "reponse": "dawn bellwether",
-            "def": "Dawn Bellwether"
+            "reponse": "Dawn Bellwether"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "finnick.png",
-            "reponse": "finnick",
-            "def": "Finnick"
+            "reponse": "Finnick"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "flash_slothmore.png",
-            "reponse": "flash slothmore",
-            "def": "Flash Slothmore"
+            "reponse": "Flash Slothmore"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "fru-fru.png",
-            "reponse": "fru-fru",
-            "def": "Fru-Fru"
+            "reponse": "Fru-Fru"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "gary_de'snake.png",
-            "reponse": "gary de'snake",
-            "def": "Gary De'Snake"
+            "reponse": "Gary De'Snake"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "gazelle.png",
-            "reponse": "gazelle",
-            "def": "Gazelle"
+            "reponse": "Gazelle"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "gideon_grey.png",
-            "reponse": "gideon grey",
-            "def": "Gideon Grey"
+            "reponse": "Gideon Grey"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "jesus.png",
-            "reponse": "jesus",
-            "def": "jesus"
+            "reponse": "Jesus"
         },
         {
             "question": "Qui est ce personnage ?",
@@ -74,38 +65,32 @@
         {
             "question": "Qui est ce personnage ?",
             "image": "leodore_lionheart.png",
-            "reponse": "leodore lionheart",
-            "def": "Leodore Lionheart"
+            "reponse": "Leodore Lionheart"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "brian_winddancer.png",
-            "reponse": "brian winddancer",
-            "def": "Brian Winddancer"
+            "reponse": "Brian Winddancer"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "milton_lynxley.png",
-            "reponse": "milton lynxley",
-            "def": "Milton Lynxley"
+            "reponse": "Milton Lynxley"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "mr_big.png",
-            "reponse": "mr big",
-            "def": "Mr Big"
+            "reponse": "Mr Big"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "kitty_linxley.png",
-            "reponse": "kitty linxley",
-            "def": "Kitty Linxley"
+            "image": "kitty_lynxley.png",
+            "reponse": "Kitty Lynxley"
         },
         {
             "question": "Qui est ce personnage ?",
-            "image": "cattrick_linxley.png",
-            "reponse": "cattrick linxley",
-            "def": "Cattrick Linxley"
+            "image": "cattrick_lynxley.png",
+            "reponse": "Cattrick Lynxley"
         },
         {
             "question": "Qui est ce personnage ?",
@@ -116,13 +101,13 @@
         {
             "question": "Qui est ce personnage ?",
             "image": "pawbert_lynxley.png",
-            "reponse": "pawbert lynxley",
-            "def": "Pawbert Lynxley"
+            "reponse": "Pawbert Lynxley"
         },
         {
             "question": "Qui est ce personnage ?",
             "image": "nibbles_maplestick.png",
-            "reponse": ["nibbles maplestick","taille crayon"]
+            "reponse": ["nibbles maplestick","taille crayon"],
+            "def": "Nibbles Maplestick"
         }
     ]
 }
