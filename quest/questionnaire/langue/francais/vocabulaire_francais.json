@@ -37,6 +37,10 @@
             "reponse": "acerbe"
         },
         {
+            "question": "1 Maxime ancienne et populaire empruntée au droit coutumier ou écrit : \"Nul n'est censé ignorer la loi\" est un ***. 2 Exercices lents destinés à parfaire l'équilibre des danseurs et la ligne de leurs mouvements. 3 Première partie d'un pas de deux.",
+            "reponse": "adage"
+        },
+        {
             "question": "Personne associée à une autre pour la seconder. ■ *** au maire, en France, conseiller municipal, élu par les autres conseillers, chargé de fonctions spécifiques que lui délègue le maire.",
             "reponse": [
                 "adjoint",
@@ -237,6 +241,10 @@
             "reponse": "aune"
         },
         {
+            "question": "Présage tiré du vol, du chant, du comportement des oiseaux. ■ Sous d'heureux, de funestes ***, dans des circonstances favorables, extrêmement défavorables. ■ Sous les *** de quelqu'un, sous la protection.",
+            "reponse": "auspice"
+        },
+        {
             "question": "1 Régi par de sévères et rigides principes moraux : Un veillard ***. 2 Dépouillé de tout ornement : Une batisse ***.",
             "reponse": "austère"
         },
@@ -254,6 +262,10 @@
         {
             "question": "Qui aime amasser de l'argent et rechigne à le dépenser. ⬥ *** de, économe de : *** de paroles, de son temps.",
             "reponse": "avare"
+        },
+        {
+            "question": "Répugnance extrême : Avoir de l'*** pour, contre quelqu'un, quelque chose.",
+            "reponse": "aversion"
         },
         {
             "question": "Abaisser jusqu'à rendre méprisable : De tels mensonges vous ***. ⬥ S'***, devenir méprisable.",
@@ -543,6 +555,10 @@
             "reponse": "connotation"
         },
         {
+            "question": "Qui est de la même époque : Kafka et Proust étaient ***. ⬥ Qui est du temps présent ; actuel : La défense de la planète est une préoccupation ***. ■ Histoire ***, celle dont l'objet se situe après 1789.",
+            "reponse": "contemporain"
+        },
+        {
             "question": "1 Qui peut arriver ou ne pas arriver ; fortuit : Des évènements ***. 2 Qui peut se produire ou non, être ou ne pas être (par oppos. à nécessaire). 3 Ensemble des jeunes appelés au service national, au cours d'une même année civile. 4 Quantité que quelqu'un doit fournir ou recevoir ; quota.",
             "reponse": [
                 "contingent",
@@ -596,6 +612,13 @@
             "reponse": [
                 "coursier",
                 "coursière"
+            ]
+        },
+        {
+            "question": "1 Que l'on fait habituellement, ordinairement : Elle a prononcé son discours *** de bienvenue. 2 Relatif à la coutume ; régi, établi par la coutume : Cadeau ***. ■ Chef ***, chef désigné selon la coutume et veillant à ce que celle-ci soit respectée et appliquée, dans une société que régit le système de la chefferie. ■ Droit ***, ensemble des règles juridiques établies par un usage continu et ayant force de loi. ■ Être *** du fait, avoir l'habitude de commettre telle action. ⬥ Recueil des coutumes d'une province, d'un pays, d'un ordre religieux.",
+            "reponse": [
+                "coutumier",
+                "coutumière"
             ]
         },
         {
@@ -677,6 +700,10 @@
         {
             "question": "1 Correspondance officielle concernant les affaires publiques : *** ministérielle. 2 Information brève transmise aux organes de presse : *** d'agence.",
             "reponse": "dépêche"
+        },
+        {
+            "question": "1 Perdre sa vigueur, de sa vitalité ; s'étioler",
+            "reponse": "dépérir"
         },
         {
             "question": "1 Personne à qui a été remis un dépôt. 2 Personne à qui l'on a confié quelque chose : Etre le *** d'un secret. 3 Intermédiaire qui vend des marchandises pour le compte de leur propriétaire.",
@@ -1585,6 +1612,18 @@
             "reponse": "imbu"
         },
         {
+            "question": "1 Tuer quelqu'un, un animal pour offrir en sacrifice à une divinité. 2 Faire périr : La guerre *** d'innocentes victimes. 3 Sacrifier quelqu'un, quelque chose pour satisfaire une exigence morale, passionnelle : *** sa famille à son ambition. ⬥ S'***, se donner la mort, généralement dans un esprit sacrifice : S'*** par le feu.",
+            "reponse": "immoler"
+        },
+        {
+            "question": "Qui ne subit pas de modification : Un cérémonial ***.",
+            "reponse": "immuable"
+        },
+        {
+            "question": "Caractère des conventions juridiques qui ne peuvent être modifiées par la volonté des contractants.",
+            "reponse": "immutabilité"
+        },
+        {
             "question": "Caractère, qualité de quelqu'un qui est impartial, de ce qui est juste, équitable.",
             "reponse": "impartialité"
         },
@@ -1631,6 +1670,10 @@
             "reponse": "indemnité"
         },
         {
+            "question": "Qui est porté à excuser, à pardonner ; bienveillant.",
+            "reponse": "indulgent"
+        },
+        {
             "question": "1 Caractère d'un comportement, d'un acte inepte ; absurdité. 2 Action ou parole stupide ; niaiserie.",
             "reponse": "ineptie"
         },
@@ -1645,6 +1688,10 @@
         {
             "question": "1 Action ou parole vile, honteuse ; bassesse : Il a commis des ***. 2 Etat de déshonneur ; ignominie. 3 Caractère d'une personne ou d'une action infâme ; abjection : L'*** d'un chantage.",
             "reponse": "infamie"
+        },
+        {
+            "question": "1 Relatif à l'enfant en bas âge : Maladie ***. 2 Qui manifeste à l'âge adulte certains caractères, notamment psychologiques, de l'enfant ; puéril : Réaction ***.",
+            "reponse": "infantile"
         },
         {
             "question": "Extrêmement petit. Calcul ***, partie des mathématiques recouvrant principalement le calcul différentiel et le calcul intégral, fondée sur l'étude des infiniment petits et des limites.",
@@ -1770,6 +1817,14 @@
                 "jovials",
                 "joviaux"
             ]
+        },
+        {
+            "question": "1 Dans la bible, année privilégiée revenant tous les cinquante ans et marquée par la redistribution égalitaire des terres. 2 Année sainte, revenant avec une périodicité aui a varié selon les époques, où les pélerins de Rome bénéficient d'une indulgence plénière. 3 Anniversaire important, généralement cinquantenaire, d'un mariage , de l'exercice d'une fonction, etc. et particulièrement du début d'un règne. 4 Manifestation à caractère festif, organisée en l'honneur d'un champion qui se retire de la compétition.",
+            "reponse": "jubilé"
+        },
+        {
+            "question": "Erpouver une joie intense : *** à l'idée de revoir un ami.",
+            "reponse": "jubiler"
         },
         {
             "question": "1 Fibre textile extraite des tiges d'une plante de la famille des tiliacées. 2 Etoffe faite avec cette fibre.",
@@ -2052,6 +2107,14 @@
             "reponse": "mue"
         },
         {
+            "question": "Relatif aux mousses.",
+            "reponse": [
+                "muscinal",
+                "muscinale",
+                "muscinaux"
+            ]
+        },
+        {
             "question": "1 Instrument de musique à air, composé d'un réservoir en forme de sac alimenté par un soufflet et muni de un ou deux tuyaux à anches (chalumeaux) et quelques grands tuyaux (bourdons). 2 Pièce instrumentale de tempo modéré, de mesure à 2/4, 3/4 ou 6/8. 3 Danse théâtrale, interprétée dans les opéras français du XVIIIème siècle. ■ Bal ***, bal populaire où l'on danse au son de l'accordéon (à l'origine, de la ***). Genre musical, style propre aux orchestres des bals ***. Sac de toile porté en bandouillère.",
             "reponse": "musette"
         },
@@ -2094,6 +2157,13 @@
             "reponse": [
                 "nauséabond",
                 "nauséabonde"
+            ]
+        },
+        {
+            "question": "1 Obscurci par les nuages : Ciel ***. 2 Qui manque de précision, de clarté : Explication ***. DEF UNIQUEMENT FEMININ : 1 Vaste nuage de gaz et de poussières interstellaires. 2 Rassemblement d'éléments hétéroclites, aux relations imprécises et confuses : La *** terroriste. ■ *** spirale ou extragalactique, galaxie.",
+            "reponse": [
+                "nébuleux",
+                "nébuleuse"
             ]
         },
         {
@@ -2175,6 +2245,13 @@
         {
             "question": "Spécialiste d'oncologie.",
             "reponse": "oncologue"
+        },
+        {
+            "question": "1 Dont la consistance est à la fois légère et douce ; velouté : Crème ***. 2 D'une douceur hypocrite ; mielleux.",
+            "reponse": [
+                "onctueux",
+                "onctueuse"
+            ]
         },
         {
             "question": "Qui occasionne des frais importants : Loisirs ***. ■ A titre ***, en payant.",
@@ -2371,6 +2448,10 @@
             "reponse": "pérorer"
         },
         {
+            "question": "Qui ne sait quelle décision prendre ; indécis : Après ce témoignage, les juges étaient ***.",
+            "reponse": "perplexe"
+        },
+        {
             "question": "Ridiculiser par des propos ironiques ; brocarder : *** le monde politique.",
             "reponse": "persifler"
         },
@@ -2527,6 +2608,10 @@
             "reponse": "prosaïquement"
         },
         {
+            "question": "1 Forme ordinaire du discours parlé ou écrit, qui n'est pas assujettie aux règles de rythme et de musicalité propres à la poésie. 2 Manière d'écrire propre à quelqu'un, à un milieu ; style : Je reconnais sa *** dans ce rapport. 3 Paroles ou écrits quelconques.",
+            "reponse": "prose"
+        },
+        {
             "question": "Etat d'abattement physique et psychique provoqué par certaines maladies.",
             "reponse": "prostration"
         },
@@ -2544,6 +2629,13 @@
         {
             "question": "Chant liturgique de la religion d'Israël (attribué au roi David), passé dans le culte chrétien et constitué d'une suite variable de versets.",
             "reponse": "psaume"
+        },
+        {
+            "question": "1 Qui manque de maturité et paraît déplacé chez un adulte ; infantile. 2 Relatif à l'enfance : Des voix ***.",
+            "reponse": [
+                "puéril",
+                "puérile"
+            ]
         },
         {
             "question": "Solliciter humblement et avec insistance : *** une aide financière.",
@@ -2634,6 +2726,10 @@
         {
             "question": "1 Ce qui subsiste de quelque chose ; vestige. 2 Ce qui reste dû après un arrêté de comptes",
             "reponse": "reliquat"
+        },
+        {
+            "question": "Nouvelle version d'une œuvre cinématographique ou littéraire.",
+            "reponse": "remake"
         },
         {
             "question": "1 Retour involontaire d'un souvenir. 2 Emprunt fait inconsciemment à des souvenirs de lecture : On trouve des *** de Perec dans ce texte ; souvenir vague et imprécis : J'ai quelques *** de cette époque.",
@@ -2733,6 +2829,10 @@
         {
             "question": "1 Action de saponifier. 2 Transformation des matières grasses en savon, à la suite de leur décomposition par une base en sels d'acide gras (ou savons) et en glycérol.",
             "reponse": "saponification"
+        },
+        {
+            "question": "Raillerie d'une ironie blessante ; quolibet.",
+            "reponse": "sarcasme"
         },
         {
             "question": "D'une ironie mordante, acerbe ; sardonique : Rire ***. Chroniqueuse ***.",
@@ -2864,6 +2964,10 @@
             "reponse": "soubresaut"
         },
         {
+            "question": "Série télévisée, bande dessinée ou film créés à partir d'une œuvre à succès dont ils reprennent certains éléments (un personnage récurrent, par exemple) pour les intégrer à un nouveau scénario.",
+            "reponse": "spin-off"
+        },
+        {
             "question": "1 Dans une écurie, une étable, emplacement occupé par un animal et délimité par des cloisons. 2 Chacun des sièges de bois, à dossier haut, garnissant les deux côtés du chœur de certaines églises et réservés au clergé.",
             "reponse": "stalle"
         },
@@ -2874,6 +2978,10 @@
         {
             "question": "Ruse habile.",
             "reponse": "stratagème"
+        },
+        {
+            "question": "Couche homogène d'une roche sédimentaire (calcaire, marne, grès, etc.), d'une épaisseur de quelques millimètres à plusieurs dizaines de mètres. 2 Subdivision marquant l'étagement vertical d'une communauté végétale forestière. On idstingue principalement les strates arborée, arbustive, herbacée et muscinale. 3 Chacun des niveaux constitutifs de quelque chose : Les *** de la conscience.",
+            "reponse": "strate"
         },
         {
             "question": "D'une douceur agréable : Parfum voix ***.",
@@ -2889,6 +2997,10 @@
                 "succinct",
                 "succincte"
             ]
+        },
+        {
+            "question": "1 Mourir : Le motard à *** pendant la nuit. 2 Perdre un combat ; être vaincu. 3 Être écrasé, anéanti par : *** sous les difficultés. 4 Ne pas résister à : *** à l'envie de fumer.",
+            "reponse": "succomber"
         },
         {
             "question": "Jeune pommier non encore greffé. Couteau.",
@@ -2958,8 +3070,16 @@
             "reponse": "torve"
         },
         {
+            "question": "Dans les régions de climat froid, formation végétale discontinue, qui comprend quelques graminées, des mousses et des lichens, voire quelques arbres nains (bouleaux).",
+            "reponse": "toundra"
+        },
+        {
             "question": "Borosilicate d'aluminium, de coloration variée, parfois utilisé comme pierre fine.",
             "reponse": "tourmaline"
+        },
+        {
+            "question": "Transférer des machandises ou des voyageurs d'un bateau, d'un train, d'un véhicule dans un autre.",
+            "reponse": "tranborder"
         },
         {
             "question": "1 Situation d'un voyageur qui, lors d'une escale aérienne, demeure dans l'enceinte de l'aéroport : Etre en ***. 2 Régime de franchise des droits de douane pour les marchandises qui traversent le territoire national, sans s'y arrêter, à destination d'un pays étranger. Cité de ***, ensemble de logements destinés à l'hébergement provisoire des occupants de locaux insalubres, à rénover ou à détruire. *** intestinal, déplacement du contenu du tube digestif depuis le pylore jusqu'au rectum, sous l'influence des contractions péristaltiques de l'intestin.",
@@ -3062,6 +3182,10 @@
             ]
         },
         {
+            "question": "1 Force physique : La *** d'un athlète. 2 Energie physique ou morale : Se débattre avec ***. 3 Puissance manifestée par la pensée, le style : La *** du style, du trait. ■ En ***, en usage ; en application : Les tarifs en ***.",
+            "reponse": "vigueur"
+        },
+        {
             "question": "1 Traiter avec beaucoup de mépris ; dénigrer. 2 Dilapider ; gaspiller : On *** trop souvent l'eau.",
             "reponse": "vilipender"
         },
@@ -3111,6 +3235,18 @@
         {
             "question": "Spécialiste d'œnologie.",
             "reponse": "œnologue"
+        },
+        {
+            "question": "1 Situé loin du centre ; excentré : Quartier ***. 2 Qui est en opposition avec l'usage, les habitudes ; extravagant : Une tenue ***.",
+            "reponse": "excentrique"
+        },
+        {
+            "question": "1 Demander avec déférence : *** une entrevue. 2 Faire appel à quelqu'un : Depuis qu'il est élu, on le *** beaucoup. 3 Mettre en éveil ; provoquer : *** la curiosité de quelqu'un. 4 Faire fonctionner un appareil, un mécanisme, etc.",
+            "reponse": "solliciter"
+        },
+        {
+            "question": "",
+            "reponse": ""
         }
     ]
 }
