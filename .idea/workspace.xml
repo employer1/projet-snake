@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="ajout vocabulaire">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vocabulaire.json" beforeDir="false" afterPath="$PROJECT_DIR$/vocabulaire.json" afterDir="false" />
-    </list>
+    <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="modif mineure" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,7 +156,7 @@
       <workItem from="1773276314639" duration="91000" />
       <workItem from="1773315062884" duration="6080000" />
       <workItem from="1773343475966" duration="3736000" />
-      <workItem from="1773401013084" duration="2475000" />
+      <workItem from="1773401013084" duration="2504000" />
     </task>
     <task id="LOCAL-00001" summary="petites modifications de questionnaires">
       <option name="closed" value="true" />
@@ -522,7 +518,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773276382620</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="modif mineure">
+      <option name="closed" value="true" />
+      <created>1773409922563</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1773409922563</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,6 +566,7 @@
     <MESSAGE value="envoi de questionnaires" />
     <MESSAGE value="modifications questionnaires" />
     <MESSAGE value="ajout vocabulaire" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout vocabulaire" />
+    <MESSAGE value="modif mineure" />
+    <option name="LAST_COMMIT_MESSAGE" value="modif mineure" />
   </component>
 </project>
