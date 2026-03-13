@@ -1,0 +1,48 @@
+{
+    "titre": "Cuisson des viandes",
+    "type": "qcm",
+    "path": "quest/img/img_cuisson_viande",
+    "explication": "Permet de s'entrainer à reconnaître les différentes cuisson des viandes.",
+    "questionnaire": [
+        {
+            "question": "Très peu cuite, avec une température interne d'environ 50°C.\nElle est saisie rapidement à l'extérieur et reste rouge vif à l'intérieur, avec un aspect presque cru.",
+            "reponse": "bleu",
+            "leurre": [
+                "saignant",
+                "à point",
+                "bien cuit"
+            ],
+            "images": "/quest/img/img_cuisson_viande/1.png"
+        },
+        {
+            "question": "La viande est cuite à l'extérieur, mais garde un cœur rouge vif et juteux, avec une température interne d'environ 55°C.",
+            "reponse": "saignant",
+            "leurre": [
+                "bleu",
+                "à point",
+                "bien cuit"
+            ],
+            "images": "/quest/img/img_cuisson_viande/2.png"
+        },
+        {
+            "question": "La viande est cuite uniformément, avec un centre rosé et légèrement juteux, et une température interne d'environ 60°C.",
+            "reponse": "à point",
+            "leurre": [
+                "bleu",
+                "saignant",
+                "bien cuit"
+            ],
+            "images": "/quest/img/img_cuisson_viande/3.png"
+        },
+        {
+            "question": "La viande est cuite de manière homogène, avec une couleur plus claire, et une température interne généralement supérieure à 70°C.",
+            "reponse": "bien cuit",
+            "leurre": [
+                "bleu",
+                "saignant",
+                "à point"
+            ],
+            "images": "/quest/img/img_cuisson_viande/4.png"
+        }
+    ]
+}

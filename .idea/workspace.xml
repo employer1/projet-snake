@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="modif mineure">
-      <change afterPath="$PROJECT_DIR$/quest/img/img_personnage_zootopie/kitty_lynxley.png" afterDir="false" />
+    <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="modification mineure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/img/img_personnage_zootopie/cattrick_linxley.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_zootopie/cattrick_lynxley.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/img/img_personnage_zootopie/kitty_linxley.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/img/img_personnage_zootopie/pawbert_linxley.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_personnage_zootopie/pawbert_lynxley.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vocabulaire.json" beforeDir="false" afterPath="$PROJECT_DIR$/vocabulaire.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,11 +80,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\theo\WebstormProjects\projet-snake\quest\img\img_personnage_zootopie" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\img\img_personnage_zootopie" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\img\img_acteur" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\img\img_personnage_beastars" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\culture\cinema\personnages" />
-      <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\stat" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\theo\WebstormProjects\projet-snake\quest\questionnaire\cours" />
@@ -533,7 +529,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773409922563</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="modification mineure">
+      <option name="closed" value="true" />
+      <created>1773439119798</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1773439119798</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,6 +578,7 @@
     <MESSAGE value="modifications questionnaires" />
     <MESSAGE value="ajout vocabulaire" />
     <MESSAGE value="modif mineure" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif mineure" />
+    <MESSAGE value="modification mineure" />
+    <option name="LAST_COMMIT_MESSAGE" value="modification mineure" />
   </component>
 </project>
