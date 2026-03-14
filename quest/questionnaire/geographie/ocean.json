@@ -8,7 +8,7 @@
         {
             "question": "Comment se nomme cet ocean ?",
             "image": "mer_du_nord.png",
-            "reponse": "pacifique",
+            "reponse": ["pacifique","ocean pacifique"],
             "def": "Océan Pacifique"
         },
         {

@@ -8,681 +8,566 @@
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "double isolation électrique",
-            "def": "double isolation électrique",
             "image": "1.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
-            "reponse": "isolation principale",
             "def": "isolation principale",
             "image": "2.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "casque électriquement isolants",
-            "def": "casque électriquement isolants",
             "image": "3.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "esd susceptible",
-            "def": "esd susceptible",
             "image": "4.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "esd protective",
-            "def": "esd protective",
             "image": "5.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "défense de fumer",
-            "def": "défense de fumer",
             "image": "6.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "flamme nue interdite et défense de fumer",
-            "def": "flamme nue interdite et défense de fumer",
             "image": "7.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "interdit aux piétons",
-            "def": "interdit aux piétons",
             "image": "8.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "défense d'éteindre avec de l'eau",
-            "def": "défense d'éteindre avec de l'eau",
             "image": "9.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "eau non potable",
-            "def": "eau non potable",
             "image": "10.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "entrée interdite aux personnes non autorisées",
-            "def": "entrée interdite aux personnes non autorisées",
             "image": "11.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "interdit aux véhicules de manutention",
-            "def": "interdit aux véhicules de manutention",
             "image": "12.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "interdit de toucher",
-            "def": "interdit de toucher",
             "image": "13.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "défense d'amener des animaux",
-            "def": "défense d'amener des animaux",
             "image": "14.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "défense de porter des objets en métal",
-            "def": "défense de porter des objets en métal",
             "image": "15.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "défense d'entrer avec des bijoux",
-            "def": "défense d'entrer avec des bijoux",
             "image": "16.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "défense de manger et de boire",
-            "def": "défense de manger et de boire",
             "image": "17.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "défense d'utiliser un GSM",
-            "def": "défense d'utiliser un GSM",
             "image": "18.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "danger général",
-            "def": "danger général",
             "image": "19.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "charges suspendues",
-            "def": "charges suspendues",
             "image": "20.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "danger électrique",
-            "def": "danger électrique",
             "image": "21.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "véhicules de manutention",
-            "def": "véhicules de manutention",
             "image": "22.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "matières radioactives",
-            "def": "matières radioactives",
             "image": "23.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "rayonnement laser",
-            "def": "rayonnement laser",
             "image": "24.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "radiations non ionisantes",
-            "def": "radiations non ionisantes",
             "image": "25.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "champ magnétique important",
-            "def": "champ magnétique important",
             "image": "26.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "trébuchement",
-            "def": "trébuchement",
             "image": "27.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "chute avec dénivellation",
-            "def": "chute avec dénivellation",
             "image": "28.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "risque biologique",
-            "def": "risque biologique",
             "image": "29.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "basse température",
-            "def": "basse température",
             "image": "30.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "haute température",
-            "def": "haute température",
             "image": "31.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "matières inflammables",
-            "def": "matières inflammables",
             "image": "32.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "matières corrosives",
-            "def": "matières corrosives",
             "image": "33.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "matières explosives",
-            "def": "matières explosives",
             "image": "34.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "matières comburantes",
-            "def": "matières comburantes",
             "image": "35.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "matières toxiques",
-            "def": "matières toxiques",
             "image": "36.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "risque d'explosion",
-            "def": "risque d'explosion",
             "image": "37.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "obligation générale",
-            "def": "obligation générale",
             "image": "38.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "protection de la tête obligatoire",
-            "def": "protection de la tête obligatoire",
             "image": "39.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "protection de l'ouie obligatoire",
-            "def": "protection de l'ouie obligatoire",
             "image": "40.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "protection des voies respiratoire obligatoire",
-            "def": "protection des voies respiratoire obligatoire",
             "image": "41.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "protection des pieds obligatoire",
-            "def": "protection des pieds obligatoire",
             "image": "42.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "protection des mains obligatoire",
-            "def": "protection des mains obligatoire",
             "image": "43.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "protection du corps obligatoire",
-            "def": "protection du corps obligatoire",
             "image": "44.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "protection du visage obligatoire",
-            "def": "protection du visage obligatoire",
             "image": "45.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "protection individuelle contre les chutes obligatoire",
-            "def": "protection individuelle contre les chutes obligatoire",
             "image": "46.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "passage pour piétons obligatoire",
-            "def": "passage pour piétons obligatoire",
             "image": "47.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "protection de la vue obligatoire",
-            "def": "protection de la vue obligatoire",
             "image": "48.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "lavage des mains après l'usage des toilettes obligatoire",
-            "def": "lavage des mains après l'usage des toilettes obligatoire",
             "image": "49.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "port du beret",
-            "def": "port du beret",
             "image": "50.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "résille, coiffe",
-            "def": "résille, coiffe",
             "image": "51.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "tablier de protection",
-            "def": "tablier de protection",
             "image": "52.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "port de sur-chaussures",
-            "def": "port de sur-chaussures",
             "image": "53.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "poste de premier secours",
-            "def": "poste de premier secours",
             "image": "54.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "direction vers un poste de secours",
-            "def": "direction vers un poste de secours",
             "image": "55.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "téléphone pour les premiers secours",
-            "def": "téléphone pour les premiers secours",
             "image": "56.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "civière",
-            "def": "civière",
             "image": "57.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "douche de sécurité",
-            "def": "douche de sécurité",
             "image": "58.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "rinçage des yeux",
-            "def": "rinçage des yeux",
             "image": "59.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "emplacement vers une sortie habituellement empruntée",
-            "def": "emplacement vers une sortie habituellement empruntée",
             "image": "60.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "direction vers une sortie habituellement empruntée",
-            "def": "direction vers une sortie habituellement empruntée",
             "image": "61.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "emplacement vers une sortie de secours",
-            "def": "emplacement vers une sortie de secours",
             "image": "62.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "direction vers une sortie de secours",
-            "def": "direction vers une sortie de secours",
             "image": "63.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "direction vers une sortie de secours",
-            "def": "direction vers une sortie de secours",
             "image": "64.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "téléphone pour la lutte contre l'incendie",
-            "def": "téléphone pour la lutte contre l'incendie",
             "image": "65.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "lance à incendie",
-            "def": "lance à incendie",
             "image": "66.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "échelle",
-            "def": "échelle",
             "image": "67.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "extincteur",
-            "def": "extincteur",
             "image": "68.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "direction vers un matériel de lutte contre l'incendie",
-            "def": "direction vers un matériel de lutte contre l'incendie",
             "image": "69.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "direction vers un matériel de lutte contre l'incendie",
-            "def": "direction vers un matériel de lutte contre l'incendie",
             "image": "70.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "direction vers un matériel de lutte contre l'incendie",
-            "def": "direction vers un matériel de lutte contre l'incendie",
             "image": "71.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "direction vers un matériel de lutte contre l'incendie",
-            "def": "direction vers un matériel de lutte contre l'incendie",
             "image": "72.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "irritant, nocif",
-            "def": "irritant, nocif",
             "image": "73.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "toxique",
-            "def": "toxique",
             "image": "74.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "très toxique",
-            "def": "très toxique",
             "image": "75.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "corrosif",
-            "def": "corrosif",
             "image": "76.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "explosif",
-            "def": "explosif",
             "image": "77.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "irritant, nocif",
-            "def": "irritant, nocif",
             "image": "78.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "toxique",
-            "def": "toxique",
             "image": "79.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "corrosif",
-            "def": "corrosif",
             "image": "80.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "explosif",
-            "def": "explosif",
             "image": "81.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "facilement inflammable",
-            "def": "facilement inflammable",
             "image": "82.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "très facilement inflammable",
-            "def": "très facilement inflammable",
             "image": "83.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "comburant, oxydant",
-            "def": "comburant, oxydant",
             "image": "84.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "dangereux pour l'environnement",
-            "def": "dangereux pour l'environnement",
             "image": "85.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "facilement inflammable",
-            "def": "facilement inflammable",
             "image": "86.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "très facilement inflammable",
-            "def": "très facilement inflammable",
             "image": "87.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "comburant, oxydant",
-            "def": "comburant, oxydant",
             "image": "88.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "dangereux pour l'environnement",
-            "def": "dangereux pour l'environnement",
             "image": "89.png"
         },
         {
             "question": "Que représente le losange bleu ?",
             "reponse": "danger d'incendie",
-            "def": "danger d'incendie",
             "image": "90.png"
         },
         {
             "question": "Que représente le losange rouge ?",
             "reponse": "danger pour la santé",
-            "def": "danger pour la santé",
             "image": "90.png"
         },
         {
             "question": "Que représente le losange jaune ?",
             "reponse": "réactivité de la substance",
-            "def": "réactivité de la substance",
             "image": "90.png"
         },
         {
             "question": "Que représente le losange blanc ?",
             "reponse": "réaction avec l'eau et danger spécifique",
-            "def": "réaction avec l'eau et danger spécifique",
             "image": "90.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "attention contient de l'amiante",
-            "def": "attention contient de l'amiante",
             "image": "91.png"
         },
         {
             "question": "Quel type de masque est-ce ?",
             "reponse": "demi-masque",
-            "leurre1": "masque intégral",
-            "def": "demi-masque",
             "image": "92.png"
         },
         {
             "question": "Quel type de masque est-ce ?",
             "reponse": "masque intégral",
-            "leurre1": "demi-masque",
-            "def": "masque intégral",
             "image": "93.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "protection des soudeurs",
-            "def": "protection des soudeurs",
             "image": "94.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "protection contre le froid",
-            "def": "protection contre le froid",
             "image": "95.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "protection contre les produits coupants et les coupures",
-            "def": "protection contre les produits coupants et les coupures",
             "image": "96.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "protection contre les produits chimiques",
-            "def": "protection contre les produits chimiques",
             "image": "97.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "protection contre l'électricité stbtique",
-            "def": "protection contre l'électricité stbtique",
             "image": "98.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "protection contre la chaleur et le feu",
-            "def": "protection contre la chaleur et le feu",
             "image": "99.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "protection pour pompiers",
-            "def": "protection pour pompiers",
             "image": "100.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "protection contre les tronçonneuses",
-            "def": "protection contre les tronçonneuses",
             "image": "101.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "protection contre la pluie",
-            "def": "protection contre la pluie",
             "image": "102.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "vètements haute visibilité",
-            "def": "vètements haute visibilité",
             "image": "103.png"
         },
         {
             "question": "Quel est ce pictogramme ?",
             "reponse": "couverture anti-feu",
-            "def": "couverture anti-feu",
             "image": "104.png"
         },
         {
             "question": "Quel est cet organisme ?",
             "reponse": "the blue angel",
-            "def": "the blue angel",
             "image": "105.png"
         },
         {
             "question": "Quel est cet organisme ?",
             "reponse": "epeat",
-            "def": "epeat",
             "image": "106.png"
         },
         {
             "question": "Quel est cet organisme ?",
             "reponse": "80 plus",
-            "def": "80 plus",
             "image": "107.png"
         },
         {
             "question": "Quel est cet organisme ?",
             "reponse": "tco",
-            "def": "tco",
             "image": "108.png"
         },
         {
             "question": "Quel est cet organisme ?",
             "reponse": "energy star",
-            "def": "energy star",
             "image": "109.png"
         },
         {
             "question": "Quel est cet organisme ?",
             "reponse": "ecolabel",
-            "def": "ecolabel",
             "image": "110.png"
         }
     ]

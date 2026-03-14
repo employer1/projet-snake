@@ -8,104 +8,87 @@
         {
             "question": "Comment se nomme cette province (1) ?",
             "image": "carte_belgique.png",
-            "reponse": "luxembourg",
-            "def": "Luxembourg"
+            "reponse": "Luxembourg"
         },
         {
             "question": "Comment se nomme cette province (2) ?",
             "image": "carte_belgique.png",
-            "reponse": "namur",
-            "def": "Namur"
+            "reponse": "Namur"
         },
         {
             "question": "Comment se nomme cette province (3) ?",
             "image": "carte_belgique.png",
-            "reponse": "liege",
-            "def": "Liège"
+            "reponse": "Liège"
         },
         {
             "question": "Comment se nomme cette province (4) ?",
             "image": "carte_belgique.png",
-            "reponse": "hainaut",
-            "def": "Hainaut"
+            "reponse": "Hainaut"
         },
         {
             "question": "Comment se nomme cette province (5) ?",
             "image": "carte_belgique.png",
-            "reponse": "brabant wallon",
-            "def": "Brabant Wallon"
+            "reponse": "Brabant Wallon"
         },
         {
             "question": "Comment se nomme cette province (6) ?",
             "image": "carte_belgique.png",
-            "reponse": "limbourg",
-            "def": "Limbourg"
+            "reponse": "Limbourg"
         },
         {
             "question": "Comment se nomme cette province (7) ?",
             "image": "carte_belgique.png",
-            "reponse": "brabant flamand",
-            "def": "Brabant Flamand"
+            "reponse": "Brabant Flamand"
         },
         {
             "question": "Comment se nomme cette province (8) ?",
             "image": "carte_belgique.png",
-            "reponse": "bruxelles",
-            "def": "Bruxelles"
+            "reponse": "Bruxelles"
         },
         {
             "question": "Comment se nomme cette province (9) ?",
             "image": "carte_belgique.png",
-            "reponse": "anvers",
-            "def": "Anvers"
+            "reponse": "Anvers"
         },
         {
             "question": "Comment se nomme cette province (10) ?",
             "image": "carte_belgique.png",
-            "reponse": "flandre-orientale",
-            "def": "Flandre-Orientale"
+            "reponse": "Flandre-Orientale"
         },
         {
             "question": "Comment se nomme cette province (11) ?",
             "image": "carte_belgique.png",
-            "reponse": "flandre-occidentale",
-            "def": "Flandre-Occidentale"
+            "reponse": "Flandre-Occidentale"
         },
         {
             "question": "Quel est le chef-lieu cette province (1) ?",
             "image": "carte_belgique.png",
-            "reponse": "arlon",
-            "def": "Arlon"
+            "reponse": "Arlon"
         },
         {
             "question": "Quel est le chef-lieu cette province (2) ?",
             "image": "carte_belgique.png",
-            "reponse": "namur",
-            "def": "Namur"
+            "reponse": "Namur"
         },
         {
             "question": "Quel est le chef-lieu cette province (3) ?",
             "image": "carte_belgique.png",
-            "reponse": "liege",
-            "def": "Liège"
+            "reponse": "Liège"
         },
         {
             "question": "Quel est le chef-lieu cette province (4) ?",
             "image": "carte_belgique.png",
-            "reponse": "mons",
-            "def": "Mons"
+            "reponse": "Mons"
         },
         {
             "question": "Quel est le chef-lieu cette province (5) ?",
             "image": "carte_belgique.png",
-            "reponse": "wavre",
-            "def": "Wavre"
+            "reponse": "Wavre"
         },
         {
             "question": "Quel est le chef-lieu cette province (6) ?",
             "image": "carte_belgique.png",
-            "reponse": "hasselt",
-            "def": "Hasselt"
+            "reponse": "Hasselt"
         },
         {
             "question": "Quel est le chef-lieu cette province (7) ?",

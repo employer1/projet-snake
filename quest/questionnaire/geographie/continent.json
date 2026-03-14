@@ -8,44 +8,37 @@
         {
             "question": "Comment se nomme ce continent ?",
             "image": "europe.png",
-            "reponse": "europe",
-            "def": "Europe"
+            "reponse": "def": "Europe"
         },
         {
             "question": "Comment se nomme ce continent ?",
             "image": "asie.png",
-            "reponse": "asie",
-            "def": "Asie"
+            "reponse": "Asie"
         },
         {
             "question": "Comment se nomme ce continent ?",
             "image": "afrique.png",
-            "reponse": "afrique",
-            "def": "Afrique"
+            "reponse": "Afrique"
         },
         {
             "question": "Comment se nomme ce continent ?",
             "image": "amerique_du_nord.png",
-            "reponse": "amerique du nord",
-            "def": "Amérique du Nord"
+            "reponse": "Amérique du Nord"
         },
         {
             "question": "Comment se nomme ce continent ?",
             "image": "amerique_du_sud.png",
-            "reponse": "amerique du sud",
-            "def": "Amérique du Sud"
+            "reponse": "Amérique du Sud"
         },
         {
             "question": "Comment se nomme ce continent ?",
             "image": "oceanie.png",
-            "reponse": "oceanie",
-            "def": "Océanie"
+            "reponse": "Océanie"
         },
         {
             "question": "Comment se nomme ce continent ?",
             "image": "antarctique.png",
-            "reponse": "antarctique",
-            "def": "Antarctique"
+            "reponse": "Antarctique"
         }
     ]
 }

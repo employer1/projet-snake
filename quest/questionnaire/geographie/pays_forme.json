@@ -8,1304 +8,1087 @@
         {
             "question": "A quel pays correspond cette image ?",
             "image": "afghanistan_forme.png",
-            "reponse": "afghanistan",
-            "def": "Afghanistan"
+            "reponse": "Afghanistan"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "afrique_du_sud_forme.png",
-            "reponse": "afriqeu du sud",
-            "def": "Afrique du Sud"
+            "reponse": "Afrique du Sud"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "albanie_forme.png",
-            "reponse": "albanie",
-            "def": "Albanie"
+            "reponse": "Albanie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "algerie_forme.png",
-            "reponse": "algerie",
-            "def": "Algérie"
+            "reponse": "Algérie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "allemagne_forme.png",
-            "reponse": "allemagne",
-            "def": "Allemagne"
+            "reponse": "Allemagne"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "andorre_forme.png",
-            "reponse": "andorre",
-            "def": "Andorre"
+            "reponse": "Andorre"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "angola_forme.png",
-            "reponse": "angola",
-            "def": "Angola"
+            "reponse": "Angola"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "anguilla_forme.png",
-            "reponse": "anguilla",
-            "def": "Anguilla"
+            "reponse": "Anguilla"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "antigua_et_barbuda_forme.png",
-            "reponse": "antigua-et-barbuda",
-            "def": "Antigua-et-Barbuda"
+            "reponse": "Antigua-et-Barbuda"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "arabie_saoudite_forme.png",
-            "reponse": "arabie saoudite",
-            "def": "Arabie Saoudite"
+            "reponse": "Arabie Saoudite"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "argentine_forme.png",
-            "reponse": "argentine",
-            "def": "Argentine"
+            "reponse": "Argentine"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "armenie_forme.png",
-            "reponse": "armenie",
-            "def": "Arménie"
+            "reponse": "Arménie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "aruba_forme.png",
-            "reponse": "aruba",
-            "def": "Aruba"
+            "reponse": "Aruba"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "australie_forme.png",
-            "reponse": "australie",
-            "def": "Australie"
+            "reponse": "Australie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "autriche_forme.png",
-            "reponse": "autriche",
-            "def": "Autriche"
+            "reponse": "Autriche"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "azerbaidjan_forme.png",
-            "reponse": "azerbaidjan",
-            "def": "Azerbaïdjan"
+            "reponse": "Azerbaïdjan"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "bahamas_forme.png",
-            "reponse": "bahamas",
-            "def": "Bahamas"
+            "reponse": "Bahamas"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "bahrein_forme.png",
-            "reponse": "bahrein",
-            "def": "Bahreïn"
+            "reponse": "Bahreïn"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "bangladesh_forme.png",
-            "reponse": "bangladesh",
-            "def": "Bangladesh"
+            "reponse": "Bangladesh"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "barbade_forme.png",
-            "reponse": "barbade",
-            "def": "Barbade"
+            "reponse": "Barbade"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "belgique_forme.png",
-            "reponse": "belgique",
-            "def": "Belgique"
+            "reponse": "Belgique"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "belize_forme.png",
-            "reponse": "belize",
-            "def": "Belize"
+            "reponse": "Belize"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "benin_forme.png",
-            "reponse": "benin",
-            "def": "Bénin"
+            "reponse": "Bénin"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "bermudes_forme.png",
-            "reponse": "bermudes",
-            "def": "Bermudes"
+            "reponse": "Bermudes"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "bhoutan_forme.png",
-            "reponse": "bhoutan",
-            "def": "Bhoutan"
+            "reponse": "Bhoutan"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "bielorussie_forme.png",
-            "reponse": "bielorussie",
-            "def": "Biélorussie"
+            "reponse": "Biélorussie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "birmanie_forme.png",
-            "reponse": "birmanie",
-            "def": "Birmanie"
+            "reponse": "Birmanie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "bolivie_forme.png",
-            "reponse": "bolivie",
-            "def": "Bolivie"
+            "reponse": "Bolivie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "bosnie_herzegovie_forme.png",
-            "reponse": "bosnie-herzegovie",
-            "def": "Bosnie-Herzégovie"
+            "reponse": "Bosnie-Herzégovie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "botswana_forme.png",
-            "reponse": "botswana",
-            "def": "Botswana"
+            "reponse": "Botswana"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "bresil_forme.png",
-            "reponse": "bresil",
-            "def": "Brésil"
+            "reponse": "Brésil"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "brunei_darussalam_forme.png",
-            "reponse": "brunei darussalam",
-            "def": "Brunéi Darussalam"
+            "reponse": "Brunéi Darussalam"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "bulgarie_forme.png",
-            "reponse": "bulgarie",
-            "def": "Bulgarie"
+            "reponse": "Bulgarie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "burundi_forme.png",
-            "reponse": "burundi",
-            "def": "Burundi"
+            "reponse": "Burundi"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "cambodge_forme.png",
-            "reponse": "cambodge",
-            "def": "Cambodge"
+            "reponse": "Cambodge"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "cameroun_forme.png",
-            "reponse": "cameroun",
-            "def": "Cameroun"
+            "reponse": "Cameroun"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "canada_forme.png",
-            "reponse": "canada",
-            "def": "Canada"
+            "reponse": "Canada"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "cap_vert_forme.png",
-            "reponse": "cap-vert",
-            "def": "Cap-Vert"
+            "reponse": "Cap-Vert"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "chili_forme.png",
-            "reponse": "chili",
-            "def": "Chili"
+            "reponse": "Chili"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "chine_forme.png",
-            "reponse": "chine",
-            "def": "Chine"
+            "reponse": "Chine"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "chypre_forme.png",
-            "reponse": "chypre",
-            "def": "Chypre"
+            "reponse": "Chypre"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "colombie_forme.png",
-            "reponse": "colombie",
-            "def": "Colombie"
+            "reponse": "Colombie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "comores_forme.png",
-            "reponse": "comores",
-            "def": "Comores"
+            "reponse": "Comores"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "coree_du_sud_forme.png",
-            "reponse": "coree du sud",
-            "def": "Corée du Sud"
+            "reponse": "Corée du Sud"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "coree_du_nord_forme.png",
-            "reponse": "coree du nord",
-            "def": "Corée du Nord"
+            "reponse": "Corée du Nord"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "costa_rica_forme.png",
-            "reponse": "costa rica",
-            "def": "Costa Rica"
+            "reponse": "Costa Rica"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "cote_d'ivoire_forme.png",
-            "reponse": "Cote d'ivoire",
-            "def": "Côte d'Ivoire"
+            "reponse": "Côte d'Ivoire"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "croatie_forme.png",
-            "reponse": "croatie",
-            "def": "Croatie"
+            "reponse": "Croatie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "cuba_forme.png",
-            "reponse": "cuba",
-            "def": "Cuba"
+            "reponse": "Cuba"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "curacao_forme.png",
-            "reponse": "curacao",
-            "def": "Curaçao"
+            "reponse": "Curaçao"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "danemark_forme.png",
-            "reponse": "danemark",
-            "def": "Danemark"
+            "reponse": "Danemark"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "djibouti_forme.png",
-            "reponse": "djibouti",
-            "def": "Djibouti"
+            "reponse": "Djibouti"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "dominique_forme.png",
-            "reponse": "dominique",
-            "def": "Dominique"
+            "reponse": "Dominique"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "egypte_forme.png",
-            "reponse": "egypte",
-            "def": "Egypte"
+            "reponse": "Egypte"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "emirats_arabes_unis_forme.png",
-            "reponse": "emirats arabes unis",
-            "def": "Emirats Arabes Unis"
+            "reponse": "Emirats Arabes Unis"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "equateur_forme.png",
-            "reponse": "equateur",
-            "def": "Equateur"
+            "reponse": "Equateur"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "erythree_forme.png",
-            "reponse": "erythree",
-            "def": "Erythrée"
+            "reponse": "Erythrée"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "espagne_forme.png",
-            "reponse": "espagne",
-            "def": "Espagne"
+            "reponse": "Espagne"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "estonie_forme.png",
-            "reponse": "estonie",
-            "def": "Estonie"
+            "reponse": "Estonie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "eswatini_forme.png",
-            "reponse": "eswatini",
-            "def": "Eswatini"
+            "reponse": "Eswatini"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "etats_unis_forme.png",
-            "reponse": "etats-unis",
-            "def": "Etats-Unis"
+            "reponse": "Etats-Unis"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "ethiopie_forme.png",
-            "reponse": "ethiopie",
-            "def": "Ethiopie"
+            "reponse": "Ethiopie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "fidji_forme.png",
-            "reponse": "fidji",
-            "def": "Fidji"
+            "reponse": "Fidji"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "finlande_forme.png",
-            "reponse": "finlande",
-            "def": "Finlande"
+            "reponse": "Finlande"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "france_forme.png",
-            "reponse": "france",
-            "def": "France"
+            "reponse": "France"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "gabon_forme.png",
-            "reponse": "gabon",
-            "def": "Gabon"
+            "reponse": "Gabon"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "gambie_forme.png",
-            "reponse": "gambie",
-            "def": "Gambie"
+            "reponse": "Gambie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "georgie_forme.png",
-            "reponse": "georgie",
-            "def": "Georgie"
+            "reponse": "Georgie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "ghana_forme.png",
-            "reponse": "ghana",
-            "def": "Ghana"
+            "reponse": "Ghana"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "grece_forme.png",
-            "reponse": "grece",
-            "def": "Grèce"
+            "reponse": "Grèce"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "grenade_forme.png",
-            "reponse": "grenade",
-            "def": "Grenade"
+            "reponse": "Grenade"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "groenland_forme.png",
-            "reponse": "groenland",
-            "def": "Groenland"
+            "reponse": "Groenland"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "guadeloupe_forme.png",
-            "reponse": "guadeloupe",
-            "def": "Guadeloupe"
+            "reponse": "Guadeloupe"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "guam_forme.png",
-            "reponse": "guam",
-            "def": "Guam"
+            "reponse": "Guam"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "guatemala_forme.png",
-            "reponse": "guatemala",
-            "def": "Guatemala"
+            "reponse": "Guatemala"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "guernesey_forme.png",
-            "reponse": "guernesey",
-            "def": "Guernesey"
+            "reponse": "Guernesey"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "guinee_forme.png",
-            "reponse": "guinee",
-            "def": "Guinée"
+            "reponse": "Guinée"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "guinee_equatoriale_forme.png",
-            "reponse": "guinee equatoriale",
-            "def": "Guinée Equatoriale"
+            "reponse": "Guinée Equatoriale"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "guyane_forme.png",
-            "reponse": "guyane",
-            "def": "Guyane"
+            "reponse": "Guyane"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "guyane_francaise_forme.png",
-            "reponse": "guyane francaise",
-            "def": "Guyane Française"
+            "reponse": "Guyane Française"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "haiti_forme.png",
-            "reponse": "haiti",
-            "def": "Haïti"
+            "reponse": "Haïti"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "honduras_forme.png",
-            "reponse": "honduras",
-            "def": "Honduras"
+            "reponse": "Honduras"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "hong_kong_forme.png",
-            "reponse": "hong kong",
-            "def": "Hong Kong"
+            "reponse": "Hong Kong"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "hongrie_forme.png",
-            "reponse": "hongrie",
-            "def": "Hongrie"
+            "reponse": "Hongrie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "ile_christmas_forme.png",
-            "reponse": "ile christmas",
-            "def": "île Christmas"
+            "reponse": "île Christmas"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "ile_de_la_reunion_forme.png",
-            "reponse": "île de la reunion",
-            "def": "île de la Réunion"
+            "reponse": "île de la Réunion"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "ile_de_man_forme.png",
-            "reponse": "ile de man",
-            "def": "île de Man"
+            "reponse": "île de Man"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "ile_maurice_forme.png",
-            "reponse": "ile maurice",
-            "def": "île Maurice"
+            "reponse": "île Maurice"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "iles_caimans_forme.png",
-            "reponse": "iles caimans",
-            "def": "îles Caimans"
+            "reponse": "îles Caimans"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "iles_cocos_forme.png",
-            "reponse": "iles cocos",
-            "def": "îles Cocos"
+            "reponse": "îles Cocos"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "iles_cook_forme.png",
-            "reponse": "iles cook",
-            "def": "îles Cook"
+            "reponse": "îles Cook"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "iles_feroe_forme.png",
-            "reponse": "iles feroe",
-            "def": "îles Féroé"
+            "reponse": "îles Féroé"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "iles_malouines_forme.png",
-            "reponse": "iles malouines",
-            "def": "îles Malouines"
+            "reponse": "îles Malouines"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "iles_salomon_forme.png",
-            "reponse": "iles salomon",
-            "def": "îles Salomon"
+            "reponse": "îles Salomon"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "iles_vierges_americaines_forme.png",
-            "reponse": "iles vierges americaines",
-            "def": "îles Vierges Américaines"
+            "reponse": "îles Vierges Américaines"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "iles_vierges_britanniques_forme.png",
-            "reponse": "iles vierges britanniques",
-            "def": "îles Vierges Britanniques"
+            "reponse": "îles Vierges Britanniques"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "inde_forme.png",
-            "reponse": "inde",
-            "def": "Inde"
+            "reponse": "Inde"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "indonesie_forme.png",
-            "reponse": "indonesie",
-            "def": "Indonésie"
+            "reponse": "Indonésie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "irak_forme.png",
-            "reponse": "irak",
-            "def": "Irak"
+            "reponse": "Irak"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "iran_forme.png",
-            "reponse": "iran",
-            "def": "Iran"
+            "reponse": "Iran"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "irlande_forme.png",
-            "reponse": "irlande",
-            "def": "Irlande"
+            "reponse": "Irlande"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "islande_forme.png",
-            "reponse": "islande",
-            "def": "Islande"
+            "reponse": "Islande"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "israel_forme.png",
-            "reponse": "israel",
-            "def": "Israël"
+            "reponse": "Israël"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "italie_forme.png",
-            "reponse": "italie",
-            "def": "Italie"
+            "reponse": "Italie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "jamaique_forme.png",
-            "reponse": "jamaique",
-            "def": "Jamaïque"
+            "reponse": "Jamaïque"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "japon_forme.png",
-            "reponse": "japon",
-            "def": "Japon"
+            "reponse": "Japon"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "jordanie_forme.png",
-            "reponse": "jordanie",
-            "def": "Jordanie"
+            "reponse": "Jordanie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "kazakhstan_forme.png",
-            "reponse": "kazakhstan",
-            "def": "Kazakhstan"
+            "reponse": "Kazakhstan"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "kenya_forme.png",
-            "reponse": "kenya",
-            "def": "Kenya"
+            "reponse": "Kenya"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "kirghizistan_forme.png",
-            "reponse": "kirghizistan",
-            "def": "Kirghizistan"
+            "reponse": "Kirghizistan"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "kiribati_forme.png",
-            "reponse": "kiribati",
-            "def": "Kiribati"
+            "reponse": "Kiribati"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "koweit_forme.png",
-            "reponse": "koweit",
-            "def": "Koweït"
+            "reponse": "Koweït"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "laos_forme.png",
-            "reponse": "laos",
-            "def": "laos"
+            "reponse": "laos"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "lesotho_forme.png",
-            "reponse": "lesotho",
-            "def": "Lesotho"
+            "reponse": "Lesotho"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "lettonie_forme.png",
-            "reponse": "lettonie",
-            "def": "Lettonie"
+            "reponse": "Lettonie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "liban_forme.png",
-            "reponse": "liban",
-            "def": "Liban"
+            "reponse": "Liban"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "liberia_forme.png",
-            "reponse": "liberia",
-            "def": "Liberia"
+            "reponse": "Liberia"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "libye_forme.png",
-            "reponse": "libye",
-            "def": "Libye"
+            "reponse": "Libye"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "liechtenstein_forme.png",
-            "reponse": "liechtenstein",
-            "def": "Liechtenstein"
+            "reponse": "Liechtenstein"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "lituanie_forme.png",
-            "reponse": "lituanie",
-            "def": "Lituanie"
+            "reponse": "Lituanie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "luxembourg_forme.png",
-            "reponse": "luxembourg",
-            "def": "Luxembourg"
+            "reponse": "Luxembourg"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "macedoine_du_nord_forme.png",
-            "reponse": "macedoine du nord",
-            "def": "Macédoine du Nord"
+            "reponse": "Macédoine du Nord"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "madagascar_forme.png",
-            "reponse": "madagascar",
-            "def": "Madagascar"
+            "reponse": "Madagascar"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "malaisie_forme.png",
-            "reponse": "malaisie",
-            "def": "Malaisie"
+            "reponse": "Malaisie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "malawi_forme.png",
-            "reponse": "malawi",
-            "def": "Malawi"
+            "reponse": "Malawi"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "maldives_forme.png",
-            "reponse": "maldives",
-            "def": "Maldives"
+            "reponse": "Maldives"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "mali_forme.png",
-            "reponse": "mali",
-            "def": "Mali"
+            "reponse": "Mali"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "malte_forme.png",
-            "reponse": "malte",
-            "def": "Malte"
+            "reponse": "Malte"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "maroc_forme.png",
-            "reponse": "maroc",
-            "def": "Maroc"
+            "reponse": "Maroc"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "martinique_forme.png",
-            "reponse": "martinique",
-            "def": "Martinique"
+            "reponse": "Martinique"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "mauritanie_forme.png",
-            "reponse": "mauritanie",
-            "def": "Mauritanie"
+            "reponse": "Mauritanie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "mayotte_forme.png",
-            "reponse": "mayotte",
-            "def": "Mayotte"
+            "reponse": "Mayotte"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "mexique_forme.png",
-            "reponse": "mexique",
-            "def": "Mexique"
+            "reponse": "Mexique"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "moldavie_forme.png",
-            "reponse": "moldavie",
-            "def": "Moldavie"
+            "reponse": "Moldavie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "monaco_forme.png",
-            "reponse": "monaco",
-            "def": "Monaco"
+            "reponse": "Monaco"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "mongolie_forme.png",
-            "reponse": "mongolie",
-            "def": "Mongolie"
+            "reponse": "Mongolie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "montenegro_forme.png",
-            "reponse": "montenegro",
-            "def": "Monténégro"
+            "reponse": "Monténégro"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "mozambique_forme.png",
-            "reponse": "mozambique",
-            "def": "Mozambique"
+            "reponse": "Mozambique"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "namibie_forme.png",
-            "reponse": "namibie",
-            "def": "Namibie"
+            "reponse": "Namibie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "nauru_forme.png",
-            "reponse": "nauru",
-            "def": "Nauru"
+            "reponse": "Nauru"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "nepal_forme.png",
-            "reponse": "nepal",
-            "def": "Népal"
+            "reponse": "Népal"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "nicaragua_forme.png",
-            "reponse": "nicaragua",
-            "def": "Nicaragua"
+            "reponse": "Nicaragua"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "niger_forme.png",
-            "reponse": "niger",
-            "def": "Niger"
+            "reponse": "Niger"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "nigeria_forme.png",
-            "reponse": "Nigeria",
-            "def": "Nigeria"
+            "reponse": "Nigeria"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "niue_forme.png",
-            "reponse": "niue",
-            "def": "Niue"
+            "reponse": "Niue"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "norvege_forme.png",
-            "reponse": "norvege",
-            "def": "Norvège"
+            "reponse": "Norvège"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "nouvelle_caledonie_forme.png",
-            "reponse": "nouvelle caledonie",
-            "def": "Nouvelle Calédonie"
+            "reponse": "Nouvelle Calédonie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "nouvelle_zelande_forme.png",
-            "reponse": "nouvelle zelande",
-            "def": "Nouvelle Zélande"
+            "reponse": "Nouvelle Zélande"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "oman_forme.png",
-            "reponse": "oman",
-            "def": "Oman"
+            "reponse": "Oman"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "ouganda_forme.png",
-            "reponse": "ouganda",
-            "def": "Ouganda"
+            "reponse": "Ouganda"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "ouzbekistan_forme.png",
-            "reponse": "ouzbekistan",
-            "def": "Ouzbékistan"
+            "reponse": "Ouzbékistan"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "pakistan_forme.png",
-            "reponse": "pakistan",
-            "def": "Pakistan"
+            "reponse": "Pakistan"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "panama_forme.png",
-            "reponse": "panama",
-            "def": "Panama"
+            "reponse": "Panama"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "papouasie_nouvelle_guinee_forme.png",
-            "reponse": "papouasie nouvelle guinee",
-            "def": "Papouasie Nouvelle Guinée"
+            "reponse": "Papouasie Nouvelle Guinée"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "paraguay_forme.png",
-            "reponse": "paraguay",
-            "def": "Paraguay"
+            "reponse": "Paraguay"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "pays_bas_forme.png",
-            "reponse": "pays-bas",
-            "def": "Pays-Bas"
+            "reponse": "Pays-Bas"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "perou_forme.png",
-            "reponse": "perou",
-            "def": "Pérou"
+            "reponse": "Pérou"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "philippines_forme.png",
-            "reponse": "philippines",
-            "def": "Phillipines"
+            "reponse": "Phillipines"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "pologne_forme.png",
-            "reponse": "pologne",
-            "def": "Pologne"
+            "reponse": "Pologne"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "polynesie_francaise_forme.png",
-            "reponse": "polynesie francaise",
-            "def": "Polynesie Française"
+            "reponse": "Polynesie Française"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "porto_rico_forme.png",
-            "reponse": "porto rico",
-            "def": "Porto Rico"
+            "reponse": "Porto Rico"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "portugal_forme.png",
-            "reponse": "portugal",
-            "def": "Portugal"
+            "reponse": "Portugal"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "qatar_forme.png",
-            "reponse": "qatar",
-            "def": "Qatar"
+            "reponse": "Qatar"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "republique_centrafricaine_forme.png",
-            "reponse": "republique centrafricaine",
-            "def": "République Centrafricaine"
+            "reponse": "République Centrafricaine"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "republique_democratique_du_congo_forme.png",
-            "reponse": "republique democratique du congo",
-            "def": "République Démocratique du Congo"
+            "reponse": "République Démocratique du Congo"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "republique_dominicaine_forme.png",
-            "reponse": "republique dominicaine",
-            "def": "République Dominicaine"
+            "reponse": "République Dominicaine"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "republique_du_congo_forme.png",
-            "reponse": "republique du congo",
-            "def": "République du Congo"
+            "reponse": "République du Congo"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "republique_tcheque_forme.png",
-            "reponse": "republique tcheque",
-            "def": "République Tchèque"
+            "reponse": "République Tchèque"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "roumanie_forme.png",
-            "reponse": "roumanie",
-            "def": "Roumanie"
+            "reponse": "Roumanie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "royaume_unis_forme.png",
-            "reponse": "royaume-unis",
-            "def": "Royaume-Unis"
+            "reponse": "Royaume-Unis"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "russie_forme.png",
-            "reponse": "russie",
-            "def": "Russie"
+            "reponse": "Russie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "rwanda_forme.png",
-            "reponse": "rwanda",
-            "def": "Rwanda"
+            "reponse": "Rwanda"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "saint_barthelemy_forme.png",
-            "reponse": "saint barthelemy",
-            "def": "Saint Barthelemy"
+            "reponse": "Saint Barthelemy"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "saint_marin_forme.png",
-            "reponse": "saint marin",
-            "def": "Saint Marin"
+            "reponse": "Saint Marin"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "saint_martin_forme.png",
-            "reponse": "saint martin",
-            "def": "Saint Martin"
+            "reponse": "Saint Martin"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "saint_vincent_et_les_grenadines_forme.png",
-            "reponse": "saint vincent et les grenadines",
-            "def": "Saint Vincent et les Grenadines"
+            "reponse": "Saint Vincent et les Grenadines"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "sainte_helene_forme.png",
-            "reponse": "sainte helene",
-            "def": "Sainte Hélène"
+            "reponse": "Sainte Hélène"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "sainte_lucie_forme.png",
-            "reponse": "sainte lucie",
-            "def": "Sainte Lucie"
+            "reponse": "Sainte Lucie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "salvador_forme.png",
-            "reponse": "salvador",
-            "def": "Salvador"
+            "reponse": "Salvador"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "samoa_forme.png",
-            "reponse": "samoa",
-            "def": "Samoa"
+            "reponse": "Samoa"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "sao_tome_et_principe_forme.png",
-            "reponse": "sao tome-et-principe",
-            "def": "Sao Tomé-et-Principe"
+            "reponse": "Sao Tomé-et-Principe"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "senegal_forme.png",
-            "reponse": "senegal",
-            "def": "Sénégal"
+            "reponse": "Sénégal"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "serbie_forme.png",
-            "reponse": "serbie",
-            "def": "Serbie"
+            "reponse": "Serbie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "seychelles_forme.png",
-            "reponse": "seychelles",
-            "def": "Seychelles"
+            "reponse": "Seychelles"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "sierra_leone_forme.png",
-            "reponse": "sierra leone",
-            "def": "Sierra Leone"
+            "reponse": "Sierra Leone"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "singapour_forme.png",
-            "reponse": "singapour",
-            "def": "Singapour"
+            "reponse": "Singapour"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "slovaquie_forme.png",
-            "reponse": "slovaquie",
-            "def": "Slovaquie"
+            "reponse": "Slovaquie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "slovenie_forme.png",
-            "reponse": "slovenie",
-            "def": "Slovénie"
+            "reponse": "Slovénie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "somalie_forme.png",
-            "reponse": "somalie",
-            "def": "Somalie"
+            "reponse": "Somalie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "soudan_forme.png",
-            "reponse": "soudan",
-            "def": "Soudan"
+            "reponse": "Soudan"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "soudan_du_sud_forme.png",
-            "reponse": "soudan du sud",
-            "def": "Soudan du Sud"
+            "reponse": "Soudan du Sud"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "sri_lanka_forme.png",
-            "reponse": "sri lanka",
-            "def": "Sri Lanka"
+            "reponse": "Sri Lanka"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "suede_forme.png",
-            "reponse": "suede",
-            "def": "Suède"
+            "reponse": "Suède"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "suisse_forme.png",
-            "reponse": "suisse",
-            "def": "Suisse"
+            "reponse": "Suisse"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "suriname_forme.png",
-            "reponse": "suriname",
-            "def": "Suriname"
+            "reponse": "Suriname"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "syrie_forme.png",
-            "reponse": "syrie",
-            "def": "Syrie"
+            "reponse": "Syrie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "tadjikistan_forme.png",
-            "reponse": "tadjikistan",
-            "def": "Tadjikistan"
+            "reponse": "Tadjikistan"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "taiwan_forme.png",
-            "reponse": "taiwan",
-            "def": "Taiwan"
+            "reponse": "Taiwan"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "tanzanie_forme.png",
-            "reponse": "tanzanie",
-            "def": "Tanzanie"
+            "reponse": "Tanzanie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "tchad_forme.png",
-            "reponse": "tchad",
-            "def": "Tchad"
+            "reponse": "Tchad"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "thailande_forme.png",
-            "reponse": "thailande",
-            "def": "Thaïlande"
+            "reponse": "Thaïlande"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "timor_oriental_forme.png",
-            "reponse": "timor oritental",
-            "def": "Timor Oriental"
+            "reponse": "Timor Oriental"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "togo_forme.png",
-            "reponse": "togo",
-            "def": "Togo"
+            "reponse": "Togo"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "tonga_forme.png",
-            "reponse": "tonga",
-            "def": "Tonga"
+            "reponse": "Tonga"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "trinite_et_tobago_forme.png",
-            "reponse": "trinite-et-tobago",
-            "def": "Trinité-et-Tobago"
+            "reponse": "Trinité-et-Tobago"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "tunisie_forme.png",
-            "reponse": "tunisie",
-            "def": "Tunisie"
+            "reponse": "Tunisie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "turkmenistan_forme.png",
-            "reponse": "turkmenistan",
-            "def": "Turkménistan"
+            "reponse": "Turkménistan"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "turquie_forme.png",
-            "reponse": "turquie",
-            "def": "Turquie"
+            "reponse": "Turquie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "ukraine_forme.png",
-            "reponse": "ukraine",
-            "def": "Ukraine"
+            "reponse": "Ukraine"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "uruguay_forme.png",
-            "reponse": "uruguay",
-            "def": "Uruguay"
+            "reponse": "Uruguay"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "vanuatu_forme.png",
-            "reponse": "vanuatu",
-            "def": "Vanuatu"
+            "reponse": "Vanuatu"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "vatican_forme.png",
-            "reponse": "vatican",
-            "def": "Vatican"
+            "reponse": "Vatican"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "venezuela_forme.png",
-            "reponse": "venezuela",
-            "def": "Venezuela"
+            "reponse": "Venezuela"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "vietnam_forme.png",
-            "reponse": "vietnam",
-            "def": "Vietnam"
+            "reponse": "Vietnam"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "yemen_forme.png",
-            "reponse": "yemen",
-            "def": "Yémen"
+            "reponse": "Yémen"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "zambie_forme.png",
-            "reponse": "zambie",
-            "def": "Zambie"
+            "reponse": "Zambie"
         },
         {
             "question": "A quel pays correspond cette image ?",
             "image": "zimbabwe_forme.png",
-            "reponse": "zimbabwe",
-            "def": "Zimbabwe"
+            "reponse": "Zimbabwe"
         }
     ]
 }
