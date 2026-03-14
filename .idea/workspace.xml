@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="import des modifications perdues">
+    <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="modifications mineures">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/cours/bien_etre_pictogramme.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/cours/bien_etre_pictogramme.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/race_de_chien.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/race_de_chien.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/chaine_de_montagne.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/chaine_de_montagne.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/continent.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/continent.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/mers.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/mers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/ocean.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/ocean.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_capitale.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_capitale.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_continent.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_continent.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_drapeau.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_drapeau.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_forme.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/pays_forme.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/geographie/province_et_chef_lieu.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/geographie/province_et_chef_lieu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vocabulaire.json" beforeDir="false" afterPath="$PROJECT_DIR$/vocabulaire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_game_of_thrones.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_game_of_thrones.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,23 +160,7 @@
       <workItem from="1773315062884" duration="6080000" />
       <workItem from="1773343475966" duration="3736000" />
       <workItem from="1773401013084" duration="2504000" />
-      <workItem from="1773479846636" duration="7946000" />
-    </task>
-    <task id="LOCAL-00002" summary="adaptations page création questionnaire txt">
-      <option name="closed" value="true" />
-      <created>1771327339440</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1771327339440</updated>
-    </task>
-    <task id="LOCAL-00003" summary="adaptations page création questionnaire txt">
-      <option name="closed" value="true" />
-      <created>1771339428459</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1771339428459</updated>
+      <workItem from="1773479846636" duration="16021000" />
     </task>
     <task id="LOCAL-00004" summary="ajout fichier de modification de questionnaire existant">
       <option name="closed" value="true" />
@@ -565,7 +538,23 @@
       <option name="project" value="LOCAL" />
       <updated>1773442835766</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="modifications mineures">
+      <option name="closed" value="true" />
+      <created>1773488138846</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1773488138847</updated>
+    </task>
+    <task id="LOCAL-00052" summary="modifications mineures">
+      <option name="closed" value="true" />
+      <created>1773488166098</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1773488166099</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -596,7 +585,6 @@
     <MESSAGE value="adaptation emplacement image questionnaire" />
     <MESSAGE value="modifications globales" />
     <MESSAGE value="adaptation lecture questionnaire" />
-    <MESSAGE value="modifications mineures" />
     <MESSAGE value="ajout phrase explication questionnaire." />
     <MESSAGE value="ajout bouton recommencer dactylo." />
     <MESSAGE value="rendre opérationnel bouton recommencer dactylo." />
@@ -608,6 +596,7 @@
     <MESSAGE value="modif mineure" />
     <MESSAGE value="modification mineure" />
     <MESSAGE value="import des modifications perdues" />
-    <option name="LAST_COMMIT_MESSAGE" value="import des modifications perdues" />
+    <MESSAGE value="modifications mineures" />
+    <option name="LAST_COMMIT_MESSAGE" value="modifications mineures" />
   </component>
 </project>

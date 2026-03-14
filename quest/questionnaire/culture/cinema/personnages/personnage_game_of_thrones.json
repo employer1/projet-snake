@@ -24,6 +24,256 @@
             "question": "Qui est ce personnage ?",
             "image": "barristan_selmy.png",
             "reponse": "Barristan Selmy"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "benjen_stark.png",
+            "reponse": "Benjen Stark"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "beric_dondarrion.png",
+            "reponse": "Beric "
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "bran_stark.png",
+            "reponse": "Bran Stark"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "bronn.png",
+            "reponse": "Bronn"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "catelyn_stark.png",
+            "reponse": "Catelyn Stark"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "cersei_lannister.png",
+            "reponse": "Cersei Lannister"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "corneille_a_trois_yeux.png",
+            "reponse": "Corneille à Trois Yeux"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "daenerys_targaryen.png",
+            "reponse": "Daenerys Targaryen"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "khal_drogo.png",
+            "reponse": "Khal Drogo"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "eddard_stark.png",
+            "reponse": "Eddard Stark"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "gendry_baratheon.png",
+            "reponse": "Gendry Barathéon"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "grenn.png",
+            "reponse": "Grenn"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "hodor.png",
+            "reponse": "Hodor"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "jaime_lannister.png",
+            "reponse": "Jaime Lannister"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "jaqen_h'ghar.png",
+            "reponse": "Jaqen H'ghar"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "jeor_mormont.png",
+            "reponse": "Jeor Mormont"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "joffrey_baratheon.png",
+            "reponse": "Joffrey Barathéon"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "jon_omble.png",
+            "reponse": "Jon Omble"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "jon_snow.png",
+            "reponse": "Jon Snow"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "jorah_mormont.png",
+            "reponse": "Jorah Mormont"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "lancel_lannister.png",
+            "reponse": "Lancel Lannister"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "loras_tyrell.png",
+            "reponse": "Loras Tyrell"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "luwin.png",
+            "reponse": "Luwin"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "lysa_arryn.png",
+            "reponse": "Lysa Arryn"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "meryn_trant.png",
+            "reponse": "Meryn Trant"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "modrane.png",
+            "reponse": "Modrane"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "myrcella_baratheon.png",
+            "reponse": "Myrcella Barathéon"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "osha.png",
+            "reponse": "Osha"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "petyr_baelish.png",
+            "reponse": "Petyr Baelish"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "pycelle.png",
+            "reponse": "Pycelle"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "pypar.png",
+            "reponse": "Pypar"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "rast.png",
+            "reponse": "Rast"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "renly_baratheon",
+            "reponse": "Renly Barathéon"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "rickon_stark.png",
+            "reponse": "Rickon Stark"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "robb_stark.png",
+            "reponse": "Robb Stark"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "robert_baratheon.png",
+            "reponse": "Robert Barathéon"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "robin_arryn.png",
+            "reponse": "Robin Arryn"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "rodrik_cassel.png",
+            "reponse": "Rodrik Cassel"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "samwell_tarly.png",
+            "reponse": "Samwell Tarly"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "Sandor Clegane",
+            "reponse": "sandor_clegane.png"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "sansa_stark.png",
+            "reponse": "Sansa Stark"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "syrio_forel.png",
+            "reponse": "Syrio Forel"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "theon_greyjoy.png",
+            "reponse": "Théon Greyjoy"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "tommen_baratheon.png",
+            "reponse": "Tommen Barathéon"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "tourte_chaude.png",
+            "reponse": "Tourte Chaude"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "tyrion_lannister.png",
+            "reponse": "Tyrion Lennister"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "tywin_lannister.png",
+            "reponse": "Tywin Lannister"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "varys.png",
+            "reponse": "Varys"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "viserys_targaryen.png",
+            "reponse": "Viserys Targaryen"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "walder_frey.png",
+            "reponse": "Walder Frey"
         }
     ]
 }
