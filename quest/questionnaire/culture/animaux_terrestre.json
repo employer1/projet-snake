@@ -1,8 +1,9 @@
 {
     "titre": "Cuisson des viandes",
-    "type": "qcm",
+    "type": "txt",
+    "reverse": 0,
     "path": "quest/img/img_animaux_terrestre",
-    "explication": "Permet de s'entrainer à reconnaître les différentes cuisson des viandes.",
+    "explication": "Un peu de culture général sur ce qui peuple notre terre.",
     "questionnaire": [
         {
             "question": "Quel est cet animal ?",
