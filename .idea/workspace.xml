@@ -5,8 +5,160 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="modifications mineures">
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/alligator_d'amerique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/antilope.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/autruche.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/babouin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/bandicoot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/bilby.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/binturong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/bison_d'amerique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/bison_d'europe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/blaireau_europeen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/boeuf_musque.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/bonobo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/buffle_d'afrique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/buffle_d'eau.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/caiman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/campagnol_amphibie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/capybara.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/carcajou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/caribou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/castor_eurasien.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/cerf_rouge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/chacal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/chameau.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/chameau_de_bactriane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/chamois.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/chat_dore_asiatique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/cheval_de_przewalski.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/chevreuil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/civette_palmiste_asiatique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/coatimundi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/colugos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/cormoran_imperial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/coyotte.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/crocodile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/crocodile_marin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/cygogne_noire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/diable_de_tasmanie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/diable_epineux.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/dingo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/dragon_de_komodo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/echidne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/ecureuil_roux.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/ecureuil_terrestre_arctique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/elan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/elephant_d'asie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/elephant_de_mer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/elephant_de_savane_d'afrique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/emeu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/fennec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/fourmilier.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/galago.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/gaur.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/girafe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/gnou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/goanna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/gorille.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/guanaco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/guepard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/hermine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/hippopotame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/hyene.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/jaguar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/kangourou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/koala.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/lama.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/lar_gibbon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/lemming.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/leopard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/leopard_des_neiges.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/leopard_nebuleux.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/lievre_arctique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/lievre_d'amerique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/lion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/lion_asiatique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/lion_de_mer_australien.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/lion_de_montagne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/loris_lent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/loup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/loup_a_criniere.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/loup_arctique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/loup_gris.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/loutre_de_mer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/loutre_geante.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/lynx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/lynx_eurasien.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/macaque_japonais.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/macareux.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/manchot_feerique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/mangouste.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/marmotte.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/martre_des_pins.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/morse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/mouflon_d'amerique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/mouton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/mouton_de_dall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/numero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/okapi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/opossum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/opossum_de_virginie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/orang-outan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/ornithorynque.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/orycterope.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/ours_a_lunette.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/ours_blanc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/ours_brun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/ours_malais.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/ours_noir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/ours_noir_asiatique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/panda_geant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/panda_roux.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/pangolin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/paresseux.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/phacochere.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/phoque_annele.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/phoque_du_groenland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/pingouin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/planeur_de_sucre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/porc-epic_d'amerique_du_nord.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/protele.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/quokka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/quoll.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/raton_laveur.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/renard_arctique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/renard_kit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/renard_roux.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/rhea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/rhinoceros.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/rhinoceros_indien.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/sambar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/sanglier.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/serval.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/singe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/singe_araignee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/singe_hurleur.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/singe_nasique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/singe_vervet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/tamarin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/tamia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/tapir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/tapir_de_malaisie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/tatou_a_neuf_bande.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/tigre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/varan_du_nil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/vicuna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/wallaby.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/wapiti.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/wombat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/yak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/img/img_animaux_terrestre/zebre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quest/questionnaire/culture/animaux_terrestre.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_game_of_thrones.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/culture/cinema/personnages/personnage_game_of_thrones.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/img/img_map_mario_kart/metro_ruban.png" beforeDir="false" afterPath="$PROJECT_DIR$/quest/img/img_map_mario_kart/metro_turbo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/cuisson_viande.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/autre/cuisson_viande.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vocabulaire.json" beforeDir="false" afterPath="$PROJECT_DIR$/vocabulaire.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,43 +207,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/theo/WebstormProjects/projet-snake/quest/questionnaire/culture/cinema/personnages&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/theo/WebstormProjects/projet-snake/quest/img/img_animaux_terrestre",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\theo\WebstormProjects\projet-snake\quest\img\img_animaux_terrestre" />
+      <recent name="C:\Users\theo\WebstormProjects\projet-snake\quest\questionnaire\autre" />
       <recent name="C:\Users\theo\WebstormProjects\projet-snake\quest\questionnaire\culture\cinema\personnages" />
       <recent name="C:\Users\theo\WebstormProjects\projet-snake\quest\questionnaire" />
       <recent name="C:\Users\theo\WebstormProjects\projet-snake\quest\img\img_personnage_zootopie" />
-      <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\img\img_personnage_zootopie" />
-      <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\img\img_acteur" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\theo\WebstormProjects\projet-snake\quest\questionnaire\culture" />
       <recent name="C:\Users\theo\WebstormProjects\projet-snake\quest\questionnaire\cours" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\culture" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\autre" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\img\img_belgique" />
-      <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\img" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -160,15 +312,7 @@
       <workItem from="1773315062884" duration="6080000" />
       <workItem from="1773343475966" duration="3736000" />
       <workItem from="1773401013084" duration="2504000" />
-      <workItem from="1773479846636" duration="16021000" />
-    </task>
-    <task id="LOCAL-00004" summary="ajout fichier de modification de questionnaire existant">
-      <option name="closed" value="true" />
-      <created>1771413297956</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1771413297956</updated>
+      <workItem from="1773479846636" duration="35181000" />
     </task>
     <task id="LOCAL-00005" summary="ajout fichier de modification de questionnaire existant">
       <option name="closed" value="true" />
@@ -554,7 +698,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773488166099</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="modifications mineures">
+      <option name="closed" value="true" />
+      <created>1773496986343</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1773496986344</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,0 +1,754 @@
+{
+    "titre": "Cuisson des viandes",
+    "type": "qcm",
+    "path": "quest/img/img_animaux_terrestre",
+    "explication": "Permet de s'entrainer à reconnaître les différentes cuisson des viandes.",
+    "questionnaire": [
+        {
+            "question": "Quel est cet animal ?",
+            "images": "alligator_d'amerique.png",
+            "reponse": "Alligator d'Amerique"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "antilope.png",
+            "reponse": "Antilope"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "autruche.png",
+            "reponse": "Autruche"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "babouin.png",
+            "reponse": "Babouin"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "bandicoot.png",
+            "reponse": "Bandicoot"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "bilby.png",
+            "reponse": "Bilby"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "binturong.png",
+            "reponse": "Binturong"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "bison_d'amerique.png",
+            "reponse": "Bison d'Amérique"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "bison_d'europe.png",
+            "reponse": "Bison d'Europe"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "blaireau_europeen.png",
+            "reponse": "Blaireau Européen"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "boeuf_musque.png",
+            "reponse": ["Boeuf Musqué","Bœuf Musqué"],
+            "def": "Bœuf Musqué"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "bonobo.png",
+            "reponse": "Bonobo"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "buffle_d'afrique.png",
+            "reponse": "Buffle d'Afrique"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "buffle_d'eau.png",
+            "reponse": "Buffle d'Eau"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "caiman.png",
+            "reponse": "Caiman"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "campagnol_amphibie.png",
+            "reponse": "Campagnol Amphibie"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "capybara.png",
+            "reponse": "Capybara"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "carcajou.png",
+            "reponse": "Carcajou"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "caribou.png",
+            "reponse": "Caribou"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "castor_eurasien.png",
+            "reponse": "Castor Eurasien"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "cerf_rouge.png",
+            "reponse": "Cerf Rouge"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "chacal.png",
+            "reponse": "Chacal"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "chameau.png",
+            "reponse": "Chameau"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "chameau_de_bactriane.png",
+            "reponse": "Chameau de Bactriane"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "chamois.png",
+            "reponse": "Chamois"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "chat_dore_asiatique.png",
+            "reponse": "Chat Doré Asiatique"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "cheval_de_przewalski.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "chevreuil.png",
+            "reponse": "Chevreuil"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "civette_palmiste_asiatique.png",
+            "reponse": "Civette Palmiste Asiatique"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "coatimundi.png",
+            "reponse": "Coatimundi"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "colugos.png",
+            "reponse": "Colugos"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "cormoran_imperial.png",
+            "reponse": "Cormoran Impérial"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "coyotte.png",
+            "reponse": "Coyotte"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "crocodile.png",
+            "reponse": "Crocodile"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "crocodile_marin.png",
+            "reponse": "Crocodile Marin"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "cygogne_noire.png",
+            "reponse": "Cygogne Noire"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "diable_de_tasmanie.png",
+            "reponse": "Diable de Tasmanie"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "diable_epineux.png",
+            "reponse": "Diable Epineux"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "dingo.png",
+            "reponse": "Dingo"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "dragon_de_komodo.png",
+            "reponse": "Dragon de Komodo"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "echidne.png",
+            "reponse": "Echidne"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "ecureuil_roux.png",
+            "reponse": "Ecureuil Roux"
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "ecureuil_terrestre_arctique.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "elan.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "elephant_d'asie.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "elephant_de_mer.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "elephant_de_savane_d'afrique.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "emeu.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "fennec.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "fourmilier.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "galago.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "gaur.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "girafe.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "gnou.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "goanna.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "gorille.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "guanaco.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "guepard.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "hermine.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "hippopotame.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "hyene.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "jaguar.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "kangourou.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "koala.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "lama.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "lar_gibbon.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "lemming.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "leopard.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "leopard_des_neiges.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "leopard_nebuleux.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "lievre_arctique.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "lievre_d'amerique.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "lion.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "lion_asiatique.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "lion_de_mer_australien.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "lion_de_montagne.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "loris_lent.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "loup.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "loup_a_criniere.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "loup_arctique.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "loup_gris.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "loutre_de_mer.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "loutre_geante.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "lynx.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "lynx_eurasien.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "macaque_japonais.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "macareux.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "manchot_feerique.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "mangouste.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "marmotte.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "martre_des_pins.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "morse.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "mouflon_d'amerique.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "mouton.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "mouton_de_dall.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "numero.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "okapi.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "opossum.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "opossum_de_virginie.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "orang-outan.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "ornithorynque.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "orycterope.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "ours_a_lunette.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "ours_blanc.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "ours_brun.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "ours_malais.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "ours_noir.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "ours_noir_asiatique.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "panda_geant.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "panda_roux.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "pangolin.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "paresseux.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "phacochere.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "phoque_annele.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "phoque_du_groenland.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "pingouin.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "planeur_de_sucre.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "porc-epic_d'amerique_du_nord.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "protele.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "quokka.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "quoll.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "raton_laveur.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "renard_arctique.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "renard_kit.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "renard_roux.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "rhea.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "rhinoceros.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "rhinoceros_indien.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "sambar.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "sanglier.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "serval.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "singe.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "singe_araignee.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "singe_hurleur.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "singe_nasique.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "singe_vervet.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "tamarin.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "tamia.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "tapir.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "tapir_de_malaise.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "tatou_a_neuf_bande.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "tigre.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "varan_du_nil.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "vicuna.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "wallaby.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "wapiti.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "wombat.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "yak.png",
+            "reponse": ""
+        },
+        {
+            "question": "Quel est cet animal ?",
+            "images": "zebre.png",
+            "reponse": ""
+        }
+    ]
+}
