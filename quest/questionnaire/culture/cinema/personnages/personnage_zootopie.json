@@ -59,7 +59,7 @@
         {
             "question": "Qui est ce personnage ?",
             "image": "judy_hopps.png",
-            "reponse": ["judy hopps","carrotte","lapin crétin","lapin malin","trudy cabbagepatch"],
+            "reponse": ["judy hopps","carrotte","lapin crétin","lapin malin","trudy cabbagepatch","officier hopps"],
             "def": "Judy Hopps"
         },
         {
@@ -95,7 +95,7 @@
         {
             "question": "Qui est ce personnage ?",
             "image": "nick_wilde.png",
-            "reponse": ["nick wilde","nicholas wilde","renard malin","rick wilde"],
+            "reponse": ["nick wilde","nicholas wilde","renard malin","rick wilde","officier wilde"],
             "def": "Nick Wilde"
         },
         {

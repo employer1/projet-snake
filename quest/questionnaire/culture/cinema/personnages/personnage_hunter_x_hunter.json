@@ -1,0 +1,75 @@
+{
+    "titre": "Personnages Zootopie",
+    "type": "txt",
+    "reverse": 0,
+    "path": "quest/img/img_personnage_hunter_x_hunter",
+    "explication": "Regroupe les personnages principaux de Zootopie.",
+    "questionnaire": [
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "gon_freecss.png",
+            "reponse": ["gon","gon freecss"],
+            "def": "Gon Freecss"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "kirua_zoldik.png",
+            "reponse": ["kirua","kirua zoldik"],
+            "def": "Kirua Zoldik"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "kurapika.png",
+            "reponse": "Kurapika"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "leolio_paradinaito.png",
+            "reponse": ["leolio","leolio paradinaito"],
+            "def": "Leolio Paradinaito"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "hisoka.png",
+            "reponse": "Hisoka"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "biscuit_kruger.png",
+            "reponse": ["biscuit kruger","biscuit"],
+            "def": "Biscuit Kruger"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "irumi_zoldik.png",
+            "reponse": ["irumi","irumi zoldik"],
+            "def": "Irumi Zoldik"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "goreinu.png",
+            "reponse": "Goreinu"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "hanzo.png",
+            "reponse": "Hanzo"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "kaito.png",
+            "reponse": "Kaito"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "novu.png",
+            "reponse": "Novu"
+        },
+        {
+            "question": "Qui est ce personnage ?",
+            "image": "knuckle_bine.png",
+            "reponse": ["knuckle","knuckle bine"],
+            "def": "Knuckle Bine"
+        }
+    ]
+}
