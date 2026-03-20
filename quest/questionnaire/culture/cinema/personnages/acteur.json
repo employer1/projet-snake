@@ -32,8 +32,8 @@
         },
         {
             "question": "Qui est cet acteur/rice ?",
-            "image": "jack_nichlson.png",
-            "reponse": "Jack Nichlson"
+            "image": "jack_nicholson.png",
+            "reponse": "Jack Nicholson"
         },
         {
             "question": "Qui est cet acteur/rice ?",
@@ -134,6 +134,86 @@
             "question": "Qui est cet acteur/rice ?",
             "image": "ryan_gosling.png",
             "reponse": "Ryan Gosling"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "idris_elba.png",
+            "reponse": "Idris Elba"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "al_pacino.png",
+            "reponse": "Al Pacino"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "daniel_day-lewis.png",
+            "reponse": "Daniel Day-Lewis"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "kevin_spacey.png",
+            "reponse": "Kevin Spacey"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "gary_oldman.png",
+            "reponse": "Gary Oldman"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "gene_hackman.png",
+            "reponse": "Gene Hackman"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "marlon_brando.png",
+            "reponse": "Marlon Brando"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "viggo_mortensen.png",
+            "reponse": "Viggo Mortensen"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "song_kang-ho.png",
+            "reponse": "Song Kang-Ho"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "tom_hanks.png",
+            "reponse": "Tom Hanks"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "michael_shannon.png",
+            "reponse": "Michael Shannon"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "christian_bale.png",
+            "reponse": "Christian Bale"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "harvey_keitel.png",
+            "reponse": "Harvey Keitel"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "tom_holland.png",
+            "reponse": "Tom Holland"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "tobey_maguire.png",
+            "reponse": "Tobey Maguire"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "chuck_norris.png",
+            "reponse": "Chuck Norris"
         }
     ]
 }
