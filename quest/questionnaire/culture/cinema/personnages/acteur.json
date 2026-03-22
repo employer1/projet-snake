@@ -38,7 +38,8 @@
         {
             "question": "Qui est cet acteur/rice ?",
             "image": "samuel_l_jackson.png",
-            "reponse": ["Samuel L Jackson","Samuel L. Jackson"]
+            "reponse": ["Samuel L Jackson","Samuel L. Jackson"],
+            "def": "Samuel L. Jackson"
         },
         {
             "question": "Qui est cet acteur/rice ?",
@@ -57,8 +58,8 @@
         },
         {
             "question": "Qui est cet acteur/rice ?",
-            "image": "clint_eastwood.png",
-            "reponse": "Clint Eastwood"
+            "image": "cleant_eastwood.png",
+            "reponse": "Cleant Eastwood"
         },
         {
             "question": "Qui est cet acteur/rice ?",
@@ -103,7 +104,8 @@
         {
             "question": "Qui est cet acteur/rice ?",
             "image": "robert_downey_jr.png",
-            "reponse": ["Robert Downey Junior","Robert Downey Jr","Robert Downey Jr."]
+            "reponse": ["Robert Downey Junior","Robert Downey Jr","Robert Downey Jr."],
+            "def": "Robert Downey Jr."
         },
         {
             "question": "Qui est cet acteur/rice ?",
@@ -214,6 +216,21 @@
             "question": "Qui est cet acteur/rice ?",
             "image": "chuck_norris.png",
             "reponse": "Chuck Norris"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "andrew_garfield.png",
+            "reponse": "Andrew Garfield"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "cillian_murphy.png",
+            "reponse": "Cillian Murphy"
+        },
+        {
+            "question": "Qui est cet acteur/rice ?",
+            "image": "timothee_chalamet.png",
+            "reponse": "Timothée Chalamet"
         }
     ]
 }
