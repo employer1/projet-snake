@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="modifications mineures et/ou ajout/modification de questionnaires">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/anniversaire.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/autre/anniversaire.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vocabulaire.json" beforeDir="false" afterPath="$PROJECT_DIR$/vocabulaire.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,14 +187,7 @@
       <workItem from="1774560702426" duration="608000" />
       <workItem from="1774566513090" duration="1520000" />
       <workItem from="1774608777291" duration="277000" />
-    </task>
-    <task id="LOCAL-00012" summary="import des affiches parce qu'elles sont vides en fait.">
-      <option name="closed" value="true" />
-      <created>1771711564683</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1771711564683</updated>
+      <workItem from="1774630094149" duration="1253000" />
     </task>
     <task id="LOCAL-00013" summary="préparation mineure pour film">
       <option name="closed" value="true" />
@@ -583,7 +573,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774272488428</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="modifications mineures et/ou ajout/modification de questionnaires">
+      <option name="closed" value="true" />
+      <created>1774630110100</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1774630110100</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
