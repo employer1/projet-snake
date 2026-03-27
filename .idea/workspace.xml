@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="modifications mineures et/ou ajout/modification de questionnaires">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quest/questionnaire/autre/anniversaire.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/autre/anniversaire.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vocabulaire.json" beforeDir="false" afterPath="$PROJECT_DIR$/vocabulaire.json" afterDir="false" />
     </list>
@@ -66,7 +67,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/theot/WebstormProjects/projet-snake/quest/img/img_acteur&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/theot/WebstormProjects/projet-snake/quest/questionnaire/langue/francais&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -81,8 +82,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\img\img_acteur" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\langue\francais" />
+      <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\img\img_acteur" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\img\img_hunter_x_hunter" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\culture\cinema\personnages" />
       <recent name="C:\Users\theo\WebstormProjects\projet-snake\quest\img\img_animaux_terrestre" />
@@ -179,15 +180,16 @@
       <workItem from="1774013022094" duration="8415000" />
       <workItem from="1774208876657" duration="3005000" />
       <workItem from="1774219785518" duration="2487000" />
-      <workItem from="1774265194635" duration="5655000" />
-    </task>
-    <task id="LOCAL-00011" summary="modifications mineures">
-      <option name="closed" value="true" />
-      <created>1771708499491</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1771708499492</updated>
+      <workItem from="1774265194635" duration="5817000" />
+      <workItem from="1774307951199" duration="2533000" />
+      <workItem from="1774314298165" duration="1486000" />
+      <workItem from="1774365949917" duration="1031000" />
+      <workItem from="1774486737039" duration="884000" />
+      <workItem from="1774487911022" duration="603000" />
+      <workItem from="1774525107147" duration="40000" />
+      <workItem from="1774560702426" duration="608000" />
+      <workItem from="1774566513090" duration="1520000" />
+      <workItem from="1774608777291" duration="277000" />
     </task>
     <task id="LOCAL-00012" summary="import des affiches parce qu'elles sont vides en fait.">
       <option name="closed" value="true" />
@@ -573,7 +575,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774211626690</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="modifications mineures et/ou ajout/modification de questionnaires">
+      <option name="closed" value="true" />
+      <created>1774272488427</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1774272488428</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

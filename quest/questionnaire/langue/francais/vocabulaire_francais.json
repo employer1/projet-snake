@@ -366,6 +366,17 @@
             "reponse": "baquet"
         },
         {
+            "question": "Combat. ■ *** d'honneur, combat désespéré livré seulement pour l'honneur.",
+            "reponse": "baroud"
+        },
+        {
+            "question": "1 Personne qui aime le baroud, le combat. 2 Personne dynamique, qui aime les risques ; aventurier.",
+            "reponse": [
+                "baroudeur",
+                "baroudeuse"
+            ]
+        },
+        {
             "question": "Perdre son temps à des choses futiles.",
             "reponse": "batifoler"
         },
@@ -402,6 +413,10 @@
         {
             "question": "En 3 mots. Animal domestique (cheval, âne, mulet, etc.) utilisé pour porter des charges, des fardeaux ou tirer des outils, agissant comme force de travail.",
             "reponse": "bête de somme"
+        },
+        {
+            "question": "Deux fois centenaire : Un chêne ***. ⬥ Commémoration d'un évènement qui a eu lieu deux cents ans auparavant.",
+            "reponse": "bicentenaire"
         },
         {
             "question": "Se diviser en deux branche. ⬥ 1 Prendre une autre direction : Le convoi a *** vers le sud. 2 Prendre une autre orientation : *** vers l'humanitaire.",
@@ -649,6 +664,13 @@
             "reponse": "concubinage"
         },
         {
+            "question": "1 Etroitement uni, joint à quelque chose : Examiner des questions conjointes. 2 Uni par la même obligation. ■ Intervalle ***, intervalle qui sépare deux notes se suivant dans la gamme, de \"do\" à \"ré\", par exemple. (par opposition à intervella disjoint). ■ Note ***, note qui accompagne un texte. 3 Chacun des époux considééré par rapport à l'autre. 2 Chacune des personnes liées par un pacs ou vivant en concubinage, considérée par rapport à l'autre.",
+            "reponse": [
+                "conjoint",
+                "conjointe"
+            ]
+        },
+        {
             "question": "1 Valeur que prennent des paroles au-delà de leur signification première : Un discours aux *** racistes.",
             "reponse": "connotation"
         },
@@ -737,6 +759,10 @@
                 "cramoisi",
                 "cramoisie"
             ]
+        },
+        {
+            "question": "1 Droit qu'une personne (le ***) a d'exiger quelque chose de quelqu'un (le débiteur) ; titre qui établit ce droit. 2 Fait de croire en véracité de quelque chose ; certitude. ■ Lettres de ***, lettres qu'un ministre ou un ambassadeur remet, à son arrivée, au chef de l'Etat auprès duquel il est accrédité.",
+            "reponse": "créance"
         },
         {
             "question": "Qui croit trop facilement ce qu'on lui dit ; naïf.",
@@ -1085,6 +1111,10 @@
             "reponse": "émancipation"
         },
         {
+            "question": "Môle, jetée, appontement permettant l'embarquement ou le débarquement des marchandises et des voyageurs.",
+            "reponse": "embarcadère"
+        },
+        {
             "question": "Du premier coup ; immédiatement : D'***, elle lui a paru sympathique.",
             "reponse": "emblée"
         },
@@ -1249,6 +1279,13 @@
             ]
         },
         {
+            "question": "Personne unie à une autre par le mariage ; conjoint. ■ Les ***, les deux personnes unies par le mariage.",
+            "reponse": [
+                "epoux",
+                "épouse"
+            ]
+        },
+        {
             "question": "Caractère de ce qui est équidistant.",
             "reponse": "equidistance"
         },
@@ -1381,6 +1418,10 @@
             "reponse": "exhorter"
         },
         {
+            "question": "Dispenser totalement ou en partie d'une charge, d'une obligation, fiscale particulièrement, ou d'une responsabilité.",
+            "reponse": "exonérer"
+        },
+        {
             "question": "1 Qui aime communiquer ses sentiments ; démonstratif. 2 Se dit d'un ciment dont la prise s'accompagne d'une légère augmentation de volume.",
             "reponse": [
                 "expansif",
@@ -1492,8 +1533,18 @@
             "reponse": "fiacre"
         },
         {
+            "question": "1 Promettre solennelement en mariage. 2 Célébrer les fiançailles de. ⬥ Se ***, s'engager à épouser quelqu'un.",
+            "reponse": [
+                "fiancer"
+            ]
+        },
+        {
             "question": "Voûte céleste ; ciel.",
             "reponse": "firmament"
+        },
+        {
+            "question": "Entreprise industrielle ou commerciale de grande taille.",
+            "reponse": "firme"
         },
         {
             "question": "Flatterie basse et généralement intéressée.",
@@ -1728,6 +1779,13 @@
             "reponse": "hargne"
         },
         {
+            "question": "Emis à la légère et sans preuve : Hypotèse ***.",
+            "reponse": [
+                "hasardé",
+                "hasardée"
+            ]
+        },
+        {
             "question": "Qui affiche une supériorité méprisante ; condescandant : Une femme ***.",
             "reponse": [
                 "hautain",
@@ -1776,6 +1834,14 @@
         {
             "question": "Rabaisser quelqu'un en le faisant apparaître comme inférieur, méprisable ; mortifier : Chercher à *** un adversaire. ⬥ S'***, avoir une attitude servile, par lâcheté ou intérêt ; se rabaisser.",
             "reponse": "humilier"
+        },
+        {
+            "question": "1 Droite réel dont est grevé un bien immobilier au profit d'un créancier pour garantir le paiement de sa créance. 2 Obstacle qui empêche l'accomplissement de quelque chose : Leur intransigeance fait peser une *** sur les négociations. ■ *** rechargeable, possibilté pour un emprunteur ayant amorti au moins une partie d'un crédit immobilier garanti par *** de mobiliser la fraction disponible pour gager un nouveau crédit. ■ Prendre une *** sur l'avenir, disposer d'une chose avant de la posséder.",
+            "reponse": "hypotéque"
+        },
+        {
+            "question": "Grever un bien d'une *** pour garantir une créance : *** sa maison. ■ *** l'avenir, le compromettre.",
+            "reponse": "hypotéquer"
         },
         {
             "question": "Tout instrument de communication linguistique utilisé par une communauté (langue, dialecte, patois, etc.)",
@@ -1932,6 +1998,10 @@
         {
             "question": "1 Compatibilité des équipements, des procédures ou des organisations permettant à plusieurs systèmes, forces armées ou organismes d'agir ensemble : *** des forces de l'OTAN. 2 Capacité de matériels, de logiciels ou de protocoles différents à fonctionner ensemble et à partager des informations : *** des réseaux téléphoniques.",
             "reponse": "interopérabilité"
+        },
+        {
+            "question": "Qui ne fait aucune concession ; qui n'admet qucun compromis.",
+            "reponse": "intransigeant"
         },
         {
             "question": "Qui est inhérent à quelqu'un, à quelque chose, qui lui appartient en propre, indépendamment des facteurs extérieurs (par opposition à extrinsèque) : Valeur ***.",
@@ -2208,6 +2278,10 @@
             ]
         },
         {
+            "question": "Homme uni à une autre personne par le mariage ; époux.",
+            "reponse": "mari"
+        },
+        {
             "question": "Carrière de marne.",
             "reponse": "marnière"
         },
@@ -2420,6 +2494,10 @@
                 "nonchalant",
                 "nonchalante"
             ]
+        },
+        {
+            "question": "En dépit de ; malgré.",
+            "reponse": "nonobstant"
         },
         {
             "question": "1 Su d'un grand nombre de personnes et indiscuté ; avéré : Son impplication dans cette affaire est ***. 2 Connu comme possédant telle qualité, tel défaut : Un opposant ***.",
@@ -3099,11 +3177,23 @@
             "reponse": "sarcastique"
         },
         {
+            "question": "Débarrasser une culture de ses mauvaises herbes, à l'aide d'un outil ou d'une machine.",
+            "reponse": "sarcler"
+        },
+        {
             "question": "D'une bizarrerie ridicule ; absurde : Idée ***.",
             "reponse": [
                 "saugrenu",
                 "saugrenue"
             ]
+        },
+        {
+            "question": "1 Incision superficielle de la peau, pratiquée à titre médical ou lors d'un acte d'automutilation. 2 En afrique, incision superficielle de la peau pratiquée sur la peau de manière à laisser une cicatrice, afin de marquer l'appartenance à une lignée, à une société ; cicatrice ainsi laissée. 3 Démolition, par arrachement de matériaux, d'un revêtement de chaussée.",
+            "reponse": "scarification"
+        },
+        {
+            "question": "Faire des scarifications.",
+            "reponse": "scarifier"
         },
         {
             "question": "1 Etat d'esprit d'une personne qui refuse son adhésion à des croyances ou à des affirmations généralement admises. 2 Courant de la philosophie antique qui s'est attaché à montrer de façon méthodique que l'esprit humain ne saurait atteindre une quelconque vérité, et qu'il convient donc de suspendre son jugement si l'on veut parvenir à l'ataraxie.",
@@ -3377,8 +3467,19 @@
             "reponse": "travers"
         },
         {
+            "question": "Mourir, en parlant de quelqu'un.",
+            "reponse": "trépasser"
+        },
+        {
             "question": "1 Orateur populaire à l'éloquence puissante et directe. 2 Magistrat chargé, à l'origine, de l'administration d'une tribu. 3 Membre du Tribunat, en France, sous le Consulat et l'Empire. ■ *** de la plèbe; magistrat élu par les comices tributes (citoyen réunis en tribus) et chargé de défendre les intérêts de la plèbe. ■ *** militaire ou des soldats, l'un des six officiers supérieurs à la tête d'une légion.",
             "reponse": "tribun"
+        },
+        {
+            "question": "Vagabond : mendiant. ⬥ Malfaiteur qui fait partie du milieu ; gangster.",
+            "reponse": [
+                "truand",
+                "truande"
+            ]
         },
         {
             "question": "■ Par le *** de, par l'intermédiaire, l'entremise de.",
@@ -3522,90 +3623,6 @@
         {
             "question": "Spécialiste d'œnologie.",
             "reponse": "œnologue"
-        },
-        {
-            "question": "Deux fois centenaire : Un chêne ***. ⬥ Commémoration d'un évènement qui a eu lieu deux cents ans auparavant.",
-            "reponse": "bicentenaire"
-        },
-        {
-            "question": "Vagabond : mendiant. ⬥ Malfaiteur qui fait partie du milieu ; gangster.",
-            "reponse": ["truand","truande"]
-        },
-        {
-            "question": "Faire des scarifications.",
-            "reponse": "scarifier"
-        },
-        {
-            "question": "1 Incision superficielle de la peau, pratiquée à titre médical ou lors d'un acte d'automutilation. 2 En afrique, incision superficielle de la peau pratiquée sur la peau de manière à laisser une cicatrice, afin de marquer l'appartenance à une lignée, à une société ; cicatrice ainsi laissée. 3 Démolition, par arrachement de matériaux, d'un revêtement de chaussée.",
-            "reponse": "scarification"
-        },
-        {
-            "question": "Homme uni à une autre personne par le mariage ; époux.",
-            "reponse": "mari"
-        },
-        {
-            "question": "Personne unie à une autre par le mariage ; conjoint. ■ Les ***, les deux personnes unies par le mariage.",
-            "reponse": ["epoux","épouse"]
-        },
-        {
-            "question": "1 Promettre solennelement en mariage. 2 Célébrer les fiançailles de. ⬥ Se ***, s'engager à épouser quelqu'un.",
-            "reponse": ["fiancer"]
-        },
-        {
-            "question": "1 Etroitement uni, joint à quelque chose : Examiner des questions conjointes. 2 Uni par la même obligation. ■ Intervalle ***, intervalle qui sépare deux notes se suivant dans la gamme, de \"do\" à \"ré\", par exemple. (par opposition à intervella disjoint). ■ Note ***, note qui accompagne un texte. 3 Chacun des époux considééré par rapport à l'autre. 2 Chacune des personnes liées par un pacs ou vivant en concubinage, considérée par rapport à l'autre.",
-            "reponse": ["conjoint","conjointe"]
-        },
-        {
-            "question": "En dépit de ; malgré.",
-            "reponse": "nonobstant"
-        },
-        {
-            "question": "Entreprise industrielle ou commerciale de grande taille.",
-            "reponse": "firme"
-        },
-        {
-            "question": "Débarrasser une culture de ses mauvaises herbes, à l'aide d'un outil ou d'une machine.",
-            "reponse": "sarcler"
-        },
-        {
-            "question": "Mourir, en parlant de quelqu'un.",
-            "reponse": "trépasser"
-        },
-        {
-            "question": "Emis à la légère et sans preuve : Hypotèse ***.",
-            "reponse": ["hasardé","hasardée"]
-        },
-        {
-            "question": "1 Personne qui aime le baroud, le combat. 2 Personne dynamique, qui aime les risques ; aventurier.",
-            "reponse": ["baroudeur","baroudeuse"]
-        },
-        {
-            "question": "Combat. ■ *** d'honneur, combat désespéré livré seulement pour l'honneur.",
-            "reponse": "baroud"
-        },
-        {
-            "question": "Môle, jetée, appontement permettant l'embarquement ou le débarquement des marchandises et des voyageurs.",
-            "reponse": "embarcadère"
-        },
-        {
-            "question": "Dispenser totalement ou en partie d'une charge, d'une obligation, fiscale particulièrement, ou d'une responsabilité.",
-            "reponse": "exonérer"
-        },
-        {
-            "question": "1 Droite réel dont est grevé un bien immobilier au profit d'un créancier pour garantir le paiement de sa créance. 2 Obstacle qui empêche l'accomplissement de quelque chose : Leur intransigeance fait peser une *** sur les négociations. ■ *** rechargeable, possibilté pour un emprunteur ayant amorti au moins une partie d'un crédit immobilier garanti par *** de mobiliser la fraction disponible pour gager un nouveau crédit. ■ Prendre une *** sur l'avenir, disposer d'une chose avant de la posséder.",
-            "reponse": "hypotéque"
-        },
-        {
-            "question": "Grever un bien d'une *** pour garantir une créance : *** sa maison. ■ *** l'avenir, le compromettre.",
-            "reponse": "hypotéquer"
-        },
-        {
-            "question": "1 Droit qu'une personne (le ***) a d'exiger quelque chose de quelqu'un (le débiteur) ; titre qui établit ce droit. 2 Fait de croire en véracité de quelque chose ; certitude. ■ Lettres de ***, lettres qu'un ministre ou un ambassadeur remet, à son arrivée, au chef de l'Etat auprès duquel il est accrédité.",
-            "reponse": "créance"
-        },
-        {
-            "question": "Qui ne fait aucune concession ; qui n'admet qucun compromis.",
-            "reponse": "intransigeant"
         }
     ]
 }

@@ -7,7 +7,7 @@
     "questionnaire": [
         {
             "question": "Quelle est la date d'anniversaire de Maman ?",
-            "reponse": "16 mars 1971"
+            "reponse": "16 mars"
         },
         {
             "question": "Quelle est la date d'anniversaire de Papa ?",
@@ -31,7 +31,7 @@
         },
         {
             "question": "Quelle est la date d'anniversaire de Jacques Thill ?",
-            "reponse": "14 mars 1948"
+            "reponse": "14 mars"
         },
         {
             "question": "Quelle est la date d'anniversaire de Liliane Marchall ?",
@@ -63,7 +63,7 @@
         },
         {
             "question": "Quelle est la date d'anniversaire de Hervé Toulemonde ?",
-            "reponse": "17 juillet 1974"
+            "reponse": "17 juillet"
         },
         {
             "question": "Quelle est la date d'anniversaire de Emeline Toulemonde ?",
@@ -71,31 +71,31 @@
         },
         {
             "question": "Quelle est la date d'anniversaire de Femme d'Hervé ?",
-            "reponse": "18 juillet 1973"
+            "reponse": "18 juillet"
         },
         {
             "question": "Quelle est la date d'anniversaire de Spirou ?",
-            "reponse": "14 fevrier 2008"
+            "reponse": "14 fevrier"
         },
         {
             "question": "Quelle est la date d'anniversaire de Sammy ?",
-            "reponse": "1 juillet 2015"
+            "reponse": "1 juillet"
         },
         {
             "question": "Quelle est la date d'anniversaire de Max ?",
-            "reponse": "11 novembre 2018"
+            "reponse": "11 novembre"
         },
         {
             "question": "Quelle est la date d'anniversaire de Carline ?",
-            "reponse": "9 avril 2011"
+            "reponse": "9 avril"
         },
         {
             "question": "Quelle est la date d'anniversaire de Capsule ?",
-            "reponse": "26 avril 2007"
+            "reponse": "26 avril"
         },
         {
             "question": "Quelle est la date d'anniversaire de Meadow ?",
-            "reponse": "26 mars 2010"
+            "reponse": "26 mars"
         }
     ]
 }
