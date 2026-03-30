@@ -232,6 +232,10 @@
             "reponse": "anthologie"
         },
         {
+            "question": "Hostilité instinctive à l'égard de quelqu'un ou de quelque chose ; aversion : Avoir de l'*** pour les fraudeurs, pour la fraude.",
+            "reponse": "antipathie"
+        },
+        {
             "question": "Portion du domaine royal dévolue aux frères ou aux fils puînés du roi jusqu'à extinction des descendants mâles de ceux-ci. ■ Avoir l'*** de, l'exclusivité de. ■ Etre l'*** de quelqu'un, lui appartenir en propre.",
             "reponse": "apanage"
         },
@@ -265,6 +269,10 @@
                 "ardu",
                 "ardue"
             ]
+        },
+        {
+            "question": "1 Dépourvu d'humidité ; sec : Sol, région ***. 2 Difficile et dépourvu d'attrait ; rébarbatif : Un travail ***. 3 Sans générosité ni imagination ; sec : Cœur ***. ■ Climat ***, caractérisé par des pluies très faibles et irrégulières dans le temps et l'espace. On rencontre deux types : Le climat *** chaud, aux altitudes tropicales, avec des journées très chaudes et des nuits fraîches ; le climat *** froid, aux altitudes moyennes, avec des hivers froids et des étés chauds.",
+            "reponse": "aride"
         },
         {
             "question": "1 En retard sur son époque : Des idées ***. 2 Dont le développement est en retard : Région ***. 3 Qui demeure impayé : Dette ***. ⬥ Qui est atteint d'une *** intelectuelle.",
@@ -375,6 +383,10 @@
             "reponse": "baguenauder"
         },
         {
+            "question": "Propos futile, souvent erroné ; billeversée ; sornette",
+            "reponse": "baliverne"
+        },
+        {
             "question": "1 Se dit d'une partie du corps qui se ballance, qui pend : Rester les bras ***. Balancement d'un véhicule mal équilibré : La camionette a pris du ***.",
             "reponse": [
                 "ballant",
@@ -443,6 +455,10 @@
             "reponse": "bifurquer"
         },
         {
+            "question": "Propos vide de sens ; baliverne : Débiter des ***.",
+            "reponse": "billevesée"
+        },
+        {
             "question": "Auteur d'une biographie.",
             "reponse": "biographe"
         },
@@ -472,6 +488,10 @@
                 "brinquebaler",
                 "brimbaler"
             ]
+        },
+        {
+            "question": "Chose sans importance : Perdre son temps à des ***.",
+            "reponse": "broutille"
         },
         {
             "question": "1 Qui évoque la poésie pastorale. 2 Qui aime la vie à la campagne : D'humeur ***. ⬥ Poème évoquant des scènes ou des sentiments liés à la vie pastorale.",
@@ -732,6 +752,10 @@
             ]
         },
         {
+            "question": "1 Mécontentement causé par l'opposition que l'on rencontre ; dépit : Eprouver une vive ***. 2 Ce qui *** quelqu'un et l'attriste ; désagrément : Toutes ces *** l'ont poussé à abandonner. 3 Relation logique entre deux oppositions contraires.",
+            "reponse": "contrariété"
+        },
+        {
             "question": "Etendue de pays ; région.",
             "reponse": "contrée"
         },
@@ -945,6 +969,10 @@
         {
             "question": "Attitude, manières *** : Répondre avec désinvolture.",
             "reponse": "désinvolture"
+        },
+        {
+            "question": "1 Peine, chagrin extrêmes ; désespoir. 2 Ce qui cause une grande contrariété : Ce dîner fut une ***. 3 Etat d'un pays désert, aride, ravagé.",
+            "reponse": "désolation"
         },
         {
             "question": "1 Chef d'état, souverain qui s'arroge un pouvoir absolu et arbitraire. 2 Titre de princes pratiquement indépendantes (comme le *** d'Epire), dans l'Empire byzantin. ⬥ Personne qui exerce sur son entourage une domination excessive ; tyran.",
@@ -1568,6 +1596,13 @@
         {
             "question": "1 Qui fuit quand on l'approche ; sauvage : Animal ***. 2 Peu sociable : Ado ***. 3 Qui s'exprime avec vigueur : Un *** défenseur de la parité. 4 Qui est violent, cruel ou rude : De *** guerriers. Une contrée ***.",
             "reponse": "farouche"
+        },
+        {
+            "question": "Qui cause de l'ennui par sa monotonie, sa durée : Vérification ***.",
+            "reponse": [
+                "fastidieux",
+                "fastidieuse"
+            ]
         },
         {
             "question": "1 Amas hétéroclite de choses ; fouillis : Un *** de dossiers. 2 Ensemble incohérent d'idées, de paroles, etc. ; ramassis : Un *** de préjugés.",
@@ -2758,6 +2793,10 @@
             "reponse": "paravent"
         },
         {
+            "question": "Paralysie partielle entraînant une diminution de la force musculaire.",
+            "reponse": "parésie"
+        },
+        {
             "question": "1 De la couleur mauve de la violette de ***. 2 Jambon d'appelation d'origine protégée fabriqué dans la région de ***.",
             "reponse": "parme"
         },
@@ -3153,8 +3192,27 @@
             "reponse": "rasséréner"
         },
         {
+            "question": "1 gravement marqué par l'âge, les épreuves : Un visage ***. 2 Fou ; désaxé.",
+            "reponse": "ravagé"
+        },
+        {
+            "question": "1 Causer des dommages considérables par l'effet d'une action violente ; dévaster : La tempête a *** les forêts. 2 Causer à quelqu'un de graves troubles physiques ou moraux ; anéantir : La mort de leur enfant les a ***.",
+            "reponse": "ravager"
+        },
+        {
+            "question": "1 Qui a un aspect rebutant ; revêche : Mine ***. 2 Qui manque d'attrait ; fastidieux : Travail ***.",
+            "reponse": [
+                "rébarbatif",
+                "rébarbative"
+            ]
+        },
+        {
             "question": "Refus brutal ou désobligeant : Ils ont essuyé une *** du ministre.",
             "reponse": "rebuffade"
+        },
+        {
+            "question": "1 Susciter le dégoût, le découragement ; lasser : Tous ces achecs ont de quoi ***. 2 Inspirer de l'antipathie à ; déplaire : Sa façon de nous parler me ***.",
+            "reponse": "rebuter"
         },
         {
             "question": "Qui résiste avec opiniâtreté ; rétif : Expliquer la géométrie à un enfant ***.",
@@ -3256,6 +3314,10 @@
                 "rétif",
                 "rétive"
             ]
+        },
+        {
+            "question": "Peu accommodant ; bourru.",
+            "reponse": "revêche"
         },
         {
             "question": "1 Mouvement du corps que l'on fait pour saluer, soit en s'inclinant, soit en pliant les genoux. 2 Respect profond ; vénération : Parler à quelqu'un avec ***. ■ *** parler, se dit pour excuser un propos jugé inconvenant. ■ Tirer sa ***, quitter quelqu'un, s'en aller avec désinvolture.",
@@ -3439,6 +3501,14 @@
         {
             "question": "1 D'une saleté repoussante ; misérable : Des taudis ***. 2 D'une grande bassesse morale ; abject : Une affaire ***. 3 Marqué par l'âpreté au gain ; mesquin : De *** questions d'intérêt.",
             "reponse": "sordide"
+        },
+        {
+            "question": "Propos frivole, extravagant ; baliverne.",
+            "reponse": "sornette"
+        },
+        {
+            "question": "Attitude de solidarité féminine.",
+            "reponse": "sororité"
         },
         {
             "question": "Dénué d'esprit, de jugement ; imbécile.",
