@@ -420,6 +420,10 @@
             ]
         },
         {
+            "question": "Atteint de bégaiement",
+            "reponse": "bègue"
+        },
+        {
             "question": "Homme d'une beauté fade, imbu de sa personne.",
             "reponse": "bellâtre"
         },
@@ -730,6 +734,10 @@
             "reponse": "concubinage"
         },
         {
+            "question": "Attitude hautaine et plus ou moins méprisante de quelqu'un ; dédain.",
+            "reponse": "condescendance"
+        },
+        {
             "question": "1 Etroitement uni, joint à quelque chose : Examiner des questions conjointes. 2 Uni par la même obligation. ■ Intervalle ***, intervalle qui sépare deux notes se suivant dans la gamme, de \"do\" à \"ré\", par exemple. (par opposition à intervella disjoint). ■ Note ***, note qui accompagne un texte. 3 Chacun des époux considééré par rapport à l'autre. 2 Chacune des personnes liées par un pacs ou vivant en concubinage, considérée par rapport à l'autre.",
             "reponse": [
                 "conjoint",
@@ -804,6 +812,10 @@
         {
             "question": "Ensemble des pétales d'une fleur, souvent colorés.",
             "reponse": "corolle"
+        },
+        {
+            "question": "Etablir une corrélation entre deux phénomènes.",
+            "reponse": "corréler"
         },
         {
             "question": "Poltronnerie. synonyme : lachété.",
@@ -1014,6 +1026,10 @@
             "reponse": "dichotomie"
         },
         {
+            "question": "Répertoire des disques concernant un compositeur, un interprète, un thème.",
+            "reponse": "discographie"
+        },
+        {
             "question": "Qui forme un ensemble sans harmonie, sans unité ; hétéroclite : Un mobilier ***. ⬥ Manque d'harmonie ; contraste choquant.",
             "reponse": "disparate"
         },
@@ -1211,6 +1227,10 @@
             "reponse": "emblée"
         },
         {
+            "question": "1 Qui a le caractère d'un emblème : Marianne, figure *** de la République française. 2 Qui est exemplaire ou très représentatif de : Décision *** d'une politique.",
+            "reponse": "emblématique"
+        },
+        {
             "question": "Action de deux personnes qui s'embrassent amicalement.",
             "reponse": "embrassade"
         },
@@ -1328,6 +1348,10 @@
         {
             "question": "Intervenir pour mettre des personnes en relation ou faciliter une action : S'*** pour aider quelqu'un à obtenir un logement.",
             "reponse": "entremettre"
+        },
+        {
+            "question": "Activité, fonction d'entrepreneur, de créateur d'entreprise.",
+            "reponse": "entrepreneuriat"
         },
         {
             "question": "Donner libre cours à un sentiment : *** son amertume. ⬥ S'*** 1 Se confier librement ; se livrer : Elle s'est *** sur son blog. 2 Se manifester librement, en parlant d'un sentiment. 3 En parlant d'un liquide de l'organisme, se répandre hors de sa cavité naturelle ou dans des tissus.",
@@ -1656,6 +1680,10 @@
             ]
         },
         {
+            "question": "Liste raisonnée de films.",
+            "reponse": "filmographie"
+        },
+        {
             "question": "Voûte céleste ; ciel.",
             "reponse": "firmament"
         },
@@ -1708,6 +1736,10 @@
         {
             "question": "1 Homme d'apparence chétive. 2 Jeune homme frivole et prétencieux.",
             "reponse": "freluquet"
+        },
+        {
+            "question": "1 Etat d'exaltation violente ; emportement : La *** d'une foule en colère. 2 Enthousiasme extrême : Les spectateurs applaudissent avec *** ; vif engouement : Pris de *** pour le jeu, la danse",
+            "reponse": "frénésie"
         },
         {
             "question": "Brouillard froid et épais qui se glace en tombant. ■ Coiffé ou poudré à ***, coiffé avec une légère couche de poudre.",
@@ -1821,6 +1853,14 @@
         {
             "question": "1 Passage étroit faisant communiquer un port ou une rade avec la haute mer : Le *** de Brest. 2 Tout passage étroit, difficile. ■ *** d'étranglement.",
             "reponse": "goulet"
+        },
+        {
+            "question": "Petite broche métallique traversant deux organes de faibles dimensions afin de les assembler en un ensemble démontable.",
+            "reponse": "goupille"
+        },
+        {
+            "question": "1 Assembler à l'aide de goupilles. 2 Arranger ; combiner. ⬥ Se ***, s'arranger ; se dérouler : Ca s'est mal ***.",
+            "reponse": "goupiller"
         },
         {
             "question": "Qui a un caractère affecté et pompeux ; déclamatoire : Entrée en matière ***.",
@@ -1967,6 +2007,10 @@
         {
             "question": "Grever un bien d'une *** pour garantir une créance : *** sa maison. ■ *** l'avenir, le compromettre.",
             "reponse": "hypotéquer"
+        },
+        {
+            "question": "1 Névrose caractérisée par un type de personnalité pathologique (théâtralisme, besoin de séduire, par exemple), ou par une conversion des troubles psychiques en symptômes physiques (fausse paralysie; malaises, par exemple). 2 Vive excitation poussée jusqu'au délire ; frénésie : L'*** de certains supporteurs. ■ *** collective, excitation, parfois violente, qui gagne tous les membres d'un groupe, d'une foule.",
+            "reponse": "hystérie"
         },
         {
             "question": "Tout instrument de communication linguistique utilisé par une communauté (langue, dialecte, patois, etc.)",
@@ -2541,6 +2585,10 @@
         {
             "question": "1 Instrument de musique à air, composé d'un réservoir en forme de sac alimenté par un soufflet et muni de un ou deux tuyaux à anches (chalumeaux) et quelques grands tuyaux (bourdons). 2 Pièce instrumentale de tempo modéré, de mesure à 2/4, 3/4 ou 6/8. 3 Danse théâtrale, interprétée dans les opéras français du XVIIIème siècle. ■ Bal ***, bal populaire où l'on danse au son de l'accordéon (à l'origine, de la ***). Genre musical, style propre aux orchestres des bals ***. Sac de toile porté en bandouillère.",
             "reponse": "musette"
+        },
+        {
+            "question": "Auteur qui écrit sur la musique, sur les musisciens.",
+            "reponse": "musicographie"
         },
         {
             "question": "1 Trouble de la réfraction de l'œil dans lequel l'image se forme en avant de la rétine, quand on regarde au loin. 2 Manque de perspicacité.",
@@ -3291,6 +3339,10 @@
         {
             "question": "Violences que l'on fait subir à un ennemi pour répondre à un acte hostile.",
             "reponse": "représailles"
+        },
+        {
+            "question": "",
+            "reponse": "répréssionnaire"
         },
         {
             "question": "Jugement par lequel quelqu'un blâme la conduite de quelqu'un d'autre ; condamnation.",
