@@ -7,6 +7,7 @@
     <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="modifications mineures et/ou ajout/modification de questionnaires">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" beforeDir="false" afterPath="$PROJECT_DIR$/quest/questionnaire/langue/francais/vocabulaire_francais.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vocabulaire.json" beforeDir="false" afterPath="$PROJECT_DIR$/vocabulaire.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,14 +196,21 @@
       <workItem from="1774908152917" duration="18000" />
       <workItem from="1774973182505" duration="4968000" />
       <workItem from="1774994215155" duration="2824000" />
-    </task>
-    <task id="LOCAL-00016" summary="modification mineure pour film">
-      <option name="closed" value="true" />
-      <created>1771793024921</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1771793024921</updated>
+      <workItem from="1775035672192" duration="140000" />
+      <workItem from="1775227095587" duration="10621000" />
+      <workItem from="1775298530121" duration="10761000" />
+      <workItem from="1775377509160" duration="15627000" />
+      <workItem from="1775568771640" duration="5790000" />
+      <workItem from="1775653783191" duration="140000" />
+      <workItem from="1775816586116" duration="4554000" />
+      <workItem from="1775910922788" duration="612000" />
+      <workItem from="1776025699652" duration="2000" />
+      <workItem from="1776098113898" duration="2419000" />
+      <workItem from="1776116111590" duration="632000" />
+      <workItem from="1776154246918" duration="100000" />
+      <workItem from="1776174406284" duration="4574000" />
+      <workItem from="1776179190152" duration="18085000" />
+      <workItem from="1776287695009" duration="823000" />
     </task>
     <task id="LOCAL-00017" summary="modification mineure pour film">
       <option name="closed" value="true" />
@@ -588,7 +596,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774907746891</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="modifications mineures et/ou ajout/modification de questionnaires">
+      <option name="closed" value="true" />
+      <created>1775035688794</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1775035688795</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
