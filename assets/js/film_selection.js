@@ -184,7 +184,7 @@ const initialiserNavigation = () => {
     if (boutonRetourSelection) {
         boutonRetourSelection.addEventListener("click", () => {
             abandonnerSelection();
-            window.location.href = "../pages/film_menu.html";
+            window.location.href = "../../pages/film/film_menu.html";
         });
     }
 };

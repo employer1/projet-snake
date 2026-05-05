@@ -6,7 +6,59 @@
   <component name="ChangeListManager">
     <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="modifications mineures et/ou ajout/modification de questionnaires">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vocabulaire.json" beforeDir="false" afterPath="$PROJECT_DIR$/vocabulaire.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/dactylo_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/dactylo_test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/daily-note_menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/daily-note_menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/daily-note_rechercher.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/daily-note_rechercher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/film_battle_royal.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/film_battle_royal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/film_classement.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/film_classement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/film_lecture.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/film_lecture.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/film_resultats_classement.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/film_resultats_classement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/film_selection.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/film_selection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/quest_menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/quest_menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/quest_questionnaire_alphabet.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/quest_questionnaire_alphabet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/quest_questionnaire_langue.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/quest_questionnaire_langue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/quest_questionnaire_qcm.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/quest_questionnaire_qcm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/quest_questionnaire_txt.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/quest_questionnaire_txt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daily_note/notes/2025-11-09.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/daily_note/notes/2025-11-10.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/daily_note/notes/2025-11-11.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/daily_note/notes/2025-11-18.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/daily_note/notes/2025-11-19.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/daily_note/notes/2025-12-05.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/daily_note/notes/2026-02-19.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/dactylo_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dactylo/dactylo_menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/dactylo_resultats.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dactylo/dactylo_resultats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/dactylo_statistiques.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dactylo/dactylo_statistiques.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/dactylo_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dactylo/dactylo_test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/daily-note_calendrier.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/daily_note/daily-note_calendrier.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/daily-note_lecture.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/daily_note/daily-note_lecture.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/daily-note_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/daily_note/daily-note_menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/daily-note_rechercher.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/daily_note/daily-note_rechercher.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/film_battle_royal.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/film/film_battle_royal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/film_classement.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/film/film_classement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/film_consulter_classement.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/film/film_consulter_classement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/film_lecture.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/film/film_lecture.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/film_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/film/film_menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/film_resultats_battle_royal.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/film/film_resultats_battle_royal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/film_resultats_classement.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/film/film_resultats_classement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/film_selection.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/film/film_selection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quest_creer_choix.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quest/quest_creer_choix.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quest_creer_langue.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quest/quest_creer_langue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quest_creer_langue_existe.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quest/quest_creer_langue_existe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quest_creer_options.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quest/quest_creer_options.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quest_creer_qcm.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quest/quest_creer_qcm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quest_creer_qcm_existe.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quest/quest_creer_qcm_existe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quest_creer_txt.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quest/quest_creer_txt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quest_creer_txt_existe.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quest/quest_creer_txt_existe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quest_lecture.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quest/quest_lecture.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quest_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quest/quest_menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quest_options.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quest/quest_options.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quest_questionnaire_alphabet.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quest/quest_questionnaire_alphabet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quest_questionnaire_langue.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quest/quest_questionnaire_langue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quest_questionnaire_qcm.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quest/quest_questionnaire_qcm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quest_questionnaire_txt.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quest/quest_questionnaire_txt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quest_resultats.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quest/quest_resultats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quest_statistique.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quest/quest_statistique.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +117,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/theot/WebstormProjects/projet-snake/quest/questionnaire/langue/francais&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/theot/WebstormProjects/projet-snake/film/affiche&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -80,11 +132,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\theot\WebstormProjects\projet-snake\film\affiche" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\langue\francais" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\img\img_acteur" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\img\img_hunter_x_hunter" />
       <recent name="C:\Users\theot\WebstormProjects\projet-snake\quest\questionnaire\culture\cinema\personnages" />
-      <recent name="C:\Users\theo\WebstormProjects\projet-snake\quest\img\img_animaux_terrestre" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\theo\WebstormProjects\projet-snake\quest\questionnaire\culture" />
@@ -212,22 +264,12 @@
       <workItem from="1776287695009" duration="3121000" />
       <workItem from="1776946927642" duration="1362000" />
       <workItem from="1776980381503" duration="1196000" />
-    </task>
-    <task id="LOCAL-00018" summary="modification mineure pour film">
-      <option name="closed" value="true" />
-      <created>1771793338168</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1771793338168</updated>
-    </task>
-    <task id="LOCAL-00019" summary="modification mineure pour film">
-      <option name="closed" value="true" />
-      <created>1771794330299</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1771794330299</updated>
+      <workItem from="1777047353621" duration="195000" />
+      <workItem from="1777902406548" duration="13000" />
+      <workItem from="1777936249162" duration="71000" />
+      <workItem from="1777974066875" duration="606000" />
+      <workItem from="1777986083944" duration="429000" />
+      <workItem from="1777986670397" duration="342000" />
     </task>
     <task id="LOCAL-00020" summary="modification mineure pour film">
       <option name="closed" value="true" />
@@ -605,7 +647,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776288868029</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="modifications mineures et/ou ajout/modification de questionnaires">
+      <option name="closed" value="true" />
+      <created>1777047531173</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1777047531173</updated>
+    </task>
+    <task id="LOCAL-00068" summary="modifications mineures et/ou ajout/modification de questionnaires">
+      <option name="closed" value="true" />
+      <created>1777047546618</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1777047546618</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

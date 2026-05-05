@@ -97,7 +97,7 @@ const afficherComparaison = () => {
 const finaliserClassement = () => {
     const top3 = classement.slice(0, 3);
     sessionStorage.setItem(CLE_TOP3_BATTLE_ROYAL, JSON.stringify(top3));
-    window.location.href = "../pages/film_resultats_battle_royal.html";
+    window.location.href = "../../pages/film/film_resultats_battle_royal.html";
 };
 
 const avancerInsertion = (filmGagnant) => {
@@ -140,7 +140,7 @@ const passerAuFilmSuivant = () => {
 
 const abandonnerClassement = () => {
     sessionStorage.removeItem(CLE_TOP3_BATTLE_ROYAL);
-    window.location.href = "../pages/film_menu.html";
+    window.location.href = "../../pages/film/film_menu.html";
 };
 
 const initialiser = () => {

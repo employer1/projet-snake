@@ -161,7 +161,7 @@
         sessionStorage.setItem(stockageResultats, JSON.stringify(resultats));
         sessionStorage.removeItem(stockageCle);
         await enregistrerStatistiques(resultats);
-        window.location.href = "../pages/dactylo_resultats.html";
+        window.location.href = "../../pages/dactylo/dactylo_resultats.html";
     };
 
     const demarrerChrono = () => {

@@ -96,7 +96,7 @@ const afficherComparaison = () => {
 
 const finaliserClassement = () => {
     sessionStorage.setItem(CLE_CLASSEMENT_FILMS, JSON.stringify(classement));
-    window.location.href = "../pages/film_resultats_classement.html";
+    window.location.href = "../../pages/film/film_resultats_classement.html";
 };
 
 const avancerInsertion = (filmGagnant) => {
@@ -139,7 +139,7 @@ const passerAuFilmSuivant = () => {
 
 const abandonnerClassement = () => {
     sessionStorage.removeItem(CLE_CLASSEMENT_FILMS);
-    window.location.href = "../pages/film_menu.html";
+    window.location.href = "../../pages/film/film_menu.html";
 };
 
 const initialiser = () => {

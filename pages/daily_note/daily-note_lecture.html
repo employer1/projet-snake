@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Lecture Daily-Note</title>
+
+        <link rel="stylesheet" href="../../assets/css/base.css"> <!--css global en premier-->
+        <link rel="stylesheet" href="../../assets/css/boutons.css"> <!--autre css global-->
+        <link rel="stylesheet" href="../../assets/css/daily-note_lecture.css"> <!--css propre à ce fichier HTML-->
+
+        <script src="../../assets/js/boutons_navigation.js" defer></script>
+        <script src="../../assets/js/daily-note_lecture.js" defer></script>
+    </head>
+    <body>
+        <main>
+            <aside>
+                <div class="aside_haut">
+                    <button class="bouton_menu">
+                        <img src="../../image/maison.png" alt="menu" class="btn-icon">
+                        <span class="btn-text" data-page="../pages/daily-note_menu.html">Menu</span>
+                    </button>
+
+                    <button class="bouton_menu" id="daily-note-save-btn">
+                        <img src="../../image/sauvegarde.png" alt="menu" class="btn-icon">
+                        <span class="btn-text">Sauvegarder</span>
+                    </button>
+
+                    <button class="bouton_menu" id="daily-note-new-story-btn">
+                        <img src="../../image/tag.png" alt="menu" class="btn-icon">
+                        <span class="btn-text">Nouvelle Note</span>
+                    </button>
+                </div>
+
+                <div class="space"></div>
+
+                <div class="aside_bas"></div>
+
+                <button class="bouton_param">
+                    <img src="../../image/engrenage.png" alt="param" class="btn-icon">
+                    <span class="btn-text" data-page="../pages/options_menu.html">Paramètres</span>
+                </button>
+            </aside>
+
+            <section>
+                <div class="header">
+                    <p class="position_2">version 1.0</p>
+                </div>
+
+                <div class="section">
+                    <h2 id="daily-note-lecture-title">18 Février 2026</h2>
+
+                    <div class="corps">
+                        <div class="haut">
+                            <div class="titre">
+                                <div class="jsp">
+                                    <h3>Titre :</h3>
+                                    <input type="text" placeholder="Titre ..." class="champ_texte" id="titre">
+                                </div>
+
+                                <div class="jsp">
+                                    <h3>Tags :</h3>
+                                    <div class="champ_tags">
+                                        <input type="text" placeholder="Tag1, Tag2" class="champ_texte" id="tags">
+                                        <p id="daily-note-tags-error" class="message_erreur" aria-live="polite"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <textarea placeholder="Texte ..." class="champ_texte_grand" id="texte"></textarea>
+                        <p id="daily-note-form-error" class="message_erreur" aria-live="polite"></p>
+
+                        <div class="bas" id="daily-note-story-list"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

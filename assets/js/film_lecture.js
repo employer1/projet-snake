@@ -63,7 +63,7 @@ const consulterClassement = () => {
     }
 
     sessionStorage.setItem(CLE_FICHIER_CLASSEMENT_FILM, selectClassement.value);
-    window.location.href = "../pages/film_consulter_classement.html";
+    window.location.href = "../../pages/film/film_consulter_classement.html";
 };
 
 if (boutonConsulter) {

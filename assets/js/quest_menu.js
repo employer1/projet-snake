@@ -95,6 +95,6 @@ document.addEventListener("DOMContentLoaded", async () => {
             return;
         }
         localStorage.setItem(stockageSelectionQuest, select.value);
-        window.location.href = "../pages/quest_options.html";
+        window.location.href = "../../pages/quest/quest_options.html";
     });
 });

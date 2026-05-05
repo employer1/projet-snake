@@ -178,11 +178,11 @@ const sauvegarderClassement = async (classement) => {
         const resultat = await window.electronAPI.saveFilmClassement(classement, nomClassement);
         if (resultat?.filePath) {
             elementSauvegarde.textContent = `Classement enregistré dans ${resultat.filePath}`;
-            window.location.href = "../pages/film_menu.html";
+            window.location.href = "../../pages/film/film_menu.html";
             return;
         }
         elementSauvegarde.textContent = "Classement enregistré.";
-        window.location.href = "../pages/film_menu.html";
+        window.location.href = "../../pages/film/film_menu.html";
     } catch (_error) {
         elementSauvegarde.textContent = "Impossible d'enregistrer le classement.";
     }

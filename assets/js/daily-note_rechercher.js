@@ -49,7 +49,7 @@ const afficherResultats = (resultats) => {
                 }
             }
 
-            window.location.href = "../pages/daily-note_lecture.html";
+            window.location.href = "../../pages/daily_note/daily-note_lecture.html";
         });
 
         conteneur.appendChild(bouton);

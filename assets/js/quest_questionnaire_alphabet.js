@@ -223,7 +223,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             nombreQuestion: nombreQuestionsRepondues,
             nombreReponse: score,
         });
-        window.location.href = "../pages/quest_resultats.html";
+        window.location.href = "../../pages/quest/quest_resultats.html";
     };
 
     const traiterReponse = (type) => {

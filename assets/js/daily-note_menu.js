@@ -39,7 +39,7 @@ const ouvrirOuCreerNoteDuJour = async () => {
 
     if (!window.electronAPI?.openOrCreateDailyNote) {
         sauvegarderContexteLocal(nomFichier, structureParDefaut);
-        window.location.href = "../pages/daily-note_lecture.html";
+        window.location.href = "../../pages/daily_note/daily-note_lecture.html";
         return;
     }
 
@@ -47,7 +47,7 @@ const ouvrirOuCreerNoteDuJour = async () => {
         const resultat = await window.electronAPI.openOrCreateDailyNote(nomFichier, structureParDefaut);
         const contenu = resultat?.content ?? structureParDefaut;
         sauvegarderContexteLocal(resultat?.fileName || nomFichier, contenu);
-        window.location.href = "../pages/daily-note_lecture.html";
+        window.location.href = "../../pages/daily_note/daily-note_lecture.html";
     } catch (error) {
         console.error("Impossible d'ouvrir ou créer la note du jour", error);
         alert("Impossible d'ouvrir la note du jour.");
