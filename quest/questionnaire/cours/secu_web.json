@@ -1,0 +1,461 @@
+{
+    "titre": "Sécu Web",
+    "type": "txt",
+    "reverse": 0,
+    "path": "",
+    "explication": "Question de l'examen théorique de Sécu Web. Provient de quizlet, notion.",
+    "questionnaire": [
+        {
+            "question": "Web",
+            "reponse": "Système de distribution utilisant le réseau internet où chaque ressource est identifiée par une URL qui sont reliés entre elles par des liens hypertextes."
+        },
+        {
+            "question": "LEPP",
+            "reponse": "Stack Linux, (e)Nginx, PostgreSQL & PHP"
+        },
+        {
+            "question": "LAMP",
+            "reponse": "Stack Linux, Apache, MySQL & PHP"
+        },
+        {
+            "question": "LEMP",
+            "reponse": "Stack Linux, (e)Nginx, MySQL & PHP"
+        },
+        {
+            "question": "WAMP",
+            "reponse": "Stack Windows, Apache, MySQL & PHP"
+        },
+        {
+            "question": "WISA",
+            "reponse": "Stack Windows, IIS, SQL Server & ASP.NET"
+        },
+        {
+            "question": "CMS",
+            "reponse": "Content Management System est un logiciel permettant une gestion simple d'un site Web & de son contenu à l'aide d'une interface graphique"
+        },
+        {
+            "question": "PHP",
+            "reponse": "Langage de scripts généralistes et Open Source, spécialement conçu pour le développement d'applications web ?"
+        },
+        {
+            "question": "URI (Uniform Ressource Identifier)",
+            "reponse": "Désigne une information permettant d'identifier une ressource"
+        },
+        {
+            "question": "URN (Uniform Ressource Name)",
+            "reponse": "Nom unique permttant d'identifier une ressource"
+        },
+        {
+            "question": "URL (Uniform Ressource Locator)",
+            "reponse": "Information permettant de localiser une ressource"
+        },
+        {
+            "question": "Dans quelle couche du modèle OSI se situe le Web ?",
+            "reponse": "Couche 7 - Application"
+        },
+        {
+            "question": "De quelle manière se déroule les intéractions du Web ?",
+            "reponse": "HTTP/HTTPS sur TCP"
+        },
+        {
+            "question": "DNS",
+            "reponse": "Correspondance entre URL et adresse IP"
+        },
+        {
+            "question": "Différence entre version HTTP",
+            "reponse": "HTTP/1.1 ouvre une nouvelle connexion TCP pour chaque requête, sauf si le keep-alive est activé. HTTP/2 permet le multiplexage, plusieurs requêtes dans une seule connexion TCP. HTTP/3 repose sur QUIC et améliore la latence."
+        },
+        {
+            "question": "DOM",
+            "reponse": "Représentation en mémoire d'un document HTML ou XML sous forme d'un arbre hiérarchique d'objets."
+        },
+        {
+            "question": "HTML DOM",
+            "reponse": "Application du DOM aux documents HTML. Il définit les objets HTML, leurs propriétés, méthodes et évènements."
+        },
+        {
+            "question": "CSS",
+            "reponse": "Apparence des différents éléments d'une page."
+        },
+        {
+            "question": "Vulnérabilité permettant à un bout de code de s'auto-répliquer dans un site Web.",
+            "reponse": "Stored XSS"
+        },
+        {
+            "question": "Ajax",
+            "reponse": "Technique qui utilise JavaScript ert permet à une page Web de communiquer avec un serveur de manière asynchrone, sans avoir à être rechargée entièrement."
+        },
+        {
+            "question": "C'est quoi un cookie ?",
+            "reponse": "Information sous forme de texte sauvegardé par le client à la demande du serveur."
+        },
+        {
+            "question": "Quelles sont les versions TLS qui ne sont pas dépréciées ?",
+            "reponse": "TLS 1.2 & TLS 1.3"
+        },
+        {
+            "question": "Dans quel en-tête HTTP voit-on les informations du dernier site visité ?",
+            "reponse": "L'en tête Referer"
+        },
+        {
+            "question": "A quoi fait référence le S de HTTPS ?",
+            "reponse": "Secure"
+        },
+        {
+            "question": "Attributs globaux à HTML",
+            "reponse": "id : définit un identifiant unique pour l'élément; class : définit une ou plusieurs classes dont fait partie l'élément; style : le style applicable à l'élément; hidden : si l'élément ne doit pas être affiché."
+        },
+        {
+            "question": "Structure d'un Cookie",
+            "reponse": "Nom : nom du cookie\nValeur : Valeur du cookie\nZéro ou plus attributs sous forme de paires"
+        },
+        {
+            "question": "Structure d'un JWT",
+            "reponse": "Header, payload (en base64) & signature (base64)"
+        },
+        {
+            "question": "Brute force quessing",
+            "reponse": "Un attaquant teste tous les mots de passe possibles automatiquement pour un identifiant jusqu'à trouver le bon."
+        },
+        {
+            "question": "Mitigation au brute force guessing",
+            "reponse": "Eduquer ou forcer le user à avoir un mor de passe impossible à deviner.\nEmpêcher le test à répétition (delay ou captcha)"
+        },
+        {
+            "question": "Password Spraying / dictionary guessing",
+            "reponse": "Attaque qui teste un mot de passe courant contre une multitude de logins"
+        },
+        {
+            "question": "Mitigation du password spraying ou dictionary guessing",
+            "reponse": "Empêcher les mots de passe faibles, informer le user de la faiblesse et la constitution d'un mdp fort."
+        },
+        {
+            "question": "Credential stuffing",
+            "reponse": "Attaque qui utilise des identifiants (emails/mot de passe) volés sur un service pour essayer d'accéder à d'autres comptes sur d'autres services."
+        },
+        {
+            "question": "Règle obligatoire du NIST",
+            "reponse": "8 caractères minimum\nPas de durée de vie\nPas de questions de sécurité\nPas de règles de composition"
+        },
+        {
+            "question": "Recommandations du NIST",
+            "reponse": "15 à 64 caractères & acepter tous les caractères ASCII UNICODE"
+        },
+        {
+            "question": "Les éléments nécéssaires à la 2FA",
+            "reponse": "Quelque chose que tu sais -> mot de passe, code PIN.\nQuelque chose que tu as -> smartphone, token, carte à puce.\nnQuelque chose que tu es -> empreinte digitale, reconnaissance faciale, voix."
+        },
+        {
+            "question": "Session prediction",
+            "reponse": "Un attaquant ou prédit un ID de session valide et peut ainsi accéder à la session d'un utilisateur légitime."
+        },
+        {
+            "question": "Mitigation au session prediction",
+            "reponse": "ID de session aléatoire."
+        },
+        {
+            "question": "Session side-jacking",
+            "reponse": "Attaque où un attaquant vole un ID de session en transit afin de prendre le contrôle de la session de l'utilisateur."
+        },
+        {
+            "question": "Mitigation au session side-jacking",
+            "reponse": "Chiffrement des communications, sécurisations des cookies."
+        },
+        {
+            "question": "Unrevokable JWT",
+            "reponse": "un JWT (JSON Web Token) contient toutes les informations de session et rend l'application stateless. Cela implique qu'un token déjà émis ne peut pas être invalidé côté serveur avant son expiration, ce qui pose un risque en cas de vol ou de compromission."
+        },
+        {
+            "question": "Cookie tampering",
+            "reponse": "Un attaquant modifie la valeur d'un cookie pour usurper des droits ou manipuler l'application"
+        },
+        {
+            "question": "session fixation",
+            "reponse": "Consiste à forcer la victime à utiliser un ID de session valide déjà connu."
+        },
+        {
+            "question": "session ID rotation",
+            "reponse": "La rotation d'ID de session consiste à changer d'ID de session au moment de l'authentification et à chaque nouvelle requête."
+        },
+        {
+            "question": "Session invalidation",
+            "reponse": "L'invalidation consiste à rendre l'ID de session invalide et détruire la session lors d'une déconnexion, d'un temps d'inactivité ou d'une durée maximale écoulée."
+        },
+        {
+            "question": "Missing function level access control",
+            "reponse": "Aucun contrôle d'accès n'est efectué lors d'un accès direct à une ressource/fonction."
+        },
+        {
+            "question": "Insecure direct object reference",
+            "reponse": "Aucun contrôle d'accès n'est effectué lors d'un accès direct à un objet."
+        },
+        {
+            "question": "session poisoning",
+            "reponse": "Quand l'utilisation de variables globales pour sauvegarder l'état de session a lieu de anière imprudente."
+        },
+        {
+            "question": "Sensitive client caching",
+            "reponse": "Utilisation du caching sur des données sensibles."
+        },
+        {
+            "question": "directory traversal",
+            "reponse": "L'application ou le serveur permet l'accès à des chiers de manière arbitraire par navigation du FS"
+        },
+        {
+            "question": "captcha bypass",
+            "reponse": "Quand il est possible de contourner un captcha ou de simuler une réponse humaine."
+        },
+        {
+            "question": "insecure deserialization",
+            "reponse": "Quand l'attaquant peut manipuler un élément sérialisé."
+        },
+        {
+            "question": "SQL Injection",
+            "reponse": "Création de requêtes SQL à partir de données fournies par l'utilisateur."
+        },
+        {
+            "question": "Command Injection",
+            "reponse": "Création de commandes shell à partir de données fournies par l'utilisateur."
+        },
+        {
+            "question": "Code Injection",
+            "reponse": "Utilisation des entrées de l'utilisateur pour générer du code à exécuter."
+        },
+        {
+            "question": "Null Byte Injection",
+            "reponse": "Utilisation d'un byte null dans une chaîne de caractère passée en paramètre."
+        },
+        {
+            "question": "File Inclusion",
+            "reponse": "Inclusion (et donc exécution) d'un fichier choisi par l'attaquant."
+        },
+        {
+            "question": "Différence entre LFI et RFI",
+            "reponse": "LFI (Local File Inclusion) = lecture/exécution de fichiers locaux du serveur.\nRFI (Remote File Inclusion) = importation et exécution de fichiers distants."
+        },
+        {
+            "question": "CSS Injection",
+            "reponse": "Possibilité pour l'attaquant de modifier les règles de style."
+        },
+        {
+            "question": "XXE Injection",
+            "reponse": "Injection de XML malveillant sur le serveur"
+        },
+        {
+            "question": "URL Spoofing",
+            "reponse": "Pratique consistant à falsifier de l'information dans le but de tromper l'utilisateur et/ou le serveur"
+        },
+        {
+            "question": "Typosquatting",
+            "reponse": "Une pratique qui consiste à occuper un nom de domaine dont le nom est proche d'un service connu, dans l'espoir d'un utilisateur inattentif s'y renre par faute de frappe."
+        },
+        {
+            "question": "Website spoofing",
+            "reponse": "Consiste à copier un site légitime dans l'espoir d'obtenir des informations confidentielles de l'utilisateur."
+        },
+        {
+            "question": "DNS Spoofing",
+            "reponse": "Mener l'utilisateur à un site frauduleux si un attaquant arrive à fournir de fausses informations au serveur DNS utilisé."
+        },
+        {
+            "question": "Referer Authentification/Authorization",
+            "reponse": "Utilisation des informations du header Referer comme moyen d'accès ou de permissions."
+        },
+        {
+            "question": "Clickjacking",
+            "reponse": "Consiste à inciter l'utilisateur à cliquer sur un élément visuel, qui est en fait lui-même situé sous un élement invisible."
+        },
+        {
+            "question": "DNS cache poisoning",
+            "reponse": "Attaque où un attaquant injecte de fausses informations DNS dans le cache d'un résolveur."
+        },
+        {
+            "question": "SRC attribute",
+            "reponse": "Utilisation erronée de l'attribut \"src\" ou avec input de l'utilisateur"
+        },
+        {
+            "question": "Cross-site Request Forgery (CSRF)",
+            "reponse": "Requête malicieuse d'un attaquant vers un site pour lequel la victime possède une session active."
+        },
+        {
+            "question": "Unvalidated redirects and forwards",
+            "reponse": "Redirection/renvoi par le site vers une page autre que celle demandée"
+        },
+        {
+            "question": "Cross-site cooking",
+            "reponse": "Permets à un attaquant de fournir à un serveur victime un cookie forgé via le browser d'n visiteur tiers"
+        },
+        {
+            "question": "Quelle fonction PHP est connue pour être dangereuse et à désactiver ?",
+            "reponse": "exec()"
+        },
+        {
+            "question": "Quel en-tête HTTP est lié au mécanisme CORS ?",
+            "reponse": "Access-Control-Allow-Origin"
+        },
+        {
+            "question": "Quelle est une faille liée à un mauvais traitement de chemins ?",
+            "reponse": "Directory Traversal"
+        },
+        {
+            "question": "Quel est un exemple de faille si HTTPS est mal configuré ?",
+            "reponse": "Downgrade Attack (ex : SSL stripping)"
+        },
+        {
+            "question": "Quelle méthode du protocol HTTP peut-on employer pour réduire les risques d'attaques CSRF ?",
+            "reponse": "Employer la méthode Post + token anti-CSRF à la place de Get"
+        },
+        {
+            "question": "Quels sont les deux ports par défaut habituellement utilisés pour le protocole HTTP (hors HTTP/3) sur un serveur ?",
+            "reponse": "80 (HTTP) & 443 (HTTPS)"
+        },
+        {
+            "question": "CORS misconfiguration",
+            "reponse": "La mauvaise configuration des headers du CORS, en particulier Access-Control-Allow-Origin peremte à des origines tierces d'accéder à des ressources qui devraient êtres restreintes."
+        },
+        {
+            "question": "Cross-site scripting (XSS)",
+            "reponse": "Consiste à l'injection de code qui sera interprété par le browser de la victime."
+        },
+        {
+            "question": "XSS reflected",
+            "reponse": "Le contenu de la réponse du serveur a été modifié par du code fourni par l'utilisateur"
+        },
+        {
+            "question": "XSS stored",
+            "reponse": "Le contenu de la réponse du serveur à été modifié par du code stocké par le serveur"
+        },
+        {
+            "question": "XSS DOM",
+            "reponse": "Le contenu de la réponse est inchangé. L'injection se fait côté client lors d'un accès au DOM par un script."
+        },
+        {
+            "question": "Citez une ou plusieurs fonctions PHP qu'il est préférable de désactiver sur un serveur Web.",
+            "reponse": "exec, passthru, shell_exec, system, popen, proc_open, pcntl_exec, posix_kill, posix_setuid, phpinfo, getenv"
+        },
+        {
+            "question": "Quels sont les éléments qui constituent",
+            "reponse": "..."
+        },
+        {
+            "question": "Citez et expliquez un type de sélecteur CSS",
+            "reponse": "Le sélecteur de classe (.). Le sélecteur de classe permet de cibler un ou plusieurs éléments HTML qui possèdent un attribut class spécifique.\nSélecteur d'ID (#id) cible un élément unique."
+        },
+        {
+            "question": "Quand est-il recommandé de pratiquer la rotation de l'ID de session et pourquoi ?",
+            "reponse": "La rotation de l'ID de session est recommandée après chaque authentification réussie (login), afin de prévenir la fixation de session (session fixation) - une attaque où un attaquant force une victime à utiliser un ID de session qu'il contrôle déjà."
+        },
+        {
+            "question": "Dans le mécanisme CORS, quel header indique au browser l'origine ayant le droit d'utiliser une ressource.",
+            "reponse": "Access-Control-Allow-Origin"
+        },
+        {
+            "question": "Quelle version de TLS est encore à jour jusqu'a aujourd'hui ?",
+            "reponse": "TLS 1.2 & TLS 1.3"
+        },
+        {
+            "question": "Quel est le langage qui interprète les pages web ?",
+            "reponse": "Java Script. Le trio est HTML, CSS et JS"
+        },
+        {
+            "question": "Qu'est-ce que le DoT/DoH ?",
+            "reponse": "DoT et DoH sont deux protocoles qui permettent de chiffrer les requêtes DNS, qui transitent normalement en clair.\nDoT - DNS over TLS : chiffre les requêtes DNS via TLS, sur le port 853.\nDoH - DNS over HTTP : encapsule les requêtes DNS dans du HTTPS, sur le port 443."
+        },
+        {
+            "question": "Quelle est la différence entre le DoT et le DoH ?",
+            "reponse": "DoH est plus difficile à bloquer car il passe par le port 443 comme le traffic web normal, tandis que DoT est plus facile à identifier et filtrer."
+        },
+        {
+            "question": "Quelle faille gère les injections d'entrée dans une page ?",
+            "reponse": "le XSS :\nStored : stocké sur le serveur\nReflected : renvoyé dans la réponse HTTP\nDOM : dans le DOM"
+        },
+        {
+            "question": "Quel header est responsable de la dernière page rechargée ?",
+            "reponse": "Referer"
+        },
+        {
+            "question": "Quel langage descriptif est utilisé pour décrire au navigateur le contenu d'une page web ?",
+            "reponse": "HTML"
+        },
+        {
+            "question": "Du point de vue de la confidentialité, quel est le principal défaut du protocole DNS standard ?",
+            "reponse": "Les requêtes DNS transitent en clair"
+        },
+        {
+            "question": "Quelle protection implémentée dans le navigateur empêche les requêtes AJAX vers des sites tiers (cross-site) ?",
+            "reponse": "La politique SOP (Same-Origin Policy)"
+        },
+        {
+            "question": "Citez un moyen de mitiger une attaque par force vrute sur un formulaire de login.",
+            "reponse": "Le rate limiting, usage du captcha"
+        },
+        {
+            "question": "Citez une diférence majeure entre la version HTTP/3 et les versions précédentes",
+            "reponse": "HTTP/3 utilise QUIC (basé sur UDP) au lieu de TCP utilisé par HTTP/1.1 et HTTP/2"
+        },
+        {
+            "question": "Citez une vulnérabilité peremttant à un bout de code de s'auto répliquer sur un site Web (un ver)",
+            "reponse": "stored XSS"
+        },
+        {
+            "question": "Qu'est-ce que le Password Spraying ?",
+            "reponse": "Le password Spraying est une attaque qui consiste à tester un petit nombre de mots de passe très courant (ex : 123456, Password1) sur un grand nombre de comptes."
+        },
+        {
+            "question": "Sur un serveur Linux, quel est l'utilisateur par défaut propriétaire du processus du serveur PHP-FPM ?",
+            "reponse": "www-data (Debian/Ubuntu) ou apache (Red Hat/CentOS)"
+        },
+        {
+            "question": "Expliquez brièvement le DOM",
+            "reponse": "Le DOM (Docment Object Model) est une représentation arborescente d'une page HTML en mémoire, construite par le navigateur après le chargement de la page."
+        },
+        {
+            "question": "Quel header HTTP contient l'adresse de la dernière page visitée ?",
+            "reponse": "Referer"
+        },
+        {
+            "question": "Citez 3 éléments que l'on peut vérifier pour pratiquer la MFA.",
+            "reponse": "Ce que tu sais - mot de passe, PIN, question secrète\nCe que tu as - téléphone (SMS/OTP), clé physique\nCe que tu es - empreinte, reconnaissance faciale (biométrie)"
+        },
+        {
+            "question": "Dans le contexte de la same Origin Policy, quels sont les éléments qui composent une origine ?",
+            "reponse": "Protocole - http ou https\nDomaine - ir256.iesn\nPort - 80, 443, etc."
+        },
+        {
+            "question": "En PHP, quel genre de requete faut-il utiliser pour éviter les injections SQL ?",
+            "reponse": "Il faut utiliser les requêtes préparées (repared statements/PDO/mysql bind param) avec des paramètres liés."
+        },
+        {
+            "question": "Citez un framework",
+            "reponse": "Laravel, Django, Angular, Symfony, Express.js, ..."
+        },
+        {
+            "question": "Quelle est la méthode d'authentification la plus sécurisée pour un produit nécessitant du MFA ?",
+            "reponse": "Application mobile générant des OTP (Google Authentificator, Authy, etc.)"
+        },
+        {
+            "question": "Quel header HTTP permet de rediriger vers une autre page ?",
+            "reponse": "Location"
+        },
+        {
+            "question": "Quelle est la différence entre GET et POST ?",
+            "reponse": "GET -> Données dans l'URL, pas de corps"
+        },
+        {
+            "question": "Qu'est-ce que DOORS ?",
+            "reponse": "Outil de gestion d'incidents (IBM DOORS), facilite capture, suivi, analyse et gestion des changements."
+        },
+        {
+            "question": "Technique pour contourner la SOP",
+            "reponse": "Passer par CORS ou utiliser une page intermédiaire"
+        },
+        {
+            "question": "Comment contrer l'AJAX malveillant ?",
+            "reponse": "Rotation d'ID de session à chaque requête"
+        },
+        {
+            "question": "Quel est le principal avantage du JWT par rapport au cookie ?",
+            "reponse": "Infalsifiable (Json Web Token). Technologie permettant l'authentification & l'échange d'informations en s'apuyant sur la signature cryptographique."
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 /*fichier JS pour quest_creer_langue_existe.html*/
 
-const PAGE_MENU = "../pages/quest_menu.html";
+const PAGE_MENU = "../quest/quest_menu.html";
 const STOCKAGE_EDITION_QUEST = "quest_creation_selection";
 
 const etatCreation = {
@@ -210,7 +210,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
     });
 
-    const boutonMenu = document.querySelector('.bouton_menu .btn-text[data-page="../pages/quest_menu.html"]');
+    const boutonMenu = document.querySelector('.bouton_menu .btn-text[data-page="../quest/quest_menu.html"]');
     if (boutonMenu) {
         boutonMenu.addEventListener("click", async (event) => {
             event.preventDefault();

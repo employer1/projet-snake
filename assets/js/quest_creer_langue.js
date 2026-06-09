@@ -1,7 +1,7 @@
 /*fichier JS de quest_creer_langue*/
 
 const DOSSIER_JSON = "questionnaire/creer/langue";
-const PAGE_MENU = "../pages/quest_menu.html";
+const PAGE_MENU = "../quest/quest_menu.html";
 
 const etatCreation = {
     jsonPath: "",
@@ -387,7 +387,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
     });
 
-    const boutonMenu = document.querySelector('.bouton_menu .btn-text[data-page="../pages/quest_menu.html"]');
+    const boutonMenu = document.querySelector('.bouton_menu .btn-text[data-page="../quest/quest_menu.html"]');
     if (boutonMenu) {
         boutonMenu.addEventListener("click", async (event) => {
             event.preventDefault();

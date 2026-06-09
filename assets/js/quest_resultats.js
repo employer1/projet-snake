@@ -3,10 +3,10 @@ const stockageResultatsQuest = "quest_resultats";
 const stockageOptionsQuest = "quest_options";
 
 const pagesQuestionnaire = {
-    txt: "../pages/quest_questionnaire_txt.html",
-    qcm: "../pages/quest_questionnaire_qcm.html",
-    alphabet: "../pages/quest_questionnaire_alphabet.html",
-    langue: "../pages/quest_questionnaire_langue.html",
+    txt: "../quest/quest_questionnaire_txt.html",
+    qcm: "../quest/quest_questionnaire_qcm.html",
+    alphabet: "../quest/quest_questionnaire_alphabet.html",
+    langue: "../quest/quest_questionnaire_langue.html",
 };
 
 const chargerDonnees = (cle) => {
@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (elements.restart) {
         const pageQuestionnaire =
             options?.mode === "lecture"
-                ? "../pages/quest_lecture.html"
+                ? "../quest/quest_lecture.html"
                 : pagesQuestionnaire[options?.questionnaire?.type];
         if (!pageQuestionnaire) {
             elements.restart.disabled = true;

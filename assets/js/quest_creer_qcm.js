@@ -2,7 +2,7 @@
 
 const DOSSIER_JSON = "questionnaire/creer/qcm";
 const DOSSIER_IMAGE_QUEST = "img";
-const PAGE_MENU = "../pages/quest_menu.html";
+const PAGE_MENU = "../quest/quest_menu.html";
 const IDS_LEURRES = ["leurre_1", "leurre_2", "leurre_3", "leurre_4", "leurre_5"];
 
 const etatCreation = {
@@ -434,7 +434,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
     });
 
-    const boutonMenu = document.querySelector('.bouton_menu .btn-text[data-page="../pages/quest_menu.html"]');
+    const boutonMenu = document.querySelector('.bouton_menu .btn-text[data-page="../quest/quest_menu.html"]');
     if (boutonMenu) {
         boutonMenu.addEventListener("click", async (event) => {
             event.preventDefault();

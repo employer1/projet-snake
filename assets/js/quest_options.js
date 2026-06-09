@@ -3,10 +3,10 @@ const stockageSelectionQuest = "quest_selection";
 const stockageOptionsQuest = "quest_options";
 
 const pagesQuestionnaire = {
-    txt: "../pages/quest_questionnaire_txt.html",
-    qcm: "../pages/quest_questionnaire_qcm.html",
-    alphabet: "../pages/quest_questionnaire_alphabet.html",
-    langue: "../pages/quest_questionnaire_langue.html",
+    txt: "../quest/quest_questionnaire_txt.html",
+    qcm: "../quest/quest_questionnaire_qcm.html",
+    alphabet: "../quest/quest_questionnaire_alphabet.html",
+    langue: "../quest/quest_questionnaire_langue.html",
 };
 
 const optionsParType = {
@@ -69,7 +69,7 @@ const definirNavigation = (bouton, questionnaire, options) => {
     }
     bouton.disabled = false;
     bouton.addEventListener("click", () => {
-        const pageCible = options.mode === "lecture" ? "../pages/quest_lecture.html" : pageQuestionnaire;
+        const pageCible = options.mode === "lecture" ? "../quest/quest_lecture.html" : pageQuestionnaire;
         const optionsSauvegardees = {
             ...options,
             questionnaire: {

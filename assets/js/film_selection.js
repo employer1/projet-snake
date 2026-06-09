@@ -6,11 +6,11 @@ const MINIMUM_FILMS = 3;
 const configurationModes = {
     battle_royal: {
         titre: "Battle Royal",
-        pageDemarrer: "../pages/film_battle_royal.html"
+        pageDemarrer: "../film/film_battle_royal.html"
     },
     classement: {
         titre: "Classement",
-        pageDemarrer: "../pages/film_classement.html"
+        pageDemarrer: "../film/film_classement.html"
     }
 };
 

@@ -1,6 +1,6 @@
 /*fichier JS de quest_creer_qcm_existe.html*/
 
-const PAGE_MENU = "../pages/quest_menu.html";
+const PAGE_MENU = "../quest/quest_menu.html";
 const STOCKAGE_EDITION_QUEST = "quest_creation_selection";
 const IDS_LEURRES = ["leurre_1", "leurre_2", "leurre_3", "leurre_4", "leurre_5"];
 
@@ -406,7 +406,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
     });
 
-    const boutonMenu = document.querySelector('.bouton_menu .btn-text[data-page="../pages/quest_menu.html"]');
+    const boutonMenu = document.querySelector('.bouton_menu .btn-text[data-page="../quest/quest_menu.html"]');
     if (boutonMenu) {
         boutonMenu.addEventListener("click", async (event) => {
             event.preventDefault();

@@ -1,8 +1,8 @@
 const CLE_MODE_FILM = "film_mode";
 
 const routesParMode = {
-    battle_royal: "../pages/film_selection.html",
-    classement: "../pages/film_selection.html"
+    battle_royal: "../film/film_selection.html",
+    classement: "../film/film_selection.html"
 };
 
 document.querySelectorAll("[data-film-mode]").forEach((bouton) => {
