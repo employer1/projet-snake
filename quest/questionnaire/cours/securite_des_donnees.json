@@ -1,0 +1,1017 @@
+{
+    "titre": "Sécu Web",
+    "type": "txt",
+    "reverse": 0,
+    "path": "",
+    "explication": "Question sur le cours de Sécurité des Données, faites par moi-même.",
+    "questionnaire": [
+        {
+            "question": "Qu'est-ce qu'une donnée ?",
+            "reponse": "Faits recueilli sur un sujet ou un élément."
+        },
+        {
+            "question": "Qu'est-ce qu'une information ?",
+            "reponse": "Résultat de la combinaison de la comparaison et de l'exécution de calculs sur les données."
+        },
+        {
+            "question": "Qu'est-ce qu'une base de données ?",
+            "reponse": "C'est une collection organisée de données."
+        },
+        {
+            "question": "Comment sont habituellement stockée les base de données ?",
+            "reponse": "Sous forme électronique."
+        },
+        {
+            "question": "Est-ce que toutes les bases de données sont stockées sous forme élctronique ?",
+            "reponse": "Non"
+        },
+        {
+            "question": "Comment sont traditionnellement organisées les bases de données ?",
+            "reponse": "Champ - Enregistrement - fichier"
+        },
+        {
+            "question": "Est-ce que les utilisateurs ont habituellement accès aux bases de données ?",
+            "reponse": "Non"
+        },
+        {
+            "question": "Qu'est-ce que les utilisateurs utilisent pour acéder indirectement aux bases de données ?",
+            "reponse": "DBMS"
+        },
+        {
+            "question": "Qu'est-ce que DBMS ?",
+            "reponse": "Une collection de programmes qui permet de saisir, d'organiser et de sélectionner des données dans une base de données."
+        },
+        {
+            "question": "Qu'est-ce qu'une table bi-dimensionnelles ?",
+            "reponse": "Une table constituée de lignes et de colonnes."
+        },
+        {
+            "question": "De quoi est constitué une base de donnée de type plat ?",
+            "reponse": "De tables bi-dimenssionnelles."
+        },
+        {
+            "question": "Citer un serveur de base de données.",
+            "reponse": "Microsoft SQL Server"
+        },
+        {
+            "question": "Quel est le langage utilisé ?",
+            "reponse": "SQL ou T-SQL"
+        },
+        {
+            "question": "Quelle est le langage utilisé par Microsoft ?",
+            "reponse": "T-SQL"
+        },
+        {
+            "question": "Quels sont les sous-langage SQL ?",
+            "reponse": "DDL, DML, DQL, DCL, TCL"
+        },
+        {
+            "question": "Qu'est-ce qu'une contrainte ?",
+            "reponse": "Ce sont des limites ou des règles placées sur un champ ou une colonne."
+        },
+        {
+            "question": "Que permet une contrainte ?",
+            "reponse": "Elle s'assure que les données considérées comme non valides ne sont pas saisies."
+        },
+        {
+            "question": "Quels sont les 5 types de contraintes disponibles dans SQL Server ?",
+            "reponse": "Clé primaire - Clé étrangère - Clé composite (unique) - DFAULT - CHECK"
+        },
+        {
+            "question": "Quelle est la signification de SSMS ?",
+            "reponse": "SQL Server Management Studio"
+        },
+        {
+            "question": "Quelle est la fonctionnalité centrale de SSMS ?",
+            "reponse": "Explorateur d'objet"
+        },
+        {
+            "question": "Que permet l'explorateur d'objet ?",
+            "reponse": "Il permet à l'utilisateur de naviguer, sélectionner, gérer chacun des objets du serveur en GUI ou CLI."
+        },
+        {
+            "question": "Quels sont les 3 différents types de fichiers pour stocker la base de données ?",
+            "reponse": "mdf - ndf - ldf"
+        },
+        {
+            "question": "Qu'est-ce qu'un schéma ?",
+            "reponse": "Un espace de noms qui représente un conteneur logique pour les tables. Une limite de sécurité. Permet de réduire les tâches administratives et améliore la sécurité."
+        },
+        {
+            "question": "Qu'est-ce qu'un espace de noms qui représente un conteneur logique pour des tables ?",
+            "reponse": "Un schéma"
+        },
+        {
+            "question": "Qu'est-ce qui permet de fixer des limites de sécurité ?",
+            "reponse": "Un schéma"
+        },
+        {
+            "question": "Donné des formats de fichier représentant des bases de données plates.",
+            "reponse": "CSV - TXT - Excel"
+        },
+        {
+            "question": "A quoi ressemble la conception d'une base de données hiérarchique ?",
+            "reponse": "Un arbre généalogique"
+        },
+        {
+            "question": "Dans une base de données hiérarchique, est-ce qu'un enfant peut avoir plusieurs parents ?",
+            "reponse": "Non"
+        },
+        {
+            "question": "Dans une base de données hiérarchique, est-ce qu'un parent peut avoir plusieurs enfants ?",
+            "reponse": "Oui"
+        },
+        {
+            "question": "Qu'est-ce qu'un modèle conceptuel ?",
+            "reponse": "Il capture les besoins fonctionnels et informationnels d'une entreprise.\nIl est basé sur les besoins actuels, mais peut refléter des besoins futurs.\nIl répond aux besoins d'une entreprise, mais ne prend pas en compte l'implémentation."
+        },
+        {
+            "question": "Que permet le modèle conceptuel ?",
+            "reponse": "Il identifie les entités importantes et les relations entre les entités."
+        },
+        {
+            "question": "Que ne spécifie pas le modèle conceptuel ?",
+            "reponse": "Les attributs et les identificateurs uniques."
+        },
+        {
+            "question": "Qu'est-ce qu'un bon modèle de données conceptuel ?",
+            "reponse": "Lorsqu'il demeure identique, quel que soit le type de systèmede base de données finalement créé ou mis en œuvre."
+        },
+        {
+            "question": "Qu'est-ce qu'une entité ?",
+            "reponse": "Des informations qu'il est possible d'énumérer."
+        },
+        {
+            "question": "Est-ce que les entités peuvent être classées ?",
+            "reponse": "Oui"
+        },
+        {
+            "question": "Que contient une entité ?",
+            "reponse": "Des instances"
+        },
+        {
+            "question": "Qu'est-ce qu'une instance ?",
+            "reponse": "Une occurence unique d'une entité."
+        },
+        {
+            "question": "Qu'est-ce qu'une relation ?",
+            "reponse": "Un lien entre 2 tables."
+        },
+        {
+            "question": "Quelles sont les caractéristiques d'une relation ?",
+            "reponse": "Elles peuvent exister entre deux entités maximum.\nElles peuvent exister entre une entité et elle-même (relation récusrive).\nElles ont 2 points de vue.\nLes 2 de vue des relations doivent faire l'objet d'un libellé."
+        },
+        {
+            "question": "Qu'est-ce qu'un modèle logique ?",
+            "reponse": "Il inclut toutes les entités et les relations qui les unissent.\nIl est appelé modèle ERM (modèle entité relation).\nIl représente par un diagramme ERD.\nIl spécifie tous les attributs et UID pour chaque entité.\nIl détermine l'optionnalité des attributs.\nIl détermine l'optionalité et la cardinalité des relations."
+        },
+        {
+            "question": "Qu'est-ce qu'un attribut ?",
+            "reponse": "Ils décrivent les entités.\nIls correspondent aux informations spécifiques qui doivent être connues.\nIl s'agit d'un détail de propriété monovaleur d'une entité."
+        },
+        {
+            "question": "Est-ce que les attributs sont affichés à l'intérieur ou à l'extérieur du cadre de l'entité dans le diagramme ERD.",
+            "reponse": "Intérieur"
+        },
+        {
+            "question": "Un nom d'attribut est-il au singulier ou au pluriel ?",
+            "reponse": "Au pluriel"
+        },
+        {
+            "question": "Un nom d'attribut est-il en majuscule ou en minuscule ?",
+            "reponse": "En minuscule et en majuscule."
+        },
+        {
+            "question": "Est-ce que le nom d'un attribut doit inclure celui de l'entité ?",
+            "reponse": "Non"
+        },
+        {
+            "question": "Est-ce qu'un attribut obligatoire peut avoir une valeur ?",
+            "reponse": "Oui"
+        },
+        {
+            "question": "Est-ce qu'un attribut obligatoire doit obligatoirement avoir une valeur ?",
+            "reponse": "Non"
+        },
+        {
+            "question": "Est-ce qu'un attribut facultatif peut avoir une valeur ?",
+            "reponse": "Oui"
+        },
+        {
+            "question": "Est-ce qu'un attribut facultatif doit obligatoirement avoir une valeur ?",
+            "reponse": "Non"
+        },
+        {
+            "question": "Combien de type d'attributs différents existe-il ?",
+            "reponse": "2"
+        },
+        {
+            "question": "Par quel caractére reconnaît-on un attribut obligatoire ?",
+            "reponse": "*"
+        },
+        {
+            "question": "Par quel caractère reconnaît-on un attribut facultatif ?",
+            "reponse": "o"
+        },
+        {
+            "question": "Par quel caractère reconnaît-on un UID ?",
+            "reponse": "#"
+        },
+        {
+            "question": "Qu'est-ce qu'un modèle physique ?",
+            "reponse": "C'est une extension d'un modèle de données logique.\nIl décrit l'implementation des objets dans une base de données spécifique.\nIl affiche toutes les structures de table, y compris les colonnes, les clés primaires et les clés étrangères."
+        },
+        {
+            "question": "Qu'indique un modèle physique ?",
+            "reponse": "Les définitions de table, les types de données et la précision."
+        },
+        {
+            "question": "Qu'identifie les vues, les index et d'autres objets de base de données.",
+            "reponse": "Les vues, les index, autres objets de bases de données."
+        },
+        {
+            "question": "Qu'est-ce que le principe de normalisation des bases de données relationnelles ?",
+            "reponse": "Processus méthodologique qui consiste à organiser les données dans les tables de manière à réduire les redondances et éviter les anomalies."
+        },
+        {
+            "question": "Quel sont les 5 types de normalisation de base de données ?",
+            "reponse": "1NF\n2NF\n3NF\n4NF\n5NF"
+        },
+        {
+            "question": "A quoi sert le premier type de normalisation de base de données ?",
+            "reponse": "Eliminer la répétition de groupes."
+        },
+        {
+            "question": "A quoi sert le second type de normalisation de base de données ?",
+            "reponse": "Eliminer les données redondantes."
+        },
+        {
+            "question": "A quoi sert le troisième type de normalisation de base de données ?",
+            "reponse": "Eliminer les colonnes qui ne dépendent pas des clés."
+        },
+        {
+            "question": "A quoi sert le quatrième type de normalisation de base de données ?",
+            "reponse": "Isoler les relations multiples indépendantes."
+        },
+        {
+            "question": "A quoi sert le cinquième type de normalisation de base de données ?",
+            "reponse": "Isoler les relations multiples associées d'un point de vue sémantique."
+        },
+        {
+            "question": "A quel type de normalisation de base de données répond la clé primaire ?",
+            "reponse": "1er type"
+        },
+        {
+            "question": "Quelle est la particularité principale de la clé primaire ?",
+            "reponse": "Elle permet de n'avoir aucun doublon dans la colonne à laquelle elle est associée."
+        },
+        {
+            "question": "Est-ce que toutes les tables doivent avoir une clé primaire ?",
+            "reponse": "Oui"
+        },
+        {
+            "question": "Est-ce qu'une clé primaire peut avoir une valeur NULL ?",
+            "reponse": "Non"
+        },
+        {
+            "question": "Quel condition une table doit-elle remplir afin de posséder une clé composite ,",
+            "reponse": "Avoir plus d'une clé primaire."
+        },
+        {
+            "question": "Quand surviens une clé étrangère ?",
+            "reponse": "Lorsque vous avez deux tables associées l'une à l'autre, une d'elle agira comme table primaire, tandis que l'autre agira comme une table secondaire."
+        },
+        {
+            "question": "Que permet la contrainte DEFAULT ?",
+            "reponse": "Fourni une valeur par défaut."
+        },
+        {
+            "question": "Que permet la contrainte CHECK ?",
+            "reponse": "Vérifie les valeurs par rapport à des critères définis."
+        },
+        {
+            "question": "Que permet DECLARE ?",
+            "reponse": "Permet de déclarer une variable locale."
+        },
+        {
+            "question": "Que permet PRINT ?",
+            "reponse": "Affiche un message texte dans la console SQL Server."
+        },
+        {
+            "question": "Que permet BEGIN END ?",
+            "reponse": "Regroupe plusieurs instructions dans un bloc."
+        },
+        {
+            "question": "Que permet IF ELSE ?",
+            "reponse": "Exécute une instruction selon une condition."
+        },
+        {
+            "question": "Que permet RAISERROR ?",
+            "reponse": "Génrère une erreur personnalisée dans T-SQL."
+        },
+        {
+            "question": "Quelles sont les différentes indication fournie par RAISERROR ?",
+            "reponse": "message - niveau de gravité - état"
+        },
+        {
+            "question": "Que permet WHILE ?",
+            "reponse": "Crée une boucle tant qu'une condition est vraie."
+        },
+        {
+            "question": "Qu'est-ce qu'une transaction ?",
+            "reponse": "Un ensemble d'instructions qui forment une unité logique de travail."
+        },
+        {
+            "question": "Quel est l'objectif d'une transaction ?",
+            "reponse": "Assurer la cohérence des données."
+        },
+        {
+            "question": "Que peut contenir une transaction ?",
+            "reponse": "Plusieurs requête DML.\nUne seule requête DDL.\nUne seule requête DCL."
+        },
+        {
+            "question": "Combien de transaction différentes existe-t-il ?",
+            "reponse": "3"
+        },
+        {
+            "question": "Quels sont les différents types de transactions existant ?",
+            "reponse": "auto-commit - explicite - implicite"
+        },
+        {
+            "question": "Quelle est la particularité d'une transaction individuelle ?",
+            "reponse": "Chaque instruction individuelle est une transaction."
+        },
+        {
+            "question": "Quelle est la particullarité d'une instruction explicite ?",
+            "reponse": "Commence par BEGIN TRANSACTION et fini par COMMIT ou ROLLBACK."
+        },
+        {
+            "question": "Quelle est la particularité d'une instruction implicite ?",
+            "reponse": "Chaque instruction démarre automatiquement une nouvelle transaction."
+        },
+        {
+            "question": "Comment active-t-on une transaction implicite ?",
+            "reponse": "SET IMPLICIT_TRANSACTIONS ON"
+        },
+        {
+            "question": "Quand utilisé ROLLBACK dans une transaction ?",
+            "reponse": "crash du système."
+        },
+        {
+            "question": "Qui peut voir les modifications s'effectuées durant une transactions ?",
+            "reponse": "uniquement l'utilisateur."
+        },
+        {
+            "question": "Quand est-ce que les autres utilisateurs voient les modifications lors d'une transaction ?",
+            "reponse": "Lorsqu'elle est terminée ?"
+        },
+        {
+            "question": "Que réalise COMMIT ?",
+            "reponse": "Clôture une transaction et les données sont mises à jour dans la BD."
+        },
+        {
+            "question": "Qu'advient-t-il de l'état précédent de la BD lorsqu'un COMMIT est réalisé ?",
+            "reponse": "Il est écrasé."
+        },
+        {
+            "question": "Que ce passe-t-il avec les données concernées lorsqu'on effectue une transaction ?",
+            "reponse": "Elles sont verrouillées jusqu'à la fin de la transaction."
+        },
+        {
+            "question": "Qu'advient-t-il des données lorsqu'un ROLLBACK est exécuté ?",
+            "reponse": "Clôture la transaction et les instructions sont annulées."
+        },
+        {
+            "question": "Qu'est-ce qu'un SAVEPOINT ?",
+            "reponse": "Point de contrôle dans une transaction."
+        },
+        {
+            "question": "Quelle commande permet de créer un SAVEPOINT ?",
+            "reponse": "SAVE TRANSACTION"
+        },
+        {
+            "question": "Quelle commande permet de revenir à un SAVEPOINT ?",
+            "reponse": "ROLLBACK TRANSACTION"
+        },
+        {
+            "question": "Que permet RELEASE dans une transaction ?",
+            "reponse": "Elle libère un SAVEPOINT devenu inutile après une étape réussie."
+        },
+        {
+            "question": "Qu'est-ce qu'une VUE ?",
+            "reponse": "C'est une table virtuelle basée sur une requête SQL."
+        },
+        {
+            "question": "Que permet une VUE ?",
+            "reponse": "Permet de simplifier l'accès aux données, masquer la complexité ou sécuriser certaines colonnes."
+        },
+        {
+            "question": "Est-ce qu'une VUE stocke les données ?",
+            "reponse": "Non"
+        },
+        {
+            "question": "Que fait une vue si elle ne stocke pas les données ?",
+            "reponse": "Elle affiche le résultat d'une requête à chaque appel."
+        },
+        {
+            "question": "Qu'est-ce qu'une procédure stockée ?",
+            "reponse": "Bloc de code SQL enregistré dans la base, que l'on peut exécuter à tout moment."
+        },
+        {
+            "question": "Que permet une procédure stockée ?",
+            "reponse": "Centraliser la logique métier.\nréutiliser du code.\naméliorer les performances."
+        },
+        {
+            "question": "Est-ce qu'une procédure peut accepter des paramètres ?",
+            "reponse": "Oui"
+        },
+        {
+            "question": "Pourquoi assurer la sécurité des données ?",
+            "reponse": "Informations sensibles."
+        },
+        {
+            "question": "A quoi peut porter atteinte une non sécurisation des données ?",
+            "reponse": "Confidentialité - Intégrité - Disponibilité"
+        },
+        {
+            "question": "Comment garantir la sécurité ?",
+            "reponse": "Authentification - Autorisation - Audibilité"
+        },
+        {
+            "question": "Quels sont les 2 modes d'authentification SQL Server ?",
+            "reponse": "Authentification Windows - Authentification SQL Server"
+        },
+        {
+            "question": "Qu'est-ce qu'une permission au niveau serveur ?",
+            "reponse": "Droit accordé à un login, un rôle serveur ou une application, sur l'instance SQL server entière."
+        },
+        {
+            "question": "Qu'est-ce que le User ?",
+            "reponse": "Un compte local lié à une BD, lié à un Login."
+        },
+        {
+            "question": "Qu'est-ce qu'une permission au niveau BD ?",
+            "reponse": "Droit accordé à un utilisateur, un rôle ou une application lui permettant d'effectuer une action spécifique sur une base de données ou sur les objets qu'elles contient."
+        },
+        {
+            "question": "Que représente un objet ?",
+            "reponse": "Table - vue - procédure stockée"
+        },
+        {
+            "question": "Qu'est-ce qu'un objet sécurisable ?",
+            "reponse": "Tout élément sur lequel une permission peut être accordée, refusée ou révoquée."
+        },
+        {
+            "question": "Quels sont les principaux objets sécurisable ?",
+            "reponse": "Table - vue - procédures stockées - fonctions - schémas - rôle - user - certificats - clés"
+        },
+        {
+            "question": "Que permet la gestion des rôles et permissions ?",
+            "reponse": "Simplifie la gestion - facilite la maintenance"
+        },
+        {
+            "question": "Quels sont les types de rôles ?",
+            "reponse": "Serveur fixe - base fixes - utilisateur"
+        },
+        {
+            "question": "Citer 5 bonnes pratique à suivre.",
+            "reponse": "Principe du moindre privilège.\nSéparation des rôles.\nPrivilégier le mode d'authentification Windows.\nNe jamais utiliser \"sa\" pour des opérations quotidiennes.\nDocumenter et auditer les changements de sécurité"
+        },
+        {
+            "question": "Qu'est-ce que la Disponibilité ?",
+            "reponse": "Capacité d'un système à être accessible et opérationnel à tout instant."
+        },
+        {
+            "question": "Que signifie CIA ?",
+            "reponse": "Confidentiality - integrity - availability"
+        },
+        {
+            "question": "Qu'implique la garantie de la continuité d'accès aux données ?",
+            "reponse": "Mise en place de stratégies techniques et organisationnelles."
+        },
+        {
+            "question": "Que permet une stratégie de sauvegarde ?",
+            "reponse": "Garantir la restauration rapide et complète des données ?"
+        },
+        {
+            "question": "Que permet la réplication et la haute disponibilité ?",
+            "reponse": "Garantir la reprise instantanée du service en cas de panne du serveur principal."
+        },
+        {
+            "question": "Que ce passe-t-il lorsque l'indexation et la performance sont absent ?",
+            "reponse": "Un système surchargé ou lent devient indisponible pour l'utilisateur."
+        },
+        {
+            "question": "Que signifie PCA ?",
+            "reponse": "Plan de Continuité"
+        },
+        {
+            "question": "Qu'est-ce que PCA ?",
+            "reponse": "Ensemble des mesures permettant de maintenir les services essentiels pendant un incident."
+        },
+        {
+            "question": "Que signifie PRA ?",
+            "reponse": "Plan de Reprise."
+        },
+        {
+            "question": "Qu'est-ce que PRA ?",
+            "reponse": "Ensemble des actions visant à restaurer les systèmes et les données après un incident."
+        },
+        {
+            "question": "Quelle est la définition de sauvegarde et restauration ?",
+            "reponse": "Garantir la restauration complète et fiable des données en cas de perte, corruption ou sinistre."
+        },
+        {
+            "question": "Quels sont les 2 contraintes fondamentale à la sauvegarde et restauration ?",
+            "reponse": "RPO (Recovery Point Objective)\nRTO (Recovery Time Objective)"
+        },
+        {
+            "question": "Que signifie RPO ?",
+            "reponse": "Recovery Point Objective"
+        },
+        {
+            "question": "Que signifie RTO ?",
+            "reponse": "Recovery Time Objective"
+        },
+        {
+            "question": "Qu'est-ce que la contrainte RPO ?",
+            "reponse": "Quelle quantité de données peut-on perdre"
+        },
+        {
+            "question": "Qu'est-ce que la contrainte RTO ?",
+            "reponse": "En combien de temps peut-on restaurer le service"
+        },
+        {
+            "question": "Qu'est-ce qu'une sauvegarde complète (Full Backup) ?",
+            "reponse": "Copie l'ensemble de la base de données."
+        },
+        {
+            "question": "Quel est l'avantage d'une sauvegarde complète ?",
+            "reponse": "Base de toute stratégie."
+        },
+        {
+            "question": "Quel est l'inconvénient d'une sauvegarde complète ?",
+            "reponse": "Temps et espace importants"
+        },
+        {
+            "question": "Qu'est-ce qu'une sauvegarde différentielle (différential backup) ?",
+            "reponse": "Copie uniquement les données modifiées depuis la dernière sauvegarde complète."
+        },
+        {
+            "question": "Quel est l'avantage d'une sauvegarde différentielle ?",
+            "reponse": "Gain de temps et d'espace."
+        },
+        {
+            "question": "Quel est l'inconvénient d'une sauvegarde différentielle ?",
+            "reponse": "Nécessite la dernière sauvegarde complète."
+        },
+        {
+            "question": "Qu'est-ce qu'une sauvegarde du journal des transactions (Transaction Log Backup) ?",
+            "reponse": "Copie les transactions depuis la dernière sauvegarde du log."
+        },
+        {
+            "question": "Quel est l'avantage d'une sauvegarde du journal des transactions ?",
+            "reponse": "Permet une restauration point-in-time."
+        },
+        {
+            "question": "Quel est l'inconvénient d'une sauvegarde du journal des transactions ?",
+            "reponse": "Nécessite un modèle de récupération complet."
+        },
+        {
+            "question": "Qu'est-ce qu'une sauvegarde partielle ?",
+            "reponse": "Sauvegarde d'un sous-ensemble de fichiers ou de groupes de fichiers."
+        },
+        {
+            "question": "Quel est l'avantage d'une sauvegarde partielle ?",
+            "reponse": "Flexible"
+        },
+        {
+            "question": "Quel est l'inconvénient d'une sauvegarde partielle ?",
+            "reponse": "Plus complexe à gérer."
+        },
+        {
+            "question": "Qu'est-ce qu'une sauvegarde du fichier ou du groupe de fichiers (flie/filegroup backup) ?",
+            "reponse": "Sauvegarde d'un fichier spécifique dans une base volumineuse"
+        },
+        {
+            "question": "Quel est l'avantage d'une sauvegarde du fichier ou du groupe de fichiers ?",
+            "reponse": "Réduit la taille des sauvegardes."
+        },
+        {
+            "question": "Quel est l'inconvénient d'une sauvegarde du fichier ou du groupe de fichiers ?",
+            "reponse": "Requiert un plan rigoureux de restauration."
+        },
+        {
+            "question": "Qu'est-ce qu'un modèle de récupération simple ?",
+            "reponse": "Journal des transactions est tronqué automatiquement, donc impossible de restaurer point-in-time."
+        },
+        {
+            "question": "Qu'est-ce qu'un modèle de récupération full ?",
+            "reponse": "Toutes les transactions sont enregistrées jusqu'à sauvegarde du log, donc restauration impossible."
+        },
+        {
+            "question": "Qu'est-ce qu'un modèle de récupération bulk-logged ?",
+            "reponse": "Compromis entre simple et full. Certaines opérations massives (bulk) ne sont pas journalisées."
+        },
+        {
+            "question": "Quelle est la fréquence de planification de sauvegarde complète ?",
+            "reponse": "1 fois par jour, souvent la nuit."
+        },
+        {
+            "question": "Quelle est la fréquence de planification de sauvegarde différentielle ?",
+            "reponse": "Toutes les 4 à 6h."
+        },
+        {
+            "question": "Quelle est la fréquence de planification de sauvegarde du log de transactions ?",
+            "reponse": "15 à 30 minutes."
+        },
+        {
+            "question": "Sur quel support doivent se trouver les sauvegarde des 7 derniers jours ?",
+            "reponse": "Disque local"
+        },
+        {
+            "question": "Sur quel support doivent se trouver les sauvegarde hebdomadaire ?",
+            "reponse": "NAS"
+        },
+        {
+            "question": "Sur quel support doivent se trouver les sauvegarde mensuelle ?",
+            "reponse": "Stockage externe - cloud"
+        },
+        {
+            "question": "A l'aide de quoi planifie-t-on automatiquement les sauvegardes ?",
+            "reponse": "SQL Server Agent"
+        },
+        {
+            "question": "A l'aide de quoi configure-t-on les configuration simplifiée pour base multiple ?",
+            "reponse": "Maintenance Plans Wizard"
+        },
+        {
+            "question": "A l'aide de quoi automatise-t-on les automatisations personnalisée ?",
+            "reponse": "Scripts T-SQL ou PowerShell"
+        },
+        {
+            "question": "Comment vérifier qu'une restauration puisse se dérouler correctement ?",
+            "reponse": "Effectuer des restaurations sur un environnement de test - Vérifier la cohérence des données et l'intégrité de la base."
+        },
+        {
+            "question": "Qu'est-ce que la réplication ?",
+            "reponse": "Copier et maintenir des copier des données d'une base de données principale vers une ou plusieurs bases secondaires."
+        },
+        {
+            "question": "Que permet la réplication ?",
+            "reponse": "Assurer la disponibilité en cas de panne du serveur principal.\nPermettre la tolérance aux pannes (fault-tolerance)\nRépartir la charge (lecture/écriture) pour améliorer les performances\nFaciliter la continuité et la reprise d'activité."
+        },
+        {
+            "question": "Qu'est-ce qu'une réplication transactionnelle ?",
+            "reponse": "Chaque modification sur la base principale est propagée quasi-instantanément vers les répliques."
+        },
+        {
+            "question": "Quel est l'avantage d'une réplication transactionnelle ?",
+            "reponse": "Données à jour en continu - faible latence"
+        },
+        {
+            "question": "Quel est l'inconvénient d'une réplication transactionnelle ?",
+            "reponse": "Complexité - surcharge réseau."
+        },
+        {
+            "question": "Qu'est-ce qu'une réplication snapshot ?",
+            "reponse": "La base secondaire reçoit une copie complète à intervalles réguliers."
+        },
+        {
+            "question": "Quel est l'avantage d'une réplication snapshot ?",
+            "reponse": "Simplicité - cohérence complète"
+        },
+        {
+            "question": "Quel est l'inconvénient d'une réplication snapshot ?",
+            "reponse": "Pas de données en temps réel - plus de bande passante"
+        },
+        {
+            "question": "Qu'est-ce qu'une réplication merge ?",
+            "reponse": "Les bases primaire et secondaire peuvent être mises à jour indépendamment."
+        },
+        {
+            "question": "Quel est l'avantage d'une réplication merge ?",
+            "reponse": "Collaboration multisites - mobilité"
+        },
+        {
+            "question": "Quel est l'inconvénient d'une réplication merge ?",
+            "reponse": "Gestion des conflits plus complexe."
+        },
+        {
+            "question": "Quels sont les principaux composants disponible pour une réplication ?",
+            "reponse": "Publisher - Subscriber - Distributor - Agent de réplication"
+        },
+        {
+            "question": "Que permet Publisher ?",
+            "reponse": "Base principale qui publie les données à répliquer."
+        },
+        {
+            "question": "Que permet Subscriber ?",
+            "reponse": "Base qui reçoit et stocke les données répliquées."
+        },
+        {
+            "question": "Que permet Distributor ?",
+            "reponse": "Stocke temporairement les transactions avant de les envoyer aux abonnés."
+        },
+        {
+            "question": "Que permet un agent de réplication ?",
+            "reponse": "Processus qui gère l'envoi et la synchronisation des données."
+        },
+        {
+            "question": "Qu'est que l'indexation ?",
+            "reponse": "Structure de données qui référence les valeurs d'une colonne ou d'un ensemble de colonnes."
+        },
+        {
+            "question": "Que permet une indexation ?",
+            "reponse": "Accélérer les requêtes SELECT sur de grandes tables.\nRéduire la charge serveur en limitant les lectures inutiles sur disque.\nAméliorer la disponibilité en évitant que le serveur soit saturé par des requêtes lentes ou mal optimisées.\nFaciliter l'exécution des opérations de tri et de filtrage."
+        },
+        {
+            "question": "Qu'est-ce qu'un index Clustered ?",
+            "reponse": "Trie physiquement les lignes de la table selon la clé."
+        },
+        {
+            "question": "Quand utilisé un index Clustered ?",
+            "reponse": "Colonne souvent utilisées pour le tri ou les recherches par intervalles."
+        },
+        {
+            "question": "Qu'est-ce qu'un index non-clustered ?",
+            "reponse": "Structure séparée pointant vers les lignes de la table."
+        },
+        {
+            "question": "Quand utilisé un index non-clustered ?",
+            "reponse": "Requêtes fréquentes sur des colonnes spécifiques."
+        },
+        {
+            "question": "Qu'est-ce qu'un index unique ?",
+            "reponse": "Garantit l'unicité de la colonne ou combinaison de colonnes."
+        },
+        {
+            "question": "Quand utilisé un index unique ?",
+            "reponse": "Clé primaire - colonne identifiantes"
+        },
+        {
+            "question": "Qu'est-ce qu'un index composé ?",
+            "reponse": "Index sur plusieurs colonnes."
+        },
+        {
+            "question": "Quand utilisé un index composé ?",
+            "reponse": "Requêtes filtrant sur plusieurs colonnes simultanément."
+        },
+        {
+            "question": "Qu'est-ce qu'un index full-text ?",
+            "reponse": "Optimisé pour recherche de texte."
+        },
+        {
+            "question": "Quand utilisé un index full-text ?",
+            "reponse": "Requêtes de type LIKE, recherche de mots dans un champ texte."
+        },
+        {
+            "question": "Citer les bonne pratique à avoir pour les sauvegardes et performances :",
+            "reponse": "planification régulière\nSauvegardes chiffrées et compressées\ndocumentation"
+        },
+        {
+            "question": "Citer les bonnes pratiques à avoir pour la réplication et haute disponibilité :",
+            "reponse": "Choisir le type de réplication adapté\nSurveiller la réplication\nPlan de bascule et failover\nSécurité et accès"
+        },
+        {
+            "question": "Citer les bonnes pratiques à avoir pour l'indexation et les performances :",
+            "reponse": "Indexer judicieusement\nEviter la sur-indexation\nMaintenance régulière\nSurveillance et analyse"
+        },
+        {
+            "question": "Citer les bonnes pratiques à avoir pour la documentation et la planification :",
+            "reponse": "Plan de continuité et de reprise\nDocumentation complète"
+        },
+        {
+            "question": "Que signifie intégrité des données ?",
+            "reponse": "Exactitude, cohérence et fiabilité des données tout au long de leur cycle de vie."
+        },
+        {
+            "question": "Qu'est-ce qu'une donnée intègre ?",
+            "reponse": "Une donnée exacte, non altérée, cohérente et traçable."
+        },
+        {
+            "question": "Qu'assure l'intégrité physique ?",
+            "reponse": "Les données ne sont pas corrompues sur le disque."
+        },
+        {
+            "question": "Quelle est la spécificité de l'intégrité de domaine ?",
+            "reponse": "Chaque valeur d'un attribut doit appartenir à un domaine valide."
+        },
+        {
+            "question": "Quelle est la particularité de l'intégrité d'entité ?",
+            "reponse": "Chaque ligne doit être unique et identifiable."
+        },
+        {
+            "question": "Par quoi est assuré l'intégrité d'entité ?",
+            "reponse": "Clés primaires et clés uniques"
+        },
+        {
+            "question": "Quelle est la spécificité de l'intégrité référentielle ?",
+            "reponse": "Garantit la cohérence entre tables."
+        },
+        {
+            "question": "Par quoi est assuré l'intégrité référentielle ?",
+            "reponse": "Clés étrangères."
+        },
+        {
+            "question": "Quelle est la spécificité de l'intégrité logique ?",
+            "reponse": "Cohérence entre les ensembles de données liés à un processus métier."
+        },
+        {
+            "question": "Par quoi est assuré l'intégrité logique ?",
+            "reponse": "Par les contraintes d'intégrité, les transactions et les triggers."
+        },
+        {
+            "question": "Citer les différentes failles d'intégrité et de mesures :",
+            "reponse": "Violation de clé primaire\nViolation de clé étrangère\nValeurs invalides\nSuppression accidentelle / non contrôlée\nAltération non autorisée\nAbsence de transaction\nInjection SQL\nCorruption physique"
+        },
+        {
+            "question": "Qu'est-ce qu'une violation de clé primaire ?",
+            "reponse": "Doublon dans un identifiant unique"
+        },
+        {
+            "question": "Qu'est-ce qu'une violation de clé étrangère ?",
+            "reponse": "Référence à un enregistrement inexistant."
+        },
+        {
+            "question": "Qu'est-ce qu'une valeur invalide ?",
+            "reponse": "Données hors plage ou format incorrect."
+        },
+        {
+            "question": "Qu'est-ce qu'une suppression accidentelle / non contrôlée ?",
+            "reponse": "Perte de données critiques."
+        },
+        {
+            "question": "Qu'est-ce qu'une altération non autorisée ?",
+            "reponse": "Modification directe sans traçabilité."
+        },
+        {
+            "question": "Qu'est-ce qu'une absence de transaction ?",
+            "reponse": "Mise à jour partielle après erreur."
+        },
+        {
+            "question": "Qu'est-ce qu'une injection SQL ?",
+            "reponse": "Données modifiées via requête mal filtrées."
+        },
+        {
+            "question": "Qu'est-ce qu'une corruption physique ?",
+            "reponse": "Secteurs défectueux et crash disque."
+        },
+        {
+            "question": "Quelles sont la/les conséquences d'une violation de clé primaire ?",
+            "reponse": "Incohérence - confusion dans les jointures."
+        },
+        {
+            "question": "Quelles sont la/les conséquences d'une violation de clé étrangère ?",
+            "reponse": "Données orphelines"
+        },
+        {
+            "question": "Quelles sont la/les conséquences de valeurs invalides ?",
+            "reponse": "Erreurs de calcul - failles logiques"
+        },
+        {
+            "question": "Quelles sont la/les conséquences d'une suppression accidentelle / non contrôlée ?",
+            "reponse": "Rupture de cohérence."
+        },
+        {
+            "question": "Quelles sont la/les conséquences d'une altération non autorisée ?",
+            "reponse": "Fraude - Falsification"
+        },
+        {
+            "question": "Quelles sont la/les conséquences d'une absence de transactions ?",
+            "reponse": "Corruption logique"
+        },
+        {
+            "question": "Quelles sont la/les conséquences injection SQL ?",
+            "reponse": "Compromission totale"
+        },
+        {
+            "question": "Quelles sont la/les conséquences d'une corruption physique ?",
+            "reponse": "Perte partielle de données."
+        },
+        {
+            "question": "Quelle est la définition d'une injection SQL ?",
+            "reponse": "Vulnérabilité où un attaquant fait en sorte que les données utilisateur non contrôlées soient interprétées comme code SQL par le moteur de base de données."
+        },
+        {
+            "question": "Est-ce qu'une injection nécessite toujours un accès privilégié côté serveur ?",
+            "reponse": "Non"
+        },
+        {
+            "question": "Quelles sont les différentes injection SQL ?",
+            "reponse": "Injection directe\nInjection via commande dynamique\nError-based\nBlind SQLI\nInjection via procédure stockée mal conçues"
+        },
+        {
+            "question": "Qu'est-ce qu'une injection SQL directe ?",
+            "reponse": "Entrée insérée dans la chaîne SQL"
+        },
+        {
+            "question": "Qu'est-ce qu'une injection SQL via commande dynamique ?",
+            "reponse": "SQL construit dynamiquement côté serveur intégrant des valeurs externes"
+        },
+        {
+            "question": "Qu'est-ce qu'une injection SQL error-based ?",
+            "reponse": "L'application renvoie des messages d'erreur de la base et l'attaquant en déduit des informations."
+        },
+        {
+            "question": "Qu'est-ce qu'une injection SQL Blind SQLI ?",
+            "reponse": "La réponse ne relève pas d'erreur ; L'attaquant déduit l'état via comportements."
+        },
+        {
+            "question": "Qu'est-ce qu'une injection SQL via procédure stockées mal conçues ?",
+            "reponse": "Les proc stockées sont sûres si elles utilisent des paramètres ; Si elles concatènent, elles restent vulnérables."
+        },
+        {
+            "question": "Qu'est-ce qui cause des injections SQL ?",
+            "reponse": "Construction de requêtes par concaténation de chaînes contenant des données externes.\nAbsence d'utilisation de requêtes paramétrées.\nMessages d'erreur trop verbeux exposant la structure interne.\nDroits excessifs du compte DB.\nValidation entrée insuffisante ou inexistante."
+        },
+        {
+            "question": "Quelles sont les bonnes pratiques :",
+            "reponse": "Activer les journaux d'audit.\nUtiliser des triggers de surveillance sur modifications sensibles.\nPlanifier des vérifications périodiques d'intégrité.\nMettre en place une politique d'intégrité.\nImplémenter un contrôle d'accès basé sur les rôles."
+        },
+        {
+            "question": "Quel sont les 3 niveaux de rôle d'un utilisateur ?",
+            "reponse": "Server - Base de données - Application"
+        },
+        {
+            "question": "Quels sont les 2 types d'utilisateurs ?",
+            "reponse": "Utilisateurs - Fixes"
+        },
+        {
+            "question": "Qu'est-ce que le rôle serveur 'sysadmin' ?",
+            "reponse": "Super administrateur de l'instance."
+        },
+        {
+            "question": "Qu'est-ce que le rôle serveur 'serveradmin' ?",
+            "reponse": "Configuration des paramètres au niveau serveur."
+        },
+        {
+            "question": "Qu'est-ce que le rôle serveur 'setupadmin' ?",
+            "reponse": "Ajout/suppression des serveurs liés et exécution de certaines procstocks."
+        },
+        {
+            "question": "Qu'est-ce que le rôle serveur 'securityadmin' ?",
+            "reponse": "Gestion des connexions d'accès au serveur."
+        },
+        {
+            "question": "Qu'est-ce que le rôle serveur 'processadmin' ?",
+            "reponse": "Gestion des traitements sous SQL Server."
+        },
+        {
+            "question": "Qu'est-ce que le rôle serveur 'dbcreator' ?",
+            "reponse": "Création et modification des bases de données."
+        },
+        {
+            "question": "Qu'est-ce que le rôle serveur 'diskadmin' ?",
+            "reponse": "Gestion des fichiers sur disque."
+        },
+        {
+            "question": "Qu'est-ce que le rôle serveur 'bulkadmin' ?",
+            "reponse": "Exécution de l'instruction BULK INSER."
+        },
+        {
+            "question": "Qu'est-ce que l'affection aux rôles server ?",
+            "reponse": "Affecter un ou plusieurs rôles server à un utilisateur."
+        },
+        {
+            "question": "Quels sont les différentes façons d'ajouter un rôle server à un utilisateur ?",
+            "reponse": "Commande ALTER SERVER ROLE\nProcédures stockées\nInterface graphique"
+        },
+        {
+            "question": "Qu'est-ce que le rôle db 'db_owner' ?",
+            "reponse": "Propriétaire de la basse de données."
+        },
+        {
+            "question": "Qu'est-ce que le rôle db 'db_accessadmin' ?",
+            "reponse": "Ajoute ou supprime des utilisateurs à la base de données."
+        },
+        {
+            "question": "Qu'est-ce que le rôle db 'db_datareader' ?",
+            "reponse": "SELECT sur toutes les tables de la base de données."
+        },
+        {
+            "question": "Qu'est-ce que le rôle db 'db_datawriter' ?",
+            "reponse": "INSERT, UPDATE, DELETE sur toutes les tables de la base de données."
+        },
+        {
+            "question": "Qu'est-ce que le rôle db 'db_ddladmin' ?",
+            "reponse": "Ordre DDL."
+        },
+        {
+            "question": "Qu'est-ce que le rôle db 'db_securityadmin' ?",
+            "reponse": "Gestion des rôles, des autorisations sur les instructions et les objets."
+        },
+        {
+            "question": "Qu'est-ce que le rôle db 'db_backupoperator' ?",
+            "reponse": "Réalisation de sauvegarde de la basse de données."
+        },
+        {
+            "question": "Qu'est-ce que le rôle db 'db_denydatareader' ?",
+            "reponse": "Pour interdire le SELECT/INSERT sur toute la base."
+        },
+        {
+            "question": "Qu'est-ce que le rôle db 'db_denydatawriter' ?",
+            "reponse": "Pour interdire le INSERT, UPDATE, DELETE sur toute la base."
+        }
+    ]
+}
