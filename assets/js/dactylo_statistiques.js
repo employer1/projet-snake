@@ -60,7 +60,7 @@
         if (statsLocales) return statsLocales;
 
         try {
-            const reponse = await fetch(`../dactylo/${fichierStatistiques}`, { cache: "no-store" });
+            const reponse = await fetch(`../../dactylo/${fichierStatistiques}`, { cache: "no-store" });
             if (!reponse.ok) {
                 return { statistique_dactylo: [] };
             }

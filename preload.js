@@ -3,6 +3,7 @@ const { contextBridge, ipcRenderer } = require("electron");
 contextBridge.exposeInMainWorld("electronAPI", {
     loadDactyloStats: () => ipcRenderer.invoke("dactylo:load-stats"),
     saveDactyloStats: (stats) => ipcRenderer.invoke("dactylo:save-stats", stats),
+    loadDactyloWords: () => ipcRenderer.invoke("dactylo:load-words"),
     loadQuestStats: () => ipcRenderer.invoke("quest:load-stats"),
     saveQuestStats: (stats) => ipcRenderer.invoke("quest:save-stats", stats),
     listQuestnaires: () => ipcRenderer.invoke("quest:list"),

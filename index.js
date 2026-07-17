@@ -4,6 +4,7 @@ const path = require("path");
 const { pathToFileURL } = require("url");
 
 const getStatsPath = () => path.join(app.getPath("userData"), "dactylo", "stat_dactylo.json");
+const getDactyloWordsPath = () => path.join(app.getAppPath(), "dactylo", "top_1000.txt");
 const getQuestStatsPath = () =>
     path.join(app.getPath("userData"), "quest", "stat", "stat_quest.json");
 const getLegacyQuestStatsPath = () =>
@@ -620,6 +621,11 @@ const readStatsFile = async () => {
     }
 };
 
+const readDactyloWords = async () => {
+    const contenu = await fs.readFile(getDactyloWordsPath(), "utf-8");
+    return contenu;
+};
+
 const writeStatsFile = async (stats) => {
     await ensureStatsDir();
     await fs.writeFile(getStatsPath(), JSON.stringify(stats, null, 4), "utf-8");
@@ -661,6 +667,7 @@ app.whenReady().then(async () => {
     createWindow();
 
     ipcMain.handle("dactylo:load-stats", async () => readStatsFile());
+    ipcMain.handle("dactylo:load-words", async () => readDactyloWords());
     ipcMain.handle("dactylo:save-stats", async (_event, stats) => {
         if (!stats || typeof stats !== "object") {
             throw new Error("Invalid stats payload");

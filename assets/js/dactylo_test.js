@@ -81,7 +81,7 @@
         if (statsLocales) return statsLocales;
 
         try {
-            const reponse = await fetch(`../dactylo/${fichierStatistiques}`, { cache: "no-store" });
+            const reponse = await fetch(`../../dactylo/${fichierStatistiques}`, { cache: "no-store" });
             if (!reponse.ok) {
                 return { statistique_dactylo: [] };
             }
@@ -195,8 +195,21 @@
     };
 
     const chargerMots = async () => {
-        const reponse = await fetch("../dactylo/top_1000.txt");
-        const texte = await reponse.text();
+        let texte = "";
+        if (window.electronAPI?.loadDactyloWords) {
+            try {
+                texte = await window.electronAPI.loadDactyloWords();
+            } catch {
+                // Fallback fetch ci-dessous.
+            }
+        }
+        if (!texte) {
+            const reponse = await fetch("../../dactylo/top_1000.txt");
+            if (!reponse.ok) {
+                throw new Error("Impossible de charger la liste de mots.");
+            }
+            texte = await reponse.text();
+        }
         const listeMots = texte
             .split(/\s+/)
             .map((mot) => mot.trim())
