@@ -6,56 +6,112 @@
     "explication": "Répertorie les maladies et leurs symptômes.",
     "questionnaire": [
         {
-            "question": "",
+            "question": "Infection virale qui attaque progressivement le système immunitaire, rendant l’organisme plus vulnérable aux infections et à certaines maladies.",
             "reponse": "VIH"
         },
         {
-            "question": "",
+            "question": "Stade avancé d’une infection virale, caractérisé par un affaiblissement important du système immunitaire et l’apparition possible d’infections ou de maladies graves.",
             "reponse": "Sida"
         },
         {
-            "question": "",
+            "question": "Perte partielle ou totale des cheveux ou des poils sur certaines zones du corps.",
             "reponse": "Alopécie"
         },
         {
-            "question": "",
+            "question": "Maladie de la peau contagieuse causée par un parasite microscopique, provoquant principalement de fortes démangeaisons et des lésions cutanées.",
             "reponse": "Gale"
         },
         {
-            "question": "",
+            "question": "Maladie infectieuse chronique qui touche principalement la peau et les nerfs, pouvant entraîner une perte de sensibilité et des lésions.",
             "reponse": "Lèpre"
         },
         {
-            "question": "",
+            "question": "Maladie caractérisée par la multiplication incontrôlée de cellules anormales, pouvant envahir les tissus et se propager dans l’organisme.",
             "reponse": "Cancer"
         },
         {
-            "question": "",
+            "question": "Masse de cellules qui se développent de manière anormale dans l’organisme et qui peut être bénigne ou maligne.",
             "reponse": "Tumeur"
         },
         {
-            "question": "",
+            "question": "Maladie progressive du cerveau entraînant principalement une perte de mémoire, puis des difficultés à réfléchir, communiquer et accomplir les activités quotidiennes.",
             "reponse": "Alzheimer"
         },
         {
-            "question": "",
+            "question": "Trouble digestif caractérisé par des selles plus fréquentes, molles ou liquides, pouvant notamment être causé par une infection ou une irritation intestinale.",
             "reponse": "Diarrhée"
         },
         {
-            "question": "",
+            "question": "Cancer qui touche les cellules du sang et leur production dans la moelle osseuse, entraînant une multiplication anormale de certains globules blancs.",
             "reponse": "Leucémie"
         },
         {
-            "question": "",
+            "question": "Étape naturelle de la vie correspondant à l’arrêt définitif des règles et de l’ovulation, généralement accompagnée de changements hormonaux.",
             "reponse": "Ménopause"
         },
         {
-            "question": "",
+            "question": "Maladie chronique dans laquelle le système immunitaire attaque la protection des nerfs, perturbant la communication entre le cerveau et le reste du corps.",
             "reponse": "Sclérose en plaques"
         },
         {
-            "question": "",
+            "question": "Infection virale contagieuse provoquant souvent une grande fatigue, de la fièvre, un mal de gorge et un gonflement des ganglions.",
             "reponse": "Mononucléose"
+        },
+        {
+            "question": "Accumulation de pus dans une zone du corps, généralement causée par une infection et accompagnée de douleur, de gonflement et de rougeur.",
+            "reponse": "Abcès"
+        },
+        {
+            "question": "Rupture brutale d’une artère fragilisée et dilatée, provoquant une hémorragie interne pouvant être très grave.",
+            "reponse": "Rupture d'anévrisme"
+        },
+        {
+            "question": "Maladie virale grave transmise principalement par la morsure ou la salive d’un animal infecté, qui attaque le système nerveux et devient presque toujours mortelle après l’apparition des symptômes.",
+            "reponse": "Rage"
+        },
+        {
+            "question": "Épisode durant lequel une personne consomme une grande quantité de nourriture en peu de temps, avec une sensation de perte de contrôle.",
+            "reponse": "Crsie de boulimie"
+        },
+        {
+            "question": "Maladie infectieuse grave causée par une bactérie dont la toxine attaque le système nerveux, provoquant notamment des contractions et des spasmes musculaires douloureux.",
+            "reponse": "Tétanos"
+        },
+        {
+            "question": "Lésion provoquée par une exposition prolongée au froid, touchant principalement les extrémités et pouvant endommager les tissus.",
+            "reponse": "Engelure"
+        },
+        {
+            "question": "Personne dont l’apparence présente à la fois des caractéristiques traditionnellement associées au masculin et au féminin, rendant son expression de genre difficile à catégoriser visuellement.",
+            "reponse": "Androgyne"
+        },
+        {
+            "question": "Ver parasite pouvant vivre dans l’intestin et provoquer des troubles digestifs, une perte de poids ou parfois aucun symptôme.",
+            "reponse": "Ténia"
+        },
+        {
+            "question": "Maladie infectieuse bactérienne transmise principalement par de l’eau ou des aliments contaminés, provoquant notamment une forte fièvre et des troubles digestifs.",
+            "reponse": "Typhoïde"
+        },
+        {
+            "question": "Inflammation de la membrane qui entoure les poumons, provoquant souvent une douleur thoracique accentuée par la respiration ou la toux.",
+            "reponse": "Pleurésie"
+        },
+        {
+            "question": "Maladie virale très contagieuse provoquant principalement de la fièvre et une éruption de petits boutons qui démangent.",
+            "reponse": "Varicelle"
+        },
+        {
+            "question": "Maladie infectieuse bactérienne provoquant de fortes diarrhées aqueuses et pouvant entraîner rapidement une déshydratation sévère.",
+            "reponse": "Colérat"
+        },
+        {
+            "question": "Inflammation aiguë d’une petite partie de l’intestin, provoquant généralement une forte douleur dans le bas du ventre, souvent du côté droit.",
+            "reponse": "Appendicite"
+        },
+        {
+            "question": "Infection bactérienne principalement transmise lors de rapports sexuels, pouvant évoluer en plusieurs stades et provoquer de graves complications si elle n’est pas traitée.",
+            "reponse": "Syphilis"
         }
     ]
 }

@@ -193,7 +193,8 @@
         {
             "question": "CAN",
             "reponse": [
-                "campus area network"
+                "campus area network",
+                "controller area network"
             ],
             "indice": "anglais"
         },
@@ -376,7 +377,8 @@
         {
             "question": "CSS",
             "reponse": [
-                "cascading style sheets"
+                "cascading style sheets",
+                "content scramble system"
             ],
             "indice": "anglais"
         },
@@ -404,7 +406,8 @@
         {
             "question": "DAC",
             "reponse": [
-                "digital analog converter"
+                "digital analog converter",
+                "discretionary access control"
             ],
             "indice": "anglais"
         },
@@ -796,7 +799,7 @@
         {
             "question": "HPC",
             "reponse": [
-                "high performance computer"
+                "high performance computing"
             ],
             "indice": "anglais"
         },
@@ -1662,7 +1665,8 @@
         {
             "question": "SIEM",
             "reponse": [
-                "security information & event management"
+                "security information & event management",
+                "security information and event management"
             ],
             "indice": "anglais"
         },
@@ -2169,879 +2173,635 @@
             "indice": "français"
         },
         {
-            "question": "",
+            "question": "HBM3e",
             "reponse": [
-                ""
+                "High Bandwidth Memory 3 Extended"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "VLSM",
             "reponse": [
-                ""
+                "variable length subnet mask"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "FLAC",
             "reponse": [
-                ""
+                "free lossless audio codec"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "AACS",
             "reponse": [
-                ""
+                "advanced access content system"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "VFQ",
             "reponse": [
-                ""
+                "version francaise quebequoise"
             ],
-            "indice": ""
+            "indice": "français"
         },
         {
-            "question": "",
+            "question": "VOD",
             "reponse": [
-                ""
+                "video on demand"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "VOSTFR",
             "reponse": [
-                ""
+                "version originale sous-titrée en français"
             ],
-            "indice": ""
+            "indice": "français"
         },
         {
-            "question": "",
+            "question": "ODG",
             "reponse": [
-                ""
+                "oracle data guard"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "SDRF",
             "reponse": [
-                ""
+                "symmetrix remote data facility"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "DRBD",
             "reponse": [
-                ""
+                "distributed replicated block device"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "SaaS",
             "reponse": [
-                ""
+                "software as a service"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "PaaS",
             "reponse": [
-                ""
+                "platform as a service"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "LaaS",
             "reponse": [
-                ""
+                "infrastructure as a service"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "IAM",
             "reponse": [
-                ""
+                "identity and access management"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "mfa",
             "reponse": [
-                ""
+                "multi-factor authentification"
             ],
-            "indice": ""
+            "indice": "IPSEC"
         },
         {
-            "question": "",
+            "question": "IPSEC",
             "reponse": [
-                ""
+                "internet protocol security"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "OID",
             "reponse": [
-                ""
+                "object identifier"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "WMI",
             "reponse": [
-                ""
+                "windows management instrumentation"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "NRPE",
             "reponse": [
-                ""
+                "nagios remote plugin executor"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "NTLM",
             "reponse": [
-                ""
+                "new technology lan manager"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "TTY",
             "reponse": [
-                ""
+                "teletypemeter"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "EDR",
             "reponse": [
-                ""
+                "endpoint detection and response"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "NDR",
             "reponse": [
-                ""
+                "network detection response"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "XDR",
             "reponse": [
-                ""
+                "extended detection and response"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "WAF",
             "reponse": [
-                ""
+                "web application firewall"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "MPLS",
             "reponse": [
-                ""
+                "multiprotocol label switching"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "ONVIF",
             "reponse": [
-                ""
+                "open network video interface surveillance"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "RTSP",
             "reponse": [
-                ""
+                "real-time streaming protocol"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "IGPU",
             "reponse": [
-                ""
+                "integrated graphics processing unit"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "VAAPI",
             "reponse": [
-                ""
+                "video acceleration api"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "AMQP",
             "reponse": [
-                ""
+                "advanced message queuing protocol"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "BGP",
             "reponse": [
-                ""
+                "border gateway protocol"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "FTPS",
             "reponse": [
-                ""
+                "file transfert protocol secure"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "FXP",
             "reponse": [
-                ""
+                "file exchange protocol"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "IPP",
             "reponse": [
-                ""
+                "internet printing protocol"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "IRC",
             "reponse": [
-                ""
+                "internet relay chat"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "LMTP",
             "reponse": [
-                ""
+                "local mail transfert protocol"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "MQTT",
             "reponse": [
-                ""
+                "message queuing telemetry transport"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "NNTP",
             "reponse": [
-                ""
+                "network news transfer protocol"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "RDP",
             "reponse": [
-                ""
+                "remote desktop protocol"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "RTSP",
             "reponse": [
-                ""
+                "real time streaming protocol"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "SILC",
             "reponse": [
-                ""
+                "secure internet live conferencing"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "SIMPLE",
             "reponse": [
-                ""
+                "sip for instant messaging and presence leveraging extensions"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "SIP",
             "reponse": [
-                ""
+                "session initiation protocol"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "SOAP",
             "reponse": [
-                ""
+                "simple object access control"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "TCAP",
             "reponse": [
-                ""
+                "transaction capabilities application part"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "TELNET",
             "reponse": [
-                ""
+                "terminal network",
+                "telecommunication network"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "WEBDAV",
             "reponse": [
-                ""
+                "web-based distributed authoring and versioning"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "AFP",
             "reponse": [
-                ""
+                "apple filing protocol"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "ASCII",
             "reponse": [
-                ""
+                "american standard code for information interchange"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "ASN 1",
             "reponse": [
-                ""
+                "abstract syntax notation one"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "MIME",
             "reponse": [
-                ""
+                "multipurpose internet mail extensions"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "TDI",
             "reponse": [
-                ""
+                "transport driver interface"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "TLV",
             "reponse": [
-                ""
+                "type lenght value"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "UUTP",
             "reponse": [
-                ""
+                "unix to unix copy"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "XDR",
             "reponse": [
-                ""
+                "external data representation"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "XML",
             "reponse": [
-                ""
+                "extensible markup language"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "DTLS",
             "reponse": [
-                ""
+                "datagram transport layer security"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "RPC",
             "reponse": [
-                ""
+                "remote procedure call"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "DCCP",
             "reponse": [
-                ""
+                "datagram congestion control protocol"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "RSVP",
             "reponse": [
-                ""
+                "resource reservation protocol"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "RTP",
             "reponse": [
-                ""
+                "real-time transport protocol"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "SCTP",
             "reponse": [
-                ""
+                "stream control transmission protocol"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "SPX",
             "reponse": [
-                ""
+                "sequenced packet exchange"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "BOOTP",
             "reponse": [
-                ""
+                "bootstrap protocol"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "CLNP",
             "reponse": [
-                ""
+                "connectionless network protocol"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "IPX",
             "reponse": [
-                ""
+                "internetwork packet exchange"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "RARP",
             "reponse": [
-                ""
+                "reverse address resolution protocol"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "AFDX",
             "reponse": [
-                ""
+                "avionics full duplex switched ethernet"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "FDDI",
             "reponse": [
-                ""
+                "fiber distributed data interface"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "LLC",
             "reponse": [
-                ""
+                "logical link control"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "STP",
             "reponse": [
-                ""
+                "spanning tree protocol"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "FHSS",
             "reponse": [
-                ""
+                "frequency-hopping spread spectrum"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "CSMA/CA",
             "reponse": [
-                ""
+                "carrier sense multiple access with collision avoidance"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "CSMA/CD",
             "reponse": [
-                ""
+                "carrier sense multiple access / collision detection"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "DSSS",
             "reponse": [
-                ""
+                "direct-sequence spread spectrum"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "NRZ",
             "reponse": [
-                ""
+                "non return to zero"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "NRZI",
             "reponse": [
-                ""
+                "non return to zero inverted"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "NRZM",
             "reponse": [
-                ""
+                "non return to zero mark"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "PDH",
             "reponse": [
-                ""
+                "plesiochronous digital hierarchy"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "SONET",
             "reponse": [
-                ""
+                "synchronous optical network"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "SPI",
             "reponse": [
-                ""
+                "serial peripheral interface"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "IETF",
             "reponse": [
-                ""
+                "internet engineering task force"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "SAM",
             "reponse": [
-                ""
+                "security account manager"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "DB",
             "reponse": [
-                ""
+                "data base"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "NIC",
             "reponse": [
-                ""
+                "network interface card"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "AD",
             "reponse": [
-                ""
+                "active directory"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "GPO",
             "reponse": [
-                ""
+                "group policy object"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "OU",
             "reponse": [
-                ""
+                "organizational unit"
             ],
-            "indice": ""
+            "indice": "anglais"
         },
         {
-            "question": "",
+            "question": "RSOP",
             "reponse": [
-                ""
+                "resultant set of policy"
             ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
-        },
-        {
-            "question": "",
-            "reponse": [
-                ""
-            ],
-            "indice": ""
+            "indice": "anglais"
         }
     ]
 }
