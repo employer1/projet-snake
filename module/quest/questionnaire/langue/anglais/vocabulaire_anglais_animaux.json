@@ -1,0 +1,78 @@
+{
+    "titre": "Traduction eng - fr de voc classique",
+    "type": "langue",
+    "explication": "Liste des mots animaux traduit en anglais. Langue 1 -> langue 2, correspond à traduire en français.",
+    "langue 1": {
+        "dog": [
+            "chien"
+        ],
+        "cat": [
+            "chat"
+        ],
+        "horse": [
+            "cheval"
+        ],
+        "cow": [
+            "vache"
+        ],
+        "sheep": [
+            "mouton"
+        ],
+        "bird": [
+            "oiseau"
+        ],
+        "mouse": [
+            "souris"
+        ],
+        "chicken": [
+            "poulet"
+        ],
+        "fish": [
+            "poisson"
+        ],
+        "rabbit": [
+            "lapin"
+        ],
+        "shark": [
+            "requin"
+        ]
+    },
+    "langue 2": {
+        "chien": [
+            "dog"
+        ],
+        "chat": [
+            "cat"
+        ],
+        "cheval": [
+            "horse"
+        ],
+        "vache": [
+            "cow"
+        ],
+        "mouton": [
+            "sheep"
+        ],
+        "oiseau": [
+            "bird"
+        ],
+        "souris": [
+            "mouse"
+        ],
+        "poule": [
+            "chiken"
+        ],
+        "poisson": [
+            "fish"
+        ],
+        "lapin": [
+            "rabbit"
+        ],
+        "requin": [
+            "shatk"
+        ],
+        "ours": [
+            "bear"
+        ]
+    }
+}

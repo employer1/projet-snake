@@ -4,20 +4,24 @@ const path = require("path");
 const { pathToFileURL } = require("url");
 
 const getStatsPath = () => path.join(app.getPath("userData"), "dactylo", "stat_dactylo.json");
-const getDactyloWordsPath = () => path.join(app.getAppPath(), "dactylo", "top_1000.txt");
+const getDactyloWordsPath = () => path.join(app.getAppPath(), "module", "dactylo", "top_1000.txt");
 const getQuestStatsPath = () =>
     path.join(app.getPath("userData"), "quest", "stat", "stat_quest.json");
 const getLegacyQuestStatsPath = () =>
     path.join(app.getPath("userData"), "quest", "stat_quest.json");
 const getQuestDestinationPath = () => path.join(app.getPath("userData"), "quest");
-const getQuestSourcePath = () => path.join(app.getAppPath(), "quest");
-const getDailyNoteDestinationPath = () => path.join(app.getPath("userData"), "daily_note", "notes");
-const getDailyNoteTagsPath = () => path.join(app.getPath("userData"), "daily_note", "tags.json");
-const getDailyNoteTagsSourcePath = () => path.join(app.getAppPath(), "daily_note", "tags.json");
+const getQuestSourcePath = () => path.join(app.getAppPath(), "module", "quest");
+const getDailyNoteDestinationPath = () => path.join(app.getPath("userData"), "daily-note", "notes");
+const getDailyNoteTagsPath = () => path.join(app.getPath("userData"), "daily-note", "tags.json");
+const getDailyNoteTagsSourcePath = () => path.join(app.getAppPath(), "module", "daily_note", "tags.json");
 const normaliserChemin = (chemin = "") => chemin.replace(/\\/g, "/").replace(/^\/+/, "");
 
-const getFilmAffichesPath = () => path.join(app.getAppPath(), "film", "affiche");
-const getFilmClassementPath = () => path.join(app.getAppPath(), "film", "classement");
+const getFilmAffichesPath = () => path.join(app.getAppPath(), "module", "film", "affiche");
+const getFilmClassementPath = () => path.join(app.getAppPath(), "module", "film", "classement");
+const getPagesPath = () => path.join(app.getAppPath(), "pages");
+
+const MIN_WINDOW_WIDTH = 1280;
+const MIN_WINDOW_HEIGHT = 720;
 
 const copyDirectory = async (sourceDir, destinationDir) => {
     await fs.mkdir(destinationDir, { recursive: true });
@@ -529,6 +533,35 @@ const listerTagsDailyNote = async () => {
     return Array.from(new Set(tags)).sort((a, b) => a.localeCompare(b, "fr", { sensitivity: "base" }));
 };
 
+const listModules = async () => {
+    const pagesDir = getPagesPath();
+    const entries = await fs.readdir(pagesDir, { withFileTypes: true });
+    const modules = [];
+
+    for (const entry of entries) {
+        if (!entry.isDirectory()) {
+            continue;
+        }
+
+        const menuFileName = `${entry.name}_menu.html`;
+        const menuPath = path.join(pagesDir, entry.name, menuFileName);
+
+        try {
+            await fs.access(menuPath);
+            modules.push({
+                name: entry.name,
+                page: normaliserChemin(path.join("pages", entry.name, menuFileName)),
+            });
+        } catch (error) {
+            if (error.code !== "ENOENT") {
+                throw error;
+            }
+        }
+    }
+
+    return modules.sort((a, b) => a.name.localeCompare(b.name, "fr", { sensitivity: "base" }));
+};
+
 const listDailyNotesByTag = async (tag) => {
     if (!tag || typeof tag !== "string") {
         return [];
@@ -652,8 +685,10 @@ const writeQuestStatsFile = async (stats) => {
 
 function createWindow() {
     const win = new BrowserWindow({
-        width: 800,
-        height: 600,
+        width: MIN_WINDOW_WIDTH,
+        height: MIN_WINDOW_HEIGHT,
+        minWidth: MIN_WINDOW_WIDTH,
+        minHeight: MIN_WINDOW_HEIGHT,
         webPreferences: {
             preload: path.join(__dirname, 'preload.js'),
         }
@@ -664,6 +699,7 @@ function createWindow() {
 
 app.whenReady().then(async () => {
     await ensureQuestSeeded();
+    ipcMain.handle("modules:list", async () => listModules());
     createWindow();
 
     ipcMain.handle("dactylo:load-stats", async () => readStatsFile());

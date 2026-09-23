@@ -14,7 +14,7 @@ import os
 import unicodedata
 from pathlib import Path
 
-RELATIVE_TARGET = Path("quest/questionnaire/langue/francais/vocabulaire_francais.json")
+RELATIVE_TARGET = Path("module/quest/questionnaire/langue/francais/vocabulaire_francais.json")
 
 
 def resoudre_racine_appdata(appdata: str | None) -> Path:

@@ -8,15 +8,19 @@
 
         <link rel="stylesheet" href="../../assets/css/base.css"> <!--css global en premier-->
         <link rel="stylesheet" href="../../assets/css/boutons.css"> <!--autre css global-->
-        <link rel="stylesheet" href="../../assets/css/dactylo_menu.css"> <!--css propre à ce fichier HTML-->
+        <link rel="stylesheet" href="../../assets/css/dactylo/dactylo_menu.css"> <!--css propre à ce fichier HTML-->
 
         <script src="../../assets/js/boutons_navigation.js" defer></script>
-        <script src="../../assets/js/dactylo_menu.js" defer></script>
+        <script src="../../assets/js/dactylo/dactylo_menu.js" defer></script>
     </head>
     <body>
         <main>
             <aside>
                 <div class="aside_haut">
+                    <button class="bouton_menu">
+                        <img src="../../image/maison.png" alt="menu" class="btn-icon">
+                        <span class="btn-text" data-page="../../index.html">Sélection</span>
+                    </button>
                     <button class="bouton_menu">
                         <img src="../../image/stat.png" alt="menu" class="btn-icon">
                         <span class="btn-text" data-page="../dactylo/dactylo_statistiques.html">Statistiques</span>
@@ -25,11 +29,7 @@
 
                 <div class="space"></div>
 
-                <div class="aside_bas">
-                    <button class="bouton_mode" data-page="../quest/quest_menu.html">Quest</button>
-                    <button class="bouton_mode" data-page="../daily_note/daily-note_menu.html">Daily Note</button>
-                    <button class="bouton_mode" data-page="../film/film_menu.html">Film</button>
-                </div>
+                <div class="aside_bas"></div>
 
                 <button class="bouton_param">
                     <img src="../../image/engrenage.png" alt="param" class="btn-icon">

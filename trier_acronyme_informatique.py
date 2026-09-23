@@ -14,7 +14,7 @@ import unicodedata
 from pathlib import Path
 
 
-RELATIVE_TARGET = Path("quest/questionnaire/autre/acronyme_informatique.json")
+RELATIVE_TARGET = Path("module/quest/questionnaire/autre/acronyme_informatique.json")
 
 
 def extraire_question_texte(entree: dict[str, object]) -> str | None:

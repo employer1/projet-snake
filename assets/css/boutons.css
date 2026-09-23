@@ -21,7 +21,7 @@
 
 .bouton_menu {
     background-image: linear-gradient(to right, #9340ff, #ff3c5f);
-    width: 190px;
+    width: 60px;
     height: 60px;
     border-radius: 74px;
     border: none;
@@ -29,17 +29,29 @@
     cursor: pointer;
 
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 44px 1fr;
     align-items: center;
-    padding: 10px;
+    justify-content: start;
+    padding: 10px 8px;
     box-sizing: border-box;
+    overflow: hidden;
+    transition: width 260ms ease;
 }
 
 /*n'est pas relié à un type de bouton en particulier*/
 .btn-icon { /*arrange l'image à l'intérieur des boutons*/
-    width: 90%;
+    width: 28px;
     height: auto;
     justify-self: center;
+    flex: 0 0 auto;
+}
+
+.btn-text {
+    min-width: 0;
+    opacity: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: opacity 180ms ease;
 }
 
 .bouton_mode {
@@ -64,10 +76,23 @@
     cursor: pointer;
 
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 44px 1fr;
     align-items: center;
-    padding: 10px;
+    justify-content: start;
+    padding: 10px 8px;
     box-sizing: border-box;
+    overflow: hidden;
+    transition: width 260ms ease;
+}
+
+aside:hover .bouton_menu,
+aside:focus-within .bouton_menu {
+    width: 190px;
+}
+
+aside:hover .btn-text,
+aside:focus-within .btn-text {
+    opacity: 1;
 }
 
 #quitter-bouton { /*id bouton-quitter*/

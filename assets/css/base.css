@@ -14,6 +14,7 @@
     --textColor: #ffffff;
 
     --aside-width: 250px;
+    --aside-collapsed-width: 90px;
 }
 
 * {
@@ -30,7 +31,13 @@ html, body {
 main {
     min-height: 100%;
     display: grid;
-    grid-template-columns: var(--aside-width) 1fr;
+    grid-template-columns: var(--aside-collapsed-width) minmax(0, 1fr);
+    transition: grid-template-columns 260ms ease;
+}
+
+main:has(aside:hover),
+main:has(aside:focus-within) {
+    grid-template-columns: var(--aside-width) minmax(0, 1fr);
 }
 
 /*
@@ -46,7 +53,7 @@ aside{
     flex-direction: column;
 
     gap: 16px;
-    overflow-y: auto;
+    overflow: hidden auto;
 
     padding: 0; /* important */
 }

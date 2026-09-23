@@ -1,0 +1,133 @@
+{
+    "titre": "Traduction eng - fr de voc classique",
+    "type": "langue",
+    "explication": "Liste de mots du cours d'anglais et leur traduction française. Langue 1 -> langue 2, correspond à traduire en français.",
+    "langue 1": {
+        "brother": [
+            "frère"
+        ],
+        "sister": [
+            "soeur",
+            "sœur"
+        ],
+        "mother": [
+            "mère"
+        ],
+        "father": [
+            "père"
+        ],
+        "wife": [
+            "femme"
+        ],
+        "husband": [
+            "mari"
+        ],
+        "grandfather": [
+            "grand-père",
+            "grand père"
+        ],
+        "grandmother": [
+            "grand-mère",
+            "grand mère"
+        ],
+        "uncle": [
+            "oncle"
+        ],
+        "aunt": [
+            "tante"
+        ],
+        "cousin": [
+            "cousin",
+            "cousine"
+        ],
+        "son-in_law": [
+            "beau-fils",
+            "beau fils"
+        ],
+        "daughter-in-law": [
+            "belle-fille",
+            "belle fille"
+        ],
+        "neightbours": [
+            "voisin",
+            "voisine"
+        ],
+        "son": [
+            "fils"
+        ],
+        "daughters": [
+            "fille"
+        ]
+    },
+    "langue 2": {
+        "frère": [
+            "brother"
+        ],
+        "soeur": [
+            "sister"
+        ],
+        "sœur": [
+            "sister"
+        ],
+        "mère": [
+            "mother"
+        ],
+        "père": [
+            "father"
+        ],
+        "femme": [
+            "wife"
+        ],
+        "mari": [
+            "husband"
+        ],
+        "grand-père": [
+            "grandfather"
+        ],
+        "grand père": [
+            "grandfather"
+        ],
+        "grand-mère": [
+            "grandmother"
+        ],
+        "grand mère": [
+            "grandmother"
+        ],
+        "oncle": [
+            "uncle"
+        ],
+        "tante": [
+            "aunt"
+        ],
+        "cousin": [
+            "cousin"
+        ],
+        "cousine": [
+            "cousin"
+        ],
+        "beau-fils": [
+            "son-in-law"
+        ],
+        "beau fils": [
+            "son-in-law"
+        ],
+        "belle-fille": [
+            "daughter-in-law"
+        ],
+        "belle fille": [
+            "daughter-in-law"
+        ],
+        "voisin": [
+            "neightbours"
+        ],
+        "voisine": [
+            "neightbours"
+        ],
+        "fils": [
+            "son"
+        ],
+        "fille": [
+            "daughter"
+        ]
+    }
+}

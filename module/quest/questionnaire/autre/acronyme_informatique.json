@@ -1,0 +1,3047 @@
+{
+    "titre": "Acronyme informatique",
+    "type": "txt",
+    "reverse": 0,
+    "path": "",
+    "explication": "Questionnaire regroupant tous les acronymes connus dans le domaine de l'informatique. Ils ne pourront jamais être tous réunit, donc n'hésiter pas à me prévenir.",
+    "questionnaire": [
+        {
+            "question": "2FA",
+            "reponse": [
+                "double authentification"
+            ],
+            "indice": "français"
+        },
+        {
+            "question": "4G",
+            "reponse": [
+                "4ème génération"
+            ],
+            "indice": "français"
+        },
+        {
+            "question": "AAL",
+            "reponse": [
+                "atm adaptation layer 5"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "ACL",
+            "reponse": [
+                "access list"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "AD",
+            "reponse": [
+                "active directory"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "ADCCP",
+            "reponse": [
+                "advanced data communication control procedures"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "ADSL",
+            "reponse": [
+                "asymetric digital subscriber line"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "ALU",
+            "reponse": [
+                "arithmetic logic unit"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "ANSSI",
+            "reponse": [
+                "agence nationale de la sécurité des systèmes d'informations"
+            ],
+            "indice": "francais"
+        },
+        {
+            "question": "APD",
+            "reponse": [
+                "autorité de protection des données"
+            ],
+            "indice": "francais"
+        },
+        {
+            "question": "API",
+            "reponse": [
+                "application programming interface"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "API REST",
+            "reponse": [
+                "api representation rest transfert",
+                "representation transfert",
+                "application programming interface representation rest transfert"
+            ],
+            "indice": "3 définition - anglais"
+        },
+        {
+            "question": "ARM",
+            "reponse": [
+                "advanced risc machine"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "ARP",
+            "reponse": [
+                "address resolution protocol"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "ARPanet",
+            "reponse": [
+                "advanced research projects agency network"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "ASIC",
+            "reponse": [
+                "application-specific integrated circuits"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "ATM",
+            "reponse": [
+                "asynchronous transfer mode"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "BAN",
+            "reponse": [
+                "body area network"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "BAS",
+            "reponse": [
+                "broadland access server"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "BCD",
+            "reponse": [
+                "boot configuration data",
+                "binary coded decimal"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "BCLP",
+            "reponse": [
+                "basic combined programming language"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "BCV",
+            "reponse": [
+                "Business Copy Volume"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "BD",
+            "reponse": [
+                "base de données"
+            ],
+            "indice": "francais"
+        },
+        {
+            "question": "BIOS",
+            "reponse": [
+                "basic input/output system"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "Bit",
+            "reponse": [
+                "binary digit"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "CAM",
+            "reponse": [
+                "content addressable memory"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "CAN",
+            "reponse": [
+                "campus area network"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "CAO",
+            "reponse": [
+                "conception assistée par ordinateur"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "CATV",
+            "reponse": [
+                "commutivity antenna television"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "CCB",
+            "reponse": [
+                "centre pour la cybersecurité belge"
+            ],
+            "indice": "français"
+        },
+        {
+            "question": "CCMP",
+            "reponse": [
+                "counter-mode/cbc-mac"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "CD",
+            "reponse": [
+                "compact disk"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "CEC",
+            "reponse": [
+                "cadre européen de certification"
+            ],
+            "indice": "français"
+        },
+        {
+            "question": "CEF",
+            "reponse": [
+                "common event format"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "CEH",
+            "reponse": [
+                "certified ethical hacker"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "CERT",
+            "reponse": [
+                "Computer Emergency Response Team"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "CI/CD",
+            "reponse": [
+                "continuous integration and continuous deployment",
+                "continuous integration & continuous deployment"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "CIDR",
+            "reponse": [
+                "classless inter-domain routing"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "CISC",
+            "reponse": [
+                "complex instruction set computer"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "CISSP",
+            "reponse": [
+                "certified information systems security professional"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "CLI",
+            "reponse": [
+                "command line interface"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "CLP",
+            "reponse": [
+                "cell loss priority"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "CLUF",
+            "reponse": [
+                "contrat license utilisateur final"
+            ],
+            "indice": "français"
+        },
+        {
+            "question": "CMDB",
+            "reponse": [
+                "configuration management database"
+            ],
+            "indice": "français"
+        },
+        {
+            "question": "CMOS",
+            "reponse": [
+                "complementary metal-oxyde semiconductor"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "CMS",
+            "reponse": [
+                "content page system"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "CNIL",
+            "reponse": [
+                "commission nationale de l'informatique et des libertés"
+            ],
+            "indice": "français"
+        },
+        {
+            "question": "CNM",
+            "reponse": [
+                "container network model"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "COW",
+            "reponse": [
+                "copy-on-write"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "CPL",
+            "reponse": [
+                "courant porteur en ligne"
+            ],
+            "indice": "français"
+        },
+        {
+            "question": "CPU",
+            "reponse": [
+                "central processing unit"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "CRM",
+            "reponse": [
+                "customer relationship management"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "CSS",
+            "reponse": [
+                "cascading style sheets"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "CURL",
+            "reponse": [
+                "client for urls"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "CVE",
+            "reponse": [
+                "common vulnerability and exposures"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "CWD",
+            "reponse": [
+                "current working directory"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "DAC",
+            "reponse": [
+                "digital analog converter"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "DACP",
+            "reponse": [
+                "données a caractère personnel"
+            ],
+            "indice": "français"
+        },
+        {
+            "question": "DARPA",
+            "reponse": [
+                "defense advanced research projects agency"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "DAS",
+            "reponse": [
+                "direct attached network"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "DDL",
+            "reponse": [
+                "data manipulation language"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "DDoS",
+            "reponse": [
+                "distributed denial of service"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "DDR",
+            "reponse": [
+                "double data rate"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "DEC",
+            "reponse": [
+                "digital equipement corporation"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "DHCP",
+            "reponse": [
+                "dynamic host configuration protocol"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "DKIM",
+            "reponse": [
+                "domainkeys identified mail"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "DML",
+            "reponse": [
+                "data manipulation language"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "DMT",
+            "reponse": [
+                "discrete multi tone"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "DNS",
+            "reponse": [
+                "domain name system"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "DOM",
+            "reponse": [
+                "document object model"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "DoS",
+            "reponse": [
+                "denial of service"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "DQL",
+            "reponse": [
+                "data query language"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "DRAM",
+            "reponse": [
+                "dynamic random access memory"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "DRM",
+            "reponse": [
+                "digital right management"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "DSL",
+            "reponse": [
+                "digital subscriber line"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "DSLAM",
+            "reponse": [
+                "digital subscriber line access multiplexer"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "DSP",
+            "reponse": [
+                "digital signal processor"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "DVD",
+            "reponse": [
+                "digital video disk"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "DVWA",
+            "reponse": [
+                "damn vulnerable web application"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "EEPROM",
+            "reponse": [
+                "electrically erasable programmable read only memory"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "EIGRP",
+            "reponse": [
+                "enhanced interior gateway routing protocol"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "ELK",
+            "reponse": [
+                "elasticsearch logstach kibana"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "EoS",
+            "reponse": [
+                "end of support"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "EPROM",
+            "reponse": [
+                "erasable programmable read only memory"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "ERP",
+            "reponse": [
+                "entreprise ressource planing"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "FAI",
+            "reponse": [
+                "fournisseur d'accès internet"
+            ],
+            "indice": "français"
+        },
+        {
+            "question": "FAT",
+            "reponse": [
+                "file allocation table"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "FCCU",
+            "reponse": [
+                "federal computer crime unit"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "FCS",
+            "reponse": [
+                "frame check sequence"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "FDM",
+            "reponse": [
+                "frequency-division multiplexing"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "FGPA",
+            "reponse": [
+                "field-programmable gate arrays"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "FIPS",
+            "reponse": [
+                "federal information processing standards"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "FISMA",
+            "reponse": [
+                "federal information security management act"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "FQDN",
+            "reponse": [
+                "full qualified domain name"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "FRM",
+            "reponse": [
+                "frame relay standard"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "FTP",
+            "reponse": [
+                "file transfert protocol"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "GDM",
+            "reponse": [
+                "gnome display manager"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "GFC",
+            "reponse": [
+                "generic flow control"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "GIF",
+            "reponse": [
+                "graphics processing unit"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "GLBA",
+            "reponse": [
+                "gramm-leach-bliley act"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "GNU",
+            "reponse": [
+                "gnu's not unix"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "GPGPU",
+            "reponse": [
+                "general purpose graphics processing unit"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "GPU",
+            "reponse": [
+                "graphics processing unit"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "GRUB",
+            "reponse": [
+                "grand unified bootloader"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "GUI",
+            "reponse": [
+                "graphicals user interface"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "HDCP",
+            "reponse": [
+                "high bandwidth digital content protection"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "HDD",
+            "reponse": [
+                "hard disk drive"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "HDLC",
+            "reponse": [
+                "high-level data link control"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "HDMI",
+            "reponse": [
+                "high definition multimedia interface"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "HEC",
+            "reponse": [
+                "header error control"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "HIPAA",
+            "reponse": [
+                "health insurance and accountability act"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "HOL",
+            "reponse": [
+                "head of line"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "HPC",
+            "reponse": [
+                "high performance computer"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "HTML",
+            "reponse": [
+                "hyper text markup language"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "HTTP",
+            "reponse": [
+                "hypertext tranfert protocol"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "HTTPS",
+            "reponse": [
+                "hypertext tranfert protocol secure"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "IANA",
+            "reponse": [
+                "internet assigned numbers authority"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "IBM",
+            "reponse": [
+                "international business machines"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "ICMP",
+            "reponse": [
+                "internet control message protocol"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "IDE",
+            "reponse": [
+                "integrated development environment"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "IDS",
+            "reponse": [
+                "intrusion detection system"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "IEEE",
+            "reponse": [
+                "institute of electrical and electronics engineers"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "IGMP",
+            "reponse": [
+                "internet group management protocol"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "IGRP",
+            "reponse": [
+                "interior gateway routing protocol"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "ILP",
+            "reponse": [
+                "instruction level parallelism"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "IMAP",
+            "reponse": [
+                "internet message access protocol"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "Internet",
+            "reponse": [
+                "international network"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "IOS",
+            "reponse": [
+                "international operating system"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "IP",
+            "reponse": [
+                "internet protocol"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "IP TOP",
+            "reponse": [
+                "internet protocol type of service"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "IPAM",
+            "reponse": [
+                "ip address management"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "IPS",
+            "reponse": [
+                "intrusion prevention system"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "IPVLAN",
+            "reponse": [
+                "ip virtual area network",
+                "internet protocol virtual area network"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "ISDN",
+            "reponse": [
+                "integrated services digital network"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "ISO",
+            "reponse": [
+                "international organization for standardization"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "ISP",
+            "reponse": [
+                "internet service provider"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "ISV",
+            "reponse": [
+                "independant software vendor"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "ITIL",
+            "reponse": [
+                "information technology infrastructure library"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "JPEG",
+            "reponse": [
+                "joint photographic experts group"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "KVM",
+            "reponse": [
+                "kernel-based virtual machine",
+                "keyboard video mouse"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "LAMP",
+            "reponse": [
+                "linux apache mysql php",
+                "linux apache mysql perl",
+                "linux apache mysql python",
+                "linux apache mariadb php",
+                "linux apache mariadb perl",
+                "linux apache mariadb python"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "LAN",
+            "reponse": [
+                "local area network"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "LDAP",
+            "reponse": [
+                "lightweight directory access protocol"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "LEPP",
+            "reponse": [
+                "linux nginx postgresql php",
+                "linux enginx potgresql php"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "LNS",
+            "reponse": [
+                "l2tp network server"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "LPDDR",
+            "reponse": [
+                "low power double data rate"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "MAC",
+            "reponse": [
+                "media access control"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "MacVLAN",
+            "reponse": [
+                "mac virtual local area network",
+                "media access control virtual local area network"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "MAN",
+            "reponse": [
+                "metropolitan area network"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "MB",
+            "reponse": [
+                "mother board"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "MDA",
+            "reponse": [
+                "mail delivery agent"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "MEAN",
+            "reponse": [
+                "mongodb express.js angular node.js"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "MIB",
+            "reponse": [
+                "management information base"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "MITM",
+            "reponse": [
+                "man in the middle"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "MLPS",
+            "reponse": [
+                "multiprotocol label switching"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "MODEM",
+            "reponse": [
+                "modulation demodulation"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "MPEG",
+            "reponse": [
+                "moving picture experts group"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "MTA",
+            "reponse": [
+                "mail transfert agent"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "MUA",
+            "reponse": [
+                "mail user agent"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "NAS",
+            "reponse": [
+                "network attached storage"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "NAT",
+            "reponse": [
+                "network address translation"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "NCP",
+            "reponse": [
+                "network control protocol"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "NDP",
+            "reponse": [
+                "neighbor discovery protocol"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "NetBIOS",
+            "reponse": [
+                "network basic input/output system"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "NFS",
+            "reponse": [
+                "network file system"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "NFTP",
+            "reponse": [
+                "new file transfert protocol"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "NIS",
+            "reponse": [
+                "network and information security directive"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "NIST SP",
+            "reponse": [
+                "national institute of standards and technology - special publication"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "NMS",
+            "reponse": [
+                "network management system"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "NNI",
+            "reponse": [
+                "natwork-network interface"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "NPL",
+            "reponse": [
+                "natural language processing"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "NVRAM",
+            "reponse": [
+                "non volatile random access memory"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "OCI",
+            "reponse": [
+                "open conteneur initiative"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "ODT",
+            "reponse": [
+                "open document"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "OLAP",
+            "reponse": [
+                "online analytical processing"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "OLTP",
+            "reponse": [
+                "online transaction processing"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "OS",
+            "reponse": [
+                "operating system"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "OSCP",
+            "reponse": [
+                "offsec certified professional"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "OSI",
+            "reponse": [
+                "open system interconnection model"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "OSINT",
+            "reponse": [
+                "open source intelligence"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "OSPF",
+            "reponse": [
+                "open shortest path first"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "OTP",
+            "reponse": [
+                "one-time password"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "OWASP",
+            "reponse": [
+                "open web application security project"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "P2P",
+            "reponse": [
+                "point to point",
+                "point 2 point"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "PAM",
+            "reponse": [
+                "privilegied access management"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "PAN",
+            "reponse": [
+                "personnal area network"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "PBKDF2",
+            "reponse": [
+                "password-based key derivation function 2"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "PC",
+            "reponse": [
+                "personnal computer",
+                "program counter"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "PCA",
+            "reponse": [
+                "plan de continuité d'activité"
+            ],
+            "indice": "français"
+        },
+        {
+            "question": "PCI",
+            "reponse": [
+                "peripheral component interconnect"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "PCI DSS",
+            "reponse": [
+                "payment card industry data security standard"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "PDF",
+            "reponse": [
+                "portable document format"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "PDU",
+            "reponse": [
+                "protocol data unit"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "PHP",
+            "reponse": [
+                "hypertext preprocessor"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "PID",
+            "reponse": [
+                "process identifier"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "PNG",
+            "reponse": [
+                "portable network graphics"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "POP",
+            "reponse": [
+                "post office protocol"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "POSIX",
+            "reponse": [
+                "portable operating system interface"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "POST",
+            "reponse": [
+                "power-on self test"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "PPID",
+            "reponse": [
+                "parent process identifier"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "PPP",
+            "reponse": [
+                "point to point protocol"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "PRA",
+            "reponse": [
+                "plan de reprise d'activité"
+            ],
+            "indice": "français"
+        },
+        {
+            "question": "PROM",
+            "reponse": [
+                "programmable read only memory"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "PT",
+            "reponse": [
+                "playload type"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "QoS",
+            "reponse": [
+                "quality of service"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "QUIK",
+            "reponse": [
+                "quick udp internet connections"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "RAID",
+            "reponse": [
+                "redundant array of independent disks"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "RAM",
+            "reponse": [
+                "random access memory"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "RAS",
+            "reponse": [
+                "remote access server"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "RBCI",
+            "reponse": [
+                "réseau backbone de collecte internet"
+            ],
+            "indice": "français"
+        },
+        {
+            "question": "RCCU",
+            "reponse": [
+                "regional computer crime unit"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "RELP",
+            "reponse": [
+                "reliable event logging protocol"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "RGPD",
+            "reponse": [
+                "règlement général de la protection des données"
+            ],
+            "indice": "français"
+        },
+        {
+            "question": "RHEL",
+            "reponse": [
+                "red hat entreprise linux"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "RISC",
+            "reponse": [
+                "reduced instruction set computer"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "RJ45",
+            "reponse": [
+                "registered jack 45"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "RNIS",
+            "reponse": [
+                "réseau numérique à intégration de services"
+            ],
+            "indice": "français"
+        },
+        {
+            "question": "ROM",
+            "reponse": [
+                "read only memory"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "RSA",
+            "reponse": [
+                "rivest-shamir-adleman"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "RSSI",
+            "reponse": [
+                "responsable de la sécurité des systèmes d'information"
+            ],
+            "indice": "français"
+        },
+        {
+            "question": "RTC",
+            "reponse": [
+                "réseau téléphonique commuté"
+            ],
+            "indice": "français"
+        },
+        {
+            "question": "SAN",
+            "reponse": [
+                "storage area network"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "SATA",
+            "reponse": [
+                "serial advanced technology attachment"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "SCP",
+            "reponse": [
+                "secure copy protocol"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "SDH",
+            "reponse": [
+                "synchronous digital hierarchy"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "SDN",
+            "reponse": [
+                "software defined networks"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "SDR",
+            "reponse": [
+                "software-defined radio"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "SDSL",
+            "reponse": [
+                "symetric digital subscriber line"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "SEM",
+            "reponse": [
+                "security event management"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "SFTP",
+            "reponse": [
+                "ssh file transfert protocol",
+                "secure shell transfert protocol"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "SGBD",
+            "reponse": [
+                "système de gestion de base de données"
+            ],
+            "indice": "français"
+        },
+        {
+            "question": "SGF",
+            "reponse": [
+                "système de gestion de fichiers"
+            ],
+            "indice": "français"
+        },
+        {
+            "question": "SGRS",
+            "reponse": [
+                "service général du renseignement et de la sécurité"
+            ],
+            "indice": "français"
+        },
+        {
+            "question": "SI",
+            "reponse": [
+                "système d'information"
+            ],
+            "indice": "français"
+        },
+        {
+            "question": "SIEM",
+            "reponse": [
+                "security information & event management"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "SIM",
+            "reponse": [
+                "security information management"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "SLA",
+            "reponse": [
+                "service level agreement"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "SMB",
+            "reponse": [
+                "server message block"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "SMTP",
+            "reponse": [
+                "simple mail transfert protocol"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "SNMP",
+            "reponse": [
+                "simple network management protocol"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "SOC",
+            "reponse": [
+                "security operations center"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "SOX",
+            "reponse": [
+                "sarbane oxley act"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "SQL",
+            "reponse": [
+                "structured query language"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "SRAM",
+            "reponse": [
+                "static random access memory"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "SRM",
+            "reponse": [
+                "supplier relationship management"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "SSD",
+            "reponse": [
+                "solid state drive"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "SSH",
+            "reponse": [
+                "secure shell"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "SSID",
+            "reponse": [
+                "service set identifier"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "SSL",
+            "reponse": [
+                "secure sockets layer"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "SSO",
+            "reponse": [
+                "single sign-in"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "SYSLOG",
+            "reponse": [
+                "system logging protocol"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "TCL",
+            "reponse": [
+                "tool command language"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "TCP",
+            "reponse": [
+                "transmission control protocol"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "TCP/IP",
+            "reponse": [
+                "transport control protocol/internet protocol"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "TDM",
+            "reponse": [
+                "time-division multiplexing"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "TFTP",
+            "reponse": [
+                "trivial file transfert protocol"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "TLD",
+            "reponse": [
+                "top level domain"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "TLS",
+            "reponse": [
+                "transport layer security"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "TPR",
+            "reponse": [
+                "time domain reflectometry"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "TPU",
+            "reponse": [
+                "tensor processing unit"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "TXT",
+            "reponse": [
+                "text"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "UDP",
+            "reponse": [
+                "user datagram protocol"
+            ]
+        },
+        {
+            "question": "UEFI",
+            "reponse": [
+                "Unified Extensible Firmware Interface"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "UI",
+            "reponse": [
+                "user interface"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "UID",
+            "reponse": [
+                "unique identifier"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "UMASK",
+            "reponse": [
+                "user file-creation mode mask"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "UMTS",
+            "reponse": [
+                "universal mobile telecommunication system"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "UNI",
+            "reponse": [
+                "user-network interface"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "UNICS",
+            "reponse": [
+                "uniplexed information and computing service"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "URI",
+            "reponse": [
+                "uniform resource identifier"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "URL",
+            "reponse": [
+                "uniform ressource locator"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "URN",
+            "reponse": [
+                "uniform ressource name"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "USB",
+            "reponse": [
+                "universal serial bus"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "UUID",
+            "reponse": [
+                "universal unique identifier"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "VCI",
+            "reponse": [
+                "virtual channel identifier"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "VDSL",
+            "reponse": [
+                "very high speed digital subscriber line"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "VGA",
+            "reponse": [
+                "video graphics array"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "VoIP",
+            "reponse": [
+                "voice on internet protocol"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "VPI",
+            "reponse": [
+                "virtual path identifier"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "VPN",
+            "reponse": [
+                "virtual private network"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "VRAM",
+            "reponse": [
+                "video random access memory"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "VXLAN",
+            "reponse": [
+                "virtual extensible local area networks"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "W3C",
+            "reponse": [
+                "world wide web consortium"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "WAMP",
+            "reponse": [
+                "windows apache mysql php",
+                "windows apache mysql perl",
+                "windows apache mysql python",
+                "windows apache mariadb php",
+                "windows apache mariadb perl",
+                "windows apache mariadb python",
+                "windows apache web server mysql php",
+                "windows apache web server mysql perl",
+                "windows apache web server mysql python",
+                "windows apache web server mariadb php",
+                "windows apache web server mariadb perl",
+                "windows apache web server mariadb python"
+            ],
+            "def": "windows apache (apache web server) mysql (mariadb) php (perl, python)",
+            "indice": "anglais"
+        },
+        {
+            "question": "WAN",
+            "reponse": [
+                "wide area network"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "WBAN",
+            "reponse": [
+                "wireless body area network"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "WI-FI",
+            "reponse": [
+                "wireless fidelity"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "WISA",
+            "reponse": [
+                "windows iis sql server asp.net"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "WLAN",
+            "reponse": [
+                "wireless local area network"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "WoL",
+            "reponse": [
+                "wake on lan"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "WPA",
+            "reponse": [
+                "wireless fidelity protected area"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "WPAN",
+            "reponse": [
+                "wireless personal area network"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "WPS",
+            "reponse": [
+                "wireless fidelity protected setup"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "WSL",
+            "reponse": [
+                "windows subsystem for linux"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "WSUS",
+            "reponse": [
+                "windows server update services"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "xDSL",
+            "reponse": [
+                "digital subscriber line"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "YAML",
+            "reponse": [
+                "yaml ain't markup language"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "CC",
+            "reponse": [
+                "copy carbon"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "CMD",
+            "reponse": [
+                "command line interface"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "PMIC",
+            "reponse": [
+                "power management integrated circuit"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "TMPFS",
+            "reponse": [
+                "Temporary File System"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "AMOLED",
+            "reponse": [
+                "Active-Matrix Organic Light-Emitting Diode"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "DLNA",
+            "reponse": [
+                "Digital Living Network Alliance"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "MIDI",
+            "reponse": [
+                "Musical Instrument Digital Interface"
+            ],
+            "indice": "anglais"
+        },
+        {
+            "question": "TPE",
+            "reponse": [
+                "tres petite entreprise",
+                "terminal de paiement electronique"
+            ],
+            "indice": "français"
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        },
+        {
+            "question": "",
+            "reponse": [
+                ""
+            ],
+            "indice": ""
+        }
+    ]
+}

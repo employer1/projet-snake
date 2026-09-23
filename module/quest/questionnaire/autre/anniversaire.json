@@ -1,0 +1,124 @@
+{
+    "titre": "Anniversaire",
+    "type": "txt",
+    "reverse": 0,
+    "path": "",
+    "explication": "Petit rappel sur les anniversaires des autres.",
+    "questionnaire": [
+        {
+            "question": "Quelle est la date d'anniversaire de Maman ?",
+            "reponse": "16 mars",
+            "indice": "mars"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Papa ?",
+            "reponse": "22 mars",
+            "indice": "mars"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Lisa ?",
+            "reponse": "9 juillet",
+            "indice": "juillet"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Tom ?",
+            "reponse": "12 juillet",
+            "indice": "juillet"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire d'Yvienne Houthoofdt ?",
+            "reponse": "je sais pas",
+            "indice": ""
+        },
+        {
+            "question": "Quelle est la date d'anniversaire d'Albert Toulemonde ?",
+            "reponse": "3 juin",
+            "indice": "Juin"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Jacques Thill ?",
+            "reponse": "14 mars",
+            "indice": "Mars"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Liliane Marchall ?",
+            "reponse": "20 mars",
+            "indice": "Mars"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Noa Aymain ?",
+            "reponse": "23 fevrier",
+            "indice": "Février"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Thibaut Liégeois ?",
+            "reponse": "23 novembre",
+            "indice": "Novembre"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Baptiste Triffoy ?",
+            "reponse": "10 fevrier",
+            "indice": "Février"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Loris Poncin ?",
+            "reponse": "24 aout",
+            "indice": "Août"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Marraine ?",
+            "reponse": "5 mars",
+            "indice": "Mars"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Ethan Geruzet ?",
+            "reponse": "27 avril",
+            "indice": "Avril"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Hervé Toulemonde ?",
+            "reponse": "17 juillet",
+            "indice": "Juillet"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Emeline Toulemonde ?",
+            "reponse": "30 juin",
+            "indice": "Juin"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Femme d'Hervé ?",
+            "reponse": "18 juillet",
+            "indice": "Juillet"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Spirou ?",
+            "reponse": "14 fevrier",
+            "indice": "Février"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Sammy ?",
+            "reponse": "1 juillet",
+            "indice": "Juillet"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Max ?",
+            "reponse": "11 novembre",
+            "indice": "Novembre"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Carline ?",
+            "reponse": "9 avril",
+            "indice": "Avril"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Capsule ?",
+            "reponse": "26 avril",
+            "indice": "Avril"
+        },
+        {
+            "question": "Quelle est la date d'anniversaire de Meadow ?",
+            "reponse": "26 mars",
+            "indice": "Mars"
+        }
+    ]
+}

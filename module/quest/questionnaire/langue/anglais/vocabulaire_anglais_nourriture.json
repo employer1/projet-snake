@@ -1,0 +1,21 @@
+{
+    "titre": "Traduction eng - fr de voc classique",
+    "type": "langue",
+    "explication": "Liste de mots du cours d'anglais et leur traduction française. Langue 1 -> langue 2, correspond à traduire en français.",
+    "langue 1": {
+        "carrot": [
+            "carrotte"
+        ],
+        "salad": [
+            "salade"
+        ]
+    },
+    "langue 2": {
+        "carrotte": [
+            "carrot"
+        ],
+        "salade": [
+            "salad"
+        ]
+    }
+}

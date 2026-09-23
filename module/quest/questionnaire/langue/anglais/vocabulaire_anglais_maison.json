@@ -1,0 +1,49 @@
+{
+    "titre": "Traduction eng - fr de voc classique",
+    "type": "langue",
+    "explication": "Liste de mots du cours d'anglais et leur traduction française. Langue 1 -> langue 2, correspond à traduire en français.",
+    "langue 1": {
+        "house": [
+            "maison"
+        ],
+        "kitchen": [
+            "cuisine"
+        ],
+        "bedroom": [
+            "chambre"
+        ],
+        "bathroom": [
+            "salle de bain"
+        ],
+        "living room": [
+            "salon",
+            "salle à mangee"
+        ],
+        "garage": [
+            "garage"
+        ]
+    },
+    "langue 2": {
+        "maison": [
+            "house"
+        ],
+        "cuisine": [
+            "kitchen"
+        ],
+        "chambre": [
+            "bedroom"
+        ],
+        "salle de bain": [
+            "bathroom"
+        ],
+        "salon": [
+            "living room"
+        ],
+        "salle à mangee": [
+            "living room"
+        ],
+        "garage": [
+            "garage"
+        ]
+    }
+}
