@@ -2,26 +2,25 @@
 """Script de réparation des questionnaires de langue.
 
 Ce script recherche les fichiers JSON de type "langue" dans le dossier
-AppData/Roaming/projet-snake/quest (y compris ses sous-dossiers), propose un choix à l'utilisateur,
+module/quest/questionnaire du projet (y compris ses sous-dossiers), propose un choix à l'utilisateur,
 puis complète les traductions manquantes afin que chaque mot possède
 une traduction inverse.
+
+Les clés JSON répétées sont signalées avec leur emplacement avant toute
+modification du fichier. La comparaison distingue majuscules et minuscules.
 """
 
 from __future__ import annotations
 
 import argparse
 import json
-import os
 from collections import defaultdict
 from pathlib import Path
 from typing import Iterable
 
 
 def obtenir_dossier_par_defaut() -> Path:
-    appdata = os.environ.get("APPDATA")
-    if appdata:
-        return Path(appdata) / "projet-snake" / "quest"
-    return Path.home() / "AppData" / "Roaming" / "projet-snake" / "quest"
+    return Path(__file__).resolve().parent / "module" / "quest" / "questionnaire"
 
 
 def normaliser_cle(valeur: str) -> str:
@@ -132,9 +131,42 @@ def collecter_depuis_questionnaire(questionnaire: list, map_langue1, map_langue2
                     ajouter_paires(mot, traductions_net, map_langue1)
 
 
+def charger_sans_doublons(contenu_brut: str) -> object:
+    """Conserve les paires JSON pour détecter les clés avant leur écrasement."""
+    class PairesObjet(list):
+        pass
+
+    brut = json.loads(contenu_brut, object_pairs_hook=PairesObjet)
+    doublons = []
+
+    def convertir(valeur, emplacement: str):
+        if isinstance(valeur, PairesObjet):
+            resultat = {}
+            for cle, enfant in valeur:
+                chemin = f"{emplacement}[{json.dumps(cle, ensure_ascii=False)}]"
+                if cle in resultat:
+                    doublons.append(chemin)
+                resultat[cle] = convertir(enfant, chemin)
+            return resultat
+        if isinstance(valeur, list):
+            return [
+                convertir(enfant, f"{emplacement}[{index}]")
+                for index, enfant in enumerate(valeur)
+            ]
+        return valeur
+
+    data = convertir(brut, "$")
+    if doublons:
+        raise ValueError(
+            "Clés JSON en doublon (réparation annulée, fichier inchangé) :\n"
+            + "\n".join(f"- {chemin}" for chemin in dict.fromkeys(doublons))
+        )
+    return data
+
+
 def reparer_fichier(chemin: Path, backup: bool = True) -> tuple[int, int]:
     contenu_brut = chemin.read_text(encoding="utf-8")
-    data = json.loads(contenu_brut)
+    data = charger_sans_doublons(contenu_brut)
     if not isinstance(data, dict):
         raise ValueError("Le fichier JSON ne contient pas un objet.")
 
@@ -208,7 +240,7 @@ def demander_choix(fichiers: list[Path]) -> Path:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Réparer un fichier JSON de langue.")
-    parser.add_argument("--dir", dest="dossier", type=Path, help="Dossier des fichiers quest.")
+    parser.add_argument("--dir", dest="dossier", type=Path, help="Dossier des questionnaires (défaut : module/quest/questionnaire du projet).")
     parser.add_argument(
         "--no-backup",
         dest="backup",

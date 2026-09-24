@@ -1,0 +1,355 @@
+{
+    "titre": "Traduction eng - fr de voc classique",
+    "type": "langue",
+    "explication": "Liste de mots du cours d'anglais et leur traduction française. Langue 1 -> langue 2, correspond à traduire en français.",
+    "langue 1": {
+        "africa": [
+            "afrique"
+        ],
+        "algeria": [
+            "algérie"
+        ],
+        "america": [
+            "amérique"
+        ],
+        "argentina": [
+            "argentine"
+        ],
+        "australia": [
+            "australie"
+        ],
+        "austria": [
+            "autriche"
+        ],
+        "bangladesh": [
+            "bangladesh"
+        ],
+        "belgium": [
+            "belgique"
+        ],
+        "brazil": [
+            "brésil"
+        ],
+        "britain": [
+            "grande-bretagne"
+        ],
+        "cambodia": [
+            "cambodge"
+        ],
+        "chile": [
+            "chili"
+        ],
+        "china": [
+            "chine"
+        ],
+        "colombia": [
+            "colombie"
+        ],
+        "croatia": [
+            "croatie"
+        ],
+        "czech republic": [
+            "république tchèque"
+        ],
+        "denmark": [
+            "danemark"
+        ],
+        "england": [
+            "angleterre"
+        ],
+        "finland": [
+            "finlande"
+        ],
+        "france": [
+            "france"
+        ],
+        "germany": [
+            "allemagne"
+        ],
+        "greece": [
+            "grèce"
+        ],
+        "hungary": [
+            "hongrie"
+        ],
+        "iceland": [
+            "islande"
+        ],
+        "india": [
+            "inde"
+        ],
+        "indonesia": [
+            "indonésie"
+        ],
+        "iran": [
+            "iran"
+        ],
+        "iraq": [
+            "iraq"
+        ],
+        "ireland": [
+            "irelande"
+        ],
+        "israel": [
+            "israël"
+        ],
+        "italy": [
+            "italie"
+        ],
+        "jamaica": [
+            "jamaïque"
+        ],
+        "japan": [
+            "japon"
+        ],
+        "mexico": [
+            "mexique"
+        ],
+        "morocco": [
+            "maroc"
+        ],
+        "netherlands": [
+            "pays-bas"
+        ],
+        "norway": [
+            "norvège"
+        ],
+        "peru": [
+            "pérou"
+        ],
+        "philippines": [
+            "philippines"
+        ],
+        "poland": [
+            "pologne"
+        ],
+        "portugal": [
+            "portugal"
+        ],
+        "romania": [
+            "roumanie"
+        ],
+        "russia": [
+            "russie"
+        ],
+        "saudi arabia": [
+            "arabie saoudite"
+        ],
+        "scotland": [
+            "écosse"
+        ],
+        "serbia": [
+            "serbie"
+        ],
+        "slovak republic": [
+            "slovaquie"
+        ],
+        "spain": [
+            "espagne"
+        ],
+        "sweden": [
+            "suède"
+        ],
+        "switzerland": [
+            "suisse"
+        ],
+        "thailand": [
+            "thailande"
+        ],
+        "tunisia": [
+            "tunisie"
+        ],
+        "turkey": [
+            "turquie"
+        ],
+        "usa": [
+            "états unis d'amérique",
+            "états-unis d'amérique"
+        ],
+        "vietnam": [
+            "vietnam"
+        ],
+        "wales": [
+            "pays de galles"
+        ],
+        "yugoslavia": [
+            "yougoslavie"
+        ]
+    },
+    "langue 2": {
+        "afrique": [
+            "africa"
+        ],
+        "algérie": [
+            "algeria"
+        ],
+        "allemagne": [
+            "germany"
+        ],
+        "amérique": [
+            "america"
+        ],
+        "angleterre": [
+            "england"
+        ],
+        "arabie saoudite": [
+            "saudi arabia"
+        ],
+        "argentine": [
+            "argentina"
+        ],
+        "australie": [
+            "australia"
+        ],
+        "autriche": [
+            "austria"
+        ],
+        "bangladesh": [
+            "bangladesh"
+        ],
+        "belgique": [
+            "belgium"
+        ],
+        "brésil": [
+            "brazil"
+        ],
+        "cambodge": [
+            "cambodia"
+        ],
+        "chili": [
+            "chile"
+        ],
+        "chine": [
+            "china"
+        ],
+        "colombie": [
+            "colombia"
+        ],
+        "croatie": [
+            "croatia"
+        ],
+        "danemark": [
+            "denmark"
+        ],
+        "espagne": [
+            "spain"
+        ],
+        "finlande": [
+            "finland"
+        ],
+        "france": [
+            "france"
+        ],
+        "grande-bretagne": [
+            "britain"
+        ],
+        "grèce": [
+            "greece"
+        ],
+        "hongrie": [
+            "hungary"
+        ],
+        "inde": [
+            "india"
+        ],
+        "indonésie": [
+            "indonesia"
+        ],
+        "iran": [
+            "iran"
+        ],
+        "iraq": [
+            "iraq"
+        ],
+        "irelande": [
+            "ireland"
+        ],
+        "islande": [
+            "iceland"
+        ],
+        "israël": [
+            "israel"
+        ],
+        "italie": [
+            "italy"
+        ],
+        "jamaïque": [
+            "jamaica"
+        ],
+        "japon": [
+            "japan"
+        ],
+        "maroc": [
+            "morocco"
+        ],
+        "mexique": [
+            "mexico"
+        ],
+        "norvège": [
+            "norway"
+        ],
+        "pays de galles": [
+            "wales"
+        ],
+        "pays-bas": [
+            "netherlands"
+        ],
+        "philippines": [
+            "philippines"
+        ],
+        "pologne": [
+            "poland"
+        ],
+        "portugal": [
+            "portugal"
+        ],
+        "pérou": [
+            "peru"
+        ],
+        "roumanie": [
+            "romania"
+        ],
+        "russie": [
+            "russia"
+        ],
+        "république tchèque": [
+            "czech republic"
+        ],
+        "serbie": [
+            "serbia"
+        ],
+        "slovaquie": [
+            "slovak republic"
+        ],
+        "suisse": [
+            "switzerland"
+        ],
+        "suède": [
+            "sweden"
+        ],
+        "thailande": [
+            "thailand"
+        ],
+        "tunisie": [
+            "tunisia"
+        ],
+        "turquie": [
+            "turkey"
+        ],
+        "vietnam": [
+            "vietnam"
+        ],
+        "yougoslavie": [
+            "yugoslavia"
+        ],
+        "écosse": [
+            "scotland"
+        ],
+        "états unis d'amérique": [
+            "usa"
+        ],
+        "états-unis d'amérique": [
+            "usa"
+        ]
+    }
+}

@@ -2,30 +2,18 @@
 """Trie le questionnaire de vocabulaire français par le champ `reponse`.
 
 Ce script agit uniquement sur :
-quest/questionnaire/langue/francais/vocabulaire_francais.json
-(dans le dossier AppData de projet-snake).
+module/quest/questionnaire/langue/francais/vocabulaire_francais.json
+(dans le projet, sauf si un autre fichier est indiqué avec --file).
 """
 
 from __future__ import annotations
 
 import argparse
 import json
-import os
 import unicodedata
 from pathlib import Path
 
-RELATIVE_TARGET = Path("quest/questionnaire/langue/francais/vocabulaire_francais.json")
-
-
-def resoudre_racine_appdata(appdata: str | None) -> Path:
-    if appdata:
-        return Path(appdata)
-
-    env_appdata = os.environ.get("APPDATA")
-    if env_appdata:
-        return Path(env_appdata) / "projet-snake"
-
-    return Path.home() / "AppData" / "Roaming" / "projet-snake"
+RELATIVE_TARGET = Path("module/quest/questionnaire/langue/francais/vocabulaire_francais.json")
 
 
 def cle_tri_reponse(entree: object) -> tuple[int, str]:
@@ -111,16 +99,17 @@ def main() -> int:
         description="Trie le questionnaire de vocabulaire français par ordre alphabétique du champ 'reponse'."
     )
     parser.add_argument(
-        "--appdata",
+        "--file",
+        type=Path,
+        default=Path(__file__).resolve().parent / RELATIVE_TARGET,
         help=(
-            "Chemin de base du dossier projet-snake dans AppData "
-            "(ex: C:/Users/<user>/AppData/Roaming/projet-snake)."
+            "Chemin du fichier JSON à traiter "
+            "(défaut : module/quest/questionnaire/langue/francais/vocabulaire_francais.json du projet)."
         ),
     )
     args = parser.parse_args()
 
-    racine = resoudre_racine_appdata(args.appdata)
-    cible = racine / RELATIVE_TARGET
+    cible = args.file
 
     if not cible.exists():
         print(f"Fichier introuvable : {cible}")

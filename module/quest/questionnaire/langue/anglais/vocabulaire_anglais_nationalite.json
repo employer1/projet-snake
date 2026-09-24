@@ -1,0 +1,359 @@
+{
+    "titre": "Traduction eng - fr de voc classique",
+    "type": "langue",
+    "explication": "Liste de mots du cours d'anglais et leur traduction française. Langue 1 -> langue 2, correspond à traduire en français.",
+    "langue 1": {
+        "african": [
+            "africain"
+        ],
+        "algerian": [
+            "algérien"
+        ],
+        "american": [
+            "américain"
+        ],
+        "arabic": [
+            "arabe"
+        ],
+        "argentinian": [
+            "argentin"
+        ],
+        "australian": [
+            "australien"
+        ],
+        "austrian": [
+            "autrichien"
+        ],
+        "bangladesh": [
+            "bangladais"
+        ],
+        "bangladeshi": [
+            "bangladais"
+        ],
+        "belgian": [
+            "belge"
+        ],
+        "brazilian": [
+            "brésilien"
+        ],
+        "british": [
+            "britannique"
+        ],
+        "cambodian": [
+            "cambodgien"
+        ],
+        "chilean": [
+            "chilien"
+        ],
+        "chinese": [
+            "chinois"
+        ],
+        "colombian": [
+            "colombien"
+        ],
+        "croatian": [
+            "croatien"
+        ],
+        "czech": [
+            "tchèque"
+        ],
+        "danish": [
+            "danois"
+        ],
+        "dutch": [
+            "néerlandais"
+        ],
+        "english": [
+            "anglais"
+        ],
+        "finnish": [
+            "finnois"
+        ],
+        "french": [
+            "français"
+        ],
+        "german": [
+            "allemand"
+        ],
+        "greek": [
+            "grèque"
+        ],
+        "hungarian": [
+            "hongrois"
+        ],
+        "icelandic": [
+            "islandais"
+        ],
+        "indian": [
+            "indien"
+        ],
+        "indonesian": [
+            "indonésien"
+        ],
+        "iranian": [
+            "iranien"
+        ],
+        "iraqi": [
+            "iraquien"
+        ],
+        "irish": [
+            "irlandais"
+        ],
+        "israeli": [
+            "israelien"
+        ],
+        "italian": [
+            "italien"
+        ],
+        "jamaican": [
+            "jamaïcain"
+        ],
+        "japanese": [
+            "japonais"
+        ],
+        "mexican": [
+            "mexicain"
+        ],
+        "moroccan": [
+            "marocain"
+        ],
+        "norwegian": [
+            "norvégien"
+        ],
+        "peruvian": [
+            "péruvien"
+        ],
+        "philippine": [
+            "philippin"
+        ],
+        "polish": [
+            "polonais"
+        ],
+        "portuguese": [
+            "portugais"
+        ],
+        "romanian": [
+            "roumain"
+        ],
+        "russian": [
+            "russe"
+        ],
+        "saudi": [
+            "saoudien"
+        ],
+        "saudi arabian": [
+            "saoudien"
+        ],
+        "scottish": [
+            "écossais"
+        ],
+        "serbian": [
+            "serbe"
+        ],
+        "slovak": [
+            "slovaquien"
+        ],
+        "spanish": [
+            "espagnol"
+        ],
+        "swedish": [
+            "suédois"
+        ],
+        "swiss": [
+            "suisse"
+        ],
+        "thai": [
+            "thailandais"
+        ],
+        "tunisian": [
+            "tunisien"
+        ],
+        "turkish": [
+            "turque"
+        ],
+        "vietnamese": [
+            "vietnamien"
+        ],
+        "welsh": [
+            "gallois"
+        ],
+        "yugoslav": [
+            "yougoslave"
+        ]
+    },
+    "langue 2": {
+        "africain": [
+            "african"
+        ],
+        "algérien": [
+            "algerian"
+        ],
+        "allemand": [
+            "german"
+        ],
+        "américain": [
+            "american"
+        ],
+        "anglais": [
+            "english"
+        ],
+        "arabe": [
+            "arabic"
+        ],
+        "argentin": [
+            "argentinian"
+        ],
+        "australien": [
+            "australian"
+        ],
+        "autrichien": [
+            "austrian"
+        ],
+        "bangladais": [
+            "bangladesh",
+            "bangladeshi"
+        ],
+        "belge": [
+            "belgian"
+        ],
+        "britannique": [
+            "british"
+        ],
+        "brésilien": [
+            "brazilian"
+        ],
+        "cambodgien": [
+            "cambodian"
+        ],
+        "chilien": [
+            "chilean"
+        ],
+        "chinois": [
+            "chinese"
+        ],
+        "colombien": [
+            "colombian"
+        ],
+        "croatien": [
+            "croatian"
+        ],
+        "danois": [
+            "danish"
+        ],
+        "espagnol": [
+            "spanish"
+        ],
+        "finnois": [
+            "finnish"
+        ],
+        "français": [
+            "french"
+        ],
+        "gallois": [
+            "welsh"
+        ],
+        "grèque": [
+            "greek"
+        ],
+        "hongrois": [
+            "hungarian"
+        ],
+        "indien": [
+            "indian"
+        ],
+        "indonésien": [
+            "indonesian"
+        ],
+        "iranien": [
+            "iranian"
+        ],
+        "iraquien": [
+            "iraqi"
+        ],
+        "irlandais": [
+            "irish"
+        ],
+        "islandais": [
+            "icelandic"
+        ],
+        "israelien": [
+            "israeli"
+        ],
+        "italien": [
+            "italian"
+        ],
+        "jamaïcain": [
+            "jamaican"
+        ],
+        "japonais": [
+            "japanese"
+        ],
+        "marocain": [
+            "moroccan"
+        ],
+        "mexicain": [
+            "mexican"
+        ],
+        "norvégien": [
+            "norwegian"
+        ],
+        "néerlandais": [
+            "dutch"
+        ],
+        "philippin": [
+            "philippine"
+        ],
+        "polonais": [
+            "polish"
+        ],
+        "portugais": [
+            "portuguese"
+        ],
+        "péruvien": [
+            "peruvian"
+        ],
+        "roumain": [
+            "romanian"
+        ],
+        "russe": [
+            "russian"
+        ],
+        "saoudien": [
+            "saudi",
+            "saudi arabian"
+        ],
+        "serbe": [
+            "serbian"
+        ],
+        "slovaquien": [
+            "slovak"
+        ],
+        "suisse": [
+            "swiss"
+        ],
+        "suédois": [
+            "swedish"
+        ],
+        "tchèque": [
+            "czech"
+        ],
+        "thailandais": [
+            "thai"
+        ],
+        "tunisien": [
+            "tunisian"
+        ],
+        "turque": [
+            "turkish"
+        ],
+        "vietnamien": [
+            "vietnamese"
+        ],
+        "yougoslave": [
+            "yugoslav"
+        ],
+        "écossais": [
+            "scottish"
+        ]
+    }
+}

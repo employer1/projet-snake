@@ -6,7 +6,7 @@
     "explication": "Regroupe des mots distingué du vocabulaire français.",
     "questionnaire": [
         {
-            "question": "Sans avoir rien mangé ni bu depuis le réveil.",
+            "question": "En 2 mots (sans tiret). Sans avoir rien mangé ni bu depuis le réveil.",
             "reponse": "a jeun"
         },
         {
@@ -601,7 +601,7 @@
             "reponse": "béatifique"
         },
         {
-            "question": "Qui se rapporte aux Bédouins ; qui fait partie de ce peuple.",
+            "question": "Membre d’un peuple nomade vivant traditionnellement dans les régions désertiques du Moyen-Orient et d’Afrique du Nord.",
             "reponse": [
                 "bédouin",
                 "bédouine"
@@ -840,7 +840,10 @@
         },
         {
             "question": "1 Mettre quelque chose sens dessus dessous : *** un projet. 2 Bouleverser quelqu'un : Il est tout ***.",
-            "reponse": "chamboulée"
+            "reponse": [
+                "chamboulé",
+                "chamboulée"
+            ]
         },
         {
             "question": "1 Couche superficielle (ciment, asphalte, etc.) destinée à conférer certaines caractéristiques à un sol : *** d'étanchéité. 2 Partie extérieure d'un pneu, constituant la bande de roulement. 3 Pièce circulaire recevant l'extrémité d'un essieu ou d'un axe. 4 Vêtement liturgique en forme de grande cape. ■ *** de plomb, ce qui paralyse, constitue un fardeau moral.",
@@ -1062,7 +1065,7 @@
             "reponse": "contemporain"
         },
         {
-            "question": "1 Refuser de reconnaître comme fondé, exact, valable ; dénoncer : Les héritiers ont *** le testament. Un artiste très contesté. 2 Remettre en question l'ordre établi.",
+            "question": "1 Refuser de reconnaître comme fondé, exact, valable ; dénoncer : Les héritiers ont *** le testament. Un artiste très ***. 2 Remettre en question l'ordre établi.",
             "reponse": "contester"
         },
         {
@@ -1100,7 +1103,7 @@
             "reponse": "contrition"
         },
         {
-            "question": "Ensemble des règles de conduite, usages, et normes de bienséance tacitement acceptés et suivis par les membres d'un groupe ou d'une société donnée.",
+            "question": "En 2 mots (sans tiret). Ensemble des règles de conduite, usages, et normes de bienséance tacitement acceptés et suivis par les membres d'un groupe ou d'une société donnée.",
             "reponse": "convention sociale"
         },
         {
@@ -1738,7 +1741,7 @@
             "reponse": "énamourer"
         },
         {
-            "question": "Porté naturellement à ; sujet à : Elle est encline à la jalousie.",
+            "question": "Porté naturellement à ; sujet à : Elle est *** à la jalousie.",
             "reponse": [
                 "enclin",
                 "encline"
@@ -1777,7 +1780,7 @@
             "reponse": "enhardir"
         },
         {
-            "question": "1 Rendre ivre. 2 Remplir d'exaltation ; griser : Le bonheur l'enivre. ⬥ S'***. 1 Se Soûler. 2 Être transporté d'exaltation.",
+            "question": "1 Rendre ivre. 2 Remplir d'exaltation ; griser : Le bonheur l'***. ⬥ S'***. 1 Se Soûler. 2 Être transporté d'exaltation.",
             "reponse": "enivrer"
         },
         {
@@ -1861,7 +1864,7 @@
             "reponse": "éperon"
         },
         {
-            "question": "1 Livre ou notice qui contiennent les évènements accomplis dans un même jour, à différentes éopques. 2 Calendrier dont on retire chaque jour une feuille. ⬥ Tables donnant pour chaque jour de l'année, ou à intervalles réguliers rapprochés, les valeurs calculées de certaines grandeurs astronomiques variables (coordonnées des planètes, de la lune, du soleil, etc.).",
+            "question": "1 Livre ou notice qui contient les évènements accomplis dans un même jour, à différentes éopques. 2 Calendrier dont on retire chaque jour une feuille. ⬥ Tables donnant pour chaque jour de l'année, ou à intervalles réguliers rapprochés, les valeurs calculées de certaines grandeurs astronomiques variables (coordonnées des planètes, de la lune, du soleil, etc.).",
             "reponse": "éphéméride"
         },
         {
@@ -1929,7 +1932,7 @@
             "reponse": "ermitage"
         },
         {
-            "question": "1 Moine qui vit dans la solitude pour prier et faire pénitence. 2 Personne qui vit retirée : Vivre en ermite.",
+            "question": "1 Moine qui vit dans la solitude pour prier et faire pénitence. 2 Personne qui vit retirée : Vivre en ***.",
             "reponse": "ermite"
         },
         {
@@ -1957,7 +1960,7 @@
             "reponse": "estafilade"
         },
         {
-            "question": "Marquer d'une estampille.",
+            "question": "Marquer un objet, un document ou un produit à l’aide d’un cachet, d’un poinçon ou d’une marque afin d’en indiquer l’origine, l’authenticité ou la conformité.",
             "reponse": "estampiller"
         },
         {
@@ -1969,7 +1972,7 @@
             "reponse": "etayer"
         },
         {
-            "question": "",
+            "question": "Scientifique qui étudie le comportement des animaux, notamment dans leur milieu naturel.",
             "reponse": "éthologue"
         },
         {
@@ -2062,7 +2065,7 @@
             ]
         },
         {
-            "question": "Obliger quelqu'un à quitter sa partie. ⬥ S'***, quitter sa patrie pour s'établir ailleurs.",
+            "question": "Obliger quelqu'un à quitter sa patrie. ⬥ S'***, quitter sa patrie pour s'établir ailleurs.",
             "reponse": "expatrier"
         },
         {
@@ -2135,7 +2138,7 @@
             "reponse": "fard"
         },
         {
-            "question": "1 Charge pesante qu'il faut lever ou transporter. 2 Obligation difficile à supporter ; poids : La vie était devenue un ** pour lui.",
+            "question": "1 Charge pesante qu'il faut lever ou transporter. 2 Obligation difficile à supporter ; poids : La vie était devenue un *** pour lui.",
             "reponse": "fardeau"
         },
         {
@@ -2237,7 +2240,7 @@
             "reponse": "fluctuation"
         },
         {
-            "question": "Faire naître ; allumer : Fomenter une révolte.",
+            "question": "Faire naître ; allumer : *** une révolte.",
             "reponse": "fomenter"
         },
         {
@@ -3208,7 +3211,7 @@
             "reponse": "misandre"
         },
         {
-            "question": "1 Qui manifeste de la modestie : Être *** dans ses ambitions. Un air modeste. 2 D'une grande simplicité : Un train de vie ***. 3 De peu d'importance : Un salaire ***.",
+            "question": "1 Qui manifeste de la *** : Être *** dans ses ambitions. Un air ***. 2 D'une grande simplicité : Un train de vie ***. 3 De peu d'importance : Un salaire ***.\nQui reste simple, ne cherche pas à se mettre en valeur et ne se vante pas de ses qualités ou de ses réussites.",
             "reponse": "modeste"
         },
         {
@@ -4727,7 +4730,7 @@
         },
         {
             "question": "Transférer des machandises ou des voyageurs d'un bateau, d'un train, d'un véhicule dans un autre.",
-            "reponse": "tranborder"
+            "reponse": "transborder"
         },
         {
             "question": "1 Situation d'un voyageur qui, lors d'une escale aérienne, demeure dans l'enceinte de l'aéroport : Etre en ***. 2 Régime de franchise des droits de douane pour les marchandises qui traversent le territoire national, sans s'y arrêter, à destination d'un pays étranger. Cité de ***, ensemble de logements destinés à l'hébergement provisoire des occupants de locaux insalubres, à rénover ou à détruire. *** intestinal, déplacement du contenu du tube digestif depuis le pylore jusqu'au rectum, sous l'influence des contractions péristaltiques de l'intestin.",

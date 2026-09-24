@@ -1,14 +1,10 @@
+"""Trie les mots du fichier vocabulaire.json situé à la racine du projet."""
+
 import json
-import os
 import unicodedata
-"""Trie le questionnaire de vocabulaire français par le champ `reponse`.
+from pathlib import Path
 
-Ce script agit uniquement sur :
-quest/questionnaire/langue/francais/vocabulaire_francais.json
-(dans le dossier AppData de projet-snake).
-"""
-
-fichier = "vocabulaire.json"
+fichier = Path(__file__).resolve().parent / "vocabulaire.json"
 
 # Fonction pour enlever les accents
 def enlever_accents(texte):
@@ -16,7 +12,7 @@ def enlever_accents(texte):
     return "".join(c for c in texte_normalise if unicodedata.category(c) != "Mn")
 
 # Vérifier que le fichier existe
-if not os.path.exists(fichier):
+if not fichier.exists():
     print("Erreur : le fichier vocabulaire.json n'existe pas.")
     exit()
 
