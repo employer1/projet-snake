@@ -104,7 +104,7 @@ const extraireItemsLecture = (questionnaire, options) => {
     return questionnaire.questionnaire
         .map((entree) => {
             if (!entree || typeof entree !== "object") return null;
-            const question = normaliserTexte(entree.question ?? entree.titre);
+            const question = normaliserTexte(entree.question ?? entree.titre ?? questionnaire.question);
             const reponse = normaliserTexte(entree.reponse ?? entree.reponses);
             const definition = normaliserTexte(entree.def);
             const image = construireCheminImage(dossierImage, entree.image ?? entree.images ?? null);

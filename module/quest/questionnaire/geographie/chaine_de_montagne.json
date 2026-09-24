@@ -4,19 +4,17 @@
     "reverse": 0,
     "path": "quest/img/img_chaine_de_montagne",
     "explication": "Regroupe les principales chaînes de montagne du monde. Elles ne sont pas toutes la, donc n'hésitez pas à me le dire.",
+    "question": "Comment se nomme cette chaine de montagne ?",
     "questionnaire": [
         {
-            "question": "Comment se nomme cette chaine de montagne ?",
             "image": "alpes.png",
             "reponse": "Alpes"
         },
         {
-            "question": "Comment se nomme cette chaine de montagne ?",
             "image": "himalaya.png",
             "reponse": "Himalaya"
         },
         {
-            "question": "Comment se nomme cette chaine de montagne ?",
             "image": "cordillere_des_andes.png",
             "reponse": "Cordillère des Andes"
         }

@@ -4,24 +4,21 @@
     "reverse": 0,
     "path": "quest/img/img_celebrite",
     "explication": "Regroupe les célébrités de tous horizons, chanteu, acteur, riche, litéraire, etc. Ils ne sont pas tous la, donc hésiter pas à me contacter.",
+    "question": "Comment se nomme cette célébrité ?",
     "questionnaire": [
         {
-            "question": "Comment se nomme cette célébrité ?",
             "image": "adele_castillon.png",
             "reponse": "Adèle Castillon"
         },
         {
-            "question": "Comment se nomme cette célébrité ?",
             "image": "alexandra_trusova.png",
             "reponse": "Alexandra Trusova"
         },
         {
-            "question": "Comment se nomme cette célébrité ?",
             "image": "ariana_grande.png",
             "reponse": "Ariana Grande"
         },
         {
-            "question": "Comment se nomme cette célébrité ?",
             "image": "stephane_filok.png",
             "reponse": "Stephane Filok"
         }

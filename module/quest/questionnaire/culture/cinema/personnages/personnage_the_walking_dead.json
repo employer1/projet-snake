@@ -4,19 +4,17 @@
     "reverse": 0,
     "path": "quest/img/img_personnage_the_walking_dead",
     "explication": "Regroupe les personnages principaux de la série The Walking Dead.",
+    "question": "Comment se nomme ce personnage ?",
     "questionnaire": [
         {
-            "question": "Comment se nomme ce personnage ?",
             "image": "rick_grimes.png",
             "reponse": "Rick Grimes"
         },
         {
-            "question": "Comment se nomme ce personnage ?",
             "image": "daryl_dixon.png",
             "reponse": "Daryl Dixon"
         },
         {
-            "question": "Comment se nomme ce personnage ?",
             "image": "negan.png",
             "reponse": "Negan"
         }

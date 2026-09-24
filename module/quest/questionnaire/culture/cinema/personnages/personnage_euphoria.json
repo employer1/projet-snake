@@ -4,19 +4,17 @@
     "reverse": 0,
     "path": "quest/img/img_personnage_euphoria",
     "explication": "Regroupe les personnages principaux de la série Euphoria.",
+    "question": "Comment se nomme ce personnage ?",
     "questionnaire": [
         {
-            "question": "Comment se nomme ce personnage ?",
             "image": "rue_bennett.png",
             "reponse": "Rue Bennett"
         },
         {
-            "question": "Comment se nomme ce personnage ?",
             "image": "jules_vaughn.png",
             "reponse": "Jules Vaughn"
         },
         {
-            "question": "Comment se nomme ce personnage ?",
             "image": "fezco.png",
             "reponse": "Fezco"
         }

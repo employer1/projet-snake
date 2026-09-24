@@ -12,7 +12,7 @@
         },
         {
             "question": "Quel est ce pictogramme ?",
-            "def": "isolation principale",
+            "reponse": "isolation principale",
             "image": "2.png"
         },
         {

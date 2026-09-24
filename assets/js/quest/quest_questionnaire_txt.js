@@ -113,7 +113,7 @@ const extraireQuestionsTxt = (questionnaire) => {
     return questionnaire.questionnaire
         .map((entree) => {
             if (!entree || typeof entree !== "object") return null;
-            const question = entree.question ?? entree.titre ?? "";
+            const question = entree.question ?? entree.titre ?? questionnaire.question ?? "";
             const reponses = normaliserListe(entree.reponse ?? entree.reponses ?? "");
             const definitions = normaliserListe(entree.def ?? "");
             const definition = definitions.join(", ");

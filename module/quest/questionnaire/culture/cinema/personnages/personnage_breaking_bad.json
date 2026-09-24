@@ -4,19 +4,17 @@
     "reverse": 0,
     "path": "quest/img/img_personnage_breaking_bad",
     "explication": "Regroupe les personnages principaux de la série Breaking Bad.",
+    "question": "Comment se nomme ce personnage ?",
     "questionnaire": [
         {
-            "question": "Comment se nomme ce personnage ?",
             "image": "walter_white.png",
             "reponse": "Walter White"
         },
         {
-            "question": "Comment se nomme ce personnage ?",
             "image": "jesse_pinkman.png",
             "reponse": "Jesse Pinkman"
         },
         {
-            "question": "Comment se nomme ce personnage ?",
             "image": "gustavo_fring.png",
             "reponse": "Gustavo Fring"
         }

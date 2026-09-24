@@ -4,39 +4,33 @@
     "reverse": 0,
     "path": "quest/img/img_continent",
     "explication": "Regroupe les contients du monde. Je sais qu'ils sont tous la, donc pas besoin de me contacter.",
+    "question": "Comment se nomme ce continent ?",
     "questionnaire": [
         {
-            "question": "Comment se nomme ce continent ?",
             "image": "europe.png",
             "reponse": "Europe"
         },
         {
-            "question": "Comment se nomme ce continent ?",
             "image": "asie.png",
             "reponse": "Asie"
         },
         {
-            "question": "Comment se nomme ce continent ?",
             "image": "afrique.png",
             "reponse": "Afrique"
         },
         {
-            "question": "Comment se nomme ce continent ?",
             "image": "amerique_du_nord.png",
             "reponse": "Amérique du Nord"
         },
         {
-            "question": "Comment se nomme ce continent ?",
             "image": "amerique_du_sud.png",
             "reponse": "Amérique du Sud"
         },
         {
-            "question": "Comment se nomme ce continent ?",
             "image": "oceanie.png",
             "reponse": "Océanie"
         },
         {
-            "question": "Comment se nomme ce continent ?",
             "image": "antarctique.png",
             "reponse": "Antarctique"
         }

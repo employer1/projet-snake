@@ -4,276 +4,225 @@
     "reverse": 0,
     "path": "quest/img/img_race_de_chien",
     "explication": "Répertorie les races de chien.",
+    "question": "Quelle est cette race de chien ?",
     "questionnaire": [
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Berger Allemand",
             "image": "berger_allemand.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Bulldog Anglais",
             "image": "bulldog_anglais.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Labrador",
             "image": "labrador.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Golden Retriever",
             "image": "golden_retriever.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Bouledogue Francais",
             "image": "bouledogue_francais.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Husky de Siberie",
             "image": "husky_de_siberie.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Beagle",
             "image": "beagle.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Caniche",
             "image": "caniche.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Chihuahua",
             "image": "chihuahua.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Malamute de l'Alaska",
             "image": "malamute_de_l'alaska.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Teckel",
             "image": "teckel.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "bouvier bernois",
             "image": "bouvier_bernois.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "carlin",
             "image": "carlin.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "airedale terrier",
             "image": "airedale_terrier.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Rottweiler",
             "image": "rottweiler.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Bouvier Australien",
             "image": "bouvier_australien.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Border Collie",
             "image": "border_collie.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Affenpinsher",
             "image": "affenpinsher.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "American Staffordshire",
             "image": "american_staffordshire.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Berger Australien",
             "image": "berger_australien.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Bichon Frise",
             "image": "bichon_frise.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Levrier Afghan",
             "image": "levrier_afghan.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Levrier",
             "image": "levrier.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Esquimau Americain",
             "image": "esquimau_americain.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Bichon Maltais",
             "image": "bichon_maltais.png",
             "def": "Bichon Maltais"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Berger d'Anatolie",
             "image": "berger_d'anatolie.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Boxer",
             "image": "boxer.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Cocker Anglais",
             "image": "cocker_anglais.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Dogue Allemand",
             "image": "dogue_allemand.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Loulou de Pomeranie",
             "image": "loulou_de_pomeranie.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Yorkshire Terrier",
             "image": "yorkshire_terrier.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Cavalier King Charles",
             "image": "cavalier_king_charles.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Chow-Chow",
             "image": "chow-chow.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Bull Terrier",
             "image": "bull_terrier.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Basset Hound",
             "image": "basset_hound.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Welsh Corgi Pembroke",
             "image": "welsh_corgi_pembroke.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Basenji",
             "image": "basenji.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Saint-Bernard",
             "image": "saint_bernard.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Bichon Havanais",
             "image": "bichon_havanais.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "Terre-Neuve",
             "image": "terre-neuve.png"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "berger belge",
             "image": "berger_belge.png",
             "def": "Berger Belge"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "terrier de boston",
             "image": "terrier_de_boston.png",
             "def": "Terrier de Boston"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "cairn terrier",
             "image": "cairn_terrier.png",
             "def": "Cairn Terrier"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "epagneul breton",
             "image": "epagneul_breton.png",
             "def": "Epagneul Breton"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "berger des shetland",
             "image": "berger_des_shetland.png",
             "def": "Berger des Shetland"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "terrier noir russe",
             "image": "terrier_noir_russe.png",
             "def": "Terrier Noir Russe"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "bullmastiff",
             "image": "bullmastiff.png",
             "def": "Bullmastiff"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "bedlington terrier",
             "image": "bedlington_terrier.png",
             "def": "Bedlington Terrier"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "dobermann",
             "image": "dobermann.png",
             "def": "Dobermann"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "shih tzu",
             "image": "shih_tzu.png",
             "def": "Shih Tzu"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "american pit bull terrier",
             "image": "american_pit_bull_terrier.png",
             "def": "Américan Pit Bull Terrier"
         },
         {
-            "question": "Quelle est cette race de chien ?",
             "reponse": "cane corso",
             "image": "cane_corso.png",
             "def": "Cane Corso"

@@ -4,19 +4,17 @@
     "reverse": 0,
     "path": "quest/img/img_mer",
     "explication": "Regroupe les mers du monde. Elles ne sont probablement pas toutes la, donc n'hésitez pas à me contacter.",
+    "question": "Comment se nomme cette mer ?",
     "questionnaire": [
         {
-            "question": "Comment se nomme cette mer ?",
             "image": "mer_du_nord.png",
             "reponse": "Mer du Nord"
         },
         {
-            "question": "Comment se nomme cette mer ?",
             "image": "mer_mediterranee.png",
             "reponse": "Mer Méditérranée"
         },
         {
-            "question": "Comment se nomme cette mer ?",
             "image": "mer_adriatique.png",
             "reponse": "Mer Adriatique"
         }

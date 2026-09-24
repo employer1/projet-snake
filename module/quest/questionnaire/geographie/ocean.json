@@ -4,15 +4,14 @@
     "reverse": 0,
     "path": "quest/img/img_mer",
     "explication": "Regroupe les du monde. Je sais qu'ils sont tous la, donc pas besoin de me contacter.",
+    "question": "Comment se nomme cet ocean ?",
     "questionnaire": [
         {
-            "question": "Comment se nomme cet ocean ?",
             "image": "mer_du_nord.png",
             "reponse": ["pacifique","ocean pacifique"],
             "def": "Océan Pacifique"
         },
         {
-            "question": "Comment se nomme cet ocean ?",
             "image": "mer_mediterranee.png",
             "reponse": ["atlantique", "ocean atlantique"],
             "def": "Océan Atlantique"

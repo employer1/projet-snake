@@ -4,107 +4,88 @@
     "reverse": 0,
     "path": "quest/img/img_personnage_zootopie",
     "explication": "Regroupe les personnages principaux de Zootopie.",
+    "question": "Qui est ce personnage ?",
     "questionnaire": [
         {
-            "question": "Qui est ce personnage ?",
             "image": "benjamin_clawhauser.png",
             "reponse": "Benjamin Clawhauser"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "chef_bogo.png",
             "reponse": ["Chef Bogo","Chef Burger"],
             "def": "Chef Bogo"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "dawn_bellwether.png",
             "reponse": "Dawn Bellwether"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "finnick.png",
             "reponse": "Finnick"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "flash_slothmore.png",
             "reponse": "Flash Slothmore"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "fru-fru.png",
             "reponse": "Fru-Fru"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "gary_de'snake.png",
             "reponse": "Gary De'Snake"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "gazelle.png",
             "reponse": "Gazelle"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "gideon_grey.png",
             "reponse": "Gideon Grey"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "jesus.png",
             "reponse": "Jesus"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "judy_hopps.png",
             "reponse": ["judy hopps","carrotte","lapin crétin","lapin malin","trudy cabbagepatch","officier hopps"],
             "def": "Judy Hopps"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "leodore_lionheart.png",
             "reponse": "Leodore Lionheart"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "brian_winddancer.png",
             "reponse": "Brian Winddancer"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "milton_lynxley.png",
             "reponse": "Milton Lynxley"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "mr_big.png",
             "reponse": "Mr Big"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "kitty_lynxley.png",
             "reponse": "Kitty Lynxley"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "cattrick_lynxley.png",
             "reponse": "Cattrick Lynxley"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "nick_wilde.png",
             "reponse": ["nick wilde","nicholas wilde","renard malin","rick wilde","officier wilde"],
             "def": "Nick Wilde"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "pawbert_lynxley.png",
             "reponse": "Pawbert Lynxley"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "nibbles_maplestick.png",
             "reponse": ["nibbles maplestick","taille crayon"],
             "def": "Nibbles Maplestick"

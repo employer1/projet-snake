@@ -4,753 +4,741 @@
     "reverse": 0,
     "path": "quest/img/img_animaux_terrestre",
     "explication": "Un peu de culture général sur ce qui peuple notre terre.",
+    "question": "Quel est cet animal ?",
     "questionnaire": [
         {
-            "question": "Quel est cet animal ?",
             "image": "alligator_d'amerique.png",
             "reponse": "Alligator d'Amerique"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "antilope.png",
             "reponse": "Antilope"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "autruche.png",
             "reponse": "Autruche"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "babouin.png",
             "reponse": "Babouin"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "bandicoot.png",
             "reponse": "Bandicoot"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "bilby.png",
             "reponse": "Bilby"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "binturong.png",
             "reponse": "Binturong"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "bison_d'amerique.png",
             "reponse": "Bison d'Amérique"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "bison_d'europe.png",
             "reponse": "Bison d'Europe"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "blaireau_europeen.png",
             "reponse": "Blaireau Européen"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "boeuf_musque.png",
             "reponse": ["Boeuf Musqué","Bœuf Musqué"],
             "def": "Bœuf Musqué"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "bonobo.png",
             "reponse": "Bonobo"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "buffle_d'afrique.png",
             "reponse": "Buffle d'Afrique"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "buffle_d'eau.png",
             "reponse": "Buffle d'Eau"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "caiman.png",
             "reponse": "Caiman"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "campagnol_amphibie.png",
             "reponse": "Campagnol Amphibie"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "capybara.png",
             "reponse": "Capybara"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "carcajou.png",
             "reponse": "Carcajou"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "caribou.png",
             "reponse": "Caribou"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "castor_eurasien.png",
             "reponse": "Castor Eurasien"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "cerf_rouge.png",
             "reponse": "Cerf Rouge"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "chacal.png",
             "reponse": "Chacal"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "chameau.png",
             "reponse": "Chameau"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "chameau_de_bactriane.png",
             "reponse": "Chameau de Bactriane"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "chamois.png",
             "reponse": "Chamois"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "chat_dore_asiatique.png",
             "reponse": "Chat Doré Asiatique"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "cheval_de_przewalski.png",
             "reponse": ""
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "chevreuil.png",
             "reponse": "Chevreuil"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "civette_palmiste_asiatique.png",
             "reponse": "Civette Palmiste Asiatique"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "coatimundi.png",
             "reponse": "Coatimundi"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "colugos.png",
             "reponse": "Colugos"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "cormoran_imperial.png",
             "reponse": "Cormoran Impérial"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "coyotte.png",
             "reponse": "Coyotte"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "crocodile.png",
             "reponse": "Crocodile"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "crocodile_marin.png",
             "reponse": "Crocodile Marin"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "cygogne_noire.png",
             "reponse": "Cygogne Noire"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "diable_de_tasmanie.png",
             "reponse": "Diable de Tasmanie"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "diable_epineux.png",
             "reponse": "Diable Epineux"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "dingo.png",
             "reponse": "Dingo"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "dragon_de_komodo.png",
             "reponse": "Dragon de Komodo"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "echidne.png",
             "reponse": "Echidne"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "ecureuil_roux.png",
             "reponse": "Ecureuil Roux"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "ecureuil_terrestre_arctique.png",
             "reponse": "Ecureuil Terrestre Arctique"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "elan.png",
             "reponse": "Elan"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "elephant_d'asie.png",
             "reponse": "Eléphant d'Asie"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "elephant_de_mer.png",
             "reponse": "Eléphant de Mer"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "elephant_de_savane_d'afrique.png",
             "reponse": "Eléphant de Savane d'Afrique"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "emeu.png",
             "reponse": "Emeu"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "fennec.png",
             "reponse": "Fennec"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "fourmilier.png",
             "reponse": "Fourmilier"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "galago.png",
             "reponse": "Galago"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "gaur.png",
             "reponse": "Gaur"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "girafe.png",
             "reponse": "Girafe"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "gnou.png",
             "reponse": "Gnou"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "goanna.png",
             "reponse": "Goanna"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "gorille.png",
             "reponse": "Gorille"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "guanaco.png",
             "reponse": "Guanaco"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "guepard.png",
             "reponse": "Guépard"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "hermine.png",
             "reponse": "Hermine"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "hippopotame.png",
             "reponse": "Hippopotame"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "hyene.png",
             "reponse": "Hyène"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "jaguar.png",
             "reponse": "Jaguar"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "kangourou.png",
             "reponse": "Kangourou"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "koala.png",
             "reponse": "Koala"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "lama.png",
             "reponse": "Lama"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "lar_gibbon.png",
             "reponse": "Lar Gibbon"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "lemming.png",
             "reponse": "Lemming"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "leopard.png",
             "reponse": "Léopard"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "leopard_des_neiges.png",
             "reponse": "Léopard des Neiges"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "leopard_nebuleux.png",
             "reponse": "Léopard Nébuleux"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "lievre_arctique.png",
             "reponse": "Lièvre Arctique"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "lievre_d'amerique.png",
             "reponse": "Lièvre d'Amérique"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "lion.png",
             "reponse": "Lion"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "lion_asiatique.png",
             "reponse": "Lion Asiatique"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "lion_de_mer_australien.png",
             "reponse": "Lion de Mer Australien"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "lion_de_montagne.png",
             "reponse": "Lion de Montagne"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "loris_lent.png",
             "reponse": "Loris Lent"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "loup.png",
             "reponse": "Loup"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "loup_a_criniere.png",
             "reponse": "Loup à Crinière"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "loup_arctique.png",
             "reponse": "Loup Arctique"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "loup_gris.png",
             "reponse": "Loup Gris"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "loutre_de_mer.png",
             "reponse": "Loutre de Mer"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "loutre_geante.png",
             "reponse": "Loutre Géante"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "lynx.png",
             "reponse": "Lynx"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "lynx_eurasien.png",
             "reponse": "Lynx Eurasien"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "macaque_japonais.png",
             "reponse": "Macaque Japonais"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "macareux.png",
             "reponse": "Macareux"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "manchot_feerique.png",
             "reponse": "Manchot Féerique"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "mangouste.png",
             "reponse": "Mangouste"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "marmotte.png",
             "reponse": "Marmotte"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "martre_des_pins.png",
             "reponse": "Martre des Pins"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "morse.png",
             "reponse": "Morse"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "mouflon_d'amerique.png",
             "reponse": "Mouflon d'Amérique"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "mouton.png",
             "reponse": "Mouton"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "mouton_de_dall.png",
             "reponse": "Mouton de Dall"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "numero.png",
             "reponse": "Numéro"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "okapi.png",
             "reponse": "Okapi"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "opossum.png",
             "reponse": "Opossum"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "opossum_de_virginie.png",
             "reponse": "Opossum de Virginie"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "orang-outan.png",
             "reponse": "Orang-Outan"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "ornithorynque.png",
             "reponse": "Ornithorynque"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "orycterope.png",
             "reponse": "Oryctérope"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "ours_a_lunette.png",
             "reponse": "Ours à Lunette"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "ours_blanc.png",
             "reponse": "Ours Blanc"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "ours_brun.png",
             "reponse": "Ours Brun"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "ours_malais.png",
             "reponse": "Ours Malais"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "ours_noir.png",
             "reponse": "Ours Noir"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "ours_noir_asiatique.png",
             "reponse": "Ours Noir Asiatique"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "panda_geant.png",
             "reponse": "Panda Géant"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "panda_roux.png",
             "reponse": "Panda Roux"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "pangolin.png",
             "reponse": "Pangolin"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "paresseux.png",
             "reponse": "Paresseux"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "phacochere.png",
             "reponse": "Phacochère"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "phoque_annele.png",
             "reponse": "Phoque Annelé"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "phoque_du_groenland.png",
             "reponse": "Phoque du Groenland"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "pingouin.png",
             "reponse": "Pingouin"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "planeur_de_sucre.png",
             "reponse": "Planeur de Sucre"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "porc-epic_d'amerique_du_nord.png",
             "reponse": "Porc-Epic d'Amérique du Nord"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "protele.png",
             "reponse": "Protele"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "quokka.png",
             "reponse": "Quokka"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "quoll.png",
             "reponse": "Quoll"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "raton_laveur.png",
             "reponse": "Raton Laveur"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "renard_arctique.png",
             "reponse": "Renard Arctique"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "renard_kit.png",
             "reponse": "Renard Kit"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "renard_roux.png",
             "reponse": "Renard Roux"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "rhea.png",
             "reponse": ["rhea","naudou"],
             "def": "Naudou - Rhéa"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "rhinoceros.png",
             "reponse": "Rhinocéros"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "rhinoceros_indien.png",
             "reponse": "Rhinocéros Indien"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "sambar.png",
             "reponse": "Sambar"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "sanglier.png",
             "reponse": "Sanglier"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "serval.png",
             "reponse": "Serval"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "singe.png",
             "reponse": "Singe"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "singe_araignee.png",
             "reponse": "Singe Araignée"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "singe_hurleur.png",
             "reponse": "Singe Hurleur"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "singe_nasique.png",
             "reponse": "Singe Nasique"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "singe_vervet.png",
             "reponse": "Singe Vervet"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "tamarin.png",
             "reponse": "Tamarin"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "tamia.png",
             "reponse": "Tamia"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "tapir.png",
             "reponse": "Tapir"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "tapir_de_malaisie.png",
             "reponse": "Tapir de Malaisie"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "tatou_a_neuf_bande.png",
             "reponse": "Tatou a Neuf Bande"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "tigre.png",
             "reponse": "Tigre"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "varan_du_nil.png",
             "reponse": "Varan du Nil"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "vicuna.png",
             "reponse": "Vicuna"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "wallaby.png",
             "reponse": "Wallaby"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "wapiti.png",
             "reponse": "Wapiti"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "wombat.png",
             "reponse": "Wombat"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "yak.png",
             "reponse": "Yak"
         },
         {
-            "question": "Quel est cet animal ?",
             "image": "zebre.png",
             "reponse": "Zèbre"
+        },
+        {
+            "image": "ane.png",
+            "reponse": "Âne"
+        },
+        {
+            "image": "belette.png",
+            "reponse": "Belette"
+        },
+        {
+            "image": "biche.png",
+            "reponse": "Biche"
+        },
+        {
+            "image": "bouquetin.png",
+            "reponse": "Bouquetin"
+        },
+        {
+            "image": "chat.png",
+            "reponse": "Chat"
+        },
+        {
+            "image": "cheval.png",
+            "reponse": "Cheval"
+        },
+        {
+            "image": "chien.png",
+            "reponse": "Chien"
+        },
+        {
+            "image": "cygogne.png",
+            "reponse": "Cygogne"
+        },
+        {
+            "image": "cochon.png",
+            "reponse": "cochon"
+        },
+        {
+            "image": "coq.png",
+            "reponse": "Coq"
+        },
+        {
+            "image": "daim.png",
+            "reponse": "Daim"
+        },
+        {
+            "image": "dinde.png",
+            "reponse": "Dinde"
+        },
+        {
+            "image": "dromadaire.png",
+            "reponse": "Dromadaire"
+        },
+        {
+            "image": "fan.png",
+            "reponse": "Fan"
+        },
+        {
+            "image": "fouine.png",
+            "reponse": "Fouine"
+        },
+        {
+            "image": "furet.png",
+            "reponse": "Furet"
+        },
+        {
+            "image": "genette.png",
+            "reponse": "Genette"
+        },
+        {
+            "image": "herisson.png",
+            "reponse": "Hérisson"
+        },
+        {
+            "image": "lapin.png",
+            "reponse": "Lapin"
+        },
+        {
+            "image": "lionceau.png",
+            "reponse": "Lionceau"
+        },
+        {
+            "image": "lionne.png",
+            "reponse": "Lionne"
+        },
+        {
+            "image": "loire.png",
+            "reponse": "Loire"
+        },
+        {
+            "image": "mule.png",
+            "reponse": "Mûle"
+        },
+        {
+            "image": "panthere.png",
+            "reponse": "Panthère"
+        },
+        {
+            "image": "poule.png",
+            "reponse": "Poule"
+        },
+        {
+            "image": "poulet.png",
+            "reponse": "Poulet"
+        },
+        {
+            "image": "putois.png",
+            "reponse": "Putois"
+        },
+        {
+            "image": "rat.png",
+            "reponse": "Rat"
+        },
+        {
+            "image": "renne.png",
+            "reponse": "Renne"
+        },
+        {
+            "image": "",
+            "reponse": ""
+        },
+        {
+            "image": "",
+            "reponse": ""
+        },
+        {
+            "image": "",
+            "reponse": ""
+        },
+        {
+            "image": "",
+            "reponse": ""
+        },
+        {
+            "image": "",
+            "reponse": ""
         }
     ]
 }

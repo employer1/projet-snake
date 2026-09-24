@@ -4,74 +4,61 @@
     "reverse": 0,
     "path": "quest/img/img_personnage_avatar",
     "explication": "Regroupe les personnages principaux du dessin animé Avatar.",
+    "question": "Qui est ce personnage ?",
     "questionnaire": [
         {
-            "question": "Qui est ce personnage ?",
             "image": "hang.png",
             "reponse": "Hang"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "katara.png",
             "reponse": "Katara"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "sokka.png",
             "reponse": "Sokka"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "toph.png",
             "reponse": "Toph"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "zuko.png",
             "reponse": "Zuko"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "azula.png",
             "reponse": "Azula"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "iroh.png",
             "reponse": "Iroh"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "appa.png",
             "reponse": "Appa"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "ty_lee.png",
             "reponse": "Ty Lee"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "suki.png",
             "reponse": "Suki"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "princess_yue.png",
             "reponse": "Princess Yue"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "king_bumi.png",
             "reponse": "King Bumi"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "momo.png",
             "reponse": "Momo"
         },
         {
-            "question": "Qui est ce personnage ?",
             "image": "mai.png",
             "reponse": "Mai"
         }

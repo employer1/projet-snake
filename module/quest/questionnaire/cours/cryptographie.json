@@ -1,6 +1,7 @@
 {
     "titre": "Questionnaire cryptographie",
     "type": "qcm",
+    "reverse": 0,
     "path": "",
     "explication": "Répertorie les questions du quizz de cryptographie.",
     "questionnaire": [
