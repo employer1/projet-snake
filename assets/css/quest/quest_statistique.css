@@ -7,21 +7,29 @@ h1 {
 }
 
 main {
+    --stats-aside-width: var(--aside-collapsed-width);
     display: block;
     min-height: 100vh;
+}
+
+main:has(aside:hover),
+main:has(aside:focus-within) {
+    --stats-aside-width: var(--aside-width);
 }
 
 aside {
     position: fixed;
     top: 0;
     left: 0;
-    width: var(--aside-width);
+    width: var(--stats-aside-width);
     height: 100vh;
+    transition: width 260ms ease;
 }
 
 section {
-    margin-left: var(--aside-width);
+    margin-left: var(--stats-aside-width);
     min-height: 100vh;
+    transition: margin-left 260ms ease;
 }
 
 .corps {

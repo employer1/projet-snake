@@ -3,6 +3,9 @@
 const DOSSIER_JSON = "questionnaire/creer/langue";
 const PAGE_MENU = "../quest/quest_menu.html";
 
+const STOCKAGE_EDITION_QUEST = "quest_creation_selection";
+const modeEdition = new URLSearchParams(window.location.search).get("mode") === "edition";
+
 const etatCreation = {
     jsonPath: "",
     questionnaire: {
@@ -265,7 +268,47 @@ const demanderConfigurationInitiale = async () => {
     etatCreation.questionnaire.explication = explicationQuestionnaire.trim();
     lireExplicationQuestionnaire();
 
-    await sauvegarderQuestionnaire();
+
+};
+
+const chargerQuestionnaireExistant = async () => {
+    const edition = localStorage.getItem(STOCKAGE_EDITION_QUEST);
+    if (!edition) {
+        throw new Error("Aucun questionnaire sélectionné pour l'édition.");
+    }
+
+    let configurationEdition;
+    try {
+        configurationEdition = JSON.parse(edition);
+    } catch {
+        throw new Error("La configuration d'édition est invalide.");
+    }
+
+    if (!configurationEdition?.fichier) {
+        throw new Error("Le fichier du questionnaire à modifier est introuvable.");
+    }
+
+    etatCreation.jsonPath = configurationEdition.fichier;
+
+    if (!window.electronAPI?.loadQuestnaire) {
+        throw new Error("Chargement indisponible dans cet environnement");
+    }
+
+    const questionnaireExistant = await window.electronAPI.loadQuestnaire(etatCreation.jsonPath);
+    if ((questionnaireExistant?.type || "").toLowerCase() !== "langue") {
+        throw new Error("Le questionnaire sélectionné n'est pas de type langue.");
+    }
+
+    const dictionnaire = questionnaireExistant?.questionnaire?.[0] || {};
+    etatCreation.questionnaire = {
+        ...questionnaireExistant,
+        questionnaire: [
+            {
+                "langue 1": dictionnaire["langue 1"] || {},
+                "langue 2": dictionnaire["langue 2"] || {},
+            },
+        ],
+    };
 };
 
 const construireTraduction = () => {
@@ -316,15 +359,14 @@ const viderChamps = () => {
 };
 
 const abandonnerEtRetourMenu = async () => {
-    if (etatCreation.jsonPath) {
-        await window.electronAPI.removeQuestEntry(etatCreation.jsonPath);
-    }
     window.location.href = PAGE_MENU;
 };
 
 const finirCreation = async () => {
-    lireTitreQuestionnaire();
-    lireExplicationQuestionnaire();
+    if (!modeEdition) {
+        lireTitreQuestionnaire();
+        lireExplicationQuestionnaire();
+    }
 
     const dictionnaire = etatCreation.questionnaire.questionnaire[0];
     const nombreEntrees = Object.keys(dictionnaire?.["langue 1"] || {}).length;
@@ -345,7 +387,13 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     try {
-        await demanderConfigurationInitiale();
+        if (modeEdition) {
+            await chargerQuestionnaireExistant();
+            document.querySelector("h1").textContent = "Compléter le questionnaire";
+            document.title = "Quest compléter langue";
+        } else {
+            await demanderConfigurationInitiale();
+        }
         configurerValidationGuillemets();
     } catch (error) {
         console.error(error);
@@ -354,26 +402,12 @@ document.addEventListener("DOMContentLoaded", async () => {
         return;
     }
 
-    document.getElementById("ajouter").addEventListener("click", async () => {
-        try {
-            lireTitreQuestionnaire();
-            lireExplicationQuestionnaire();
-            construireTraduction();
-            await sauvegarderQuestionnaire();
-            viderChamps();
-        } catch (error) {
-            console.error(error);
-            afficherErreur(error.message || "Impossible d'ajouter la traduction.");
-        }
-    });
-
-    document.getElementById("finir").addEventListener("click", async () => {
-        try {
-            await finirCreation();
-        } catch (error) {
-            console.error(error);
-            afficherErreur(error.message || "Impossible de terminer le questionnaire.");
-        }
+    window.initialiserEditeurQuest({
+        etat: etatCreation,
+        langue: true,
+        construire: null,
+        vider: viderChamps,
+        finir: finirCreation,
     });
 
     const boutonAbandon = document.getElementById("abandonner");
@@ -391,13 +425,13 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (boutonMenu) {
         boutonMenu.addEventListener("click", async (event) => {
             event.preventDefault();
-            event.stopPropagation();
+            event.stopImmediatePropagation();
             try {
                 await abandonnerEtRetourMenu();
             } catch (error) {
                 console.error(error);
                 window.location.href = PAGE_MENU;
             }
-        });
+        }, { capture: true });
     }
 });

@@ -5,6 +5,9 @@ const DOSSIER_IMAGE_QUEST = "img";
 const PAGE_MENU = "../quest/quest_menu.html";
 const IDS_LEURRES = ["leurre_1", "leurre_2", "leurre_3", "leurre_4", "leurre_5"];
 
+const STOCKAGE_EDITION_QUEST = "quest_creation_selection";
+const modeEdition = new URLSearchParams(window.location.search).get("mode") === "edition";
+
 const etatCreation = {
     jsonPath: "",
     imgFolderName: "",
@@ -32,7 +35,13 @@ const dossierDepuisCheminJson = (cheminJson = "") => {
     segments.pop();
     return segments.join("/");
 };
-const construireCheminDossierImage = (_cheminJson, nomDossierImage) => `${DOSSIER_IMAGE_QUEST}/${nomDossierImage}`;
+const construireCheminDossierImage = (cheminJson, nomDossierImage) => {
+    if (modeEdition) {
+        const dossierJson = dossierDepuisCheminJson(cheminJson);
+        return dossierJson ? `${dossierJson}/${nomDossierImage}` : nomDossierImage;
+    }
+    return `${DOSSIER_IMAGE_QUEST}/${nomDossierImage}`;
+};
 
 const normaliserNomImage = (nom = "") => (nom.trim().replace(/\\/g, "/").split("/").pop() || "");
 
@@ -234,7 +243,21 @@ const sauvegarderQuestionnaire = async () => {
     if (!window.electronAPI?.writeQuestJson) {
         throw new Error("Sauvegarde indisponible dans cet environnement");
     }
-    await window.electronAPI.writeQuestJson(etatCreation.jsonPath, etatCreation.questionnaire);
+    const copies = [];
+    try {
+        for (const entree of etatCreation.questionnaire.questionnaire) {
+            const image = imagesEnAttente.get(entree.image);
+            if (image && !copies.includes(image.destinationRelative)) {
+                copies.push(image.destinationRelative);
+                await window.electronAPI.copyFileToQuest(image.sourcePath, image.destinationRelative);
+            }
+        }
+        await window.electronAPI.writeQuestJson(etatCreation.jsonPath, etatCreation.questionnaire);
+        imagesEnAttente.clear();
+    } catch (error) {
+        await Promise.allSettled(copies.map(chemin => window.electronAPI.removeQuestEntry(chemin)));
+        throw error;
+    }
 };
 
 const demanderConfigurationInitiale = async () => {
@@ -278,16 +301,122 @@ const demanderConfigurationInitiale = async () => {
             etatCreation.jsonPath,
             etatCreation.imgFolderName,
         );
-        await window.electronAPI.ensureQuestDirectory(etatCreation.questionnaire.path);
         desactiverChampImage(false);
     } else {
         desactiverChampImage(true);
     }
 
-    await sauvegarderQuestionnaire();
+
 };
 
-const construireQuestion = async () => {
+const extraireNomDossierImagesDepuisQuestionnaire = (questionnaire) => {
+    const dossierQuestionnaire = String(questionnaire?.path || "").replace(/[\\/]+$/, "");
+    if (dossierQuestionnaire) {
+        const segments = dossierQuestionnaire.split(/[\\/]/).filter(Boolean);
+        return segments[segments.length - 1] || "";
+    }
+
+    const questions = questionnaire?.questionnaire || [];
+    for (const entree of questions) {
+        const cheminImage = entree?.image;
+        if (!cheminImage) {
+            continue;
+        }
+
+        const correspondance = String(cheminImage)
+            .replace(/^\/+/, "")
+            .match(/^quest\/questionnaire\/creer\/qcm\/img\/([^/]+)\//i);
+
+        if (correspondance?.[1]) {
+            return correspondance[1];
+        }
+    }
+
+    return "";
+};
+
+const chargerQuestionnaireExistant = async () => {
+    const edition = localStorage.getItem(STOCKAGE_EDITION_QUEST);
+    if (!edition) {
+        throw new Error("Aucun questionnaire sélectionné pour l'édition.");
+    }
+
+    let configurationEdition;
+    try {
+        configurationEdition = JSON.parse(edition);
+    } catch {
+        throw new Error("La configuration d'édition est invalide.");
+    }
+
+    if (!configurationEdition?.fichier) {
+        throw new Error("Le fichier du questionnaire à modifier est introuvable.");
+    }
+
+    etatCreation.jsonPath = configurationEdition.fichier;
+
+    if (!window.electronAPI?.loadQuestnaire) {
+        throw new Error("Chargement indisponible dans cet environnement");
+    }
+
+    const questionnaireExistant = await window.electronAPI.loadQuestnaire(etatCreation.jsonPath);
+    if ((questionnaireExistant?.type || "").toLowerCase() !== "qcm") {
+        throw new Error("Le questionnaire sélectionné n'est pas de type QCM.");
+    }
+
+    etatCreation.questionnaire = {
+        ...questionnaireExistant,
+        questionnaire: Array.isArray(questionnaireExistant?.questionnaire)
+            ? questionnaireExistant.questionnaire
+            : [],
+    };
+
+    const dossierImageExistant = extraireNomDossierImagesDepuisQuestionnaire(etatCreation.questionnaire);
+    if (dossierImageExistant) {
+        etatCreation.imgFolderName = dossierImageExistant;
+        etatCreation.questionnaire.path = etatCreation.questionnaire.path || construireCheminDossierImage(
+            etatCreation.jsonPath,
+            etatCreation.imgFolderName,
+        );
+    }
+};
+
+const initialiserGestionImages = async () => {
+    const dossierImages = await demanderValeurTexte(
+        "Chemin du dossier d'images source (optionnel, laisser vide si aucun) :",
+        ""
+    );
+
+    if (dossierImages === null || !dossierImages.trim()) {
+        if (!etatCreation.imgFolderName) {
+            desactiverChampImage(true);
+        }
+        return;
+    }
+
+    const dossierSource = dossierImages.trim();
+    const dossierExiste = await window.electronAPI?.directoryExists?.(dossierSource);
+    if (!dossierExiste) {
+        throw new Error("Le dossier d'images indiqué n'existe pas.");
+    }
+
+    etatCreation.sourceImageDir = dossierSource;
+
+    if (!etatCreation.imgFolderName) {
+        const nomFichier = (etatCreation.jsonPath.split("/").pop() || "questionnaire.json")
+            .replace(/\.json$/i, "");
+        etatCreation.imgFolderName = nomDossierImageDepuisNomFichier(nomFichier);
+    }
+
+    etatCreation.questionnaire.path = etatCreation.questionnaire.path || construireCheminDossierImage(
+        etatCreation.jsonPath,
+        etatCreation.imgFolderName,
+    );
+    desactiverChampImage(false);
+};
+
+const imagesEnAttente = new Map();
+
+const construireQuestion = async (indexEdition = -1) => {
     const question = document.getElementById("question").value.trim();
     const reponse = document.getElementById("reponse").value.trim();
     const imageBrute = document.getElementById("image").value.trim();
@@ -301,13 +430,13 @@ const construireQuestion = async () => {
     verifierUniciteReponseEtLeurres(reponse, leurres);
 
     const questionExisteDeja = etatCreation.questionnaire.questionnaire.some(
-        (entreeExistante) => entreeExistante.question?.trim().toLowerCase() === question.toLowerCase()
+        (entreeExistante, index) => index !== indexEdition && entreeExistante.question?.trim().toLowerCase() === question.toLowerCase()
     );
     if (questionExisteDeja) {
         throw new Error("Cette question existe déjà dans le fichier JSON.");
     }
 
-    const entree = { question, reponse };
+    const entree = { question, reponse, def: definition, image: "" };
 
     if (definition) {
         entree.def = definition;
@@ -318,7 +447,10 @@ const construireQuestion = async () => {
         entree.leurres = leurresRenseignes;
     }
 
-    if (imageBrute) {
+    const imageExistante = etatCreation.questionnaire.questionnaire[indexEdition]?.image;
+    if (imageBrute && imageBrute === imageExistante) {
+        entree.image = imageBrute;
+    } else if (imageBrute) {
         if (!etatCreation.sourceImageDir || !etatCreation.imgFolderName) {
             throw new Error("Aucun dossier image n'est configuré.");
         }
@@ -339,12 +471,12 @@ const construireQuestion = async () => {
                 etatCreation.jsonPath,
                 etatCreation.imgFolderName,
             );
-            await window.electronAPI.ensureQuestDirectory(etatCreation.questionnaire.path);
         }
 
-        const destinationRelative = `${etatCreation.questionnaire.path}/${nomImage}`;
-        await window.electronAPI.copyFileToQuest(sourcePath, destinationRelative);
-        entree.image = nomImage;
+        const nomUnique = `${crypto.randomUUID()}_${nomImage}`;
+        const destinationRelative = `${etatCreation.questionnaire.path}/${nomUnique}`;
+        imagesEnAttente.set(nomUnique, { sourcePath, destinationRelative });
+        entree.image = nomUnique;
     }
 
     return entree;
@@ -361,20 +493,14 @@ const viderChamps = () => {
 };
 
 const abandonnerEtRetourMenu = async () => {
-    if (etatCreation.jsonPath) {
-        await window.electronAPI.removeQuestEntry(etatCreation.jsonPath);
-    }
-    if (etatCreation.imgFolderName) {
-        await window.electronAPI.removeQuestEntry(
-            etatCreation.questionnaire.path || construireCheminDossierImage(etatCreation.jsonPath, etatCreation.imgFolderName),
-        );
-    }
     window.location.href = PAGE_MENU;
 };
 
 const finirCreation = async () => {
-    lireTitreQuestionnaire();
-    lireExplicationQuestionnaire();
+    if (!modeEdition) {
+        lireTitreQuestionnaire();
+        lireExplicationQuestionnaire();
+    }
     if (etatCreation.questionnaire.questionnaire.length === 0) {
         throw new Error("Ajoutez au moins une question avant de terminer le questionnaire.");
     }
@@ -392,7 +518,14 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     try {
-        await demanderConfigurationInitiale();
+        if (modeEdition) {
+            await chargerQuestionnaireExistant();
+            await initialiserGestionImages();
+            document.querySelector("h1").textContent = "Compléter le questionnaire";
+            document.title = "Quest compléter QCM";
+        } else {
+            await demanderConfigurationInitiale();
+        }
     } catch (error) {
         console.error(error);
         afficherErreur(error.message || "Initialisation impossible.");
@@ -400,27 +533,12 @@ document.addEventListener("DOMContentLoaded", async () => {
         return;
     }
 
-    document.getElementById("ajouter").addEventListener("click", async () => {
-        try {
-            lireTitreQuestionnaire();
-            lireExplicationQuestionnaire();
-            const entree = await construireQuestion();
-            etatCreation.questionnaire.questionnaire.push(entree);
-            await sauvegarderQuestionnaire();
-            viderChamps();
-        } catch (error) {
-            console.error(error);
-            afficherErreur(error.message || "Impossible d'ajouter la question.");
-        }
-    });
-
-    document.getElementById("finir").addEventListener("click", async () => {
-        try {
-            await finirCreation();
-        } catch (error) {
-            console.error(error);
-            afficherErreur(error.message || "Impossible de terminer le questionnaire.");
-        }
+    window.initialiserEditeurQuest({
+        etat: etatCreation,
+        langue: false,
+        construire: construireQuestion,
+        vider: viderChamps,
+        finir: finirCreation,
     });
 
     const boutonAbandon = document.getElementById("abandonner");
@@ -438,13 +556,13 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (boutonMenu) {
         boutonMenu.addEventListener("click", async (event) => {
             event.preventDefault();
-            event.stopPropagation();
+            event.stopImmediatePropagation();
             try {
                 await abandonnerEtRetourMenu();
             } catch (error) {
                 console.error(error);
                 window.location.href = PAGE_MENU;
             }
-        });
+        }, { capture: true });
     }
 });

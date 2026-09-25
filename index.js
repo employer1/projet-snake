@@ -1,18 +1,20 @@
-const { app, BrowserWindow, ipcMain } = require("electron");
+const { app, BrowserWindow, ipcMain, dialog } = require("electron");
 const { promises: fs } = require("fs");
 const path = require("path");
 const { pathToFileURL } = require("url");
+const { moduleDataPath, migrateUserData } = require("./user-data");
+const getModuleDataPath = (name, ...parts) => moduleDataPath(app.getPath("userData"), name, ...parts);
 
-const getStatsPath = () => path.join(app.getPath("userData"), "dactylo", "stat_dactylo.json");
+const getStatsPath = () => getModuleDataPath("dactylo", "stat_dactylo.json");
 const getDactyloWordsPath = () => path.join(app.getAppPath(), "module", "dactylo", "top_1000.txt");
 const getQuestStatsPath = () =>
-    path.join(app.getPath("userData"), "quest", "stat", "stat_quest.json");
+    getModuleDataPath("quest", "stat", "stat_quest.json");
 const getLegacyQuestStatsPath = () =>
-    path.join(app.getPath("userData"), "quest", "stat_quest.json");
-const getQuestDestinationPath = () => path.join(app.getPath("userData"), "quest");
+    getModuleDataPath("quest", "stat_quest.json");
+const getQuestDestinationPath = () => getModuleDataPath("quest");
 const getQuestSourcePath = () => path.join(app.getAppPath(), "module", "quest");
-const getDailyNoteDestinationPath = () => path.join(app.getPath("userData"), "daily-note", "notes");
-const getDailyNoteTagsPath = () => path.join(app.getPath("userData"), "daily-note", "tags.json");
+const getDailyNoteDestinationPath = () => getModuleDataPath("daily_note", "notes");
+const getDailyNoteTagsPath = () => getModuleDataPath("daily_note", "tags.json");
 const getDailyNoteTagsSourcePath = () => path.join(app.getAppPath(), "module", "daily_note", "tags.json");
 const normaliserChemin = (chemin = "") => chemin.replace(/\\/g, "/").replace(/^\/+/, "");
 
@@ -698,6 +700,7 @@ function createWindow() {
 }
 
 app.whenReady().then(async () => {
+    await migrateUserData(app.getPath("userData"));
     await ensureQuestSeeded();
     ipcMain.handle("modules:list", async () => listModules());
     createWindow();
@@ -749,7 +752,11 @@ app.whenReady().then(async () => {
             createWindow();
         }
     })
-})
+}).catch((error) => {
+    console.error("Impossible de préparer les données utilisateur", error);
+    dialog.showErrorBox("Démarrage impossible", `Les données utilisateur n'ont pas pu être préparées. Les données existantes sont conservées.\n\n${error.message}`);
+    app.quit();
+});
 
 app.on('window-all-closed', () => {
     if (process.platform !== 'darwin') {

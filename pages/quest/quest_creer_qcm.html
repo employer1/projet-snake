@@ -11,7 +11,9 @@
   <link rel="stylesheet" href="../../assets/css/quest/quest_creer_qcm.css"> <!--css propre à ce fichier HTML-->
 
   <script src="../../assets/js/boutons_navigation.js" defer></script>
-  <script src="../../assets/js/quest/quest_creer_qcm.js" defer></script>
+  <script src="../../assets/js/quest/quest_editeur.js" defer></script>
+    <script src="../../assets/js/quest/quest_creer_qcm.js" defer></script>
+<link rel="stylesheet" href="../../assets/css/quest/quest_editeur.css">
 </head>
 <body>
 <main>
@@ -45,7 +47,8 @@
     <div class="section">
       <h1>Créer QCM</h1>
 
-      <div class="corps">
+      <div class="corps editeur">
+<div class="editeur-formulaire">
         <div class="sous_corps">
           <div class="champ_question">
             <div class="objet">
@@ -105,6 +108,13 @@
           </div>
         </div>
       </div>
+<nav class="questions-panneau" aria-label="Questions du questionnaire">
+<h2>Questions</h2>
+<button type="button" id="nouvelle-question">Nouvelle question</button>
+<p id="questions-statut" aria-live="polite"></p>
+<div id="questions-liste" class="questions-liste"></div>
+</nav>
+</div>
     </div>
   </section>
 </main>

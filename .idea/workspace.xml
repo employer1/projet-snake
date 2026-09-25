@@ -5,16 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="modif rapide">
-      <change afterPath="$PROJECT_DIR$/module/quest/questionnaire/langue/anglais/vocabulaire_anglais_nationalite.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trier_questionnaire_txt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corriger_questionnaire_langue.py" beforeDir="false" afterPath="$PROJECT_DIR$/corriger_questionnaire_langue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/quest/questionnaire/langue/anglais/vocabulaire_anglais_cours.json" beforeDir="false" afterPath="$PROJECT_DIR$/module/quest/questionnaire/langue/anglais/vocabulaire_anglais_cours.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/quest/questionnaire/langue/anglais/vocabulaire_anglais_pays_nationalite.json" beforeDir="false" afterPath="$PROJECT_DIR$/module/quest/questionnaire/langue/anglais/vocabulaire_anglais_pays.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/quest/questionnaire/langue/francais/vocabulaire_francais.json" beforeDir="false" afterPath="$PROJECT_DIR$/module/quest/questionnaire/langue/francais/vocabulaire_francais.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trier_acronyme_informatique.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trier_vocabulaire_francais.py" beforeDir="false" afterPath="$PROJECT_DIR$/trier_vocabulaire_francais.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trier_vocabulaire_pas_encore_entrer.py" beforeDir="false" afterPath="$PROJECT_DIR$/trier_vocabulaire_pas_encore_entrer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/quest/quest_creer_langue_existe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/quest/quest_creer_qcm_existe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/quest/quest_creer_txt_existe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/quest/quest_statistique.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/quest/quest_statistique.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/quest/quest_creer_choix.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/quest/quest_creer_choix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/quest/quest_creer_langue.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/quest/quest_creer_langue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/quest/quest_creer_langue_existe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/quest/quest_creer_qcm.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/quest/quest_creer_qcm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/quest/quest_creer_qcm_existe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/quest/quest_creer_txt.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/quest/quest_creer_txt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/quest/quest_creer_txt_existe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quest/quest_creer_langue.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quest/quest_creer_langue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quest/quest_creer_langue_existe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quest/quest_creer_qcm.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quest/quest_creer_qcm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quest/quest_creer_qcm_existe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quest/quest_creer_txt.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quest/quest_creer_txt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/quest/quest_creer_txt_existe.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,15 +262,9 @@
       <workItem from="1790163318927" duration="24699000" />
       <workItem from="1790238404695" duration="100000" />
       <workItem from="1790238668808" duration="8152000" />
-      <workItem from="1790273786896" duration="11837000" />
-    </task>
-    <task id="LOCAL-00028" summary="modifications mineures">
-      <option name="closed" value="true" />
-      <created>1772400024989</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1772400024989</updated>
+      <workItem from="1790273786896" duration="12093000" />
+      <workItem from="1790319301403" duration="4269000" />
+      <workItem from="1790325086335" duration="5321000" />
     </task>
     <task id="LOCAL-00029" summary="modifications mineures">
       <option name="closed" value="true" />
@@ -647,7 +650,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790274274352</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="modif rapide">
+      <option name="closed" value="true" />
+      <created>1790287832148</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1790287832148</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
