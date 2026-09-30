@@ -6,24 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="c5cbe02c-6a30-4e74-afdc-7adcbf7dfe95" name="Changes" comment="modif rapide">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/quest/quest_creer_langue_existe.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/quest/quest_creer_qcm_existe.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/quest/quest_creer_txt_existe.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/quest/quest_statistique.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/quest/quest_statistique.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/quest/quest_creer_choix.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/quest/quest_creer_choix.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/quest/quest_creer_langue.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/quest/quest_creer_langue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/quest/quest_creer_langue_existe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/film/film_battle_royal.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/film/film_battle_royal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/film/film_classement.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/film/film_classement.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/film/film_battle_royal.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/film/film_battle_royal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/film/film_classement.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/film/film_classement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/film/film_resultats_battle_royal.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/film/film_resultats_battle_royal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/film/film_selection.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/film/film_selection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/quest/quest_creer_qcm.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/quest/quest_creer_qcm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/quest/quest_creer_qcm_existe.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/quest/quest_creer_txt.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/quest/quest_creer_txt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/quest/quest_creer_txt_existe.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/quest/quest_creer_langue.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quest/quest_creer_langue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/quest/quest_creer_langue_existe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/film/film_selection.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/film/film_selection.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/quest/quest_creer_qcm.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quest/quest_creer_qcm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/quest/quest_creer_qcm_existe.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/quest/quest_creer_txt.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/quest/quest_creer_txt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/quest/quest_creer_txt_existe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preload.js" beforeDir="false" afterPath="$PROJECT_DIR$/preload.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,15 +259,11 @@
       <workItem from="1790238668808" duration="8152000" />
       <workItem from="1790273786896" duration="12093000" />
       <workItem from="1790319301403" duration="4269000" />
-      <workItem from="1790325086335" duration="5321000" />
-    </task>
-    <task id="LOCAL-00029" summary="modifications mineures">
-      <option name="closed" value="true" />
-      <created>1772400121191</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1772400121191</updated>
+      <workItem from="1790325086335" duration="5349000" />
+      <workItem from="1790629891968" duration="11000" />
+      <workItem from="1790677941966" duration="603000" />
+      <workItem from="1790718210822" duration="637000" />
+      <workItem from="1790778134441" duration="8702000" />
     </task>
     <task id="LOCAL-00030" summary="modifications mineures">
       <option name="closed" value="true" />
@@ -658,7 +649,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790287832148</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="modif rapide">
+      <option name="closed" value="true" />
+      <created>1790331352548</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1790331352549</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -197,6 +197,24 @@ const initialiserActions = () => {
     if (boutonPasVu) {
         boutonPasVu.addEventListener("click", () => gererChoixAffiche(false));
     }
+
+    document.addEventListener("keydown", (event) => {
+        if (event.defaultPrevented || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey
+            || event.target?.isContentEditable
+            || event.target?.closest?.("input, textarea, select")) {
+            return;
+        }
+
+        const bouton = event.key === "ArrowLeft" ? boutonPasVu
+            : event.key === "ArrowRight" ? boutonVu : null;
+        if (!bouton || bouton.disabled || !affiches.length || indexAffiche >= affiches.length) {
+            return;
+        }
+
+        event.preventDefault();
+        // Un appui prolongé ne doit pas sélectionner plusieurs films à la suite.
+        if (!event.repeat) bouton.click();
+    });
 };
 
 const chargerAffiches = async () => {

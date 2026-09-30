@@ -13,10 +13,16 @@ const boutonMenu = document.querySelector(".bouton_menu");
 const boutonArreter = document.getElementById("bouton_arreter");
 
 let selection = [];
-let classement = [];
-let indexFilm = 0;
-let indexComparaison = 0;
-let filmEnCours = "";
+let participants = [];
+let gagnants = [];
+let perdants = [];
+let indexPaire = 0;
+let numeroTour = 0;
+let phase = "tour";
+let duel = [];
+let finalistes = [];
+let troisieme = "";
+let termine = false;
 
 const normaliserNomFilm = (nomFichier) => {
     const dernierPoint = nomFichier.lastIndexOf(".");
@@ -57,32 +63,35 @@ const afficherEtatVide = (message) => {
 };
 
 const afficherComparaison = () => {
-    if (!filmEnCours || indexComparaison < 0 || indexComparaison >= classement.length) {
+    if (duel.length !== 2 || termine) {
         return;
     }
 
-    const filmClasse = classement[indexComparaison];
+    const [filmGauche, filmDroit] = duel;
 
     if (imageGauche) {
-        imageGauche.src = `../../module/film/affiche/${encodeURIComponent(filmEnCours)}`;
-        imageGauche.alt = `Affiche du film ${normaliserNomFilm(filmEnCours)}`;
+        imageGauche.src = `../../module/film/affiche/${encodeURIComponent(filmGauche)}`;
+        imageGauche.alt = `Affiche du film ${normaliserNomFilm(filmGauche)}`;
     }
 
     if (imageDroite) {
-        imageDroite.src = `../../module/film/affiche/${encodeURIComponent(filmClasse)}`;
-        imageDroite.alt = `Affiche du film ${normaliserNomFilm(filmClasse)}`;
+        imageDroite.src = `../../module/film/affiche/${encodeURIComponent(filmDroit)}`;
+        imageDroite.alt = `Affiche du film ${normaliserNomFilm(filmDroit)}`;
     }
 
     if (nomGauche) {
-        nomGauche.textContent = normaliserNomFilm(filmEnCours);
+        nomGauche.textContent = normaliserNomFilm(filmGauche);
     }
 
     if (nomDroite) {
-        nomDroite.textContent = normaliserNomFilm(filmClasse);
+        nomDroite.textContent = normaliserNomFilm(filmDroit);
     }
 
     if (elementProgression) {
-        elementProgression.textContent = `${classement.length + 1}/${selection.length}`;
+        const nombreDuels = Math.ceil(participants.length / 2);
+        elementProgression.textContent = phase === "petite_finale" ? "3e place"
+            : phase === "finale" ? "Finale"
+            : `Tour ${numeroTour} · ${indexPaire + 1}/${nombreDuels}`;
     }
 
     if (boutonGauche) {
@@ -94,48 +103,85 @@ const afficherComparaison = () => {
     }
 };
 
-const finaliserClassement = () => {
-    const top3 = classement.slice(0, 3);
+const finaliserClassement = (premier, deuxieme) => {
+    termine = true;
+    if (boutonGauche) boutonGauche.disabled = true;
+    if (boutonDroit) boutonDroit.disabled = true;
+    const top3 = [premier, deuxieme, troisieme];
     sessionStorage.setItem(CLE_TOP3_BATTLE_ROYAL, JSON.stringify(top3));
     window.location.href = "film_resultats_battle_royal.html";
 };
 
-const avancerInsertion = (filmGagnant) => {
-    if (filmGagnant === "gauche") {
-        indexComparaison -= 1;
+const commencerTour = (films) => {
+    participants = [...films];
+    gagnants = [];
+    perdants = [];
+    indexPaire = 0;
+    numeroTour += 1;
+    phase = "tour";
+    duel = participants.slice(0, 2);
+    afficherComparaison();
+};
 
-        if (indexComparaison < 0) {
-            classement.unshift(filmEnCours);
-            passerAuFilmSuivant();
-            return;
-        }
+const terminerTour = () => {
+    if (gagnants.length === 2) {
+        finalistes = [...gagnants];
+        phase = "petite_finale";
+        duel = [...perdants];
+        afficherComparaison();
+    } else {
+        commencerTour(gagnants);
+    }
+};
 
+const choisirFilm = (cote) => {
+    if (termine || duel.length !== 2) return;
+    const indexGagnant = cote === "gauche" ? 0 : 1;
+    const gagnant = duel[indexGagnant];
+    const perdant = duel[1 - indexGagnant];
+
+    if (phase === "finale") {
+        finaliserClassement(gagnant, perdant);
+        return;
+    }
+    if (phase === "petite_finale") {
+        troisieme = gagnant;
+        phase = "finale";
+        duel = [...finalistes];
         afficherComparaison();
         return;
     }
 
-    indexComparaison += 1;
-
-    if (indexComparaison >= classement.length) {
-        classement.push(filmEnCours);
-        passerAuFilmSuivant();
+    // À trois, le film isolé affronte le gagnant du seul duel : c'est la finale.
+    if (participants.length === 3) {
+        troisieme = perdant;
+        phase = "finale";
+        duel = [gagnant, participants[2]];
+        afficherComparaison();
         return;
     }
 
-    afficherComparaison();
-};
-
-const passerAuFilmSuivant = () => {
-    indexFilm += 1;
-
-    if (indexFilm >= selection.length) {
-        finaliserClassement();
+    if (phase === "duel_impair") {
+        // Le duel supplémentaire remplace la qualification du premier gagnant.
+        gagnants[0] = gagnant;
+        perdants[0] = perdant;
+        terminerTour();
         return;
     }
 
-    filmEnCours = selection[indexFilm];
-    indexComparaison = 0;
-    afficherComparaison();
+    gagnants.push(gagnant);
+    perdants.push(perdant);
+    indexPaire += 1;
+    if (indexPaire < Math.floor(participants.length / 2)) {
+        duel = participants.slice(indexPaire * 2, indexPaire * 2 + 2);
+        afficherComparaison();
+    } else if (participants.length % 2 !== 0) {
+        phase = "duel_impair";
+        duel = [gagnants[0], participants[participants.length - 1]];
+        afficherComparaison();
+    } else {
+        terminerTour();
+    }
 };
 
 const abandonnerClassement = () => {
@@ -144,6 +190,7 @@ const abandonnerClassement = () => {
 };
 
 const initialiser = () => {
+    sessionStorage.removeItem(CLE_TOP3_BATTLE_ROYAL);
     const selectionBrute = sessionStorage.getItem(CLE_SELECTION_FILMS);
 
     try {
@@ -152,25 +199,24 @@ const initialiser = () => {
         selection = [];
     }
 
-    if (!Array.isArray(selection) || selection.length < 3) {
+    if (!Array.isArray(selection) || !selection.every(film => typeof film === "string" && film.trim())) {
+        selection = [];
+    }
+    selection = [...new Set(selection)];
+    if (selection.length < 3) {
         afficherEtatVide("Sélection insuffisante");
         return;
     }
 
-    classement = [selection[0]];
-    filmEnCours = selection[1];
-    indexFilm = 1;
-    indexComparaison = 0;
-
-    afficherComparaison();
+    commencerTour(selection);
 };
 
 if (boutonGauche) {
-    boutonGauche.addEventListener("click", () => avancerInsertion("gauche"));
+    boutonGauche.addEventListener("click", () => choisirFilm("gauche"));
 }
 
 if (boutonDroit) {
-    boutonDroit.addEventListener("click", () => avancerInsertion("droite"));
+    boutonDroit.addEventListener("click", () => choisirFilm("droite"));
 }
 
 if (boutonMenu) {

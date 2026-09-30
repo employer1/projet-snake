@@ -1,6 +1,5 @@
 /*fichier JS de film_resultats_battle_royal.html*/
 const CLE_TOP3_BATTLE_ROYAL = "film_top3_battle_royal";
-const CLE_CLASSEMENT_FILMS = "film_classement_complet";
 
 const affiches = {
     premiere: document.getElementById("affiche_film_2"),
@@ -38,17 +37,9 @@ const remplirCarte = (elementImage, elementNom, nomFichier, position) => {
 };
 
 const chargerClassement = () => {
-    const classementBrut = sessionStorage.getItem(CLE_CLASSEMENT_FILMS);
     const top3Brut = sessionStorage.getItem(CLE_TOP3_BATTLE_ROYAL);
 
-    let classement = [];
     let top3 = [];
-
-    try {
-        classement = JSON.parse(classementBrut ?? "[]");
-    } catch (_error) {
-        classement = [];
-    }
 
     try {
         top3 = JSON.parse(top3Brut ?? "[]");
@@ -56,15 +47,9 @@ const chargerClassement = () => {
         top3 = [];
     }
 
-    if (!Array.isArray(classement)) {
-        classement = [];
-    }
-
-    if (classement.length === 0 && Array.isArray(top3)) {
-        classement = top3;
-    }
-
-    return classement;
+    return Array.isArray(top3) && top3.every(film => typeof film === "string" && film.trim())
+        ? top3.slice(0, 3)
+        : [];
 };
 
 const initialiser = () => {

@@ -10,7 +10,6 @@ const modeEdition = new URLSearchParams(window.location.search).get("mode") === 
 const etatCreation = {
     jsonPath: "",
     imgFolderName: "",
-    sourceImageDir: "",
     questionnaire: {
         type: "txt",
         titre: "",
@@ -200,17 +199,6 @@ const demanderValeurObligatoire = async (message, valeurParDefaut = "") => {
     return valeur;
 };
 
-const desactiverChampImage = (desactiver) => {
-    const inputImage = document.getElementById("image");
-    inputImage.disabled = desactiver;
-    if (desactiver) {
-        inputImage.value = "";
-        inputImage.placeholder = "Image désactivée (pas de dossier image)";
-    } else {
-        inputImage.placeholder = "nom_image.png ...";
-    }
-};
-
 const lireTitreQuestionnaire = () => {
     const titre = etatCreation.questionnaire.titre?.trim() || "";
 
@@ -246,15 +234,6 @@ const sauvegarderQuestionnaire = async () => {
 };
 
 const demanderConfigurationInitiale = async () => {
-    const dossierImages = await demanderValeurObligatoire(
-        "Chemin du dossier d'images existant (optionnel, laisser vide si aucun) :",
-        ""
-    );
-
-    if (dossierImages && !await window.electronAPI?.directoryExists?.(dossierImages.trim())) {
-        throw new Error("Le dossier d'images indiqué n'existe pas.");
-    }
-
     const nomBrut = await demanderValeurObligatoire("Nom du fichier JSON (ex: mon_questionnaire.json) :", "");
     const nomFichier = normaliserNomFichier(nomBrut || "");
     if (!nomFichier || nomFichier === ".json") {
@@ -282,18 +261,7 @@ const demanderConfigurationInitiale = async () => {
     lireExplicationQuestionnaire();
     etatCreation.questionnaire.reverse = reverse;
 
-    if (dossierImages && dossierImages.trim()) {
-        etatCreation.sourceImageDir = dossierImages.trim();
-        etatCreation.imgFolderName = nomDossierImageDepuisNomFichier(nomFichier);
-        etatCreation.questionnaire.path = construireCheminDossierImage(
-            etatCreation.jsonPath,
-            etatCreation.imgFolderName,
-        );
-        desactiverChampImage(false);
-    } else {
-        desactiverChampImage(true);
-    }
-
+    await initialiserGestionImages();
 
 };
 
@@ -370,37 +338,33 @@ const chargerQuestionnaireExistant = async () => {
 };
 
 const initialiserGestionImages = async () => {
-    const dossierImages = await demanderValeurTexte(
-        "Chemin du dossier d'images source (optionnel, laisser vide si aucun) :",
-        ""
-    );
-
-    if (dossierImages === null || !dossierImages.trim()) {
-        if (!etatCreation.imgFolderName) {
-            desactiverChampImage(true);
-        }
-        return;
-    }
-
-    const dossierSource = dossierImages.trim();
-    const dossierExiste = await window.electronAPI?.directoryExists?.(dossierSource);
-    if (!dossierExiste) {
-        throw new Error("Le dossier d'images indiqué n'existe pas.");
-    }
-
-    etatCreation.sourceImageDir = dossierSource;
-
     if (!etatCreation.imgFolderName) {
-        const nomFichier = (etatCreation.jsonPath.split("/").pop() || "questionnaire.json")
-            .replace(/\.json$/i, "");
+        const nomFichier = etatCreation.jsonPath.split("/").pop() || "questionnaire.json";
         etatCreation.imgFolderName = nomDossierImageDepuisNomFichier(nomFichier);
     }
+};
 
-    etatCreation.questionnaire.path = etatCreation.questionnaire.path || construireCheminDossierImage(
-        etatCreation.jsonPath,
-        etatCreation.imgFolderName,
-    );
-    desactiverChampImage(false);
+const choisirImage = async () => {
+    const bouton = document.getElementById("image");
+    if (bouton.disabled) return;
+    bouton.disabled = true;
+    try {
+        if (!window.electronAPI?.selectQuestImage) {
+            throw new Error("La sélection d'image nécessite de redémarrer l'application.");
+        }
+        const chemin = await window.electronAPI.selectQuestImage();
+        if (!chemin) return;
+        if (!/\.(png|jpe?g|webp|gif)$/i.test(chemin)) {
+            throw new Error("Choisissez une image PNG, JPG, JPEG, WebP ou GIF.");
+        }
+        bouton.value = chemin;
+        bouton.textContent = normaliserNomImage(chemin);
+        bouton.dispatchEvent(new Event("input", { bubbles: true }));
+    } catch (error) {
+        afficherErreur(error.message || "Impossible de sélectionner l'image.");
+    } finally {
+        bouton.disabled = false;
+    }
 };
 
 const imagesEnAttente = new Map();
@@ -432,16 +396,11 @@ const construireQuestion = async (indexEdition = -1) => {
     if (imageBrute && imageBrute === imageExistante) {
         entree.image = imageBrute;
     } else if (imageBrute) {
-        if (!etatCreation.sourceImageDir || !etatCreation.imgFolderName) {
-            throw new Error("Aucun dossier image n'est configuré.");
-        }
-
         const nomImage = normaliserNomImage(imageBrute);
-        if (!nomImage.toLowerCase().endsWith(".png")) {
-            throw new Error("L'image doit être un fichier .png.");
+        if (!/\.(png|jpe?g|webp|gif)$/i.test(nomImage)) {
+            throw new Error("Choisissez une image PNG, JPG, JPEG, WebP ou GIF.");
         }
-
-        const sourcePath = `${etatCreation.sourceImageDir.replace(/[\\/]$/, "")}/${nomImage}`;
+        const sourcePath = imageBrute;
         const existe = await window.electronAPI.fileExists(sourcePath);
         if (!existe) {
             throw new Error(`Image introuvable: ${nomImage}`);
@@ -468,6 +427,7 @@ const viderChamps = () => {
     document.getElementById("reponse").value = "";
     document.getElementById("def").value = "";
     document.getElementById("image").value = "";
+    document.getElementById("image").textContent = "Choisir une image…";
 };
 
 const abandonnerEtRetourMenu = async () => {
@@ -519,6 +479,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         window.location.href = PAGE_MENU;
         return;
     }
+
+    document.getElementById("image").addEventListener("click", choisirImage);
 
     window.initialiserEditeurQuest({
         etat: etatCreation,

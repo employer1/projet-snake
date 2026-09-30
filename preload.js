@@ -10,6 +10,7 @@ contextBridge.exposeInMainWorld("electronAPI", {
     loadQuestnaire: (fileName) => ipcRenderer.invoke("quest:load", fileName),
     deleteQuestnaire: (fileName) => ipcRenderer.invoke("quest:delete", fileName),
     resolveQuestAsset: (assetPath) => ipcRenderer.invoke("quest:resolve-asset", assetPath),
+    selectQuestImage: () => ipcRenderer.invoke("quest:select-image"),
     writeQuestJson: (fileName, payload) => ipcRenderer.invoke("quest:write-json", fileName, payload),
     ensureQuestDirectory: (dirPath) => ipcRenderer.invoke("quest:ensure-dir", dirPath),
     removeQuestEntry: (entryPath) => ipcRenderer.invoke("quest:remove-entry", entryPath),

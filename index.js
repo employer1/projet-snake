@@ -727,6 +727,16 @@ app.whenReady().then(async () => {
     ipcMain.handle("quest:load", async (_event, fileName) => readQuestFile(fileName));
     ipcMain.handle("quest:delete", async (_event, fileName) => deleteQuestFile(fileName));
     ipcMain.handle("quest:resolve-asset", async (_event, assetPath) => resolveQuestAsset(assetPath));
+    ipcMain.handle("quest:select-image", async (event) => {
+        const options = {
+            title: "Choisir une image",
+            properties: ["openFile"],
+            filters: [{ name: "Images", extensions: ["png", "jpg", "jpeg", "webp", "gif"] }],
+        };
+        const parent = BrowserWindow.fromWebContents(event.sender);
+        const result = await (parent ? dialog.showOpenDialog(parent, options) : dialog.showOpenDialog(options));
+        return result.canceled ? null : result.filePaths[0] || null;
+    });
 
     ipcMain.handle("quest:write-json", async (_event, fileName, payload) => writeQuestJson(fileName, payload));
     ipcMain.handle("quest:ensure-dir", async (_event, dirPath) => ensureQuestDirectory(dirPath));

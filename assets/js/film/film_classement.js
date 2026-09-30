@@ -14,9 +14,15 @@ const boutonArreter = document.getElementById("bouton_arreter");
 
 let selection = [];
 let classement = [];
-let indexFilm = 0;
-let indexComparaison = 0;
-let filmEnCours = "";
+let groupes = [];
+let fusions = [];
+let groupesSuivants = [];
+let fusionActive = null;
+let comparerFin = false;
+let duel = [];
+let dernierDuel = [];
+let comparaisons = 0;
+let termine = false;
 
 const normaliserNomFilm = (nomFichier) => {
     const dernierPoint = nomFichier.lastIndexOf(".");
@@ -57,11 +63,11 @@ const afficherEtatVide = (message) => {
 };
 
 const afficherComparaison = () => {
-    if (!filmEnCours || indexComparaison < 0 || indexComparaison >= classement.length) {
+    if (duel.length !== 2 || termine) {
         return;
     }
 
-    const filmClasse = classement[indexComparaison];
+    const [filmEnCours, filmClasse] = duel;
 
     if (imageGauche) {
         imageGauche.src = `../../module/film/affiche/${encodeURIComponent(filmEnCours)}`;
@@ -82,7 +88,7 @@ const afficherComparaison = () => {
     }
 
     if (elementProgression) {
-        elementProgression.textContent = `${classement.length + 1}/${selection.length}`;
+        elementProgression.textContent = `${comparaisons} duels`;
     }
 
     if (boutonGauche) {
@@ -95,54 +101,88 @@ const afficherComparaison = () => {
 };
 
 const finaliserClassement = () => {
+    termine = true;
+    if (boutonGauche) boutonGauche.disabled = true;
+    if (boutonDroit) boutonDroit.disabled = true;
     sessionStorage.setItem(CLE_CLASSEMENT_FILMS, JSON.stringify(classement));
     window.location.href = "film_resultats_classement.html";
 };
 
-const avancerInsertion = (filmGagnant) => {
-    if (filmGagnant === "gauche") {
-        indexComparaison -= 1;
+// Chaque groupe est déjà trié du préféré au moins apprécié.
+const commencerPasse = () => {
+    fusions = [];
+    groupesSuivants = [];
+    for (let i = 0; i < groupes.length; i += 2) {
+        if (!groupes[i + 1]) {
+            groupesSuivants.push(groupes[i]);
+        } else {
+            fusions.push({ gauche: [...groupes[i]], droite: [...groupes[i + 1]], debut: [], fin: [] });
+        }
+    }
+};
 
-        if (indexComparaison < 0) {
-            classement.unshift(filmEnCours);
-            passerAuFilmSuivant();
+const proposerDuel = () => {
+    if (!fusions.length) {
+        groupes = groupesSuivants;
+        if (groupes.length === 1) {
+            classement = groupes[0];
+            finaliserClassement();
             return;
         }
-
-        afficherComparaison();
-        return;
+        commencerPasse();
     }
 
-    indexComparaison += 1;
-
-    if (indexComparaison >= classement.length) {
-        classement.push(filmEnCours);
-        passerAuFilmSuivant();
-        return;
+    // Varier les groupes, puis comparer leurs meilleurs ou leurs derniers films.
+    // Privilégier un duel sans affiche du duel précédent quand il existe.
+    let meilleur = null;
+    for (const fusion of fusions) {
+        for (const fin of [false, true]) {
+            const paire = [fusion.gauche[fin ? fusion.gauche.length - 1 : 0],
+                fusion.droite[fin ? fusion.droite.length - 1 : 0]];
+            const repetitions = paire.filter(film => dernierDuel.includes(film)).length;
+            if (!meilleur || repetitions < meilleur.repetitions) {
+                meilleur = { fusion, fin, paire, repetitions };
+            }
+        }
     }
-
+    fusionActive = meilleur.fusion;
+    comparerFin = meilleur.fin;
+    duel = meilleur.paire;
     afficherComparaison();
 };
 
-const passerAuFilmSuivant = () => {
-    indexFilm += 1;
+const choisirFilm = (cote) => {
+    if (termine || !fusionActive) return;
+    const gaucheGagne = cote === "gauche";
+    dernierDuel = [...duel];
+    comparaisons += 1;
 
-    if (indexFilm >= selection.length) {
-        finaliserClassement();
-        return;
+    // En tête, extraire le gagnant ; en queue, extraire le perdant.
+    const groupe = (comparerFin ? !gaucheGagne : gaucheGagne)
+        ? fusionActive.gauche : fusionActive.droite;
+    if (comparerFin) fusionActive.fin.push(groupe.pop());
+    else fusionActive.debut.push(groupe.shift());
+
+    fusions.splice(fusions.indexOf(fusionActive), 1);
+    if (!fusionActive.gauche.length || !fusionActive.droite.length) {
+        groupesSuivants.push([
+            ...fusionActive.debut, ...fusionActive.gauche, ...fusionActive.droite,
+            ...fusionActive.fin.reverse()
+        ]);
+    } else {
+        fusions.push(fusionActive);
     }
-
-    filmEnCours = selection[indexFilm];
-    indexComparaison = 0;
-    afficherComparaison();
+    proposerDuel();
 };
 
 const abandonnerClassement = () => {
+    termine = true;
     sessionStorage.removeItem(CLE_CLASSEMENT_FILMS);
     window.location.href = "film_menu.html";
 };
 
 const initialiser = () => {
+    sessionStorage.removeItem(CLE_CLASSEMENT_FILMS);
     const selectionBrute = sessionStorage.getItem(CLE_SELECTION_FILMS);
 
     try {
@@ -151,25 +191,26 @@ const initialiser = () => {
         selection = [];
     }
 
-    if (!Array.isArray(selection) || selection.length < 3) {
+    if (!Array.isArray(selection) || !selection.every(film => typeof film === "string" && film.trim())) {
+        selection = [];
+    }
+    selection = [...new Set(selection)];
+    if (selection.length < 3) {
         afficherEtatVide("Sélection insuffisante");
         return;
     }
 
-    classement = [selection[0]];
-    filmEnCours = selection[1];
-    indexFilm = 1;
-    indexComparaison = 0;
-
-    afficherComparaison();
+    groupes = selection.map(film => [film]);
+    commencerPasse();
+    proposerDuel();
 };
 
 if (boutonGauche) {
-    boutonGauche.addEventListener("click", () => avancerInsertion("gauche"));
+    boutonGauche.addEventListener("click", () => choisirFilm("gauche"));
 }
 
 if (boutonDroit) {
-    boutonDroit.addEventListener("click", () => avancerInsertion("droite"));
+    boutonDroit.addEventListener("click", () => choisirFilm("droite"));
 }
 
 if (boutonMenu) {
